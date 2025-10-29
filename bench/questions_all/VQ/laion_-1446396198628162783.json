@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of replacing the workshop environment with a mission control center, this question evaluates whether the background transformation preserves structural consistency and visual credibility. The original image features a white wall with a red, white, and blue flag, workbenches, and tools. The edited version should show a coherent mission control room layout without broken geometry or floating objects. The presence of monitors, consoles, or control panels should be logically placed and aligned with perspective.",
+      "question": "Are the newly added mission control elements (such as consoles, screens, or panels) geometrically consistent with the room's perspective and do not appear to float or clip through surfaces?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of adding color-coded sections for training stages, this question checks whether the added color blocks are seamlessly integrated into the scene without disrupting existing elements. The original image has a blue tarp on the floor and various colored items (e.g., red toolbox). The new color-coded areas should not overlap incorrectly with the astronaut or obscure key details.",
+      "question": "Do the color-coded sections for training stages (e.g., Physical Training, Technical Skills) have clean edges and are they positioned so they do not overlap or obscure the astronaut’s suit or feet?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of inserting illustrative icons for training stages, this question assesses whether the icons are proportionally correct and visually grounded in the scene. For example, an icon of a treadmill should not be larger than the astronaut or appear to be floating above the floor. The placement must respect depth and scale relative to the astronaut standing on the blue tarp.",
+      "question": "Are the illustrative icons (e.g., treadmill, simulator) proportionally sized and placed at appropriate distances from the astronaut so they do not appear oversized or misplaced in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of adding clean, modern typography, this question evaluates whether the text is clearly visible, properly spaced, and does not interfere with the astronaut or other critical visual elements. Text should be legible and aligned with the layout, avoiding clipping into the suit or helmet.",
+      "question": "Is the explanatory text for each training stage clearly readable, properly aligned, and not overlapping with the astronaut’s body or suit components?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of maintaining the astronaut’s structural integrity, this question checks whether the suit, gloves, helmet, and backpack remain undistorted after editing. The original image shows a detailed suit with visible seams, hoses, and NASA patch. Any edit must preserve these details without stretching, blurring, or altering anatomy.",
+      "question": "Are the astronaut’s suit joints (e.g., elbows, knees), gloves, and helmet fully intact with no visible distortion, warping, or missing texture details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "Based on the sub requirement of maintaining consistent lighting, this question evaluates whether the newly added elements (icons, text, background) have lighting and shadows that match the original ceiling light source. Shadows should fall consistently toward the bottom-right, as indicated by the ambient lighting in the original image.",
+      "question": "Do the shadows cast by the added mission control elements (e.g., consoles, icons) align with the direction of the original ceiling lighting and do not contradict the existing shadow patterns on the floor and astronaut?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

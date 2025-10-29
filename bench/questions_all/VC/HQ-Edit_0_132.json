@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The presence of three distinct human figures is a core compositional element of the original image. Their number and spatial distribution (one in foreground, one on island, one on far bank) define the scene’s narrative and balance. If any figure is missing or repositioned, the scene becomes unrecognizable. Thus, this is a key identity feature with high weight.",
+      "question": "Are there exactly three human figures in the scene, positioned respectively in the foreground, on a small island in the lake, and on the far left bank?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The figure in the foreground performs a specific Tai Chi-like pose with one arm raised and the other in a meditative gesture. This posture is iconic and distinguishes the character from others. Even if rendered in ink style, the gesture must be preserved to maintain the action’s essence. Its loss would alter the subject’s identity.",
+      "question": "Is the foreground figure depicted in a dynamic Tai Chi pose with one arm extended upward and the other hand forming a circular or open palm gesture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The lotus flowers in the foreground are prominent visual elements, both in number and color (pink blooms). They anchor the scene’s floral motif and are essential to the garden-like atmosphere. Their absence or significant reduction would break visual continuity.",
+      "question": "Are multiple pink lotus flowers clearly visible among large green lily pads in the foreground of the lake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The willow trees with long, drooping green fronds frame the scene and create a sense of enclosure. Their distinctive shape and placement (on both sides of the lake) are critical to the composition. Even if stylized, their presence and orientation must remain unchanged.",
+      "question": "Are there tall willow trees with long, vertically hanging green fronds on both the left and right sides of the lake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The lake acts as a central reflective surface, separating the foreground from the background and reflecting the sky and trees. Its presence is essential for the scene’s depth and tranquility. Altering or removing it would collapse the spatial structure.",
+      "question": "Is there a calm body of water in the center of the scene, reflecting the surrounding trees and sky?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The pink flowering shrubs on the left bank add color contrast and detail to the landscape. While not central, their presence contributes to the richness of the environment. Their absence would reduce visual fidelity.",
+      "question": "Are there clusters of pink flowering plants growing along the grassy slope on the left side of the lake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The distant mountain range, partially veiled in mist, provides depth and context to the background. Its silhouette is a key environmental marker. Even if rendered in ink wash, its position and general shape must be retained.",
+      "question": "Is there a mountain range visible in the background, shrouded in mist and located behind the lake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

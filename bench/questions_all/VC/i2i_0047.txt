@@ -1,0 +1,71 @@
+Description of reference image: The subject is a train (presumably a British Class 142 Pacer) positioned on railway tracks at a platform. It has a blue and purple livery with a distinct yellow front end. The train doors are red, and windows line the sides of the train carriages. The background consists of an industrial bridge structure over the tracks, with a neutral-colored wall and some fencing visible further in the distance.
+
+### Step 1 - Allowed Changes List
+
+Thinking process: Analyzing the given instructions, the target subject (a train) will not be replaced or altered in form but may undergo contextual edits. The background can be completely changed to a cyberpunk cityscape at night with neon light reflections, while the train remains identifiable. Additionally, elements like train wheels, windows, and doors can stay consistent, while new unrelated details (like a boy on a skateboard with headphones) aren't present in the original image and should not be considered.
+
+Allowed Changes List:  
+1. Change the background to a cyberpunk city at night with neon lights.  
+2. Add motion blur effects.  
+3. Adjust lighting and atmosphere to match an edgy, cool cyberpunk style.
+
+---
+
+### Step 2 - Preservation Targets List
+
+Thinking process: The core recognition elements include the train's design, livery colors, and structural details (e.g., the yellow front, blue-purple body, and red doors). These should be retained to keep the subject recognizable as a train of this class. Functional/logical association elements like the wheels and tracks need to be preserved because they are crucial for the train's association with rail transport. Remaining elements, such as the train's windows and door placement, should also be kept to maintain coherence.
+
+Preservation Targets List:  
+1. Train's livery (blue-purple body, yellow front, red doors).  
+2. Structural design of the train (e.g., shape of windows, door placement).  
+3. Train's attachment to the railway tracks.  
+4. The distinct train wheels under the carriages.  
+
+---
+
+### Step 3 - Generated Questions
+
+{
+    Q1: 
+    Thinking process: The train's livery colors are critical for recognition, especially the distinctive yellow front and blue-purple body, which are iconic for British trains of this class. Losing these would make the train unrecognizable in terms of its origin and type.
+    Question:Is the train still primarily painted in blue-purple with a yellow front and red doors?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The shape and arrangement of windows and doors are integral to recognizing the train. Any significant alteration could undermine its authenticity.
+    Question:Are the windows and doors on the train still arranged in their original positions and shapes as seen in the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The train’s connection to the railway tracks is essential for maintaining the logical context of it being a train. Without tracks, the scene loses its grounding in reality.
+    Question:Does the train remain connected to the railway tracks?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The train wheels are a functional and visual component necessary to confirm the train's purpose and movement capability. Altering them would misrepresent the train's functionality.
+    Question:Are the train wheels still visible and retain their original structure under the carriages?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The industrial bridge backdrop is not mandatory for the train's recognition but adds to the setting's realism and coherence. While the background is to be changed, ensuring there are still elements of infrastructure around the train maintains some consistency.
+    Question:Are there any infrastructure elements (like bridges or platforms) surrounding the train in the new background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

@@ -1,0 +1,62 @@
+### Step 1: Analyzing the Reference Image and Allowed Changes
+
+**Description of reference image:**  
+The subject is a butterfly perched on a wooden surface. The butterfly has orange wings with black spots and white markings. Its body is fuzzy and grayish-brown, and it has two long antennae extending upward. The wings are fully spread, showing intricate patterns. The background is a wooden surface with horizontal grain lines, providing a neutral and natural setting.
+
+**Thinking process:**  
+The editing instructions specify converting the butterfly into a voxel-based 3D model and rendering it in Octane at 8k resolution. This means the butterfly's physical form will change from a 2D image to a 3D model. However, the instructions do not mention altering the scene or background, implying that the wooden surface may remain unchanged. The instructions also do not specify changes to the butterfly's core visual identity, such as its wing patterns or coloration.
+
+**Allowed Changes List:**  
+- The butterfly's physical form can be changed from 2D to a voxel-based 3D model.
+- The resolution of the final rendered image can be increased to 8k.
+- The rendering engine (Octane) can be specified for the 3D model.
+
+### Step 2: Determining Elements That Should Remain Unchanged
+
+**Thinking process:**  
+Core recognition elements include the butterfly's distinctive wing patterns, coloration, and body structure, as these are essential for identifying the butterfly. Functional/logical association elements include the butterfly's position relative to the wooden surface, as this maintains the scene's coherence. Remaining elements, such as the detailed texture of the wings and the specific arrangement of spots, should be retained for visual consistency.
+
+**Preservation Targets List:**  
+- Butterfly wing patterns and coloration  
+- Butterfly body structure and fuzziness  
+- Butterfly's position relative to the wooden surface  
+- Detailed texture of the wings and spot arrangement  
+
+### Step 3: Generating Yes/No Questions
+
+**Q1:**  
+Thinking process: The butterfly's wing patterns are a core recognition feature. Losing the specific arrangement of black spots and white markings would make it unrecognizable.  
+Question: Does the edited image retain the specific black spots and white markings on the butterfly's wings?  
+Choices: Yes, No  
+A: Yes  
+Weight: 3
+
+**Q2:**  
+Thinking process: The butterfly's body structure, including its fuzziness, is an important visual detail that helps identify the butterfly.  
+Question: Does the edited image retain the fuzzy texture of the butterfly's body?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2
+
+**Q3:**  
+Thinking process: The butterfly's position relative to the wooden surface is a logical association element that maintains the scene's coherence.  
+Question: Is the butterfly still positioned on the wooden surface in the edited image?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2
+
+**Q4:**  
+Thinking process: The detailed texture of the wings is a secondary detail that contributes to the butterfly's realistic appearance.  
+Question: Does the edited image retain the detailed texture of the butterfly's wings?  
+Choices: Yes, No  
+A: Yes  
+Weight: 1
+
+**Q5:**  
+Thinking process: The specific arrangement of spots on the wings is a key visual element that distinguishes this butterfly species.  
+Question: Does the edited image retain the specific arrangement of spots on the butterfly's wings?  
+Choices: Yes, No  
+A: Yes  
+Weight: 3
+
+These questions focus on the key visual elements of the original image, ensuring that the core identity, functional associations, and secondary details are retained after editing.

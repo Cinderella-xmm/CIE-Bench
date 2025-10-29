@@ -1,0 +1,111 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a stylized autumn tree centered within a rectangular brown border on a white greeting card. The tree has a thick, curved brown trunk with multiple upward-arching branches forming an organic, asymmetrical silhouette. Attached to the branches are numerous maple-shaped leaves in shades of orange, yellow, and red, arranged in a dense, scattered pattern across the upper half of the frame. Some leaves extend beyond the border at the bottom right. Below the framed illustration, the text "HAPPY THANKSGIVING" is written in uppercase serif font in dark brown color. The background of the card is plain white, and the entire card is displayed upright against a light gray surface, casting a subtle shadow.
+
+**Thinking process:**  
+The editing instruction explicitly states: *"Anthropomorphize the illustrated Thanksgiving tree by transforming it into a playful character poster."* This indicates that the **form of the tree must be changed**—specifically, its trunk will be reinterpreted as arms and legs, and leaf-faced heads will be added. Therefore, the **structure of the tree’s trunk and branches can be altered** to serve as limbs and bodies. The instruction further specifies: *"Style the trunk as arms and legs with leaf-faced heads,"* confirming that the original tree shape is no longer required in its current form.
+
+Additionally, the instruction says: *"Add cartoonish facial expressions and accessories, like hats and scarves for a seasonal vibe."* This allows changes to **facial features, accessories, and expressions**, which were not present in the original.
+
+However, the instruction also states: *"Maintain the existing autumn palette."* This means the **color scheme of the leaves (orange, yellow, red)** must remain consistent with the original. Furthermore, it says: *"Frame each character within the current bordered layout."* This implies that the **rectangular brown border must be preserved**, and the overall composition should still be contained within this frame.
+
+It also says: *"Integrate whimsical text bubbles for Thanksgiving greetings around the characters..."* This adds new elements (text bubbles), but does not require preserving the original text ("Happy Thanksgiving"), so that may be modified or replaced.
+
+Thus, the allowed changes include:
+- Transformation of the tree trunk into limbs and body parts
+- Addition of faces and accessories (hats, scarves)
+- Introduction of text bubbles
+- Modification or removal of the original "Happy Thanksgiving" text
+- Reinterpretation of leaf shapes as heads
+
+But the following are **not allowed to change**:
+- The **autumn color palette** (must remain orange, yellow, red)
+- The **rectangular brown border** (must remain intact)
+- The **overall layout structure** (characters must stay within the frame)
+- The **maple leaf shape** (since leaf-faced heads must use the same leaf form)
+
+**Allowed Changes List:**
+- Tree trunk and branch structure (to become arms/legs)
+- Addition of facial features (eyes, mouths, etc.)
+- Addition of accessories (hats, scarves)
+- Original "Happy Thanksgiving" text (can be replaced)
+- Leaf placement and arrangement (rearranged for character forms)
+- Introduction of text bubbles
+- Expression style (cartoonish, playful)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now determine what must be retained based on exclusion from the allowed changes list and core identity logic.
+
+**Core recognition elements:**  
+The **maple leaf shape** is central to the identity of the original image. Even though the leaves will be used as heads, their **distinct five-pointed maple shape** must be preserved. Changing it to another leaf type (e.g., oak or palm) would break visual continuity and lose the connection to the original artwork. The **autumn color palette** (orange, yellow, red) is also critical—it defines the seasonal theme and must remain unchanged to preserve the Thanksgiving context. Without these colors, the seasonal identity is lost.
+
+**Functional/logical association elements:**  
+The **rectangular brown border** frames the entire scene and acts as a compositional anchor. The instruction explicitly says to keep the "current bordered layout," meaning the **border’s presence, position, and color (brown)** must be maintained. Removing or altering it would disrupt the structural integrity of the design and violate the instruction.
+
+**Non-modified element deduction:**  
+Although the tree's form is being anthropomorphized, the **original leaf shapes** must retain their iconic form. The **texture or gradient within the leaves** (e.g., how they transition from yellow to orange) is not specified to change, so we assume it should be preserved. Additionally, the **position of the frame relative to the card** must remain unchanged—the border must still define the central area of the card.
+
+Even though the text may be replaced, the **placement of the message below the frame** is implied to be preserved, as the instruction does not specify moving it elsewhere. Thus, the **location of the text area** (below the frame) should remain consistent.
+
+**Preservation Targets List:**
+- The **five-pointed maple leaf shape** used for foliage and character heads
+- The **autumn color palette** (orange, yellow, red) of the leaves
+- The **rectangular brown border** enclosing the central illustration
+- The **white background** of the card
+- The **position of the illustration within the card** (centered, framed)
+- The **overall layout structure** (elements contained within the border)
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The five-pointed maple leaf is the defining botanical feature of the original tree and must be preserved even when repurposed as character heads. If the leaf shape is altered to a different form (e.g., oval or lobed differently), it would no longer be recognizable as part of the original image. This is a core identity element because the tree's visual signature depends on this specific shape. Loss of this feature would make the edited version unrecognizable as derived from the original.
+    Question: Are all leaf-shaped elements in the image, including those used as heads, clearly five-pointed maple leaves?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The autumn color palette (orange, yellow, red) is essential to the seasonal theme and visual identity of the original image. The instruction explicitly requires maintaining this palette, so any deviation (e.g., introducing green or purple) would violate the directive and destroy the thematic consistency. These colors are not just decorative—they are functional in conveying Thanksgiving and fall imagery. Their retention ensures visual coherence with the original.
+    Question: Are all leaf elements rendered exclusively in shades of orange, yellow, and red?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The rectangular brown border is a key structural component that frames the illustration and defines the composition. The instruction specifies keeping the "current bordered layout," meaning the border’s shape, color, and position must remain unchanged. Altering its thickness, color, or removing it entirely would break the intended design framework and compromise the image’s visual hierarchy. It serves as a fixed container for the content.
+    Question: Is there a solid brown rectangular border surrounding the central illustration?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4: 
+    Thinking process: The white background of the card provides contrast and clarity to the colored elements. While not as visually dominant as the tree or border, it is a foundational element of the original image’s aesthetic. Changing it to another color or adding texture would alter the clean, minimalist look. Its preservation ensures the visual balance and legibility of the design.
+    Question: Is the background of the card uniformly white?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The illustration is centered within the card and contained within the border, forming a balanced composition. The instruction requires framing the characters within the "current bordered layout," implying that the spatial relationship between the illustration and the card must remain consistent. Moving the frame or shifting the content off-center would disrupt the original layout and affect visual harmony.
+    Question: Is the central illustration positioned centrally within the card, bounded by the rectangular frame?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+}

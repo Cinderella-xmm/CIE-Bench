@@ -1,0 +1,110 @@
+{
+  "filename": "HQ-Edit_1_100",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the green-shaded desk lamp present on the right side of the desk?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no visible desk lamp present on the desk. The illustration style simplifies details, and no lamp is depicted on the desk or in the background. Therefore, the edited image does not feature a desk lamp.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the vertical window with a grid pattern visible on the left side of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the illustration style does not include background details such as windows. The simple and stylized nature of the art omits the window, which is present in Image A. Thus, there’s no vertical window with a grid pattern visible in Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there an open book with yellowed pages on the desk in front of the figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figure is depicted holding an open book with visible text lines, similar to the open book in Image A. The style change does not alter the presence of the book, though the color detailing like yellowing is more stylized and not as detailed.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are round wire-rimmed glasses visible on the figure’s face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a stylized illustration of the figure, and no glasses are illustrated on the figure’s face. This is a simplification choice in the editing style.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the figure seated at the desk with her body leaning forward toward the open book?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the illustration depicts the figure similarly positioned to the original. The figure is holding the book and appears engaged with it, consistent with a leaning forward posture, although seat details are simplified.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the desk made of wood with visible grain texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the simplified and stylized illustration does not show material textures such as a wood grain, focusing instead on key elements like the book and figure. Thus, the wood grain texture is not visible.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are there multiple stacked books located behind the main open book on the desk?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are no stacked books visible behind the open book. The background and details are simplified, and such elements are not illustrated.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q8",
+      "question": "Is the figure’s dark hair styled in a bun with loose strands falling near the face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the depiction of the hair in a stylized illustration shows the hair in a bun without specific detailing of loose strands, consistent with the image style. The simplification means that such small details are not highlighted.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

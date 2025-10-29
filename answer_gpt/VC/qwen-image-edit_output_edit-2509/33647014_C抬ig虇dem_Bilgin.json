@@ -1,0 +1,110 @@
+{
+  "filename": "33647014_C抬ig虇dem_Bilgin",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the alternating pattern of light and dark squares on the chessboard preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chessboard retains the classic chessboard pattern consisting of alternating light and dark squares. The pattern is consistent across the visible part of the board. The common knowledge of a chessboard layout confirms that any deviation from this pattern would be noticeable. Thus, the pattern is maintained.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the king located in the central position of the visible row of black pieces?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the central position of the visible row of black pieces is occupied by a piece that is distinctly not a king. Chess knowledge tells us that a king is usually tall with a crown-like top, which is not represented in this central location. Hence, the king is not in the central spot.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there exactly two bishops, two knights, and at least four pawns visible in their original positions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chess pieces appear transformed into thematic characters, but based on their size and placement, it’s possible to infer their original types. However, their arrangement does not correspond to the classic setup of two bishops, two knights, and four pawns directly. The thematic transformation suggests their appearances and positions have changed.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the shadows of the chess pieces extend diagonally toward the bottom-left of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The shadows in Image B, resulting from a light source positioned from the top-right corner, extend diagonally toward the bottom-left. This is consistent with natural shadow behaviors when the light source is at an angle to the objects.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the wood grain texture of the chessboard surface visible across the light squares?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the wood grain texture is somewhat visible, particularly on the lighter squares of the chessboard. The thematic overlay adds elements, but the underlying texture can still be distinguished across those light squares.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is there a blurred background with horizontal structural lines visible behind the chessboard?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background retains a blurry effect with some semblance of horizontal lines, indicating structural features, though the thematic elements mostly draw focus. This contributes to depth and emphasizes the focus on the foreground.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are there exactly eight black chess pieces visible in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays transformed chess pieces, but by counting them in correspondence to their positions before transformation, it is evident that there are not eight distinct black pieces; the transformation creates fewer distinct entities.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q8",
+      "question": "Is the background of the image blurred while the foreground pieces are in sharp focus?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The visual focus in Image B is primarily on the themed pieces in the foreground, with the background having a blurred effect. This contrast draws attention to the foreground elements through differential focus.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5882352941176471
+}

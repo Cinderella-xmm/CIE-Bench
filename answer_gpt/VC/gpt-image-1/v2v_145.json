@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_145",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the yellow color and cubed arrangement of the mango?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a character that appears to be inspired by a mango, retaining the yellow color and cubed arrangement resembling a diced mango. This transformation of the mango into a character maintains the original structure and hue, evident from the cubed patterns representing the face and hair of the character. The retention aligns with the traditional mango presentation where the flesh is cut into cubes. Thus, based on visual cues and common design interpretations, the answer is that Image B retains the yellow color and cubed arrangement seen in a mango.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image retain the green color and sliced appearance of the lime?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B contains a round object with a green outer layer and a pattern inside that mimics the internal segments of a lime, suggestive of a slice. While it’s a stylized version, it closely resembles the appearance of a real lime slice in color and segmentation. The basic attributes of the lime—its green color and segmented appearance—are maintained in the edited image, validating the retention of its sliced representation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain the orange-red color and granular texture of the chili powder?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is an object resembling a bowl filled with a substance that has an orange-red hue similar to chili powder. However, unlike the original granular texture seen in chili powder, it appears smoother and less textured in the edited image. This modification suggests a departure from the granular aspect even though the color itself is maintained.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image retain the relative positions of the objects on the plate?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the arrangement of the mango-inspired character, lime slice, and 'bowl of chili' approximates the layout seen in Image A. The character (representing the mango) stands prominently in the center-left, closer to the lime slice positioned nearby, with the bowl situated at a slightly lower level. This spatial configuration reflects the original placement where mango, lime, and chili powder were relatively aligned on a wooden plate. The relative orientation of these objects with respect to each other is thus preserved in the edited version.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image retain the wooden texture of the plate?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B appears to showcase a wooden background or surface similar to a shelf on which the objects are resting. While the original plate's detailed wooden texture is not distinctly visible, the context and background color still suggest a wooden-like appearance. Given that the edited image transforms the setting slightly and doesn’t explicitly show a plate with a visible wooden texture, it diverges from retaining the plate's texture seen in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_86539",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Do the characters in the edited image have bold ink outlines and vibrant flat colors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the characters are drawn with sharp outlines and flat color fills. The outlines are not particularly bold but sufficiently defined to differentiate parts. The color palette uses soft, muted tones rather than vibrant ones, which gives the panels a more subdued look. Analyzing these visual cues, the characters do not possess bold ink outlines nor vibrant colors. Therefore, based on this description, the correct answer is No.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the characters situated in distinct zones within the panel that hint at their respective activities?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, each character is placed within a separate panel, with backgrounds providing context to their actions. For example, the exercising figure is on a floor that suggests activity, the figure in the box is against a backdrop that differentiates the action, while the one eating is at a table set off from the rest with a dining environment suggested. These visual cues imply that each zone hints at the activity or setting the character is engaged in, so the answer is Yes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a miniature gym corner present for the exercising figure with a green headband?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figure wearing a green headband is depicted walking on a contrasting section of the floor but without any objects or features that resemble a gym corner, like weights or exercise equipment. The lack of visual clues defining a gym corner suggests that while the activity of exercising is implied, an actual gym setup is not visually presented. Therefore, the correct answer is No.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a cozy cardboard box nook for the figure sleeping in a cardboard box?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the figure sitting in a cardboard box within its panel. This panel zone visually represents a context specific to the box without additional elements to depict a cozy nook. The lack of extra setting details around the box does not suggest a nook but focuses solely on the box. Therefore, the correct answer is No.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a tiny dining space for the figure eating at a table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figure is pictured in a panel where a table and bowl are visible, suggesting a dining context. Though diminutive in illustration style, the panel's table layout implicitly creates the impression of a dining space suitable for the character's activity. Hence, by this visual analysis, the answer is Yes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

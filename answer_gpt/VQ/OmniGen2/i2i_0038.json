@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0038",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the line-art transformation of the person's pose retain the natural positioning of the raised hand, open mouth, and camera without introducing unnatural textures or distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the line-art drawing maintains the positioning and gesture of the person's raised hand similar to a cartoon style. The hand and the position of the camera seem to be aligned without appearing awkward or distorted. The line-art simplifies details but retains key features like the open hand and camera placement, typical in cartoon renditions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the raised hand, open mouth, and camera covering part of the face preserved in a way that maintains their structural consistency and visual credibility?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The line-art representation in Image B keeps the raised hand, the open mouth, and the camera that covers part of the face looking structurally consistent in a stylized manner. This cartoon-styled simplification usually abstracts finer details but maintains recognizable forms.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the added speech bubble with the text “Take a photo” integrate naturally into the image without introducing any obvious artifacts or disrupting the scene's realism?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The speech bubble in Image B is a common addition in cartoon art styles, and appears naturally integrated. Its presence does not introduce artifacts or disruption as speech bubbles are expected elements within illustrated contexts, adding narrative flair without breaking visual integrity.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have the fine details, such as the texture of the bathroom and the person’s clothing, been preserved without loss or introduction of unnatural artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing to detailed photography, Image B translates textures into simplified line art, losing fine details like textures of the bathroom wall and clothing. However, such simplification is typical in this art form, which deliberately omits intricate textures for clean lines, making it not 'unnatural' but rather intentional.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the cartoon line-art transformation maintain the realistic proportions and shapes of the person and objects, avoiding any distorted geometric shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B, as a cartoon representation, maintains the key proportions of the person and objects like the camera and hand, albeit in stylized form. The proportions align well within expectations of cartoon art where some exaggeration may occur, yet no significant distortion or unrealistic shapes are evident.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

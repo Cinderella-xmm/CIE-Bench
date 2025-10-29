@@ -1,0 +1,110 @@
+{
+  "filename": "v2v_567",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the circular front plate with rivets on the steam locomotive present and accurately rendered?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image (Image B), we observe a steam locomotive at a train station. The front of the locomotive includes a circular front plate, similar to the one in common historical steam train designs. This plate is present and features details resembling rivets, accurately rendering the original design of such trains.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the station building made of red brick with a gabled roof and two arched windows visible and unaltered?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the station building maintains a design reminiscent of a red brick structure with a gabled roof, consistent with many traditional train station buildings. However, due to the artistic style, specific architectural details like brickwork and arched windows are simplified and stylized. Nonetheless, the key elements such as the gabled roof and the building's general shape suggest a representation of a similar structure.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are all individuals standing in their original positions on the platform, facing the train or grouped as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The individuals in Image B are depicted in a highly stylized manner typical of chibi characters, and their arrangements appear altered. The characters are not positioned to match the precise arrangement or orientation as seen in Image A, indicating changes in their positioning and interaction with the train.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do all individuals wear the same clothing items as in the original image, including long dresses, suits, and hats?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the individuals are rendered in a chibi style, which simplifies and stylizes their clothing significantly. While some general clothing shapes may echo long dresses and more formal wear, they do not replicate the detailed 19th-century style of clothing, such as suits and hats, exactly as in Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the woman near the edge of the platform holding a rectangular leather suitcase in her right hand?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Examining Image B, the chibi styled figure near the platform's edge is depicted with a simplified accessory that likely represents the suitcase from Image A. However, given the stylized form, details like the shape and material of the suitcase do not conform exactly to a 'rectangular leather suitcase'.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the railway tracks composed of wooden sleepers and metal rails, extending diagonally from the foreground toward the train?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts the railway tracks in a stylized manner with simplified representations of sleepers and rails. While they follow the same diagonal orientation towards the train from the foreground as in Image A, the representation does not retain the precise detailed texture of wood and metal.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is a thick, dark smoke plume rising vertically from the train’s chimney into the sky?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a smoke plume is visible emanating from the train’s chimney, rising towards the sky. This depiction aligns with the presence of thick, dark smoke characteristic of steam locomotives, captured in a chibi style.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q8",
+      "question": "Is the scene illuminated by warm golden light with a hazy sky, suggesting late afternoon?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the style imparts brighter and more vivid colors typical of chibi art, which deviates from the naturalistic depiction of lighting and sky conditions seen in Image A. The lighting appears more neutral and does not convey a specific time of day such as a 'warm golden light' or 'hazy sky' as effectively as in the original.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4375
+}

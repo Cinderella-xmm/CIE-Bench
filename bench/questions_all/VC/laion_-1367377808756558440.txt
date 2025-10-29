@@ -1,0 +1,134 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a large naval vessel, specifically a gray warship marked with the hull number "J244" in bold black numerals on its side. The ship features a prominent mast with rigging, a central tower structure, and a dark blue funnel-like feature at the top. It has multiple portholes, gun mounts (including one visible on the bow), and a British flag flying from a secondary mast. A smaller yellow boat labeled "HULL HAMLET TOWN" is docked nearby in the foreground. The scene includes a wooden pier with green lampposts, several pedestrians walking along it, and industrial port cranes in the background under a partly cloudy sky. The Australian flag is visible on a separate pole to the left. The overall composition places the ship as the dominant element, with people and infrastructure providing scale and context.
+
+**Thinking process:**  
+The editing instruction explicitly transforms the entire scene into a **steampunk-styled miniature diorama inside a vintage glass lantern**, indicating that the **form, scale, and environment** are to be radically altered. Key transformations include:
+- The **ship becomes a mechanical model** with brass finishes and rotating gears → this changes material, texture, and function.
+- The **dock figures become metal automatons** wearing Victorian attire → human forms are replaced by robotic analogs.
+- The **entire scene is enclosed within a glass lantern** → spatial containment and perspective shift.
+- **Floating steam clouds** are added → new atmospheric elements not present originally.
+- **Oversized compasses and maritime flags** are incorporated → new symbolic elements.
+
+However, the instruction does **not** specify replacing or removing any core identity features of the original ship or scene. Instead, it reimagines them through a thematic lens while preserving their **identity and role** (e.g., the ship remains a naval vessel, the dock remains a harbor setting). Therefore, although form and materials change, the **core recognition elements** of the ship (hull number, silhouette, key structural components) and the **scene’s functional logic** (ship docked at pier, people walking, cranes in background) must remain identifiable.
+
+---
+
+**Allowed Changes List:**
+- The **material and finish** of the ship (e.g., changing from painted steel to brass and copper)
+- The **appearance and clothing** of pedestrians (transformed into automatons with Victorian attire)
+- The **environmental context** (from open harbor to enclosed glass lantern)
+- The **addition of floating steam clouds**
+- The **inclusion of oversized compasses and flags** as decorative elements
+- The **scale and framing** (miniature diorama within a lantern)
+- The **lighting and atmosphere** (to match steampunk aesthetic)
+- The **texture and color palette** of all objects (shift toward metallic, aged brass, and sepia tones)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now identify what **must not change**, based on exclusion from the allowed changes list and logical necessity for identity retention:
+
+1. **Core Recognition Elements**:  
+   - The **hull number "J244"** is a unique identifier of the ship; altering it would misrepresent the vessel's identity. Even if stylized, its presence and position must be preserved.
+   - The **overall shape and silhouette** of the ship (especially the superstructure, mast, funnel, and bow gun) define its naval identity. These forms are essential for recognizing the vessel type (likely a minesweeper or patrol vessel).
+   - The **British flag** on the secondary mast is a national identifier and historical detail tied to the ship’s origin. Its presence and placement must be retained even if stylized.
+   - The **Australian flag** on the left pole is part of the geographical context and should remain visually recognizable.
+
+2. **Functional/Logical Association Elements**:  
+   - The **position of the ship relative to the dock** (docked at the pier) maintains spatial logic. If the ship were floating freely or placed incorrectly, the scene loses coherence.
+   - The **presence of the pier and lampposts** provides environmental continuity. Their layout supports the narrative of a harbor setting.
+   - The **yellow boat labeled "HULL HAMLET TOWN"** serves as a contextual anchor. Its label and color must remain readable to preserve scene specificity.
+
+3. **Non-Modified Element Deduction**:  
+   - While the people may become automatons, their **positions and paths along the pier** should reflect the original movement pattern (e.g., three individuals walking together).
+   - The **cranes in the background** establish industrial port context. Their **number, shape, and relative positioning** must remain consistent to maintain realism within the transformed scene.
+   - The **green lampposts** are distinctive fixtures; their **color and curved design** should persist even if rendered in brass or with mechanical details.
+
+Thus, despite transformation into a steampunk diorama, the **essential visual identifiers**—such as the ship’s number, silhouette, flags, and surrounding landmarks—must remain intact in form and location to ensure fidelity to the original subject.
+
+---
+
+**Preservation Targets List:**
+- The hull number "J244" on the ship’s side
+- The silhouette and structural features of the ship (mast, funnel, gun mount, superstructure)
+- The British flag on the secondary mast
+- The Australian flag on the left pole
+- The yellow boat labeled "HULL HAMLET TOWN"
+- The green lampposts with curved arms
+- The position and orientation of the ship relative to the dock
+- The three pedestrians walking along the pier
+- The industrial cranes in the background
+- The wooden pier surface and railing
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The hull number "J244" is a critical identifier of the specific naval vessel depicted. It is a unique alphanumeric code used for official identification, and its absence or alteration would render the ship unrecognizable as the original subject. This is a core identity feature that must be preserved regardless of stylistic changes like brass plating or gear integration.
+    Question: Is the hull number "J244" clearly visible and positioned on the side of the ship?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The British flag on the secondary mast is a key national identifier linked to the ship’s heritage. Its presence confirms the vessel’s origin and historical context. Even in a steampunk rendering, the flag must retain its red, white, and blue colors and Union Jack design to maintain authenticity and recognition.
+    Question: Is the British flag flying from the secondary mast of the ship?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The silhouette of the ship—including the tall mast, funnel, and gun mount—is essential for identifying it as a naval vessel of a particular class. Altering these shapes would change the vessel’s classification and make it unrecognizable. These structural features are non-negotiable for maintaining the subject’s identity.
+    Question: Does the ship retain its original silhouette with a tall mast, funnel, and forward gun mount?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The yellow boat labeled "HULL HAMLET TOWN" serves as a distinct contextual object in the foreground. Its bright yellow color and readable text provide geographical and cultural specificity. Removing or altering this boat would disrupt the scene’s real-world grounding.
+    Question: Is the yellow boat with the text "HULL HAMLET TOWN" visible in the foreground?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The green lampposts with curved arms are distinctive architectural elements of the dock. They contribute to the scene’s visual rhythm and period feel. Their color and shape must be preserved to maintain consistency with the original setting, even if rendered in brass or with mechanical embellishments.
+    Question: Are the green lampposts with curved arms present along the pier?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The Australian flag on the left pole establishes the geographical location of the harbor. Its presence adds authenticity and situational context. Even in a stylized version, the flag must remain identifiable as the Australian national flag.
+    Question: Is the Australian flag visible on the pole to the left of the ship?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The industrial cranes in the background define the port environment and provide depth. Their number and configuration are important for maintaining the sense of scale and location. Removing or distorting them would alter the scene’s realism.
+    Question: Are the large white port cranes visible in the background behind the ship?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q8: 
+    Thinking process: The three pedestrians walking along the pier represent human activity and scale. Their positions and direction of movement help ground the scene. Even if transformed into automatons, their arrangement and path must align with the original to preserve narrative coherence.
+    Question: Are three individuals visible walking along the pier near the ship?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

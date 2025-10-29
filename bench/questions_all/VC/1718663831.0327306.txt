@@ -1,0 +1,76 @@
+Description of reference image: The subject is a small, fluffy white Pomeranian dog with sandy-colored markings on its ears and face. It is sitting upright on a sunlit sandy beach, facing forward with a calm and composed expression. The dog wears black rectangular sunglasses with dark lenses that cover its eyes, and a colorful patterned harness featuring abstract floral and tropical designs in shades of blue, pink, yellow, and green. The harness has visible stitching details and a crisscross design across the chest. The background features a blurred ocean shoreline under a warm golden sunset sky, with soft waves gently rolling onto the sand. The lighting is warm and diffused, casting a golden glow over the entire scene, especially highlighting the fur texture and edges of the dog's silhouette. The sand beneath the dog shows natural ripples and textures from wind or footprints, contributing to a realistic beach environment.
+
+Thinking process: First, analyze the editing instructions word by word: "Transform the dog into a plush stuffed animal" — this explicitly changes the physical form of the subject from a real dog to a soft toy, so the original biological structure (e.g., fur texture, live animal posture) can be altered. "Maintaining its white fur and sandy-colored spots" — this specifies that coloration must remain unchanged; thus, the white base fur and sandy patches are preserved despite transformation into a plush. "Replace the harness with a crystal-studded corset" — the harness itself is replaced, so its design, material, and pattern are no longer required. "Position the plush figure on a smooth, minimalist wooden shelf" — the background and setting change entirely; therefore, the beach, ocean, sunset, and sand are not required to be retained. "Ensuring its paws are slightly dangling" — indicates a new pose, so original sitting posture on sand may be modified. "Highlighting its cute demeanor" — this is a stylistic goal, not a visual element to preserve.
+
+Allowed Changes List:
+- The physical form of the dog (from real animal to plush toy)
+- The harness (replaced with a crystal-studded corset)
+- The background environment (beach, ocean, sunset, sand)
+- The position and posture (now on a shelf with dangling paws)
+- Lighting and atmosphere (no longer sunset-lit beach)
+- Texture of fur (can now be soft fabric instead of real fur)
+
+Step 2– Determine the elements that should remain unchanged
+
+Thinking process:  
+Core recognition elements: The dog’s identity as a Pomeranian is defined by its distinct facial structure—small rounded head, pointed ears, short muzzle, and dense fluffy coat. Even though it becomes a plush, the breed-specific shape must be preserved for recognition. The white fur with sandy-colored spots is explicitly stated to be maintained, so these colors and their placement (especially on ears and face) are core identity markers. The presence of sunglasses is not mentioned in the instruction to be changed, but since they are worn by the dog and are visually prominent, and the instruction does not say to remove them, they may be considered part of the character’s style unless contradicted. However, upon closer inspection, the instruction says “replace the harness” but says nothing about sunglasses, meaning they could be retained. But since the transformation is into a plush, accessories like sunglasses may be reinterpreted, yet if not specified to be removed, we assume they are part of the preserved aesthetic. However, caution: if the sunglasses are physically attached to a plush, they might be stylized, but their presence and basic shape (black rectangular frames) should still be retained.
+
+Functional/logical association elements: There are none in this case—the dog is not interacting with objects in a functional way (e.g., holding something). The only logical relationship is between the dog and its accessories (harness/sunglasses), which are both being modified or possibly preserved.
+
+Non-modified element deduction: After excluding allowed changes, the following must remain:  
+- The white fur color and sandy-colored spots on the ears and face (explicitly stated to be maintained)  
+- The overall shape of the dog (Pomeranian-like head, ears, body proportions)  
+- The sunglasses (not mentioned to be removed, so likely preserved)  
+- The fact that it is a dog (species-level identification)  
+
+Even though the dog becomes a plush, its species and key visual traits must be preserved for continuity. The transformation does not allow changing breed-specific features unless stated.
+
+Preservation Targets List:  
+- White fur with sandy-colored spots on ears and face  
+- Pomeranian-like head shape with pointed ears and short muzzle  
+- Presence of black rectangular sunglasses with dark lenses  
+- Dog’s general body proportions and upright seated posture (though paws may dangle in edit)  
+- The fact that it is a dog (not another animal)  
+
+Note: The harness is replaced, so it is not preserved. The background is changed, so beach elements are not preserved. Fur texture may change to plush fabric, but color and spot placement must stay.
+
+{
+    Q1: 
+    Thinking process: The white fur with sandy-colored spots is explicitly instructed to be maintained during transformation. These color patterns are essential for identifying the dog’s appearance and distinguishing it from other breeds or variations. The sandy spots on the ears and face are unique visual markers that define its look in the original image. If these are altered or removed, the edited version would lose its direct visual link to the original subject. Therefore, this is a core identity feature with high weight.
+    Question: Is the dog's fur primarily white with distinct sandy-colored spots on the ears and face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The Pomeranian’s distinctive head shape—specifically the rounded skull, short muzzle, and erect triangular ears—is a core recognition feature. Even when transformed into a plush, the breed’s iconic silhouette must be preserved to maintain identity. Altering ear shape or head proportion would make it unrecognizable as the same dog. This is a key structural trait that defines the subject’s species and breed.
+    Question: Does the dog have a rounded head with pointed ears and a short muzzle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The black rectangular sunglasses with dark lenses are a prominent accessory that contributes to the dog’s recognizable style in the original image. Since the instruction does not mention removing them, and given their visual dominance, they are assumed to be preserved. Their presence adds to the character’s personality and must be retained for consistency. Losing them would significantly alter the visual identity of the subject.
+    Question: Are the dog wearing black rectangular sunglasses with dark lenses?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The dog’s upright seated posture is a defining pose in the original image. While the instruction allows for slight modification (paws dangling), the overall seated orientation must remain consistent. Changing to a lying or standing pose would disrupt the continuity of the subject’s positioning. This is an important compositional element affecting how the subject is perceived.
+    Question: Is the dog seated upright with its body facing forward?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The dog’s body proportions—specifically the compact torso, short legs, and fluffy tail—are characteristic of the Pomeranian breed. Even as a plush, these proportions must be preserved to ensure accurate representation. Altering leg length or body size would distort the breed identity. This is a secondary but important detail for maintaining visual coherence.
+    Question: Does the dog have a compact body with short legs and a fluffy tail?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

@@ -1,0 +1,61 @@
+Description of reference image: The image features sheep grazing in an expansive grassy field. Two foreground lambs stand out—one is grazing, while the other looks towards the camera. In the background, several adult sheep and lambs are scattered across the field. A line of trees marks the edge of the field in the midground, and rolling hills and fields extend further back under a pale sky.
+
+Thinking process:
+The provided editing instructions do not relate to the original image content. Given this mismatch, focusing on the original image—its subjects, setting, and details—is essential for assessing consistent editing. Since we're evaluating the consistency of modifying objects unrelated to the original image's primary subjects, we'll concentrate on the core visual elements of the sheep: their appearance, the field's setting, and the natural background.
+
+Allowed Changes List:
+(Specific elements that allow for modifications such as the overall scene transformation as per the instruction, but not applicable here as it contradicts the image context)
+
+Thinking process:
+Determining core recognition elements includes the distinct white wool texture of the sheep, especially the contrast with their darker faces and legs. Functional/logical elements include their natural behaviors like grazing and standing, and their positioning relative to the grassy field and distant trees, ensuring they appear as part of a pastoral scene. Retaining these elements aligns with maintaining the image's coherence.
+
+Preservation Targets List:
+(The natural wool texture of the sheep)
+(The sheep’s darker facial and leg markings)
+(The field setting with grass and distribution of sheep)
+(The tree line marking the field’s border)
+
+{
+    Q1: 
+    Thinking process: The natural wool texture is a critical recognition feature of sheep. Losing it would make them unidentifiable as sheep, impacting the image's core identity and visual consistency. Hence, it is given high importance.
+    Question: Does the image retain the natural wool texture of the sheep?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The darker facial and leg markings are key distinguishing characteristics of the sheep, establishing their breed-like identity. While not as crucial as the wool texture, losing them would obscure specific visual cues linked to sheep.
+    Question: Do the sheep retain their darker facial and leg markings?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The field setting offers context and supports the natural behavior of the sheep. Retaining the grassy texture and distribution of sheep ensures the scene remains a coherent pastoral environment.
+    Question: Is the grassy field setting retained, including the distribution of sheep?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The tree line acts as a logical boundary for the field, grounding the scene within a larger landscape. This element helps maintain the environmental context despite not being central to the sheep's identity.
+    Question: Is the tree line marking the field's border retained?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q5: 
+    Thinking process: The sheep's natural behavior, particularly grazing or standing, enhances the realism and purposefulness of the scene. Retaining this aspect ensures the logic of the sheep being in a field is upheld.
+    Question: Are the sheep’s natural behaviors, such as grazing or standing, retained?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The central archway is the most iconic and defining feature of the structure, serving as both a functional passage and a compositional anchor. Its location, size, and shape are critical to identifying the original architectural identity. Even when transformed into a limb, its position and basic form must remain consistent to preserve spatial logic. Removing or relocating it would fundamentally alter the structure’s identity and break the visual connection to the original image. This is a core identification feature, hence weight 3.",
+      "question": "Is the central archway positioned at the center of the main structure, forming a passageway between the two vertical pillars?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The vertical pillars flanking the archway are essential to the structure’s symmetry and architectural balance. They define the height and stability of the tower and are directly referenced in the instruction as being used for articulation (limbs). Their presence and alignment must be preserved for the transformation to be coherent. Altering their position or removing one would destroy the structural integrity of the original design. This is a key architectural feature, so weight 2.",
+      "question": "Are the two vertical pillars standing symmetrically on either side of the central archway, forming a tall, narrow gateway?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The crenellated battlements along the top of the structure are distinctive medieval defensive features. They contribute to the building’s identity and are explicitly mentioned in the instruction as becoming a crown. Their shape and placement must be preserved, even if stylized, because they are unique to this type of architecture. Losing them would make the structure unrecognizable as a fortress. This is a core visual identifier, hence weight 3.",
+      "question": "Are the battlements along the top of the structure composed of repeating rectangular merlons and gaps (crenels)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The low wall on the left side of the frame creates a sense of depth and enclosure, framing the pathway. It is a key environmental element that establishes the scene’s spatial context. Although the instruction does not mention it, it is integral to the composition and must remain to maintain logical consistency. Changing its position or removing it would disrupt the perspective and spatial relationship between the viewer and the main structure. This is an important scene element, so weight 2.",
+      "question": "Is there a long, low brick wall running parallel to the main structure on the left side of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The pathway leading from the foreground to the background is crucial for guiding the viewer’s eye and establishing scale. It connects the foreground figure to the archway and is essential for maintaining spatial coherence. Even if the figure is transformed, the path must remain intact to preserve the scene’s narrative flow. This is a functional element of the environment, so weight 2.",
+      "question": "Is there a paved pathway extending from the foreground toward the central archway, running between the low wall and the main structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The secondary arches to the right of the main structure are part of the architectural complex and contribute to the historical authenticity of the site. They provide depth and complexity to the scene. While the instruction focuses on the central arch, these side arches are visible and distinct. Their presence helps confirm the original structure’s design. Removing them would simplify the scene unnaturally. This is a detail-level but important architectural feature, so weight 1.",
+      "question": "Are there additional arched openings visible to the right of the main central archway, integrated into the same wall structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The relative position of the human figure on the path is critical for scale and narrative. Even though the figure will be transformed into a wisp, its location—walking away from the viewer toward the archway—must be preserved to maintain the scene’s spatial logic. This ensures continuity in the viewer’s perception of movement and distance. This is a logical positional element, so weight 2.",
+      "question": "Is the small human figure located on the pathway, positioned behind the viewer and moving toward the central archway?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

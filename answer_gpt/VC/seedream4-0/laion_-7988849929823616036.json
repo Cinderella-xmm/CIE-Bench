@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-7988849929823616036",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the mustache present with its original shape, including upward curls at the ends?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visible regions do not include a mustache. It shows only the clothing and the shoulders of the subject, not including facial features like a mustache. Combining world knowledge with what is visible, the absence of facial features where a mustache would typically be says that the mustache cannot be present. Hence, the response is based on visible cues and common sense about what a face region would display.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are both eyes visible and positioned symmetrically with the bridge of the nose aligned centrally?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the face region is blurred. Based on world knowledge, details of facial orientation or symmetry cannot be discerned due to the blur. Therefore, it can't be determined whether the eyes are positioned symmetrically.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the hairline clearly defined with a receding pattern at the temples?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, part of the hair is visible and depicted, implying a hairline. There appears to be no detailed description or clear visual of whether it follows a receding pattern due to the blur obfuscating further detail in the facial region. Thus, combining visual cues with common knowledge on hair visibility and patterns, it is uncertain without clear details.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the bow tie located at the center of the neck, forming a symmetrical knot beneath the collar?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a vividly colored bow tie positioned centrally under the collar, which adheres to the standard orientation of a bow tie. Combining the clear visual cue with common fashion standards, it is located symmetrically in relation to the shirt.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the text \"S. W. Kramer.\" present below the image in the same font and position?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text 'S. W. Kramer.' is placed below the image similar to Image A, preserving both its font and position. This consistency reflects the attention to detail in maintaining textual coherence.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the subject’s head turned slightly to the left, with the body facing forward?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B's visible region is obscured, making it difficult to observe the head's turning or other spatial orientations. Without any visible reference point indicating an angular turn of the head, combined with the common depiction angles, it is not possible to ascertain the head's direction.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the image framed within a rectangular border with visible margins on all sides?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B is clearly shown within a rectangular frame, consistent with Image A. The margins are visible all around suggesting that it maintains an organized border. Such framing is common in photographic displays.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.35294117647058826
+}

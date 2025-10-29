@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_0_125",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the woman’s face clearly visible with the same eye shape, nose, mouth, and short wavy black hair as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The face of the woman in Image B is blurred, making it impossible to determine the shape of her eyes, nose, or mouth, but her hair is the same short, wavy black style. The blur prevents a clear visual comparison of facial features.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the robe maintain the red-on-right and navy-blue-on-left color division across the torso and sleeves?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the robe does not exhibit the same color division; it is predominantly red. In Image A, the robe is divided with red on the right and navy-blue on the left. This does not match Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the rose and vine floral patterns visible along the robe’s seams, front panel, and sleeves as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the floral patterns with roses and vines are visible along the seams, front panel, and sleeves. This is consistent with the pattern distribution seen in Image A, where these motifs adorn similar areas.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a high slit on the right leg of the robe, revealing part of the leg?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both Image A and B, the robe features a high slit on the right leg, revealing part of the leg. This design detail is consistent across both images.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are red paper lanterns visible hanging in rows above the market alley, glowing warmly?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, red paper lanterns are present at the top of the image, arranged in a decorative way, implying an indoor setting. In Image A, the red paper lanterns are visible above the market alley, glowing warmly. Image B does not show them in a market alley context.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there visible stalls with tomatoes, oranges, and green vegetables arranged in crates along both sides of the alley?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are no visible stalls with produce like tomatoes, oranges, or green vegetables, suggesting an entirely different setting from Image A, which has a market scene with such items prominently displayed.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the ground paved with stone tiles and the roof supported by wooden beams?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the ground and architectural elements like stone tiles or wooden beams are not visible, as the setting is more abstract and indoors. In Image A, these features are evident, suggesting an outdoor market context.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.3125
+}

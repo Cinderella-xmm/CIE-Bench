@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0044",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the sandwich cross-section with layered ingredients clearly visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sandwich is depicted in a cartoon style which prioritizes a simplified aesthetic over realistic detail. The cross-section of the sandwich is visible, with distinguishable layers, such as bread, lettuce, cheese, and meat. The cartoon style enhances the visibility and separation of these layers compared to a realistic image, emphasizing each component. Therefore, the cartoon maintains clear visibility of the sandwich layers, just interpreted stylistically.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the sandwich bread retain its golden-brown crust appearance despite the cartoon style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases the sandwich in a cartoon format which uses solid colors and bold outlines to depict objects. The bread is drawn with an orange-brown hue which indicates a golden-brown color, typically found on sandwich crusts. Despite the lack of texture and detailed gradient seen in realistic photos, this color choice conveys the idea of a freshly baked crust. Thus, the cartoon retains the appearance of a golden-brown crust.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the sandwich remain on the white, rectangular plate?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the sandwich on a white rectangular plate, consistent with Image A. The cartoon simplifies this element by outlining the plate and using plain coloring but keeps the key characteristic shape and color intact. The plate's depiction in Image B remains clearly a rectangular shape, preserving the spatial context of the sandwich being served.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the background still depict a wooden table surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background does not depict a wooden table surface. The simplified cartoon rendition has abstracted the background, focusing on the sandwich and plate with no added contextual textures or colors indicative of wood. The main focus is on the sandwich itself, with the surrounding environment left minimal. Thus, there is no depiction of a wooden table surface.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the sandwich positioned centrally on the plate as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing Image B to Image A, Image B does place the sandwich centrally on the cartoon representation of a plate. Both images have the sandwich placed such that it appears central on the surface, intended to keep focus evenly distributed on the sandwich. Despite the artistic rendition, the plate composition suggests a central positioning.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.9
+}

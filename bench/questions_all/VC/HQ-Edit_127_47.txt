@@ -1,0 +1,129 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a serene forest lake scene featuring five ducklings swimming in clear, shallow water. The ducks are positioned in a loose cluster near the center of the foreground, with their bodies partially submerged and heads above water. Each duckling has distinct markings: dark brown backs, lighter underbellies, and orange beaks with black tips. Their eyes are small and dark, and they appear to be moving gently through the water, creating subtle ripples around them. The water is transparent enough to reveal a bed of smooth, rounded stones beneath the surface, varying in shades of brown, gray, and tan. The lake reflects the surrounding environment perfectly—tall evergreen trees (primarily conifers like fir or spruce) line both banks, forming a natural corridor that converges toward a distant mountain range shrouded in soft mist. The sky above is light blue with scattered white clouds, contributing to the calm atmosphere. The shoreline in the immediate foreground consists of larger rocks and pebbles, some partially wet from splashing water. The lighting is soft and diffused, suggesting early morning or late afternoon, with gentle highlights on tree tops and water surfaces.
+
+Thinking process:  
+The editing instructions explicitly state transformations such as:
+- Encapsulating the entire scene in a **decorative glass orb display** → this changes the framing and spatial context.
+- Transforming the **ducks into playful 3D models with glossy finishes** → alters material properties and form of the ducks.
+- Using **layers of resin and transparent textures** to recreate water depth → modifies the physical representation of water.
+- Adding **miniature woodland animal figurines** among rocks and greenery → introduces new elements not present originally.
+- Placing the orb on a **natural wood base** → adds an external support structure not in original.
+
+From this analysis, we identify what can change:
+
+**Allowed Changes List:**  
+- The **form and material of the ducks** (can become 3D glossy models)  
+- The **water's visual texture and depth representation** (can use resin layers)  
+- The **overall composition being enclosed in a glass orb** (scene container changed)  
+- The **addition of miniature animal figurines** (new characters introduced)  
+- The **presence of a wooden base beneath the orb** (external platform added)  
+- The **lighting and reflective qualities** may shift due to encapsulation effects  
+- The **scale and perspective** may alter due to the orb’s curvature and refractive properties  
+
+Thus, the **entire scene is recontextualized**, but certain core visual identities must remain intact unless explicitly transformed.
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+We now apply exclusion logic based on the allowed changes list to determine which original elements must be preserved.
+
+**Core recognition elements:**  
+Although the ducks will be transformed into 3D models, the instruction does not say they should be replaced entirely or morphed into different animals. It says "transform into playful 3D models"—this implies preservation of identity. Therefore, key identifying features of the ducks must remain recognizable despite stylization. These include:
+- Number of ducks: five
+- General shape and posture (swimming, heads up)
+- Relative positions forming a loose group
+- Color pattern: dark backs, lighter bellies, orange beaks
+
+Similarly, while the water is to be recreated using resin, its **clarity and reflection quality** are implied to be retained as part of the aesthetic goal ("recreate the water's depth and clarity"). Thus, the **visual property of transparency** and **reflection of trees and sky** must remain consistent.
+
+The **rocky lakebed** is visible and essential to the original scene’s realism. Since the instruction mentions “recreate the water's depth and clarity,” it implies that the **underwater rock formation** should still be perceptible, even if rendered via resin.
+
+The **forest setting**, including the tall coniferous trees and the distant mountain, forms the iconic backdrop. While the scene is now inside an orb, the **tree shapes, density, and arrangement** must remain identifiable to preserve the forest-lake identity.
+
+**Functional/logical association elements:**  
+There is no functional action (e.g., movement, interaction), but the **spatial relationship between ducks and their environment**—specifically, their location in the foreground water, surrounded by rocks and facing toward the center—is logically important for maintaining narrative coherence. If ducks were moved to the far shore or elevated unnaturally, it would break the scene’s logic.
+
+**Non-modified element deduction:**  
+After excluding all allowed changes (duck materials, water rendering, added figurines, orb framing, base), the remaining unmentioned visual content includes:
+- The **number and configuration of ducks**
+- The **rock distribution at the bottom**
+- The **tree types and their reflection patterns**
+- The **mountain silhouette in the background**
+- The **color palette of greens, blues, browns**
+- The **calmness of the water surface**
+
+These are not mentioned as changeable, so they must be preserved for consistency.
+
+**Preservation Targets List:**  
+- The presence and number (five) of ducklings  
+- The swimming posture and relative grouping of the ducks  
+- The visible rocky lakebed beneath the transparent water  
+- The reflection of coniferous trees and sky on the water surface  
+- The dense forest of tall evergreens flanking both sides of the lake  
+- The distant mountain range in the background  
+- The overall tranquil atmosphere conveyed by lighting and color harmony  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The number of ducklings is a core identity feature of the original scene. There are exactly five ducks visible in the image, arranged in a specific cluster. Changing their number would fundamentally alter the composition and make it inconsistent with the source. Even though they are to be transformed into 3D models, the count must remain unchanged to preserve the scene’s integrity. This is a key element because it defines the scale and narrative of the moment—five ducklings together is a specific detail that cannot be altered without breaking recognition.
+    Question: Are there exactly five ducklings swimming in the foreground of the scene?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The swimming posture of the ducks—heads above water, bodies partially submerged, creating ripples—is essential for identifying their behavior and positioning within the water. This posture distinguishes them from floating or standing birds and maintains the dynamic of movement. Although the model style may change, the pose must be preserved to maintain continuity with the original scene’s action. Altering it would misrepresent the ducks’ activity.
+    Question: Do the ducklings have their heads above water and bodies partially submerged, indicating swimming motion?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The rocky lakebed is a defining feature of the water’s clarity and depth. Its visibility through the transparent water is critical to the realism and serenity of the scene. Even if rendered with resin, the underlying pattern of smooth, rounded stones must remain visually present and correctly positioned beneath the water surface. Removing or distorting this would compromise the authenticity of the aquatic environment.
+    Question: Is the bed of smooth, rounded stones clearly visible beneath the water surface in the foreground?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The reflection of the surrounding trees and sky on the water surface is a key compositional element that enhances symmetry and tranquility. It demonstrates the stillness of the lake and the density of the forest. Even with resin-based rendering, the mirrored image of the coniferous trees and sky must remain recognizable to preserve the visual balance and mood of the original scene.
+    Question: Is the reflection of the evergreen trees and sky clearly visible on the water surface?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The tall coniferous trees lining both banks of the lake are central to the forest setting. Their vertical alignment, density, and green coloration define the environment. While the scene may be refracted in an orb, the tree silhouettes and their arrangement must remain intact to ensure the landscape is still identifiable as a dense pine forest. Losing these would transform the scene into something else entirely.
+    Question: Are tall evergreen trees densely arranged along both sides of the lake, forming a natural corridor?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The distant mountain range, partially obscured by mist, contributes to the depth and scale of the scene. It serves as a horizon anchor and provides geographical context. Even within a glass orb, the mountain’s silhouette and hazy appearance must be preserved to maintain the sense of vastness and natural isolation. Its absence would flatten the landscape.
+    Question: Is a mist-covered mountain range visible in the background beyond the lake?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The color palette—dominated by deep greens of the forest, turquoise-blue water, and earthy browns of the rocks—defines the mood and realism of the scene. While lighting might shift slightly due to the orb’s refraction, the fundamental colors must remain consistent to preserve the naturalistic tone. Altering dominant hues would result in a stylistic mismatch.
+    Question: Are the dominant colors of the scene green (trees), blue-green (water), and brown (rocks)?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

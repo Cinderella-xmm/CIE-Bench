@@ -1,0 +1,61 @@
+```
+Step 1: Disassemble Editing Instructions
+-<Thinking Process 1>: The editing instruction requires transforming the original image of an elephant in a savannah into a diorama inside a vintage travel case. This involves multiple layers of modification: replacing the background environment with a confined space (travel case), introducing new elements such as a miniature acacia tree, textured resin grass, painted clouds on the lid, and a brass compass. The core challenge is maintaining visual coherence between the scaled-down elements and the original subject (the elephant), ensuring that proportions, materials, and lighting remain consistent with a realistic diorama setup. The original image features a large elephant under a real acacia tree in an open savannah with distant mountains and sky—these elements must be recontextualized into a bounded, artificial scene without losing structural plausibility or introducing artifacts.
+
+-Sub requirement 1: Transforming the entire scene into a diorama within a vintage travel case—does this change affect the overall realism and natural appearance by introducing unnatural boundaries, inconsistent lighting, or scale mismatches?
+
+-Sub requirement 2: Replacing the natural savannah grass with textured resin simulating grass—does the material substitution maintain a natural appearance, avoid unnatural textures, and preserve fine details like blade shapes and shading?
+
+-Sub requirement 3: Adding a tiny acacia tree for scale balance—does the size and placement of the tree conform to physical proportionality relative to the elephant and other elements, avoiding distortion or geometric anomalies?
+
+-Sub requirement 4: Incorporating painted clouds inside the backdrop lid—do these clouds appear integrated into the scene without visible brushstrokes, color bleeding, or lack of depth, and do they match the lighting direction from the original sky?
+
+-Sub requirement 5: Placing a brass compass on the base—does the compass appear physically plausible in terms of material texture, reflectivity, and position, without floating or clipping errors?
+
+-Sub requirement 6: Maintaining the elephant’s structure and skin texture while scaling it down—does the model retain anatomical accuracy, wrinkle patterns, and tusks alignment without deformation or loss of detail?
+
+-Sub requirement 7: Ensuring all added elements (resin grass, tree, compass, painted clouds) are properly aligned with the perspective and lighting of the scene—does the composition avoid conflicting shadows, highlights, or depth cues?
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of transforming the entire scene into a diorama within a vintage travel case, evaluate whether the edges of the travel case are clearly defined and visually coherent with the rest of the scene. Check if the transition from the open savannah to a confined space introduces abrupt changes in lighting, depth, or framing that break realism.
+Question: Are the boundaries of the vintage travel case visible and seamlessly integrated into the scene without sudden shifts in perspective or lighting?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of replacing natural grass with textured resin, assess whether the simulated grass maintains natural blade-like structures, proper density, and shadowing consistent with real grass under sunlight. Look for signs of uniformity, plasticity, or repeating patterns that suggest artificial material.
+Question: Does the textured resin grass show individual blades with natural variation in length and angle, and does it cast soft shadows consistent with the light source?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of adding a tiny acacia tree for scale balance, determine whether the tree's size is proportionally smaller than the elephant and positioned at a distance that supports depth perception. Check if the tree appears distorted, stretched, or incorrectly scaled relative to the surrounding elements.
+Question: Is the miniature acacia tree significantly smaller than the elephant and placed at a distance that creates a believable sense of scale within the diorama?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of painting clouds on the backdrop lid, examine whether the clouds appear as part of the interior surface of the case rather than floating in the sky. Evaluate if they have matte finish, no reflections, and align with the ambient lighting of the scene.
+Question: Are the painted clouds located on the inner surface of the lid, showing no specular highlights or depth inconsistencies that would suggest they are floating?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of placing a brass compass on the base, check if the compass has a metallic sheen, engraved markings, and a fixed position on the surface without floating above it. Ensure there are no clipping issues or mismatched shadows.
+Question: Is the brass compass resting flat on the base with a clear reflection and shadow that matches the lighting direction and surface texture?
+Choices: Yes, No  
+A: Yes
+
+Q6: 
+Thinking process: Based on the sub requirement of preserving the elephant’s anatomy during scaling, verify that the skin folds, ear shape, trunk curvature, and tusk alignment remain anatomically accurate and undistorted. Look for any warping, stretching, or loss of detail in high-resolution areas.
+Question: Does the elephant retain natural skin texture, correct limb proportions, and intact tusk curvature without any visible deformation or pixelation?
+Choices: Yes, No  
+A: Yes
+
+Q7: 
+Thinking process: Based on the sub requirement of maintaining compositional consistency, evaluate whether all elements (elephant, tree, grass, compass, clouds) share a unified light source and shadow direction. Check for conflicting shadows, such as those pointing toward different angles or appearing unnaturally sharp.
+Question: Do all objects in the diorama cast shadows in the same direction and with similar softness, consistent with a single light source from above?
+Choices: Yes, No  
+A: Yes
+```

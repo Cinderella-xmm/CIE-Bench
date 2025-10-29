@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The short dark hair is a distinct physical feature of the subject in the original image. Although the instruction allows stylization (e.g., cartoon form), the hairstyle (short and dark) is not specified to be changed, making it a core identifier of the individual. Losing this feature would make the character unrecognizable as the same person. Therefore, it is a key identity element with weight 3.",
+      "question": "Does the person have short dark hair?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The person is standing at the edge of a lake with a grassy shore in the original image. This positioning defines the spatial relationship between the subject and the environment. Even though the posture changes to seated, the location at the lake’s edge must be preserved to maintain logical continuity. Thus, the shoreline setting is critical and worth 2 points.",
+      "question": "Is the person positioned at the edge of a lake with a grassy shore?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The lake reflects the surrounding mountains in the original image, creating a mirror-like effect. This reflection is a defining visual characteristic of the scene, contributing to the sense of serenity and symmetry. Although the instruction allows different lake views, the presence of a reflective surface in a mountainous alpine setting must remain to preserve the intended atmosphere. Hence, this is an important scene element worth 2 points.",
+      "question": "Does the lake reflect the surrounding mountains?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The foreground contains wildflowers, specifically purple and yellow blooms, growing among green grass. These flowers are visually distinctive and contribute to the natural beauty of the scene. While the artistic style may change, their presence helps ground the image in a real-world alpine meadow. Their retention supports visual coherence, making them a secondary but important detail worth 1 point.",
+      "question": "Are there purple and yellow wildflowers in the foreground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Scattered rocks line the shoreline in the original image, adding texture and grounding the scene in a natural environment. These rocks are not mentioned as being removed or altered, so they must be preserved to maintain environmental accuracy. Their presence supports the realism of the setting, even if stylized. This is a minor but coherent detail worth 1 point.",
+      "question": "Are there rocks visible along the shoreline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The person faces away from the viewer toward the lake, establishing a contemplative perspective. This orientation is central to the emotional tone of the image. Even if the posture changes to seated, the direction of gaze (toward the lake) must remain consistent to preserve narrative logic. This is a functional spatial relationship critical to the scene’s meaning, thus worth 2 points.",
+      "question": "Is the person facing away from the viewer toward the lake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The background consists of a mountain range with rocky peaks and patches of snow, characteristic of an alpine environment. While the instruction allows different lake views, the general setting of mountains surrounding a lake must remain to maintain thematic consistency. The presence of high-altitude terrain with snow remnants is a key environmental marker, supporting the alpine identity of the scene. This is an important contextual element worth 2 points.",
+      "question": "Are there rocky mountains with patches of snow in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

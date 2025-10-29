@@ -1,0 +1,97 @@
+{
+  "filename": "v2v_21807",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there four clock faces, one on each visible side of the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tower clearly has two visible clock faces on both its front sides, but only two sides are shown due to the angular perspective. Typically, such towers have four clock faces, but based on the image alone, only two are visible. Without additional context, the question refers specifically to the visible sides. Hence, there are not four visible clock faces depicted from this angle.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the clock faces contain black Roman numerals arranged in a circular pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the clock faces are clearly illustrated with black Roman numerals arranged in a circular pattern around the center of each clock. This design is consistent with many traditional clock faces, especially those found in public places. The numerals are legible and uniformly spaced, forming a complete circle.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a steeply pitched pyramidal roof topped with a finial at the very top of the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts the tower with a steeply pitched, distinct pyramidal roof, characteristic of many historical European towers. A finial, which serves both decorative and structural purposes, is visibly perched atop the roof apex, adding to the architectural style.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there four arched openings at the base of the tower, one on each side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the base of the tower with two visible arched openings, one on each visible side presented from the viewpoint. The design typically suggests symmetrical features on all four sides, but the image doesn’t explicitly reveal four openings being shown. The visible openings imply a probable consistent design on the unseen sides.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the tower located at the center of a circular road with vehicles traveling around it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the scene is clearly depicted with the tower situated in the middle surrounded by a road forming a circle. Vehicles are shown traveling around this circular path, suggesting it is a roundabout. This setup is typical in urban design to facilitate traffic flow.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there multiple cars visible on the road surrounding the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B distinctly shows several cars traveling along the circular road surrounding the tower. This implies regular traffic activity at the location, with visibility of each car contributing to the movement surrounding the landmark.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are there trees with bare or sparse foliage visible along the road behind the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the trees surrounding the road exhibit foliage characteristic of full spring or summer growth, illustrated with large, leafy crowns. This contrasts with the appearance of trees in autumn or winter, suggesting no visible bare or sparse foliage in this scenario.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

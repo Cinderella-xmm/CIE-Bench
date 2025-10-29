@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_65929",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the spatial arrangement and relative positions of the machinery consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the machinery seen in Image A has been replaced or obscured by a fantastical candy and chocolate river scene. There are no visible industrial machines like those in Image A. The relative positions and visible spatial arrangements that were present in Image A are overtaken by large lollipops, gingerbread, and candy, breaking any consistent alignment with the machinery setup in Image A.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the ceiling trusses still providing structural support in the same manner as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The ceiling trusses in both Image A and Image B appear to have the same structural framework and remain consistent in terms of design and function. Though the surroundings in Image B are fantastical, the trusses themselves maintain structural consistency and still appear to form the roof's framework as in Image A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the overall proportions and layout of the room match the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The overall layout and size of the room in Image B appear to be the same as in Image A. The structural elements like the ceiling and walls have the same proportions, despite the content and decorations within the room being different, such as candy and chocolate scenes in place of machinery.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the position and extent of the wall (now transformed into gingerbread) consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the wall has been artistically replaced with a gingerbread house design. Despite the thematic change, the position and continuity of the wall structure correlate with that seen in Image A, providing a backdrop similar in placement to the original brick wall.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the floor (now a river of chocolate) still serve as a base for the machinery in the same way as the original concrete floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the floor is depicted as a river of chocolate, which creates a fantastical scene not viable for supporting machinery as seen in Image A. The original concrete floor would serve as a stable base for heavy industrial machinery, while a chocolate river would not provide the same structural support or functionality.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5555555555555556
+}

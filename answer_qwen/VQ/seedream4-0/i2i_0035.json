@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0035",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the colors of the salad, milk carton, chicken parmesan, and oranges enhanced in a way that appears natural and free from obvious artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The colors in Image B appear more vibrant compared to typical real-world lighting conditions. The greens of the salad are brighter and more saturated than usual, suggesting digital enhancement. The orange slices have an unusually vivid hue with sharp contrast between the peel and flesh, which may indicate color grading. The cheese on the chicken parmesan has a uniform, almost glowing white tone, lacking the natural variation seen in melted cheese. The milk carton’s green label is also more intense and evenly lit than would be expected under natural light. However, there are no visible pixelation, blurring, or unnatural edges that suggest digital artifacts such as over-sharpening or noise. While the enhancement is noticeable, it does not introduce obvious distortions or errors. Therefore, the color enhancement seems intentional for visual appeal but remains within plausible bounds of natural appearance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the added title \"Today’s Balanced Lunch\" blend naturally into the image without breaking the structural consistency or introducing any distorted elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The title 'Today’s Balanced Lunch' is placed at the top of the image in large, bold, white sans-serif font against an orange background. This text is overlaid directly onto the image, but it is separated from the plate by a dashed white border, which frames the plate and creates a clear distinction between the text and the food. The orange background behind the text matches the overall color scheme of the image, contributing to visual harmony. There is no distortion of the underlying image elements beneath the text, nor are there transparency issues or shadow artifacts that would suggest poor layering. The text is well-aligned and proportionally sized relative to the image, maintaining balance. Given that the design uses a graphic overlay style common in school meal promotions, the integration of the title appears deliberate and consistent with intended use cases. It does not disrupt the structural integrity of the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the white outlines applied to the edges of the plate, food items, and text enhance the visual clarity without creating unnatural textures or degrading fine details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "White outlines are visibly applied around the plate, food items (such as the orange slices and salad), and the text. These outlines serve to emphasize boundaries and improve contrast, especially against the orange background. However, upon close inspection, the outlines appear somewhat thick and artificial—particularly around the irregular edges of the salad and the curved surface of the orange slices. Such uniform outlining can make organic shapes look cartoonish or overly stylized. Additionally, the outline on the milk carton is slightly misaligned with its corners, suggesting digital tracing rather than natural edge definition. While these outlines do enhance visibility, they introduce an unnatural texture that detracts from realism. Fine details like the texture of the lettuce leaves or the pores on the orange skin are not degraded, but the presence of the outlines makes the image feel less authentic. Thus, while clarity is improved, the aesthetic quality suffers due to the artificiality of the outlines.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the placeholder for the school logo placed at the bottom right corner with appropriate size and proportion, ensuring it fits naturally within the layout without disrupting the overall balance of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "A small cow-themed logo is present in the bottom right corner of the image, accompanied by the text 'Today's Balanced Lunch' and 'Fortress Hill/Loganah Schools'. The logo is modest in size, roughly one-tenth the height of the plate, and is positioned in a standard location for branding—bottom right. Its placement does not overlap with any critical food elements or text, preserving readability and visual flow. The proportions of the logo are consistent with typical school branding graphics, and its scale is balanced relative to the other elements. The inclusion of the logo does not draw excessive attention away from the main subject (the lunch), nor does it create visual imbalance. The design choice aligns with common practices in educational meal promotion materials, where logos are subtly integrated. Therefore, the logo’s placement and sizing are appropriate and harmonious.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the image been resized and formatted for an A4 vertical layout in a manner that preserves the natural proportions and structural consistency of the plate, food items, and text elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image is presented in a vertical orientation with a strong orange border framing the central content. The plate and food items are centered and occupy most of the frame, indicating a deliberate composition suited for a vertical format. The aspect ratio appears consistent with A4 dimensions (approximately 297mm x 210mm), and the elements are proportionally scaled to fit within this space. The plate is not stretched or distorted; its oval shape remains intact. The text at the top and the logo at the bottom are aligned vertically and spaced appropriately, suggesting thoughtful layout planning. There is no evidence of cropping, skewing, or pixelation that would indicate poor resizing. The overall structure maintains coherence, with all components properly aligned and scaled. This suggests that the image has been professionally formatted for A4 printing, preserving both proportions and visual hierarchy.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0050",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image contain three separate frames capturing the skater's motion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, there are three distinct silhouettes of a person that appear to depict different stages of motion, likely representing sequential frames capturing the skater's movement. This triptych style is commonly used to illustrate movement over time. Each silhouette is separate and shows a different posture, indicating they are separate frames of a motion sequence.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the three frames clearly showing the push-off, ground contact, and forward lean of the skater?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image shows three silhouettes, each in different positions that suggest stages of skating motion. The first silhouette appears to be crouching down, indicating a push-off motion. The second shows a mid-transition stance, likely representing ground contact. The third silhouette leans forward, indicating a forward lean. These stages are characteristic of a skater's progression through push-off, ground contact, and forward motion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain the real image style without any significant stylistic distortions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image employs a silhouette style, which differs significantly from a realistic image style. A realistic image would use full detail and color, while the silhouette style in the image is more abstract, focusing on shape and form rather than realistic detail.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are motion trajectory lines present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image includes lines emanating from different points around the silhouettes. These lines are likely intended to indicate motion or dynamic action, representing the trajectory or speed of the skater's movement. Such lines are commonly used in illustrations to suggest motion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the three frames combined in a cohesive manner within the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The three silhouettes are presented in a sequential order with motion lines, providing clear visual continuity from one to the next. This coherent arrangement forms a logical progression of movement, making the frames appear integrated and cohesive within the context of a single image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

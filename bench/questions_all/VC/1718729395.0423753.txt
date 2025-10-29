@@ -1,0 +1,115 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a young angelic figure with long, flowing golden-blonde hair that cascades over her shoulders and back. Her facial features are delicate, with soft blue eyes, a gentle expression, and rosy cheeks. She wears a simple, loose-fitting white garment resembling a classical robe or tunic, with subtle folds and a soft texture. Behind her are large, expansive white wings composed of layered feathers, extending symmetrically from her back, rendered with fine detail and natural lighting. A faint, luminous halo floats above her head, forming a thin circular glow. The background is muted and atmospheric, consisting of soft gray-blue tones with diffuse light suggesting a celestial or ethereal space. The overall composition emphasizes serenity, purity, and divine presence, with the angel slightly turned toward the viewer, her right hand gently touching her chest or shoulder.
+
+Thinking process:  
+The editing instruction specifies transformation into a **classical Baroque painting style**, which implies changes in artistic technique, color palette, lighting, and texture—but does not specify altering the **identity or form** of the subject itself. Key elements mentioned for change include:
+- **Garments**: "dramatic ornate garments featuring rich textures and deep colors" → indicates replacement of current simple white robe.
+- **Wings**: "Add gold accents to the wings, emphasizing their feathery detail" → allows modification of wing appearance but not elimination; enhances existing feature.
+- **Background**: "Replace the background with an opulent celestial scene filled with soft clouds and distant stars" → explicitly states background replacement.
+- **Style**: "Baroque painting style" → affects brushwork, chiaroscuro, drama, and richness, but not core identity.
+
+Thus, the following are allowed to change:
+- Clothing design and material (from plain white robe to ornate Baroque-style attire)
+- Wing coloration and texture (addition of gold accents)
+- Background environment (entirely replaced)
+- Lighting and shading (to match Baroque dramatic contrast)
+- Overall artistic rendering (style shift)
+
+Allowed Changes List:
+- The design and color of the garment
+- The addition of gold accents on the wings
+- The background scene
+- The lighting and shadow dynamics
+- The texture and rendering style (e.g., brushstroke simulation, depth, contrast)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+We now apply exclusion logic based on the allowed changes to identify what must remain unchanged.
+
+**Core recognition elements:**  
+The subject is an **angel**, identifiable by key symbolic attributes:
+- **Wings**: Presence of large feathered wings is essential to angelic identity. Though texture and color may change (gold accents allowed), the **existence, shape, and positioning** of the wings must remain intact—otherwise the figure loses its angelic nature.
+- **Halo**: The faint circular halo above the head is a **core religious iconographic symbol** of divinity. It is not mentioned in the instruction as being removed or altered, so it must be preserved.
+- **Facial features and expression**: While clothing and background can change, the **face**—especially the **blue eyes, blonde hair, and serene expression**—are central to the subject’s identity. These define the specific angelic character depicted. Altering them would change the identity of the figure.
+- **Posture and orientation**: The figure is slightly turned toward the viewer, with one hand near the chest. This pose contributes to the emotional tone and narrative context. Though minor adjustments might be acceptable, the **basic orientation and hand placement** should be preserved for continuity.
+
+**Functional/logical association elements:**  
+- The **relationship between the halo and the head** must remain: the halo must still float directly above the head, maintaining its symbolic function.
+- The **wings must remain attached to the back**, aligned with the spine and shoulder blades, preserving anatomical and symbolic logic.
+
+**Non-modified element deduction:**  
+After removing allowed changes (clothing, background, wing coloration details), the following remain:
+- The **presence and structure of the wings**
+- The **halo's position and form**
+- The **facial features (eyes, hair, skin tone)**
+- The **hand position near the chest**
+- The **overall body posture and angle**
+- The **color and texture of the hair** (blonde, wavy, flowing)
+
+These are not explicitly permitted to change and are necessary for visual coherence and identity retention.
+
+Preservation Targets List:
+- The presence and symmetrical positioning of the large feathered wings
+- The halo above the head in a circular, glowing form
+- The facial features including blue eyes, blonde hair, and serene expression
+- The hand placed near the chest/shoulder area
+- The overall body orientation (slightly turned toward viewer)
+- The natural flow and texture of the long, wavy blonde hair
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The halo is a critical iconographic element identifying the figure as divine or angelic. Its absence or alteration (e.g., shape, position, luminosity) would fundamentally change the subject's identity. Since the instruction does not mention removing or changing the halo, it must be preserved. The halo’s presence above the head in a circular form is a unique identifier of this angelic figure.
+    Question: Is there a faint circular halo floating above the angel’s head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The wings are essential to the angelic identity. Even though gold accents are added, the wings' existence, size, and attachment to the back must remain. Their symmetrical spread and feathered structure are key visual identifiers. Removing or drastically altering their form would make the figure no longer recognizable as an angel.
+    Question: Are there large, fully extended feathered wings visible behind the figure, symmetrically positioned?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The blue eyes are a defining facial feature of the original subject. They contribute to the angel’s serene and ethereal expression. Changing eye color or removing them would alter the identity of the figure, especially since the original has distinct blue irises. This is a core recognition element tied to the subject’s visual identity.
+    Question: Does the angel have bright blue eyes?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The hand placement near the chest is part of the figure’s pose and emotional expression. It suggests introspection or reverence, contributing to the narrative. Although the garment may change, the hand’s position relative to the body must remain consistent to preserve the original gesture and posture.
+    Question: Is the right hand placed near the chest or shoulder area?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The long, wavy, golden-blonde hair is a distinctive trait of the figure. While lighting may affect appearance, the hair’s color, length, and flow are key to recognizing the subject. Altering these would change the visual identity significantly, even if the style is transformed.
+    Question: Does the figure have long, wavy, golden-blonde hair that flows over the shoulders and back?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The overall body orientation—slightly turned toward the viewer—is crucial for maintaining the original composition and gaze direction. A complete frontal or profile view would disrupt the intended perspective and emotional connection. This spatial relationship is part of the figure’s identity in the original image.
+    Question: Is the figure positioned slightly turned toward the viewer, with the face angled forward?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

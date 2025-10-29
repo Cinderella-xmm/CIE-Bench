@@ -1,0 +1,94 @@
+Description of reference image: The subject is a vertically stacked wooden totem pole composed of three distinct carved faces, each with unique facial features and symbolic elements. The top face has a wide, flat forehead, closed eyes, a broad nose, an open mouth with visible teeth, and two upward-curving horn-like protrusions on either side of the head. Below this face is a rectangular block with horizontal lines resembling a headdress or mask frame. The middle section features a second face with closed eyes, a straight nose, and a slightly open mouth with teeth; it has a cylindrical neck with a small circular carving near the base, and arms are carved as simple vertical extensions from the sides. This figure sits atop a decorative ring with triangular patterns. The bottom face is larger and more stylized, with deeply carved eyelids, a prominent nose, a wide mouth with layered lips, and a textured chin. It rests on a base with a repeating diamond-shaped border pattern. The entire totem is made of dark brown wood with visible grain texture, showing natural aging and weathering effects. There is no background—only the totem against a plain white backdrop.
+
+Thinking process: First, analyze the editing instructions word by word: "Transform the wooden totem pole into a miniature 3D diorama inside a cylindrical glass dome." This indicates that the **form** of the totem (its physical existence as a standalone object) will be changed — now enclosed in a dome. "Encase the totem in a lush, forest-themed setting with tiny ferns and moss at the base" implies the **environment** changes significantly. "Add a whimsical, animated butterfly perched on top" introduces a new element not present originally. "Create an earthy color palette with rich wood textures and green accents" suggests color enhancement but allows modification of tone and surrounding hues. However, the instruction does **not** say to alter the totem’s design, structure, or facial features — only to reframe its presentation context. Therefore, any **intrinsic visual characteristics of the totem itself**, such as the shape, number, and arrangement of faces, must remain intact unless explicitly altered by the instruction.
+
+Allowed Changes List:
+- The overall form of the totem (from freestanding to encased in a glass dome)
+- The surrounding environment (from bare white background to forest-themed diorama with ferns and moss)
+- Addition of a butterfly on top
+- Color palette adjustments (as long as wood textures remain consistent)
+- Introduction of lighting or depth cues due to enclosure in a dome
+
+-----------------------------------------------------------------------------------
+
+Thinking process:  
+Core recognition elements: The identity of the totem pole hinges on its **three-tiered structure**, **distinct facial carvings**, and **iconic stylistic details** such as the horn-like projections on the top face, the rectangular framing around the upper face, the circular marking on the middle figure's chest, and the diamond-patterned base. These are essential for identifying the object as a traditional-style totem pole. If these features were removed or altered beyond recognition, the edited image would no longer represent the original subject accurately.
+
+Functional/logical association elements: The **vertical stacking order** of the faces is crucial — changing their sequence or removing any one would disrupt the structural logic of the totem. Also, the **relative proportions** between the faces and the **positioning of key features** (e.g., horns above the top face, arms on the middle figure) must be preserved to maintain coherence with the original design.
+
+Non-modified element deduction: Since the instruction does not mention modifying the **face shapes**, **number of faces**, **ornamental patterns**, or **wooden texture**, all these unmentioned attributes must be retained. Even though the scene changes, the **visual integrity of the totem** must remain faithful. For example, the **presence of three faces**, the **horn-like ears**, and the **diamond border at the base** are not mentioned as changeable, so they must be preserved.
+
+Preservation Targets List:
+- The presence of three stacked carved faces
+- The horn-like protrusions on the top face
+- The rectangular frame surrounding the top face
+- The circular mark on the chest of the middle figure
+- The diamond-patterned border at the base
+- The closed eyes and open mouths with teeth on all faces
+- The visible wood grain texture across the entire totem
+- The relative positioning and proportions of the faces
+
+-----------------------------------------------------------------------------------
+
+{
+    Q1: 
+    Thinking process: The horn-like protrusions on the top face are a defining feature of this specific totem pole design, distinguishing it from other similar carvings. Their absence would make the totem unrecognizable as the original. They are physically attached to the head and symmetrically positioned on both sides, forming part of the crown-like structure. This is a core identity element.
+    Question: Are the two upward-curving horn-like protrusions still present on either side of the top face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The rectangular block framing the top face is a distinctive architectural feature that sets this totem apart. Its presence contributes to the symbolic and aesthetic identity of the sculpture. Removing or altering it would fundamentally change the visual character of the uppermost section.
+    Question: Is the rectangular frame with horizontal grooves still positioned directly below the top face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The circular carving on the chest of the middle figure is a unique detail that adds symbolic value and helps identify the figure within the stack. Its placement and shape are consistent with traditional totem motifs. Altering or omitting it would reduce the authenticity of the carving.
+    Question: Is there a small circular carving located on the front of the middle figure's torso?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The diamond-shaped pattern along the base of the totem is a recurring decorative motif that reinforces the cultural style and craftsmanship. It serves as a visual anchor at the bottom of the structure. Its removal would diminish the completeness of the design.
+    Question: Is the diamond-patterned border still present around the lower edge of the totem?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The wood grain texture is a fundamental material characteristic of the original totem, contributing to its realism and aged appearance. While the instruction allows for enhanced colors, the underlying texture must remain visible to preserve the tactile quality of the piece.
+    Question: Is the natural wood grain texture clearly visible across the surface of the totem?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The closed eyes and open mouths with detailed teeth are consistent across all three faces and define the expressive style of the carving. These facial features are critical for recognizing the emotional tone and stylistic intent of the totem. Changing them would misrepresent the original design.
+    Question: Do all three faces have closed eyes and open mouths with visible teeth?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q7: 
+    Thinking process: The relative size and stacking order of the faces establish the hierarchical structure of the totem. The top face is smaller, the middle is medium, and the bottom is largest — this progression is essential for maintaining the original composition. Reversing or distorting this would break the visual logic.
+    Question: Is the bottom face larger than the middle face, which is larger than the top face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

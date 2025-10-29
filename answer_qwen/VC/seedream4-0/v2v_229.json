@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_229",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the presence of the bed as the central object?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the bed is clearly depicted as the central and most prominent object in the scene. It occupies the majority of the frame, positioned centrally with a symmetrical layout around it. The bed includes a headboard, mattress, bedding, and pillows, all consistent with typical bedroom furniture representation. The artistic style is cartoonish and stylized, but the bed remains the focal point, just as in real-world bedroom compositions where the bed is typically the dominant piece. This conclusion is supported by visual cues such as size, placement, and attention to detail on the bed compared to surrounding elements. No other object dominates the space, confirming the bed's central role.",
+      "weight": 3,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image retain the warm glow from the lamp and candles?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the lamp on the bedside table emits a yellow light, visually represented by a glowing shade, which suggests warmth. Similarly, the candles are illustrated with small flames, and their light is implied through subtle shading and color gradients, especially around the flame areas. While the overall image uses a bright, flat cartoon style, the depiction of light sources—particularly the glowing lampshade and lit candle flames—indicates an attempt to convey warmth. However, unlike Image A, where the lighting creates soft shadows and ambient warmth across the room, Image B uses more uniform illumination without realistic shadowing or depth. Nevertheless, the presence of glowing elements (lamp and candles) indicates that the concept of warm glow is retained, albeit in a stylized manner. Therefore, based on the symbolic representation of light sources, the warm glow is preserved in intent and visual cue, even if not realistically rendered.",
+      "weight": 3,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain the soft texture representation of the bedding?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the bedding is rendered in a smooth, cartoon-style illustration with gentle curves and minimal shading. While the original image (Image A) shows detailed textures such as woven patterns and fabric folds under soft lighting, Image B simplifies these details into a more uniform, glossy surface. The quilt appears shiny and lacks the visible weave or tactile quality seen in Image A. In real-world terms, soft textures are often conveyed through fine lines, subtle gradients, and realistic folds. Here, the artist uses bold outlines and solid colors, sacrificing textural detail for stylistic clarity. Thus, although the bedding is present and visually soft in appearance due to its rounded form and warm tones, the actual representation of soft texture—such as fabric grain or depth—is significantly reduced. Therefore, while the idea of softness may be implied, the detailed texture representation is not retained.",
+      "weight": 2,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image retain the arrangement of pillows on the bed?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the bed features multiple pillows arranged in a layered fashion. There are two larger white pillows at the back and one smaller pillow in front, which has a cute face drawn on it—adding a whimsical element. This arrangement mirrors the general structure seen in Image A, where several pillows are stacked behind each other. However, in Image A, there are four pillows (two pairs), whereas in Image B, only three are visible. Additionally, the central pillow in Image B has anthropomorphic features (eyes, cheeks, smile), which is not present in the original. Despite this difference in number and design, the overall spatial arrangement—larger pillows at the back, smaller one in front—is preserved. Based on common bedroom aesthetics, such arrangements are standard for comfort and decoration. Thus, while not identical, the core arrangement logic is maintained, even if simplified and stylized.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image retain the position of the bedside table relative to the bed?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the bedside table is placed to the left side of the bed, adjacent to it, consistent with typical bedroom layouts. This matches the positioning in Image A, where the nightstand is also located on the left side of the bed. Both images show the table holding a lamp and candles, reinforcing its functional role. In real-world interior design, bedside tables are usually placed directly beside the bed for convenience, and both images adhere to this convention. Although Image B uses a more stylized, two-dimensional perspective, the relative placement remains accurate. There is no indication of displacement or asymmetry that would suggest a change in position. Therefore, the relative positioning of the bedside table to the bed is preserved in the edited version.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8333333333333334
+}

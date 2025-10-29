@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0093",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image have bright, clean lines and textures characteristic of Pixar animation style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a phone on a charging base with clean lines and a smooth surface. While the lighting is consistent and captures details, the image lacks the distinctive stylized features of Pixar animation, such as exaggerated geometric shapes and vibrant, cartoonish coloring. Pixar animations often include whimsical elements and highly stylized characters, which are not present in this realistic photograph. Thus, the photo has clean lines but lacks the Pixar style texture.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the phone still positioned diagonally on the charger, and do the cables maintain their original placement?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the phone remains diagonally placed on the circular charging base, with the cable plugged into the device at the bottom and extending outwards in a similar fashion as seen in Image A. The arrangement of the objects suggests they have retained their positioning between the original and edited images.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the colors in the image vibrant and saturated, consistent with Pixar's animation style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents a relatively vibrant and saturated green background but lacks the exaggerated vibrancy and kaleidoscopic colors often seen in Pixar animation, which typically display a wider range of colorful hues with a humorous and dynamic palette. While the green background is vivid, it does not fully emulate the colorful vibrancy characteristic of Pixar's animation style.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the lighting create smooth shadows that enhance the three-dimensional look of the phone and charger?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B's lighting effectively creates smooth shadows around the phone and charger, enhancing their three-dimensional appearance. The neutral lighting softly defines the contours and amplifies the object's depth and dimensions on the flat green surface, thus providing a realistic and three-dimensional look.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Have any objects or elements been added or removed from the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Comparing Image A and Image B, the phone's screen in Image B displays the Apple logo, suggesting that the phone is being powered on or restarted. In contrast, Image A shows a screen without any visible elements or logos. Thus, an element (Apple logo) has been added to Image B compared to Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

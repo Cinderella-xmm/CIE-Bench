@@ -1,0 +1,104 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a black quadcopter drone model labeled "601S/Black QUADCOPTER," positioned diagonally against a light gray geometric-patterned background. The drone has four arms extending from a central body, each ending in a rotor with two black propellers. Each rotor is protected by a black Y-shaped guard. The central body is angular and black, accented with yellow triangular markings and the text "Long endurance" in cursive gold font. On the top surface of the body, there are three rectangular battery indicator lights (currently unlit). The landing gear consists of four black, V-shaped supports forming a stable base. The overall design is sleek, modern, and mechanical, emphasizing sharp edges and symmetry.
+
+Thinking process:  
+The editing instruction explicitly states to **anthropomorphize** the drone into a **dynamic sci-fi comic book character**, which implies a complete transformation of form and function. Key directives include:
+- Transforming the **central body into a robotic face** → the original body shape will be reinterpreted.
+- Converting **rotor blades into arms** → the propellers and rotors will be reimagined as limbs.
+- Integrating **landing gears as spider-like legs** → structural redesign of the support system.
+- Placing the character **mid-flight over a futuristic cityscape** → background change required.
+- Adding **speech bubbles** with mission text → new narrative elements.
+
+From this, it is clear that:
+- The **form of the drone** (including its body, rotors, and landing gear) is to be transformed into a character, meaning these components are not to be preserved literally.
+- The **background** is to be replaced entirely with a futuristic cityscape.
+- **Textual elements** like “Long endurance” and “601S/Black” are not mentioned for retention — thus they are allowed to be changed or removed.
+- However, the **core identity of the object** (i.e., that it is a drone-based character) must still be traceable through visual continuity.
+
+Allowed Changes List:  
+(Specific element 1 that allows for changes): The central body shape (to become a robotic face)  
+(Specific element 2 that allows for changes): Rotor blades (to become arms)  
+(Specific element 3 that allows for changes): Landing gear structure (to become spider-like legs)  
+(Specific element 4 that allows for changes): Background (to become futuristic cityscape)  
+(Specific element 5 that allows for changes): Text labels (“Long endurance”, “601S/Black”)  
+(Specific element 6 that allows for changes): Propeller rotation state and orientation  
+(Specific element 7 that allows for changes): Color scheme (though black and yellow are implied as dominant, they may be adjusted for stylistic effect)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Despite the transformation, certain **visual anchors** from the original drone must remain to preserve recognition and logical consistency with the source object. These are derived via exclusion from the allowed changes:
+
+**Core recognition elements:**  
+Although the drone is being anthropomorphized, its **identity as a quadcopter** must still be evident. This means the **number of rotors (four)**, their **arrangement (one per arm)**, and the **presence of protective guards** are critical. Even if transformed into arms, the **functional origin** of the rotors must be visually implied. Additionally, the **overall symmetry and angular design** of the body contribute to its technological aesthetic and should be retained in stylized form.
+
+**Functional/logical association elements:**  
+The **quadcopter’s four-rotor configuration** is essential for flight mechanics. In the edited version, even as arms, the **number and radial placement** of propulsion units must reflect the original layout to maintain functional logic. The **V-shaped landing gear** suggests stability and grounding — now repurposed as legs, but their **structural form** should echo the original geometry.
+
+**Non-modified element deduction:**  
+While the text and exact color palette can be altered, the **yellow accent markings** (triangular shapes on the body) are distinctive and serve as visual branding. Their **presence and angular placement** help identify the model. Also, the **battery indicator lights** (three rectangles) are unique interface features that could be preserved in the robot's face or chest as status indicators.
+
+Preservation Targets List:  
+(Element 1 that should be maintained): The presence of four rotors arranged symmetrically around the central body  
+(Element 2 that should be maintained): The yellow triangular accents on the central body  
+(Element 3 that should be maintained): The V-shaped landing gear structure  
+(Element 4 that should be maintained): The angular, sharp-edged design of the central body  
+(Element 5 that should be maintained): The three rectangular battery indicator lights on the top surface  
+(Element 6 that should be maintained): The black color dominance with yellow highlights
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Retained Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The presence of four rotors is the defining structural feature of a quadcopter. Removing or altering their number would fundamentally change the drone’s identity. Even when converted into arms, the count and radial arrangement must remain consistent to retain functional logic and recognition. This is a core identity element, so loss would make the original object unrecognizable, justifying a weight of 3 points.
+    Question: Are there exactly four rotor assemblies arranged symmetrically around the central body?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The yellow triangular accents are unique visual markers on the drone’s body, serving as both aesthetic and brand identifiers. They appear at specific locations (top, sides, rear), and their angular shape matches the drone’s aggressive design language. Altering or removing them would reduce visual fidelity to the original model. While not essential for basic identification, they are key distinguishing details, hence assigned 2 points.
+    Question: Are there yellow triangular markings present on the top and side surfaces of the central body?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q3: 
+    Thinking process: The V-shaped landing gear is a structural hallmark of the drone’s design, providing balance and protection. Although transformed into spider-like legs, the underlying V-form must be preserved to maintain continuity with the original. Its geometric shape is a key detail that links the original object to the transformed character. Thus, it is an important structural element, warranting 2 points.
+    Question: Are the landing supports shaped like V-forms at each corner of the drone?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The angular, sharp-edged design of the central body defines the drone’s futuristic and mechanical aesthetic. This silhouette is crucial for maintaining the visual identity of the device. Even when stylized into a face, the sharp lines and polygonal forms must persist to ensure coherence with the original. This is a core design trait, so it receives 3 points.
+    Question: Does the central body feature sharp, angular edges and a polygonal structure?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q5: 
+    Thinking process: The three rectangular battery indicator lights are a unique interface feature visible on the top surface. They are not just decorative but represent a functional component of the drone. In the edited version, they might be repurposed as eyes or status displays, but their presence and layout must be preserved to maintain technical authenticity. As a minor but identifiable detail, it earns 1 point.
+    Question: Are there three small rectangular lights aligned horizontally on the top surface of the central body?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The black base color with yellow highlights is the primary color scheme of the drone. While the instruction allows artistic freedom, the contrast between black and yellow is essential for visual recognition. If the colors are completely changed (e.g., to red and blue), the connection to the original model is lost. Since this is a key branding and identity element, it is assigned 2 points.
+    Question: Is the drone predominantly black with yellow accent markings?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

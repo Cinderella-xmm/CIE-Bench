@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_128_34",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the McLaren logo clearly visible on the center of the car's hood?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the car features a logo on the hood. Using world knowledge, based on its shape and positioning, the logo resembles what is often found on McLaren cars. However, due to the potential edit, the clearness of the logo should be particularly noted, and it's not distinctly clear if it's the McLaren logo. In comparison to Image A, the logo is possibly visible in a similar position but clearer. The conclusion is drawn from visual assessment combined with world reference to McLaren's usual logo placement and appearance.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the headlights shaped in a narrow, curved, and horizontally elongated design with internal LED strips?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The headlights of the car in Image B are visibly narrow, curved, and horizontally elongated. This associates with common design features seen in modern sports cars, including those from manufacturers like McLaren. They often include internal LED strips. Image A is consistent with this appearance, aiding conclusion using design familiarity to validate the description.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the brake calipers behind the front wheels colored bright orange?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the brake calipers behind the front wheels are brightly colored. With visual cues leading to an orange hue evident from the image, and common car enhancements often feature such vibrant calipers. Comparing with Image A shows brake calipers colored similarly. Using a comparison of both images and common automotive design features, orange is confirmed.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the tree leaves display a vibrant, natural green color without significant discoloration?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The trees surrounding the miniature city in Image B present leaves that appear green and vibrant. This is indicative of healthy trees found in street scenes. When compared with Image A where trees also appear vibrant and green, one's world knowledge about the expected color of well-maintained urban and hobbyist model environments where trees are vibrant verifies the observation.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are white lane markings present on the asphalt road beneath the car?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the recreated miniaturized setting of Image B, the roads intentionally include white lane markings visible beneath the car, signifying roadway guidance. In Image A, similar markings exist, consistent with standard automobile roads alluding to street markings for traffic navigation purposes in real-world settings.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the car have a raised, sharply angled edge along the side above the wheel arches indicating dihedral door hinges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The car design in Image B shows raised angles above the wheel arches, a characteristic pointer towards unique door hinge designs like dihedral which McLaren often utilizes. When Image A is referenced, similar design cues suggest an authenticity signature to exotic car styles where angular body lines confirm door hinge types.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are there at least two other cars visible in the background — one red and one yellow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Within the confined diorama of Image B, other vehicles are absent due to spatial limitation meant for the focused model perspective. Contrasting with Image A, which visually represents an urban setting backdrop where such colored cars can appear logically within an active streetscape, verifying their presence not depicted in Image B.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7333333333333333
+}

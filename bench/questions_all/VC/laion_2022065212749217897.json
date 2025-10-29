@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The shape and color of the eyes are critical for facial identification. The original image shows almond-shaped eyes with a distinct grayish-blue hue and visible eyelashes. In any stylized version, these features must remain recognizable to preserve the individual's identity. Loss of this detail would result in misidentification, making it a core recognition feature. Therefore, the question directly checks for the presence of this key facial trait.",
+      "question": "Are the eyes almond-shaped with a grayish-blue iris and visible upper and lower eyelashes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The receding hairline and sparse gray hair on the sides are defining traits of the subject’s appearance. This pattern is highly distinctive and contributes significantly to facial recognition. Even in a chibi style, the balding crown and side hair must be preserved in form to maintain identity. Altering this would fundamentally change the subject’s appearance.",
+      "question": "Is there a receding hairline with thin, light gray hair present only on the sides and back of the head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The shirt’s stripe pattern is explicitly required to be “captured” in the edit, meaning the structural layout—red and white stripes on a dark blue background—must be preserved. While colors may be intensified, the pattern’s composition is essential for maintaining continuity between the original and edited versions. This is a key accessory feature tied to identity.",
+      "question": "Does the shirt have thin vertical red and white stripes running along the collar and down the placket on a dark blue background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The visible white buttons on the shirt are part of the garment’s structural detail. Although the material may change to enamel, the presence and placement of the buttons (especially the top one) help confirm the shirt’s identity. Their absence would alter the visual logic of the clothing.",
+      "question": "Is there a visible white button at the top of the shirt’s placket?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The notched lapel of the gray blazer is a key structural element of the outerwear. It helps identify the type of jacket and contributes to the overall formal appearance. While the material may change to glossy enamel, the lapel’s shape must remain intact to preserve the garment’s identity.",
+      "question": "Does the gray blazer have a notched lapel with a defined edge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The skin texture, including visible pores and fine lines around the eyes and forehead, contributes to the realism and age-specific identity of the subject. While stylization may smooth these, their presence or absence affects whether the figure remains recognizably human and aged as in the original. This is a secondary but important detail for coherence.",
+      "question": "Are fine lines visible around the eyes and forehead, and is the skin texture subtly detailed with pores?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

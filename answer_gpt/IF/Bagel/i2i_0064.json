@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0064",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the cat been fitted with glasses?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cat is clearly wearing a pair of black-rimmed glasses. The presence of glasses is visually evident and can be identified based on conventional designs of eyewear. Combining this visual cue with world knowledge, it's apparent that this is an edited human-like accessory added to the cat's face.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the cat lounging on a sofa in a human-like posture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cat's posture on the sofa is distinctly human-like. It is sitting upright against the sofa's back, with its forepaws positioned in a way that mimics a human sitting comfortably. World knowledge about typical lounging positions for humans and the usual sitting positions for cats supports the conclusion that the posture has been altered to appear more human-like.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the cat holding a remote control while a TV appears in the foreground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image shows the cat with its paw resting on a TV remote control, and a TV is visible in the foreground. The remote control is a recognizable object due to its design and button layout, indicating the cat is holding it. World knowledge about TV viewing habits confirms these elements are intended to depict a scenario usually associated with humans watching television.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the background been changed to depict a living room scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the background shows a typical living room setting, with elements such as curtains and framed artwork indicative of indoor decor. Using world knowledge about interior spaces, this is clearly a deliberate change to the background to fit the scene of the lounging cat.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the cat retain its original fur pattern, posture, and bell collar?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "While the cat appears to retain its fur pattern and bell collar, its posture has been altered to a human-like sitting position on the sofa. The original posture is likely different, given normal cat resting poses. Therefore, combining visual analysis and world knowledge of typical cat posture, only the fur pattern and collar remain unchanged.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

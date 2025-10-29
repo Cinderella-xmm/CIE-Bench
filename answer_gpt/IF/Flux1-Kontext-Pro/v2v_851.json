@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_851",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image rendered in monochrome (grayscale)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B exhibits a black-and-white, textured style that resembles monochrome or grayscale rendering. The absence of color and the shading technique create a classic, illustrative look, highlighting tonal variations and details without using different colors.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the event details written in rustic, slightly imperfect typography?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The typography of Image B appears handcrafted and rustic, simulating imperfections that contribute to an organic feel. The letters might have uneven edges and varied thicknesses, giving a vintage or artisanal vibe that adds character to the advertisement.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the advertisement include the event name \"Riders & Reins Expo 2024,\" location \"Evergreen Equestrian Center, Olympia, WA,\" and date/time \"Saturday, September 14, 2024, from 10:00 AM to 6:00 PM\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B provides the event name 'Riders & Reins Expo 2024' and location 'Evergreen Equestrian Center, Olympia, WA.' However, the date details are shown differently, with 'September, 2024, 10:00 AM - 10:36:00 PM' rather than the exact Saturday and time frame mentioned in the question.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there visible space allocated for listing ticket prices and contact details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B is primarily focused on the visual and textual presentation of the horse and event details. There appears to be no specific additional space left unoccupied that would be designated for ticket prices or contact information.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the advertisement formatted in standard letter-sized portrait orientation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B's layout appears to be a standard poster format, given the arrangement and how the visual fills the space. However, it's unclear if this corresponds precisely to standard letter-sized portrait orientation without direct reference to dimensions or scale.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

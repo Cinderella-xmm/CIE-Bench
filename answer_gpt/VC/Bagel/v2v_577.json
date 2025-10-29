@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_577",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the subject's hair dark brown and wavy in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "By observing Image B, the subject is represented by a LEGO figure, which typically does not have distinct hair colors like the nuanced tones in human hair but relies on the limited palette available in LEGO design. The focus on common LEGO design suggests that the hair is likely dark, but the representation does not show it as wavy. The subject's LEGO figure has short straight hair.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the subject wearing a light blue shirt in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the LEGO figure is wearing an outfit that appears to be a light blue color based on LEGO piece coloring. This resembles a shirt, supporting the idea that this figure wears light blue, consistent with LEGO design logic.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a chest pocket on the left side of the subject's shirt in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The LEGO figure in Image B shows design features typical of LEGO clothing but does not display additional features like chest pockets since LEGO pieces have simplified clothing designs.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the subject's hands positioned on the laptop keyboard in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The LEGO figure in Image B is seated at a desk, with its hands in front of a laptop. The hand position supports the notion that they are interacting with the laptop, typical of playful LEGO designs simulating real-life positions using simplified poses.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the subject facing slightly to her right with her head turned toward the laptop in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the LEGO figure is oriented facing directly toward its laptop, typical of LEGO's straightforward and symmetric design. The figure does not demonstrate any lateral head turn.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is there a laptop present in front of the subject in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the LEGO figure is shown with a laptop prominently placed as part of its manufactured scene, indicating its presence in front of the figure.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5
+}

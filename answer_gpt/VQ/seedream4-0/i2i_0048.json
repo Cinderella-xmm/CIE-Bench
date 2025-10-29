@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0048",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the stripes on the zebra sharp and distinct without any unnatural pixelation or blurring?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the stripes on the zebra are not only sharp and distinct but also possess a metallic sheen that suggests a high-quality rendering that avoids pixelation or blurring. This metallic appearance implies a deliberate stylistic choice in the editing, which maintains stripe clarity, indicating a 'Yes' response to the sharpness and distinctness of the stripes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the zebra's fur textures appear natural without any visible artificial streaks or patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the zebra's body looks more like a metallic surface than natural fur, suggesting a texture transformation. The sheen and reflectivity indicate an artificial texture replacing fur, which is an intentional edit. Thus, the appearance of fur is unnatural, justifying a 'No' response.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the proportions of the zebra's body consistent and free from any geometric distortions like warping or stretching?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Despite the metallic transformation in Image B, the zebra’s body maintains realistic animal proportions consistent with natural zebra anatomy. No signs of warping or stretching are evident, indicating the proportions remain intact, prompting a 'Yes' answer.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the relative position between the zebra and the background grassland remain unchanged and natural?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the zebra is firmly placed on the grassland without any unusual positional changes. Similarly, in Image B, despite the changes in body texture, the zebra retains its position relative to the background, which stays consistent and natural. Thus, this indicates a 'Yes' response.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the grass blades and the zebra's hooves detailed and free from any loss of sharpness or introduction of noise?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, although the edited zebra has a metallic look, the grass blades and hooves appear detailed and maintain their sharpness, unaffected by any introduction of noise. The consistency of detail in these areas supports a 'Yes' answer for their sharpness and clarity.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

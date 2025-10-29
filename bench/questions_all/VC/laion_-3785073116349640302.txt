@@ -1,0 +1,135 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is Ultraman, a humanoid superhero in a red-and-silver suit with a white helmet featuring a yellow oval-shaped eye and a central blue gem on the chest. He is depicted in a dynamic battle pose, mid-leap, with his right fist raised and left hand clenched, facing forward. His body is angled diagonally across the frame, conveying motion and strength. Behind him looms a monstrous creature with bat-like wings, sharp fangs, and a wide-open maw, appearing to roar. The creature has a dark, textured hide with layered, ribbed patterns resembling a giant insect or alien predator. The background consists of swirling greenish-yellow organic structures that resemble colossal skeletal spines or alien flora, creating an oppressive, otherworldly environment. At the bottom, amidst billowing clouds of dust and debris, lies a partially destroyed metallic structure resembling a ship or military base. The Marvel logo is at the top left corner, and the title "ULTRAMAN: THE TRIALS OF ULTRAMAN" dominates the upper portion in bold red lettering with a black outline. The artwork style is detailed, high-contrast comic book illustration with heavy linework and dramatic shading.
+
+**Thinking process:**  
+First, analyze the editing instructions word by word:  
+- “Convert the intense battle scene into a whimsical snow globe setup” → **entire scene context changes**, including framing and atmosphere.  
+- “Inside the globe: Render Ultraman and the fearsome creature as playful 3D chibi figures made of smooth, glossy material” → **subject forms are transformed**: both characters become stylized chibi versions, implying change in proportion, facial features, posture, and material texture.  
+- “Surround them with a swirling mist of tiny, glittering dust particles” → **new atmospheric element added**, not present originally; replaces original smoke/debris.  
+- “Base: A rugged terrain, detailed with metallic debris” → **base surface is preserved in concept**, but reinterpreted with new materials and scale.  
+- “The outer globe features etched cosmic patterns” → **new outer object introduced**, not in original image.  
+
+Thus, the following elements are allowed to be changed:  
+- Subject form (Ultraman and monster) → transformed into chibi 3D figures.  
+- Material texture of subjects → changed to glossy, smooth finish.  
+- Scene environment → converted into a snow globe setting.  
+- Atmosphere → replaced with glittering dust instead of smoke/debris.  
+- Background structures → simplified or reinterpreted within globe base.  
+- Overall composition → now enclosed within a spherical globe.  
+- Artistic style → shifted from realistic comic art to whimsical, toy-like rendering.  
+
+**Allowed Changes List:**  
+- Form and proportions of Ultraman and monster (chibi style)  
+- Material appearance of characters (glossy, smooth)  
+- Environment type (battlefield → snow globe)  
+- Atmospheric effects (smoke/debris → glittering dust)  
+- Composition framing (open space → enclosed globe)  
+- Outer decorative elements (etched cosmic patterns on globe)  
+- Color tone and lighting (shifted to whimsical, soft glow)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+Now apply exclusion logic to determine what **must remain unchanged** based on core recognition, functional logic, and visual coherence:
+
+1. **Core Recognition Elements:**  
+   - Ultraman’s iconic color scheme: **red and silver** — this is essential for identity. Even if stylized, the primary colors must remain.  
+   - Helmet design: **white helmet with yellow oval eye and central blue gem** — these are signature features of Ultraman. Any deviation risks misidentification.  
+   - Monster's key features: **bat-like wings, fanged mouth, large head with mandibles** — these define its alien horror aesthetic and distinguish it from other kaiju.  
+   - Title text: **"ULTRAMAN: THE TRIALS OF ULTRAMAN" and MARVEL logo** — these are branding and narrative anchors. Must be preserved unless explicitly removed.  
+   - Artist signature and date ("Arthur Adams 10-17-2020") — while minor, it’s part of the original work’s provenance and should be retained if possible.
+
+2. **Functional/Logical Association Elements:**  
+   - Relative positioning: **Ultraman facing the monster in combat stance** — this action relationship defines the narrative. Even in chibi form, they must still face each other in confrontation.  
+   - Presence of **metallic debris at the base** — though reimagined, the instruction specifies “metallic debris,” so the material type and function (ruins of a structure) must be preserved in some form.  
+   - **The presence of the destroyed structure** — even if miniaturized, it serves as a contextual anchor for the battlefield.
+
+3. **Non-Modified Element Deduction:**  
+   After excluding allowed changes, remaining unmentioned details must be retained:  
+   - The **color palette of the background** (greenish-yellow organic textures) — though stylized, the dominant hues should reflect the original tone.  
+   - **Overall layout of the scene** — even within a globe, the spatial relationship between Ultraman, monster, and ruins must mirror the original composition.  
+   - **The fact that Ultraman is leaping forward** — this dynamic pose is key to the action and must be preserved in gesture, even if exaggerated in chibi form.
+
+**Preservation Targets List:**  
+- Ultraman’s red and silver suit coloration  
+- Ultraman’s helmet with yellow eye and blue chest gem  
+- Monster’s bat-like wings and fanged maw  
+- The presence of metallic debris and ruined structure at the base  
+- The relative position of Ultraman and monster in confrontation  
+- The artist signature and date  
+- The MARVEL logo and title text  
+- The greenish-yellow organic background tones  
+- The dynamic pose of Ultraman leaping forward  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The red and silver color scheme of Ultraman’s suit is a core identity feature of the character across all media. It is instantly recognizable and distinguishes him from other heroes. Changing it would make the figure unrecognizable as Ultraman, regardless of style. This is a 3-point element because it is fundamental to character identification.
+    Question: Is Ultraman’s suit rendered in red and silver?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The yellow oval eye on the helmet and the blue gem on the chest are iconic symbols of Ultraman. These are not just accessories but key identifiers. Their absence or replacement would break the character’s visual identity. These are 3-point elements due to their unique role in recognition.
+    Question: Does Ultraman have a yellow oval eye on his helmet and a blue gem on his chest?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The monster’s bat-like wings and fanged mouth are defining features that establish its alien nature and threat level. These elements are essential for identifying it as the same creature from the original scene. Altering them beyond recognition would violate the continuity of the narrative. This is a 3-point element due to its role in enemy identification.
+    Question: Does the monster have bat-like wings and a wide-open mouth with visible fangs?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The metallic debris and ruined structure at the base serve as environmental context, indicating a battlefield. While the style may change, the presence of such debris is required by the instruction (“detailed with metallic debris”) and must be retained in form. Its removal would contradict the scene’s logic. This is a 2-point element because it’s crucial to the setting but not a character identifier.
+    Question: Is there metallic debris or a ruined structure visible at the base of the scene?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The artist signature and date are part of the original artwork’s authenticity and provenance. While minor, their retention ensures fidelity to the source. The instruction does not mention removing them, so they must be preserved. This is a 1-point element due to its secondary importance.
+    Question: Is the artist signature "Arthur Adams 10-17-2020" present in the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The MARVEL logo and title text are branding and narrative anchors. They define the work’s origin and name. Removing them would misrepresent the publication. These are 3-point elements because they are essential to the work’s identity.
+    Question: Are the words "MARVEL", "ULTRAMAN", and "THE TRIALS OF ULTRAMAN" present in the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q7: 
+    Thinking process: Ultraman’s leaping forward pose is a dynamic element that conveys action and intent. Even in chibi form, the direction and posture must reflect this movement. Losing this would alter the narrative tension. This is a 2-point element because it defines the action but not the identity.
+    Question: Is Ultraman depicted in a forward-leaping pose with one arm extended?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q8: 
+    Thinking process: The greenish-yellow organic background textures are part of the alien environment and contribute to the mood. Though stylized, their color and pattern should be retained to preserve visual consistency. This is a 1-point element as it supports atmosphere rather than identity.
+    Question: Are the background textures primarily greenish-yellow with organic, ribbed patterns?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

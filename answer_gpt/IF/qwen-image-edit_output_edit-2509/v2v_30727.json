@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_30727",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has a person been added to the image near the zebra's tail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a new element is observed—a person positioned close to the zebra's tail, exhibiting a slightly bent posture as if engaging with the zebra's body. This presence is not visible in Image A, which confirms the addition. The visual cues of backward bending, close proximity, and interaction with the zebra all contribute to this analysis.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the zebra have its head partially turned toward the person?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the zebra's head is not turned towards the person; it is lowered towards the watering hole, showing no visible sign of orientation towards the person. In Image A, the zebra maintains the same posture with its head lowered to drink water, indicating no change in orientation between the two images.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the person's foot positioned near or on the zebra's tail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the person is crouching near the zebra, and their feet are positioned on the ground physically close to where the zebra's tail begins, yet not directly on the tail itself. Observation of the spatial arrangement and posture helps conclude the proximity without direct contact.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the original elements of the watering hole and surrounding environment maintained?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon analyzing Image B, the watering hole and surrounding environment, along with rocks, remain consistent with those in Image A. Both images depict the same setting without alterations apart from the addition of the person. This consistency confirms that these elements are maintained in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the zebra's expression and posture indicate it is startled?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The zebra in Image B maintains a calm posture, with its head down near the watering hole similar to Image A, suggesting a drinking behavior. There are no abrupt changes in body orientation or expression indicative of startlement; the behavior is consistent in both images.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

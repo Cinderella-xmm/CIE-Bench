@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0100",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image include a top-down view of the sink structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the perspective available appears to be from a front-facing view, not from a top-down view. The image shows the front view of the sink structure rather than an overhead one. This conclusion is drawn from the positioning and visibility of details like sink faucets and mirrors, which are visible at eye level rather than from above.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image include an angled side view of the sink structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analysis of Image B reveals a direct frontal view of the sink structure, with symmetry between the two sink fixtures and mirrors. This view does not exhibit any angles that would suggest a side view; it ensures a clear view of the front of the cabinets and fixtures.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the top-down view and the angled side view merged into a single image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents only a frontal view of the sink area, without showing any top-down or angled side perspectives. As no such views are present in the edited image, there is no merging of different perspectives into a single image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the layout of the top-down and angled side views clear and well-organized in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Since Image B displays only a frontal perspective of the sink structure without incorporating top-down or angled side views, the question regarding the layout of these views is irrelevant and thus cannot be considered clear and organized.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do both the top-down view and the angled side view accurately depict the sink structure seen in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B solely depicts a direct front view of the sink structure, similar to Image A. Given this, there is no depiction of either a top-down or an angled side view in the edited image, making it impossible for those perspectives to accurately represent the sink structure.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.0
+}

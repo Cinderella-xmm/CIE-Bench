@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_127_24",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Do the transformed chalets maintain consistent roof slopes and chimney placements without geometric distortion or floating components?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no visible chalet. Instead, a majestic ice castle is depicted. Given this, we assume that the chalets from Image A have been replaced with the ice castle in Image B. Thus, the question of maintaining consistent roof slopes and chimney placements does not apply to an ice castle structure.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the glowing ice surface continuous across the slope and around the chalets without jagged edges, unnatural reflections, or inconsistent brightness patches?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a glowing ice castle with a surrounding icy environment, but there are no visible chalets. Therefore, an assessment of an ice surface continuous around chalets is not possible with only an ice castle present. The glowing ice surface is designed smoothly in a fantastical context without sharp edges or inconsistent brightness patches, as commonly observed in glass or ice castles.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the ice-enhanced pine trees retain recognizable tree silhouettes with evenly distributed icicles and no fused or missing branches?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pine trees are depicted with a surreal icy appearance, maintaining a recognizable silhouette akin to winter trees commonly found in fantasy settings. The aesthetically spread icicles contribute to the mythical feel, while branches appear intact without signs of fusion or absence.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the auroras positioned above the mountain range without overlapping the sun or creating unnatural light halos or disconnected streaks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The auroras in Image B are shown above the mountain range in a beautifully distributed manner, typical of polar illustrations. The presence of the full moon and the auroras adds to the mystical atmosphere without overlapping with the moon or causing unintended halos, ensuring they blend seamlessly into the scene.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the snowflake patterns on the chalet walls uniform in scale and orientation, and do they align naturally with the building's architecture without repeating or distorting at edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a detailed icy castle replaces any chalet structures. While the ice castle features elaborate details and intricate designs typical of such structures, snowflake patterns on a chalet-style architecture are not observed here, hence the alignment and orientation criteria can't apply.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

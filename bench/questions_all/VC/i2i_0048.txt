@@ -1,0 +1,67 @@
+Description of reference image: The subject is a zebra standing in a natural savannah setting. Its distinct black-and-white stripe pattern covers its entire body, including its legs and face. The zebra stands sideways, allowing a full view of its body stripes. Another zebra is partially visible behind it. The background consists of grassy plains with scattered shrubs and trees.
+
+### Step 1 - Allowed Changes List:
+
+Thinking process: The instructions direct enhancing contrast, sharpness, and highlighting textures while maintaining the original composition. There's no mention of changing the subject's type, replacing the scene, altering the number of zebras, or adjusting their positions. Therefore, visual adjustments are primarily aesthetic.
+
+Allowed Changes List:
+Specific element 1 that allows for changes - Contrast and sharpness levels of the image.
+Specific element 2 that allows for changes - Highlighting textures on the zebras and platform details (though there are no visible platforms here, the instruction could imply emphasizing the texture of the grass and zebras’ stripes).
+
+### Step 2 - Determination of Elements That Should Remain Unchanged:
+
+Thinking process: The zebra's stripes and physical features are crucial for identity. The savannah setting provides context and should be logically consistent. Other features, like posture and partial visibility of the second zebra, must also remain to support visual coherence.
+
+Preservation Targets List:
+(Element 1 that should be maintained) - The black-and-white stripe pattern of the zebra.
+(Element 2 that should be maintained) - The zebra’s natural posture and stance.
+(Element 3 that should be maintained) - The presence of the second zebra partially visible behind the first.
+(Element 4 that should be maintained) - The grassy savannah background.
+(Element 5 that should be maintained) - The relative proportions and perspective of the zebras.
+
+### Step 3 - Generate Yes/No Questions:
+
+{
+    Q1: 
+    Thinking process: The zebra’s stripe pattern is its most distinctive feature. Losing the black-and-white stripes would make it unidentifiable as a zebra, qualifying this as a high-weight core recognition element.
+    Question: Does the zebra retain its black-and-white stripe pattern without significant alteration?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The stance of the zebra provides essential context about its behavior and environment. A change in posture could disrupt the natural appearance, impacting scene consistency.
+    Question: Is the zebra still in its original standing posture facing slightly towards the right?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The secondary zebra adds depth and realism to the scene. Removing or altering it would detract from the natural setting, influencing scene coherence without being central to identity.
+    Question: Is the second zebra partially visible behind the first one, preserving its placement in the frame?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The savannah background is critical for providing context but less so for subject identity. Maintaining it ensures the scene remains true to its natural setting, slightly affecting consistency if altered.
+    Question: Does the image still feature a grassy savannah background with some scattered vegetation?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q5: 
+    Thinking process: The proportions and perspective of the zebras are essential for maintaining visual realism. Altering them would compromise the natural appearance of the subjects, impacting the scene's integrity moderately.
+    Question: Are the zebras' relative sizes, proportions, and perspectives maintained as seen in the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

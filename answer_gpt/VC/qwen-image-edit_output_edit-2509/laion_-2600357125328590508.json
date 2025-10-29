@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-2600357125328590508",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the vertical white \"Under Armour\" logo clearly visible on the outer side of the calf, maintaining its original font, spacing, and orientation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the vertical white logo that resembles 'Under Armour' is visible on the outer side of the sock but the image consists of blocks that do not retain the original smooth font, spacing, and orientation due to the blocky structure. A comparison with Image A shows the original logo with smooth curves and exact font styling, which is absent in Image B due to its pixelated nature.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there an orange tag with a black Under Armour logo located at the top edge of the sock cuff?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, an orange block is situated at the top of the sock's calf, simulating the appearance of a tag with a logo. Though blocky, it indicates the position of a potential logo, matching the location in Image A where a similar tag is seen.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the stylized \"UA\" logo present on the ankle section of the sock?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the ankle section lacks a clear 'UA' logo. The blocky design prevents the identification of distinct lettering typically associated with a logo. Image A depicts a smooth, discernible 'UA' logo which is lost in the blocky transition in Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the gray and white geometric patterns on the foot and shin area preserved in their original positions and color scheme?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B retains the color scheme and general positions of the gray and white geometric patterns seen in Image A. Despite the blocky style in Image B, the patterns maintain their approximate locations and color contrasts along the shin and foot.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the gray reinforced sections on the heel and toe maintained in their original shape and location?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the gray sections of the heel and toe are maintained in their generalized locations and shapes as seen in Image A. The blocky representation reduces intricate details but retains the general layout.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the small text printed vertically along the lower leg of the sock still visible and in its original position?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, due to the blocky structure, small text is not discernible or clearly visible along the sock's lower leg, contrasting with Image A, which may contain such text in a clear, small font.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

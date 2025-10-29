@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_113_21",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited version contain exactly three distinct art postcards?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B contains five areas framed like art postcards. Three areas feature distinct designs: one with the woman leaning and two depicting her silhouette against a grassy landscape, suggesting that there may not be exactly three distinct postcards.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a postcard showing the woman leaning against a straw hut?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, one postcard clearly depicts a woman standing and leaning beside a straw hut, demonstrating a typical architectural style known in rural or traditional settings. This image aligns with the described scenario.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a postcard where the woman's beaded jewelry is represented in an abstract, non-realistic style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the necklace on the woman's jewelry depicting multicolored beads is styled in a realistic manner rather than abstract or non-realistic. This presentation is consistent with real-life designs.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a postcard showing the woman’s silhouette against a digitally rendered grassy landscape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Two of the postcards in Image B show a silhouette of a woman including the outlines of her hair and clothing against a background that resembles a digitally created grassy landscape with vibrant hues.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do all three postcards feature vivid colors and geometric borders?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Despite the diversity of designs, each postcard in Image B is framed with vivid, multi-colored borders adopting geometric shapes and contains bright and varied color fills within the image content.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

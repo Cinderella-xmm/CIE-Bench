@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_0_125",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the woman’s face clearly visible with the same eye shape, nose, mouth, and short wavy black hair as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman's face is blurred out, making it impossible to discern specific facial features such as the eye shape, nose, and mouth, although the hair remains visible. This blur effect obscures details that could confirm if these features match the original image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the robe maintain the red-on-right and navy-blue-on-left color division across the torso and sleeves?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the robe does maintain the red-on-right and navy-blue-on-left color division consistently across the torso and sleeves, similar to the robe depicted in Image A.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the rose and vine floral patterns visible along the robe’s seams, front panel, and sleeves as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the robe features floral patterns, but instead of rose and vine patterns, they appear to be simpler floral designs. The patterns are different from Image A, where intricate rose and vine patterns were visible.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a high slit on the right leg of the robe, revealing part of the leg?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the robe has a high slit on the right side, which matches the description given, similar to the original Image A where part of the leg is also revealed.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are red paper lanterns visible hanging in rows above the market alley, glowing warmly?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does portray red paper lanterns hanging above, but the context is different—it is a decorative illustration rather than a real market alley setting. Nevertheless, they resemble the hanging lanterns from Image A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there visible stalls with tomatoes, oranges, and green vegetables arranged in crates along both sides of the alley?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background is styled as a calendar format and does not depict market stalls with produce like tomatoes, oranges, or vegetables, unlike in Image A where such market stalls are clearly part of the setting.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the ground paved with stone tiles and the roof supported by wooden beams?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the setting has changed to a graphic calendar illustration with no visible ground paving or roof, unlike in Image A where stone tiles and wooden beam supports were part of the market alley.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4375
+}

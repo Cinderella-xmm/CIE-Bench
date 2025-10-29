@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The instruction explicitly requires the title “Astronaut and Space Station Dynamics” to be included. This is a direct textual requirement that can be verified by checking if the title appears at the top or in a prominent position of the image.",
+      "question": "Is the title “Astronaut and Space Station Dynamics” present in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The style must be vector-based and clean, with simplified shapes. This means the original photorealistic elements (like the astronaut suit and ISS) should be stylized into geometric, simplified forms while preserving key features such as the helmet, flag patch, and solar panels.",
+      "question": "Are the astronaut, Moon, and ISS depicted using simplified, vector-style shapes rather than photorealistic rendering?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The instruction specifies adding texture to the spacesuit detail while simplifying other elements. This implies that the suit should have visible surface patterns or stitching effects even if the overall design is flattened.",
+      "question": "Does the spacesuit include visible textural details such as stitching or fabric patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The color palette must use flat colors with high contrast, including dark blue, white, and gold accents. Gold should be used selectively for emphasis (e.g., borders, highlights).",
+      "question": "Are gold accents used in the image to emphasize certain elements such as labels, borders, or arrows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The content must show step-by-step movements of the astronaut interacting with the station, indicated by arrows. This means there should be at least three distinct motion phases connected by directional indicators.",
+      "question": "Are there three sequential stages illustrated with arrows showing the astronaut's movement toward or interaction with the space station?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The text \"Step 1: Prepare\", \"Step 2: Navigate\", \"Step 3: Operate\" must appear along the bottom of the image. These are specific phrases that must be present and correctly labeled in order.",
+      "question": "Are the labels “Step 1: Prepare”, “Step 2: Navigate”, and “Step 3: Operate” displayed in sequence along the bottom of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The layout must be vertical to ensure ease of reading and logical flow from top to bottom. All elements—title, illustrations, steps—should align vertically.",
+      "question": "Is the entire infographic arranged in a vertical format with elements stacked from top to bottom?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

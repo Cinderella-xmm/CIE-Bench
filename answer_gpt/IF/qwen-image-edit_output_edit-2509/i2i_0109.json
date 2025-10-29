@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0109",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the character been successfully transformed into a plastic figurine?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character exhibits a sheen and texture typical of plastic materials, and the setting appears to be a desktop or tabletop environment consistent with the display of a figurine. This visual information, coupled with common knowledge about how plastic figurines are displayed, leads to the conclusion that the transformation was successful.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the plastic figurine still in the same standing pose as the original character?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the character is holding a hammer in a ready position, which is typically energetic and heroic. Image B portrays what appears to be a scaled-down version of this character, maintaining the same pose with the hammer held similarly. This consistency in pose between the two images confirms the same standing pose.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the plastic figurine placed on a desk?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents a scene where the figurine is on a flat, smooth surface with objects like a mouse and potted plants in the background. These are all typical components of a desk setup, enabling the inference that the figurine is placed on a desk.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there lighting effects visibly added around the plastic figurine?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, you can observe lighting effects such as a spotlight effect above the figurine and a glowing blue light near the hammer, enhancing the visual appeal through dramatic lighting. This indicates the addition of lighting effects.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the plastic figurine accurately maintain the appearance details like costume and accessories from the original character?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes\n```",
+      "explanation": "When comparing Image A and Image B, the plastic figurine in Image B displays the same costume and accessories—the armor, cloak, and hammer—as the original character, retaining detailed design elements such as the intricate patterns and colors of the costume, confirming the accurate maintenance of appearance details.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

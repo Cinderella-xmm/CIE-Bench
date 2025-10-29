@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0102",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the pencil blue in color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pencil is clearly visible and predominantly blue in color. The visual cue of the broad blue area, combined with common knowledge of colors, confirms that the pencil is blue.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the yellow paper have clean edges and a uniform color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the yellow paper appears to have crisp, well-defined edges and a consistent yellow hue throughout its surface. This observation is supported by the smooth, uninterrupted color distribution visible in the image.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the pencil's tip visibly touching the yellow paper?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pencil's tip is seen very close to the yellow paper but does not appear to make contact as there is no indentation or mark on the paper where the pencil tip approaches. Observing the image closely, it suggests proximity without actual contact.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a blurred silver laptop in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a blurred object in the background that resembles the typical shape and color of a laptop, with a silver-gray hue, commonly associated with electronic devices. The out-of-focus appearance indicates it is further from the central focus.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the pencil's tip visibly sharp?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The tip of the pencil in Image B is prominently featured and appears to be sharp, evident from the pointed shape that is characteristic of a pencil that has been adequately sharpened. This visual cue indicates its readiness for writing or drawing.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7272727272727273
+}

@@ -1,0 +1,84 @@
+{
+  "filename": "laion_4631802878082914190",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image contain exactly six labeled process stages corresponding to the CRISP-DM phases?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, we observe four labeled stages: 'Business Understanding', 'Data Understanding', 'Modeling', and 'Evaluation'. The CRISP-DM phases typically include six stages, but Image B does not present all six phases. Based on visual analysis, only four stages are represented.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the six stages arranged in the correct sequential order: Business Understanding → Data Understanding → Data Preparation → Modeling → Evaluation → Deployment → back to Business Understanding?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features four stages with 'Business Understanding', 'Data Understanding', 'Modeling', and 'Evaluation'. The sequential order of six stages is not present in Image B as some stages such as 'Data Preparation' and 'Deployment' are missing.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a bidirectional connection (e.g., two-way path or mutual interaction) between the \"Business Understanding\" and \"Data Understanding\" stages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, both 'Business Understanding' and 'Data Understanding' are illustrated and seem to interact, as indicated by the dialogue and proximity in the cartoon illustration, suggesting mutual awareness. However, no explicit bidirectional connection is visually depicted.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a bidirectional connection (e.g., two-way path or mutual interaction) between the \"Data Preparation\" and \"Modeling\" stages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not explicitly display a 'Data Preparation' stage, thus lacking the possibility of depicting a connection between 'Data Preparation' and 'Modeling'. Only 'Modeling' is visually presented.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a central data source located at the center of the diagram, accessible to all six stages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is an illustration of data represented as crystals in a bucket labeled 'DATA', suggesting the importance of data. However, this is a symbolic representation not positioned centrally or shown as being accessible to any stages.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the diagram include a clear return path from the \"Deployment\" stage back to the \"Business Understanding\" stage, completing the cycle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B lacks a 'Deployment' stage; hence, there is no path to return from 'Deployment' to 'Business Understanding', which would complete a cycle. The image depicts only the stages: 'Business Understanding', 'Data Understanding', 'Modeling', and 'Evaluation'.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.0
+}

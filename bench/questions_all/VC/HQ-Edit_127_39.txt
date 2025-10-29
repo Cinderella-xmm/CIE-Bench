@@ -1,0 +1,85 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+Description of reference image:  
+The subject is the Eiffel Tower, located centrally in the image, standing tall against a clear sky transitioning from deep blue at the top to soft orange near the horizon, indicating either dawn or dusk. The tower is constructed of iron lattice work with a rust-orange coloration, featuring its iconic three-tiered structure: a wide base with four arched legs converging upward into a narrow spire. The lower arches form an open framework allowing visibility through the central passage. The base is surrounded by a grassy park area where people are seated or walking. Symmetrical rows of trimmed hedges line both sides of the foreground, illuminated by embedded ground lights. In the background beyond the tower’s arch, a classical-style building is visible. The lighting on the tower suggests it is lit from within or by ambient sunset glow, casting warm highlights across its metallic surface.
+
+Thinking process:  
+The editing instruction explicitly transforms the Eiffel Tower into a "towering cybernetic sorceress" — this indicates a complete morphological transformation of the subject’s form. Key phrases such as “replace the spire with an energy crown,” “embellish the girders with digital glyphs,” and “animate her structure with holographic elements” confirm that the structural identity of the tower will be altered significantly. The instruction also specifies changes to surrounding elements: “surround her base with pixelated energy barriers,” which implies modification of the immediate environment. However, no mention is made of altering the sky gradient, the park layout, or the presence of people — though these may be secondary to the main transformation.
+
+Allowed Changes List:  
+- The shape and structure of the Eiffel Tower (including the spire) can be changed.  
+- The material appearance of the tower (iron lattice) can be replaced with cybernetic/circuitry textures.  
+- The girders can be adorned with digital glyphs.  
+- The tower can be animated with holographic effects.  
+- The spire must be replaced with an energy crown.  
+- The base can be surrounded by pixelated energy barriers.  
+- The overall form can be reimagined as a sentient being (cybernetic sorceress).  
+- Lighting and glow effects can be added (e.g., digital eyes, luminescent circuitry).
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements:  
+The Eiffel Tower is globally recognized by its unique lattice structure, tiered form, and specific silhouette. Even when transformed, the *iconic outline* must remain identifiable as the Eiffel Tower, especially the four-legged base forming an archway, the narrowing upward progression, and the general height-to-width ratio. If these are lost, the image would no longer represent the Eiffel Tower, undermining the premise of the edit. Therefore, while internal details can change, the **overall silhouette and spatial layout** must be preserved.
+
+Functional/logical association elements:  
+The tower’s placement in the park with symmetrical hedges and open lawn remains important for environmental context. The position of the classical building behind the archway is part of the real-world spatial logic — if removed or distorted, the scene loses geographic coherence. Also, the **presence of people** in the foreground helps establish scale and realism; their removal or radical alteration could mislead perception of size.
+
+Non-modified element deduction:  
+Although the instruction allows dramatic transformation, it does not specify changing the **sky gradient**, **grass texture**, **hedge shapes**, or **general park layout**. These serve as visual anchors. While they may be subtly affected by lighting (e.g., due to holograms), their fundamental forms should remain intact. For example, the **symmetrical hedge rows** and **ground-level lighting fixtures** are not mentioned for modification and thus should be retained to preserve environmental consistency.
+
+Preservation Targets List:  
+- The overall silhouette of the Eiffel Tower (four-legged base, narrowing upward, central arch).  
+- The presence of the classical building visible through the central archway.  
+- The symmetrical rows of trimmed hedges along both sides of the foreground.  
+- The grassy park area with people sitting or walking in the foreground.  
+- The sky gradient from deep blue to orange near the horizon.  
+- The lighting fixtures embedded in the hedges (visible as glowing spots).  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+Q1:  
+Thinking process: The four-legged base forming an archway is the most defining architectural feature of the Eiffel Tower. Its presence and shape are essential for identification. Even if transformed into a cybernetic figure, the silhouette must retain this arch structure to maintain the tower's identity. Losing this would make the object unrecognizable as the Eiffel Tower. Hence, it is a core identity element with a weight of 3 points.  
+Question: Is the four-legged base of the Eiffel Tower with a central archway present and clearly visible?  
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+Q2:  
+Thinking process: The classical building visible through the central archway is a real-world landmark detail (likely the Palais de Chaillot). It provides spatial context and confirms the location as Paris. Removing or distorting it would break the logical continuity of the scene. This is a key environmental anchor, so it must be preserved. Weight assigned as 2 points because it supports authenticity but is less critical than the tower itself.  
+Question: Is the classical-style building visible through the central arch of the tower?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+Q3:  
+Thinking process: The symmetrical rows of trimmed hedges on both sides of the foreground are distinctive landscape features of the Champ de Mars. They provide visual balance and grounding to the composition. Their retention ensures environmental consistency. While lighting might be enhanced, their shape and placement must remain unchanged. This is an important scene element, hence weight of 2 points.  
+Question: Are the symmetrical rows of trimmed green hedges present along both sides of the foreground?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+Q4:  
+Thinking process: The grassy park area with people sitting or walking is essential for scale and realism. It grounds the scene and shows human interaction with the space. Although individuals may be stylized, their presence and activity in the park must be retained to preserve the original setting. This is a minor but meaningful detail affecting coherence, so it receives 1 point.  
+Question: Are there people visible sitting or walking on the grassy field in front of the tower?  
+Choices: Yes, No  
+A: Yes  
+Weight: 1  
+
+Q5:  
+Thinking process: The sky gradient from deep blue at the top to warm orange near the horizon is a key atmospheric feature of the original image, suggesting time of day (dawn/dusk). It contributes to mood and lighting consistency. Since the instruction does not mention altering the sky, it should remain unchanged. This is a background detail crucial for visual harmony, so it gets 1 point.  
+Question: Is the sky gradient transitioning from deep blue at the top to orange near the horizon present?  
+Choices: Yes, No  
+A: Yes  
+Weight: 1  
+
+Q6:  
+Thinking process: The embedded ground lights in the hedges are small but distinct visual markers. They contribute to the nighttime ambiance and are part of the original scene design. While the instruction allows for new lighting effects (e.g., holograms), these existing lights should remain to maintain fidelity to the original environment. This is a minor detail, so it receives 1 point.  
+Question: Are the embedded lights illuminating the hedges visible as glowing spots?  
+Choices: Yes, No  
+A: Yes  
+Weight: 1

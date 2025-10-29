@@ -1,0 +1,97 @@
+{
+  "filename": "laion_2991114285331611988",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the edited image divided into at least two distinct panels?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B is structured like a comic strip, which is typically composed of multiple panels for storytelling. Visual cues such as black lines divide the image into four separate sections, indicating different scenes or dialogue exchanges.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the two men in the image transformed into cartoon-style anthropomorphic agents with visible agent-like characteristics (e.g., expressive faces, limbs, spy traits)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features blurred faces similar to Image A but does not display visible cartoon-style transformation with characteristics typical of anthropomorphic agents such as exaggerated expressions or spy traits such as gadgets, exaggerated poses, etc. The attire remains the same without being stylized into cartoon form.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the plaid-patterned tie have a visible watch communicator device, and is there a visual expression of urgency (such as motion lines or an alarmed facial expression)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, although there are speech bubbles, there are no visible elements like a watch communicator on the plaid-patterned tie or expressions of urgency like motion lines or alarmed expressions. The men appear calm, consistent with Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a circular camera lens symbol embedded within the pattern of the tie with the emblem, and is there a visual indication of activation (e.g., glow, red dot)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not exhibit any camera lens symbol within the pattern of the tie nor any activation indications like glow or red dots. The tie remains unaltered from its original form observed in Image A and retains a standard plaid pattern.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there thought bubbles present above or near the heads of the anthropomorphized agents?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B incorporates speech bubbles with text, typically used in comics to convey character dialogue rather than thought bubbles. There aren't any thought bubbles visible that convey internal monologues or thoughts of the characters.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the background of the image a stylized depiction of a lush green field, consistent with the original setting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B remains consistent with Image A, depicting a realistic lush green field setting without any stylization or transformation into a different artistic style. The environment appears unchanged and natural.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Does the text in the speech or thought bubbles use a crisp, minimalist, sans-serif font?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text in Image B's speech bubbles appears to be sans-serif, providing a clear, minimalist aesthetic fitting for comic dialogue, emphasizing readability and simplicity typical of many comic fonts.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.42857142857142855
+}

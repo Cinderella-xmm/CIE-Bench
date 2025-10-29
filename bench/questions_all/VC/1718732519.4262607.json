@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The elongated shape of the hot dog is explicitly required to be maintained in the editing instruction (\"maintaining the hot dog's elongated structure\"). This is a core structural feature that defines its identity as a hot dog in the context of the scene. If the LEGO version were shortened or curved significantly, it would lose its recognizability as a hot dog. Therefore, preserving the elongated form is essential for identity retention and visual consistency, warranting a weight of 3 points.",
+      "question": "Is the hot dog represented as an elongated, straight object?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The horizontal orientation of the hot dog is fundamental to its presentation and alignment with typical serving style. The instruction does not allow rotation or vertical placement, implying it must remain horizontally aligned. Changing this would disrupt the intended composition and break continuity with the original image. This is a key spatial feature affecting scene logic, thus assigned 3 points.",
+      "question": "Is the hot dog placed horizontally on the wooden base?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The instruction specifies displaying both items on a smooth wooden base. Although the original cutting board may be replaced, the presence of a wooden platform beneath both objects is required. This ensures continuity in the display surface and maintains the scene’s coherence. The material may change, but the existence of a flat, wooden-like support is necessary, making this an important environmental element worth 2 points.",
+      "question": "Are both the hot dog and the bottle placed on a flat wooden surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The relative positioning of the bottle and hot dog — with the bottle on the left and the hot dog on the right — is implied by the original layout and the instruction to \"display both items\" together. Reversing or separating them would alter the composition significantly. While their forms change, their spatial relationship is essential for scene recognition and balance, hence a weight of 2 points.",
+      "question": "Is the bottle positioned to the left of the hot dog?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The original hot dog rests on a cutting board, which is a distinct elevated surface. The instruction requires a \"smooth wooden base,\" suggesting a similar raised platform. Even if the cutting board is replaced, the presence of a separate, slightly elevated surface under the hot dog must be preserved to maintain depth and realism in the scene. This detail supports the three-dimensional layout and is a secondary but coherent element, thus assigned 1 point.",
+      "question": "Is the hot dog placed on a raised wooden platform distinct from the main table surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

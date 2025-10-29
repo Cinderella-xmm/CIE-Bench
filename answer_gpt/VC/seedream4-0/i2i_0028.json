@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0028",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the woman in the image have a clear, noticeable smile?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman's appearance is not entirely visible due to the blurring of the face. Commonly, a smile is seen on a person's mouth and eyes, which in this context, are not visible. Therefore, while assessing the edited image based solely on what can be seen, without referring to Image A or any facial details, it is impossible to determine her smiling. The logic follows that without visual material to affirm the presence of a smile, the answer is No.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there exactly three teddy bears, each with a distinct red shirt containing a blessing text?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are three teddy bears noticeable in the foreground. Each has a red shirt featuring different texts: 'Thinking of you makes me smile,' 'BEST FRIEND EVER!', and 'COULD YOU USE A HUG TODAY?'. This confirms that each bear is wearing a unique red shirt with distinct text. The conclusion is based on recognizing text variations on the bears' shirts, confirming that there are indeed three with unique messages.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the teddy bears positioned in front of the woman as she holds them?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, Image B, the teddy bears are seen prominently in front of the woman. Her arms appear wrapped around them, indicating she is holding them against her body. This setup denotes the physical positioning of the bears being in front of the woman while she holds them. The placement logic derives from common understanding of how objects are often depicted when hugged or held by someone, positioned anteriorly and compliant with the question’s requirement.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the woman wearing a checkered black-and-white jacket?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Visual cues in Image B exhibit the woman clad in a garment with a grid-like pattern, consistent with the checkered style. The colors appear as black-and-white, confirming the jacket is a checkered black-and-white one. This determination is made by recognizing the repetitive and regular design pattern typical of checkered clothing, combined with the visible colors, aligning with the common description of such a jacket.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background kept simple with minimal distractions (beige wall and striped blanket)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The content of Image B reveals a modest and unobtrusive background. The wall color appears beige and the surface behind the woman maintains a fundamental simplicity without additional elements. Similarly, a striped pattern on what could be part of a blanket or sofa is visible. A typical interpretation of simplicity involves a lack of distracting elements, indicating that the background adheres to these descriptions of a beige wall and striped blanket. Deduction hinges on identifying minimalist features and aligning them with customary assessments of simplicity in imagery.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7272727272727273
+}

@@ -1,0 +1,72 @@
+Description of reference image: The subject is a man surfing on a blue surfboard in the ocean. His back is turned towards the viewer, and he is shirtless with black swim shorts. He is positioned on top of a wave, balancing skillfully. The background consists of an expansive, clear blue sky and calm ocean water, with smaller waves breaking near the foreground.
+
+### Step 1 - Allowed Changes List:
+
+**Thinking process:** Analyzing the instructions, we see that the surfboard is to be replaced by a giant manta ray, and a dreamy atmosphere is to be added. This implies changes in the following specific elements:
+
+- **Surfboard shape and form**: Replace with a manta ray.
+- **Atmospheric elements**: Adjustments to lighting, color tones, and possibly some softening or blur effects to create a dreamy feel.
+
+Allowed Changes List:
+- Surfboard replaced with a giant manta ray
+- Adjustment of lighting and color tones to create a dreamy atmosphere
+
+### Step 2 - Preservation Targets List:
+
+**Thinking process:** Elements not specified for change include the surfer's posture, position relative to the wave, and the overall ocean and sky setting. Core recognition elements and functional associations are:
+
+- **Surfer's position and pose**: The stance and balance on the manta ray must mimic the original surfboard posture.
+- **Wave structure and ocean backdrop**: The wave's form and the ocean's general look must remain consistent to keep the scene logical.
+- **Sky and horizon**: Retaining the horizon line and clear sky preserves the overall scene composition.
+
+Preservation Targets List:
+- Surfer's posture and position relative to the wave
+- Wave formation and ocean background
+- Sky and horizon line
+
+### Step 3 - Generate Yes/No Questions:
+
+{
+    Q1: 
+    Thinking process: The surfer's posture is integral to the identity of the original action and must stay consistent even when the board changes. This ensures the image maintains the original context and action.
+    Question: Does the surfer maintain his original balancing posture on the manta ray?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The wave structure provides a significant focal point and supports the logic of the surfer's action. Without this, the scene loses coherence.
+    Question: Is the original wave formation preserved, with the surfer riding on top of it?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The ocean water surrounding the wave helps establish the scene's environment and continuity. Minor details here enhance realism.
+    Question: Are the ocean waters around the wave consistent with their appearance in the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q4: 
+    Thinking process: The horizon and sky provide essential spatial and atmospheric context, ensuring the scene remains connected with reality.
+    Question: Is the horizon line and clear sky from the original image retained?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The surfer’s attire and physical appearance contribute to the overall scene identity. While minor, it affects visual consistency.
+    Question: Does the surfer still wear black swim shorts and remain shirtless as in the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

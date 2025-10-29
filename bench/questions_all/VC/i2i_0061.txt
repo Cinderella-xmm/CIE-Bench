@@ -1,0 +1,74 @@
+Description of reference image: The subject is a man performing a skateboard trick on a ramp at dusk. He is wearing a gray T-shirt, khaki shorts, white socks, and black skate shoes. His posture indicates he is balancing on the edge of the ramp with arms spread wide for stability. The background shows an outdoor park setting with grassy areas, distant buildings, and a partly cloudy sky. The lighting highlights the subject while keeping the background relatively dim.
+
+### Step 1 - Allowed Changes List
+Thinking process: Analyze the instructions carefully to determine what can be altered per the given requirements:
+
+1. Convert the entire photo into a bright and soft watercolor style: This affects the texture, color saturation, and clarity of all elements.
+2. Render the ground and background buildings with semi-abstract brushstrokes and slightly blurred colors: This impacts the background's appearance but not the subject’s essential features.
+3. There are no explicit instructions about modifying the subject’s appearance other than the overall style change.
+
+Allowed Changes List:
+- Texture and color saturation of the entire image.
+- Background elements such as ground and buildings rendered in semi-abstract brushstrokes and blurred colors.
+
+
+### Step 2 - Determine Elements That Should Remain Unchanged
+Thinking process:
+Elements needing retention include the subject's distinct attributes and posture, which are crucial for identity and scene coherence:
+
+1. Core recognition elements: The subject's pose, clothing, and accessories (cap, shoes).
+2. Functional/logical elements: The skateboard, its position relative to the ramp, and the subject's interaction with the ramp.
+3. Remaining elements preserving visual coherence: The subject's proportions, body language indicating motion.
+
+Preservation Targets List:
+- The subject's pose and movement on the skateboard.
+- The skateboard and its interaction with the ramp.
+- The subject's clothing and accessories, including the cap and skate shoes.
+- The subject's proportions and the body language suggesting balance.
+
+
+### Step 3 - Generate Questions Focusing on Preserved Elements
+{
+    Q1: 
+    Thinking process: The subject's cap is a distinctive accessory contributing to his identity. Losing it would alter the recognizable appearance.
+    Question: Is the man's black cap still visible and intact on his head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q2: 
+    Thinking process: The skateboard and its interaction with the ramp are central to understanding the action taking place.
+    Question: Is the man still balancing on the skateboard, with the skateboard positioned on the edge of the ramp?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The subject's posture is the most critical aspect defining the action captured.
+    Question: Are the man's arms extended outward to aid in balancing during the trick?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4: 
+    Thinking process: The footwear is a notable element linked to skateboarding, influencing the functional aspect of the activity.
+    Question: Does the man still wear black skate shoes on his feet?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The subject's clothing is a secondary detail that contributes to the visual continuity of the person.
+    Question: Is the man still wearing khaki shorts as part of his attire?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

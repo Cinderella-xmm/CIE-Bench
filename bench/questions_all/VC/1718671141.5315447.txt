@@ -1,0 +1,115 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a modern, multi-tiered circular glass building with a dome-like top, situated on a raised platform surrounded by a reflective water pool. The structure features continuous horizontal bands of transparent glass panels framed by metallic supports, creating a layered cylindrical form that tapers slightly toward the top. Warm interior lighting glows through the glass, illuminating the floors within. Atop the structure is a translucent dome resembling a planet or celestial sphere, glowing with blue and white hues, suggesting an observatory or futuristic design. Behind the building, a large, detailed moon dominates the night sky, accompanied by a smaller moon further to the left. The sky is dark blue with scattered stars, transitioning to a soft pinkish-orange glow near the horizon. Trees line both sides of the structure in the background, symmetrically placed, with sparse foliage. The still water surface perfectly mirrors the building and the celestial bodies above, producing a symmetrical reflection.
+
+Thinking process:  
+The editing instruction explicitly states:
+- "Transform the circular glass building into a steampunk-inspired architectural piece with intricate brass gears, copper funnels, and an observatory dome adorned with ornate metalwork" → This means the **form and material** of the building can be changed; the current glass-and-metal structure may be replaced entirely.
+- "Replace the moon with giant clock faces" → The **moon itself must be replaced**, not modified.
+- "Integrating rivets and steam venting from the structure" → These are new additions to the building, indicating allowed changes to its surface details and functional elements.
+
+From this, we infer:
+- The **building's original shape (circular, tiered)** can change — it is being transformed into a steampunk version.
+- The **materials (glass, steel)** can change — replaced with brass, copper, rivets.
+- The **dome** can be redesigned — now with ornate metalwork instead of translucent planetary texture.
+- The **moon** must be **replaced** — no longer present as a natural satellite.
+- The **reflection in the water** is implied to exist but not mentioned as needing retention — so it is **not required** to remain unchanged.
+- The **trees, sky gradient, and starfield** are not mentioned — thus, they **may be altered** unless logically tied to preserved scene logic.
+
+Allowed Changes List:  
+- The architectural form of the circular glass building (shape, materials, internal structure)  
+- The dome’s appearance (from translucent planetary to ornate metalwork)  
+- The moon (to be replaced with giant clock faces)  
+- Addition of brass gears, copper funnels, rivets, and steam vents on the building  
+- The water reflection (not specified for retention)  
+- Background trees, sky color, and star distribution (not mandated for preservation)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+We now apply exclusion based on the allowed changes:
+
+**Core recognition elements:**  
+While the building’s **overall circular, tiered form** is being changed, certain **spatial relationships and structural layout** may still need to be preserved if they are essential to identifying the original scene. However, since the instruction allows full transformation into steampunk style, the **core identity of the building as a modern glass structure is not retained** — it is being replaced. Therefore, **no core identity feature of the building remains**.
+
+But we must consider **scene-level logic**:
+- The **position of the building relative to the water pool** is not mentioned as changing — and given that the reflection is a key visual element in the original, and the instruction does not say to remove the water, it is reasonable to assume the **presence of the water pool** should remain, even if its reflection changes.
+- The **symmetrical placement of trees** on both sides is not mentioned — so it may be altered. However, if the scene composition relies on symmetry, it might be preserved for visual coherence.
+- The **sky gradient from dark blue to pink at the horizon** is part of the ambient atmosphere — not specifically referenced — so it may change.
+
+However, **functional/logical associations**:
+- The **building sits on a raised platform** — this structural base is not mentioned for change. If the steampunk version is built on the same platform, then the **platform's presence and elevation** should be retained to maintain spatial logic.
+- The **water pool directly in front** is critical to the original composition — though not explicitly preserved, its existence enables the reflection, which is a defining aesthetic feature. Since the instruction doesn’t state “remove water,” and reflections are common in such scenes, **the water body should be preserved** to maintain environmental coherence.
+
+Non-modified element deduction:
+After excluding all allowed changes, the following **unmentioned elements** remain:
+- The **raised platform** beneath the building
+- The **still water surface** in front of the building
+- The **horizontal alignment of the building tiers**
+- The **symmetry of the tree lines** (though possibly optional)
+- The **overall nighttime setting** (implied by stars and moon)
+
+But note: the **moon is to be replaced**, so **any lunar detail is removed**.
+
+Preservation Targets List:  
+- The raised platform beneath the building  
+- The still water pool in front of the building  
+- The horizontal tiered layout of the structure (even if materials change)  
+- The position of the building relative to the water and platform  
+- The overall nighttime sky with stars (though moon changes)
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The raised platform beneath the building is a foundational structural element that defines the building’s elevation and separation from the ground. Its removal would alter the spatial logic of the scene and disrupt the intended visual hierarchy between the structure and the surrounding environment. While the building’s materials may change, the platform serves as a stable base and is not mentioned for modification. Thus, its presence is essential for maintaining the scene’s coherence.
+    Question: Is there a raised platform beneath the building?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The still water pool in front of the building is a key compositional element that creates symmetry and reflection, enhancing the aesthetic balance of the scene. Although the instruction does not specify preserving the reflection, the presence of water is necessary to produce it. Since the water is central to the original image’s visual impact and is not mentioned as removable, its retention ensures continuity in environmental context.
+    Question: Is there a still water surface directly in front of the building?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The horizontal tiered layout of the building — with distinct levels stacked vertically — is a defining architectural feature. Even though the materials may change to brass and copper, the **tiered structure** must remain to preserve the original building’s spatial organization. Altering this would fundamentally change the building’s identity and proportional balance.
+    Question: Does the building have multiple horizontal tiers stacked vertically?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The positioning of the building relative to the water pool and platform establishes the scene’s depth and perspective. The building is centered and elevated above the water, forming a focal point. This spatial relationship is crucial for visual coherence. If the building were moved or lowered, the composition would lose its intended balance.
+    Question: Is the building positioned centrally above the water pool on a raised platform?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The nighttime sky with visible stars provides the atmospheric context of the scene. Although the moon is to be replaced, the general darkness and starry sky are not mentioned for change. Retaining the starfield maintains the nocturnal mood and supports the celestial theme, especially with the new clock-faced moons.
+    Question: Is the sky dark blue with scattered stars?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The symmetrical arrangement of trees on both sides of the building contributes to the scene’s balance and framing. While not explicitly required, their presence enhances visual harmony. Since they are not mentioned for removal, and their absence would break the symmetry, they should be considered part of the preserved environment.
+    Question: Are there trees arranged symmetrically on both sides of the building?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

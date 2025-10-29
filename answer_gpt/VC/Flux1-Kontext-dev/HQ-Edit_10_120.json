@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_10_120",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the elderly woman’s facial expression, including the gentle smile and visible wrinkles around the eyes and mouth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B has blurred the woman's face entirely, making it impossible to retain or assess any facial features such as expressions or wrinkles. Since these elements are not visible, the answer is based on the absence of facial attributes.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the elderly woman’s short, white, neatly styled hair preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the elderly woman's white hair remains visible and appears to be styled short and neat, consistent with common appearance of elderly individuals and matching the visual cues from the original Image A.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the round wire-rimmed glasses with pink-tinted lenses positioned correctly on the woman’s face in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the glasses are obscured due to the blurring of the face which prevents the examination of any facial accessories such as glasses. Thus, the placement and lenses cannot be accurately assessed.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the woman’s hands clasped gently in front of her body, with visible age-related skin texture and veins, as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both Image A and Image B show the elderly woman's hands gently clasped in front of her body with age-related skin texture and veins visible. Image B retains these details, allowing the features to be compared with Image A accurately and showing consistency.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background of the image preserved as a tree-lined park path with green hedges and soft daylight, matching the original scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B has retained the scenery from Image A, including the tree-lined park path with green hedges and daylight. The visual information matches what is seen in the original image, indicating the background remains unchanged.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the edited image retain the qipao’s silhouette, including the high collar, long sleeves, and front closure with black frog buttons?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the qipao attire with the same silhouette noted in Image A, which includes the high collar, long sleeves, and front closure. The qipao design elements are clearly maintained and visible.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are the black frog closures visible along the front center of the qipao in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the black frog closures are clearly depicted along the front center of the qipao, matching the original details seen in Image A. These elements are retained without alteration.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.625
+}

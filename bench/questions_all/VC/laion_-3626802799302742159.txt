@@ -1,0 +1,127 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a collection of round, golden-yellow shortbread-style cookies with a central dollop of red jam (likely raspberry or strawberry), arranged in a white speckled ceramic mug placed on a matching pink speckled plate. The mug is filled with several cookies, some stacked and slightly overlapping, while five additional cookies are neatly arranged on the plate in a semi-circular pattern. The plate rests on a striped cloth with alternating pale pink and cream stripes, which lies atop a wooden surface with visible grain and warm brown tones. The lighting is soft and natural, casting subtle shadows that enhance the texture of the cookies and the matte finish of the ceramics. The overall composition is clean, symmetrical, and centered, evoking a cozy, homemade aesthetic.
+
+**Thinking process:**  
+The editing instruction explicitly states to *transform* the cookies into anthropomorphic characters by adding expressive faces and limbs, indicating that the **form and identity of the cookies as food items can be altered**—they may no longer resemble real cookies but instead become cartoonish figures. It also specifies modifying the scene into a "cozy tea party," implying that **the original setting (plate, mug, tablecloth, background) can be reimagined**, including replacing the plate with a floral picnic blanket and introducing props like tiny chairs and a tea table. However, the instruction does not mention changing the **core visual properties** of the original objects—such as the color of the jam, the yellow hue of the cookies, or the speckled texture of the mug—nor does it suggest removing the **presence of the mug and plate** entirely, only repurposing them.
+
+Thus, the following elements are allowed to change:
+- The **shape and form** of the cookies (from flat discs to anthropomorphic characters)
+- The **expression and limbs** added to the cookies
+- The **scene environment**, including the plate being replaced with a floral blanket
+- The **addition of new props** such as chairs and a tea table
+- The **function** of the mug (from container to clubhouse)
+
+However, **no explicit permission is given to alter the core identity features** of the original components unless they are directly transformed as per instruction. Since the transformation is described as “anthropomorphic,” the underlying **identity** of the cookies must still be recognizable—i.e., they must retain their basic **color, texture, and jam center** even if stylized.
+
+Allowed Changes List:
+- Shape of cookies (can be modified to include faces and limbs)
+- Expression and emotional state of cookie characters (grinning, pouting, winking)
+- Scene layout (can be changed to tea party setting)
+- Plate (can be replaced with floral picnic blanket)
+- Mug (can be reimagined as a clubhouse)
+- Addition of props (chairs, tea table, etc.)
+- Background (wooden surface and cloth can be reworked or replaced)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+To determine what must remain unchanged, we apply exclusion based on the allowed changes above:
+
+**Core recognition elements:**  
+Although the cookies are to be transformed into characters, the **original visual identity** of the cookies—especially their **golden-yellow color**, **round shape**, and **red jam center**—must remain identifiable. These are **key distinguishing features** that define the type of cookie (e.g., jam-filled shortbread). If these are completely removed or altered beyond recognition, the transformation would lose its narrative basis. For example, if the jam were replaced with green frosting, the character would no longer resemble the original cookie. Therefore, **the presence of the red jam center** and **the golden-yellow base color** are core recognition features that must persist.
+
+Similarly, the **white speckled mug** and **pink speckled plate** are key functional and aesthetic elements. While the mug’s function may shift from container to clubhouse, its **visual identity**—its **white color with black speckles**, **cylindrical shape**, and **handle**—must remain intact to maintain continuity. The same applies to the **pink plate**: even if it becomes a blanket, its **texture and color** should reflect the original material and tone.
+
+**Functional/logical association elements:**  
+The **mug containing the cookies** serves a logical function: it holds the cookies. In the edited version, it becomes a clubhouse, so its **spatial relationship** to the cookies must remain—cookies should still be inside or around it. The **arrangement of cookies on the plate** is also important: the original has five on the plate and more in the mug. This spatial logic (some inside, some outside) should be preserved even if the plate is now a blanket.
+
+**Non-modified element deduction:**  
+After excluding allowed changes (shapes, expressions, props), the remaining unmentioned visual details must be retained for coherence:
+- The **speckled texture** of both mug and plate
+- The **color palette**: golden-yellow cookies, red jam, white mug, pink plate
+- The **material appearance** of the ceramics (matte finish, slight shadowing)
+- The **position of the handle** on the mug (right side)
+- The **relative size** of the mug compared to the plate
+
+These are not explicitly mentioned in the instruction but are essential for visual consistency and identification.
+
+Preservation Targets List:
+- The presence of golden-yellow circular cookies
+- The presence of red jam centers in each cookie
+- The white speckled mug with a visible handle on the right
+- The pink speckled plate beneath the mug
+- The speckled texture on both mug and plate
+- The arrangement of cookies (some inside mug, some on plate)
+- The color contrast between yellow cookies and red jam
+- The relative size and proportion of the mug to the plate
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The golden-yellow color of the cookies is a core identity feature, distinguishing them from other types of baked goods. If this color is changed (e.g., to brown or white), the cookies would no longer be recognizable as the original type. This is a key visual identifier that must be preserved even when anthropomorphized.
+    Question: Are the cookies still golden-yellow in color?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The red jam center is an iconic feature of these cookies. Its presence defines the type of cookie and is essential for recognition. Even if the cookie is given a face, the jam must remain visible and red to preserve authenticity.
+    Question: Is there a red jam filling in the center of each cookie?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The white speckled mug is a distinctive object in the image. Its color, texture, and handle position are critical for identifying the original scene. Changing it to solid white or altering the handle would disrupt continuity.
+    Question: Is the mug white with black speckles and a handle on the right side?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4: 
+    Thinking process: The pink speckled plate is a key environmental element. Its color and texture match the mug, creating a cohesive set. Even if transformed into a blanket, the pink color and speckled pattern must remain to maintain visual consistency.
+    Question: Is the plate pink with a speckled texture?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The arrangement of cookies—some inside the mug, some on the plate—is a functional and compositional detail. It reflects the original layout and supports the narrative logic. Changing this could break the connection to the source image.
+    Question: Are some cookies inside the mug and others arranged on the plate?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The speckled texture on both the mug and plate is a consistent design element. It contributes to the aesthetic identity of the ceramics. Removing or altering this texture would make the objects look different from the original.
+    Question: Do both the mug and the plate have a speckled surface?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q7: 
+    Thinking process: The relative size of the mug compared to the plate is a spatial detail that maintains realism and proportion. If the mug were disproportionately large or small, it would appear inconsistent with the original.
+    Question: Is the mug smaller than the plate and positioned centrally on it?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

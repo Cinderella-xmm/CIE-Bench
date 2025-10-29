@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The subject’s facial expression, particularly the wide smile showing teeth and the upward gaze of the eyes, is a core emotional identifier in the image. It conveys joy and warmth, and is central to the subject’s identity. If this expression is lost, the emotional essence of the image is compromised. The smile and eye direction are unique to the original and not mentioned for alteration, so they must be preserved. This is a key identity element, hence weight 3.",
+      "question": "Is the subject's facial expression, including a wide smile showing teeth and eyes looking upward to the left, preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The head orientation—slightly turned to the left—is a defining spatial characteristic that contributes to the subject’s pose and engagement with the viewer. The instruction specifies retaining the \"dignified posture,\" which includes head angle. Altering this would disrupt the balance and intent of the composition. Thus, this is a functional logical element tied to posture, making it critical for consistency. Weight 3.",
+      "question": "Is the subject's head turned slightly to the left, maintaining the original angle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The hands are clasped in front of the torso with fingers interlaced, forming a distinct gesture. This is part of the \"dignified posture\" explicitly required to be retained. Changing this hand position would alter the subject’s demeanor and break the intended composure. It is a structural component of the pose, thus a high-weight preservation target. Weight 3.",
+      "question": "Are the subject's hands clasped gently in front of the torso, with fingers interlaced?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The henna designs on the palms and fingers are visible details that add cultural authenticity and personal identity. They are not mentioned in the editing instructions, so they are not allowed to be changed. Since they are part of the skin surface and not clothing or accessories, they fall outside the scope of modification. Their loss would reduce detail fidelity and cultural specificity. This is a secondary but important detail. Weight 2.",
+      "question": "Are the henna designs visible on the subject's palms and fingers preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The subject's skin tone and the soft lighting on the face and arms contribute to the realism and warmth of the image. Although lighting may shift due to background changes, the natural skin tone and its illumination should remain consistent to preserve identity. The instruction does not specify altering skin, so it must be retained. This is a minor but coherent detail affecting visual continuity. Weight 1.",
+      "question": "Is the subject's natural skin tone and lighting on the face and arms preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The hair is long, wavy, and brown, flowing naturally over the shoulders. While the instruction does not mention hairstyle, it is part of the subject’s appearance and not classified as an accessory. Changing it would affect identity recognition. Since it is not specified for modification, it must be retained. This is a core physical feature, though less critical than facial expression. Weight 2.",
+      "question": "Is the subject's long, wavy brown hair flowing over the shoulders preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

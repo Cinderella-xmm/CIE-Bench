@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0004",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image retain the man’s smiling expression and distinct facial features?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the face is intentionally blurred, thus, it is impossible to identify any facial expressions or distinct features from the image. Therefore, it does not retain the man’s smiling expression or distinct facial features.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the man’s short, neatly styled hairstyle accurately retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the hairstyle appears to be a replicated 3D or cartoonish version of the original related hairstyle from Image A. The hair is short and styled in a neat manner. This indicates that the hairstyle is retained, albeit in a stylized format. The process involves observing the hair structure, consistency, and neatness.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image include the black T-shirt with its central white graphic design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B retains the black T-shirt with a central white graphic design reminiscent of a line drawing, very similar to the original T-shirt in Image A. This shows an accurate retention of the T-shirt's design. The reasoning comes from comparing the visible T-shirt pattern and acknowledging the similarity in the placement and color of the design.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the subject positioned on or near a bookshelf in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject is clearly placed directly in front of a bookshelf, as indicated by the visible shelves and positioning. This can be deduced by identifying the layers of the bookshelf structure in the visual background, showing its existence and proximity to the subject.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the blue and red colors of the books visible in the background of the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases books in the background with visible blue and red colors, similar to Image A. The colors are seen on the spines of the books on the shelves behind the subject, indicating precise retention of these details. This involves recognizing patterns and color schemes from Image B and comparing them against the common knowledge of book spine designs.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7
+}

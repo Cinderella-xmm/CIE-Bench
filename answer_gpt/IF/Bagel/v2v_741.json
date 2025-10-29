@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_741",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the notebook depicted as a kawaii, moe-inspired anthropomorphic anime girl wearing purple and white attire?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Panel 3 of Image B, the character is a kawaii, anime-styled girl with cat ears and is wearing white and purple attire. The notebook from Image A is personified as this anime character, maintaining the color scheme (purple and white) of the notebook. This association reflects the moe-anthropomorphization of the notebook as an anime girl.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the character in Panel 1 have a slightly annoyed, pouting expression while holding a mouse in one hand?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, specifically Panel 1, there is no character showing any expression or holding a mouse. Instead, this panel features a large notebook labeled ‘XMY’. The assumption of a character's expression does not apply here as there is no depiction of an anime character present in this panel.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does Panel 1 include a text box with the message “Why won’t you connect?! I followed the documentation! (；´д｀)” written in a playful, casual handwritten font?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Panel 1 in Image B contains speech bubbles. The text reads 'Why won't coonkt! I ot fo'loenl th nolob!!' which appears to be intentionally jumbled or distorted text rather than the specific quoted message. This text does not match verbatim and is not clearly in a casual handwritten playful font.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the setting in Panel 1 a chaotic workspace with computer screens, stray coffee cups, and tangled wires?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Panel 1 of Image B shows a workspace with multiple monitors, keyboards, a mouse, and several coffee cups scattered around. However, without the degree of detail regarding 'tangled wires,' it seems more orderly than chaotic. This connotation of chaos isn't visually evident as opposed to a typical chaotic workspace description.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does Panel 2 show the same desk but cleaner, with glowing code cascading across the screens?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Panel 2 of Image B depicts a cartoonish trophy on a desk surrounded by computer screens showing code. While there is glowing code on the screens, the overall setting is not significantly cleaner than before, as the surrounding items like coffee cups and keyboards have remained consistent in their presence and arrangement across panels.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

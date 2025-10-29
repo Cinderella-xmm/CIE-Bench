@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_399",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the vase's bulbous body, narrow neck, and flared rim?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the vase is transformed with flowers covering its surface, giving it a textured appearance compared to the smooth, ornate metallic look in Image A. The bulbous body, narrow neck, and flared rim are not retained in their original form as they are now concealed or altered by the floral design. The overall shape has changed due to this decoration. Hence, the original characteristics are obscured.",
+      "weight": 3,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the flowers in the edited image still predominantly red with green leaves?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the flowers are a vibrant pink rather than predominantly red as in Image A. The leaves remain green, but the main color of the flowers has transformed from red to pink, altering the dominant color scheme. This indicates a shift in the predominant color of the flowers.",
+      "weight": 2,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the vase positioned next to the flower pot in the same manner as in the original image?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In both images, the vase and flower pot maintain the same spatial arrangement, with the vase positioned to the right of the flower pot on a flat surface. Despite alterations in design and decoration, their relative positions to each other remain unchanged.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image retain the beige background?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the background has changed from a beige color in Image A to a light, bluish-gray tone with a more diffuse appearance. This creates a different ambiance and clearly indicates that the original beige background is not retained.",
+      "weight": 1,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the surface beneath the vase and flower pot still smooth and light-colored?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the surface beneath the vase and flower pot appears to remain smooth and light in color, similar to Image A. While some lighting and color characteristics have shifted, the general attributes of the surface, such as smoothness and a light tone, are consistent.",
+      "weight": 1,
+      "model_answer": "yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_233",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the leaf enclosed within a transparent spherical container resembling a snow globe?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the leaf is clearly seen within a transparent spherical container. This container has snowflakes and a snowy base, typical features of a snow globe, confirming the appearance of a snow globe. The transparency of the sphere allows visibility of the leaf and snowflakes inside.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the snow globe placed on a surface resembling a tabletop near a window?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image (Image B) shows the snow globe resting on a flat surface, which visually resembles a tabletop. There's also a diffuse light source in the background, which suggests proximity to a window, with the blurred background potentially being the light coming through the window.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the background softly blurred and contains warm tones such as orange or yellow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a softly blurred background with visible warm tones, including hints of orange and yellow. These elements suggest a warm light source, possibly sunlight filtering through a window, contributing to the overall warm ambiance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there golden sparkles scattered within the snow globe due to sunlight filtering through?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image (Image B), there are no visible golden sparkles inside the snow globe. Instead, there are snowflakes and a softly focused background, but nothing resembling golden sparkles caused by sunlight interaction within the globe is present.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the leaf suspended in water with visible gentle ripples and delicate snowflakes drifting around inside the snow globe?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not show the leaf suspended in water but inside a snow globe, which typically does not contain water causing ripples. There are snowflakes around the leaf, but not in a water-filled context. Hence, the leaf is not in water with ripples but within a decorative snow globe setting.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

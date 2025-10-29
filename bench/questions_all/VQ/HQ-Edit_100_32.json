@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of evaluating facial feature modifications for structural consistency and geometric accuracy, this question focuses on the shape and alignment of the eyes, nose, and mouth. Any exaggeration must preserve anatomical plausibility to avoid unnatural appearance.",
+      "question": "Are the eyes, nose, and mouth aligned symmetrically and proportionally, with no distorted shapes such as stretched eyelids or misshapen lips?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of assessing the camera’s enlargement and metallic accents, this question evaluates whether the camera remains physically plausible in size relative to the hands and body, and whether the added metallic effects follow realistic material behavior.",
+      "question": "Is the camera proportionally enlarged but still held securely by both hands without floating or unnatural grip angles, and do the metallic accents show consistent highlights and reflections?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of checking the pastel gradient background integration, this question assesses whether the transition between the subject and background is smooth and free of visible edges or color mismatches.",
+      "question": "Does the background gradient blend seamlessly with the subject’s edges, with no visible haloing, sharp cutoffs, or color bleeding?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of verifying the decorative border’s rendering quality, this question checks for visual artifacts such as jagged lines, clipping, or overlap with the subject.",
+      "question": "Is the decorative border composed of clean, continuous camera motifs that do not intersect with the subject’s face or clothing, and are there no pixelated or broken lines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of preserving fine details during stylization, this question examines whether textures such as hair, denim, and skin retain clarity and natural structure despite artistic enhancement.",
+      "question": "Are individual hair strands, denim stitching, and fabric folds clearly visible and undistorted, with no smoothing or blurring that removes detail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

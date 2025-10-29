@@ -1,0 +1,121 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a young woman with long, wavy reddish-blonde hair standing barefoot in profile, facing right, playing a violin. She wears a pale green, knee-length dress with short sleeves and a simple, modest cut. Her posture is upright, with her left hand positioned on the neck of the violin and her right hand holding the bow, drawing it across the strings. The violin is a traditional wooden instrument with a dark brown finish and visible f-holes. The setting is a sunlit room with a large wooden-framed window divided into six panes, through which dappled sunlight filters, illuminating the interior. Outside the window, blurred green foliage suggests a garden or trees. Inside, to the left of the window, a small wooden stool holds a potted plant with feathery light-green leaves in a beige ceramic pot. To the right, a hanging trailing plant cascades from a wall-mounted shelf, and a woven basket with another plant sits on the floor. The walls are painted soft sage green, and the floor consists of wide wooden planks. Light casts distinct shadows on the floor, forming geometric patterns from the window panes. A framed picture hangs on the wall to the far right, partially obscured.
+
+Thinking process:  
+First, parse the editing instructions word by word to identify what elements are explicitly allowed to change:
+
+- **"Render the violinist in a vintage postcard style with sepia tones"**: This alters the overall color palette and artistic style but does not specify changes to form or structure of the subject. However, it implies tonal transformation, so colors may be altered.
+- **"Transform her dress into a floral-engraved gown"**: The dress’s design and pattern are explicitly changed—this allows modification of texture and ornamentation.
+- **"Redesign the window view into a dreamy, painted landscape of abstract swirls"**: The exterior view outside the window is replaced entirely; thus, the original foliage and natural scenery are no longer required.
+- **"Embellish the violin with gold inlays"**: The violin's surface details are modified—its material appearance is changed.
+- **"Add a decorative handwritten music score as a border"**: This introduces a new element (a border), implying the frame or edges of the image may be altered.
+
+From this, we can determine that:
+- The **subject’s pose and action** (playing violin) remain implied as central but not explicitly stated to change.
+- The **violin’s presence and function** are preserved, though its appearance is modified.
+- The **room layout** (window position, stool, basket, etc.) is not mentioned for removal or relocation, but the **window view** is specifically redesigned.
+- The **plants**, **stool**, **basket**, and **flooring** are not mentioned for deletion, but their visual role may be diminished under new style.
+
+Allowed Changes List:  
+(Specific element 1 that allows for changes): The color tone and artistic style of the entire image (vintage postcard style with sepia tones)  
+(Specific element 2 that allows for changes): The pattern and texture of the dress (transformed into a floral-engraved gown)  
+(Specific element 3 that allows for changes): The external scene visible through the window (replaced with abstract painted swirls)  
+(Specific element 4 that allows for changes): The surface decoration of the violin (embellished with gold inlays)  
+(Specific element 5 that allows for changes): The addition of a decorative handwritten music score as a border (new element introduced)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Now, apply exclusion logic based on the above allowed changes.
+
+**Core recognition elements**:  
+- The **subject’s identity** as a female violinist is central. While her dress and violin appearance change, her **posture**—standing, holding the violin under the chin, bow in motion—is essential to identifying her action. This functional pose must remain intact because changing it would alter the core narrative of "a person playing violin."
+- The **violin itself** must still be present and held in a playable manner. Even if decorated with gold inlays, it must retain its basic shape and structural features (e.g., body, neck, scroll, f-holes) to maintain its identity as a violin.
+- The **position and orientation** of the subject relative to the window (facing right, standing in front of it) is critical to the composition and storytelling. This spatial relationship is not mentioned for change, so it should be preserved.
+- The **presence of the stool with the potted plant** is a key environmental detail contributing to the room’s atmosphere. Though not directly referenced in edits, its location and function (supporting a plant) suggest it should remain unless explicitly removed. Since it’s not mentioned for alteration, it remains part of the scene.
+
+**Functional/logical association elements**:  
+- The **act of playing the violin** depends on correct hand placement: left hand on the fingerboard, right hand holding the bow and drawing it across the strings. Any deviation would break the logical consistency of the performance.
+- The **violin must remain attached to the shoulder/chin** via the chin rest, maintaining physical realism. This is a functional requirement for playing.
+- The **window’s structure** (six-pane wooden frame) is not mentioned for change, so its grid-like division and position should be retained even if the view beyond changes.
+
+**Non-modified element deduction**:  
+After excluding allowed changes:
+- The **wooden stool** and **potted plant** on it must remain, as they are not mentioned for removal.
+- The **woven basket** on the floor and **hanging plant** must also remain, as they contribute to the domestic setting and are not specified for change.
+- The **floorboards** and **light shadow patterns** formed by the window panes are not mentioned for alteration, so their presence and arrangement should be preserved.
+- The **framed picture** on the wall, though partial, contributes to the room’s authenticity and should remain unless obscured.
+
+Preservation Targets List:  
+(The subject's standing posture with violin under chin and bow in motion)  
+(The violin’s fundamental shape including f-holes, scroll, and neck)  
+(The six-pane wooden window frame structure)  
+(The wooden stool with potted plant placed on it)  
+(The woven basket on the floor containing a plant)  
+(The hanging trailing plant on the wall shelf)  
+(The position of the subject in front of the window, facing right)  
+(The presence of light casting geometric shadows on the floor)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+Q1:  
+Thinking process: The subject’s posture—standing, holding the violin under the chin with bow drawn across the strings—is the core functional action defining her as a violinist. This pose is essential for identifying the activity and cannot be altered without losing the essence of the scene. It is a high-weight element because it defines the subject’s role and interaction with the instrument.  
+Question: Is the subject standing in profile, facing right, with the violin resting under her chin and the bow actively drawn across the strings?  
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+Q2:  
+Thinking process: The violin’s basic shape—especially the presence of f-holes, scroll, and neck—is critical to its identification as a violin. Even if embellished with gold inlays, these structural features must remain recognizable. Losing them would make the object unidentifiable as a violin, undermining the core subject of the image.  
+Question: Does the violin have two f-holes, a curved body, a neck, and a scroll at the top?  
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+Q3:  
+Thinking process: The six-pane wooden window frame is a defining architectural feature of the room. Its grid pattern and position relative to the subject are crucial for spatial coherence. Although the view outside changes, the frame itself must remain unchanged to preserve the room’s structure and the source of light.  
+Question: Is the window composed of six rectangular panes arranged in two rows of three, with a wooden frame surrounding them?  
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+Q4:  
+Thinking process: The wooden stool with the potted plant is a key environmental detail that grounds the scene in domesticity. Its presence adds context and balance to the composition. Since it is not mentioned for removal or change, it must be preserved to maintain visual continuity.  
+Question: Is there a small wooden stool positioned to the left of the window, supporting a potted plant with feathery light-green leaves in a beige ceramic pot?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+Q5:  
+Thinking process: The woven basket on the floor contains a plant and is a distinctive decorative element. Its placement and texture contribute to the rustic charm of the room. As it is not mentioned for alteration, it must remain to preserve the scene’s authenticity and detail richness.  
+Question: Is there a woven basket on the floor to the right of the subject, containing a potted plant?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+Q6:  
+Thinking process: The hanging trailing plant on the wall shelf is a unique vertical element that enhances the room’s natural ambiance. Its presence contributes to the sense of life and depth in the space. Since it is not mentioned for removal, it must remain to support the scene’s coherence.  
+Question: Is there a hanging plant with trailing vines suspended from a shelf on the wall to the right of the window?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+Q7:  
+Thinking process: The geometric shadow patterns cast by the window panes on the floor are a direct result of the lighting and window structure. They reinforce the time of day and the source of light. These shadows are not mentioned for change, so their presence and shape must be preserved to maintain visual logic and realism.  
+Question: Are distinct rectangular shadows from the window panes visible on the wooden floor, aligned with the window’s grid?  
+Choices: Yes, No  
+A: Yes  
+Weight: 1  
+
+Q8:  
+Thinking process: The subject’s bare feet on the wooden floor are a subtle but important detail indicating intimacy and simplicity. This detail contributes to the serene, natural mood of the scene. As it is not mentioned for change, it should remain to preserve the emotional tone.  
+Question: Are the subject’s feet bare and touching the wooden floor?  
+Choices: Yes, No  
+A: Yes  
+Weight: 1

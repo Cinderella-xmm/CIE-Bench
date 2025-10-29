@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_787",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the character retain the original facial details and pose from the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character is a stylized, chibi-like cartoon version of the person in Image A. While the character has dark curly hair similar to the original, the facial features are simplified and exaggerated—such as large eyes, small nose, and a minimal mouth—typical of anime or chibi art styles. The pose is also different; the original image shows a natural, relaxed stance with one hand in the pocket, while the chibi character stands upright, holding a tablet or sketchbook. Therefore, neither the facial details nor the pose are retained from the original image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the character have chibi-like long-legged proportions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The character in Image B exhibits exaggerated proportions characteristic of chibi art style, particularly with disproportionately long legs compared to the torso. This is a common feature in stylized cartoon characters designed to be cute and expressive. The limbs are elongated, especially the legs, which are significantly longer than typical human proportions, reinforcing the chibi aesthetic. This aligns with known conventions in character design where such proportions enhance visual appeal and whimsy.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the character wear chic designer apparel, glasses, a tablet or sketchbook, and fashionable footwear?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The character in Image B wears an orange button-up shirt paired with green overalls (or shorts), which resemble a modern, stylish outfit. The character also wears round-framed glasses, holds a gray tablet or sketchbook, and sports two-tone boots with orange and green accents that match the outfit. These elements suggest a curated, fashionable look, possibly inspired by contemporary streetwear or designer aesthetics. The combination of accessories and clothing indicates attention to detail and coordination, consistent with a 'chic' or trendy presentation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the outfit and accessories incorporate fashion-forward elements that coordinate with the green and burnt orange hues?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The outfit in Image B is carefully coordinated around a color palette of green and burnt orange. The shirt is burnt orange, the shorts and hat are green, and the shoes combine both colors. The accessories—such as the hat and sneakers—are styled to match this theme, creating a cohesive and intentional look. The use of complementary colors and matching elements across clothing and accessories reflects a fashion-forward approach, commonly seen in modern fashion presentations or social media content like 'OOTD' (Outfit of the Day) posts.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background a solid color that complements the character's color scheme, avoiding gradients or patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B is a plain, neutral beige tone that serves as a clean backdrop for the character and the outfit breakdown. It does not contain any gradients, textures, or patterns, which helps keep the focus on the character and the clothing items. This choice of a solid, neutral background complements the vibrant green and orange tones of the outfit without competing with them, adhering to standard design practices in fashion illustrations and digital content presentation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the layout have an aspect ratio of 9:16, with \"OOTD\" text at the top, the full-body chibi character on the left, and a breakdown of the outfit and accessories on the right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B follows a vertical layout commonly used in mobile-friendly content, such as Instagram stories or TikTok posts. The aspect ratio appears to be 9:16, which is standard for such formats. At the top, the text 'OOTD' is prominently displayed in bold white letters against a black bar. On the left side, the full-body chibi character is shown standing. On the right, the outfit is broken down into components: the blouse and skirt, a hat, and sneakers. This arrangement matches the described layout precisely, indicating a deliberate and structured presentation typical of fashion content.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8333333333333334
+}

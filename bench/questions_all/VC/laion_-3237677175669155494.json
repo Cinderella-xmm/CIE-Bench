@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The Elizabeth Tower’s tall, slender form with a pointed spire and clock face at the top is the most iconic element of the scene. Its **vertical alignment**, **clock placement**, and **position on the right side** are critical for identifying the location. Even if transformed into a golden automaton, the **basic silhouette** must remain to preserve recognition. This is a **core identity feature**, and losing it would make the scene unrecognizable as London’s Big Ben. Thus, this element carries a weight of 3 points.",
+      "question": "Is the Elizabeth Tower positioned on the right side of the image with a tall, vertical structure topped by a pointed spire and a clock face near the top?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The Houses of Parliament’s **Gothic spires and ornate roofline** are unmistakable. Even if covered in energy vines, the **outline of the building** must remain consistent to identify it as the Palace of Westminster. This is a **key architectural identifier**, and altering its form would break the scene’s authenticity. It is not just background but a central landmark, so its **structural integrity** must be preserved. Weight: 3.",
+      "question": "Does the building complex on the left side of the image have multiple pointed Gothic spires and a long horizontal facade with repeating arched windows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The red double-decker bus (route 53) is a **cultural symbol of London**. Its **color, shape, and position** on the bridge are crucial. Even if transformed into a hovering sentinel, its **location and route number** must remain consistent to maintain context. The **presence of a second bus (route 43)** further down the road is also important for continuity. These are **functional and symbolic elements**, so preserving their **position and identification** is vital. Weight: 2.",
+      "question": "Is there a red double-decker bus labeled with route number 53 traveling across the bridge from left to right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The **Westminster Bridge** is defined by its **green railings and flat roadway** spanning between the two sides of the river. Its **structure and position** are essential for spatial logic. Even if modified with futuristic elements, the **bridge’s basic form and location** must remain to anchor the scene. This is a **critical environmental feature**, and changing it would disrupt the viewer’s understanding of the setting. Weight: 2.",
+      "question": "Is there a bridge with green metal railings and a paved roadway extending across the image from left to right, connecting the buildings to the right side of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The **“BUS LANE” marking** on the road is a **functional detail** that identifies the traffic flow. While the bus itself may be transformed, the **text and lane designation** must remain to preserve realism and logical consistency. This is a **minor but important detail** that supports the scene’s credibility. Weight: 1.",
+      "question": "Is the text “BUS LANE” clearly visible in white lettering on the road surface near the right edge of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The **presence of pedestrians on the sidewalk** helps establish scale and activity. While their appearance may change, their **existence and location** on the right side of the bridge contribute to the scene’s realism. This is a **supportive detail**, not a core element, but removing it would make the scene feel empty or unreal. Weight: 1.",
+      "question": "Are there people visible walking on the sidewalk on the right side of the bridge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The **second red double-decker bus (route 43)** further down the road provides depth and continuity. Its **presence and route number** reinforce the real-world context of London transit. Even if transformed, its **position and labeling** must remain consistent. This is a **secondary but identifiable element**, supporting the narrative of the city. Weight: 1.",
+      "question": "Is there a second red double-decker bus with route number 43 visible further down the road on the right side of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

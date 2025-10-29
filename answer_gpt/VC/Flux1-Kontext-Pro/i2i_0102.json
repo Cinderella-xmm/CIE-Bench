@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0102",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the pencil blue in color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no pencil present as it is a close-up image of text on yellow paper. Thus, the question about the pencil's color in Image B is not applicable.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the yellow paper have clean edges and a uniform color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a close-up of yellow paper with text. The visible section of the paper has clean edges, and the color appears uniform with no visible variations or imperfections. The image focus and lighting support this observation.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the pencil's tip visibly touching the yellow paper?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not show a pencil. It only shows the yellow paper with the word 'Draft' written on it. Thus, the question about the pencil's tip touching paper is irrelevant.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a blurred silver laptop in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the entire background is filled with yellow color signifying a single sheet of paper with text, with no other objects or backgrounds visible, including a laptop.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the pencil's tip visibly sharp?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not contain a pencil at all; it only displays a close-up view of yellow paper with the word 'Draft'. Therefore, any description about the pencil's tip does not apply.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.18181818181818182
+}

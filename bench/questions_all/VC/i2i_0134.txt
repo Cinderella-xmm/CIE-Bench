@@ -1,0 +1,79 @@
+Description of reference image: The image shows a fresh head of broccoli placed upright on a plain white plate. Steam rises from the broccoli, suggesting it has been recently cooked, while the plate rests on a marble surface. The background is a neutral gray, keeping the focus entirely on the broccoli.
+
+### Step 1 - Allowed Changes List:
+
+**Thinking process:**
+Based on the instructions, changes can include:
+- Replacing the desk and background with a forest floor setting.
+- Transforming the broccoli into a small tree-like entity, blending with the natural environment.
+- Adjusting lighting to simulate sunlight filtering through a forest canopy, while camouflaging the broccoli into this new environment.
+
+**Allowed Changes List:**
+1. Texture and structure adjustment of the broccoli to resemble a small tree.
+2. Replacement of the desk and background with a forest floor and canopy.
+3. Adjustments in lighting to create a natural, sunlit forest atmosphere.
+
+---
+
+### Step 2 - Preservation Targets List:
+
+**Thinking process:**
+Excluding allowed modifications leaves the following key elements to preserve:
+1. **Core recognition:** The broccoli's identity should still be recognizable as a plant (even if transformed into a tree).
+2. **Functional/logical association:** The broccoli must maintain some continuity of its form and position relative to the plate.
+3. **Remaining visual coherence:** Fine details such as the steam effect and the plate’s presence should persist.
+
+**Preservation Targets List:**
+1. Steam rising from the broccoli (a sign of heat/cooking).
+2. Presence of the white plate beneath the broccoli.
+3. Broccoli's overall green coloration.
+4. Core structural elements of the broccoli (stem and florets).
+
+---
+
+### Step 3 - Generate Question Answer Pairs:
+
+{
+    Q1: 
+    Thinking process: The steam is a core indicator of the broccoli having been cooked, an essential attribute that should be retained even when transforming its environment.
+    Question: Is there visible steam rising from the broccoli/tree?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The white plate serves as a key contextual element linking the broccoli to its original setting, and its presence helps maintain coherence with the original scene.
+    Question: Does the broccoli/tree rest on a white plate?
+    Choices: Yes, No  
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The broccoli's green color is vital for recognizing it as a plant. Retaining this color ensures the broccoli remains identifiable despite transformation.
+    Question: Is the broccoli/tree primarily green in color?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4: 
+    Thinking process: The florets are a distinctive feature of broccoli. While they may take a tree-like form, their presence links to the broccoli's identity.
+    Question: Are the characteristic florets of the broccoli discernible on the tree?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The stem is another core structural element providing continuity between the broccoli and its tree-like version.
+    Question: Does the broccoli/tree have a defined stem-like structure?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

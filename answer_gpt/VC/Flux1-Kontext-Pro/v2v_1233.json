@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1233",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the patient still visibly connected to the IV drip via tubing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual cues indicate that there is clearly visible tubing running from the IV bag labeled 'BLUE IV' directly to the patient's arm, suggesting a medical connection. This is a common setup for intravenous drips, where the tubing facilitates the transfer of fluids to the patient's bloodstream.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the nurse still interacting with medical supplies on the cart near the patient?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the nurse is still visually engaged with the supplies on the medical cart. This can be seen through her positioning and the presence of items on the cart in close proximity to the patient, which suggests ongoing interaction often witnessed in medical settings.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the medical monitors still visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The visual indicators in Image B show the presence of electronic medical monitors on the wall in the background, displaying vital signs like heart rate. These elements are typically found in hospital or clinical environments to monitor patients' health conditions.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the patient still lying in a relaxed position with his eyes closed?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the patient is shown lying on the hospital bed with his upper body reclined, arms positioned naturally beside him which indicates a relaxed pose. Additionally, his facial expression suggests closed eyes which is often interpreted as being at rest or relaxed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the IV stand still positioned next to the patient's bed?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the IV stand is still discernible placed in close proximity to the patient's bed, evidenced by the positioning of the stand that is typical for ease of access during medical procedures involving IV drips.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

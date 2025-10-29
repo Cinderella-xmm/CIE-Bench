@@ -1,0 +1,74 @@
+Description of reference image: The subject is a female figure with dark, wavy shoulder-length hair styled with two small, feather-like adornments on either side of her head. She has striking blue eyes and fair skin, with a composed, direct gaze toward the viewer. Her attire consists of a deep blue garment beneath a flowing red cape with wide, high collar. Behind her are translucent, iridescent wings resembling those of a dragonfly or fairy, with delicate purple-blue veining and a semi-transparent structure. At her chest is a glowing golden orb, emitting radiant light, encircled by intricate golden tendrils that resemble organic circuitry or roots, forming a central focal point. The background features a swirling, tunnel-like vortex of warm golden-brown hues with geometric patterns, suggesting a mystical or cosmic portal. The lighting emphasizes the luminosity of the orb and the translucency of the wings, creating a magical and ethereal atmosphere.
+
+Thinking process: First, analyze the editing instructions to determine what can be changed. The instruction specifies transforming the image into a **steampunk-themed fantasy illustration**, which implies a complete stylistic overhaul involving mechanical elements, brass gears, leather armor, clockwork wings, and a sepia-toned cityscape background. This indicates that the **overall style, material textures, wing structure, clothing design, and environment** are all permitted to change. However, the instruction does not mention altering the **core identity of the subject**, such as her facial features, eye color, hair shape, or the presence of the glowing orb — these are not explicitly stated as replaceable. Instead, it instructs to **add a clock face within the glowing orb**, meaning the orb itself must remain present and functional in its position, though modified internally. The scene is to be replaced entirely with a steampunk cityscape, so the original background vortex is allowed to be changed. The transformation includes replacing natural wings with mechanical ones, so the **translucent fairy wings** are no longer required but their **presence and placement** may still inform the new design’s spatial logic.
+
+Allowed Changes List:
+- Clothing style (to include brass gears and leather armor)
+- Wing type (from translucent insect-like to clockwork mechanical)
+- Background (from mystical vortex to steampunk cityscape with airships and towers)
+- Color tone (shift to sepia for vintage aesthetic)
+- Material textures (e.g., fabric → metal, leather)
+- Addition of mechanical details (gears, pipes, cogs)
+- Replacement of natural wings with clockwork wings
+- Modification of the glowing orb to include a clock face
+
+Step 2 – Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: The subject is visually identifiable by specific features that distinguish her from other characters. These include her **facial structure**, particularly her **blue eyes**, **dark wavy hair**, and **distinctive hairstyle with feather-like adornments**. These are essential to maintaining her identity, especially if she is based on a known character (e.g., Scarlet Witch). The **glowing orb at the chest** is another key identifier — even if modified, it must remain in the same anatomical location and retain its role as a central energy source. Its **position, function, and radiant glow** are critical to the character's visual identity.
+
+Functional/logical association elements: The **orb's placement at the center of the chest**, connected by golden tendrils, suggests a symbolic or magical power source. If the orb were moved or removed, the character’s core narrative function would be lost. Additionally, the **wings’ position behind the shoulders** and their **symmetrical spread** establish spatial balance; although their form changes, their **placement and orientation** must remain consistent to preserve compositional logic.
+
+Non-modified element deduction: After excluding allowed changes (clothing, wings, background, materials), the remaining unmentioned elements include the **subject’s facial features**, **hair texture and arrangement**, **eye color**, **feather-like hair ornaments**, and **the glowing orb’s position and radiance**. These are not listed as changeable and are foundational to recognizing the character. Even in a steampunk version, the **face must remain recognizable**, and the **orb must stay centered and luminous**.
+
+Preservation Targets List:  
+- Facial features including blue eyes and distinct facial structure  
+- Dark wavy hair with feather-like adornments on both sides  
+- Position and glowing nature of the central chest orb  
+- Symmetrical wing placement behind the shoulders (though form may change)  
+- Overall posture and front-facing orientation of the subject  
+
+{
+    Q1: 
+    Thinking process: The blue eyes are a core identification feature of the character, distinguishing her from others and contributing to her iconic appearance. In the original image, they are clearly visible and prominent. Changing their color or removing them would fundamentally alter her identity. Since the instruction does not specify changing eye color, this element must be preserved.
+    Question: Are the subject's eyes blue?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The dark, wavy hair with two feather-like adornments on either side is a distinctive hairstyle that contributes to the character’s unique look. This specific configuration is not mentioned as changeable in the instruction, and altering it would affect recognition. The feathers are positioned symmetrically near the temples, forming part of the character’s signature appearance.
+    Question: Does the subject have dark wavy hair with two feather-like adornments on each side?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The glowing golden orb at the chest is a central visual and symbolic element. It is located directly over the sternum and emits radiant light, connected by golden tendrils. Although the instruction allows adding a clock face inside it, the orb’s presence, position, and luminosity are essential to maintain continuity. Removing or relocating it would destroy the character’s defining magical attribute.
+    Question: Is there a glowing golden orb centered on the chest, emitting light?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4: 
+    Thinking process: The subject is facing forward with a direct gaze toward the viewer, and her posture is upright and symmetrical. This orientation is fundamental to the composition and character portrayal. While clothing and wings may change, the frontal pose ensures consistency in presentation. The instruction does not suggest a change in angle or posture, so it must be retained.
+    Question: Is the subject facing directly forward with a neutral expression?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The wings are positioned symmetrically behind the shoulders, extending outward. Though their form will be transformed into clockwork, their placement is critical for maintaining spatial balance and continuity. The original wings are translucent and veined, but their location defines the character’s silhouette. Even in a mechanical version, their position must match the original to preserve compositional logic.
+    Question: Are the wings positioned symmetrically behind the shoulders?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+}

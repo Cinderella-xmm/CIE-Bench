@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0110",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the thick, textured brushstrokes of the original painting retained?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual appearance of the sunflowers and vase is smooth and lacks the thick, textured brushstrokes traditionally seen in paintings. These brushstrokes are a defining characteristic of Van Gogh's style in Image A, where the texture adds depth and character to the flowers and vase. In the edited image, the transition to a smooth digital or photographic style suggests that these brushstrokes are not retained.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the bright golden yellow color of the sunflowers preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sunflowers appear with a vibrant golden yellow color. This color is characteristic of the original painting, where Van Gogh used vivid yellow tones to depict the sunflowers' brightness. The edited image maintains this bright and lively coloration of the sunflowers, which mirrors their appearance in Image A.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the off-white and yellow color of the vase, including the handwritten signature \"Vincent,\" retained?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the vase displays yellowish colors and some shading, though the specific tones are more reflective and polished, consistent with a modern interpretation. The signature 'Vincent' is present on the vase in the edited image, matching the original's distinct feature in Image A. Despite the differences in texture and medium, these elements are still recognizable.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the sunflowers positioned in the vase as they were originally, maintaining their natural arrangement and angles?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sunflowers maintain a similar arrangement to Image A. The orientation of the flowers, their angles, and the natural positioning relative to the vase appear consistent with the original composition. This indicates that the edited image preserves the floral arrangement seen in the original.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the natural placements of the leaves and stems, including their green color and texture, preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the leaves and stems exhibit a green color that aligns with the natural hues in Image A. The positioning and perspective of the leaves and stems seem to reflect their placement in the original painting. However, the texture is smoother in the edited image compared to the textured appearance seen in the original artwork.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7692307692307693
+}

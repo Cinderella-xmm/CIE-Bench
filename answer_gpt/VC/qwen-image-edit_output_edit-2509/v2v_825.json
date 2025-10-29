@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_825",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the handwritten notes and highlighted dates, such as \"Birthday,\" \"Wedding,\" and \"No work,\" still present on the calendar pages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the calendar pages are piled in a stack, with the pages containing handwritten notes and highlighted dates placed at the top. The visual cues show multiple layers of paper, suggesting a compilation of notes and different events. Despite the organization in a stack, common sense suggests that the stack likely retains all the notes from the individual calendar pages seen in Image A. Hence, the handwritten notes are likely still present.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the text on the calendar pages, including handwritten notes and date numbers, still legible and clear?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the topmost calendar pages in the stack still show handwritten notes and date numbers, but the clarity and legibility are somewhat compromised due to the layered presentation. Despite this, the text on the visible pages remains generally clear enough to read, with the numbers and notes recognizable. World knowledge suggests that text on calendars is usually printed clearly for easy reading, hence the assumption that legibility is maintained at least on the visible parts.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the calendar grid structure, including the alignment of dates in rows and columns, remain intact?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the calendrical pages being visually stacked and partially obscured, the grid layout on the top is visible and suggests an intact structure. Normally, the calendar's design maintains a consistent grid format to maintain functionality irrespective of how they are organized. Therefore, it is reasoned that the calendar retains its structural integrity.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the month labels, such as \"January,\" \"April,\" and \"October,\" still visible and correctly placed on the calendar pages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visible page at the top of the stack clearly shows the month label 'January.' The positioning is consistent with how month labels appear on calendars (usually at the top). Given this evidence, it suggests that the month labels are correctly placed and visible on the piles representing different months. Assuming consistency over unseen layers, these labels are probably present across all months as originally intended.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the date numbers, such as \"10,\" \"27,\" and \"12,\" still present and correctly positioned on the calendar pages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited Image B, the top calendar page on the stack shows date numbers that appear correctly placed in their respective grid positions typical of monthly calendar layouts. This alignment is consistent with common design standards of calendars for easy accessibility and readability. Hence, it's reasonable to conclude from what can be seen and inferred that the date numbers are indeed present and correctly positioned throughout the stack.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

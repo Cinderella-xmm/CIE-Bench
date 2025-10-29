@@ -1,0 +1,77 @@
+Description of reference image: The subject consists of three figurines representing the Three Wise Men (Magi) from the Nativity scene, each standing on a separate black circular base. The figure on the left wears a blue turban with a gold crown, a purple tunic, green robe with gold trim, and holds a golden vessel in both hands; he has a dark beard and is slightly bent forward. The central figure is smaller in stature, wearing a red robe with white and gold trim, a gold crown, and has dark skin and beard; his hands are clasped over his chest, and a golden orb rests at his feet. The figure on the right wears a pink headscarf under a gold crown, a green tunic, a navy-blue cloak with gold trim, and holds a golden box in both hands; he has a full beard and stands upright. All figures are painted with rich colors and detailed textures, including fabric folds, facial features, and ornamental elements like crowns and jewelry. The background is plain white, emphasizing the figurines as the sole focus.
+
+Thinking process: First, analyze the editing instructions to determine what can be changed. The instruction specifies transforming the figurines into a **miniature Nativity scene within a glass snow globe**, which means the **form and context** of the original objects will change—specifically, they will no longer be standalone statues but embedded inside a snow globe. This allows for changes in their **spatial arrangement**, **background environment**, and **presentation medium**. The instruction also specifies adding **a grassy hilltop**, **a suspended golden star**, **swirling snowflakes**, and an **ornate wooden base with engraving and inscription**. These are all new environmental and structural additions that replace or modify the original setting. However, the instruction does **not** mention changing the **identity** or **appearance** of the three figures themselves—only their **contextual placement**. Therefore, while the **scene** and **container** are fully modifiable, the **figurines’ identities** must remain intact.
+
+Allowed Changes List:
+- The overall form of the figurines (they will be enclosed in a snow globe)
+- The background environment (from plain white to a grassy hilltop inside a snow globe)
+- The addition of snowflakes, a golden star, and lighting effects
+- The presence of a glass dome and ornate wooden base
+- The spatial positioning of the figurines (now arranged on a hilltop within a globe)
+- The color intensity of clothing (instruction says "deep, rich hues", implying enhancement but not fundamental alteration)
+
+Step 2– Determine the elements that should remain unchanged
+
+Thinking process:
+Core recognition elements: The identity of the Three Wise Men is tied to specific visual markers: their **crowns**, **beards**, **distinctive robes**, **postures**, and **objects held** (golden vessels/boxes). These are iconic representations derived from traditional Nativity iconography. For example, the **gold crowns** identify them as kings; the **beards** and **darker skin tones** reflect historical and cultural depictions. Changing these would alter their identity as the Magi. Even though the scene changes, the **figures themselves must retain their core appearance** to preserve recognition.
+
+Functional/logical association elements: The **objects held** by each figure (golden vessels, boxes, orbs) are symbolic gifts (gold, frankincense, myrrh). Their **possession and posture** (e.g., holding a gift, hands clasped in reverence) are functionally linked to their role in the Nativity story. If these are removed or altered, the narrative logic is broken. Thus, even within a snow globe, these **symbolic actions and items must remain**.
+
+Non modified element deduction: After excluding allowed changes (like background, container, lighting), the remaining **visual details**—such as **crown shape**, **robe color and trim**, **facial features**, **hand positions**, and **object types**—must be preserved. These are not mentioned in the instruction as being changeable, and altering them would compromise the authenticity of the figures.
+
+Preservation Targets List:
+- The presence and shape of the gold crowns on each figure
+- The distinct facial features, including beards and skin tone
+- The color and trim of the robes (purple/green, red/white/gold, green/blue)
+- The objects held by each figure (golden vessel, golden box, golden orb)
+- The hand positions (clasped hands, hands holding gifts)
+- The relative sizes and postures of the figures (left leaning, center reverent, right upright)
+
+{
+    Q1: 
+    Thinking process: The gold crown is a core identity feature of the Three Wise Men, symbolizing their royal status. Its presence and shape (especially the ornate design and placement atop the head) are essential for identifying them as kings. In traditional depictions, this crown is always present and clearly visible. Removing or altering it would make the figures unrecognizable as Magi, hence it is a key identification element with a weight of 3 points.
+    Question: Is the gold crown present on the head of each of the three figures?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The dark beards and facial hair are distinctive traits in traditional representations of the Magi, especially in Western art. They contribute to the recognition of these figures as wise men of foreign origin. Altering or removing the beards would significantly affect their identity. Since the instruction does not specify any change to facial features, they must be retained. This is a core recognition element, thus weighted at 3 points.
+    Question: Do all three figures have prominent dark beards?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The clothing colors and trims are critical for distinguishing each king and aligning with traditional iconography (e.g., purple, red, green robes with gold accents). The instruction mentions enhancing “deep, rich hues,” which implies retention of the original palette, not replacement. Changing the primary colors would misrepresent the figures. These colors are essential for visual identification and thematic consistency, so they are important scene-related elements, weighted at 2 points.
+    Question: Are the robes of the figures colored in purple/green, red/white/gold, and green/blue respectively, with gold trim?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: Each figure holds a symbolic gift: a golden vessel, a golden box, or a golden orb. These objects are central to their narrative role in the Nativity. Their presence and type are non-negotiable for maintaining the story's integrity. Even within a snow globe, these items must remain unchanged. This is a functional element tied to their identity and purpose, making it a high-priority preservation target with a weight of 3 points.
+    Question: Does each figure hold a golden object (vessel, box, or orb)?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q5: 
+    Thinking process: The hand positions—holding gifts, clasping hands—reflect their gestures of reverence and offering. These are key to interpreting their actions in the scene. Altering them would distort the narrative meaning. While the instruction allows for repositioning within a globe, the actual gesture must remain consistent. This is a logical-functional detail, essential for coherence, hence weighted at 2 points.
+    Question: Are the hands of the central figure clasped over the chest, and do the other two figures hold their gifts with both hands?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The relative size and posture of the figures (left leaning, center small and reverent, right upright) contribute to their individual characterization and visual balance. While the instruction allows repositioning, the intrinsic proportions and poses must be preserved to maintain recognition. These are secondary but identifiable features that aid in distinguishing the figures. Though not core, they are important for visual consistency, thus weighted at 1 point.
+    Question: Is the central figure noticeably smaller than the other two, and is he standing upright with hands clasped?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

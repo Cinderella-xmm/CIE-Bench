@@ -1,0 +1,65 @@
+Description of reference image: The subject is a red semi-truck parked on an asphalt road with a gravel shoulder. The truck has a distinct shiny chrome exhaust pipe, large wheels with visible lug nuts, and a prominent red grille featuring vertical slats and a small logo emblem. The cab has large windows and a chrome side mirror. The background consists of green grass, trees, and a clear blue sky with scattered clouds.
+
+Thinking process:  
+The instructions specify converting the image into a realistic cartoon rendering style with bolder lines and more vivid colors while simplifying the background. The structure of the truck should be retained, implying that the core shape, size, and position of major components (like the cab, wheels, and exhaust pipe) must stay consistent. The background can be simplified, indicating that the general environment details may change but the relative positioning of the truck (being outdoors) should remain intact. 
+
+### Allowed Changes List:
+- The truck's texture can be changed to a cartoon-like rendering.
+- The color can become more vivid but the essential hue (red truck) should remain recognizable.
+- The background (sky, trees, grass) can be simplified while preserving the overall outdoor setting.
+
+Thinking process:  
+Core recognition elements include the truck's iconic red color, large chrome exhaust pipe, prominent grille shape, and the overall proportions of the semi-truck. Functional elements include the wheel positions and the alignment that suggest a typical semi-truck design. Lastly, visual coherence elements would consist of small details such as the grille slats and the shape of the windshield.
+
+### Preservation Targets List:
+- The truck's red color and chrome exhaust pipe.
+- The structure and relative proportions of the truck.
+- The wheel locations and their lug nut details.
+- The grille design and emblem placement.
+- The truck cab's large windows and side mirror.
+
+
+{
+    Q1: 
+    Thinking process: The truck's red color is a key visual identifier and changing it significantly would lose the core identity. Thus, it must be retained, and this feature carries high weight.
+    Question: Is the truck still predominantly red in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The large chrome exhaust pipe is a distinctive feature of this truck model, and its presence helps in recognizing the vehicle. Losing it would affect the truck’s identity.
+    Question: Is the large chrome exhaust pipe still present on the side of the truck?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The position of the wheels and their structural details, like lug nuts, are fundamental to the truck's functionality and appearance. Their retention ensures the logical consistency of the truck.
+    Question: Are the wheels correctly positioned on the truck, including their size and visible lug nuts?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The grille design with vertical slats and the emblem are iconic features of this truck model, aiding its recognition. Retaining these details preserves the visual identity.
+    Question: Does the truck's front grille maintain its vertical slats and the emblem in the center?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The large windows on the truck cab and the side mirror are functional components contributing to the truck's aesthetic. Their presence supports the coherence of the truck's appearance.
+    Question: Are the large windows on the truck's cab and the chrome side mirror still visible and in place?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_825",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the handwritten notes and highlighted dates, such as \"Birthday,\" \"Wedding,\" and \"No work,\" still present on the calendar pages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the calendar pages show various handwritten annotations. The word 'Birthday' is visible in blue ink on the January page, near the date 2, which matches the original annotation. The word 'Wedding' appears in red ink on the October page, near the date 12, consistent with its presence in the original image. Similarly, 'No work' is written in red ink on the September page, corresponding to the date 8. Additionally, several dates are circled or marked with colored ink (e.g., yellow circle around 8 in September, blue circle around 12 in October, red circle around 27 in April), indicating that these highlights are preserved. Although the paper texture appears slightly aged or weathered, the annotations remain visually intact. Based on visual inspection and common knowledge of how such annotations appear on physical calendars, it is reasonable to conclude that these elements have not been removed or obscured.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the text on the calendar pages, including handwritten notes and date numbers, still legible and clear?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the apparent aging or texture effect applied to the calendar pages—such as slight discoloration, creases, and uneven lighting—the printed text (e.g., month names, day abbreviations, and date numbers) remains readable. Handwritten notes like 'Birthday,' 'Wedding,' 'No work,' and 'Gym' are still clearly visible, though some may appear slightly faded due to the simulated vintage look. However, the contrast between the ink and paper is sufficient for legibility. For instance, 'Wedding' in red on the October page and 'Gym' in green on May are distinguishable. The date numbers are also clearly discernible, even if some edges appear softer due to lighting or texture effects. This suggests that while the image has been edited for a stylistic purpose, clarity has been maintained. World knowledge about font legibility and human perception supports that minor texture changes do not necessarily impair readability unless they obscure content, which is not the case here.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the calendar grid structure, including the alignment of dates in rows and columns, remain intact?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The calendar pages in Image B maintain a consistent grid layout, with dates arranged in weekly rows and columns as expected in standard monthly calendars. Each month's page shows days of the week labeled at the top (e.g., MON, TUE, WED), followed by numbered dates aligned in proper sequence. For example, January starts on a Monday (1st), and the dates progress correctly through the month. There is no evidence of misalignment, distortion, or warping of the grid. Even with the textured appearance of the paper and shadows cast across the pages, the structural integrity of the grid remains unchanged. This consistency aligns with typical calendar design principles, where accurate date placement is essential. The editing process seems to preserve geometric fidelity, suggesting that the underlying structure was not altered.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the month labels, such as \"January,\" \"April,\" and \"October,\" still visible and correctly placed on the calendar pages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the month labels are clearly visible at the top of each respective calendar page. 'JANUARY' is at the top of the leftmost page, 'APRIL' appears on multiple overlapping pages, and 'OCTOBER' is centered on one of the prominent pages. These labels are positioned consistently with standard calendar formatting—centered at the top of each page. Their visibility is not compromised by the editing effects; although the paper has a slightly aged or wrinkled texture, the black text remains sharp and readable. From a world knowledge perspective, month labels are critical for identifying calendar sections, and their correct placement ensures usability. The fact that all visible months retain their labels in the expected location confirms that this aspect of the image has been preserved.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the date numbers, such as \"10,\" \"27,\" and \"12,\" still present and correctly positioned on the calendar pages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, specific date numbers such as '10' (in January and April), '27' (in April), and '12' (in October) are clearly visible and positioned within their appropriate cells in the grid. For instance, '10' in January falls under the 'TUE' column, matching the actual weekday alignment. '27' in April is located in the last row, under 'FRI', which is correct for that year’s calendar. '12' in October is in the second row, under 'WED', consistent with its placement. These numbers are not missing, misplaced, or distorted. While the overall image has a textured, slightly worn appearance, the numerical values remain distinct and properly aligned. This preservation of date accuracy reflects both the fidelity of the editing process and adherence to real-world calendar conventions, where correct positioning of dates is crucial for functionality.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

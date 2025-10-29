@@ -1,0 +1,133 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a large, gray elephant standing on a rocky outcrop in a mountainous landscape. The elephant faces slightly to the left with its trunk curled upward, one tusk visible on the right side. It wears an ornate golden crown atop its head, intricately designed with spiky finials and embossed patterns resembling traditional South Asian or Southeast Asian royal regalia. The crown sits securely over the forehead and ears, extending down the back of the head. The elephant’s body is adorned with elaborate golden armor covering its chest, shoulders, and flanks, featuring layered geometric and floral motifs with metallic sheen and raised detailing. Similar golden bands encircle each leg just above the hooves. The elephant’s skin texture is detailed with natural wrinkles and folds, particularly around the trunk, ears, and joints. Its ears are wide and fanned outward, showing fine creases. The background consists of misty, layered mountains under a soft gradient sky transitioning from pale yellow near the horizon to deep blue-gray at the top. Sparse green trees are visible in the lower foreground and distant slopes.
+
+Thinking process:  
+The editing instruction specifies transforming the original image into a **miniature diorama** version of the elephant within a **glass display case**, using **metallic resin for armor details**, adding **silk-gold banners at corners**, introducing a **backdrop of translucent mountain silhouettes**, and placing **bonsai-like trees at the foreground edges**. This implies that:
+
+- The **form and scale** of the subject (elephant) will be reduced to miniature.
+- The **material of the armor** will be changed from gold-metallic appearance to **metallic resin**, which may affect surface reflectivity and texture but not necessarily shape or design.
+- The **scene environment** is being replaced entirely: the real mountains and sky are to be replaced by **layered translucent mountain silhouettes** as backdrop.
+- The **foreground elements** (trees) are being replaced by **sculpted bonsai-like trees**.
+- A **glass case** is introduced, implying framing and containment.
+- **Silk-gold banners** are added at corners — these do not exist in the original.
+
+Thus, the following elements are allowed to change:
+- Scale of the elephant (from full-sized to miniature)
+- Material rendering of the armor (gold → metallic resin)
+- Background scenery (realistic mountains → translucent layered silhouettes)
+- Foreground vegetation (natural trees → bonsai-like sculptures)
+- Addition of glass case and silk-gold banners
+- Overall composition layout (from open natural scene to enclosed diorama)
+
+Allowed Changes List:
+- Scale of the elephant (reduced to miniature)
+- Armor material (changed to metallic resin)
+- Background mountains (replaced with translucent layered silhouettes)
+- Foreground trees (replaced with bonsai-like models)
+- Introduction of glass display case
+- Addition of silk-gold banners at case corners
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+We now determine what **must remain unchanged** based on exclusion from the allowed changes list and core recognition logic.
+
+**Core recognition elements**:  
+The identity of the elephant is defined by its **iconic adornments**—specifically:
+- The **golden crown** with its **spiky, tiered structure** and **central peak**—this is a key visual identifier, resembling ceremonial royal headgear from South/Southeast Asia.
+- The **elaborate golden armor** on the chest and flanks, with **distinctive geometric and floral patterns**, including **overlapping plates** and **raised borders**.
+- The **golden bands** around the legs—these are consistent with the armor style and serve as signature decorative elements.
+- The **trunk posture** (curled upward), **tusk visibility** (right tusk present), and **ear position** (wide and fanned)—these define the animal's stance and orientation.
+- The **skin texture**, especially **wrinkles along the trunk and joints**, which distinguish it as a realistic elephant.
+
+These features are **not mentioned in the editing instructions as being altered**; instead, they are implied to be **retained in form** even if materials change (e.g., "metallic resin" suggests same shape, just different material). Therefore, **shape, pattern, and placement** must be preserved.
+
+**Functional/logical association elements**:  
+- The **armor design** serves both aesthetic and symbolic function—its **placement** (chest, flanks, legs) must be preserved to maintain logical coherence with ceremonial elephant imagery.
+- The **crown's position** on the head is fixed and central; changing it would alter the symbolic meaning.
+- The **elephant’s pose** (standing, trunk up) is essential to its majestic presentation and should remain unaltered.
+
+**Non-modified element deduction**:  
+All other aspects not listed in the allowed changes list must be retained:
+- The **overall posture** of the elephant
+- The **presence and shape** of the crown and armor
+- The **design motifs** (geometric/floral) on the armor
+- The **texture of the skin**
+- The **position of the tusk**
+- The **fanned ear shape**
+- The **color scheme** of the elephant (gray skin, gold adornments)—unless explicitly stated otherwise, color remains intact.
+
+Preservation Targets List:
+- The **spiky, multi-tiered golden crown** with central peak and ornamental base
+- The **elaborate golden chest armor** with overlapping plate design and intricate patterns
+- The **golden leg bands** around all four legs
+- The **curled-up trunk** posture
+- The **visible right tusk** and **fanned-out ears**
+- The **wrinkle texture** on the trunk, face, and legs
+- The **symmetrical placement** of armor and crown
+- The **gray skin tone** of the elephant
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The spiky, multi-tiered crown is the most iconic feature of the elephant, serving as a primary identifier of its royal or ceremonial status. Its unique shape—especially the central peak and radiating finials—is critical for recognition. If this crown is absent or significantly altered in form (e.g., flattened or simplified), the subject loses its defining character. Thus, preserving its exact silhouette and structural complexity is essential. This is a core identity feature, hence weighted at 3 points.
+    Question: Is the spiky, multi-tiered golden crown with a central peak and ornamental base present on the elephant’s head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The chest armor is a key accessory that defines the ceremonial nature of the elephant. Its layered, geometric design with floral motifs is distinctive and not generic. Changing its shape or omitting it would break the visual continuity of the subject. Even though the material may change to metallic resin, the **structure and pattern** must remain identical. This is a functional and symbolic element tied to the subject’s identity, so it is assigned 3 points.
+    Question: Is the elaborate golden chest armor with overlapping plates and intricate geometric/floral patterns present on the elephant’s torso?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The golden bands around the legs are recurring decorative elements that match the style of the crown and armor. They contribute to the overall symmetry and ceremonial aesthetic. Their presence and placement are visually significant and help anchor the design language. While minor in size, their absence would disrupt the cohesive look of the adorned elephant. They are important accessories, thus weighted at 2 points.
+    Question: Are golden bands present around all four legs of the elephant, positioned just above the hooves?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The curled-up trunk is a defining posture that conveys majesty and elegance. It is a specific gesture that distinguishes this elephant from others in similar poses. Altering the trunk’s curvature or direction would change the expression and intent of the subject. This is a core postural element tied to the original composition and emotional tone, making it critical to preserve. Weighted at 3 points.
+    Question: Is the elephant’s trunk curled upward in a distinct spiral shape?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q5: 
+    Thinking process: The visible right tusk is a key anatomical detail that contributes to the realism and balance of the elephant’s profile. In the original image, only one tusk is clearly visible due to the angle. Removing or altering it would make the subject appear incomplete or unnatural. While not the most iconic feature, it is a necessary detail for accurate representation. Weighted at 2 points due to importance in facial symmetry and species identification.
+    Question: Is the right tusk visible and protruding from the upper jaw of the elephant?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The fanned-out ears are characteristic of an alert or majestic elephant. Their shape and positioning are part of the animal’s expressive anatomy. The original image shows them fully extended, contributing to the grandeur of the pose. Any reduction in size or change in shape would diminish the intended effect. This is a key physical trait, thus weighted at 2 points.
+    Question: Are the elephant’s ears fully fanned out and extended laterally?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The skin texture, particularly the wrinkles on the trunk and joints, is essential for identifying the subject as a real elephant rather than a stylized or cartoonish version. These textures provide depth and realism. Even in a miniature model, such details must be preserved to maintain fidelity. While subtle, they are crucial for visual consistency and biological accuracy. Weighted at 1 point as a detail-level element.
+    Question: Are visible wrinkles present on the trunk, around the eyes, and at the joint areas of the legs?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

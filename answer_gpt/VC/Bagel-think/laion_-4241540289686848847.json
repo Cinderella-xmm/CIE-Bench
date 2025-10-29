@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-4241540289686848847",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the character retain the golden-yellow eye color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The face of the character has been intentionally blurred, which obscures any detail about eye color. However, based strictly on the visual cues from the character's hair and general artwork style, there is no definitive evidence in Image B to support the claim of retaining the original eye color, which cannot be discerned.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the character’s facial structure (jawline, cheekbones, nose shape) preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The face is obscured by a blur, and therefore, details about the character's facial structure such as jawline, cheekbones, and nose shape are not visible in Image B. With no visible information, we cannot assert any preservation of these features.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the character’s skin tone and texture preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Given that the face is blurred and does not disclose the skin tone directly, we have no visible cues in Image B to evaluate or compare skin tone and texture against the original. Therefore, without explicit evidence, we conclude it is not preserved.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the character’s body proportions and stance preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The character's attire and stance in both images suggest consistency in body proportions. Despite the face being blurred, the visual information about the character's clothing and stance remains the same, indicating preservation.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the camera angle and lighting direction preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both images, the camera angle captures the subject from a similar viewpoint, and the lighting seems consistent in its direction, casting similar shadows and highlighting the same areas. This suggests that both the camera angle and lighting direction are preserved.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the character’s relative position to the background preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The character in both images is featured with a consistent background setup, suggesting the character's position relative to the background remains unchanged.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.38461538461538464
+}

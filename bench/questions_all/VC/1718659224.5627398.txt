@@ -1,0 +1,108 @@
+**Step 1 – Analyze the Editing Instructions and Determine Allowed Changes**
+
+Description of reference image:  
+The subject is a massive, tiered fortress constructed from light beige stone, situated atop a rocky cliff overlooking a deep gorge. The fortress features multiple levels with crenellated battlements, a central tower rising in stepped layers resembling a ziggurat, and fortified walls extending outward to form a defensive perimeter. A large arched gateway is visible at the base of the main structure. The fortress is built into a natural canyon, with a river flowing beneath it, forming a waterfall where the water cascades over the cliff edge. The surrounding landscape consists of desert terrain with sparse green vegetation, sand dunes, and distant mountain ranges under a hazy golden sky during what appears to be sunrise or sunset. The lighting casts long shadows, emphasizing the texture of the stone and the depth of the canyon.
+
+Thinking process:  
+The editing instruction explicitly states that the entire scene—fortress and landscape—is to be transformed into a **cookie sculpture**. This includes:
+- Changing the material of the fortress from stone to **golden-brown cookie dough with darker edges**.
+- Replacing the **waterfalls** with **finely piped royal icing**.
+- Replacing **trees** with **green-colored marzipan**.
+- Placing the entire composition on a **large white ceramic platter**, which implies altering the background environment entirely.
+
+These transformations indicate that the **form and material** of all elements are permitted to change, but the **spatial layout, structural relationships, and iconic forms** must remain consistent to preserve identity.
+
+Allowed Changes List:  
+- Material of fortress walls and towers (from stone to cookie dough)  
+- Color and texture of fortress (to golden-brown with darker edges)  
+- Waterfalls (from natural water to royal icing)  
+- Trees (from real foliage to marzipan)  
+- Background setting (from desert canyon to ceramic platter)  
+- Overall scale and presentation (now as an edible sculpture)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements:  
+The fortress has a distinctive architectural style—**a stepped ziggurat-like central tower**, **multiple levels of battlements**, and a **central arched gateway**. These are not just aesthetic choices but define the **iconic identity** of the structure. Even when transformed into a cookie, the **overall shape and layout** must be preserved for recognition. If the ziggurat shape is lost or altered, the structure would no longer resemble the original.
+
+Functional/logical association elements:  
+The **position of the fortress relative to the river and canyon** is critical. The fortress is built **on a cliff above a waterfall**, with the river flowing beneath it. This spatial relationship is essential for understanding the scene’s logic—how the fortress dominates the landscape and controls access via the gorge. Altering this would break the narrative coherence.
+
+Non-modified element deduction:  
+While materials and textures can change, the **specific silhouette** of the fortress, including:
+- The **tiered height progression** of the central tower
+- The **rectangular base with crenellations**
+- The **arched entrance at the lower level**
+- The **presence and location of the waterfall directly below the fortress wall**
+must remain intact because they are **not mentioned as changeable** in the instructions. The transformation is about material, not form.
+
+Preservation Targets List:  
+- The **stepped, ziggurat-shaped central tower**  
+- The **multi-level battlements along the fortress walls**  
+- The **large arched gateway at the base of the structure**  
+- The **position of the waterfall directly beneath the fortress cliff face**  
+- The **overall layout of the fortress perched above the river gorge**  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The stepped ziggurat-like central tower is the most iconic architectural feature of the fortress. Its layered, pyramidal shape is a core identifier; if this structure is flattened or replaced with a different form, the fortress would lose its defining identity. This is a key visual element required for recognition, making it a 3-point question.
+    Question: Is the central tower of the fortress composed of multiple stacked, progressively smaller rectangular tiers forming a stepped pyramid shape?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The crenellated battlements along the top of the fortress walls are a functional and visual hallmark of medieval fortifications. Their presence defines the defensive nature of the structure. Even in a cookie version, these should remain to preserve architectural authenticity. Removing them would make the structure appear incomplete or non-fortified, affecting identification.
+    Question: Are there regular, alternating tooth-like projections (crenellations) along the upper edges of the fortress walls?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The large arched gateway at the base of the fortress is a key entry point and structural feature. It anchors the design and provides logical access. Its position and shape are essential to the fortress's function and appearance. Losing this arch would distort the building’s symmetry and purpose.
+    Question: Is there a prominent arched opening located at the lower front section of the fortress, serving as a main entrance?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The waterfall directly beneath the fortress wall is a critical environmental and compositional element. It establishes the interaction between the fortress and the river, reinforcing the sense of height and natural defense. Even if made of icing, its location and flow direction must match the original to maintain spatial logic.
+    Question: Does the waterfall originate from a gap in the cliff face directly beneath the fortress wall and cascade downward into the river below?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The fortress is positioned on a high cliff above a river gorge, creating a dramatic elevation contrast. This spatial relationship is fundamental to the scene’s grandeur and strategic positioning. Although the background may change to a platter, the relative placement of the fortress above the river must remain unchanged to preserve the original composition.
+    Question: Is the fortress situated on a raised cliff overlooking a river that flows through a narrow canyon below?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The presence of dense green vegetation along the canyon walls and near the riverbank adds ecological context and visual contrast. While trees may be replaced with marzipan, their **placement** and **distribution** around the gorge should be preserved to maintain environmental realism. This is a secondary detail but contributes to scene coherence.
+    Question: Are clusters of green shrubs and trees visible along the canyon walls and riverbanks surrounding the fortress?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The fortress has a distinct rectangular base with vertical walls and corner towers. This geometric foundation supports the upper structures and is necessary for structural consistency. Even in cookie form, the basic rectangular footprint must remain to ensure the structure is recognizable.
+    Question: Does the fortress have a solid rectangular base with vertical walls and corner towers supporting the upper levels?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

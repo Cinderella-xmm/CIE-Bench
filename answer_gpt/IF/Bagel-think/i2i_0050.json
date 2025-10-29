@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0050",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image contain three separate frames capturing the skater's motion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, there are three instances of the same figure in different positions, suggesting they capture the skater's motion over time. This is often done by overlapping or placing images side by side to illustrate movement.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the three frames clearly showing the push-off, ground contact, and forward lean of the skater?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the three figures seem to be in different stages of movement, which may correspond to push-off, ground contact, and forward lean. However, without very distinct body posture indicators, it's not entirely clear they are showing these specific stages.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain the real image style without any significant stylistic distortions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B appears to retain the photographic realism from Image A, as there are no visible signs of stylistic distortions such as filters or artistic effects. It maintains a natural look consistent with standard photography.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are motion trajectory lines present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, there are no visible motion trajectory lines, typically indicated by arrows or lines to show movement direction, present in this edited image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the three frames combined in a cohesive manner within the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the three figures are placed in a way that they are aligned and spaced out consistently, suggesting the frames have been combined cohesively to convey motion across the scene.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

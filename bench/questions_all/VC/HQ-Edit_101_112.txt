@@ -1,0 +1,104 @@
+Description of reference image: The subject is an elderly woman seated on a wooden bench in a serene Japanese garden. She faces forward, with her hands gently folded in her lap. Her hair is white and neatly tied back, and she wears a dark navy-blue kimono with a subtle texture and a small circular emblem on the left chest area. Underneath, a white inner garment is visible at the collar and sleeves. The kimono is secured with a brown obi belt. She wears light gray trousers, white socks, and dark blue slip-on shoes. To her right sits a woven wicker basket with a rounded handle. The bench is made of weathered wood, placed on a paved path scattered with pink cherry blossom petals. Behind her, a calm water canal reflects the surrounding scenery, flanked by stone retaining walls and lush green shrubs shaped into rounded forms. A traditional arched wooden bridge spans the canal in the background, partially framed by blooming cherry blossom trees whose branches extend overhead, casting soft shadows. The sky is bright with sunlight filtering through the blossoms, creating a warm glow. The overall composition is balanced, harmonious, and evocative of springtime in a classical Japanese garden.
+
+Thinking process: First, analyze the editing instructions word by word to determine what can be changed. The instruction states: “Transform the image into a traditional Japanese woodblock print,” which implies a complete stylistic overhaul—color palette, line work, texture, and rendering technique may change. It also says “reimagine the kimono with intricate patterns and vibrant colors,” meaning the design and color of the kimono are explicitly allowed to change. “Stylized detail in the cherry blossoms and bridge” confirms that these elements can be artistically reinterpreted. “Apply a textured matte finish to evoke aged paper” indicates the surface treatment of the entire image will change. However, it specifies “the basket by the bench simplified as a key cultural item,” suggesting the basket must remain present but may be stylized. Crucially, no mention is made of changing the figure’s identity, posture, or core positioning. Therefore, while style, color, and pattern are permitted to evolve, the foundational structure—subject, position, object presence, and spatial relationships—must remain intact unless explicitly altered.
+
+Allowed Changes List:
+- Kimono pattern and color (explicitly stated to be reimagined)
+- Cherry blossom details (to be stylized)
+- Bridge details (to be stylized)
+- Overall artistic style (transformed into woodblock print)
+- Texture and finish (matte, aged paper effect applied)
+- Basket form (can be simplified, but must remain present)
+- Color tone and lighting (will shift to match woodblock aesthetic)
+
+Step 2 - Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: The elderly woman is the central subject; her identity as a seated elder in contemplation is essential. While her clothing can change, her facial features (especially age-related textures), posture (sitting upright, hands folded), and position (centered on the bench) are critical for maintaining subject continuity. The presence of the basket is explicitly preserved as a cultural symbol, though its form may simplify. The bench’s function and placement must remain to preserve the scene logic.  
+
+Functional/logical association elements: The bench supports the figure; removing or relocating it would disrupt the physical logic. The basket’s proximity to the figure suggests ownership or purpose, so its location relative to the figure must be retained. The waterway and bridge create depth and context—while their details can be stylized, their structural presence and alignment must remain consistent to maintain spatial coherence.  
+
+Non-modified element deduction: Elements not mentioned for change, such as the figure’s posture, the bench’s orientation, the petal distribution on the ground, and the figure’s footwear, must be retained due to visual coherence. Even if the style changes, the underlying composition must remain recognizable. For example, the woman cannot be standing or turned sideways, nor can the basket vanish entirely. These are implied constraints based on the instruction’s preservation of cultural symbolism and compositional harmony.
+
+Preservation Targets List:  
+- The elderly woman's seated posture with hands folded in her lap  
+- The presence and general position of the wicker basket on the bench to her right  
+- The wooden bench itself, including its orientation and placement on the paved path  
+- The figure’s footwear (dark blue slip-ons) and socks (white)  
+- The scattering of pink cherry blossom petals on the ground around the bench  
+- The reflective water canal behind the bench, bounded by stone walls  
+- The arched wooden bridge spanning the canal in the background  
+- The overhanging cherry blossom branches framing the top of the image  
+- The figure’s head position and facial orientation (facing forward)  
+
+{
+    Q1: 
+    Thinking process: The seated posture with hands folded in the lap is the core behavioral identifier of the subject in contemplation. This specific gesture defines the mood and intent of the scene. If altered, the figure loses its meditative quality and becomes unrecognizable in context. It is a key functional and symbolic pose, directly tied to the narrative of serenity.
+    Question: Is the elderly woman seated with her hands folded together in her lap?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The wicker basket is explicitly referenced in the instruction as a "key cultural item" to be preserved, even if simplified. Its presence on the bench to the right of the figure is essential to maintain the narrative of tradition and daily life. Removing or relocating it would break the cultural symbolism intended.
+    Question: Is there a woven basket located on the bench to the right of the seated woman?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The wooden bench serves as the primary support for the subject and anchors the composition. Its position and orientation are crucial for spatial logic. Altering its placement or removing it would destabilize the entire scene. It is a functional and structural element necessary for the setting.
+    Question: Is the woman sitting on a wooden bench positioned on a paved path?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The dark blue slip-on shoes and white socks are distinctive personal items that contribute to the authenticity of the traditional attire. While the kimono may change, the footwear remains a consistent identifier of the subject’s cultural context and modest appearance. Changing them would alter the character’s identity.
+    Question: Are the woman's feet wearing dark blue slip-on shoes over white socks?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The scattered pink cherry blossom petals on the ground are a key environmental detail indicating the season and enhancing the atmosphere. Their presence reinforces the theme of transience and beauty in nature. Removing them would diminish the symbolic richness of the scene.
+    Question: Are pink cherry blossom petals visible on the ground around the base of the bench?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The reflective water canal with stone retaining walls defines the garden’s layout and provides depth. Its presence is essential for establishing the setting. While stylized, it must remain identifiable as a water feature running behind the bench.
+    Question: Is there a calm water canal running behind the bench, bordered by stone walls?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The arched wooden bridge is a prominent architectural element that contributes to the traditional Japanese garden aesthetic. Its shape and position in the background establish spatial continuity. Even if stylized, it must remain structurally recognizable.
+    Question: Is there a curved wooden bridge spanning the canal in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q8: 
+    Thinking process: The overhanging cherry blossom branches framing the top of the image create a natural canopy and enhance the seasonal atmosphere. Their presence is critical for visual framing and thematic cohesion. They must remain visible above the figure and bridge.
+    Question: Are cherry blossom branches extending over the top of the image, partially framing the scene?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q9: 
+    Thinking process: The woman’s face is oriented directly forward, contributing to the sense of contemplation and stillness. Any deviation in head angle would disrupt the intended emotional tone and viewer connection. This orientation is a key part of the subject’s expression.
+    Question: Is the woman’s head facing directly forward, looking straight ahead?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

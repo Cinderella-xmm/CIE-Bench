@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The Nike Swoosh logo is the most iconic visual element of the shoe and the primary brand identifier. Its **distinct curved shape** and **position on the lateral midsole** are critical for recognition. Even if the color changes to neon blue, the **outline and placement** must remain identical to ensure the shoe is still identifiable as a Nike product. Losing this would fundamentally alter the brand identity, making it unrecognizable. Therefore, this is a core identity element with a weight of 3 points.",
+      "question": "Is the Swoosh logo present in the same curved shape and located on the lateral side of the midsole?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The midfoot strap is a defining structural feature of the Zoom Freak 2, providing both support and visual contrast. Its **horizontal placement across the midfoot** is a key design element. Even though it will be transformed into a digital screen, its **spatial position** must remain unchanged to preserve the shoe’s architectural logic. If moved or reoriented, the shoe’s identity would be compromised. This is an important structural element affecting overall consistency, hence a weight of 2 points.",
+      "question": "Is there a horizontal strap positioned across the midfoot area of the shoe?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The pull tab at the heel is a functional detail designed for ease of wear. It is a small but distinct feature visible in the original image. Since the instruction does not mention removing or relocating it, and it contributes to the shoe’s usability and design language, it must be retained. Its **presence at the top rear of the heel** is a minor but coherent detail. Removing it would reduce visual fidelity, though not affect core identity. Thus, it is a detail-level element with a weight of 1 point.",
+      "question": "Is there a pull tab located at the top rear of the heel?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The lateral profile view is essential for maintaining visual consistency with the original product presentation. The shoe is shown in a side-on perspective, which allows clear visibility of the Swoosh, strap, and midsole. Changing the angle (e.g., front or angled view) would disrupt the reference relationship. Since the instruction does not specify a different angle, the **side profile must be preserved**. This is a key scene/positional element affecting overall coherence, hence a weight of 2 points.",
+      "question": "Is the shoe shown in a lateral (side) profile view?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The overall silhouette of the shoe—defined by the **toe box shape**, **midsole thickness**, and **heel height**—is unique to the Zoom Freak 2 model. These proportions distinguish it from other sneakers. Even if materials are replaced with transparent tech elements, the **external volume and shape** must remain consistent to preserve model identity. Altering these would make it unrecognizable as the same shoe. This is a core structural feature, thus a weight of 3 points.",
+      "question": "Does the shoe maintain the same overall silhouette, including the rounded toe box, thick midsole, and elevated heel?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The presence of the shoe as the central subject is fundamental. The instruction specifies transforming the sneaker into a gadget, not replacing it with another object. Therefore, the **shoe must remain the focal point** of the image. If another object (like a robot or device) replaces it, the edit fails. This is a core functional requirement, ensuring the subject remains consistent. Hence, a weight of 3 points.",
+      "question": "Is the sneaker still the central and primary object in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    }
+  ]
+}

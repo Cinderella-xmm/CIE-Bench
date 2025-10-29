@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_787",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the character retain the original facial details and pose from the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character's face is blurred, similar to Image A, but the pose remains quite consistent across both images. The stance with one hand in the pocket and the other relaxed alongside is similar in both images. Thus, while facial details cannot be assessed due to blurring, the pose remains largely unchanged from Image A to Image B.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the character have chibi-like long-legged proportions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character appears to retain regular human proportions rather than the typically exaggerated and disproportionate features associated with chibi style, such as larger heads and shorter limbs compared to the torso. The legs and other body parts seem proportionate and not elongated in a chibi fashion.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the character wear chic designer apparel, glasses, a tablet or sketchbook, and fashionable footwear?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character is shown wearing a stylish combination of a burnt orange blouse and green pants, alongside fashionable shoes. Accessories in the layout, such as sunglasses and what appears to be a tablet or notebook, suggest a chic, designer-oriented look. The footwear also looks contemporary and matches the overall stylish aesthetic.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the outfit and accessories incorporate fashion-forward elements that coordinate with the green and burnt orange hues?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B's layout shows an outfit consisting of a green and burnt orange color scheme that is well-coordinated, with accessories like sunglasses and apparel harmonizing with these hues. This suggests a deliberate incorporation of complimentary, fashionable elements.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background a solid color that complements the character's color scheme, avoiding gradients or patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B appears to be a consistent, solid color that complements the green and burnt orange hues of the character's outfit. This choice enhances the visual focus on the character and their attire, supporting a cleaner, stylish look without any gradients or patterns that might detract from it.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the layout have an aspect ratio of 9:16, with \"OOTD\" text at the top, the full-body chibi character on the left, and a breakdown of the outfit and accessories on the right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the layout features 'OOTD' at the top with a full-body representation of a character on the left and a breakdown of outfit items on the right. However, the character is not represented in a chibi style. While the elements correspond to the described layout, the aspect ratio assessment is subject to visual estimate and Image B appears more squared than 9:16.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

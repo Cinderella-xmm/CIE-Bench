@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0004",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image retain the man’s smiling expression and distinct facial features?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image appears to have a blurred region where facial features would typically be, effectively removing any distinct features or expressions. Therefore, even without referring to the original image, it can be concluded that the distinct facial features and smiling expression are not present in the edited image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the man’s short, neatly styled hairstyle accurately retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the hairstyle is portrayed as a stylized and exaggerated form typical of 'chibi' figures, which are often cartoonish and simplified. Although the general style of hair might be similar, the realism and detail of a hairstyle are not retained in this stylized representation.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image include the black T-shirt with its central white graphic design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image clearly shows a figure wearing a black T-shirt with a central white graphic. This matches what can be expected from the description, indicating that the edited image includes the correct clothing details.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the subject positioned on or near a bookshelf in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the figure is placed in front of a background that resembles a bookshelf, evidenced by the visible rows of books behind it. Thus, it can be concluded that the subject is indeed positioned near a bookshelf.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the blue and red colors of the books visible in the background of the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background of the edited image shows books with spines that have blue and red colors. This provides visual confirmation that these colors are indeed part of the bookshelf in the edited image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5
+}

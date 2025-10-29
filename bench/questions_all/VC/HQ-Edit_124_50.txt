@@ -1,0 +1,144 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a hand-carved wooden horse, standing upright in profile facing right, positioned centrally within a light-colored wooden frame that acts as a display niche. The horse features intricate floral patterns painted across its body, including large red roses with green leaves and blue floral accents, arranged symmetrically on its flanks and neck. The base color of the horse is natural wood tone, visible on its legs and face, while the decorative areas are painted in vibrant colors. A black bridle runs along the head, and a dark tail extends from the rear. The horse stands on a soft, textured brown fur-like mat placed atop a wooden shelf. The background reveals a cozy log cabin interior: horizontal logs form the walls, a stone hearth with stacked firewood is visible behind the horse, and a lit chandelier hangs from the ceiling. To the right of the frame, a vintage-style lantern emits warm light, casting soft glows on the surrounding wood. The overall atmosphere is rustic and warmly lit, emphasizing craftsmanship and traditional design.
+
+---
+
+**Thinking process:**  
+First, parse the editing instructions word by word:
+
+- *"Transform the painted horse into a whimsical 3D puzzle piece"* → This explicitly changes the **form** of the horse from a solid sculpture to a fragmented 3D puzzle structure. Thus, the **solid shape**, **continuous surface**, and **physical integrity** of the horse are no longer required.
+- *"In a rustic-themed display case"* → Indicates the **scene context** can be altered; the original display setting (niche in wall) may be replaced or reimagined.
+- *"Anchor the case with a textured wooden base and enclose it with a glass dome"* → Introduces new structural elements: **glass dome** and **textured wooden base**. These are additions, not replacements of existing ones, so original base (fur mat) and shelf may be removed or modified.
+- *"Retain the horse's intricate floral motifs, breaking them up into puzzle sections"* → Key instruction: **floral motifs must be preserved**, but **fragmented into puzzle pieces**. So the **design content** (roses, blue flowers, green leaves, color scheme) must remain, but their **spatial continuity** is broken.
+- *"Add a vintage compass as a motif on the base"* → New element introduced; not present originally. Can be added freely.
+- *"Complementing the cozy log cabin aesthetic with subtle antique-brass accents"* → Scene style may be enhanced with brass details, but core environment (log cabin feel) should remain consistent.
+
+Thus, allowed changes include:
+- Form of the horse: from solid sculpture to 3D puzzle
+- Display structure: from open niche to enclosed glass dome with wooden base
+- Base material: from fur mat to textured wood
+- Addition of new objects: compass, brass accents
+- Fragmentation of floral patterns into puzzle segments
+
+But **must retain**:
+- The **floral motifs themselves**: rose shapes, colors, arrangement
+- The **overall composition** of the pattern (e.g., central rose medallion, symmetrical layout)
+- The **color palette** (red roses, blue flowers, green leaves, white background on painted areas)
+- The **horse’s silhouette and posture** (standing, facing right, profile view), though now fragmented
+- The **rustic log cabin ambiance** (implied by lighting, materials, warmth)
+
+---
+
+**Allowed Changes List:**
+- The physical form of the horse (from solid to 3D puzzle)
+- The display structure (from open niche to glass-domed case)
+- The base material (from fur mat to textured wood)
+- The addition of a vintage compass on the base
+- Introduction of antique-brass accents
+- Fragmentation of the floral designs into puzzle segments
+- Lighting and atmospheric enhancement (within rustic theme)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+Now apply exclusion logic based on what was allowed to change.
+
+**Core recognition elements:**  
+- The **floral motifs** are iconic to this type of folk art horse (similar to Swedish Dala horses). The **red roses**, **blue floral patterns**, **green foliage**, and **symmetrical layout** are essential for identifying the cultural and artistic identity of the object. Even if fragmented, these **specific visual patterns** must be retained.
+- The **horse’s silhouette** — profile view, four legs, raised head, black tail — is fundamental to recognizing the subject as a horse. Although transformed into a puzzle, the **overall outline** must still suggest a horse.
+- The **color scheme** — especially the contrast between natural wood and vivid painted areas — defines the aesthetic. Changing dominant colors would alter the identity.
+
+**Functional/logical association elements:**  
+- The **relationship between the horse and its display context** is not strictly functional, but the **cozy log cabin aesthetic** is implied to be preserved. Therefore, **warm lighting**, **wooden textures**, and **rural decor** (like stacked firewood, lanterns) must remain visually coherent, even if rearranged.
+- The **position of the horse** relative to the viewer (profile, facing right) should remain unchanged unless specified otherwise — no rotation or inversion.
+
+**Non-modified element deduction:**  
+After excluding allowed changes:
+- The **exact shape and placement of individual flowers** (especially the central rose medallion) must be preserved, even if split into puzzle parts.
+- The **black bridle** and **dark tail** are distinctive features — they are not mentioned for modification, so they must remain.
+- The **natural wood texture on the legs and face** must persist, as it contrasts with painted areas and defines the object’s authenticity.
+- The **presence of warm ambient lighting** and **soft shadows** contributes to the mood and should be maintained, even if source changed.
+
+---
+
+**Preservation Targets List:**
+- The presence and design of red roses with green leaves and blue floral accents on the horse’s body
+- The natural wood color and texture on the horse’s legs and face
+- The black bridle and dark tail
+- The profile posture of the horse (facing right, standing)
+- The central rose medallion on the flank
+- The warm, cozy lighting atmosphere
+- The log cabin background aesthetic (visible logs, stone fireplace, firewood stack)
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The red rose with green leaves at the center of the horse's flank is a core visual identifier of the folk-art style. It is the largest and most prominent floral motif, defining the design's symmetry and cultural origin. If lost or altered in shape or color, the object loses its recognizable identity. This is a key element that cannot be replaced without changing the essence of the subject.
+    Question: Is the central red rose with green leaves clearly visible on the horse's flank?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The black bridle running along the horse's face is a distinctive feature that adds realism and contrast to the painted design. Its presence separates the painted area from the natural wood face and is consistent across similar folk sculptures. Removing or altering it would disrupt the visual balance and identification of the horse.
+    Question: Is the black bridle visible along the horse's face and jawline?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The dark tail is a critical anatomical detail that completes the horse's silhouette. Its position and color contrast with the painted body, making it a necessary part of the animal’s form. Even in a fragmented puzzle version, the tail must remain identifiable.
+    Question: Is the dark tail extending from the rear of the horse?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The natural wood texture on the legs and face provides a foundational contrast to the painted areas and is characteristic of hand-carved wooden horses. This texture defines the materiality of the object and must remain visible to preserve authenticity.
+    Question: Are the horse's legs and facial area rendered in natural wood grain texture?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The symmetrical arrangement of red roses and blue flowers on both sides of the horse is a hallmark of the design. This pattern is not arbitrary but culturally significant. Altering the placement or number of roses would break the intended aesthetic.
+    Question: Are red roses symmetrically placed on both flanks of the horse?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The warm ambient lighting, particularly the glow from the lantern and chandelier, establishes the cozy cabin atmosphere. While the light source may change, the overall warm tone and soft illumination must be preserved to maintain scene consistency.
+    Question: Is the scene illuminated with warm, golden light creating soft shadows?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The log cabin background, including visible horizontal logs and a stone fireplace with stacked firewood, grounds the scene in a specific rustic setting. This environmental context is essential to the image’s narrative and must remain visually present.
+    Question: Are horizontal wooden logs and a stone fireplace with stacked firewood visible in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q8: 
+    Thinking process: The horse's profile orientation (facing right) is a fixed compositional choice that defines its stance. Reversing or rotating it would change the viewer’s perception and disrupt the original framing.
+    Question: Is the horse positioned in profile, facing toward the right side of the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

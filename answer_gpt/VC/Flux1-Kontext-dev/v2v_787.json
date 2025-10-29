@@ -1,0 +1,97 @@
+{
+  "filename": "v2v_787",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the eyes almond-shaped and positioned symmetrically on the face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The face is blurred in the edited image, making it impossible to discern the shape and position of the eyes. Given the lack of visible details due to the blurring, any analysis on these features is not possible.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there small gold hoop earrings present in both ears?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Despite the blurring of the face, visual cues in the edited image allow us to observe a small gold hoop earring on one ear, which appears clear and shiny, consistent with gold hoop earrings. Leveraging world knowledge, such earrings would likely be worn in pairs. However, in this image, only one ear with an earring is visible.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the right hand placed inside the front pocket of the trousers with fingers visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the positioning of the right hand is such that it is inside the pocket, and the fingers are partially visible, suggesting a relaxed and informal pose. Visual analysis confirms this by showing distinct fingers outside the pocket.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the hair have a natural, wavy curl pattern falling over the shoulders?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The hair in the edited image is visibly styled in loose, natural waves with curls cascading over the shoulder. These waves are typical of naturally curly hair, and world knowledge supports this classification.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the head slightly tilted forward toward the camera?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The original image shows the head facing forward, but due to the face blur in the edited image, it's challenging to confidently determine whether the head is tilted toward the camera. Visual cues such as shoulder and neck positioning suggest a straightforward posture.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the blouse have a V-neckline with visible buttons running down the center?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analysis of the blouse in the edited image reveals a low V-neck design, with several buttons visibly running down the center of the garment in a vertical alignment, typical in V-neck blouses.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Do the trousers have a high waist with a visible waistband seam and belt loops?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the trousers appear to be high-waisted as they reach above the hips. Additionally, the trousers feature a visible waistband seam and belt loops, confirming their design through visual examination.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6875
+}

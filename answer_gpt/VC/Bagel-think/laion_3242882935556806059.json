@@ -1,0 +1,71 @@
+{
+  "filename": "laion_3242882935556806059",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the individual flower petals shaped like elongated, recurved lily petals with six distinct segments per bloom?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features flowers constructed from glass materials. The petals are distinctly long and pointed, resembling a stylized version of flower petals. However, they do not have the precise recurved shape typically seen in lily flowers, nor do they clearly show six distinct segments per bloom. Instead, the petals are more abstract and artistic, lacking the specific floral structure found in nature.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the bouquet arranged in a tightly packed, spherical cluster with multiple flowers overlapping?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the glass flowers are arranged in a manner that does not resemble a tightly packed, spherical cluster. While flowers are grouped together, they are instead spread out, with individual flowers having distinct gaps between each other, unlike the overlapping and dense clustering seen in traditional flower arrangements.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a transparent, cylindrical glass vase holding the bouquet?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The vase in Image B is indeed a transparent glass vase, and its cylindrical shape is apparent from its vertical structure. The visual information clearly suggests that this vase is crafted from glass, and the shape aligns with the cylindrical description.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the vase positioned directly beneath the bouquet, with stems/rods extending upward from it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the vase is positioned directly underneath the bouquet of glass flowers. The glass stems or rods extend upwards from the vase, providing structural support to the arrangement in a manner consistent with typical floral displays.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there approximately ten to twelve flowers visible in the bouquet, including both open blooms and closed buds?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a bouquet composed of individual flower shapes resembling open blooms. Counting these flowers, we see approximately ten individual flower forms, and given there's no indication of closed buds due to the glass material and stylization, the visible count aligns with the question description.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5454545454545454
+}

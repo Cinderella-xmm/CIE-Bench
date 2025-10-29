@@ -1,0 +1,84 @@
+{
+  "filename": "laion_3742870105961786270",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the cluster of purple grapes visible in the basket?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual cues show a bottle adorned with sculpted elements featuring a cluster of purple grapes positioned to the side, but there is no basket. The design appears as a decorative element on the bottle, rather than within a basket. Using common knowledge, a basket is generally a separate container, whereas here, it is part of the bottle's decor, suggesting that the grapes are not in a basket. Image A, however, depicts a cluster of grapes in a basket. Thus, in Image B, the grapes are not in a basket.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the heart-shaped engraving present on the small terracotta jug?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the objects depicted do not include a terracotta jug, hence, it is impossible to identify any heart-shaped engraving. Instead, the bottle features intricate decorations with vine motifs. In Image A, a terracotta jug with an engraving—a specific icon rather than a typical heart shape—is visible. Since Image B lacks the jug, it cannot have any engraving.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the goose depicted with a white body, orange beak, and webbed feet?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly shows a sculpture or representation of a goose with a white body, orange beak, and webbed feet. These features are typical of geese, known for these color patterns, hence, world knowledge supports this visual evidence. Comparing with Image A, the goose has the same color scheme and characteristics. Thus, the depiction remains consistent in Image B.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a gold-colored clasp visible at the neckline of the cloak?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the area of the bottle where the neckline of a cloak might be depicted shows ornate gold decoration, but it does not explicitly show a clasp at a neckline related to any cloak. This is due to photographic elements being incorporated into a bottle design. In Image A, a gold clasp is distinctly seen at the neckline of the cloak. Therefore, in Image B, no such clasp is discernible as the design functions differently on a bottle.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the basket holding a red apple, green pear, and purple grapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not display a basket; instead, it presents a bottle with sculpted grapes as part of the decorative elements. Using common knowledge, without an apparent basket, fruits such as an apple or pear would not be depicted. In Image A, a basket indeed holds various fruits, including purple grapes, but without explicit mention or visual presence of a red apple or green pear. Therefore, since Image B does not feature a basket at all, the described fruit contents are not visible.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the basket positioned near the woman’s waist, held in her left arm?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bottle design lacks a woman and associated posture or accessory interpretations such as a basket held by an arm. The visual cues provide decorative design concepts with non-figurative motifs. In Image A, a character clearly holds a basket near the waist in her left arm. Since Image B centers around decorative bottle art with no physical figure with limbs holding objects, the answer must be based on that lack.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.21428571428571427
+}

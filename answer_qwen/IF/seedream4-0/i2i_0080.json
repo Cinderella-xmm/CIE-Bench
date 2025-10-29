@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0080",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image include a depiction of the dog from its left side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are three depictions of the dog. The largest one at the bottom shows the dog lying on a bed, facing to the left, which provides a clear view of its left side. This is evident from the positioning of its head, body, and limbs, all oriented toward the left of the frame. Additionally, the tail is visible and curled upward, consistent with a side profile. The two smaller images above also show the dog in similar poses, but the bottom one is clearly from the left side. Based on visual cues such as the direction of the face and the orientation of the body, this confirms that the dog is depicted from its left side.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the dog illustrated from its back view within the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, none of the three depictions show the dog from its back view. In all instances, the dog's face is visible, and it is positioned in a way that reveals its front or side profile. The top-left and top-right versions show the dog lying down but still facing forward or slightly to the side, not away from the viewer. The bottom image, being the most prominent, clearly shows the dog’s face and chest, confirming it is not a back view. A back view would require the dog to be facing away, showing its rear and tail from behind, which is not present here. Therefore, based on the visible features and orientation, the dog is not illustrated from its back view.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are both the left side and back views of the dog combined into a single image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B contains three separate illustrations of the dog. The bottom illustration shows the dog from its left side, as previously determined. However, none of the illustrations depict the dog from its back view. Even though multiple angles are shown (two smaller ones above), they all maintain a frontal or lateral perspective. There is no single image that combines both the left side and back views—each depiction is distinct and does not merge perspectives. Combining views would imply a composite image showing both angles simultaneously, which is not the case here. Thus, the answer is no.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the dog shown on the bed in both the left side and back views?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The dog is shown on the bed in all three depictions in Image B. The bottom image clearly shows the dog lying on the bed from its left side. The two smaller images above also show the dog on the same type of bed, but neither of them is a back view. As established earlier, there is no back view of the dog in any of the images. Therefore, while the dog is on the bed in the left-side view, it is not shown in a back view on the bed. Since the question asks if the dog is shown in both views on the bed, and only one of the two required views (left side) is present, the answer must be no.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the bed and bedsheet appear consistently in both views of the dog?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bed and bedsheet are present in all three depictions of the dog. The wooden frame, green pillow, and teal bedsheet are consistent across all images. The design and color scheme remain unchanged, indicating consistency in the representation of the bed and bedding. Although the dog’s position varies slightly between the images, the bed itself appears identical in structure and appearance in each case. This suggests that the artist maintained visual continuity for the environment, even when changing the dog’s pose. Therefore, the bed and bedsheet do appear consistently across all views.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

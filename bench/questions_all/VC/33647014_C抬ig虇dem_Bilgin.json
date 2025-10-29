@@ -1,0 +1,92 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The checkerboard pattern of alternating light and dark squares is the fundamental identifier of a chessboard. Its absence or alteration would make the scene unrecognizable as a chess game. This is a core structural feature that must be preserved regardless of transformations to the pieces. It is directly visible in the original image and serves as the foundational grid upon which all other elements rest.",
+      "question": "Is the alternating pattern of light and dark squares on the chessboard preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The king is positioned centrally in the visible row, flanked by the queen and bishop. This specific placement is critical for identifying the correct starting formation of the black side in chess. Even if transformed into a water deity, its position must remain unchanged to preserve the logical structure of the game. Moving it would disrupt the entire composition and break the intended alignment.",
+      "question": "Is the king located in the central position of the visible row of black pieces?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The presence of exactly two bishops, two knights, and multiple pawns is necessary to confirm the completeness of the standard chess setup. The instruction specifies transforming these pieces, not removing them. Their number and positions must be preserved to maintain the integrity of the original scene. Missing any of these would indicate a loss of key elements.",
+      "question": "Are there exactly two bishops, two knights, and at least four pawns visible in their original positions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The direction and length of the shadows cast by the pieces are determined by the lighting source and are essential to the original photographic composition. These shadows provide depth and realism. Altering their direction or eliminating them would change the perception of space and time, breaking visual consistency. The original image shows clear, angled shadows pointing toward the bottom-left.",
+      "question": "Do the shadows of the chess pieces extend diagonally toward the bottom-left of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The wooden texture of the chessboard surface is a key detail that distinguishes the material and adds realism to the image. Even if the pieces are enchanted, the board remains a physical object. Losing this texture would suggest a digital or abstract rendering, undermining the original tactile quality. The grain pattern is clearly visible in the original.",
+      "question": "Is the wood grain texture of the chessboard surface visible across the light squares?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The blurred background with horizontal lines (likely a railing or window frame) provides contextual depth and suggests an outdoor or semi-outdoor setting. This background is not described in the transformation instruction, so it must remain unchanged. Its presence helps anchor the scene in reality. Removing or altering it would disconnect the image from its original environment.",
+      "question": "Is there a blurred background with horizontal structural lines visible behind the chessboard?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The number of visible pieces (eight total: king, queen, two bishops, two knights, three pawns) must be preserved. While their identities are transformed, their count and arrangement must match the original. Missing one would imply deletion, which contradicts the instruction to transform rather than remove.",
+      "question": "Are there exactly eight black chess pieces visible in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q8",
+      "thinking_process": "The close-up perspective with shallow depth of field focuses attention on the front row of pieces while blurring the background. This photographic technique is crucial to the composition. Changing the focus or depth of field would alter the viewer's experience and visual hierarchy. The original image clearly shows sharp foreground and soft background.",
+      "question": "Is the background of the image blurred while the foreground pieces are in sharp focus?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

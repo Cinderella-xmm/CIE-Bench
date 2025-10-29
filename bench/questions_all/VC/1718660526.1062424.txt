@@ -1,0 +1,105 @@
+**Step 1 – Analyze the editing instructions and determine allowed changes**
+
+**Description of reference image:**  
+The subject is a knitted, plush-like animal resembling a hippopotamus with tiger-like stripes. It has an orange base color with black horizontal stripes across its body, legs, and head. The texture is clearly knitted, with visible stitches and fabric loops, giving it a soft, handmade appearance. The animal has large, round white eyes with black pupils, a wide smiling mouth, two small rounded ears on top of its head, and a prominent snout with two dark nostrils. Its posture is mid-stride, with one front leg slightly forward, suggesting movement. The background features a beach scene at sunset: soft golden light, blurred ocean waves rolling in, and wet sand in the foreground. The lighting casts a warm glow and a distinct shadow beneath the animal, enhancing depth.
+
+Thinking process:  
+The editing instruction specifies transforming the **knitted striped animal** into a **mosaic sculpture** using **small, glossy ceramic tiles** in **vibrant orange and deep black** for stripes. This indicates that the **form and material** of the subject are to be changed — from textile (knitted) to ceramic mosaic. However, the instruction explicitly says to **retain the expressive facial features**, including **precisely cut tiles for eyes and snout**, meaning these facial components must remain in structure and placement. Additionally, the instruction requires placing the sculpture on a **sandy textured platform**, which implies the **ground surface type** should resemble sand but may not require full retention of the original beach environment beyond texture.
+
+Allowed Changes List:  
+- Subject’s material: from knitted yarn to glossy ceramic tiles  
+- Subject’s texture: from soft fabric to hard, smooth tile surface  
+- Subject’s form: maintained as same shape/structure but rendered in mosaic  
+- Background: can change; only the **sandy textured platform** needs to be preserved  
+- Lighting: can shift due to new material reflectivity  
+- Color palette: can be adjusted within orange and black range, but colors must remain vibrant  
+
+---
+
+**Step 2 – Determine elements that should remain unchanged**
+
+Thinking process:  
+Core recognition elements:  
+The subject is a hybrid creature — a **hippopotamus-shaped animal with tiger stripes**. While unusual, its identity hinges on the **distinctive striped pattern**, **rounded body shape**, **snout with two nostrils**, and **large round eyes**. These define its visual identity. Even though it's a fictional design, the **striped pattern** is critical to its recognition as a "tiger-striped hippo." Changing the stripe pattern or removing key features like the snout would make it unrecognizable.
+
+Functional/logical association elements:  
+The **facial features** (eyes, snout, nostrils, mouth) are described as “expressive” and must be retained in precise form. The instruction states “precisely cut tiles for eyes and snout,” indicating their **structural integrity and position must be preserved**. This ensures continuity in expression and character identity. The **posture** (mid-stride with one leg forward) is also implied by the original image and likely intended to be kept for dynamic consistency.
+
+Non-modified element deduction:  
+Although the material changes, the **overall silhouette**, **proportions**, **number and positioning of limbs**, **ear shape**, **eye size and placement**, **nostril location**, and **mouth curvature** must remain unchanged. These are not mentioned as changeable and are essential to maintaining the original subject’s identity. The **sandy platform** must be retained in texture and function as ground support, even if the broader beach environment is altered.
+
+Preservation Targets List:  
+- The presence and arrangement of black stripes on an orange base  
+- The shape and position of the snout with two distinct nostrils  
+- The large round eyes with white sclera and black pupils  
+- The curved smile and mouth opening  
+- The four-legged stance with one front leg forward  
+- The small rounded ears positioned atop the head  
+- The sandy textured platform beneath the sculpture  
+
+---
+
+**Step 3 – Generate yes/no questions based on key identifying visual elements**
+
+{
+    Q1: 
+    Thinking process: The striped pattern (orange with black stripes) is the defining visual trait of the subject, distinguishing it from other animals or toys. Even though the material changes, the stripe configuration — including spacing, direction, and coverage — must be preserved to maintain identity. Loss of this pattern would fundamentally alter recognition of the animal.
+    Question: Are the black stripes evenly distributed across the body, head, and legs in the same pattern as the original knitted animal?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The snout with two dark circular nostrils is a core facial feature that defines the animal’s species-like morphology. The instruction specifically requires retaining the snout with precisely cut tiles, so its shape and position must remain identical. Altering the snout would break the visual logic of the transformation.
+    Question: Is the snout present with two clearly defined, dark circular nostrils positioned symmetrically on the upper portion of the snout?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The large round eyes with white sclera and black pupils are central to the animal’s expressive character. They are explicitly mentioned as needing precise tile recreation, meaning their size, shape, and placement must be preserved. Their loss would destroy the emotional appeal and identity of the figure.
+    Question: Are the eyes large, round, and positioned symmetrically on the face, each consisting of a white outer ring and a central black pupil?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4: 
+    Thinking process: The mouth shape — a gentle upward curve forming a smile — contributes to the character’s friendly expression. Though not a structural component, it is a key detail for emotional recognition. Since the instruction retains "expressive facial features," the mouth must remain intact in form and position.
+    Question: Is the mouth a clearly visible curved line forming a smile below the snout, consistent with the original animal’s expression?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The four-legged stance with one front leg forward conveys motion and balance. This posture is integral to the subject’s dynamic presence. Changing limb positions would disrupt the sense of movement and misrepresent the original pose.
+    Question: Is the animal in a walking pose with the left front leg extended forward and the right front leg grounded behind it?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The small rounded ears on top of the head are distinctive anatomical markers. Their shape and position contribute to the overall silhouette. Although not central to identity like stripes or eyes, they are part of the original design and must be preserved for visual coherence.
+    Question: Are there two small, rounded ears positioned symmetrically on top of the head, pointing slightly outward?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q7: 
+    Thinking process: The sandy textured platform serves as the immediate ground surface and is explicitly required by the instruction. Retaining its rough, granular texture contrasts with the smooth tiles and maintains environmental logic. While the broader beach may be removed, the platform must preserve the tactile quality of sand.
+    Question: Is the sculpture placed on a surface with a visibly granular, uneven texture resembling natural sand?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

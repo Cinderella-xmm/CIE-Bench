@@ -1,0 +1,48 @@
+```
+Step 1: Disassemble Editing Instructions
+-<Thinking Process 1>: The editing instruction requires transforming the wine bottle into a fantasy character by adding expressive eyes just below the label. This involves modifying the area directly beneath the white label on the bottle, which is currently blank. The addition of eyes must be consistent with the bottle’s cylindrical shape and surface texture to maintain visual coherence. Any mismatch in lighting, shading, or material properties (e.g., glass vs. cartoon-style eyes) could break realism. Therefore, attention must be paid to whether the added eyes integrate naturally with the bottle's surface without introducing artifacts such as unnatural reflections, incorrect shadows, or distorted geometry.
+-Sub requirement 1: Adding expressive eyes just below the label—evaluate whether the eyes are seamlessly integrated into the bottle’s surface with proper lighting, shadow, and material consistency, avoiding unnatural textures or distortions.
+
+-<Thinking Process 2>: The instruction specifies adding whimsical vines wrapping around the bottle to form limbs. These vines must emerge from the bottle body and extend outward in a way that respects physical plausibility—such as following natural growth patterns and maintaining structural continuity with the bottle. The vines should not appear floating or disconnected from the bottle, nor should they intersect the label or neck in an illogical manner. Their texture should resemble organic plant material and match the scale of the bottle.
+-Sub requirement 2: Adding vines forming limbs—evaluate whether the vines are physically plausible in shape, size, and attachment points, with natural textures and no floating or broken geometric forms.
+
+-<Thinking Process 3>: The label icon (a small scarecrow head) is to be transformed into a face expressing curiosity. This involves modifying the existing logo on the label, which is currently a simple stylized figure. The new facial features must be proportionally consistent with the original icon’s size and style while conveying emotion. Changes must preserve the label’s clean design and avoid pixelation or blurring due to enlargement or detail addition.
+-Sub requirement 3: Modifying the label icon into a curious face—evaluate whether the facial features are proportionally accurate, stylistically consistent with the original icon, and free from distortion or loss of detail.
+
+-<Thinking Process 4>: An enchanted vineyard backdrop with animated grapevine elements and mystical mist is to be added. This background must visually complement the foreground (the transformed bottle), with depth cues like atmospheric perspective and proper layering. The mist should not obscure the bottle unnaturally, and the grapevines should not intersect the bottle in a way that breaks spatial logic. Lighting in the background should harmonize with the bottle’s illumination.
+-Sub requirement 4: Adding an enchanted vineyard backdrop—evaluate whether the background elements are spatially coherent, properly lit, and do not introduce visual inconsistencies such as clipping, misalignment, or unnatural gradients.
+
+-<Thinking Process 5>: The title "The Curious Scarecrow Wine Adventure" must be added. Its placement and typography must be legible and stylistically appropriate for an animated short. It should not overlap critical elements like the bottle or vines in a way that causes confusion or visual clutter. The font and color should contrast well against the background without appearing artificial or poorly rendered.
+-Sub requirement 5: Adding the title text—evaluate whether the text is clearly visible, correctly positioned, and rendered without artifacts such as jagged edges or color bleeding.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of adding expressive eyes just below the label, this question evaluates whether the eyes are realistically integrated into the bottle's surface. The eyes must align with the curvature of the bottle, have appropriate shading and reflection matching the glass material, and not appear flat or artificially pasted. Any mismatch in lighting or texture would indicate a lack of natural appearance.
+Question: Are the eyes positioned just below the label and do they follow the curvature of the bottle with consistent lighting and reflection?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of adding vines forming limbs, this question checks whether the vines are attached logically to the bottle body and extend outward without breaking geometric continuity. The vines should appear solid and rooted in the bottle, with natural tapering and branching, and not float or clip through the bottle surface.
+Question: Do the vines wrap around the bottle in a continuous, physically plausible manner without floating or intersecting the bottle in an unnatural way?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of modifying the label icon into a curious face, this question assesses whether the facial features are proportionally correct relative to the original icon size and style. The transformation must not distort the original shape or cause blurring or pixelation, especially when enlarging details like eyes or mouth.
+Question: Is the modified label icon a clear, proportionate face with distinct features that match the original icon's style and size?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of adding an enchanted vineyard backdrop, this question evaluates whether the background elements (grapevines, mist) are layered correctly and respect depth. The mist should fade gradually and not obscure the bottle unevenly, and the vines should not intersect the bottle in a way that violates spatial logic.
+Question: Does the background include layered grapevines and mist that recede naturally without obscuring or clipping the bottle incorrectly?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of adding the title text, this question checks whether the text is legible, properly aligned, and rendered without artifacts. The font should be sharp, with no jagged edges or color bleed, and placed where it does not interfere with key visual elements like the bottle or vines.
+Question: Is the title "The Curious Scarecrow Wine Adventure" clearly visible, correctly positioned, and free from rendering artifacts such as pixelation or color bleeding?
+Choices: Yes, No  
+A: Yes
+```

@@ -1,0 +1,85 @@
+Description of reference image: The subject is a humanoid robot model with a predominantly white and gray color scheme, accented with red and orange elements. It features angular, geometric armor plating across its body, with sharp edges and panel lines suggesting mechanical construction. The head has an orange visor-like faceplate, a red central section resembling a mouth or sensor array, and two upward-pointing orange antennae or horns. Its chest is dominated by a large red rectangular plate flanked by black and yellow components. The arms are articulated with segmented joints, ending in black-gloved hands; the left arm is slightly raised. The legs are wide and sturdy, with red knee pads and black feet that have angular toe structures. The robot stands in a dynamic pose on a dark reflective surface, facing slightly to the right, with a neutral gray gradient background that fades from light at the top to dark at the bottom. There are no visible holographic displays, digital interfaces, or branding elements—these are absent in the original.
+
+Thinking process: First, analyze the editing instructions to determine what can be changed. The instruction explicitly states: “Transform the robot into a futuristic tech gadget advertisement.” This implies the overall purpose and presentation style may change, but it does not state that the robot’s identity must be erased. Instead, it specifies modifications such as adding a glossy metallic finish, holographic display elements, digital interface overlays, sleek branding, a magnetic smartwatch accessory, and a new background with floating tech symbols. These are all additions or transformations to the visual style and context, not replacements of core identity. The instruction does not mention changing the robot’s basic form, proportions, or iconic structural features like the head shape, leg structure, or color accents—only their surface treatment and environment.
+
+Allowed Changes List:
+- Surface texture (e.g., applying a glossy metallic finish)
+- Addition of holographic display elements on the chest
+- Integration of digital interface overlay with control icons
+- Inclusion of sleek branding text/logo
+- Attachment of a detachable magnetic smartwatch on the arm
+- Background transformation to sleek black with floating tech interface symbols
+- Overall lighting and atmosphere for product launch aesthetic
+
+Step 2 – Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: The robot's design is highly distinctive and likely tied to a specific franchise (e.g., Gundam-style mecha). Key identifiers include the angular geometry, the red-and-white color blocking, the orange horn-like head protrusions, the red chest plate, and the overall silhouette. Changing these would fundamentally alter the robot’s identity. For example, altering the head shape or removing the red chest plate would make it unrecognizable as this specific model. Thus, the core structural and color-based features must be preserved.
+
+Functional/logical association elements: While the robot is being reimagined as a tech gadget, its physical form must still logically support the added accessories (e.g., the smartwatch must attach to a real arm segment). Therefore, the arm structure and joint placement must remain consistent so that the smartwatch appears plausible. Similarly, the chest area must retain enough space and shape to host a holographic display without distorting the original anatomy.
+
+Non-modified element deduction: After excluding allowed changes (surface finish, added UI, branding), the remaining elements—such as the exact shape of the head, the positioning of the red panels, the foot design, and the limb proportions—are not mentioned for modification and thus must be retained to maintain visual coherence and identity.
+
+Preservation Targets List:  
+- The angular, blocky head with orange horns and red facial section  
+- The red rectangular chest plate with black and yellow trim  
+- The white and gray segmented limbs with red knee pads  
+- The black-gloved hands and angular feet  
+- The overall bipedal stance and dynamic pose  
+- The relative proportions and joint placements  
+
+{
+    Q1: 
+    Thinking process: The orange horn-like protrusions on the head are a signature feature of this robot model, serving as a key identifier distinguishing it from other mecha designs. Their shape, position, and color are critical for recognition. If they are altered or removed, the robot would lose its distinct identity. This is a core visual trait that cannot be changed without compromising the subject’s authenticity.
+    Question: Are the two orange horn-like protrusions on the top of the robot's head present and unchanged in shape and position?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The red rectangular chest plate is a dominant visual feature, defining the robot’s torso and contributing significantly to its color scheme and silhouette. Its presence and shape are essential for identification. Any distortion or replacement would fundamentally alter the robot’s appearance and break continuity with the original design.
+    Question: Is the large red rectangular plate on the robot's chest intact, maintaining its original size, shape, and placement?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The red knee pads are part of the robot’s consistent color-blocking pattern and contribute to its balanced aesthetic. They are located symmetrically on both legs and serve as a recognizable detail. Removing or changing them would affect the visual balance and reduce fidelity to the original model.
+    Question: Are the red knee pads present on both legs, positioned at the joint area and matching the original shape and color?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The black-gloved hands are a functional and stylistic detail that define the robot’s articulation and design language. They are clearly defined in the original and must remain consistent to preserve the model’s mechanical realism. Altering their shape or color would disrupt the visual logic of the design.
+    Question: Are the hands of the robot fully black, with a claw-like or articulated finger design, and positioned as in the original?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The angular, blocky feet with black toe sections are unique to this robot’s design and contribute to its grounded, mechanical stance. Their shape and color contrast are important for identifying the model. Changing them would affect the robot’s posture and visual integrity.
+    Question: Do the robot’s feet maintain their angular, blocky shape with black toe segments and red accent plates near the ankles?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The robot’s overall pose—dynamic, slightly leaning forward with one arm raised—is a key aspect of its presentation. This posture defines its action-ready stance and is integral to its visual character. Changing the pose would alter the impression and reduce consistency with the original.
+    Question: Is the robot in the same dynamic standing pose, with the left arm slightly raised and the body angled toward the viewer?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The color scheme—white, gray, red, and orange—is central to the robot’s identity. While the instruction allows for a metallic gloss, the base colors must remain unchanged. Altering the primary colors (e.g., making the red blue) would misrepresent the original design and destroy its recognizability.
+    Question: Are the primary colors of the robot—white, gray, red, and orange—preserved in their original distribution and intensity?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}

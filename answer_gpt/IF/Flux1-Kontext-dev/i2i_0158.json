@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0158",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the front view of the car clearly visible in the final three-view combination?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a combination of four images, where two of them display the front of the car with different grille designs. The views are clear and unobstructed, providing a full frontal view of the car. Based on this visual assessment, it is evident that at least two images show the front view clearly.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the left side view of the car clearly visible in the final three-view combination?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, only the front and rear views are prominently shown. None of the images in the combination display a direct left side view of the car.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the rear view of the car clearly visible in the final three-view combination?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The rear view of the car is shown in the bottom right image of the combination. The view is clear and provides a full perspective of the car's rear, including the badge and taillights.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the three views of the car presented in a non-overlapping manner, ensuring they are distinct and clearly visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the views are arranged in a grid-like structure, with each image occupying its own separate space. The images do not overlap, ensuring each perspective is distinct and retains clarity.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the overall presentation of the combined three-view image align with the standards suitable for car magazines or showroom flyers?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The images in Image B are clear, well-lit, and exhibit the car from different angles, a presentation style often used in automotive marketing materials. The combination shows the front and rear views distinctly, and the overall composition is professional, which aligns with the typical standards for car magazines or showroom flyers.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

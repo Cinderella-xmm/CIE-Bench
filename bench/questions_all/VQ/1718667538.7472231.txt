@@ -1,0 +1,48 @@
+```
+Step 1: Disassemble Editing Instructions
+-<Thinking Process 1>: The editing instruction requires converting the masked tiger figure into a paper-cut style with exaggerated stripes and enlarged whiskers. This transformation involves altering the texture, shape, and proportions of the tiger's facial features. Since the original image shows a highly detailed, realistic tiger mask with natural fur patterns and anatomical accuracy, this change will significantly affect the perceived realism and natural appearance. The paper-cut style implies flatness, sharp edges, and stylized forms, which must not introduce distortions or unnatural textures when applied to the tiger’s face.
+-Sub requirement 1: Convert the tiger mask into a paper-cut style—evaluate whether the transition from realistic fur texture to flat, cut-out appearance maintains visual coherence and avoids artifacts such as jagged edges, inconsistent line thickness, or unnatural layering.
+
+-<Thinking Process 2>: The instruction specifies exaggerating the stripes and enlarging the whiskers for a playful effect. In the original image, the stripes follow natural tiger patterning and the whiskers are proportionally accurate. Exaggeration may lead to geometric distortion if not balanced properly. This affects structural consistency and physical rationality, especially in terms of facial symmetry and spatial relationships.
+-Sub requirement 2: Modify the tiger’s stripes and whiskers—assess whether the exaggerated elements maintain proportional balance and avoid unnatural stretching, misalignment, or broken geometry that disrupts facial structure.
+
+-<Thinking Process 3>: The kimono is to be redesigned as layered paper panels with gold foil cherry blossoms. The original kimono has a soft fabric texture with floral patterns. Converting it into layered paper panels introduces material changes that must preserve the illusion of depth and layering without introducing visible seams, misaligned layers, or unnatural sheen.
+-Sub requirement 3: Transform the kimono into layered paper panels—check whether the material shift from fabric to paper is visually plausible, with consistent layering, edge definition, and absence of distorted folds or floating elements.
+
+-<Thinking Process 4>: Gold foil cherry blossoms are to be integrated into the kimono design. The original image features painted cherry blossoms on fabric. Adding metallic foil requires attention to reflectivity, texture contrast, and placement logic. If poorly implemented, it could appear as unnatural glares, misplaced highlights, or textural mismatches.
+-Sub requirement 4: Add gold foil cherry blossoms—evaluate whether the foil elements have realistic metallic sheen, proper integration with existing floral patterns, and no floating or disconnected fragments.
+
+-<Thinking Process 5>: Detachable panels with interactive folding elements are to be added for functionality. These are not present in the original image. Their inclusion must not violate spatial logic or occlusion rules. They should appear as part of the kimono structure without overlapping inconsistently or appearing detached in an implausible way.
+-Sub requirement 5: Integrate detachable folding panels—assess whether these panels are structurally coherent, logically positioned (e.g., along seams or edges), and do not introduce floating parts or geometric inconsistencies.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of converting the tiger mask into a paper-cut style, this question evaluates whether the texture and shape of the tiger’s face have been transformed into flat, clean-edged layers without introducing jagged lines, irregular contours, or unnatural layer separation. The focus is on maintaining structural coherence between the eyes, nose, and mouth regions under the new artistic style.
+Question: Are the edges of the tiger’s face cleanly defined with uniform thickness and no pixelated or broken lines indicating poor rendering?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of exaggerating the stripes and whiskers, this question checks whether the increased size and boldness of these features maintain anatomical plausibility and symmetry. Over-enlargement could cause distortion in the facial structure, such as misaligned stripes or whiskers extending beyond the jawline in an unnatural way.
+Question: Do the exaggerated stripes and enlarged whiskers remain symmetrically aligned and proportionally consistent with the rest of the tiger’s facial structure?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of transforming the kimono into layered paper panels, this question assesses whether the fabric appears segmented into distinct, non-overlapping layers with clear boundaries and consistent thickness, avoiding floating or misaligned sections that break the illusion of layered paper.
+Question: Are the kimono panels clearly separated into distinct layers with clean edges and no overlapping or floating segments that suggest improper layering?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of adding gold foil cherry blossoms, this question evaluates whether the metallic elements have a reflective quality that matches the lighting direction and surface properties of the surrounding fabric, without appearing as bright, isolated spots or unnatural glares.
+Question: Do the gold foil elements exhibit consistent reflectivity and blend naturally with the surrounding floral pattern without harsh highlights or floating fragments?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of integrating detachable folding panels, this question checks whether the panels are positioned along logical seams or edges of the kimono and appear physically connected, without floating or intersecting improperly with other elements like the obi or sleeves.
+Question: Are the detachable panels aligned with natural fold lines or garment seams and do they appear securely attached without floating or intersecting incorrectly with adjacent clothing parts?
+Choices: Yes, No  
+A: Yes
+```

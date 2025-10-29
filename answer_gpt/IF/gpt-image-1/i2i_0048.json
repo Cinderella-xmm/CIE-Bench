@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0048",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the contrast in the image been enhanced?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the overall contrast is significantly higher than what is typical in natural environments based on world knowledge. The zebras' stripes are sharply defined with a stark black and white distinction. This suggests that contrast has been intentionally enhanced to create a dramatic effect.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there visible improvement in the sharpness of zebras and the grassy ground in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the zebras appear very sharp. Their stripes are clearly defined, and the texture of their fur is distinctly visible. However, instead of grass, the background is urban, with no grassy ground to compare. Based on the sharpness observed in Image B, there is a noticeable improvement in the sharpness of the zebras compared to Image A where they appear less defined, likely due to the editing process enhancing details.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the natural textures of the zebras' stripes and the grassland detailed and clear?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the zebras' stripes display detailed texture and clarity, highlighting distinct areas like fur and contours. Although there is no grassland in Image B, the clarity of natural elements present, such as the zebras, indicates improved texture detail, but the grassland cannot be evaluated here due to the change in setting.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have any urban elements, like buildings, vehicles, or people, been added to simulate a city life photojournalism aesthetic?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Image B depicts urban setting elements such as buildings, a tram rail, and vehicles, suggesting a city environment. These elements contrast with the natural setting in Image A, indicating that they have been deliberately added to transform the image into a city life photojournalism aesthetic.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the original composition of the zebras in the grassland been preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the setting and composition have been altered from a natural grassland environment in Image A to an urban street environment. The zebras themselves are similarly positioned, but the background context has completely changed, indicating the original composition of zebras within the grassland has not been preserved.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

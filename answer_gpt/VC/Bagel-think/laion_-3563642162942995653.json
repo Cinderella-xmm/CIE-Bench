@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-3563642162942995653",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain exactly six wheels arranged in three axles, with the front axle near the cab and two rear axles supporting the cargo body?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the truck has six wheels, arranged with one front axle and two rear axles. The layout visually matches the common configuration for trucks with a cargo body, where the front axle is positioned near the cab and the other two axles are at the rear, providing support. This aligns with typical design elements seen in multi-axle vehicles, hence corresponds with both conventional truck design and Image A.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the cargo body positioned directly behind the cab, maintaining the same horizontal alignment and proportional length as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the cargo body directly behind the cab, with the same horizontal alignment. The length and proportion relative to the vehicle seem consistent, reflecting standard truck design principles where the cargo section maintains a specific proportion for functional design. By comparing with Image A, these aspects appear retained consistently in Image B.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there two rectangular windows visible on the side of the cargo body, located approximately one-third and two-thirds along its length?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly shows two rectangular windows placed along the side of the cargo body. They appear to be proportional and located at approximately one-third and two-thirds of the length from a visual estimation. Such positioning is typical for optimizing light and design aesthetics, and appears consistent with the window placement in Image A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the vertical slatted grille present on the front of the vehicle, centered between the headlights and aligned with the hood?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the front of the vehicle displays a vertical slatted grille centered between the headlights and aligned with the hood, mimicking typical classic truck design where such grilles are prominent. This configuration is evident by reviewing Image A, confirming the same placement and design style, showing retained details.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a side mirror attached to the driver’s side door, extending outward from the upper portion of the door?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the depiction of the truck lacks a visible side mirror extending from the door, which suggests a deviation from standard truck features where mirrors are typically mounted for visibility. Compared to Image A, where a side mirror is apparent, Image B does not display this component.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is there a horizontal ladder affixed to the lower side of the cargo body, running parallel to the ground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not feature a visible horizontal ladder attached to the cargo body alongside the truck. Typically, such ladders are present in utility or access-related vehicles. However, inspecting both Image B and the comparative Image A reveals no evidence of a ladder in these positions.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is there a silver-colored door handle visible on the driver’s side door, positioned midway down the door?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the smooth, stylized design does not exhibit a silver-colored door handle on the driver's side door. Traditional door handles often contrast the vehicle color for functionality, which is not discernable here. Image A shows a standard door handle, but such a feature is omitted or not visible in the artistic depiction of Image B.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7692307692307693
+}

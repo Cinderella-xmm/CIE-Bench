@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_22251",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the subject's face, including their facial features, unchanged?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject's face is blurred, which indicates alterations to the facial features as compared to a clear visible state. As a result, the specific details of the facial features are no longer discernible, indicating a change.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the subject still have long black hair?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject is depicted with long black hair, similar to Image A. The long straight black hair is clearly visible in both images, indicating consistency in this aspect.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the green earrings still present on the subject's ears?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are green earrings visible on the subject's ears, consistent with Image A. The earrings are a distinct and identifiable element present in both images, reflecting no change.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the subject still facing forward with a neutral expression?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the blurred face, the orientation of the body and head remains facing forward, similar to Image A. The pose indicates that the subject is indeed still facing forward, maintaining a forward-facing posture consistent with a neutral setting.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there still a graphic design visible on the subject's clothing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the clothing of the subject has changed to a more historical outfit with intricate patterns indicative of art from a specific time period. Unlike Image A, where a modern graphic design is visible on the shirt, Image B depicts detailed period clothing without such graphic illustrations.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0110",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the vase and sunflowers appear naturally integrated with the modern kitchen dining table without any noticeable distortions or discontinuities?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the vase of sunflowers appears to be digitally superimposed onto a modern kitchen dining table. The painting style of the vase and flowers remains distinctively different from the realistic style of the surroundings. This incongruity creates a noticeable discontinuity in terms of color, texture, and lighting. The painting's vibrant, impasto style contrasts with the smoother, more uniform surfaces of the modern kitchen, and there isn't a seamless integration, which makes the vase and the table look disjointed.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the shadows and highlights on the vase and sunflowers align logically with the direction and intensity of the sunlight coming through the venetian blinds in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows sunlight streaming from the left through venetian blinds, creating distinct linear shadows on the table. The vase and sunflowers, derived from a painting, have a different lighting model and do not exhibit the same sharp linear shadows. Instead, the highlights and shadows on the vase do not correspond with the modern lighting setup, suggesting a mismatch in light direction and intensity.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the size and proportions of the vase and sunflowers realistic and proportionate relative to the modern kitchen dining table and surrounding space?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sunflower bouquet appears to be quite large relative to the table and the chairs, potentially exceeding typical size proportions for a floral arrangement on such a setting in a modern kitchen. The vase occupies a significant amount of space on the table, seeming slightly oversized compared to realistic, proportionate arrangements considering typical furniture scales.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the texture and material details of the vase and sunflowers retain their natural appearance and integrity, showing no signs of unnatural patterns or lost details after being placed in the new setting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the vase and sunflowers retain the distinct impressionist texture and style of Van Gogh's painting, which is characterized by thick brush strokes. These artistic details are preserved, and although stylistically different from the real-life kitchen setting, they don't exhibit signs of distortion or loss in detail. The texture appears consistent with its original artistic medium.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the overall arrangement and positioning of the vase and sunflowers on the modern kitchen dining table, along with the background of sunlight through venetian blinds, create a harmonious and believable scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The combination of the painted vase and sunflowers with a realistic kitchen environment in Image B creates a stylistic dissonance. The art styles differ greatly, with the painted objects not matching the lighting and shadows of the realistic setting. Furthermore, the mismatched proportions and integration issues between the painted and real elements prevent the creation of a harmonious and believable scene.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

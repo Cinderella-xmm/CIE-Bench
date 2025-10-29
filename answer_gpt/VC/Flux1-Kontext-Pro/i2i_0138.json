@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0138",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the silver blades still visibly reflective?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the blades are part of a pencil sketch. Pencil sketches typically do not capture reflective surfaces as they use shades of gray without the sheen or glint that a reflective surface exhibits. Thus, the reflective quality of the original silver blades is lost in the translation to a sketch.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the golden handles still show a polished finish?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The handles in Image B, similar to the blades, are part of the pencil sketch. A pencil sketch does not convey the polished, glossy finish that a photograph of a metallic surface can show. The textures in sketches are flat, without the shine characteristic of polished metal surfaces. Therefore, the polished finish of the handles is not present in the sketch.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the open V-shape configuration of the blades preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both images, the scissors are positioned with blades open in a V-shape. Image B maintains this configuration, as the sketch replicates the same positioning.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the background still a uniform dark gray?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases a pencil sketch that appears on a light background due to the nature of sketching paper. Unlike Image A, which has a uniform dark gray background, the sketched image does not maintain this dark background but instead has a common light background typical for pencil sketches.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the edges of the blades still clean and sharp?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Pencil sketches often capture fine lines and details as the artist intends to highlight, maintaining clean lines when the subject involves sharp objects like blades. Therefore, despite the medium change, the sketched blades can still appear clean and sharp if outlined meticulously.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.2727272727272727
+}

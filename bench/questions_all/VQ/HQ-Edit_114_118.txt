@@ -1,0 +1,48 @@
+```
+Step 1: Disassemble Editing Instructions
+-Thinking process 1: The editing instruction specifies transforming the original image into a miniature ship diorama encased in a curved glass dome. This involves adding a transparent dome structure around the entire scene, which affects the overall composition and spatial perception. The original image features a large sailing ship on open water under a surreal sky with seagulls and cosmic elements. The addition of a glass dome must not distort the existing elements or introduce visual artifacts such as unnatural reflections, refractions, or edges that break the illusion of a contained diorama. Therefore, the sub-requirements focus on structural coherence, material realism (glass), and absence of distortion at the dome’s boundary.
+-Sub requirement 1: Add a curved glass dome enclosing the entire scene, ensuring the dome's surface is smooth, transparent, and free from visible seams, scratches, or unnatural distortions that would compromise the perceived realism of the enclosure.
+
+-Thinking process 2: The sails are to be rendered in delicate papercraft style, emphasizing texture and shadows in each fold. In the original image, the sails are large, fabric-like, and appear to be made of canvas with natural folds and lighting effects. Converting them to papercraft requires altering their material appearance—introducing paper-like textures, crisp edges, and subtle crease details—without losing their structural shape or causing visual inconsistency with the rest of the ship. This transformation must maintain proportionality and avoid flattening or distorting the sail geometry.
+-Sub requirement 2: Modify the sails to resemble papercraft material, ensuring the texture appears layered and folded with realistic shadowing and depth, while preserving the original sail shapes and proportions without introducing geometric distortions.
+
+-Thinking process 3: Below the ship, a layer of shimmering blue resin is to mimic ocean waves. In the original image, the water beneath the ship is a calm sea with subtle wave patterns and reflection of light. Replacing this with resin introduces a new material that should simulate fluid motion but remain visually plausible within the diorama context. The resin must have a translucent, glossy finish with internal light refraction effects, yet not appear overly artificial or disconnected from the ship and surrounding environment.
+-Sub requirement 3: Replace the lower portion of the water with shimmering blue resin that mimics ocean waves, ensuring it has consistent translucency, internal glow, and wave-like undulations without unnatural textures or abrupt transitions at the interface with the ship’s hull.
+
+-Thinking process 4: Tiny ethereal seagulls are to be suspended on fine wires for a dynamic display. In the original image, the seagulls are flying freely in the air, appearing natural and three-dimensional. Suspending them on wires implies adding thin, barely visible lines connecting the birds to an unseen support structure. This modification must preserve the birds’ form and flight posture while ensuring the wires are imperceptible unless closely examined, avoiding any obvious mechanical rigging that breaks immersion.
+-Sub requirement 4: Replace the flying seagulls with versions suspended on fine wires, ensuring the wires are faint, taut, and positioned naturally to suggest suspension without disrupting the birds' poses or creating unnatural angles or floating appearances.
+
+-Thinking process 5: The overall scene must retain structural consistency and visual credibility as a diorama. The original image contains a large ship, expansive sky, and distant horizon. Encasing it in a dome changes the spatial scale and perspective. The dome must not intersect improperly with the ship or sky, and all elements (ship, sails, water, birds) must appear correctly scaled and proportioned within the enclosed space. There should be no clipping, warping, or misalignment between the diorama components.
+-Sub requirement 5: Ensure all elements (ship, sails, water, birds, sky) are properly aligned and scaled within the glass dome, maintaining physical plausibility and structural coherence without overlapping, distortion, or loss of detail due to enclosure.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of adding a curved glass dome enclosing the entire scene, this question evaluates whether the dome's surface appears smooth, transparent, and free from visible seams, scratches, or unnatural distortions. The dome should refract light subtly and not introduce artifacts like double images, ghosting, or inconsistent transparency across its surface. Observing the dome’s edge and how it interacts with light and background elements allows assessment of its realism.
+Question: Does the curved glass dome have a smooth, seamless surface without visible seams, scratches, or unnatural distortions that disrupt the visual continuity of the scene?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of rendering the sails in papercraft style, this question assesses whether the texture and folds of the sails resemble paper with realistic shadows and depth, while maintaining their original shape and proportion. The transition from fabric to paper should not flatten the sails or cause geometric inconsistencies such as stretched or collapsed sections.
+Question: Do the sails exhibit layered, folded paper-like textures with consistent shadows and depth, without geometric distortions or flattened areas that deviate from their original shape?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of replacing the water with shimmering blue resin, this question checks whether the resin layer has a translucent, glossy appearance with internal light refraction and wave-like undulations. It should not appear flat, opaque, or abruptly disconnected from the ship’s hull, and must maintain visual continuity with the surrounding environment.
+Question: Does the blue resin layer below the ship show consistent translucency, internal glow, and wave-like patterns without abrupt transitions or unnatural textures at the hull interface?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of suspending seagulls on fine wires, this question evaluates whether the wires are faint, taut, and positioned naturally to support the birds without disrupting their flight posture. The wires should not be visibly thick, crooked, or attached in ways that suggest mechanical rigging rather than graceful suspension.
+Question: Are the seagulls connected by faint, straight wires that do not interfere with their natural flight positions or create visible mechanical supports?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of maintaining structural consistency within the diorama, this question checks whether all elements (ship, sails, water, birds, sky) are properly scaled and aligned within the glass dome. There should be no clipping, overlapping, or misalignment between objects, and the dome should not intersect incorrectly with the ship or sky.
+Question: Are all elements (ship, sails, water, birds, sky) correctly positioned and scaled within the glass dome without clipping, overlapping, or misalignment that compromises structural coherence?
+Choices: Yes, No  
+A: Yes
+```

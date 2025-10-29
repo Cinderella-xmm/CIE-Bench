@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_155",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the golden car depicted in a 3D chibi style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the golden car has a more realistic representation with defined, proportional features and detailed components that do not fit the typical exaggerated and rounded proportions associated with chibi style. Using world knowledge, a chibi style involves exaggerated and often cartoonish proportions, which this car does not exhibit. Hence, it is not depicted in a 3D chibi style.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the car look like it is emerging from the photo frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the car appears to protrude beyond the confines of the rectangular frame held by a hand, giving the illusion that it is emerging or extending outwards into the viewer’s space. This is evident from the way the frame only partially surrounds the car, with parts of the car appearing to be outside the frame. This visual cue, combined with the world knowledge of photography and framing techniques, supports the interpretation that the car is emerging from the frame.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a human hand visible, grasping the edges of the photo frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a human hand is clearly visible grasping the edges of the frame, providing a tactile connection between the human and the object. The visual cues of fingers and thumb positioned around the frame, combined with general knowledge of how hands typically hold objects, support this conclusion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the car retained its golden color in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the car is still a golden color, as is evident from the visual representation of the car's surface. This color is consistent and visually comparable to standard golden shades, indicating that its original color has been retained.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the transition from a flat 2D space to a 3D reality clearly depicted?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the car appears to transition from within the framed area into a perspective that suggests 3D space by protruding outside the frame. The way the car seems to extend beyond a traditional 2D boundary, combined with the illusionary effect of depth created visually by the shadowing and perspective in the image, illustrates the concept of transitioning from 2D to 3D. This is a clear depiction of such a transition.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

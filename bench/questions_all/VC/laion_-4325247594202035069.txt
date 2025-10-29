@@ -1,0 +1,88 @@
+Description of reference image: The subject consists of four identical brown plastic warrior figurines, each resembling a minotaur-like creature with bull heads, horns, and humanoid bodies. They are posed dynamically in combat stances, wielding various weapons such as axes, swords, and spears. Each figure has distinct details including armored belts, shoulder pads, and fur textures on their legs. Their hooves are broad and flat, suitable for standing upright. One figure holds a double-headed axe horizontally, another raises an axe above its head, a third kneels while holding a curved blade and shield, and the fourth wields a long spear-like weapon with a pointed tip and decorative blade. All figures feature skull pendants around their necks, detailed facial expressions (snarling or roaring), and muscular torsos. The background is plain light blue, providing no additional context or environmental detail. The material appears to be unpainted resin or plastic, uniformly colored in a matte terracotta-brown tone.
+
+Thinking process: First, analyze the editing instructions word by word:  
+- "Transform these warrior figures into tropical fish-shaped plush toys" → This indicates a complete transformation of form and material; thus, the original physical structure (minotaur shape) can be changed.  
+- "Replace the brown plastic with soft, vibrant fabrics featuring bold patterns in blue, green, red, and yellow" → Material and color are explicitly allowed to change.  
+- "Soften the shapes by exaggerating fins and tails while maintaining the figures' dynamic poses" → Shape modification is permitted, but **dynamic poses** must be preserved.  
+- "Display the plush fish creatively arranged on a sandy fabric surface to resemble a serene underwater scene" → Scene/environment is being replaced entirely; original background (light blue) is not required to remain.  
+
+Allowed Changes List:  
+- Form of the figures (from minotaur warriors to fish-shaped plush toys)  
+- Material (from brown plastic to soft fabric)  
+- Color scheme (from monochrome brown to vibrant multicolor)  
+- Texture (from hard plastic to soft textile)  
+- Background (from plain light blue to sandy fabric simulating underwater scene)  
+- Shape exaggeration (fins, tails)  
+- Surface texture (plush vs. plastic)  
+
+Step 2 - Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: Although the figures will be transformed into fish, the instruction specifies **"maintaining the figures' dynamic poses"** — this is a direct requirement. Therefore, the **posture and spatial orientation** of each figure must be preserved, even if their form changes. These poses are key to identifying the original action and narrative intent. For example, the figure raising an axe above its head must still have that arm raised high, even if it becomes a fish fin.  
+
+Functional/logical association elements: The **weapon-holding actions** are functional — each figure interacts with a specific weapon (axe, sword, spear). While the weapons themselves may become stylized fish parts (e.g., a tail shaped like a spear), the **hand-to-weapon connection and orientation** must be retained to preserve logical coherence. For instance, the hand gripping the axe handle must still appear to grip something, even if it’s now a fin.  
+
+Non-modified element deduction: After excluding all allowed changes (form, material, color, texture, background), what remains? The **relative positioning** of limbs, the **direction of gaze**, the **angle of limbs**, and the **spatial relationships between body parts and weapons**. These define the pose and cannot be altered without changing the core identity of the action depicted. Additionally, the **presence of skull pendants** is not mentioned in the editing instruction as something to remove — though not required to retain, they are part of the original design and could be considered a minor detail. However, since no instruction says to keep them, and they are not critical to function or pose, they may be omitted unless explicitly tied to identity.
+
+Preservation Targets List:  
+- The dynamic pose of each figure (specific limb angles and stance)  
+- The hand-to-weapon interaction (gripping, raising, etc.)  
+- The relative positioning of arms, legs, and head in each figure  
+- The direction of movement implied by posture (e.g., forward charge, defensive crouch)  
+- The presence of a weapon in each figure's hand (even if reimagined)  
+
+{
+    Q1: 
+    Thinking process: The dynamic pose of each figure — particularly the raised arm holding the axe overhead — is explicitly stated in the instruction to be maintained ("maintaining the figures' dynamic poses"). This pose is central to the visual identity of the action depicted. If the arm is lowered or repositioned, the intended motion and energy of the figure are lost, undermining the original narrative. Thus, preserving the exact spatial orientation of limbs and body is essential for consistency.
+    Question: Is the figure in the top-right corner still shown with its right arm raised high, holding a weapon aloft?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The hand-to-weapon interaction is a functional element — each figure grips a weapon, which defines their role and action. Even if the weapon becomes a fish fin or tail, the hand must still appear to hold it. Losing this grip would break the logic of the figure’s action. The instruction does not allow removal of weapons, only transformation, so the grip must remain visually present.
+    Question: Does the figure in the bottom-left corner still show a hand gripping a curved blade in its right hand?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The kneeling posture of the bottom-left figure is a defining characteristic of its action — it conveys defense or attack from a low stance. The angle of the knee, the bent leg, and the forward lean must be preserved to maintain the original dynamic. Changing this would alter the perceived movement and intent.
+    Question: Is the figure in the bottom-left corner still in a kneeling position with one knee on the ground and the other leg bent forward?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The direction of the head and gaze contributes to the emotional expression and focus of each figure. For example, the snarling mouth and forward-facing head suggest aggression. While facial features may be simplified in plush form, the general orientation of the head must remain consistent to preserve the sense of engagement and intent.
+    Question: Does the figure in the top-left corner still face slightly to the left with its head turned toward the viewer?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The presence of a weapon in each figure’s hand is a key functional element. The instruction states "transform" rather than "remove," so weapons must still be present, even if reimagined. The bottom-right figure holds a long spear-like object; this must remain visible as a weapon held vertically, even if reshaped into a fish tail or fin.
+    Question: Does the figure in the bottom-right corner still hold a long, vertical weapon in its right hand?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The relative spacing between figures is not explicitly required to be preserved, but their individual poses are. However, the instruction says "creatively arranged," implying that layout may change. But the internal structure of each figure — such as the position of the left leg in the top-right figure — must stay consistent. This leg is bent backward, contributing to the charging stance. Altering it would change the pose.
+    Question: Is the left leg of the top-right figure still bent backward, supporting a forward lunge?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The skull pendant around the neck is a distinctive accessory, though not central to the pose. Since the instruction does not mention removing it, and it is a unique visual element, it may be retained as a minor detail. However, since the transformation is into plush fish, it might be omitted. But to ensure fidelity, its presence should be checked. It is not a core identity element, but its absence would slightly reduce visual accuracy.
+    Question: Is there a skull-shaped pendant visible around the neck of the bottom-right figure?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

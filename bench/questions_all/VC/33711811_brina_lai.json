@@ -1,0 +1,92 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The red roof of the house is a distinct and highly visible feature in the original image. It stands out due to its bright red color against the muted tones of the surrounding landscape. This color contrast makes it a key identifier of the house. Even if transformed into a metallic spine segment, the presence of a red element in that location must be traceable to maintain consistency with the original. Losing this would make it impossible to confirm the house was the source of the spine. Therefore, it is a critical visual anchor and should be weighted highly.",
+      "question": "Is the red roof of the house located on the left side of the peninsula still visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The black barn-like structure is a prominent man-made object in the lower right area of the image. Its dark color and elongated rectangular shape distinguish it from surrounding features. Even when transformed into a metallic spine, its position and basic silhouette must be preserved to ensure the edit is grounded in the original. Without this, the transformation loses connection to the source image.",
+      "question": "Is the long black building situated near the center-right of the peninsula still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The golden-brown grass covering the peninsula is a dominant texture in the foreground. It provides the visual base for the \"windswept grass fur\" concept. While its appearance may change (e.g., flowing like fur), its presence across the peninsula must remain intact. If entirely removed or replaced, the transformation loses its foundation.",
+      "question": "Are the golden-brown grasslands covering the peninsula still visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The partially frozen lake with visible ice patches is a defining feature of the water body. It contributes to the \"reflective scales\" concept. The ice patterns must be present in the original to be transformed into scales. Removing them would break the link between the source and the surreal interpretation.",
+      "question": "Are patches of ice visible on the surface of the lake in the foreground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The snow-covered mountain peaks with distinct streaks of snow descending their slopes are central to the landscape. These are essential for forming the \"jagged wings.\" The snow patterns must be present in the original to be repurposed. Their absence would prevent the wing transformation from being logically derived.",
+      "question": "Are snow streaks visible running down the slopes of the mountains in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The relative positioning of the two buildings — one red-roofed on the left, one black on the right — establishes a spatial relationship. This layout is crucial for transforming them into a spine. Changing their positions arbitrarily would disrupt the logic of the beast’s anatomy. Hence, their placement must be preserved.",
+      "question": "Is the red-roofed house positioned to the left of the black barn along the peninsula?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The color palette — including the blue sky, white snow, brown grass, and red roof — defines the original atmosphere. Even in a surreal version, these colors must be present to maintain visual continuity. Altering them drastically (e.g., turning the sky purple) would sever the connection to the source.",
+      "question": "Does the image retain the original color scheme of blue sky, white snow, brown grass, and red roof?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q8",
+      "thinking_process": "The winding shape of the peninsula is key to becoming the \"sinewy tail.\" While its form may be exaggerated, the basic serpentine path must remain recognizable. If straightened or erased, the tail transformation loses credibility.",
+      "question": "Is the peninsula shaped in a winding, snake-like curve extending from the shore into the lake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

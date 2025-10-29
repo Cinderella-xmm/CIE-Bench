@@ -1,0 +1,84 @@
+{
+  "filename": "laion_882475506764967336",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly six chairs surrounding the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, visually discernable are two chairs on each of the longer sides of the table and two benches (which can be considered as seats) on the shorter sides. This sums up to a total of six seats. By understanding how chairs and benches serve similar functions in seating arrangements, it's reasonable to conclude that six seating options surround the table.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the table square in shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the table's dimensions visually appear uniform on all sides, indicating equal length and width. This symmetry is characteristic of a square shape. Visualization of the table from the perspective provided confirms it is square.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there two chairs on each long side of the table and one chair on each short side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are indeed two chairs on each longer side. However, instead of one chair on each shorter side, there is one bench per short side. Understanding the differentiation between chairs and benches is crucial, and in this arrangement, benches replace what might typically be a singular chair.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the chairs on the long sides of the table have armrests?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chairs located on the longer sides of the table are clearly shown with armrests. This feature differentiates them from other simpler chair designs, providing additional comfort.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a centerpiece located in the center of the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a small structure resembling a plant or decorative item is precisely centered on the table. Commonly, such decorations are utilized as centerpieces in dining settings, establishing the object's role as a centerpiece.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the furniture set placed on a flat, level surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts the furniture set sitting atop a uniform, consistent base made of LEGO. The absence of visible inclines, irregularities, or gaps suggests that the surface beneath the furniture is flat and even.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

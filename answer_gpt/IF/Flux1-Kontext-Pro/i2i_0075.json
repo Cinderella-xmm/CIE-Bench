@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0075",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image combine the front and right-side views of the cat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the edited image, there are two adjacent panels displaying the cat. The left panel shows the cat facing directly forward, showcasing the front view, while the right panel shows the cat turned to the side, providing a right-side view. This split panel design means that both the front and right-side views of the cat are integrated into a single image, clearly indicating both perspectives.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the cat's facial features clearly visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the edited image displays two perspectives of the cat's face. In the left panel, the cat faces directly towards the viewer, making facial features like the eyes, nose, and mouth clearly visible and defined. The right panel, showing a side profile, also maintains visibility of these features, although more emphasis is on the cat's facial structure rather than detail. Given the clarity in both views, the cat's facial features are indeed clearly visible.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the cat's body structure properly showcased in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image in Image B effectively showcases the body of the cat through two perspectives—front and side. The forward-facing view shows the chest and frontal legs, while the side view offers an understanding of the cat's profile, including its posture and fur texture. Together, these perspectives provide a comprehensive understanding of the cat’s body structure, hence it is properly showcased.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the original color, size, and position of the cat been preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing Image A and Image B, the edited image mostly maintains the original cat's color, as seen in the consistency of the fur and features. The relative size of the cat in both views has also been preserved compared to the original. However, the position of the cat has been altered since the edited image presents two angles, unlike the singular view in Image A. Therefore, while color and size are preserved, position is modified.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the overall composition free from distortion and inconsistency in integrating both views of the cat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image in Image B showcases both front and side views of the cat in a split panel arrangement. Each panel is clearly defined, and the transition between the two views appears seamless without any evident distortion. The cat's proportions remain consistent, illustrating both perspectives effectively. Thus, the composition is free from distortion and inconsistencies in integrating both views.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

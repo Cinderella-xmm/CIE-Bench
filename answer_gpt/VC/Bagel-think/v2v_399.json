@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_399",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the vase's bulbous body, narrow neck, and flared rim?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In the edited image (Image B), the vase indeed maintains the bulbous body, narrow neck, and flared rim. Despite the transformation of the surface texture into a floral-like pattern, the fundamental shape of the vase remains unchanged. Utilizing my knowledge of typical vase designs, these elements (bulbous body, narrow neck, flared rim) are common and identifiable in both the edited and original images.",
+      "weight": 3,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the flowers in the edited image still predominantly red with green leaves?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "The flowers in the edited image (Image B) have changed to a peachy pink color while the leaves remain green. In the original image (Image A), the flowers are predominantly red. Using my world knowledge about flower variations, the color alteration is a significant shift from the original red hue to a lighter, pink tone.",
+      "weight": 2,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the vase positioned next to the flower pot in the same manner as in the original image?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In both the edited image (Image B) and the original image (Image A), the vase is positioned to the right of the flower pot in a similar arrangement. The spatial relationship between the two objects has been retained in terms of their relative positioning.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image retain the beige background?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "The background in the edited image (Image B) is indeed beige, matching the background seen in the original image (Image A). Beige backgrounds are neutral and serve to enhance the visual focus on foreground objects, which is achieved in both images.",
+      "weight": 1,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the surface beneath the vase and flower pot still smooth and light-colored?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "The surface beneath the vase and flower pot in the edited image (Image B) appears smooth and light-colored, much like in the original image (Image A). This type of surface is commonly used to contrast and highlight the objects placed upon it, maintaining consistency across both images.",
+      "weight": 1,
+      "model_answer": "yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7777777777777778
+}

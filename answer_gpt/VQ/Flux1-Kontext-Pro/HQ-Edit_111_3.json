@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_111_3",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the monochrome line-drawings for the antennae, wings, abdomen, and thorax accurately aligned with the actual anatomy of the butterfly and do they follow its natural contours without overlapping incorrectly or creating geometric distortions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the line drawings are intended to outline and explain the butterfly's anatomy. Proper alignment means these lines match the butterfly's natural contours, including the curve and placement of antennae, wings, abdomen, and thorax. Any misalignment or distortion would be evident as geometric incongruities or incorrect overlaps on the butterfly image. Observing Image B, the lines appear roughly aligned but may not be precisely following the contours as one line seems extended beyond the natural contour. This creates some minor geometric distortion.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the added pink petals appear seamlessly integrated into the surrounding flora with consistent lighting, texture, and shadow alignment, avoiding any visible seams or artificial edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pink petals should appear as part of the natural environment surrounding the butterfly. Seamless integration would mean consistent lighting with the background, matching texture to adjacent flora, and appropriate shadow casting (without shadows going in unexpected directions or lacking depth). The petals in Image B don’t look artificially added; they match the lighting and texture of the flora, with appropriate shadows giving a natural appearance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the text boxes positioned in non-obtrusive areas of the image, clearly readable, and visually balanced so they do not interfere with the butterfly or floral elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the placement of text boxes should be such that they do not cover key visual elements like the butterfly or flowers. They must also be readable and balance with the image’s overall composition. The text boxes in Image B are placed outside the butterfly image and do not seem to interfere with any key visual features. Given the spacing and readability, their positioning is balanced and unobtrusive.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the vibrant blue color of the butterfly’s wings preserved uniformly across all areas, including under and around the overlaid anatomical lines, without any visible discoloration or loss of detail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The vibrant blue of the butterfly's wings should remain consistent in hue and detail, even when overlain by anatomical line drawings. Uniform preservation means no color shift or detail loss in areas with superimposed lines. By observing Image B, the blue coloration appears intact and the detail is well-preserved under the line overlays, with no evident discoloration.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any visible artifacts such as jagged lines, pixelation, or unnatural textures in the areas where edits were made (e.g., line drawings, text boxes, added petals)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Visible artifacts would manifest as irregularities like jagged lines, pixelation, or textures that do not match the surrounding environment. Examining Image B, the butterfly’s anatomical lines are smooth, and the text boxes are clear. The pink petals also blend well without noticeable artifacts, making the overall appearance clean and natural.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

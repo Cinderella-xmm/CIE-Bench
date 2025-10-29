@@ -1,0 +1,84 @@
+{
+  "filename": "laion_5865172754565694239",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is there a visible, cartoon-style face with expressive features (eyes, mouth, etc.) drawn on the frame near the handlebars?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a cartoon-style face visible, characterized by expressive features such as large eyes and a wide mouth with sharp teeth. This face is located toward the top right section where an animated character's face overlaps with the bicycle frame near the handlebars. The presence of oversized features and stylized expressions fits the description of cartoon-style artwork. Comparing this to Image A, which displays a traditional bike with no added animations or faces, confirms the addition in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there cartoon-style limbs (arms or legs) visibly extending from the front and/or rear wheel hubs?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents cartoon-style limbs, specifically arms and legs, extending from regions proximate to where the frame and wheels connect, notably depicted in the matching pose of an animated character riding the bike. These limbs are part of the superhero-like figure, showing stylized arms and legs intertwined with the bike's design. Compared to Image A, which does not have these features, Image B clearly displays appendages interacting with the bike components, adding to its animated design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there dynamic motion lines (such as streaks or curved lines) surrounding the bike or its wheels to indicate speed?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, motion lines are absent surrounding the bike or its wheels. Despite the dynamic pose of the animated character, there are no streaks or curved lines typical of comic motion effects that visually imply speed. Comparatively, Image A also lacks any motion lines since it is a simple image of a bicycle with no motion effects. Therefore, neither image deploys graphic indicators denoting speed through motion lines.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the red frame been redesigned to resemble a superhero suit, including visual elements like patterns, textures, or symbols associated with a hero costume?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases an animated character dressed in a superhero-like suit that incorporates elements such as bold colors and patterns typically seen in hero costumes. Although the red frame is part of the bike, other design elements such as the character's suit suggest a superhero theme, including the presence of a cape enhancing this concept. Image A strictly contains the bike without any costume design or symbols, illustrating only the original frame without hero-like enhancements. The comparison reveals that the superhero aesthetic is introduced through the character and not through alteration of the bike frame itself.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there comic-style sound effect texts such as “Vroom!” or “Zoom!” overlaid on the image in a stylized, bold font typical of comic books?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, visible comic-style text is present, specifically the word ‘ELIR!’ situated near the bicycle’s rear wheel, incorporating characteristics such as bold lettering and stylized effects seen in comic books. Though it is not a typical sound effect like “Vroom!” or “Zoom!”, the text’s design contributes to the comic aesthetic of the image. Image A does not contain any text overlays and focuses solely on the bicycle without any added artistic or text elements.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the entire image exhibit a comic book aesthetic, including exaggerated features, bold lines, vibrant colors, and dynamic composition consistent with a lively animated character?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B entirely embraces a comic book aesthetic demonstrated by exaggerated features, bold lines, vibrant color use, and animated composition. The added cartoon character and text, along with the energetic design enhancements, showcase strong comic-influenced styling. This is in direct contrast to Image A, which presents a straightforward, realistic depiction of a bike without these artistic elements. The comparison underscores the transformation into a lively animated character image consistent with comic book styles in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

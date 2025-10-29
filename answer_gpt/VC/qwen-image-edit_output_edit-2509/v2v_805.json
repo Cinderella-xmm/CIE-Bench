@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_805",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the text \"STORY PAGES\" present in uppercase serif font above the book?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no visible text above the book in the snow globe. Instead, the scene is focused on a book inside a snow globe on a wooden table with surrounding objects like books and a lamp in the background. The snow globe is illuminated and contains the image of the open book under a starry sky, bringing a magical atmosphere. This means there is no context for any text in an uppercase serif font in this image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the book have a visible spine and two cover edges forming an open structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the book inside the snow globe appears open with clear visibility of both sides of its pages curving outward, resembling the structure of an open book. However, it does not explicitly display its spine or cover edges as the angle and artistic style of the snow globe effect likely obscure these details.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there multiple curved horizontal lines on both left and right sides of the book representing stacked pages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the open book within the snow globe does show multiple curved horizontal lines on both sides of the book. These lines symbolize the individual pages of the book in an artistically simplified manner, giving a visual impression of a book with stacked pages.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the book centered horizontally and vertically beneath the text \"STORY PAGES\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Since Image B does not have the 'STORY PAGES' text due to its design focusing on the snow globe, the alignment of any text with the book is irrelevant. Instead, the overall composition centers the globe with the book inside it on a tabletop scenery. Thus, there is no text to compare alignment with.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the book and text rendered in dark navy blue on a light beige background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the book is not rendered in dark navy blue. It appears in a realistic style with a warm glow inside a snow globe, set against a warmly lit background of a room, including a rustic lamp and bookshelf. The previous context of a dark navy blue image does not apply here, making the color scheme different from the described scenario.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.18181818181818182
+}

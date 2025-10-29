@@ -1,0 +1,71 @@
+{
+  "filename": "laion_2387553767237340432",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the layered petal structure around the rim of each vase, with individual petal shapes clearly visible and arranged in concentric rows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual cues indicate that the vases have a smooth, marble-like finish with a prominent engraved artichoke design rather than a layered petal structure. The design does not feature individually shaped petals arranged in concentric rows as in Image A. Instead, it appears more ornamental and structural, emphasizing a carved appearance around the body of the vases.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there exactly two vases present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are two distinct circular cavities shown in the box, which are representative of the product. Therefore, based on the presented packaging with two engraved designs, it can be inferred that there are two identical items in the box, likely resembling vases or vessels based on the structure.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the interior of each vase still open and bowl-shaped, allowing visibility into the cavity?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a boxed set with two items having a rather enclosed neck and a decorative front, which does not confirm an open or bowl-shaped interior that allows visibility into an inner cavity. Therefore, based on the visual structure shown, the vases do not exhibit an open bowl-like interior in this edited version.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does each vase have a distinct, flared pedestal base beneath the main body?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the items do not show any visible pedestal base, as they are encased within a box, displaying only the front view. The design does not allow for a visible assessment of a pedestal. Consequently, there is no evidence of a flared pedestal base beneath the main body, unlike the pedestal seen in Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the two vases identical in shape, size, and orientation, with only minor positional offset?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The two items in Image B appear identical in terms of proportions, engravings, and packaging. They are uniformly presented in a side-by-side arrangement without any disparity in shape, size, or orientation, except for their mirrored reflection in the box, indicating they are designed to be equivalent as a paired set.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.38461538461538464
+}

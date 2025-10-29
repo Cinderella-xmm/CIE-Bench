@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0166",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has a poem been added at the bottom of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, there is text visible at the bottom section of the image, which appears to be poetic in nature, describing the bird and its environment. This indicates that a poem has been added.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the poem exactly read: “A beam of morning light, a soft whisper, an unnamed yellow bird perching on a branch”?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Examining the text added to Image B, it reads: ‘A beam of morning light, a soft whisper, an nnamed yellow bird pericing on a branch,’ which contains noticeable typographical errors compared to the exact observation ‘unnamed’ and ‘perching.’ Therefore, it does not match the exact phrase.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the poem placed at the bottom section of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text appears positioned at the bottom section of the image. This is where space commonly allows for captioning or adding text without overly interfering with the subject of the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the image quality been maintained after adding the poem?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "When evaluating Image B, the presence of the poem text does not disrupt the visual quality or clarity of the main subject, which is the yellow bird. The addition of text does not pixelate or degrade the color or sharpness of the core visuals.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the font style of the poem complementary to the artistic tone of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The font style used in the poem bears a cursive-like quality that is commonly associated with a sense of elegance and artistic flair, which visually complements the warm and serene tone of the image. Furthermore, the script aligns with the soft-focused background and lighting aesthetics.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

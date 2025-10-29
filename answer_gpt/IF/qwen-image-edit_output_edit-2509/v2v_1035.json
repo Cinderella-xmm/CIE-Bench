@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1035",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the giraffe been turned into an adorable collection of Russian nesting dolls with a chibi giraffe theme?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the object in focus is a collection of Russian nesting dolls. These dolls feature typical human-like chibi characteristics with floral designs and happy faces, not a giraffe theme. Common sense tells us that these types of dolls often portray human figures with vibrant patterns rather than animal themes. The visual cues in Image B indicate that the nesting dolls feature a chibi-style human theme rather than a chibi giraffe theme.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there exactly five nesting dolls arranged in descending sizes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays four Russian nesting dolls arranged in descending sizes. From visual inspection, the dolls clearly decrease in size from left to right, and there are only four dolls present. Typically, nesting dolls are organized sequentially by size to show their graduated nature, but in Image B, we can directly count from the display that there are four dolls, not five.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the nesting dolls arranged neatly on a classy wooden table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, the nesting dolls are arranged in a straight line and appear to be placed on a wooden surface, which can be inferred as a table. The wood's texture and grain pattern are visible, indicating the presence of a table. The arrangement is tidy, suggesting a deliberate and neat setup on the surface.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image have a 3:2 horizontal aspect ratio?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The aspect ratio of an image refers to the proportional relationship between its width and height. Determining this ratio from Image B requires observation of the overall proportions. Although the exact measurements are not visually obvious, the image's typical width-to-height ratio appears to be closer to 1:1, given the equal visual balance, rather than the elongated shape seen in a 3:2 aspect ratio commonly associated with landscape photos.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the nesting dolls maintain a chibi style with large heads, small bodies, and simplified features?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the dolls exhibit characteristic chibi style, which includes disproportionately large heads relative to their bodies, simplified features such as large eyes and small expressions, typical of the cute and cartoonish chibi design. This design choice aligns with expectations for chibi figures, emphasizing cuteness through simplification and exaggerated proportions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

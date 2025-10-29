@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_128_165",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the two visible dark brown wooden ceiling beams, one running diagonally and one vertically, present and positioned as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no ceiling or visible beams because the setting is an underwater scene featuring a jellyfish. Image A features a room with visible wooden beams. The structural design elements typical of an interior setting are not present in Image B. Thus, from this analysis, we can conclude that the beams in Image A are not present in Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the white, hand-textured stucco wall visible on the left side of the image, showing irregular surface imperfections and subtle brushwork marks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the scene is aquatic, featuring a jellyfish in a deep-sea environment. There are no walls, stucco or otherwise, visible in this depiction. The underwater scene contrasts sharply with the architectural elements observed in Image A, which prominently features a stucco wall. Hence, the features described in Question 2 pertaining to Image A are not present in Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the shadow pattern on the ceiling and wall composed of a radial, star-shaped lattice formed by the lantern’s cut-out design, matching the exact geometric configuration of the lantern’s panels?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B illustrates a jellyfish emitting light under the sea, not a lantern casting shadows. In Image A, a lantern projects shadows creating patterns on the ceiling and wall. However, there's no shadow casting in Image B since the context is beneath the sea. Therefore, the specific shadow patterns described in the question are not present in Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the corner where the white wall meets the wooden ceiling clearly visible, forming a sharp right-angle edge at the upper left portion of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are no related architectural elements like walls or ceilings, since it portrays an underwater scene with a jellyfish. Image A features such a corner with the meeting of a wall and ceiling; however, it is absent in the scene depicted in Image B. Thus, based on the analysis, the described corner and right-angle edge are not visible in Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the metal chain, consisting of small linked rings, visibly connecting the top of the lantern to the ceiling fixture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a jellyfish floating freely underwater and lacks any architectural fixtures such as chains or ceilings. In contrast, Image A includes a chain connecting a lantern to a ceiling as part of an interior scene. The description of a chain is not applicable to the context of Image B, thus it does not feature such a metal chain.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the light emanate from within the central chamber of the lantern, creating a bright focal point that radiates outward through the perforated panels?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts a jellyfish with a luminous quality, emanating light from its center, much like a lantern. This creates a bright focal point similar to how light would appear when radiating through a lantern's panels—although there are no lanterns or panels, the effect mimics a similar principle of light dispersion in the marine glow of the jellyfish. While the sources and contexts differ, the behavior of the light is analogous to a lantern in this sense.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.14285714285714285
+}

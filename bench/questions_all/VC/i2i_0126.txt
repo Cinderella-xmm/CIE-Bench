@@ -1,0 +1,75 @@
+Description of reference image: The image depicts an office setting with two individuals seated across from each other at a desk, each working on a computer displaying another person’s video call interface. Both individuals wear orange sweaters over collared shirts and black pants, and one has long black hair while the other has short dark hair. The environment features a clean and organized look with potted plants flanking either side of the desk, framed portraits of two men hung on the wall behind the woman, and a modern overhead lamp directed towards the man.
+
+---
+
+### Step 1 - Allowed Changes List:
+
+Thinking process: 
+The instructions require combining multiple views (front, side, and top) showing the office setup. This calls for adjusting the perspective and adding angles. However, this doesn’t give freedom to alter specific elements like colors, furniture type, or the people depicted unless explicitly stated.
+  
+Allowed Changes List:
+- The perspective of the image (creating front, side, and top views while keeping the same content).
+- The lighting effects (to adapt them for different views, but the primary light source should remain consistent).
+  
+---
+
+### Step 2 - Preservation Targets List:
+
+Thinking process: 
+Core recognition elements include the office setting’s signature features like the desk, computers, and individuals' attire. Functional elements involve the seating arrangement and computer usage. Visual coherence elements include the portraits and decor, ensuring the scene remains recognizable despite the new perspectives.
+
+Preservation Targets List:
+- The presence of two individuals working on computers.
+- The core furniture and equipment (desk, chairs, monitors, lamps).
+- The portraits on the wall and their placement.
+- The potted plants’ positions relative to the desk.
+- The general color scheme and attire of the individuals.
+
+---
+
+### Step 3 - Generated Questions:
+
+{
+    Q1: 
+    Thinking process: The presence of two individuals working on computers is critical for depicting the office scenario. Removing or altering this would lose the essence of the workspace interaction.
+    Question: Are there two individuals seated at a desk working on computers?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The desk and chairs are central to the setting and functional for defining the workspace. Losing this context would distort the intended office environment.
+    Question: Is the desk supported by chairs on both sides, and are both individuals seated?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The portraits on the wall are distinctive decorative elements that add personality to the office space. Their absence would harm the visual consistency.
+    Question: Are there two framed portraits hanging on the wall behind the individual on the left?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The potted plants enhance the environment and support the scene's layout. Their consistent positioning ensures the setting feels natural and undisturbed.
+    Question: Are there potted plants placed on either side of the desk?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q5: 
+    Thinking process: The color scheme and attire of the individuals are essential for maintaining aesthetic continuity and identity. Altering them could cause confusion about the subjects’ roles or setting.
+    Question: Are both individuals wearing orange sweaters over collared shirts and black pants?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

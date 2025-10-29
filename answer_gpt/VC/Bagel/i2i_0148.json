@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0148",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the two cars in the image identifiable as the same models shown in the original, with the same body shapes and design features?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cars appear to have silhouettes similar to those in Image A, with distinct body shapes and design features like taillights, badges, and rear outlines. However, due to the edited effects that distort the clarity and details, confirming if they are exactly the same models as Image A's cars is challenging. The edits make the identification ambiguous.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the red traffic lights still visible above the cars, maintaining their original function as stop signals?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the red traffic lights are present and above the cars, glowing vividly. Their position and color suggest that they retain their function as stop signals. Comparing to Image A, the traffic lights are similarly positioned and serve the same function, unaffected by the edits.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the lane markings on the road clearly visible and consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows lane markings on the road, but they are blurred due to the editing effects. Image A has clear, unobstructed lane markings. The clarity of lane markings in Image B is compromised; thus, they are not consistent with those in the original image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the urban environment around the cars intact, including trees and roadside features?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows an altered urban setting where the trees and surroundings are distorted with vibrant colors, affecting visibility and real-life replication. Comparing with Image A, where the environment is natural and intact, Image B does not maintain the original urban setting due to the visually altered background.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are both cars still positioned parallel to each other, maintaining their original placement on the road?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, both cars seem to retain their parallel alignment and placement akin to Image A. Despite the editing effects, their relative positions appear unchanged, with both cars aligned beside each other along the road lanes.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4166666666666667
+}

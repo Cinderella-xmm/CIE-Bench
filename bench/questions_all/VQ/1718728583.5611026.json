@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the robot into an Art Deco sculpture with streamlined forms and chrome accents, this involves modifying the robot’s body structure, surface material, and overall form. The original robot has a mechanical, exposed internal structure with metallic textures. The editing requires stylization to reflect Art Deco aesthetics—smooth curves, geometric symmetry, and reflective chrome surfaces. This transformation must maintain structural coherence and avoid introducing unnatural textures or broken geometry. Therefore, we evaluate whether the robot’s new form retains plausible proportions and surface continuity.",
+      "question": "Does the robot's body exhibit smooth, continuous chrome-like surfaces without visible texture breaks or inconsistent material transitions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The instruction specifies rendering flamingos as stylized geometric patterns. In the original image, flamingos are realistically modeled with soft feathers and natural poses. Converting them into geometric shapes affects their visual plausibility. The key is assessing whether these geometric representations still align with the general shape and silhouette of flamingos while maintaining a coherent style that does not introduce jagged edges, floating fragments, or misaligned parts. The goal is to preserve recognizable form while applying abstraction.",
+      "question": "Are the flamingos rendered as cohesive geometric shapes with consistent edges and proportions, without fragmented or disconnected components?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The backdrop includes palm trees and rocks, which in the original image appear natural and softly lit. The editing instruction calls for angular, stylized palm trees and rocks to match the Art Deco theme. This change alters the natural organic forms into sharp, linear structures. We assess whether these stylized elements retain spatial logic and do not introduce floating segments, unnatural angles, or mismatched scale relative to the environment.",
+      "question": "Do the palm trees and rocks in the background have angular, stylized forms that maintain consistent perspective and spatial relationships without appearing disjointed or floating?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The instruction requires using a muted pastel palette to evoke a vintage futuristic ambiance. The original image has warm tones with pink and orange hues. The edit should harmonize colors across all elements—robot, flamingos, sky, water—to create a unified, cohesive aesthetic. We check whether the color shifts are applied uniformly and whether any element stands out due to abrupt or non-matching hues, which could break visual harmony.",
+      "question": "Is the color palette across the entire scene consistently muted and pastel-toned, with no areas exhibiting sudden or jarring color deviations?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The robot’s limbs and joints are critical for evaluating structural consistency. The original robot has articulated mechanical arms and legs with defined joints. Under Art Deco styling, these should remain anatomically plausible even if stylized. We assess whether the limbs maintain proper joint alignment, proportionality, and absence of extra or missing segments (e.g., fingers), and whether the hands have five digits with natural curvature and spacing.",
+      "question": "Do the robot's hands have exactly five fingers each, with natural curvature and spacing, and no extra or malformed digits?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0122",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the original desk been replaced with an outdoor café table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the image shows a wooden outdoor café table, which is distinct from the indoor setting in Image A that features a wooden desk with a specific wood grain pattern. This indicates that the desk from Image A has been replaced with an outdoor café table in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a snowy cabin visible in the background of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background shows a snowy landscape with a cabin visible at a distance. This suggests an outdoor winter setting. In contrast, Image A portrays an indoor setting without any indication of snow or a cabin.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the image display elements contributing to a warm winter atmosphere, such as warm lighting or steam from the drinks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a snowy cabin landscape with warm lighting emanating from the cabin, which contributes to a warm winter atmosphere. The single glass on the table, although not visibly steaming, still complements the overall ambiance created by the warm cabin lighting. Image A, on the other hand, features a warm indoor setting with sunlight, which contributes to a warm environment primarily through the steam rising from the drinks.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the outdoor café table correctly positioned in front of the snowy cabin?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the café table is placed in the foreground in front of the snowy backdrop with a cabin prominently featured. The angle and placement seem natural and belong in the outdoor shift present in Image B, even though there's no prior reference from Image A, as the settings have changed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any elements from the original background still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "In Image B, the setting has completely changed from the indoor environment of Image A to an outdoor winter scene. The original background, which consists of sunlit indoor elements, is entirely absent in the edited image featuring snow and a cabin.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

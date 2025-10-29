@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_371",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the man still wearing a gray T-shirt and black pants while sitting cross-legged on the floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "For Image B, the focus is on an object that is not related to the man. The man is absent from Image B. Therefore, based on the visual information in Image B, the answer is derived from the absence of the man.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there still multiple bananas arranged in a pile between the man and the dog?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a keychain of a dog and lacks any bananas or a man. The question prompts us to look for the presence of bananas, which are absent in Image B.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the background still plain and neutral with no additional decorations?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the background features a hand holding the keychain, which suggests an indoor setting. The background is neutral, focusing on the hand and keychain, similar to Image A's simple backdrop.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the keychain still depict a German Shepherd with tan and black markings, even in a chibi style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the keychain prominently shows a chibi German Shepherd character with identifiable tan and black markings, consistent with common depictions of the breed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the man still positioned next to the pile of bananas, with the dog (now a keychain) near the bananas?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not include a man or bananas, focusing solely on the keychain. There is no arrangement of these elements like in Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

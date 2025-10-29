@@ -1,0 +1,84 @@
+{
+  "filename": "laion_738796109364311961",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the image been transformed into a cartoon-inspired illustration style with exaggerated features and bold lines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the edited image shows what seems like a stylized presentation, possibly on a box or card, which gives a slight impression of being a cartoon-style due to the angle and presentation. However, the features and lines remain realistic rather than exaggerated or transformed into a cartoon style. Thus, based on world knowledge of cartoon illustrations, which typically have bold outlines and stylized features, this image does not fully exhibit those traits.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the player’s muscles visibly enlarged and exaggerated compared to realistic proportions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image retains realistic proportions of the players’ physiques. In general, when muscles are exaggerated, they appear notably larger and more disproportionate, as often seen in caricatures. Here, the muscles maintain a natural look.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Have the uniform colors been intensified to appear more vibrant and saturated than in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, the uniform colors appear somewhat more vibrant when presented on the box surface compared to Image A. Such saturation enhancements are common in edited images to make details more eye-catching.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the team’s logo prominently displayed and emphasized on both the helmet and jersey in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases the team's logo clearly on the helmet and jersey. However, they appear no more emphasized than in the original image, as their visibility and prominence depend more on the inherent design rather than editing emphasis.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the background been replaced with a stylized depiction of a roaring crowd and football field, consistent with a cartoon sports card?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B remains consistent with Image A, showing a typical sports venue setting. There’s no evident replacement with a stylized or cartoonish version true to a sports card. The depth and blur seem authentic to real sporting event photos rather than stylized.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the edited image presented within or as part of a sleek, matte black collector’s box with a transparent lid, allowing visibility of the cards inside?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on Image B, the presentation of the image is on what appears to be a surface, possibly resembling a collector’s box style with its matte black edges and angled view, but it does not show a transparent lid or suggest cards inside.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.16666666666666666
+}

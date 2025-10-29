@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The two large dark boulders in the foreground are distinct, fixed objects that define the viewer's vantage point and provide scale. Their presence and placement are essential for maintaining the original scene’s composition and realism. If they are removed or moved, the viewer’s orientation shifts, undermining spatial consistency. This is a core anchoring feature, hence a weight of 3 points.",
+      "question": "Are the two large dark boulders positioned in the foreground grassy area near the cliff edge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The dirt path leading toward the cliff edge establishes a clear narrative of human access and perspective. Its presence reinforces the idea of an observer standing at a viewpoint. Removing or altering it would disrupt the implied human interaction with the scene, affecting environmental logic. It is a key structural element, so it receives a weight of 2 points.",
+      "question": "Is there a visible dirt path curving through the grass toward the cliff edge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The overhanging tree branches in the top-left corner frame the scene and add depth. Their shadow and leaf structure are specific to the original image and contribute to the immersive atmosphere. Altering or removing them would change the framing and lighting dynamics. Though not central, they are distinctive enough to affect visual coherence, warranting a weight of 2 points.",
+      "question": "Are tree branches extending from the top-left corner into the frame, casting shadows over the foreground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The direction of the golden sunlight coming from the right side is crucial for maintaining the time of day and mood. It affects shadows, highlights, and mist visibility. Changing the light source would alter the entire atmosphere and make the scene feel inconsistent. This is a core environmental element, thus assigned 3 points.",
+      "question": "Is the sunlight illuminating the scene from the right side, casting warm golden light on the waterfall and mountains?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The river flowing across the plain above the waterfall is the source of the water cascade. Even if the waterfall becomes a creature, the river must remain visible and logically connected to the falls. Its absence or misplacement would break the hydrological logic of the scene. This is a functional element tied to the environment, so it is weighted at 2 points.",
+      "question": "Is there a wide river flowing across a flat plain above the waterfall, with scattered green islands?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The distant mountain range forms the backdrop and defines the horizon. Their silhouette and relative position are essential for depth and scale. Any alteration would distort the landscape’s geography. As a major background feature, it is critical to retention and given a weight of 2 points.",
+      "question": "Are there dark, layered mountains visible in the background under a partly cloudy sky?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The mist rising from the base of the waterfall is a natural consequence of the water impact and contributes to the atmospheric effect. It is visually distinct and adds to the realism of the scene. Removing it would reduce authenticity and visual continuity. Though secondary, it supports the core environmental truth, so it is assigned 1 point.",
+      "question": "Is there visible mist rising from the base of the waterfall and diffusing into the air?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

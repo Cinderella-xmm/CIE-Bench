@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The baby’s bald head with minimal hair is a core identification feature that distinguishes the subject as an infant. This characteristic is essential for maintaining the identity of the subject; if replaced with hair or altered significantly, the subject would no longer appear as an infant, undermining the original intent of the image. It is a key visual element that cannot be changed without affecting recognition. Therefore, it is assigned a weight of 3 points.",
+      "question": "Is the baby’s head bald with minimal hair?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The large round eyes with dark irises are distinctive facial features that contribute to the baby’s expressive and recognizable appearance. These eyes are central to the emotional tone of the image and are critical for identifying the subject as a young child. Altering their shape, size, or color would distort the subject’s identity. Hence, this is a core recognition element with a weight of 3 points.",
+      "question": "Are the baby’s eyes large, round, and dark in color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The baby’s seated posture on the couch, with legs bent and body upright, is a functional and compositional element that defines the scene’s balance and narrative. This pose is integral to the interaction with the glasses and the overall framing. Changing the posture would disrupt the spatial logic and visual harmony. It is an important scene element, thus assigned a weight of 2 points.",
+      "question": "Is the baby sitting upright on the couch with legs bent and feet flat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The hands holding the black-rimmed round glasses are a key interactive element that connects the subject to the symbolic object. The act of holding the glasses is central to the image’s theme of infantile formality. The position and grip of the hands must remain consistent to preserve the narrative. This is an important functional detail, hence a weight of 2 points.",
+      "question": "Are the baby’s hands holding the black-rimmed round glasses in front of the chest?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The mustard-yellow textured couch with visible stitching provides the environmental context and supports the subject’s placement. The texture and color are specific visual cues that ground the scene. While the instruction allows clothing changes, the background is not mentioned as modifiable, so it must be preserved. This is a secondary but important environmental detail, assigned a weight of 2 points.",
+      "question": "Is the background a mustard-yellow textured couch with visible stitching?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The black socks on the baby’s feet are a minor but identifiable detail that contributes to the completeness of the outfit and the realism of the scene. Although not central to identity, their absence or replacement would create a visual inconsistency. This is a detail-level element, thus assigned a weight of 1 point.",
+      "question": "Are the baby’s feet covered with black socks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The lighting and shadowing that define the facial contours and clothing folds are essential for maintaining the three-dimensional quality and realism of the image. These elements support the perception of depth and texture, especially around the face and hands. While not a core identity feature, altering them would affect visual coherence. This is a detail-level element, assigned a weight of 1 point.",
+      "question": "Is the lighting even and natural, casting soft shadows on the face and clothing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The curved carriage is a defining architectural feature of the Underwood typewriter, distinguishing it from other models. Its absence would make the object unrecognizable as a typewriter. Since the instruction transforms the typewriter into a notebook cover, the curve must be preserved in form to maintain identity. This is a core identity feature, hence weight 3.",
+      "question": "Is the curved carriage of the typewriter present and accurately shaped?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The QWERTY keyboard layout with round silver key caps is essential to the typewriter’s identity. Even in a stylized version, the arrangement and circular shape of keys must be retained to ensure recognizability. Altering this would break the functional logic of the typewriter. This is a core functional and visual element, thus weight 3.",
+      "question": "Are the round silver key caps arranged in a QWERTY layout?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The brand name \"Underwood\" is a key identifier of the typewriter model. Its presence ensures authenticity and historical accuracy. Although the instruction allows for decorative additions, the brand name must remain legible or at least recognizable in the design. Losing it would remove a critical identity marker. Hence, weight 3.",
+      "question": "Is the brand name \"Underwood\" visible on the front panel of the typewriter?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The radial fan-like pattern beneath the carriage is a unique aesthetic detail of this typewriter model. It contributes to its visual identity and is not a common feature in other machines. Preserving it maintains stylistic fidelity. Though not functional, it is an iconic design element. Weight assigned as 2 due to importance in recognition but less than core functional features.",
+      "question": "Is the radial fan-like pattern beneath the carriage present?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The side knobs and left lever are mechanical components that define the typewriter’s operation. Their presence indicates the object’s original function. Even in a stylized notebook cover, these elements should be represented to maintain coherence with the source object. They are important design cues, hence weight 2.",
+      "question": "Are the side knobs and left lever present on the typewriter?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The glossy black finish is a key material attribute that distinguishes this typewriter from others. It contributes to the vintage aesthetic and is part of the original design. While colors might be slightly adjusted in a stylized version, the dominant black color must be retained to preserve authenticity. This is a secondary but important detail, so weight 1.",
+      "question": "Is the typewriter body predominantly glossy black?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The platen roller is a functional component essential to the typewriter’s operation. Its cylindrical shape and position above the keyboard are critical to recognition. Even if stylized, it must remain visible to maintain logical consistency. This is a minor but necessary detail for mechanical integrity. Weight 1.",
+      "question": "Is the platen roller visible above the keyboard?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

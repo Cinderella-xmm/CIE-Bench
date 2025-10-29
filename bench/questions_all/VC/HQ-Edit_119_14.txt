@@ -1,0 +1,118 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a male figure standing upright, facing forward with a broad smile, positioned centrally in the frame. He wears a richly embroidered maroon traditional Indian attire, consisting of a long-sleeved jacket (angarkha-style) adorned with intricate gold embroidery in teardrop and floral patterns, particularly concentrated around the collar, chest, and sleeves. The fabric appears to be satin or silk, reflecting light with a subtle sheen. A cream-colored dhoti-like garment is wrapped around his waist and legs, tied with a wide, folded sash that crosses over the abdomen. On his head is a deep maroon turban with golden embellishments, including a circular ornamental brooch at the top center and decorative bands running along its base. His facial features include a full white beard, mustache, and a visible tilak mark on the forehead between the eyebrows. The background is an expansive outdoor landscape under a pale blue sky with soft haze; it includes distant greenery, faint outlines of buildings, and a horizon line suggesting a high vantage point overlooking a city or valley.
+
+**Thinking process:**  
+The editing instruction explicitly states the following transformations:  
+- **Transform the figure's traditional attire into a Victorian-era nobleman’s wardrobe**, including a tailored suit with a high collar and cravat → this indicates full replacement of clothing style and structure.  
+- **Change the turban to a top hat ornamented with a feather** → clear directive to replace headwear entirely.  
+- **Replace the background with a 19th-century British countryside estate**, rendered in oil painting style with muted tones → explicit instruction to change the entire environmental setting.  
+
+These directives are unambiguous about what elements are to be modified. The instructions do not mention preserving any part of the original subject’s appearance beyond general identity (e.g., "the figure" remains), nor do they specify retaining any particular feature such as skin tone, facial expression, or posture. Therefore, all aspects of the subject’s **clothing, headwear, and background** are within the scope of allowed change.
+
+However, the instruction does **not** state changes to:
+- The **facial features** (such as beard, eyes, smile, tilak)
+- The **posture** (standing upright, arms at sides)
+- The **overall pose and orientation** (front-facing, central composition)
+- The **identity of the figure** (though implied to be recontextualized)
+
+Thus, while the clothing and background are fully replaceable, the **core facial identity** and **body positioning** are not explicitly altered—unless inferred from context. But since no instruction says “retain facial features” or “keep the same person,” we must interpret the intent based on standard image editing logic: when transforming a figure into another costume and era, the **subject’s face and body shape** are typically preserved unless otherwise stated. However, the instruction does not require retention of these features either.
+
+But crucially: the **editing task is to transform the figure into a Victorian nobleman**, which implies **retaining the figure as the same individual** but changing their attire and surroundings. This suggests that **the underlying identity** (face, body shape, expression) should remain consistent for continuity, even if dressed differently.
+
+Therefore, **allowed changes** include:
+
+**Allowed Changes List:**  
+- Traditional Indian attire (jacket, dhoti, sash) → replaced with Victorian suit  
+- Turban → replaced with top hat with feather  
+- Background landscape → replaced with 19th-century British countryside estate in oil painting style  
+- Clothing textures, colors, patterns → fully changed  
+- Headwear design and material → fully changed  
+- Environmental lighting and atmosphere → changed to match new scene  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+To determine what must remain unchanged, we apply the exclusion method based on the above allowed changes.
+
+**Core recognition elements:**  
+Although the clothing and headwear are to be replaced, the **subject’s face**—especially its distinctive features—is critical for maintaining identity continuity. In portrait-based edits, especially when transforming attire, the **facial identity** is preserved to ensure the viewer recognizes it as the same person. The **beard**, **eyes**, **smile**, and **tilak mark** are unique identifiers of the original figure. These are not mentioned for change, so they must be retained.
+
+Moreover, the **posture and body orientation** (standing upright, front-facing, arms at sides) are essential for visual coherence. Changing them would disrupt the spatial relationship between the figure and the new environment, potentially making the edit appear disjointed.
+
+**Functional/logical association elements:**  
+There is no functional interaction (e.g., holding an object, performing an action) that links the figure to the environment in a way that requires preservation. However, the **relative position** of the figure in the frame (central, full-body shot) is important for composition and consistency. Since the new background is also a full-scene replacement, the **spatial framing** (full-body, centered) must be preserved to maintain visual balance.
+
+**Non-modified element deduction:**  
+After removing all explicitly changed elements (clothing, headwear, background), the remaining elements are:
+- Facial features: beard, eyes, mouth, nose, tilt of head, tilak
+- Body shape and posture: standing, arms down, slightly rounded shoulders
+- Skin tone and texture
+- Expression: joyful, open-mouthed smile
+
+These are not mentioned for change, and in portrait transformation tasks, they are typically preserved unless specified otherwise. Thus, they fall under **visual coherence and identity preservation**.
+
+Additionally, the **presence of the figure** itself (i.e., the human form) must remain, though its attire is changed. The **number of limbs**, **proportion**, and **general silhouette** must be retained for logical consistency.
+
+**Preservation Targets List:**  
+- Facial features: full white beard, mustache, smiling mouth, eyes, and tilak mark on forehead  
+- Posture: upright stance, arms at sides, full-body view  
+- Body proportions and silhouette  
+- Skin tone and facial texture  
+- Central framing and frontal orientation  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The presence of the white beard is a core identification feature of the subject in the original image. It is a prominent, distinguishing trait that defines the character’s age and identity. If removed or altered, the figure would no longer resemble the original individual, undermining the continuity of the edit. This is a key visual identifier, hence assigned 3 points.
+    Question: Is the full white beard present on the figure’s face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The tilak mark on the forehead is a culturally significant and visually distinct symbol located between the eyebrows. Its presence is a specific detail that contributes to the identity of the figure. Removing or altering it would change the cultural and personal identity of the subject, making it inconsistent with the original. As a unique marker, it is critical to retain, hence weighted at 3 points.
+    Question: Is there a red or dark tilak mark positioned between the eyebrows on the forehead?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The facial expression, specifically the open-mouthed smile revealing teeth, is a defining emotional cue in the original image. It conveys joy and warmth, and its retention ensures emotional continuity in the edited version. While not as iconic as the beard or tilak, it is a major expressive feature that affects recognition and coherence. Thus, it is important enough to warrant 2 points.
+    Question: Is the figure displaying an open-mouthed smile showing teeth?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The posture—standing upright with arms at the sides and facing forward—is a fundamental compositional element. It establishes the figure’s position in space and maintains visual balance. Changing it would disrupt the intended framing and make the edit feel unnatural. Although not a core identity feature, it is essential for scene logic and consistency, thus assigned 2 points.
+    Question: Is the figure standing upright with arms relaxed at the sides?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The full-body view with the figure centered in the frame is a key compositional choice in the original image. It emphasizes the subject and creates symmetry. Altering the framing (e.g., cropping to half-body or shifting focus) would compromise the integrity of the edit. This is a minor but important detail affecting overall coherence, so it receives 1 point.
+    Question: Is the figure shown in full-body view and centered in the frame?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The skin tone and facial texture (including wrinkles and natural shading) are essential for maintaining the realism and identity of the subject. Even with a costume change, preserving the skin details ensures the figure remains recognizable. While subtle, these features contribute to visual authenticity and are not mentioned for modification, so they should be retained. Assigned 1 point due to being secondary but identifiable.
+    Question: Are the natural skin tone and facial texture (including wrinkles) preserved?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

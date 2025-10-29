@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_145",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the yellow color and cubed arrangement of the mango?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the mango appears with a bright yellow color and a cubed arrangement. The cubes are neatly cut and displayed similarly to how a mango is often presented for consumption, showcasing its iconic look. This visual cue matches common knowledge of how mangoes are prepared and matches the visual cues in Image A, which also shows a mango with a similar yellow color and cubed arrangement. Through this analysis, it's clear that the edited image retains these elements.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image retain the green color and sliced appearance of the lime?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lime is depicted as a green object, but it appears animated or stylized compared to a real lime. It has a glossy look and a winking face printed on it, diverging from the realistic depiction of a lime in Image A, where the lime is shown as a natural fruit slice. While the color is retained, the appearance is not sliced as it is in Image A, where the lime is more fresh and realistic.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain the orange-red color and granular texture of the chili powder?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chili powder retains its orange-red color and is placed in a bowl. The visual cue suggests a granular texture similar to that in Image A, where the chili powder also appears orange-red and granular. This indicates that the edited image has preserved both the color and texture of the chili powder as seen in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image retain the relative positions of the objects on the plate?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both Image A and Image B, the mango, lime, and chili powder appear positioned on a round plate. The mango is prominently displayed with the chili powder beside it, and the lime is positioned near the mango and chili powder in both images. The relative positioning of these items is consistent between the two images, indicating that Image B retains the objects' relative positions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image retain the wooden texture of the plate?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image A shows the plate with a natural wooden texture, typical of wooden serving wares. In contrast, Image B maintains a similar color but does not clearly depict a wooden texture; instead, it seems more like a smooth surface potentially made from a different material. The close inspection of texture differences suggests that Image B lacks the detailed wooden texture characteristic seen in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

@@ -1,0 +1,85 @@
+Description of reference image: The subject is a stone castle composed of two symmetrical towers flanking a central section with an arched entrance. The structure is built from large, weathered beige stone blocks, showing visible mortar lines and subtle erosion patterns. Each tower has multiple rectangular windows with dark frames, some partially shaded by overhangs. The roofline is flat with crenellated parapets and small patches of moss or grass growing on the upper edges. The central section features a prominent rounded arch doorway leading to a wooden door, accessed by a short flight of stone steps carved into the base. A low stone wall extends from the right side of the castle, forming a partial enclosure. The castle is situated beside a calm body of water that reflects its image clearly, with slight ripples distorting the reflection. Surrounding vegetation includes green trees and shrubs along the shoreline and in the background, under a partly cloudy sky with soft lighting suggesting late afternoon. The overall atmosphere is serene and slightly aged, evoking a sense of historical permanence.
+
+Thinking process: First, analyze the instructions that explicitly state what can be changed: "Convert the stone castle into a wooden puzzle structure" — this means the material (stone) must be replaced with wood, specifically oak and mahogany. "Replace the stone texture with wooden puzzle pieces" — confirms the surface texture transformation. "Maintain the castle's architectural form" — indicates the overall shape, layout, and structural composition (including towers, archway, windows, stairs, etc.) must remain unchanged in silhouette and spatial arrangement. "Ensure the tower tops feature intricate interlocking details" — specifies new detail type for top sections but implies preservation of their position and general outline. "Position the scene on a smooth wooden tabletop" — changes the environment entirely, so the original natural landscape (water, trees, sky) may be altered or removed. Therefore, allowed changes include:
+- Material of the castle: from stone to wood
+- Texture of surfaces: from stone to puzzle-like wooden pieces
+- Scene setting: from natural lakeside to artificial tabletop
+- Environmental elements: water, trees, sky, ground can be modified or replaced
+
+Allowed Changes List:
+- Stone texture → wooden puzzle piece texture
+- Castle material → natural oak and mahogany
+- Tower tops → detailed interlocking joints
+- Background/environment → smooth wooden tabletop
+- Water and surrounding nature → may be removed or recontextualized
+
+Step 2 – Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: The castle’s architectural identity relies on specific forms that distinguish it as a medieval-style stone fortress. These include the twin-tower configuration, the central arched entrance, the placement and shape of windows, and the stepped approach to the door. Even though the material changes, these forms must be preserved to maintain the castle’s recognizability. If the towers are merged or the arch is flattened, the structure would no longer be identifiable as the original castle.
+
+Functional/logical association elements: The relationship between the castle and its entry point (the arched doorway and steps) is functional — it defines access. This spatial logic must be retained; otherwise, the structure loses coherence. Similarly, the relative height and alignment of the towers and central section must stay consistent to preserve balance and symmetry.
+
+Non-modified element deduction: After excluding allowed changes (material, texture, environment), the following visual components must remain intact based on their presence in the original image and lack of mention in change instructions:
+- The number and placement of windows (especially their vertical alignment)
+- The shape and position of the arched doorway
+- The stepped stone staircase leading up to the entrance
+- The flat-topped towers with crenellations
+- The low wall extending from the right side
+- The general proportions and massing of the structure
+
+Preservation Targets List:  
+- The twin-tower configuration with central connecting section  
+- The arched entrance with wooden door at center  
+- The stepped stone staircase leading to the entrance  
+- The rectangular windows with dark frames arranged symmetrically  
+- The flat-topped towers with crenellated parapets  
+- The low stone wall extending from the right side of the castle  
+
+{
+    Q1: 
+    Thinking process: The twin-tower configuration is the most defining architectural feature of the castle, distinguishing it from other types of buildings. The towers are identical in height, width, and window placement, positioned symmetrically on either side of the central block. Changing their number, spacing, or form would fundamentally alter the identity of the structure. Thus, preserving this layout is essential for maintaining the core identity of the castle.
+    Question: Are the two tall towers positioned symmetrically on either side of the central section?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The arched entrance is a key architectural identifier, both functionally and aesthetically. Its semi-circular shape, central location, and integration with the steps below make it a focal point. Altering its shape (e.g., making it rectangular) or relocating it would break the visual continuity and recognition of the building. It is a core feature tied to the castle’s design language.
+    Question: Is there a centrally located arched doorway with a wooden door beneath a rounded arch?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The stepped staircase leading to the entrance is a critical structural element that connects the ground level to the main entry. Its shape, position, and integration with the base of the archway define the access path. Removing or reshaping it would disrupt the functional logic of the castle and alter its appearance significantly.
+    Question: Does a set of stone steps ascend from the water level directly to the arched entrance?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The rectangular windows with dark frames are distributed in a consistent pattern across the towers and central section. Their number, size, and placement contribute to the symmetry and historical character of the castle. While their material may change, their positions and shapes must remain fixed to preserve the architectural rhythm and proportion.
+    Question: Are there multiple rectangular windows with dark frames aligned vertically on each tower?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The flat-topped towers with crenellated parapets are distinctive features that signal a defensive or medieval style. These details are not just decorative—they are part of the castle’s iconic silhouette. Even if the material changes, the presence and shape of these crenellations must be retained to preserve the architectural authenticity.
+    Question: Do the tops of both towers feature flat surfaces with crenellated edges?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The low stone wall extending from the right side of the castle adds depth and context to the structure, indicating a possible enclosure or boundary. Though not central, its presence contributes to the completeness of the architectural composition. Its removal would leave an asymmetrical gap, disrupting visual balance.
+    Question: Is there a low stone wall extending horizontally from the right side of the castle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

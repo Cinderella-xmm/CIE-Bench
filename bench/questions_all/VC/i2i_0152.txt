@@ -1,0 +1,70 @@
+### Step 1 - Allowed Changes List:
+**Description of reference image:**  
+The image depicts a steaming cup of coffee placed on a wooden table in a cozy kitchen setting. The steam rising from the coffee suggests warmth, while natural light filters through a window, subtly illuminating the space. The background shows kitchen cabinets, utensils, and a few potted plants, contributing to a homely ambiance.
+
+**Thinking process:**  
+The editing instructions specify adding text ("Warm" and "Start") without altering other aspects. This implies changes are limited to adding text; physical attributes of the coffee, table, and kitchen environment should stay intact. 
+
+**Allowed Changes List:**  
+1. Text addition at specified locations (top left and bottom right).  
+
+---
+
+### Step 2 - Preservation Targets List:
+**Thinking process:**  
+Core recognition elements include the hot coffee cup with visible steam, the wooden table surface, and the general kitchen backdrop. Functional/logical associations revolve around the steaming drink implying warmth and the arrangement of objects suggesting a kitchen context. Visual coherence includes minor details like lighting, table grain, and background items.
+
+**Preservation Targets List:**  
+1. Steaming cup of coffee and its placement on the table.  
+2. Wooden texture of the table.  
+3. Kitchen background elements (cabinets, utensils, plants).  
+4. Lighting and shadow effects.  
+
+---
+
+### Step 3 - Generated Questions:
+
+{  
+    Q1:  
+    Thinking process: The steaming coffee cup is central to the image’s identity. Its absence would fail to convey warmth and the concept of morning coffee. This feature is crucial and hence awarded the highest weight.  
+    Question: Is the steaming cup of coffee present in the center of the image?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 3  
+}
+
+{  
+    Q2:  
+    Thinking process: The wooden texture defines the table and contributes significantly to the natural, warm feel of the scene. Removing this detail would alter the image’s core essence.  
+    Question: Does the table retain its wooden texture?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2  
+}  
+
+{  
+    Q3:  
+    Thinking process: The kitchen background provides context to the setting, reinforcing the idea of a homey morning routine. This is an important but secondary element that maintains the scene's integrity.  
+    Question: Are kitchen cabinets and kitchen utensils visible in the background?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2  
+}  
+
+{  
+    Q4:  
+    Thinking process: The lighting creates a calm, inviting mood. Altering it would diminish the intended atmosphere, though the impact is slightly less critical compared to the core elements listed above.  
+    Question: Has the natural lighting streaming from the left side been preserved?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 1  
+}  
+
+{  
+    Q5:  
+    Thinking process: The steam from the coffee visually represents warmth, which is essential to the morning coffee theme. This detail is central to the concept but slightly less impactful than the cup itself.  
+    Question: Is the steam visibly rising from the coffee cup?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2  
+}  

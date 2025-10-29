@@ -1,0 +1,97 @@
+{
+  "filename": "v2v_21807",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there four clock faces, one on each visible side of the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tower's design includes two visible clock faces on two sides, with no indication of additional clock faces if seen from another angle. This suggests the possibility of other faces, but only two are visible. World knowledge dictates that clock towers often have multiple faces visible from different angles; however, based on the visual cues provided, only two are apparent, leading to the conclusion that there may not be four visibly present in Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the clock faces contain black Roman numerals arranged in a circular pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visible clock faces have a design featuring numbers commonly used on traditional clocks, which are typically arranged in a circle with Roman numerals in black. This arrangement is historically and commonly used for clock settings, particularly for towers. Visual inspection of Image B confirms this setup with the visible numerals arranged in a circular pattern.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a steeply pitched pyramidal roof topped with a finial at the very top of the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing the top of the tower in Image B reveals a red, steeply pitched roof with a distinct pyramidal shape. This roof is crowned with a small decorative piece, resembling a finial, which is a common architectural feature for such roofs to add detail and culminate the design at the tower's pinnacle.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there four arched openings at the base of the tower, one on each side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The base of the tower in Image B depicts two clearly visible arched openings, suggesting symmetry that might imply openings on all sides due to architectural patterns and balance commonly seen in such structures. However, only two are actively visible, which doesn't explicitly confirm a total of four though it is a reasonable assumption given historical design norms.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the tower located at the center of a circular road with vehicles traveling around it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly shows vehicles driving on a road that encircles the tower, positioning it at the center. This circular road configuration is akin to a roundabout, a common design to facilitate efficient traffic movement around a focal point like a tower.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there multiple cars visible on the road surrounding the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, several vehicles are visible on the road encircling the tower. This depiction matches the understanding of a busy roundabout or central road location where multiple vehicles can usually be observed, suggesting a dynamic, frequently-traveled area.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are there trees with bare or sparse foliage visible along the road behind the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The trees depicted in Image B have a vibrant, lush green appearance, with no indication of sparse foliage. Instead of appearing barren, the trees are fully leafed, illustrating a setting that is likely in full season rather than in any dormant or sparse foliage state.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7333333333333333
+}

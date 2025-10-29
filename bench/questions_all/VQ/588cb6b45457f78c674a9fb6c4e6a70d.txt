@@ -1,0 +1,60 @@
+```
+Step 1: Disassemble Editing Instructions
+-<Thinking Process 1>: The editing instruction involves transforming the original portrait into a stylized oil painting on a wooden panel. This requires a style conversion that must preserve structural coherence and visual plausibility while introducing artistic elements such as texture, brushwork, and material simulation. The original image shows a realistic portrait of a man with a long gray beard, wearing a black cap and dark clothing. The transformation to an oil painting style must not distort facial features or introduce unnatural textures that contradict the original proportions and anatomy.
+-Sub requirement 1: Evaluate whether the overall style conversion from a photographic-style portrait to an oil painting on wooden panel maintains natural appearance and avoids artificial-looking textures or brushstroke artifacts.
+-<Thinking Process 2>: The instruction specifies an exaggerated, elongated mustache and beard flowing like water. The original beard is already long and wavy, but this modification introduces a significant change in shape and physical behavior—suggesting fluid dynamics rather than hair physics. This could lead to geometric distortion or unnatural flow patterns if not carefully rendered.
+-Sub requirement 2: Assess whether the modified beard and mustache maintain plausible hair-like structure despite the exaggeration, avoiding broken strands, unnatural curvature, or liquid-like distortions that violate anatomical or material logic.
+-<Thinking Process 3>: The figure is to be dressed in a dark velvet cloak with golden embroidery. The original image shows a simple dark garment with no visible texture. Introducing velvet and gold embroidery adds new materials and fine details that must be consistent with the rest of the composition. The texture of velvet should appear soft and reflective, while embroidery should follow logical stitching patterns.
+-Sub requirement 3: Check whether the added velvet texture and golden embroidery are visually coherent, free of pixelation, inconsistent shading, or misplaced patterns that suggest artifact generation.
+-<Thinking Process 4>: A wide-brimmed hat adorned with peacock feathers is to replace the existing black cap. The original cap is small and fitted; replacing it with a wide-brimmed hat with feathers changes head geometry and introduces new elements (feathers) that must be physically plausible in terms of size, orientation, and attachment point.
+-Sub requirement 4: Determine whether the new hat maintains structural consistency with the head shape and whether the peacock feathers are naturally attached, properly scaled, and do not intersect incorrectly with the face or other elements.
+-<Thinking Process 5>: An ornate, gem-encrusted brooch is to be added. The original image has no jewelry. This addition must be placed logically on the cloak, with appropriate lighting, reflection, and shadow interaction to avoid floating or disconnected appearance.
+-Sub requirement 5: Verify that the brooch is integrated seamlessly into the garment, with correct perspective, material reflection, and shadow casting, and does not appear as a pasted-on element.
+-<Thinking Process 6>: The background is to be replaced with an abstract, swirling starry night backdrop. The original background is plain and neutral. This change significantly alters the environment and must not interfere with the subject’s visibility or cause edge blending issues.
+-Sub requirement 6: Ensure that the new background does not create halo effects, misaligned edges, or visual conflicts with the foreground figure, and that the transition between subject and background is smooth and artistically consistent.
+-<Thinking Process 7>: All edits must preserve the core identity and structure of the original figure—especially facial features, proportions, and pose—to ensure visual credibility and avoid surreal distortions.
+-Sub requirement 7: Confirm that facial features (eyes, nose, mouth) remain anatomically accurate and proportionally consistent despite all modifications, especially around the chin and jawline where beard changes occur.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of evaluating the style conversion to an oil painting on wooden panel, this question checks whether the texture and brushwork simulate a real oil painting without introducing digital artifacts such as jagged edges, uniform noise, or unnatural color gradients. The goal is to assess perceptual authenticity in material representation.
+Question: Does the surface of the painted figure show consistent brushstroke patterns and subtle texture variations typical of oil paint on wood, without blocky or repetitive digital artifacts?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of modifying the beard and mustache to flow like water, this question evaluates whether the elongated hair maintains a plausible form for hair, even when exaggerated. It checks for continuity of strands, absence of liquid-like blobs, and adherence to hair physics.
+Question: Do the strands of the elongated beard and mustache maintain continuous, fiber-like structure without forming unnatural loops, droplets, or fluid-like surfaces?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of adding a velvet cloak with golden embroidery, this question examines whether the texture of the fabric appears soft and rich, with proper light interaction, and whether the embroidery follows logical patterns and scale relative to the garment.
+Question: Is the velvet texture of the cloak smooth and reflective with depth, and are the golden embroidery lines evenly spaced and aligned with the fabric folds?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of replacing the cap with a wide-brimmed hat and peacock feathers, this question checks whether the new hat fits the head shape naturally and whether the feathers are attached at a plausible angle and position without overlapping the face or appearing detached.
+Question: Is the wide-brimmed hat positioned correctly on the head without distorting the skull shape, and are the peacock feathers attached along the brim with natural curvature and no clipping into the face?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of adding a gem-encrusted brooch, this question evaluates whether the brooch is physically integrated into the cloak, with correct shadows, highlights, and spatial relationship to surrounding fabric.
+Question: Does the brooch cast a soft shadow onto the cloak and reflect light consistently with its surroundings, indicating proper placement and integration?
+Choices: Yes, No  
+A: Yes
+
+Q6: 
+Thinking process: Based on the sub requirement of replacing the background with a swirling starry night scene, this question checks whether the new background blends smoothly with the subject’s edges and does not create visible seams or ghosting around the figure.
+Question: Are the edges of the figure cleanly separated from the background without haloing, double outlines, or partial transparency that suggests poor compositing?
+Choices: Yes, No  
+A: Yes
+
+Q7: 
+Thinking process: Based on the sub requirement of preserving facial structure and proportion, this question ensures that key facial features remain anatomically coherent despite changes to the beard and hat.
+Question: Are the eyes, nose, and mouth aligned symmetrically and proportionally consistent with the original face, with no stretching or warping caused by adjacent edits?
+Choices: Yes, No  
+A: Yes
+```

@@ -1,0 +1,57 @@
+```
+Step 1: Disassemble Editing Instructions
+-Thinking process 1: The editing instruction requires transforming the urban skyline into a futuristic digital display mural, which involves replacing the existing architectural facades with luminescent, pixel-patterned surfaces. This change affects the entire cityscape in the background (from left to right across the horizon), particularly the high-rise buildings such as the central tall glass tower and surrounding mid-rise structures. These buildings are currently made of glass, steel, and concrete materials with natural lighting reflections at sunset. Replacing them with digital pixel patterns may disrupt the realism if textures appear blocky, unnatural, or inconsistent with the original building geometry. The transformation must preserve structural coherence—i.e., the buildings should retain their original shapes and proportions while adopting new visual styles. Therefore, sub-requirements include assessing whether the digital overlay maintains geometric accuracy, avoids texture artifacts, and preserves visual plausibility under ambient lighting.
+
+-Sub requirement 1: Replace the facade materials of all skyscrapers (especially the central tall building and adjacent towers) with luminous pixel-patterned surfaces; evaluate whether the transition maintains structural integrity and geometric fidelity without introducing jagged edges, misaligned pixels, or unnatural light diffusion.
+-Sub requirement 2: Assess whether the glowing effect on building surfaces is uniformly distributed and consistent with the direction of ambient light (sunset glow), avoiding unnatural brightness spikes or shadow mismatches that break spatial logic.
+-Sub requirement 3: Ensure that the color palette of the digital display elements (e.g., blue, purple, cyan glows) does not clash with the warm sunset tones in the sky, preserving atmospheric harmony.
+
+-Thinking process 2: The instruction specifies that trees should transform into glowing, angular digital circuits. In the original image, trees are located throughout the foreground park area, along the riverbank, and interspersed between buildings. They have organic, rounded canopies and natural green foliage. Converting them into angular, circuit-like forms introduces a significant style shift. This change risks breaking visual credibility if the transformed trees lack coherent branching patterns, exhibit unnatural angles, or fail to maintain volumetric depth. The material transformation from leaves to glowing wires must be seamless and consistent across all tree instances.
+
+-Sub requirement 4: Transform all trees in the foreground park and riverside areas into glowing angular digital circuits; evaluate whether the geometric structure of each tree retains logical branching and symmetry, avoiding floating segments or disconnected lines.
+-Sub requirement 5: Check whether the glowing effect on the digital trees emits light consistently with the environment (e.g., no dark spots in illuminated areas), and whether the glow appears physically plausible (not overly sharp or flat).
+-Sub requirement 6: Verify that the conversion does not distort the overall shape of the tree canopy or cause overlapping with nearby objects (like pathways or railings) in an unrealistic way.
+
+-Thinking process 3: The bridge in the image is a long steel truss railway bridge extending from the lower-left toward the center-right, crossing over water. It has a metallic surface, wooden supports, and visible tracks. The instruction states it should become a vibrant neon-lit pathway. This involves changing its material appearance and adding illumination. The challenge lies in maintaining the bridge’s structural form while integrating neon lighting without distorting its support beams or creating floating light effects.
+
+-Sub requirement 7: Convert the bridge into a neon-lit pathway by adding glowing lines along the rails and sides; assess whether the neon lights follow the actual path of the bridge without bending incorrectly or appearing disconnected from the structure.
+-Sub requirement 8: Evaluate whether the addition of neon lighting causes unnatural shadows or reflections on the bridge surface or surrounding water, disrupting physical consistency.
+-Sub requirement 9: Confirm that the bridge’s support piers remain structurally intact and do not appear warped or partially erased due to the lighting overlay.
+
+-Thinking process 4: The overall scene includes a mix of natural elements (sky, water, grass), man-made structures (buildings, bridge, roads), and transitional zones (park areas). The editing aims for a cohesive futuristic aesthetic but must avoid visual dissonance. For example, if only parts of the scene are edited while others remain unchanged, the contrast will be jarring. Additionally, fine details like textures on the ground, water ripples, and building windows must not degrade during editing.
+
+-Sub requirement 10: Ensure that the edits apply uniformly across all targeted elements (buildings, trees, bridge) without leaving unedited patches or inconsistent transitions between real and digital elements.
+-Sub requirement 11: Check for loss of fine details such as window grids on buildings, leaf textures on remaining non-digital trees, or rail grooves on the bridge after editing.
+-Sub requirement 12: Verify that no new artifacts such as halos, ghosting, or pixelation appear around edited regions, especially at boundaries between digital and natural elements.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on Sub requirement 1, the skyscrapers' facades are to be replaced with pixel-patterned luminous surfaces. The central tall building and surrounding towers must retain their original rectangular shapes and vertical alignment. Any distortion in these shapes—such as skewed corners, stretched proportions, or missing sections—would compromise structural coherence. The question evaluates whether the digital pattern adheres to the correct geometry of each building.
+Question: Do the pixel-patterned facades on the skyscrapers align precisely with the original building outlines, showing no distorted edges or misaligned blocks?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on Sub requirement 4, trees in the park and along the riverbank are to be converted into glowing angular circuits. Each tree must maintain a recognizable root-to-canopy structure, even if stylized. If branches appear broken, floating, or unnaturally bent, it would violate geometric plausibility. The question checks whether the digital transformation respects the underlying tree form.
+Question: Are the angular digital circuits forming the trees connected logically from base to tip, with no floating or disconnected segments?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on Sub requirement 7, the bridge's rails and sides are to be lit with neon. The lighting must follow the actual curvature and length of the bridge. If the neon lines deviate from the track path or appear fragmented, it suggests a failure in structural integration. The question assesses whether the lighting conforms to the bridge’s physical layout.
+Question: Do the neon lights along the bridge run continuously along the rail tracks and side panels without gaps or incorrect bends?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on Sub requirement 10, the entire scene must undergo uniform editing. If some buildings remain unaltered while others are fully digitalized, or if only certain trees are changed, the result will lack visual cohesion. The question evaluates whether the transformation is applied consistently across all designated areas.
+Question: Are all skyscrapers in the skyline uniformly converted to pixel-patterned luminous towers, with no partial or missing conversions?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on Sub requirement 11, fine details such as window grids, tree bark, and bridge supports must not be lost during editing. If the digital overlay obscures or blurs these features, it reduces perceptual quality. The question checks whether essential textures and structural elements remain visible and intact.
+Question: Are the window grids on the buildings, the individual beams of the bridge, and the foliage of non-digital trees still clearly visible and undistorted after editing?
+Choices: Yes, No  
+A: Yes
+```

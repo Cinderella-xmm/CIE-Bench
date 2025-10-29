@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_155",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the car still primarily golden in color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the car is visibly golden, which indicates that its color hasn't changed from when it was photographed. This conclusion is reached through the perception of the visual elements present in the image, depicting a golden hue across the surface of the car.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the car retain its basic shape as a four-wheeled vehicle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the car visibly maintains its standard car shape, with clearly defined features such as four wheels, a body, and presumably windows and doors. These elements conform to the common characteristics of a sedan-type vehicle.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the toothbrush still have an orange handle and white bristles?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite its altered form, the object still displays an orange handle and white bristles, similar to an ordinary toothbrush. The colors are perceptibly the same as might be expected in an original toothbrush design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the car and toothbrush still positioned on opposite sides of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the car and the transformed toothbrush (into a frame) are positioned together within the frame. This differs from their previous separation on opposite sides in Image A, indicating an integrated arrangement due to the alteration.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background still a solid pink color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background of Image B remains a solid pink color, as seen across the image, which matches the simplistic, unchanged backdrop of Image A, providing consistency in visual presentation and color palette.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

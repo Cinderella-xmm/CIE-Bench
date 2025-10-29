@@ -1,0 +1,84 @@
+{
+  "filename": "laion_2022065212749217897",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the eyes almond-shaped with a grayish-blue iris and visible upper and lower eyelashes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the region where the eyes would typically appear is blurred heavily, making it impossible to discern any details such as shape, color, or eyelashes. Therefore, it is unclear whether the eyes are almond-shaped, have a grayish-blue iris, or if there are visible eyelashes.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a receding hairline with thin, light gray hair present only on the sides and back of the head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image B depicts a cartoon-like keychain character. The character has stylized patches of hair that are dark brown rather than gray and are depicted all around the head rather than having a receding hairline with light gray hair only on the sides and back. This suggests it's designed for aesthetic appeal rather than realism.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the shirt have thin vertical red and white stripes running along the collar and down the placket on a dark blue background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the shirt on the cartoon character has a similar pattern to what was originally described, with vertical red and white stripes on a dark blue background visible along the collar and down the placket, indicating consistency in the design.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a visible white button at the top of the shirt’s placket?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi character displays a noticeable white button at the top of the shirt’s placket. The styling of the character amplifies these details, which are clear and part of its visual representation.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the gray blazer have a notched lapel with a defined edge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The chibi keychain character in Image B does not feature a blazer at all; rather, it wears only a stylized shirt. Thus, no gray blazer or notched lapel is present in this representation.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are fine lines visible around the eyes and forehead, and is the skin texture subtly detailed with pores?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a stylized, cartoon character that simplifies details such as skin texture. The representation does not include fine lines around the eyes or forehead; nor does it show skin texture in the form of pores. This is consistent with the simplified and exaggerated style common in chibi artwork.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.35714285714285715
+}

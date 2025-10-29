@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The mushroom cloud shape is the defining visual feature of a nuclear explosion. Its presence and structure (a vertical stem with a rounded, billowing cap) are essential for identifying the event. Even in pop art form, this silhouette must be preserved to maintain the core identity of the explosion. Loss of this shape would make the image unrecognizable as a nuclear blast, undermining the entire reference. Thus, this is a 3-point element.",
+      "question": "Is the mushroom cloud shape (with a distinct stem and cap) present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The island is the physical location of the explosion in the original image. While it may be simplified into abstract shapes, its existence as a landmass must be retained to preserve the logical setting of the event. Removing or replacing it entirely would break the spatial context. Therefore, the presence of a landmass beneath the explosion is critical and must be retained.",
+      "question": "Is there a landmass beneath the explosion in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The sea surrounds the island in the original image, establishing a coastal tropical environment. This spatial relationship is essential for context. Even if stylized, the sea must still appear around the island to maintain environmental logic. Its absence would misrepresent the original scene.",
+      "question": "Does the sea surround the island in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Palm trees are a key identifier of the tropical setting and appear prominently in the foreground. While they may be stylized in the pop art mural, their presence is necessary to preserve the environmental context. Their removal would eliminate a major visual cue of the original scene.",
+      "question": "Are palm trees visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The explosion must be located over the island to maintain the original spatial logic. If the explosion is placed elsewhere (e.g., in the sky without connection to land), the narrative breaks down. Even in mural form, the explosion must appear to originate from or be centered over the island.",
+      "question": "Is the explosion positioned directly over the island in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

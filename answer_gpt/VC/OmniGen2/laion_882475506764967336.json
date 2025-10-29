@@ -1,0 +1,84 @@
+{
+  "filename": "laion_882475506764967336",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly six chairs surrounding the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the table is surrounded by four chairs only, one on each side. My analysis is based on observing the image and recognizing that LEGO chairs are placed distinctly and there are only four, one on each side. Thus, there are not six chairs surrounding the table; there are only four.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the table square in shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts a square-shaped table made from LEGO bricks. The sides of the table are equal and the table is symmetrically aligned with four chairs positioned around it, one on each side. Based on the symmetrical placement and equal side lengths, the table can be concluded to be square in shape.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there two chairs on each long side of the table and one chair on each short side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the table is square and there is one chair on each side, not two. A square table means each side is equally long, so the concept of long and short sides does not apply. Observing the image reveals only one chair per side, indicating there are not two chairs on any of its sides.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the chairs on the long sides of the table have armrests?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are no identifiable long sides as the table is square. All the chairs around it are LEGO chairs and do not have armrests. Analysis based on the image shows no arm extensions on any of the chairs.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a centerpiece located in the center of the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a distinctive LEGO piece in the center of the table which resembles a tree or plant figure. Recognizing this from the image and world knowledge of table setups, it serves as a centerpiece in the table arrangement.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the furniture set placed on a flat, level surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the furniture set arranged on a surface made of LEGO base plates, which are flat and uniform. This uniformity of LEGO base plates suggests a flat, level surface arrangement for the table and chairs.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4666666666666667
+}

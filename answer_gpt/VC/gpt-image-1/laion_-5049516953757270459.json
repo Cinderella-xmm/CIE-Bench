@@ -1,0 +1,110 @@
+{
+  "filename": "laion_-5049516953757270459",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the overall shape of the food arrangement a perfect heart?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on Image B, the overall shape resembles a heart, but it isn't a perfect heart. Considering world knowledge, a 'heart' shape typically has a rounded top and a pointed bottom, and Image B fits a stylized heart shape, suggesting imperfection due to the LEGO block construction. Therefore, considering irregularities, the shape is not perfect.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the avocado shown as half-cut with the pit cavity visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there's a structure resembling an avocado that has a yellowish section indicative of the pit cavity, maintaining its recognizable form. World knowledge on avocado halves, which often display a pit cavity, helps to affirm this object's identity.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the asparagus stalks bundled together with a visible twine-like structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays multiple green pieces resembling asparagus stalks bundled together, with a yellow band mimicking a tying structure. Using knowledge of asparagus bundles, their representation suggests bundling, highlighting adherence to bundling tradition.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are blueberries, strawberries, and raspberries grouped together at the top-left of the heart?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, red, blue, and smaller red pieces at the top-left suggest grouping similar to berries found in mixed berry collections. Based on typical berry clustering and color identification, they are grouped together in the expected pattern.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a single red onion positioned near the broccoli and garlic?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Using world knowledge, a purple circular structure in Image B implies an onion, logically positioned next to what pass for broccoli and garlic figures. This spatial arrangement mirrors typical culinary associations.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there at least three white mushrooms grouped together near the center?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, white circular structures near the center suggest mushrooms, consistent with the appearance of mushrooms, which tend to cluster in groups in culinary displays, helping identify them as such.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is there a large red bell pepper at the bottom-right of the heart?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the red elongated shape at the bottom-right mimics the form of a bell pepper. By associating its color and placement with common bell pepper depictions, this shape is identified as a bell pepper.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q8",
+      "question": "Is the background a neutral gray surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a gray base of building blocks throughout, resembling a LEGO baseplate. World knowledge tells us LEGO constructing surfaces are often gray, indicating this image has a neutral gray backdrop.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8125
+}

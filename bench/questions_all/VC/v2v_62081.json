@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The oval shape is the core compositional boundary of the portrait and a defining characteristic of the original image. It distinguishes this portrait from other formats and is essential for maintaining the visual identity of the artwork. If the oval is replaced with a rectangle or another shape, the fundamental structure of the image is altered, making it unrecognizable as the original. This is a key identity-preserving element, hence weighted at 3 points.",
+      "question": "Is the portrait of the gentleman contained within an oval shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The profile view (facing left) is a critical identity feature of the subject. It defines the direction of gaze, the visibility of one side of the face, and the arrangement of facial features. Changing the orientation to frontal or three-quarter view would fundamentally alter the subject’s presentation and recognition. This is a core recognition element, thus weighted at 3 points.",
+      "question": "Is the gentleman depicted in profile, facing toward the left side of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The cravat tied in a bow is a distinctive accessory that identifies the subject’s formal attire and period style. Its presence is essential for maintaining the historical and sartorial context of the portrait. Even if rendered in grey washes, its form must remain recognizable. This is a key accessory element, affecting identity and coherence, hence weighted at 2 points.",
+      "question": "Is there a cravat tied in a bow at the neck of the gentleman?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The dark hair with sideburns and mustache is a defining facial feature that contributes to the subject’s identity and era-specific appearance. The presence of these elements is necessary for recognition, especially since they are prominent in the original. While the texture may change, their existence and placement must be preserved. This is a core facial identifier, thus weighted at 3 points.",
+      "question": "Does the gentleman have dark hair with sideburns extending from the temples to the jawline and a mustache?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The blue coat is a primary garment that defines the subject’s attire and social status. Although the instruction allows for stylization using ink washes, the coat’s presence and coverage (over the shoulders and upper torso) must remain. Its absence or replacement with another garment would disrupt the subject’s identity. This is a key clothing element, hence weighted at 2 points.",
+      "question": "Is the gentleman wearing a coat that covers his shoulders and upper back?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The facial features—specifically the nose, jawline, and eye—are essential for identifying the individual. Their positions and proportions must remain consistent to preserve the likeness. Even in a stylized version, these features must be present and correctly placed. This is a core anatomical identifier, thus weighted at 3 points.",
+      "question": "Are the nose, jawline, and eye clearly visible on the right side of the gentleman’s face (from viewer’s perspective)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The oval portrait is contained within a rectangular frame, establishing a spatial hierarchy. While the frame’s design may be simplified, the rectangular outer boundary must remain to preserve the original composition’s structure. This is a functional layout element, crucial for visual coherence, hence weighted at 2 points.",
+      "question": "Is the oval portrait enclosed within a rectangular frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

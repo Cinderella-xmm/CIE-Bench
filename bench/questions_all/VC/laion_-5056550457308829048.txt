@@ -1,0 +1,114 @@
+Description of reference image: The subject features two animated characters from the well-known series *SpongeBob SquarePants*: SpongeBob, a yellow porous sponge with square shape, large blue eyes, prominent buck teeth, wearing a white shirt, red tie, brown square pants, and black shoes; and Patrick Star, a pink starfish with a round body, wide smile, wearing a white jersey with the number "3" in white on a pink background, green shorts, and red socks. Both characters are posed dynamically on a circular black-and-white checkered platform resembling a basketball court, with two orange basketballs—one held aloft by Patrick and one bouncing near SpongeBob’s feet. The background is a bright outdoor scene with a clear blue sky, fluffy white clouds, floating translucent stars, green grass with small flowers, and glowing orbs around the platform. A large, translucent star-shaped graphic is behind them, adding a stylized visual element. The overall tone is cheerful and vibrant.
+
+Thinking process:  
+First, analyze the editing instructions word by word:  
+- “Create a cereal box design” → implies full redesign of layout and context; **scene can be changed**.  
+- “featuring SpongeBob and Patrick in dynamic basketball poses” → poses may be retained or reinterpreted; **dynamic action is allowed**, but **core identity must remain**.  
+- “Background: urban sports scene with graffiti-style elements” → **background is explicitly replaced**, so original background (sky, grass, stars) is not required to be kept.  
+- “Add a bold title ‘Basketball Breakfast Blitz!’ across the top” → **new text overlay**, so original absence of text is acceptable to change.  
+- “Patrick’s shirt becomes a printed graphic with basketball motifs” → **shirt design changes**, so original jersey number and color scheme may be altered.  
+- “SpongeBob wears sneakers with cereal loop patterns” → **shoe design changes**, so original footwear (black shoes) is no longer required.  
+- “Illustrate cereal hoops flying around them for enhanced thematic coherence” → **add new objects (cereal hoops)**, so original basketballs may be supplemented or replaced.
+
+Allowed Changes List:  
+- Background (original sky, grass, stars, floating orbs)  
+- Patrick’s jersey design (number 3, plain white-on-pink)  
+- SpongeBob’s footwear (original black shoes)  
+- Addition of cereal hoops  
+- Title text ("Basketball Breakfast Blitz!")  
+- Overall layout (cereal box format)  
+- Graffiti-style urban elements  
+
+Step 2 – Determine the elements that should remain unchanged
+
+Thinking process:  
+Core recognition elements:  
+- SpongeBob’s **yellow porous square form** is essential for identification. Any deviation (e.g., rounded edges, non-yellow color) would break recognition.  
+- His **large blue eyes with black pupils**, **two visible front teeth**, **white shirt**, **red tie**, **brown square pants** — these are iconic and inseparable from his identity. Even if sneakers change, the rest must stay.  
+- Patrick’s **pink starfish shape**, **wide smiling mouth**, **large eyes**, **green shorts**, and **overall body structure** are key identifiers.  
+- The **presence of both characters together** in a shared scene is implied as core, even if pose changes.  
+
+Functional/logical association elements:  
+- The **basketball theme** is central to the instruction, so **the presence of basketballs** (even if replaced partially by cereal hoops) must be maintained in function, though not necessarily in form. However, since the instruction says “illustrate cereal hoops flying around them,” it allows substitution. But **the original basketballs’ role as central props** must be preserved in purpose, so their **visual representation** (as spherical orange balls) might be reduced but not eliminated entirely unless replaced with equivalent thematic objects. However, since cereal hoops are specified, **original basketballs may be removed**.  
+
+Non-modified element deduction:  
+- Despite allowing changes to clothing and background, **character anatomy, facial features, and color schemes** must remain consistent with canonical designs.  
+- The **checkered platform** is part of the original composition and provides spatial grounding; however, since the instruction introduces a cereal box design, this platform may be redesigned. But its **function as a stage-like base** under the characters is likely retained.  
+- The **floating star graphic** and **glowing orbs** are stylistic elements; since the background is being replaced, they are not required to be preserved.  
+
+Preservation Targets List:  
+(SpongeBob's yellow square porous body shape)  
+(SpongeBob's large blue eyes with black pupils)  
+(SpongeBob's two prominent front teeth)  
+(Patrick's pink starfish body with five arms)  
+(Patrick's wide open mouth with visible teeth)  
+(SpongeBob's white shirt, red tie, and brown square pants)  
+(Patrick's green shorts)  
+(The presence of both characters in a joint pose suggesting interaction)  
+
+---------------------------------------------------------------------------------------  
+
+{
+    Q1: 
+    Thinking process: SpongeBob’s yellow square porous body is the most fundamental identifier of the character. If the shape is altered (e.g., rounded, cylindrical), or the color changed from yellow, or the pores removed, the character cannot be recognized as SpongeBob. This is a core identity feature, making it a 3-point question.
+    Question: Is SpongeBob depicted as a yellow, square-shaped sponge with multiple holes (pores) across his body?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: SpongeBob’s large blue eyes with black pupils are signature facial features. Without them, especially with mismatched eye color or shape, the character loses recognizability. This is a critical facial identifier, thus weighted at 3 points.
+    Question: Does SpongeBob have two large, round blue eyes with black pupils?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: SpongeBob’s two visible front teeth are an iconic trait. Their absence or replacement with different tooth shapes would significantly alter his identity. This is a core facial detail, essential for recognition, hence 3 points.
+    Question: Are SpongeBob’s two front teeth clearly visible and rectangular in shape?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: Patrick’s pink starfish form with five arms is essential for identification. Any deformation into a non-star shape or change in color would make him unrecognizable. This is a core anatomical feature, therefore 3 points.
+    Question: Is Patrick depicted as a pink five-armed starfish with a rounded body?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q5: 
+    Thinking process: Patrick’s wide open mouth with visible teeth is a defining expression. While the instruction allows dynamic poses, the expression style must remain consistent with his typical joyful demeanor. Loss of this expression could affect character identity. This is a key facial trait, so 2 points.
+    Question: Does Patrick have a wide open mouth showing his teeth?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: SpongeBob’s outfit — white shirt, red tie, brown square pants — is iconic. While the instruction allows shoe modification, the upper clothing must remain consistent. Changing the shirt color or removing the tie would damage recognition. This is a high-importance accessory set, so 2 points.
+    Question: Is SpongeBob wearing a white shirt, red tie, and brown square pants?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: Patrick’s green shorts are a consistent element in his attire. While the jersey may change, the shorts are part of his standard look. Removing or altering their color would reduce consistency. This is a secondary but identifiable detail, so 1 point.
+    Question: Is Patrick wearing green shorts?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q8: 
+    Thinking process: The presence of both characters together in a shared scene is implied as necessary for the image to retain its narrative. Even if poses change, their coexistence is essential. Separation or removal of one would break the intended relationship. This is a functional scene element, so 2 points.
+    Question: Are both SpongeBob and Patrick present in the same frame and positioned close to each other?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

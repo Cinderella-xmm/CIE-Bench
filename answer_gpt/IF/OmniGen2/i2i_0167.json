@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0167",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image include the apple's current front view as originally shown?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image (Image B), the top left quadrant displays an apple from the front view, which closely resembles the original Image A's view. Visually, both images depict a similar perspective of an apple seen from the front, which is a key characteristic of such a view. This analysis concludes that the edited image retains the front view of the apple as in the original image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a cross-section view of the apple that shows its inner flesh texture and seeds?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bottom left and bottom right quadrants display a cross-section of the apple, revealing the inner flesh and seeds, which are essential components seen in an apple's cross-section. This visualization confirms the presence of a cross-section view showing these internal details.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the image contain a top view that clearly displays the apple's stem structure and calyx area?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "A top view typically displays the stem's structure from above, which is not present in Image B. The views in Image B include front and cross-sectional views only. None of these views offer a direct top view perspective showing both stem and calyx details.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the current front view of the apple remained unchanged compared to the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing the original Image A and the top left section of Image B, both images display a front view of a similar-looking apple. The edited image's front view section exhibits similar lighting and shape, maintaining consistency with the original view.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the cross-section of the apple reveal both the flesh texture and seeds accurately?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cross-sections (bottom left and right) show the apple's interior, including the white flesh and centrally located seeds. These elements are typical in a real apple, accurately reflected in the depiction, indicating an effort to represent these features realistically.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

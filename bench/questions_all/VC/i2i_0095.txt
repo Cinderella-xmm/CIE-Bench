@@ -1,0 +1,63 @@
+Description of reference image: The subject is a modern bathroom setup, featuring a minimalist design. Central to the composition is a wall-mounted mirror with illuminated edges, positioned above a sleek floating vanity. The vanity has a white base with natural wood-toned countertop. On the countertop, there is a white bowl-style vessel sink fitted with a matte black faucet, accompanied by a small decorative vase with branches, a small bottle, and some folded papers. To the left, a matte black towel rack holds a gray towel. The scene is set against a clean white wall with large glass windows on the right, letting in natural light.
+
+### Step 1 - Allowed Changes List:
+Specific element 1 that allows for changes:  
+Add the backlit glowing word “Shine” centered within the mirror.
+
+### Step 2 - Preservation Targets List:
+
+Thinking process:  
+To determine the core recognition elements, we focus on the bathroom's minimalistic design and functional attributes, such as the mirror's shape and illumination, the sink's design, and the overall layout. Functional/logical associations include the mirror’s positioning over the sink and the consistent light source. Remaining elements like the towel rack and décor items contribute to the scene's cohesiveness and should also be retained.
+
+Preservation Targets List:  
+(Mirror's shape and illumination)  
+(Vanity's design and placement)  
+(Towel rack and its position relative to the wall)  
+(Decorative items and their arrangement on the countertop)
+
+### Step 3 - Generate Questions:
+
+{
+    Q1: 
+    Thinking process: The mirror's shape and illumination are core visual features that define the scene's modern aesthetic. Any alteration would disrupt the identity of the space.
+    Question: Does the mirror retain its rectangular shape with illuminated edges?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The sink's design is a significant element of this bathroom setup, contributing to its modern, minimalist appeal.
+    Question: Is the bowl-style vessel sink still present on the countertop?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The towel rack adds to the functional aspect of the space. Its presence and position relative to the wall are important for maintaining scene logic.
+    Question: Is the matte black towel rack still attached to the wall on the left side?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The decorative items contribute to the room's ambiance and provide context for the space.
+    Question: Are the decorative vase with branches and small bottle still arranged on the countertop?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q5: 
+    Thinking process: The placement of the vanity unit below the mirror is a crucial design element for maintaining the scene's intended functionality and aesthetic balance.
+    Question: Is the vanity unit correctly positioned below the mirror with the same white base and natural wood countertop?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

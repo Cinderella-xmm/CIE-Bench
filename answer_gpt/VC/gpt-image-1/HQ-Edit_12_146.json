@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_12_146",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the facial structure including the eyes, nose, beard, and smile preserved exactly as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Since the face is blurred, the facial features such as the eyes, nose, beard, and smile are not visible to determine if they are preserved exactly as in the original image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the blue and green floral henna designs on the cheeks present and unchanged?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B has a blurred area where the cheeks would be, making it impossible to verify if any henna designs are present or unchanged.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the small gold earrings visible in both ears?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the small earrings are visible in the subject's ears, indicating that this aspect is not obscured or altered by blurring. The earrings are clearly shown and not affected by the facial blurring.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the peacock feather held in the right hand present?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The peacock feather in the right hand is prominently visible in Image B. The feather is not affected by the blurred area and is an integral decorative element in both images.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the right hand positioned near the chest, holding the peacock feather?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the right hand is visibly positioned near the chest, holding the peacock feather. The positioning of the hand is clearly captured in the image and matches the original arrangement.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the subject looking upward and toward the left side of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Due to the blurred facial area in Image B, it is impossible to discern the direction of the subject's gaze or determine if they are looking upward and toward the left side of the frame.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the natural skin tone and texture of the subject preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The blurred area in Image B obscures the skin tone and texture, preventing any clear observation or comparison with the original image's natural skin characteristics.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

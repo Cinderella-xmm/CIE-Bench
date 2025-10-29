@@ -1,0 +1,123 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+Description of reference image:  
+The subject is a large, solitary tree standing in the center of a vibrant meadow under a bright blue sky with scattered white clouds. The tree has a thick, dark brown trunk with sprawling branches that extend outward and upward. Its foliage displays a striking gradient of colors—deep green on one side transitioning into vivid orange, red, and yellow hues on the other, suggesting a blend of summer and autumn seasons. The canopy is dense and rounded, with visible texture in the leaves. Below the tree, the meadow is divided into two distinct halves: the left side is filled with a carpet of pink and red wildflowers, while the right side features lush green grass dotted with white daisies and small yellow flowers. The horizon is low and flat, with soft golden light illuminating the field from behind the tree, creating a glowing backlight effect. The sky is clear with fluffy cumulus clouds, and sunlight filters through the leaves, casting subtle shadows.
+
+Thinking process:  
+The editing instruction specifies transforming the scene into a **diorama inside a wooden shadow box frame**, which implies a complete recontextualization of the environment. This includes:
+
+- **Miniaturizing the tree**: The scale of the tree can be reduced; its physical form may be altered to fit within a framed display.
+- **Enhancing 3D texture**: Surface details of the tree can be exaggerated or stylized for depth and tactile realism.
+- **Adding multi-colored flower patches beneath**: The floral composition below the tree can be modified, enhanced, or rearranged.
+- **Using layered painted backdrops for depth**: The background (sky, horizon) can be replaced with painted layers, meaning it does not need to retain photorealistic sky or cloud forms.
+- **Incorporating tiny, intricate cloud figures suspended from thin wires**: Clouds are now artificial objects made of wire and material, so their natural appearance is no longer required.
+- **Creating a whimsical, dreamlike essence**: Style and mood are to be changed toward fantasy, allowing artistic interpretation.
+
+From this, we extract the **allowed changes**:
+- Scale of the tree (miniaturized)
+- Texture of the tree (enhanced 3D)
+- Floral arrangement (modified into patches)
+- Background (replaced with layered painted backdrops)
+- Clouds (replaced with wire-suspended models)
+- Overall framing (enclosed in wooden shadow box)
+- Scene lighting and atmosphere (altered for dreamlike effect)
+
+Allowed Changes List:  
+- Tree size (scaled down)  
+- Tree surface texture (enhanced for 3D effect)  
+- Flower distribution and types (adjusted into multi-colored patches)  
+- Sky and cloud representation (replaced with painted backdrop and wire clouds)  
+- Environmental framing (enclosed in shadow box)  
+- Lighting and color tone (adjusted for whimsical mood)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+We now determine what **must remain unchanged** by excluding elements explicitly allowed to change. The goal is to preserve the **core identity** and **visual coherence** of the original image despite transformation.
+
+**Core recognition elements:**  
+- The **tree’s shape and structure**—specifically, the wide, spreading canopy with a central trunk and branching limbs—is essential to identify the subject as a single, dominant tree in a field. Even if miniaturized, the silhouette must remain recognizable.  
+- The **color gradient in the foliage**—a mix of green, orange, red, and yellow—represents a unique visual signature of the original scene. While texture may be enhanced, the **presence and distribution of these colors** must be preserved to maintain the seasonal contrast.  
+- The **division of the meadow into two contrasting halves**—one pink/red floral, the other green/daisy-filled—is a key compositional feature. Though flower patches may be adjusted, the **spatial split** must remain.  
+- The **position of the tree in the center** relative to the meadow and horizon ensures balance and focus. This spatial relationship is foundational and should be retained.
+
+**Functional/logical association elements:**  
+- The **relationship between the tree and the meadow**—the tree casts a shadow over part of the field, and the flowers grow beneath it—must be preserved in logic. Even in diorama form, the tree should still appear rooted in the meadow, not floating or detached.  
+- The **backlighting effect** from behind the tree, creating a glow through the leaves, is a defining atmospheric trait. While lighting can be stylized, the **direction and effect of light passing through the canopy** should remain visually consistent.
+
+**Non-modified element deduction:**  
+After removing allowed changes (scale, texture, background, etc.), the following must remain:
+- The **overall form and branching pattern** of the tree
+- The **color scheme of the leaves** (green-to-red-orange transition)
+- The **two-tone meadow layout** (pink vs. green)
+- The **central placement** of the tree
+- The **presence of specific flowers** (e.g., daisies on the right, poppies or pink blossoms on the left)
+- The **interplay of light and shadow** across the scene
+
+Preservation Targets List:  
+- The tree's central position and overall silhouette  
+- The gradient of leaf colors from green to red/orange/yellow  
+- The division of the meadow into pink-flowered and green-daisy areas  
+- The presence of daisies on the right side and pink/red flowers on the left  
+- The backlighting glow through the tree’s canopy  
+- The tree’s root system being embedded in the ground (implied by shadow and positioning)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The tree’s silhouette—its wide canopy and central trunk with branching limbs—is the core identifier of the subject. Changing this would make the image unrecognizable as the same scene. Even in a diorama, the tree must retain its iconic shape to maintain visual continuity. This is a 3-point element because it defines the subject’s identity.
+    Question: Does the edited image retain the tree's central position with a wide, spreading canopy and visible branching structure?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The color gradient in the leaves—from green to orange and red—is a unique visual hallmark of the original image. It represents a fusion of seasons and is essential for identifying the scene. Losing this gradient would fundamentally alter the image’s character. Thus, it is a 3-point core feature.
+    Question: Are the leaves of the tree still displaying a visible gradient from green to orange and red?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The meadow is split into two distinct zones—one pink/red with dense flowers, the other green with white daisies. This spatial division is a key compositional element. Even if flower types are adjusted, the separation must remain to preserve the original contrast. This is a 2-point element because it defines the scene’s layout.
+    Question: Is the meadow clearly divided into a pink/red floral area on the left and a green daisy-filled area on the right?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The presence of white daisies on the right side of the meadow is a specific detail that anchors the scene. These flowers are identifiable and contribute to the meadow’s realism. Their removal or replacement would affect visual consistency. This is a 2-point element due to its importance in scene recognition.
+    Question: Are white daisies still present in the green section of the meadow on the right side?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The backlighting glow through the tree’s canopy creates a radiant effect, emphasizing the tree’s form and adding emotional depth. This lighting direction and effect are integral to the original mood. Even in a diorama, the glow must remain to preserve the scene’s atmosphere. This is a 2-point element because it affects the overall aesthetic.
+    Question: Is there a visible glow or backlight effect shining through the tree’s leaves from behind?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The tree must remain grounded in the meadow, with its base embedded in soil or grass. If the tree appears floating or detached, the logical relationship between subject and environment is broken. This grounding is essential for realism and coherence. This is a 1-point element because it supports spatial logic but is less visually dominant.
+    Question: Is the tree's base visibly rooted in the ground of the meadow?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

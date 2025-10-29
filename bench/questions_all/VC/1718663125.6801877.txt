@@ -1,0 +1,123 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+Description of reference image:  
+The subject is a young girl with long, straight dark hair parted in the center, falling over her shoulders. She is wearing a plain white t-shirt. Her face is painted with intricate black-and-white skeletal makeup resembling a stylized sugar skull design, featuring symmetrical patterns: a crown-like structure on the forehead with small dots and a central triangular motif, delicate lace-like outlines around the eyes, stitched mouth lines with jagged teeth, and vertical lines extending from the nose to the chin. The background is a neutral, softly lit gray gradient with no distinct features or objects. The lighting is even and frontal, casting minimal shadows, emphasizing the facial details and makeup. The composition is centered, with the girl facing directly toward the camera, head slightly tilted forward, conveying a calm, stoic expression.
+
+Thinking process:  
+The editing instruction explicitly states: "Transform the image of the child into a Renaissance-style portrait. Adorn the child in a detailed, intricate gown with lace and embroidery, set against a regal, velvet curtain backdrop. Use rich, deep colors like burgundy and gold to enhance the period feel, and give the hair a polished, glossy appearance characteristic of 16th-century portraiture."
+
+From this, we can extract the following **allowed changes**:
+- Subject's clothing: can be changed from a plain white t-shirt to a historically accurate Renaissance gown with lace and embroidery.
+- Background: can be replaced with a regal velvet curtain backdrop (implying full replacement).
+- Hair texture and shine: can be modified to appear polished and glossy, consistent with 16th-century portraiture style.
+- Color palette: can shift to rich, deep tones such as burgundy and gold.
+- Overall artistic style: can transition from modern black-and-white photography to Renaissance painting aesthetics (including brushwork, lighting, and composition).
+
+However, the instruction does **not** mention changing the **face paint**, **facial structure**, or **identity of the subject** — implying that the core visual identity of the child, particularly the **sugar skull makeup**, must remain intact unless otherwise implied. Since no explicit instruction says “remove” or “alter” the makeup, and since it is a defining feature of the original image, it should be considered **non-modifiable** unless overridden by logic.
+
+Allowed Changes List:  
+- Clothing (from plain t-shirt to Renaissance gown)  
+- Background (from neutral gray to velvet curtain)  
+- Hair texture and glossiness  
+- Color scheme (from monochrome to rich hues)  
+- Artistic style (from photographic realism to Renaissance painting)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+We now apply the exclusion method based on the allowed changes list to identify what **must not change**.
+
+**Core recognition elements**:  
+The **sugar skull face paint** is the most prominent and unique visual feature of the original image. It includes specific symbolic patterns:  
+- A crown-like shape on the forehead with three dots above and a triangle below  
+- Symmetrical lace borders around the eyes  
+- Stitched mouth with jagged teeth and vertical lines descending from the nose  
+- Small decorative elements like teardrop shapes beneath the mouth  
+
+These are **iconic design elements** that define the identity of the image — not just as a portrait of a child, but as a culturally coded representation (Day of the Dead / calavera aesthetic). Changing or removing them would fundamentally alter the image’s meaning and recognition value. Thus, they are **core identity features** and must be preserved.
+
+Additionally, the **subject’s facial structure and expression** (e.g., eye shape, nose bridge, lips, gaze direction) are critical for maintaining the **identity of the individual**. Even if clothing and setting change, the face must remain recognizable as the same person. This includes the **position and shape of the eyes**, **symmetry of the face**, and **neutral expression**.
+
+**Functional/logical association elements**:  
+There are no functional dependencies (e.g., tools being used, mechanical parts interacting), so no logical chains need preservation. However, the **relationship between the face and the makeup** is semantically essential — the makeup is applied *on* the face, not as a separate object. Therefore, the **spatial alignment** of the makeup to the facial features must remain consistent.
+
+**Non-modified element deduction**:  
+After excluding allowed changes (clothing, background, hair texture, color), the remaining elements are:
+- Facial features (eyes, nose, mouth, jawline)
+- Sugar skull makeup pattern
+- Proportions and symmetry of the face
+- Expression and gaze direction
+- Relative positioning of the head in the frame
+
+Even though the style may become painterly, the **presence and exact configuration** of the makeup must be retained to preserve the original intent and identity.
+
+Preservation Targets List:  
+- The sugar skull makeup pattern including the crown-like forehead design  
+- The lace-like border around the eyes  
+- The stitched mouth with jagged teeth and vertical lines  
+- The position and shape of the eyes, nose, and mouth  
+- The symmetrical layout of the makeup relative to the facial features  
+- The neutral expression and direct gaze toward the camera  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The crown-like structure on the forehead with three dots above and a central triangle is a unique and identifiable component of the sugar skull design. Its presence defines the cultural and stylistic identity of the makeup. If absent or altered, the image loses its core symbolic meaning and becomes unrecognizable as a calavera-inspired portrait. This is a key identity feature, hence weighted at 3 points.
+    Question: Is the crown-like forehead design with three dots and a central triangle present on the child's forehead?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The lace-like border surrounding the eyes is a distinctive detail that contributes to the ornamental quality of the sugar skull. It is symmetrically placed and visually separates the eye area from the rest of the face. Removing or altering it would break the integrity of the design and reduce recognizability. This is an important accessory element within the makeup, thus weighted at 2 points.
+    Question: Are the lace-like borders encircling the eyes clearly visible and symmetrically drawn?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q3: 
+    Thinking process: The stitched mouth with jagged teeth and vertical lines extending downward is a signature feature of the sugar skull aesthetic. Its shape and placement are crucial for identifying the makeup style. Altering it would misrepresent the original design. This is a core part of the facial decoration and essential for recognition, so it receives a weight of 3 points.
+    Question: Is the mouth depicted with a stitched, jagged-tooth pattern and vertical lines extending from the nose to the chin?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The eyes are central to facial identity and expression. Their shape, position, and gaze direction are essential for maintaining the subject’s identity. Even in a transformed Renaissance style, the eyes must retain their original form and placement to ensure continuity of the individual. This is a core recognition feature, so it is assigned 3 points.
+    Question: Are the eyes positioned symmetrically and maintain their original almond shape and direct forward gaze?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q5: 
+    Thinking process: The symmetry of the makeup across the face is a fundamental aspect of sugar skull artistry. Any asymmetry or distortion would compromise the visual coherence and cultural authenticity. While minor stylistic adjustments might be acceptable, the overall balance must remain intact. This is a key structural element affecting the design’s integrity, so it is weighted at 2 points.
+    Question: Is the makeup pattern symmetrically aligned across the left and right sides of the face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The nose bridge and nostril shape are anatomical features that define facial identity. They serve as anchor points for the makeup design. Altering them would distort the face and make the subject unrecognizable. These are minor but essential detail elements that support facial consistency, hence weighted at 1 point.
+    Question: Is the nose bridge clearly defined and retains its original shape and position?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The mouth’s natural lip shape beneath the painted teeth is a subtle but important detail. It provides grounding for the painted elements and ensures the makeup appears applied to a real face. Losing this distinction could make the face look artificial or distorted. This is a minor detail but contributes to visual coherence, so it is given 1 point.
+    Question: Are the natural lip contours visible beneath the painted teeth?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

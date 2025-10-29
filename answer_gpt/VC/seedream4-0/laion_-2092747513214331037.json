@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-2092747513214331037",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the cyclist in a forward-leaning position with hands on aerobars?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cyclist is shown in an aerodynamically streamlined position typical for cyclists during a time trial. The forward-leaning posture with hands on aerobars is distinct and meant to reduce wind resistance, which is evident from the visual cues in the edited image.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are two bicycles mounted vertically on the roof rack of the black car?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no visible sign of bikes mounted on the roof rack of the car. The edited image introduces a futuristic theme with digital overlays, but does not show bicycles on the car roof.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there white lane markings and a yellow center line on the road?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on Image B, there are visible white lane markings on the road where the cyclist and car are situated, with a blurred hint of the yellow center line in the background due to the editing effects.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there an orange traffic cone visible in the background near the cyclist?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the edited elements give a futuristic feel, and there's no visible orange traffic cone near the cyclist due to the modification. The focus is more on the digital overlays and enhanced graphics.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the car have a license plate reading \"BOC-480\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both images, the car's license plate is visible and reads 'BOC-480'. Despite the editing in Image B, the license plate text remains consistent.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the cyclist riding parallel to the car on the same road?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the cyclist and the car are positioned side by side, indicating they are traveling parallel on the same road, with visual alignment between the two.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the background composed of dry hills with sparse vegetation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the futuristic elements introduced into the foreground, the background still shows an impression of dry hills with sparse vegetation, typical of a semi-arid landscape.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6923076923076923
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_35331",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the transition between the dog and the banana appear smooth and natural without any visible seams or unnatural edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the transition between the dog and the banana can be analyzed by looking for any visible seams or edges where the two objects meet. Often, edited images have unnatural transitions specially where object edges become apparent. Here, the transition appears smooth as there are no visible, sharp lines distinguishing the two objects. Based on the visual cues provided, the blend between the two appears intentionally seamless.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the lighting and shadows on the dog and the banana consistent with each other and the surrounding grass, indicating a natural light source?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Natural consistency in lighting and shadows indicates that all objects in the image are exposed to the same light source, providing a realistic appearance. In Image B, the light seems to fall consistently on both the dog and the banana, with corresponding shadows on the grass. This uniformity suggests a natural light source affecting all elements equally, without conflicting brightness or shadow directions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there any unnatural textures or loss of fine details where the dog and the banana connect, disrupting the visual quality?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Texture consistency at connection points is crucial for maintaining realism. Aside from appearance of smooth transitions, finer textures should remain coherent and well-defined. In Image B, the detail in both the dog's fur and the banana’s peel remains visually consistent without any visible loss. This indicates a high-quality edit maintaining the visual quality of these textures, with no evident disruptions.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the proportions of the dog and the banana remain realistic and proportional to each other, avoiding any unnatural stretching or shrinking?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analysis of proportions relies on world knowledge regarding typical sizes of objects. Chihuahuas are characteristically small dogs, and bananas generally measure between 6 to 8 inches. In Image B, the proportions seem exaggerated, as the banana appears excessively large relative to a typical dog's size, possibly intentional for comical effect. World knowledge suggests the proportions are creatively edited for humor rather than realism.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the materials of the dog's fur and the banana's peel retain their natural texture and appearance, contributing to the overall realism?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Realism in texture is apparent when materials and surfaces look authentic, matching world knowledge of the objects. In Image B, the dog's fur appears smooth and detailed, consistent with a real chihuahua's fur. The banana peel maintains its recognizable texture and appearance. Together, these details support a realistic image quality where both elements retain their identifiable traits.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

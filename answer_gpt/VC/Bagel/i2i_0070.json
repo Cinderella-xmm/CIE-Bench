@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0070",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the train labeled \"BB 3017\" still visible and legible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train's label is visible on the front, below the windshield. The characters appear to include numbers and letters which contribute to the label BB 3017. Visual cues suggest that the text was preserved during the editing process with its legibility maintained.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the railway tracks, including the parallel tracks beside the main line, still intact and correctly laid out?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the main railway track is visible, but the parallel tracks seen in Image A are not present. Instead, the scene has transformed into a different environment with a landscape resembling a savannah. The lack of visible parallel tracks indicates that they are no longer intact in the edited version.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the train still positioned centrally on the railway tracks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train is positioned centrally on the visible railway track. It appears as a direct linear continuation of the track in the edited scene, which matches the central alignment seen in Image A before editing.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the train retain its structural integrity, including the white locomotive and the loaded freight car?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train retains the white locomotive that appears structurally consistent with Image A. However, the loaded freight car seen in Image A is not visible in Image B; it seems only the locomotive structure remains.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the railroad signal on the left, marked with the number \"3\", still present in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the scene has changed significantly from a railway setting to a savannah landscape with no signs of railway signals or the number '3' visible. The absence of the railroad signal indicates that it is not present in the edited scene.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

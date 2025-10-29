@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0065",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image now presented in the context of a museum exhibit corner?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background shows a setting that resembles a museum with framed artworks on the walls and soft lighting that is typical of exhibition spaces. The dog is placed in a way that suggests it is part of an exhibit, as it is inside a display case. This setting strongly indicates a museum-like environment.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the dog shown inside a glass display case?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly shows the dog positioned inside what appears to be a glass display case. The sharp edges of the case and how the dog is enclosed within its transparent boundaries support this observation, which is typical for museum displays to protect and showcase items.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the light focused on the dog's face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, although the lighting is uniform, there is no specific evidence of a spotlight clearly directed at the dog's face. The lighting appears to be ambient and evenly distributed throughout the space rather than concentrated on the dog.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a label present that describes the breed and includes a story title?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B includes a small card or label positioned in front of the display case. While the text is not entirely legible in this analysis, its presence is typical of museum exhibits where labels often include detailed information about the display's content, such as breed description and possibly a title.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the dog maintain its original posture and appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the dog appears to be lying on a textured surface with its head resting. In Image B, the dog is presented upright in a display case, with its posture adjusted to fit this context as part of an exhibit. The setting and display inherently change its appearance compared to the original setting, indicating a shift in both posture and overall presentation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

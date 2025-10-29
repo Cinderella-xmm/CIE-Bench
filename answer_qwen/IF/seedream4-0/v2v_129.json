@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_129",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the stickers arranged in a neat 3x3 grid?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing Image B, the stickers are visually organized into three rows and three columns, forming a structured layout. Each sticker is evenly spaced with consistent alignment both horizontally and vertically, indicating a deliberate and orderly arrangement. This visual pattern matches the definition of a neat 3x3 grid. There are no overlapping or misaligned stickers, and the spacing between them appears uniform, reinforcing the conclusion that they are arranged in a neat grid. Based on common design principles for sticker sets, such organization enhances readability and aesthetic appeal, which aligns with the observed layout.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the background of the stickers transparent?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the area surrounding the stickers shows a checkerboard pattern, which is a standard visual representation used in digital graphics to indicate transparency. This pattern is commonly seen in image editing software when an image has a transparent background. The stickers themselves are isolated with no visible background color behind them, and the checkerboard extends beyond their borders. This suggests that the background is not solid but rather transparent, allowing the stickers to be placed over various backgrounds without a fixed backdrop. This is consistent with how digital stickers are typically designed for use in applications or messaging platforms.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do all stickers maintain a square, 1:1 aspect ratio?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining each sticker in Image B, they appear to have rounded corners and a generally square shape. However, closer inspection reveals that while the overall form is close to square, some stickers show slight variations in proportions—particularly in the placement of elements like the paint palette or the angle of the brush—which may suggest minor distortions. More importantly, the stickers are presented within white borders that are slightly curved at the edges, and the internal content (the character and her environment) does not strictly adhere to a perfect 1:1 aspect ratio. For instance, the table and paper in some stickers extend more horizontally than vertically. Additionally, the character’s head and body proportions vary slightly across stickers, suggesting that the artwork was not uniformly scaled to a strict square format. Therefore, while they are approximately square, not all maintain a precise 1:1 aspect ratio.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does each sticker showcase a distinct action, emotion, and theme related to artistic moods?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Each sticker in Image B features the same character engaged in painting, but with different facial expressions and gestures. For example, one sticker shows a smiling face with eyes closed, suggesting joy; another shows a winking expression, implying playfulness; one displays a frowning face, indicating frustration or concentration; and others show open-mouthed excitement or neutral focus. These variations in facial expressions and body language reflect a range of emotions such as happiness, surprise, effort, and contemplation. The actions also differ—some show the character actively painting, while others depict pauses or reactions. These emotional and behavioral differences align with artistic moods, such as inspiration, struggle, satisfaction, and creativity. Thus, despite the repeated character and setting, each sticker conveys a unique emotional tone and moment related to the artistic process, fulfilling the criteria of distinct actions, emotions, and themes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a uniform white outline around each sticker?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Looking at Image B, each sticker is enclosed by a white border that appears consistent in thickness and style across all nine stickers. This border is smooth and follows the contours of the sticker, including the rounded corners. The white outline serves as a visual separator from the transparent background and enhances the sticker-like appearance. While minor pixel-level inconsistencies might exist due to rendering, the overall impression is one of uniformity in the outline's width and color. In digital design, such consistent outlines are typical for sticker collections to ensure visual harmony and clarity. Given the consistency across all stickers, it is reasonable to conclude that the white outline is uniform.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

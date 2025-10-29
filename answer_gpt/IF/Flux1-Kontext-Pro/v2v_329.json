@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_329",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the bicycles depicted in a 3D chibi style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "When evaluating the bicycles in Image B, they appear to be normal-sized with realistic proportions and realistic textures, which is typical for standard photography of bicycles. In contrast, a chibi style generally features exaggerated, cute, and disproportionate figures with a more cartoonish quality. Thus, the bicycles do not exhibit any chibi characteristics.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Have the bicycles retained their original arrangement?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing the arrangement of bicycles in Image B, they are positioned next to each other in a similar configuration as seen in Image A, with four bicycles aligned side by side in a similar order, maintaining the clockwise order of red, blue, white, and black. Thus, the arrangement has remained unchanged.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the colors of the bicycles identical to those in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bicycles reflect the same color scheme as Image A: a red bike, a blue tandem bike, a black bike, while the fourth bike is similarly black. Although initially it might appear that the colors have slightly different shades due to lighting effects, under analysis, the core color scheme is consistent.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the bicycles retain their original design details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, the bicycles showcase minor design differences compared to Image A. The blue tandem bikes' body appears complete and detailed in contrast to Image A where an editing error might have caused slight modification or loss of details. Such variances in the finer elements like bike frames, handlebars, and pedals indicate a departure from the original design details.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the overall scene composition and lighting consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both images, the scene composition, particularly the placement of the bikes near the window with their reflections captured on the floor, is the same, showcasing consistent ambient lighting from the window casting warm hues across the setting. Therefore, the lighting and scene composition remain consistent from Image A to Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

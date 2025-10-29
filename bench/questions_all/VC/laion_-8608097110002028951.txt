@@ -1,0 +1,94 @@
+Description of reference image: The subject is a two-story historic theater building with a terracotta-colored stucco facade, featuring three large arched windows on the upper level, each divided into a grid of small panes. The architectural style includes decorative elements such as ornate cornices, spire-like finials along the roofline, and intricate relief patterns above the windows and along the parapet. A tall vertical black sign stands at the center top of the building. On the ground floor, there are two distinct commercial entrances: on the left, a Walgreens pharmacy with a red script logo under a dark awning; on the right, the Marina Theater with a marquee displaying its name in cursive red lettering. Between them, a central storefront window displays advertisements. Two vintage cars—a tan and black one on the left and a purple and black one on the right—are parked in front of the building on a street with visible curbs and sidewalk. People are seen near the entrances. The sky is overcast with dramatic clouds.
+
+Thinking process: First, analyze the editing instructions that explicitly allow transformation of the building into a LEGO model using tan bricks for the facade, brown accents, translucent square LEGO pieces for windows, smooth red flat bricks for marquee lettering, and blocky LEGO vehicles in black and purple. These changes pertain to material texture, color scheme, and form abstraction but do not specify altering the overall structure, layout, or key identifying features. The instruction does not mention removing or changing the position of the Walgreens and Marina Theater signs, nor does it suggest modifying the number or placement of windows, the presence of the central vertical sign, or the relative positioning of the cars. Therefore, while the appearance (material, color, texture) can be changed, the structural layout, functional components, and spatial relationships must remain consistent.
+
+Allowed Changes List:
+- Facade material (to tan LEGO bricks)
+- Accents (to brown LEGO elements)
+- Window type (to translucent square LEGO pieces)
+- Marquee signage (to smooth red flat LEGO bricks with lettering)
+- Cars (to blocky LEGO vehicles in black and purple)
+- Overall aesthetic (to playful, miniature LEGO style)
+
+Step 2 - Determine the elements that should remain unchanged
+
+Thinking process:
+Core recognition elements: The building’s identity as the Marina Theater is tied to its distinctive architectural form—specifically the three large arched windows, the symmetrical layout, the decorative cornice with finials, and the central vertical sign. These are iconic features that define the building’s visual identity. Even if rendered in LEGO, their shape, arrangement, and relative proportions must be preserved to maintain recognition. Similarly, the dual storefronts—Walgreens on the left and Marina Theater on the right—are essential for contextual accuracy. Their positions, signage orientation, and entrance configurations must remain intact.
+
+Functional/logical association elements: The relationship between the two vintage cars and their respective positions in front of the building is critical. The car on the left is aligned with the Walgreens entrance, and the one on the right with the Marina Theater entrance. This spatial logic supports the scene’s realism and narrative coherence. Altering this would disrupt the implied function of the vehicles as part of the urban setting.
+
+Non-modified element deduction: After excluding allowed changes (materials, textures, colors), the remaining unmentioned details—such as the number and shape of windows, the presence of the central vertical sign, the exact layout of the awnings, the location of the people near entrances, and the alignment of the cars—must be retained based on visual coherence and common sense. These elements contribute to the authenticity and recognizability of the scene even when stylized.
+
+Preservation Targets List:
+- The three large arched windows on the upper level
+- The central vertical black sign atop the building
+- The horizontal alignment and spacing of the three arched windows
+- The position and orientation of the Walgreens and Marina Theater signs
+- The relative positions of the two vintage cars in front of the building
+- The presence of the decorative cornice with finials along the roofline
+- The layout of the ground-floor storefronts including the central display window
+- The people standing near the entrances
+- The sidewalk and curb line in front of the building
+
+{
+    Q1: 
+    Thinking process: The three large arched windows are the most prominent architectural feature of the building and serve as a key identifier of its design. Their shape, number, and symmetrical arrangement are essential for recognizing the building as the Marina Theater. If these are altered in shape or count, the structure loses its defining character. Thus, preserving their presence and configuration is critical for identity retention.
+    Question: Are the three large arched windows on the upper level of the building present and arranged symmetrically?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The central vertical black sign is a unique and highly visible element at the apex of the building. It contributes to the building's silhouette and serves as a landmark feature. Its removal or replacement would fundamentally alter the building's profile and diminish its recognizability.
+    Question: Is the tall vertical black sign positioned at the center top of the building?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The decorative cornice with spire-like finials along the roofline is a distinctive architectural detail that adds to the building’s historical and stylistic identity. This ornamentation is part of the building’s cultural and visual signature and must be preserved in form and position to maintain authenticity.
+    Question: Does the building retain the decorative cornice with spire-like finials along the roofline?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The Walgreens and Marina Theater signs are functional and symbolic elements that define the commercial use of the building. Their positions—left and right respectively—and their red script lettering are crucial for identifying the establishments. Changing their location or removing them would misrepresent the scene.
+    Question: Are the Walgreens and Marina Theater signs located on the left and right sides of the ground floor respectively, with red script lettering?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The two vintage cars are placed in specific positions relative to the storefronts: one in front of Walgreens, the other in front of the Marina Theater. This spatial relationship reflects real-world usage and enhances the scene’s coherence. Altering their positions would break the logical connection between vehicles and businesses.
+    Question: Are the two vintage cars positioned in front of the Walgreens and Marina Theater entrances respectively?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The presence of people near the entrances adds life and scale to the scene. Their existence indicates activity and helps establish the building as an active public space. While their appearance may change in a LEGO version, their location near the doors must be preserved for narrative consistency.
+    Question: Are there people visible near the entrances of the Walgreens and Marina Theater?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q7: 
+    Thinking process: The sidewalk and curb line provide context for the street-level environment and support the realism of the scene. Their presence ensures the viewer understands the spatial relationship between the building and the road. Removing them would make the scene feel incomplete or floating.
+    Question: Is there a sidewalk and curb line in front of the building?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0050",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image contain three separate frames capturing the skater's motion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are three distinct segments, each showing the skater in different positions. These segments appear horizontally aligned and visually separated, indicating separate capture frames. The movement steps of roller skating are clearly visible, with different body postures in each segment.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the three frames clearly showing the push-off, ground contact, and forward lean of the skater?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Each frame in Image B represents a different phase of a skating motion. The first frame shows a lean forward ready to push off, the second frame indicates ground contact, and the third frame displays a forward lean as if gaining momentum. These distinct body positions correlate with stages of skating motion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain the real image style without any significant stylistic distortions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B maintains realistic lighting and colors, with clear and natural detail on the skaters. Despite the added motion lines, the fundamental appearance of the skaters and their environment appears unaltered from reality, showing no major stylistic deviations from a natural photo.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are motion trajectory lines present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are multiple white lines trailing each skater in each frame. These lines are typical of motion trajectory representations, visually indicating the direction and flow of movement, characteristic of conveying speed or movement in photos.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the three frames combined in a cohesive manner within the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The Image B integrates all frames seamlessly into one image, with the skaters' movements flowing smoothly from one frame to the next visually. The layout and consistent style throughout ensure the frames are perceived as parts of a single cohesive motion sequence.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

@@ -1,0 +1,84 @@
+{
+  "filename": "laion_4631802878082914190",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image contain exactly six labeled process stages corresponding to the CRISP-DM phases?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon analyzing the edited image, we see four main labeled areas: Business Understanding, Img Data Understanding, Data Preparation, and Creslentor Deployment. The 'Modeling finas in Neat pades!' text appears to be more of a theme or decorative element around the path with the animals rather than a clearly labeled stage identifier. Importantly, there is no explicit stage labeled as 'Evaluation.' Thus, the count of identifiable labeled stages related to the CRISP-DM process is less than six.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the six stages arranged in the correct sequential order: Business Understanding → Data Understanding → Data Preparation → Modeling → Evaluation → Deployment → back to Business Understanding?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image displays the characters in a non-linear, playful arrangement around a campfire rather than in a sequential order. Furthermore, the edited image contains only four main labeled stages (Business Understanding, Img Data Understanding, Data Preparation, Creslentor Deployment) and lacks labels for 'Modeling' and 'Evaluation,' deviating from the described sequence.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a bidirectional connection (e.g., two-way path or mutual interaction) between the \"Business Understanding\" and \"Data Understanding\" stages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, there are standalone visual representations of stages with individual animal characters interacting in a scenic setting, yet no explicit graphical paths or arrows indicate a bidirectional connection between Business Understanding and Img Data Understanding.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a bidirectional connection (e.g., two-way path or mutual interaction) between the \"Data Preparation\" and \"Modeling\" stages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image does not feature any clear arrows or paths that symbolize connections or interactions between stages. It lacks a clearly defined 'Modeling' stage labeled as such. The charming depiction of animals and the cartoonish path do not substitute for a structured, clear bidirectional graphical indicator.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a central data source located at the center of the diagram, accessible to all six stages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The center of the edited image is occupied by a campfire surrounded by characters, not a symbolic central data source like a database. The representation is more thematic rather than functional or process-oriented as in technical diagrams.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the diagram include a clear return path from the \"Deployment\" stage back to the \"Business Understanding\" stage, completing the cycle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image consists of separate labeled areas without any visible paths explicitly connecting 'Creslentor Deployment' back to 'Business Understanding.' The diagram is more whimsical and schematic, lacking in distinct arrows or cycle-completing paths.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.0
+}

@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The instruction specifies that the image should be in \"cartoon style,\" which implies exaggerated features, smooth lines, bright colors, and stylized forms. This is a clear stylistic requirement that must be evaluated based on visual cues such as line quality, color saturation, and character design.",
+      "question": "Is the pig rendered in a cartoon style with exaggerated features and bright colors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The instruction explicitly states that the pig's proportions should be adjusted to have a larger head and smaller body. This is a direct geometric transformation requirement that can be verified by comparing the relative sizes of the head and body.",
+      "question": "Does the pig have a significantly larger head compared to its body?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The instruction requires multiple distinct poses including DJing with green sunglasses. Since the original image shows the pig DJing but with red sunglasses, this must be checked to ensure the correct color (green) is used in the edited version.",
+      "question": "Is the pig wearing green sunglasses while DJing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The instruction specifies that the background should be disco-themed and rendered in watercolor style. Watercolor backgrounds are characterized by soft edges, blended colors, and translucent washes, often with visible brushstrokes or texture.",
+      "question": "Is the background a disco-themed watercolor painting with soft, blended colors and visible texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The instruction requires blank chat bubbles framed by vivid soundwave patterns. These are specific graphical elements that must be present and correctly designed—chat bubbles should be empty and outlined with dynamic, wave-like shapes resembling audio waves.",
+      "question": "Are there blank chat bubbles present in the image, each framed by vivid soundwave patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0115",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the battlefield scene in the background appear naturally integrated without unnatural textures or color clashes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analysis of Image B shows that the battlefield background features an explosion with vibrant colors that contrast starkly with the character's lighter, sketch-like appearance. The texture and artistic style of the character do not match the realistic textures of the explosion and background, which creates a noticeable clash in visual presentation, indicating a lack of natural integration.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the character's pose and facial expression consistent with the original image and not distorted by the new background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The character retains the same pose and expression from Image A, which involves a look of surprise or horror with hands placed on cheeks and mouth agape. The background change does not alter these features; hence the pose and expression remain consistent despite the new background.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the battlefield scene in the background avoid broken geometric shapes and retain fine details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The battlefield scene in Image B displays clear, intact geometric shapes, such as soldiers and weapons, and detailed explosion effects. There do not appear to be any broken shapes, and the details, such as smoke and fire, are clearly visible.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there no visible artifacts or blending issues where the new battlefield scene meets the edges of the character?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon close examination of Image B, the edges around the character do not exhibit noticeable artifacts or blending issues. The transition between the character and the background is clean, without visible mistakes that would disrupt the visual continuity.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the explosion in the battlefield scene coherently match the character’s expression and contribute to the overall natural appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The character's expression of surprise or horror aligns with the dramatic explosion in the background, suggesting a reaction to the chaotic environment. However, due to the mismatch in art style and details between the character and background, the explosion does not contribute to a coherently natural appearance.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_871",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the bite mark present on the right side of the pear-shaped animal, exposing white flesh with an irregular edge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pear inside the glass cube has its bite mark placed prominently towards the front, facing the viewer, with white flesh exposed and an irregular edge. World knowledge tells us that such a bite mark exposes the fruit's interior and suggests consumption. The bite mark in this image is facing forward rather than to the side. Comparing to Image A, where the bite mark is clearly on the right side, the edited placement differs. Therefore, the bite mark isn’t on the right side in Image B but rather at the front.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the interior surface of the glass cube display a visible wood grain pattern with a warm brown color matching the original wooden backdrop?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a glass cube encasing the pear, but the cube's interior surface appears seamless and transparent, not displaying any wood grain patterns or any color that would extend from the cube's contents to the exterior. Comparatively, Image A, which is unrelated to having a cube, shows a wooden surface. However, no visible wood grain inside the cube suggests that the cube takes its visual properties from the external backdrop rather than exhibiting its texture.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the pear-shaped animal retain the small brown speckles across its outer surface, mimicking the original pear’s skin texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pear within the glass cube shows the familiar small brown speckles across its surface, indicative of a typical pear’s skin texture. Such spotting is characteristic of many pear varieties and conveys a sense of real-life detail. Image A also exhibits similar speckling on its pear outside the cube. The likeness in spot distribution between the original and edited images is consistent, confirming the retention of this feature in Image B.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is a brown stem present at the top of the pear-shaped animal, extending upward from the narrow end?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a pear within a glass cube with a brown stem on its top, extending upward from the narrow end, retaining the classic feature of a pear. This is consistent with Image A, where there is also a brown stem on top of the pear. The presence of the stem in both images indicates that this element of the pear's anatomy has been maintained in the edited image.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the pear-shaped animal maintain the classic teardrop silhouette with a narrow neck and broad base, matching the original pear’s outline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the silhouette inside the glass cube maintains a teardrop shape with its narrow neck and broad base, characteristic of a classic pear shape. Image A presents a similar teardrop outline for the pear beside the phone, ensuring a visual match in shape between the original and the edited images.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the lighting tones in the edited image warm, with golden-brown highlights and soft shadows consistent with the original image’s color palette?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents lighting that is warm-toned, with golden-brown highlights, reflecting light in a way that complements the wooden background. This visual warmth and light treatment are maintained from Image A, which similarly displays warmth through golden hues and soft shadows on the wood surface and objects, showing a deliberate consistency in tonal quality.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5714285714285714
+}

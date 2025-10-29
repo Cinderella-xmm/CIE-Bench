@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_100_47",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the mirror-like surface in the foreground reflect the sky, trees, and Eiffel Tower with clear, undistorted imagery and smooth texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the mirror-like surface, while reflecting the Eiffel Tower, appears to be a part of a paper-cut or diorama-style art piece. The reflections are not meant to be photographic, real-world reflections but rather an artistic representation involving etched paper figures and objects. Therefore, the answer is based on whether the diorama style aligns with realistic reflections. The representation doesn't capture a realistic reflection, as the figures are part of the artistic design with a flat, decorative appearance, thus opting that the reflections are neither clear nor undistorted in a traditional sense.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the distant buildings and tree clusters positioned at distinct depth layers without overlapping or misaligned edges that suggest incorrect layering?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cityscape backdrop and tree clusters are part of a layered diorama. Each layer is individually cut and placed, suggesting a 3D effect that mimics depth. The design specifically aims at creating a sense of depth through careful alignment and distinct positioning, avoiding overlapping or misaligned edges. This coherent layering approach symbolizes intentional artistic depth, correctly portraying depth layering.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the small pedestrian figures on the pathways have consistent proportions, recognizable body parts, and smooth textures without visible deformities or clipping artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examination of Image B, the pedestrian figures are stylized cutouts in the diorama. They exhibit an intentionally simplified silhouette rather than detailed, lifelike figures. The entire image reflects this style consistently without deformities or clipping artifacts, indicating the figures' portrayal within the artistic style chosen retains consistency and coherence.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the dark frame with metallic edges present around the entire perimeter of the image, appearing solid and uniformly integrated without breaks or misalignments?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the frame surrounding the diorama appears solid and uniformly integrated. It encases the entire art piece as expected for a structured diorama, ensuring no apparent breaks or misalignments. The use of uniform frame design suggests an intentional artistic choice for durability and presentation, characteristic of diorama displays with a consistent structure.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the engraved city names and coordinates along the frame legible, precisely aligned, and free from pixelation or uneven spacing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the city names and coordinates are part of the diorama frame. They appear to be in a stylized font that matches the artistic choice for the frame rather than clear, readable text. The appearance might involve intentional text pixelation or uneven spacing as part of the design rather than readable notation common in conventional image text.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

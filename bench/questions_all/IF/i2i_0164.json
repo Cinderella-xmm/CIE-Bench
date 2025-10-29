@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The sub requirement is about removing people from the image. To verify this, we need to ensure no one is seen atop the train.",
+      "question": "Are there still people on top of the train?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "No",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Adding a conductor involves ensuring there is an individual placed correctly on the train. We focus solely on the presence of a new figure resembling a conductor.",
+      "question": "Is there a conductor standing on the train?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The conductor holding a flag with a logo requires checking for both the flag and its visual representation of a logo.",
+      "question": "Is the conductor holding a flag?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "This question targets the presence of a logo on the flag, a detail specified in the instructions. It assesses the incorporation of this design element.",
+      "question": "Does the flag have a visible logo on it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "This question checks the overall action of adding the conductor and verifying the removal of existing people. It ensures all changes are correctly executed as per the instructions.",
+      "question": "Have the original people from the top of the train been removed and replaced by a conductor holding a flag with a logo?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

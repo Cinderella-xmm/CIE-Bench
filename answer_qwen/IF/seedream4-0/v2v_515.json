@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_515",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there ten Russian nesting dolls in total, with five dolls representing each person?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a row of Russian nesting dolls arranged on a wooden table. By visually counting the dolls, we can observe that there are seven distinct dolls in a decreasing size sequence from left to right. Each doll is unique in size and design but represents a single individual, not multiple instances of the same person. The concept of 'five dolls representing each person' implies duplication or multiplicity per individual, which is not present here. Russian nesting dolls (matryoshka dolls) are traditionally designed as a set where one doll fits inside another, typically forming a sequence of decreasing sizes. In this case, there are seven dolls, not ten, and each represents a different character or figure. Therefore, the claim of ten dolls with five representing each person is incorrect.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the Russian nesting dolls placed on a sophisticated wooden table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the Russian nesting dolls are positioned on a polished wooden table. The table exhibits ornate carvings along its edges and legs, including floral and scroll-like patterns, suggesting craftsmanship and elegance. These details indicate that the table is not merely functional but also decorative, aligning with the definition of a 'sophisticated' piece of furniture. The wood has a rich, warm tone and a reflective surface, further emphasizing its refined appearance. Based on these visual cues and common knowledge about furniture design, it is reasonable to conclude that the table is indeed sophisticated.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are vibrant board game boxes visible in the backdrop?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background consists of bookshelves filled with colorful boxes. These boxes display various titles and artwork, such as 'Candy Land' and 'Pandemic,' which are well-known board games. The packaging features bright colors and illustrative designs typical of board game boxes. Given the context of a store or collection environment and the recognizable branding and imagery, it is evident that these are board game boxes. Their vivid colors and detailed artwork contribute to a vibrant backdrop. Thus, the presence of vibrant board game boxes in the background is confirmed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the Russian nesting dolls exhibit chibi-style features such as large heads and simplified designs?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The Russian nesting dolls in Image B have exaggerated proportions, particularly with large heads relative to their bodies, which is a hallmark of chibi art style. Their facial features are minimalistic—small eyes, simple mouths, and no detailed expressions—further indicating a simplified design. Additionally, their clothing is stylized with bold outlines and flat colors, lacking intricate textures. These characteristics align with the chibi aesthetic commonly seen in anime and cartoon art. While traditional matryoshka dolls often feature more realistic proportions and detailed hand-painted elements, these dolls clearly deviate into a modern, stylized form consistent with chibi design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image have a horizontal aspect ratio of 3:2?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "To determine the aspect ratio of Image B, we assess its width-to-height proportion. Visually, the image appears wider than it is tall, consistent with a landscape orientation. The ratio of width to height seems balanced, resembling standard photographic formats like 3:2, which is commonly used in DSLR cameras and prints. A 3:2 ratio means the width is 1.5 times the height. Observing the frame, the image does not appear stretched or cropped in a way that suggests a different ratio such as 16:9 or 4:3. Furthermore, comparing it to known dimensions (e.g., typical photo prints), the proportions align closely with 3:2. Therefore, based on visual assessment and common image formatting standards, the aspect ratio is likely 3:2.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

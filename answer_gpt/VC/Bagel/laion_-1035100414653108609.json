@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-1035100414653108609",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the text \"NATIONAL ZOOLOGICAL PARK, WASHINGTON, D.C.\" present at the top center of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, at the top center, the text 'NATIONAL ZOOLOGICAL PARK, WASHINGTON, D.C.' is visible. The placement and style suggest it is intended to label the location associated with the image.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the text \"WART HOG\" present at the bottom center of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text 'WART HOG' is clearly visible at the bottom center. This labeling is consistent with identifying the creature depicted in the image.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the ground beneath the warthog covered with dry, pale yellow straw?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the ground is not covered with dry, pale yellow straw. Instead, the ground appears animated or drawn with fantasy elements and mushrooms, without any straw. This change contributes to the imaginative theme of the edited image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the background behind the warthog a dark green-brown gradient, resembling an indoor or shaded enclosure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background is not a dark green-brown gradient but rather a fantasy forest scene with trees and an eerie blue-green hue, indicating an outdoor environment. This contrasts the original description of an indoor or shaded enclosure.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a white border surrounding the image, separating the artwork from the edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a discernible white border around the artwork, serving as a frame that separates the main image from the edges. This is a common feature in print media to define the limits of the artwork.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the code \"5A-H618\" present in the bottom right corner of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the code '5A-H618' is visible in the bottom right corner, printed in a similar manner to typical identification or catalog numbers on printed postcards or artworks.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

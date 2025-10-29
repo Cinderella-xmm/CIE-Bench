@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_329",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the original colors of the bicycles preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the colors of the bicycles are distinctly vibrant and simplified to cartoon-like shades of red, blue, and pink. Analyzing Image A, the colors include more muted tones such as red, blue, beige, and black, with distinct finishes. The comparison shows a significant alteration in the color tones and schemes, with Image B moving to a more playful and brighter palette which does not match the original colors found in Image A.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the original designs and structural details of the bicycles preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents bicycles with simplified, cartoonish features with reduced structural detail, such as a lack of distinct gear mechanisms and streamlined frames. In contrast, Image A displays bicycles with more refined, realistic detailing, including visible gear systems, brake cables, and more sophisticated design elements. The comparison indicates that the structural details have been altered extensively in the edited image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the original arrangement and relative positions of the bicycles preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The arrangement in Image B shows three bicycles positioned close together with a tandem bicycle in the middle. In Image A, the arrangement is very similar, with a tandem bicycle also placed centrally. Despite stylistic differences, this relative positioning and general arrangement of bicycles align closely in both images.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the shadows cast by the bicycles and their alignment with the window grid preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The shadows cast in Image B are highly stylized and simplified, consistent with the cartoon-like depiction, and don't show a detailed alignment with any background elements, unlike the more realistic shadows in Image A. In Image A, shadows are intricately detailed, reflecting the geometry of bicycles and are more aligned with the floor and background elements. This indicates the shadows are not preserved in the edited image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the warm, diffused lighting from the window preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a bright and flat lighting scenario, typical of something more animated, which contrasts with the warm, diffused sunlight variation in Image A. In Image A, the lighting creates a soft, ambient tone that is associated with a warm light source, which is not represented in the edited image. Thus, the lighting ambience has changed.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.18181818181818182
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0156",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Do the book pages extend out of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the edited image, the pages appear flush and contained within the frame of the image itself. The edges of the pages are visible, and there is no indication that they extend beyond the visible boundaries of the image. This observation relies on the visual alignment and containment of the book within the image's borders.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a subtle curved shadow on the extended pages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on the visual inspection of Image B, there is a notable curved shadow towards the right side of the open book. This shadow suggests depth and highlights the curvature of the raised page, which is consistent with how light typically interacts with upturned or slightly moved pages in a physical book.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the editing convey the impression that the book is unfolding toward the viewer?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B gives an impression of the book being slightly turned due to the visible shadows, the light falling on the pages, and the positioning of the opening. The pages appear to be in a state of transition, suggesting an unfolding movement, as the lifted page edges create a dimensionality suggesting movement towards the viewer.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the extended pages visually consistent with the original book pages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The visual texture, color gradient, and font style of the extended page in Image B match those of the original visible pages. This consistency is deduced from the seamless nature of the color and texture flow, which indicates a uniform appearance throughout the observed portion of the book.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a seamless transition between the original and extended parts of the book pages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes  \n```",
+      "explanation": "In Image B, the transition between parts of the book pages appears smooth and uninterrupted. This observation is supported by the uniform coloration, texture, and alignment between the original and extended areas, suggesting effective editing where no obvious lines or discrepancies are noticeable.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

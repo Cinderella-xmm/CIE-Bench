@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0046",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image have a white border surrounding it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the scene appears to be enclosed by a distinct, uniform white border. Such a border design is reminiscent of those used in polaroid-style photographs. The consistency in width and color throughout the perimeter supports the conclusion that the border is indeed white.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the caption “11:13 AM” visible at the bottom within the white border?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, at the bottom within the white border region, there is a visible caption '11:13 AM'. The placement is typical for captions on the bottom part of polaroid-style borders, and the text is clear against the white background, making it easily discernible.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Has the faded effect been applied to the entire image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing Image B, the vibrancy and contrast appear consistent with natural photographic coloration and do not present the characteristics of a faded effect, where colors would typically be washed-out or less vibrant.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the image have a paper-like grain texture applied to it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "When examining Image B, a grainy texture typically associated with paper or film is not prominently visible. The image retains a smooth appearance without the apparent speckled detail that characterizes a grainy texture.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the original composition and elements of the image preserved, aside from the added white border, caption, faded effect, and grain texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "A comparison with Image A indicates that the primary elements, including the skater and background, remain intact in Image B. While Image B includes a white border and caption, these additions do not alter or obscure the original composition. The lack of a faded effect or grain texture ensures that the content remains visually consistent with Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

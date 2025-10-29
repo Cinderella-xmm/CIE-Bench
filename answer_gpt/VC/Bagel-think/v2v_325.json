@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_325",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the blue car in the upper left position still rendered in blue?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a blue car appearing among the cereal boxes with characters. This car is indeed rendered in blue, which suggests the color has been retained despite changes in context. By observing the hue and comparing to general color standards, the car remains blue.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the red car in the upper middle position retain the compact sedan body shape with a sloped roofline and four doors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the red car visible on the cereal box lacks the typical compact sedan characteristics such as the sloped roofline and four doors that were observable in the original image. The car in Image B is designed more like a cartoonish vehicle without specific features of a sedan like four doors and distinct roofline.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there exactly eight cars depicted in the final image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are three recognizable cars on and around the cereal boxes, quite unlike Image A which features a truck carrying seven cars. This discrepancy can be assessed through visual count, confirming that Image B does not show eight cars.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the yellow car located in the upper middle-right position still yellow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the representation of a yellow car appears on one of the cereal boxes. It retains the yellow color visually, which is a match to typical color perceptions. This indicates the color consistency from original Image A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does each car have four wheels, with two at the front and two at the rear?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the vehicles represented on the cereal boxes are cartoon-styled, but they visibly possess four wheels based on their artistic depictions. Therefore, despite the transformation into a cartoon style, this common vehicular wheel arrangement appears intact.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the red car in the lower right position still red and retains the compact sedan shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the red car has transitioned into a cartoon representation. While the color remains red as in Image A, the car does not retain the compact sedan shape; instead, it is more rounded, losing the sedan's typical defined structure. Visual characteristics point to shape alteration.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

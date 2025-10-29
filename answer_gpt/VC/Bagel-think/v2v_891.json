@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_891",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain a central object resembling a monitor, even in a stylized form?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the central object within the packaging window is a rectangular screen displaying an image of a room with a table and furniture, which resembles the monitor in Image A. This conclusion is drawn from the screen's shape, position, and the distinct depiction of a digital display, despite the stylized and packaged presentation in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image include an object resembling a speaker, even in a stylized form?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are two black rectangular structures flanking the monitor within the packaging. These resemble the speaker in Image A based on their shape and general location. Although Image B is presented in a toy-like, stylized form, these elements still visually and positionally correspond to the speakers seen in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image include an object resembling a computer tower, even in a stylized form?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not include an object similar to the computer tower in Image A. The visuals focus on the central screen, speakers, keyboard, mouse, and an added figurine, with no distinct component resembling the computer tower's structure or placement.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image include an object resembling a keyboard, even in a stylized form?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, below the monitor, there is a flat, elongated structure that shares the characteristics and general location of a keyboard, akin to the one seen in Image A. This assessment is based on the typical positioning and shape associated with a computer keyboard.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image include an object resembling a mouse, even in a stylized form?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B contains a small, rounded object positioned next to the keyboard in the packaging setup, similar to the item's placement relative to the keyboard in Image A. This object resembles a computer mouse, recognized by its compact and familiar shape, reinforcing its identification as such despite the stylistic adjustments.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

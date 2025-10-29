@@ -1,0 +1,92 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The oval shape of the mango is its most fundamental identifier. A mango is distinguished from other fruits (like lemons or peaches) by its elongated, asymmetrical oval form. If this shape is distorted or replaced with a round or square form in the pixel art version, the object would no longer be recognizable as a mango. Thus, preserving the oval silhouette is a core identity feature, making it a 3-point question.",
+      "question": "Is the mango depicted with an oval shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The stem at the top of the mango is a distinctive anatomical feature that confirms it is a whole, uncut mango. Its absence would make the fruit appear artificial or altered. In pixel art, even if simplified, the stem must still be present at the apex of the mango to maintain authenticity. This is a key identification point, hence a 3-point weight.",
+      "question": "Is there a small stem visible at the top of the mango?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The paper towel is folded into a cradle-like structure that supports the mango. This specific arrangement is crucial to the scene’s composition and function—it prevents the mango from rolling and adds visual interest. The folded form must be preserved in the pixel art version to maintain the intended presentation. While texture may be lost, the structural fold must remain. This is a key functional and compositional element, so it receives a 2-point weight.",
+      "question": "Is the paper towel folded into a cradle-like shape beneath the mango?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The four distinct flaps of the paper towel are a unique detail that contributes to the symmetry and artistic framing of the mango. They are not just decorative but define how the paper towel interacts with the mango. Losing them would alter the visual balance and reduce the scene’s clarity. This is a secondary but important detail, so it is assigned 2 points.",
+      "question": "Are there four clearly defined flaps extending from the paper towel?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The mango is centered on the table, which is a key compositional choice in the original image. Moving it off-center would disrupt the visual harmony and focus. Even in pixel art, the central placement must be maintained to preserve the original intent. This is a critical layout element, so it is weighted at 2 points.",
+      "question": "Is the mango positioned in the center of the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The wooden table has a visible horizontal grain pattern that defines its material and texture. While the pixel art style will simplify this, the grain direction and linear pattern must be preserved to maintain the table’s identity as wood. Changing it to vertical or random lines would misrepresent the original. This is a detail-level but important visual cue, so it is given 1 point.",
+      "question": "Does the table show a horizontal wood grain pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The partial wooden chair behind the table provides environmental context and depth. Its presence and basic shape (rectangular backrest, vertical supports) must be retained to preserve the domestic setting. Removing or distorting it would break the scene’s realism. This is a supporting scene element, so it is worth 2 points.",
+      "question": "Is a wooden chair partially visible behind the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q8",
+      "thinking_process": "The diagonal shadow cast by the mango on the table indicates the direction of the light source and adds depth. It is a key part of the lighting logic in the original image. Even in pixel art, the shadow must be present and aligned with the mango’s position to maintain spatial coherence. This is a functional lighting element, so it is assigned 2 points.",
+      "question": "Is there a diagonal shadow cast by the mango onto the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

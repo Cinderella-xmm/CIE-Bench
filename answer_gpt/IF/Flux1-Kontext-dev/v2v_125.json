@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_125",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly six chibi-style stickers in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows multiple chibi-style figures and elements. Counting these figures reveals a total of nine stickers: seven chibi characters and two horse figures. Therefore, the number of stickers in the edited image exceeds six.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the chibi characters in the stickers have oversized, expressive eyes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi characters are depicted with typical anime-style characteristics, which includes oversized, expressive eyes that are drawn larger than normal proportion to emphasize emotions and characters. This style is common in chibi representations.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the background of the stickers feature warm, earthy tones along with subtle stars or confetti?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background of Image B is white; however, it is filled with warm elements such as stars and hearts in yellow and orange tones, creating an overall warm and cheerful appearance. These earthy tones are complemented by subtle stars, aligning with the question prompt.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the aspect ratio of the edited image 9:16?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B appears in a square format rather than a rectangular format that would indicate an aspect ratio of 9:16. The square format suggests an aspect ratio closer to 1:1, thus not matching the 9:16 aspect ratio description.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the rider’s shirt depicted in a chibi style and retains the beige color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi characters are shown wearing shirts that appear in a beige color. This aligns with the color of the shirt observed in the original image, and the chibi style simplifies and exaggerates certain features while retaining the original color.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

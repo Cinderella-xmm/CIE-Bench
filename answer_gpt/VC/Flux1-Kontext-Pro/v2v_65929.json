@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_65929",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the spatial arrangement and relative positions of the machinery consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the spatial arrangement and relative positions of the machinery appear to be consistent with Image A. The machinery units, as well as the conveyors and other components, maintain the same sequence and orientation as observed in Image A. This conclusion is drawn from a careful examination of the layout and positioning relative to one another, confirming consistency despite the color and texture transformation.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the ceiling trusses still providing structural support in the same manner as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the ceiling trusses are visually similar in form and positioning to those in Image A. They continue to serve their structural purpose as evidenced by their unchanged orientation and arrangement, indicating that despite the visual transformation, their functional role remains unchanged.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the overall proportions and layout of the room match the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The overall proportions and room layout in Image B is consistent with Image A. The spatial relationships between the walls, machinery, and ceiling appear unchanged, as evidenced by the relative lengths and widths maintained in the edited image, suggesting that the layout is consistent with the original.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the position and extent of the wall (now transformed into gingerbread) consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the wall transformed into a gingerbread appearance remains in the same position and extent as in Image A. By comparing the height, length, and location relative to other room elements, the fundamental dimensions and extent of the wall appear unchanged despite its visual transformation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the floor (now a river of chocolate) still serve as a base for the machinery in the same way as the original concrete floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the floor has been transformed into a river of chocolate, which visually suggests instability compared to Image A's concrete floor. Historically, machinery requires a solid base for support, which the chocolate river does not provide. Thus, while visually occupying the same space, it does not serve the same structural function as the original concrete floor, indicating a different role.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8888888888888888
+}

@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of \"adding a textured grain overlay to achieve a retro aesthetic,\" this involves modifying the entire image surface to simulate vintage paper texture. The editing position is the full image canvas, particularly affecting fine details like clothing textures, skin tones, and background elements. This change must preserve structural coherence and avoid introducing unnatural noise patterns or loss of detail in critical areas such as facial features, ball stitching, or uniform fabric.",
+      "question": "Does the textured grain overlay appear uniformly distributed across the entire image without causing visible distortion or obscuring fine details such as the soccer ball’s pentagons or facial features?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of \"enhancing reds and greens for vibrancy,\" the editing targets specific color channels in the image—particularly the red stripes of the player’s jersey, socks, and grass field. This adjustment must not result in unnatural color saturation, clipping, or hue shifts that compromise realism (e.g., making skin tones reddish or green grass unnaturally bright). The focus is on maintaining natural material appearance in textiles and natural surfaces.",
+      "question": "Are the enhanced reds in the jersey and socks vivid but still within natural color bounds, with no visible color bleeding into adjacent areas like skin or shadows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of \"simplifying houses and trees into minimal silhouettes,\" the background elements (houses, trees) are to be stylized. The editing positions are the residential buildings and tree canopies in the distant background. These should lose detailed architectural features and foliage textures while retaining basic shapes. The concern is whether the simplification leads to geometric distortions or unnatural proportions (e.g., misaligned roofs or truncated tree trunks).",
+      "question": "Are the houses and trees in the background reduced to simplified silhouettes without losing their basic structural form or introducing broken edges or floating shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of \"adding headlines at the top mentioning '1962 Champions' and 'Inside: The Game Changers',\" the editing position is the upper portion of the image. The text must be integrated without overlapping key visual elements (like players’ heads or the sky), and must use bold serif fonts consistent with retro magazine design. The concern is whether the text appears legible, properly aligned, and visually plausible within the composition.",
+      "question": "Are the added headlines positioned at the top of the image without overlapping or obscuring important figures or scenery, and do they maintain clear, readable letterforms without pixelation or warping?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of \"using 'Footy Legends' in large uppercase across the bottom,\" the editing position is the lower edge of the image. This involves placing large text over the playing field, potentially covering parts of the grass or player shadows. The font style and placement must not disrupt the visual balance or obscure critical foreground elements like the ball or the player’s foot. The concern is whether the text integrates naturally into the scene without appearing layered or disconnected.",
+      "question": "Is the text \"Footy Legends\" placed across the bottom of the image in a way that does not block essential foreground elements like the soccer ball or the player's foot, and does it blend cohesively with the background without sharp edges or misalignment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

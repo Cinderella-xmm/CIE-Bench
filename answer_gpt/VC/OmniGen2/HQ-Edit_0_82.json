@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_0_82",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the elderly man in a tai chi stance with his right leg bent in a lunge, left leg raised behind him, right hand forming an \"ok\" gesture near his face, and left hand resting at his waist?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the man is standing with legs and arms positioned similar to tai chi movements; however, neither leg is raised behind him as they are both firmly grounded. His right knee is bent, but his stance resembles more of a horse stance than a lunge. His right hand forms an 'ok' gesture near his face, while the left hand is not resting at the waist but is raised outward. Combining this visual information with world knowledge of tai chi stances helps determine the accuracy of the posture described.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the man’s feet bare, with the right foot flat on the tile and the left foot raised behind him?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the man's feet are clearly bare and both feet are placed flat on the ground. His left foot is raised slightly, stepping on an elevated platform, but is not extended or raised behind him. The analysis of foot positioning is based on visible cues and common stances in martial arts where feet are grounded for balance.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the man wear a light blue traditional robe with wide sleeves and visible fabric folds?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the man is dressed in a traditional robe, but it is white, not blue, and features wide sleeves. Visible fabric folds are apparent. This description is assessed through visual cues of garment detailing and historical knowledge of traditional martial arts attire which aligns with the description.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there cherry blossom trees with pink flowers and curved dark trunks lining a path in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, cherry blossom illustration is present with pink flowers, but the trees themselves do not have notable curved trunks nor is there a path visible as the background is a plain pink canvas. Hence, the described scene does not match the actual illustrated background.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the man standing on a surface composed of large square tiles with visible grout lines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the man appears to stand on an abstract or illustrated surface without visible grout lines, as the image lacks detailed texture to definitively reveal tiled flooring. Exploration of visual textures and lines is essential in discerning whether the surface matches this specific description.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the man have long white hair and a long white beard?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the man appears to have a depiction of hair color that mimics common aging traits, interpreted as white or light gray due to stylistic depiction consistent with stereotypical elderly appearance. Facial hair, though minimal due to illustration, suggests a beard form.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the man positioned in the foreground, facing toward the right side of the image, with a curved path receding into mist behind him and a bright light source in the upper-right corner?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B exhibits foreground placement facing forward, but there is no distinct curved path nor visible mist. Cherry blossoms are prominently the only environmental elements present. There is no bright light source identifiable in the upper-right corner within the illustration style.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.14285714285714285
+}

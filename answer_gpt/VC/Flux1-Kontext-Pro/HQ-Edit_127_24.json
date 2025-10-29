@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_127_24",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly two chalet-style buildings visible in the scene, positioned side-by-side on a snowy slope?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the scene is dominated by what looks like a village or a community with an elaborate icy structure in the foreground, rather than just two chalet-style buildings. A clear distinction of the same buildings as chalets on a snowy slope does not appear individually as in Image A, where two distinct chalet-style buildings were visible. Hence, Image B does not feature exactly two chalet buildings positioned side-by-side. This observation is based on the visual composition and architectural cues present in Image B.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there visible smoke rising from at least one chimney on a building?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays several buildings with chimneys where visible smoke is rising, suggesting that there is activity within those buildings, possibly indicating warmth and occupation. Recognizing the structures and the rising smoke indicates intended architectural functionality similar to human habitations with heating. Therefore, due to this analysis, we see visible smoke in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there multiple windows across both buildings that emit a warm yellow-orange glow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, while the scene shows various windows across the buildings, they appear to have a more icy-blue glow due to the ice castle aesthetic, contrasting with the warm yellow-orange glow typically associated with cozy interiors as seen in Image A. Thus, Image B does not feature warm yellow-orange glows in this interpretation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there tall, conical evergreen trees with snow-covered branches visible behind and around the chalets?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B includes tall conical evergreen trees with snow-covered branches in the backdrop, particularly around the village area. These trees contribute to the overall wintry aesthetic of the scene and reinforce the snowy nature of the image. The presence of these trees in Image B suggests similarity to what would typically be found around chalets.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a large, snow-capped mountain peak visible in the background, rising above the treeline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background showcases dramatic icy structures and phenomena rather than a classic mountain peak. The setting favors fantastical ice formations over geological mountain features. Hence, a classic snow-capped mountain peak is not a distinct element as it was in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there smooth, rounded snowdrifts in the foreground, casting soft shadows toward the right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The foreground in Image B features icy paths and structures without the soft, smooth, rounded snowdrifts as noted in Image A. These elements in Image B do not cast the same type of shadow one would expect from common snowdrift features. Thus, such snowdrifts are not present.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is there a bright, circular light source (moon) visible in the upper-right portion of the sky?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the centerpiece of the sky is the aurora representing a luminous feature, and a moon could have a specific round shape, possibly present but not conspicuously evident in the upper-right corner where the aurora dominates visually. Hence, there is no distinct bright, circular light source like a moon evident.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2857142857142857
+}

@@ -1,0 +1,71 @@
+Description of reference image: The subject is a black-and-white image of a dog with a black coat and a distinct white patch running down its snout and surrounding its muzzle. Its eyes are expressive, and it has a relaxed but alert posture, lying against a patterned blanket. The blanket features bold designs in black and white, complementing the monochromatic tone of the photograph. The background is simple and unobtrusive, keeping the focus on the dog.
+
+### Step 1 - Allowed Changes List:
+
+**Thinking process:**  
+The editing instructions specify reframing this image as a museum exhibit, implying significant changes to the scene context (adding a glass case, label, and lighting effects). However, these changes do not directly alter the dog's features or its physical form. Any modifications to the dog's position, size, or expression would violate the instruction’s intent of presenting it as a physical sculpture.
+
+**Allowed Changes List:**
+- Replace the entire background and scene with that of a museum setting, including a glass case and light focusing on the dog's face.
+- Add a descriptive label next to the dog, detailing the breed and story title.
+- Adjust the lighting to emphasize the dog's face similarly to how objects are lit in a museum exhibit.
+
+
+### Step 2 - Determine Elements That Should Remain Unchanged:
+
+**Thinking process:**  
+The core recognition elements include the dog's unique coat pattern, facial features, and overall appearance. These are essential for recognizing the dog as a physical sculpture of its breed. Functional/logical association elements pertain to preserving the dog's relaxed yet alert posture to maintain coherence with the museum exhibit setup. Remaining non-modified elements contribute to the visual consistency and fidelity of the dog as the main subject.
+
+**Preservation Targets List:**
+- The dog's black-and-white coat pattern with the distinct white markings around the snout and muzzle.
+- The dog's relaxed yet alert facial expression and posture.
+- The dog's ears and their positioning relative to its head.
+- The eyes and their reflective quality consistent with a living animal depicted as a sculpture.
+
+
+### Step 3 - Generate Yes/No Questions Based on Critical Visual Elements:
+
+{
+    Q1: 
+    Thinking process: The distinct white markings on the dog's snout and muzzle are crucial for identifying its breed and maintaining its unique appearance. This is a core element that should not be altered during the transformation into a museum exhibit sculpture.
+    Question: Is the white marking on the dog's snout and muzzle clearly visible in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The dog's black coat contrasted against the white markings is an iconic visual feature. Maintaining this contrast ensures the dog remains identifiable despite changes to the scene.
+    Question: Does the dog still have a predominantly black coat with clear contrast against the white markings?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The dog's relaxed yet alert posture is critical for the realism of the sculpture. Without this posture, the connection between the real dog and its sculptural representation weakens.
+    Question: Is the dog depicted in a relaxed yet alert posture in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The dog's ears are essential in maintaining its breed characteristics and are a logical part of the facial structure. Altering them would disrupt the visual consistency.
+    Question: Are the dog's ears positioned naturally in relation to its head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The reflective quality of the dog's eyes is a critical detail that conveys life and adds depth to the sculpture's portrayal. Losing this detail would diminish the overall effect.
+    Question: Do the dog's eyes retain their reflective quality in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

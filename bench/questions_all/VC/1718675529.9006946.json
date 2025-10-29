@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The ocean waves are the most dynamic and defining feature of the beach scene. Their presence is critical for identifying the environment as a coastal area. While their form may be changed to geometric curves, their existence and interaction with the shore must be preserved. If waves are absent or relocated away from the shore, the core identity of the beach scene is lost. This is a key element for scene recognition.",
+      "question": "Are ocean waves present and breaking onto the sandy shore?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The sandy shoreline is the foundation of the beach scene. Its continuous curve from the foreground to the right side defines the composition and leads the viewer's eye. Even in an Art Deco style, the landform must retain its basic shape and continuity. Altering its path or removing it would destroy the spatial logic of the scene.",
+      "question": "Is the sandy beach present and curving from the foreground toward the right side of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The palm trees along the distant coastline are iconic symbols of tropical beaches. Their presence anchors the location as a tropical region. Although they may be stylized into vertical lines, their existence and placement along the coast must remain. Removing them would misrepresent the environment.",
+      "question": "Are palm trees visible along the coastline on the right side of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The rocks in the foreground are distinctive physical features that add depth and texture to the scene. They are positioned near the waterline and are clearly visible in the original. While their texture may be simplified, their presence and approximate location must be preserved to maintain visual coherence and continuity with the original image.",
+      "question": "Are there three distinct rock formations visible in the foreground sand, clustered together near the right side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Footprints and ripples in the wet sand near the water’s edge are subtle but important details that convey recent human activity and the natural motion of the tide. They provide texture and narrative context. While their exact pattern may be stylized, their presence helps preserve the realism and consistency of the beach environment.",
+      "question": "Are footprints and ripple patterns visible in the wet sand near the water’s edge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The curved coastline extending into the distance, bordered by green hills, establishes the geographical context of the scene. This landscape feature is essential for maintaining the sense of place. Even if stylized, the arc of the coastline and the presence of hills behind it must remain to preserve spatial logic and environmental identity.",
+      "question": "Is the coastline visible as a curved line extending into the distance, with green hills rising behind it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The sky and horizon line define the time of day and atmospheric conditions. The presence of clouds and the gradient from warm orange near the horizon to blue above are crucial for conveying a sunset atmosphere. While the clouds may become symmetrical shapes, their overall position and color transition must remain consistent with the original scene.",
+      "question": "Is the sky visible above the horizon, featuring clouds with warm orange and pink tones near the horizon and transitioning to blue higher up?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

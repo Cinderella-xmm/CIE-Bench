@@ -1,0 +1,97 @@
+{
+  "filename": "laion_139232874518306658",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the subject wearing bright red lipstick?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the face is blurred, making it difficult to discern specific facial features such as lipstick color. Therefore, it is impossible to determine the lipstick color from the edited image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the sunglasses black with a rectangular frame and reflective lenses?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the sunglasses are visible and appear to have a black frame. Although the lenses are partially obscured by the blur of the face, the frames seem to follow a rectangular shape based on the visible parts of the sunglasses.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the subject’s hair pulled back tightly, revealing her forehead and ears?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image shows the subject’s hair pulled back smoothly in a style that typically reveals the forehead. The ears are not visible due to the blurring, making it impossible to confirm they are fully revealed.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are both hands visibly gripping the handles of shopping bags?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, both hands are visibly holding shopping bags with handles, indicating that the subject is gripping the bags securely.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is a light pink turtleneck visible underneath the coat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image clearly shows a garment underneath the coat with a high neck. The color appears to be light pink, suggesting it is a turtleneck.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the subject wearing a dark gray skirt?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, below the light pink turtleneck, the subject is wearing a lower garment. The visible part appears dark gray, resembling a skirt or pants.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is there a strong shadow cast on the right side of the subject’s face and body?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image shows shadows on parts of the subject, particularly on the lower part of the face and body. The presence of shadows indicates that lighting is creating contrasts, but the exact shadow intensity on the face is less clear due to blurring.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

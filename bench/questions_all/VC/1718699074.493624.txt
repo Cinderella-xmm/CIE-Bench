@@ -1,0 +1,96 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a colossal, humanoid robotic head sculpture resembling a fusion of ancient Egyptian pharaoh aesthetics and futuristic cybernetic design. The head is mounted on a stepped stone pedestal, with the structure appearing weathered and partially overgrown with green vegetation at its base. The face has a pale metallic skin tone, with glowing amber eyes that emit a faint internal light. The headdress is angular and blocky, composed of layered geometric panels in off-white and gray tones, with dark blue mechanical flaps extending from either side of the head, each featuring circular components resembling sensors or speakers. The neck is exposed, showing segmented mechanical joints and visible wiring beneath a translucent casing. The background consists of dilapidated industrial buildings under a hazy sky with scattered clouds, suggesting an abandoned urban environment. The lighting is soft daylight, casting subtle shadows across the structure.
+
+Thinking process:  
+The editing instructions specify transformation into a **futuristic digital billboard installation**, which implies the core form of the structure (the head) may be reimagined as a display surface. However, the instruction explicitly states to **"maintain architectural angles"**, meaning the overall shape and orientation of the structure must remain consistent. It also says to **"replace overgrowth with synthetic, glow-in-the-dark foliage"**, so natural plants are allowed to change. The surrounding buildings are to be **refined with contemporary metallic facades and augmented reality features**, indicating these can be modified. The instruction does not mention changing the facial features, eye color, or mechanical components directly, but it does say to incorporate **"dynamic neon animations"**—this suggests the face may become a screen, possibly altering its appearance.
+
+Allowed Changes List:  
+- The nature of the towering structure: transformed into a digital billboard installation (form/function changed).  
+- Surface material of the head: replaced with luminous panels and dynamic neon animations (visual texture altered).  
+- Overgrowth at the base: replaced with synthetic, glow-in-the-dark foliage (vegetation type changed).  
+- Surrounding buildings: refined with contemporary metallic facades and AR features (background architecture altered).  
+- Lighting effects: enhanced with neon and dynamic displays (illumination style changed).  
+- Functional purpose: shifted from static monument to interactive digital display (use case changed).
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements must be preserved if they define the identity of the original subject. In this case, the **distinctive headdress geometry**—specifically the angular, tiered crown with protruding side flaps—is a unique visual signature combining ancient Egyptian iconography with sci-fi design. Altering this would fundamentally change the identity of the structure. Similarly, the **glowing amber eyes** are a key identifier of the robot’s sentient or active state; their presence and color are central to the character’s expression and mood. The **stepped pedestal base** is architecturally significant and provides structural grounding for the head; modifying its form could disrupt spatial logic. The **mechanical neck joints** are part of the functional anatomy, implying articulation or movement capability—removing them would undermine the robotic nature.
+
+Functional/logical association elements include the **position of the head atop the pedestal**, which establishes scale and dominance in the scene. This vertical relationship must remain intact unless explicitly stated otherwise. Also, the **orientation of the head facing forward** is critical for viewer engagement and symbolic intent; turning it away would alter narrative impact.
+
+Non-modified element deduction: After excluding changes allowed by the instruction (e.g., surface textures, foliage, building styles), the remaining unmentioned details—such as the **facial symmetry**, **eye placement**, **shape of the lips**, **structure of the nose**, and **overall proportions**—must be retained because they are intrinsic to the identity of the figure. Even if the face becomes a screen, the underlying anatomical framework should persist to preserve recognition.
+
+Preservation Targets List:  
+- The angular, multi-tiered headdress with symmetrical side flaps  
+- The glowing amber eyes  
+- The stepped stone pedestal base  
+- The mechanical neck joints and segmented structure  
+- The forward-facing orientation of the head  
+- The facial symmetry and proportion (including nose, lips, jawline)  
+- The position of the head atop the pedestal  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The angular, multi-tiered headdress with symmetrical side flaps is the most iconic feature of the structure, combining Egyptian-style regality with mechanical design. Its specific geometric shape—especially the upward-pointing triangular top and wide lateral extensions—is essential for identifying the subject. If this form is altered or simplified, the structure loses its defining aesthetic and becomes unrecognizable. This is a core identity element, hence weighted at 3.
+    Question: Is the angular, multi-tiered headdress with symmetrical side flaps present and unchanged in shape and position?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The glowing amber eyes are central to the emotional and technological identity of the figure. They indicate sentience and serve as a focal point. Their color and luminosity are unique identifiers; replacing them with neutral or different-colored lights would misrepresent the original character. Since the instruction allows "neon animations," the eyes might be animated, but their fundamental color and location must remain consistent. This is a core recognition feature, thus weighted at 3.
+    Question: Are the eyes glowing amber in color and positioned symmetrically within the face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The stepped stone pedestal forms the foundation of the structure and defines its monumental scale. Its tiered, pyramidal shape is integral to the composition and echoes ancient architecture. Although the instruction allows refinement of surrounding buildings, it does not permit modification of the pedestal's basic form. Changing its shape or removing steps would distort the structure's balance and historical reference. This is a key architectural element, so it is weighted at 2.
+    Question: Is the stepped stone pedestal base present with distinct horizontal layers forming a pyramidal shape?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The mechanical neck joints are visible beneath a translucent casing and show segmentation, suggesting articulation. These are functional design elements that reinforce the robotic nature of the figure. Removing or smoothing them would make the figure appear less mechanical and more like a statue. While the instruction allows surface changes, the underlying joint structure should remain visible to maintain logical consistency. This is an important detail supporting the identity, so it is weighted at 2.
+    Question: Are the segmented mechanical joints visible along the neck, beneath a translucent casing?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The forward-facing orientation of the head is crucial for establishing direct engagement with the viewer. Any rotation or tilt would shift the narrative focus and break the intended symmetry. The instruction does not suggest changing the angle, so this posture must be preserved. It is a key compositional element affecting scene coherence, thus weighted at 2.
+    Question: Is the head oriented directly forward, facing the viewer without rotation or tilt?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The facial symmetry—including the alignment of the nose, lips, and jawline—is essential for maintaining the human-like quality of the robot. Asymmetry would make the figure appear damaged or alien, altering its perceived identity. Even if the face becomes a digital display, the underlying facial structure must retain its balanced proportions. This is a minor but necessary detail for visual coherence, so it is weighted at 1.
+    Question: Is the face symmetrically structured with aligned nose, lips, and jawline?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The position of the head atop the pedestal is a spatial relationship that defines the monumentality of the structure. Moving the head to a different base or floating it would violate the original composition and logical support structure. The instruction does not allow such relocation, so this positional relationship must be preserved. It is a foundational scene element, thus weighted at 2.
+    Question: Is the head positioned directly atop the stepped pedestal, supported by it without floating or being detached?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

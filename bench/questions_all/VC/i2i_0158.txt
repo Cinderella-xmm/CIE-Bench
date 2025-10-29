@@ -1,0 +1,74 @@
+Description of reference image: The subject is a red Ford Mustang sports car parked in front of a suburban home during sunset. The car is oriented slightly toward the viewer's left and features distinctive design elements including horizontal grille vents, a large Ford emblem on the grille, sharp LED daytime running lights, and sleek alloy wheels. The background consists of a garage door, beige siding, and some greenery, creating a residential setting.
+
+---
+
+### Step 1 - Allowed Changes List:
+
+Thinking process: The instructions specify combining the car’s front, left side, and rear views. This means altering the composition to a multi-view format while retaining the car's identity. Scene elements like the house, driveway, and landscape can be removed or replaced since the focus is solely on the car. The angles and perspectives of the car can be adjusted for a composite view.
+
+Allowed Changes List:
+1. Composition adjustment to include multiple car views (front, left side, rear).
+2. Removal or replacement of the background scene (house, driveway, trees).
+3. Adjustments to lighting and shadows to match a unified look for the car in different views.
+
+---
+
+### Step 2 - Determination of Elements That Should Remain Unchanged:
+
+Thinking process: Elements critical for recognizing the Ford Mustang, such as its distinct grille design, headlights, and color, must be retained. Functional elements like wheel structure and body shape are essential to maintain the logical consistency of a car. Remaining visual coherence demands keeping details like the emblem placement, grille texture, and wheel design consistent across views.
+
+Preservation Targets List:
+1. The red paint finish and its unique shine.
+2. The signature front grille design with the Ford emblem.
+3. The LED daytime running lights and their configuration.
+4. The specific shape and details of the alloy wheels.
+5. The car's overall body shape and proportions.
+
+---
+
+### Step 3 - Generation of Yes/No Questions Based on Critical Visual Elements:
+
+{
+    Q1: 
+    Thinking process: The red color is a critical visual identifier, representing the car's model and enhancing its sporty aesthetic. Loss of this color would significantly impact recognition.
+    Question: Is the car rendered in its original red color in all views?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The front grille and the Ford emblem are iconic identifiers of the Mustang. Altering them would make the car unrecognizable.
+    Question: Does the front view retain the detailed grille design and Ford emblem in its original position?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The LED daytime running lights define the car's modern appearance. Their absence would compromise recognition of the car's era and model.
+    Question: Are the same style and configuration of LED daytime running lights visible in both the front and side views?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The alloy wheels, with their specific design, contribute to the car's identity and need to be consistent across views for visual coherence.
+    Question: Do all views show the same specific design and detail of the car’s alloy wheels?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: Maintaining the car's shape and proportions ensures proper representation of the vehicle in different angles.
+    Question: Are the body shape and proportions of the Mustang accurately represented in all views?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

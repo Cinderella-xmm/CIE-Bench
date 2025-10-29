@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The wooden surface is the foundational scene element and is explicitly referenced in the instruction as the backdrop. Its texture, grain direction, and color are critical for maintaining visual consistency and grounding the mystical transformation. If the wood were replaced or significantly altered, the scene would lose its original context, making the edit inconsistent. This is a core scene element with high weight.",
+      "question": "Is the wooden surface with visible grain patterns and warm brown tones present and unaltered in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The relative placement of the two pendants—one in the foreground and one partially obscured in the background—creates depth and visual interest. Altering this arrangement would disrupt the original composition and spatial logic. Since no instruction specifies repositioning, this spatial relationship must be preserved. It is a key structural element of the image.",
+      "question": "Are the two feather pendants positioned such that one is in the foreground and the other is partially overlapped behind it, maintaining the original diagonal alignment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The lighting creates soft shadows under the pendants, indicating directional light from above. This enhances the three-dimensionality and realism of the scene. Removing or changing these shadows would alter the perceived depth and consistency of the environment. Though subtle, this is an important environmental cue that supports visual coherence.",
+      "question": "Do the pendants cast soft, consistent shadows beneath them on the wooden surface, indicating overhead lighting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The angle at which the pendants lie—diagonally across the frame from bottom-left to top-right—defines the image’s dynamic flow. Changing this orientation would shift the visual rhythm and make the composition feel disjointed. This angular alignment is a key compositional feature that must remain.",
+      "question": "Are the pendants aligned diagonally across the frame, extending from the lower-left toward the upper-right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The texture of the wood—its linear grain, slight imperfections, and variation in tone—is a defining characteristic of the background. Replacing or smoothing this texture would remove the rustic authenticity and undermine the original aesthetic. While not the subject, it is a secondary but significant detail contributing to the image’s identity.",
+      "question": "Does the wooden surface retain its natural grain texture, including variations in tone and minor imperfections, without digital smoothing or enhancement?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The edge of the leather feather where it meets the wooden surface shows a defined silhouette and slight lift, indicating physical separation. This helps distinguish the object from the background. Preserving this boundary ensures clarity in object definition. Though minor, it contributes to visual accuracy.",
+      "question": "Is the edge of the leather feather clearly defined against the wooden surface, showing a slight separation and shadow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

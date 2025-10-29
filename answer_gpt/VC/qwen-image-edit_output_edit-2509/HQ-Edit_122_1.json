@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_122_1",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the vertical cluster of lavender-like flowers with fuzzy purple petals present in the same structural arrangement as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lavender-like flowers have a vibrant arrangement with fuzzy, purple petals in a vertical cluster, closely resembling the structure seen in Image A. The petals and flowers are visually consistent between both images, though Image B features an additional character interacting with the flowers. The presence of similar floral structures in both images suggests that the cluster has been maintained.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a single blue flower with a yellow center located at the top of the flower cluster?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the blue flower with a yellow center is visibly positioned at the top of the lavender-like flower cluster. This visual detail is consistent with Image A, where a single blue flower with a yellow center is found in the same position. This recurring floral feature in both images strongly indicates that it has been preserved in the edited version.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the butterfly positioned with its legs touching the flower stem, maintaining physical contact?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B replaces the butterfly with a fairy-like creature, which is lovingly interacting with the flower by holding onto its stem. The original butterfly in Image A is indeed seen with its legs in contact with the flower stem. While the creature in Image B is not a butterfly, it maintains a similar interaction with the flower stem, suggesting a conceptual continuity of maintaining physical contact with the structure.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the wings of the butterfly fully spread in a side profile view, showing both left and right wings symmetrically?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, instead of a butterfly, there is a fairy-like creature with wings that are spread, although they are not symmetrical as would typically be seen in a butterfly's side profile. In Image A, the butterfly displays perfectly symmetrical wings in a full spread, adhering to the side profile perspective. Therefore, the butterfly's symmetry in wing display seen in Image A is not present in the edited Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the lighting in the image coming from above, casting a warm golden glow over the butterfly and flowers?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting appears to emanate from above, casting a warm, golden hue over the fairy-like creature and surrounding flowers, creating a luminous atmosphere similar to that in Image A. This illumination style, which is consistently warm and golden across both images, reinforces the perception of lighting originating from an overhead source.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

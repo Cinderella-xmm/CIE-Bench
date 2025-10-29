@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0067",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the chocolate donut been replaced with colorful macarons?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image (Image B), there are no chocolate donuts present; instead, there is a plate of colorful macarons in various shades like pink, green, yellow, and purple. By visually analyzing the scene and using common knowledge about food types, we can conclude that what is visible in Image B are macarons, and they have replaced any other items that may have been present in the original image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the original plate still present and is the arrangement of items on the plate unchanged?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image (Image B), the plate looks like a typical round, white plate, which is a common design for serving items like macarons or desserts. The arrangement appears orderly and symmetric, often seen in food presentations. Without direct comparison to Image A, common logic suggests that items have been swapped as per the previous analysis, confirming the arrangement of different items from what Image A may have contained.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Has the background been changed to a light gray tablecloth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background consists of a light gray tablecloth, which is visible and sets a neutral and elegant backdrop for the dessert items. Using knowledge of typical dining setups, tablecloths often serve as backgrounds for food presentations. Therefore, based on Image B alone, we can conclude the background is a light gray tablecloth.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the image exhibit the characteristics of food photography style, including proper lighting, focus, and composition?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases attributes commonly associated with food photography, such as well-balanced lighting that highlights the vibrant colors of the macarons, a focused shot that ensures clarity, and a well-composed scene where the arrangement is centered and aesthetically pleasing. These are key elements looked for in food photography, which often aims to make the food appear appetizing.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the macarons placed on the plate colorful and visually consistent with the context of the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The macarons in Image B are colorful, featuring bright hues like pink, green, yellow, and purple, enhancing their visual appeal. This choice aligns with common food photography practices where vibrant colors tend to make desserts more attractive, and such colors are generally consistent with a setting that involves showcasing sweet treats elegantly. Therefore, the macarons are visually consistent with the context.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

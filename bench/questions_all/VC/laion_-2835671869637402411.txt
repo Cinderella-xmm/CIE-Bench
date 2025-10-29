@@ -1,0 +1,117 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is an anime-style girl with long orange hair styled in twin pigtails, wearing a large black witch hat with purple frills and a gold trim. Her eyes are bright green, and she has a lollipop in her mouth. She wears a dark gothic dress with red ribbon accents, layered ruffles, and a corset-like top. Her legs are clad in red-and-black striped thigh-high socks, and she wears dark purple shoes. She sits cross-legged on stone steps in front of a dilapidated, vine-covered building with arched windows and iron bars. To her left is a woven basket filled with colorful candy, beside which sits a black cat with glowing yellow eyes. To her right is a carved jack-o'-lantern emitting warm light. The scene is dimly lit, with autumn leaves and vines framing the composition, creating a Halloween-themed atmosphere.
+
+Thinking process:  
+The editing instruction specifies transformation of the character into a **Victorian-era doll**, changing her **dress to layered lace garments with antique patterns**, retaining **dark tones**. It also requires replacing:
+- The **basket** → wooden sewing kit  
+- The **cat** → porcelain figurine  
+- The **pumpkin** → Victorian oil lamp  
+
+It does **not** mention changes to the **setting** (stone steps, ruins, arches), nor does it specify altering the **character’s position** or **overall posture**—only her appearance and associated objects. The instruction implies a shift in theme from Halloween to Victorian elegance, but **does not require removing or altering the architectural background**, nor does it suggest modifying the lighting mood or spatial layout.
+
+Allowed Changes List:  
+- Character’s form: transformed from anime girl to Victorian doll (including hairstyle, facial features, body proportions)  
+- Dress: replaced with layered lace garments in dark tones (but dark color palette retained)  
+- Accessories: basket → sewing kit; cat → porcelain figurine; pumpkin → oil lamp  
+- Character’s clothing style: changed from witch costume to Victorian attire  
+- Object types: all three key side elements (basket, cat, pumpkin) are replaced  
+- Character’s pose: may be adjusted slightly for doll-like rigidity, but sitting posture likely preserved  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements must be identified based on what remains **visually consistent** even after transformation. Since the instruction **does not** specify altering the **background architecture**, **stone steps**, **vines**, or **overall setting**, these should be preserved as they define the scene's identity and spatial logic. The **position of the character on the steps** and the **relative placement of objects** (left/right) are implied by the instruction to "create a scene evocative of a candlelit parlor"—suggesting that the **spatial layout** is to be maintained, though the thematic content of objects changes.
+
+Functional/logical association elements include:
+- The **character’s seated posture** on the steps—this defines the interaction between figure and environment.
+- The **presence of a light source** (originally pumpkin) now replaced by oil lamp—light source function is preserved, only type changed.
+- The **side-by-side arrangement** of objects (left: basket/cat → sewing kit/figurine; right: pumpkin → lamp)—spatial logic must remain intact.
+
+Non-modified element deduction:  
+All unmentioned aspects of the original image must be retained unless explicitly altered. For example:
+- The **arched window frames** and **iron bars** behind the character
+- The **vine-covered walls** and **fallen leaves**
+- The **stone step texture** and **scattered candy** on the ground
+- The **dim lighting** and **atmospheric shadows**
+
+These are not mentioned in the edit instructions and thus must remain unchanged to preserve visual coherence.
+
+Preservation Targets List:  
+- Stone steps and their positioning beneath the character  
+- Arched window openings with iron bars in the background  
+- Vine-covered walls and leafy overgrowth framing the scene  
+- Scattered colorful candies on the steps and ground  
+- Overall dim, atmospheric lighting with soft glow from the light source (now oil lamp)  
+- Character’s seated posture and cross-legged position  
+- Relative spatial arrangement of objects (left-right balance)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The stone steps serve as the foundational platform for the entire scene. Their presence and texture are essential to grounding the character and maintaining spatial continuity. Changing or removing them would disrupt the environmental logic and make the scene unrecognizable as derived from the original. This is a core structural element with high visual weight.
+    Question: Are the stone steps beneath the character present and textured with visible cracks and moss-like details?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The arched window with iron bars is a defining architectural feature of the background. Its shape and material are unique identifiers of the ruinous structure. Removing or altering it would change the setting’s identity and break the scene’s historical ambiance, making it inconsistent with the original.
+    Question: Is there an arched window with vertical iron bars visible in the background behind the character?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The vines and overgrown foliage are critical to the atmosphere and visual framing of the scene. They create depth and mystery, and their presence is central to the Halloween/gothic aesthetic. Their removal would leave the scene feeling bare and disconnected from the original mood.
+    Question: Are dark, twisting vines with dried leaves covering the walls and archways around the character?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The scattered colorful candies on the steps are minor but distinctive decorative elements. While not core to identity, they contribute to the narrative context (trick-or-treating) and provide visual contrast. Their absence would reduce consistency with the original scene.
+    Question: Are multiple small, round, multicolored candies scattered on the stone steps near the character?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q5: 
+    Thinking process: The character’s seated posture—specifically cross-legged with arms positioned near the chest—is a key compositional detail. Even if her form becomes a doll, this pose must be preserved to maintain continuity in action and spatial relationship to the environment.
+    Question: Is the character sitting cross-legged on the steps with her hands near her chest?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The relative positioning of objects—sewing kit/figurine on the left, oil lamp on the right—must mirror the original left-right balance. The spatial symmetry contributes to visual harmony. Reversing or misplacing them would break scene logic.
+    Question: Is the object replacement consistent with original placement: sewing kit and porcelain figurine on the left, oil lamp on the right?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q7: 
+    Thinking process: The ambient lighting, particularly the warm glow emanating from the light source (now oil lamp), is crucial to the mood. The original pumpkin provided directional illumination; the oil lamp must replicate this effect to maintain visual coherence and emotional tone.
+    Question: Does the oil lamp emit a warm, golden glow that illuminates the surrounding area, similar to the original pumpkin’s light?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

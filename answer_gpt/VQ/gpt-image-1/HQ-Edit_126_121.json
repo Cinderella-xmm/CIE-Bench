@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_126_121",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the gorilla's hands holding the bananas with five fingers each, and do the fingers have natural curvature and skin texture without deformation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the gorilla's hands are visible holding the bananas. By analyzing the visible parts of the hands and combining common knowledge about gorillas, which have four fingers and a thumb similar to humans, the fingers appear to be holding the bananas naturally. However, the exact number of fingers isn't explicitly visible nor can we confidently comment on the texture or curvature without deformation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edge of the cereal box blend naturally with the gorilla and background, without visible seams or lighting discontinuities?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cereal box is placed in a jungle environment with bright colors and well-defined edges. The box's edge against the background and the gorilla doesn't show any obvious seams or lighting discontinuities, suggesting it blends naturally in terms of composition.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the green and yellow colors on the cereal box consistent with the lighting and tone of the jungle environment, without abrupt shifts or oversaturated patches?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents a jungle-themed cereal box. The colors on the cereal box display general consistency with the jungle tones. There are no abrupt shifts or apparent oversaturation that would be out of place in a jungle scene, as the theme is consistent throughout the box artwork.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the banana motifs and leaf patterns on the box have realistic shadows and depth, matching the lighting direction of the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The lighting direction in Image B is consistent across the box, and the banana motifs and leaf patterns appear integrated into this scheme. They have appropriate shadows that are consistent with the perceived light source direction, suggesting realistic depth in relation to the scene.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the back panel illustration composed with correct perspective and scale, and is the text clearly readable without covering important parts of the gorilla or bananas?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The composition of the back panel in Image B seems well balanced, with the gorilla illustration and text positioned so that both are clearly visible without overlapping important elements like the gorilla holding bananas. The text is positioned such that it does not obscure or cover significant portions of the primary illustration, maintaining readability and informational clarity.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

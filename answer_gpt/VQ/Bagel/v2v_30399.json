@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_30399",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Do the giraffes' elongated necks appear structurally coherent and free from unnatural distortions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the giraffes are illustrated with exaggerated features for a caricature effect. The necks are drawn elongated and curved, and while this is a common portrayal style in caricatures, it fundamentally alters the natural structure of the giraffes. Using world knowledge, real giraffes have straighter and proportionate necks, indicating that in this caricature style, the necks are not structurally coherent in comparison to realistic portrayals.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the background unchanged and visually consistent with the original, without any artifacts introduced by the editing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background is completely altered to a plain, monochrome white space, typical of illustrations where focus is solely on the characters rather than background details. In contrast, Image A features a natural outdoor setting with trees and rocks. Thus, the backgrounds are vastly different, indicating the edited image introduces significant changes.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the giraffes' faces retain their natural appearance and fine details, avoiding any loss of detail due to the caricature style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Examining Image B, the giraffes' faces are stylized to fit a caricature theme which includes exaggerated features such as their eyes and mouths. These changes lead to a loss of the realistic fine details present in Image A. World knowledge informs us that caricatures often simplify or exaggerate details, fundamentally changing natural appearances.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the texture of the giraffes' coats appear natural and detailed, without any unnatural textures introduced by the editing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents the giraffes with a simplified texture characterized by stylized spots and outlines common in artwork. It lacks the detailed, realistic texture seen in Image A that depicts giraffes' natural coat patterns. Knowing illustrations aim for stylization over realism, the edited image introduces a less natural texture.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the overall composition and layout of the giraffes in the image remain visually credible, maintaining structural consistency?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the giraffes are composed with exaggerated body proportions typical of cartoon illustrations, which differ significantly from their natural portrayal in Image A. Structural consistency is affected by the caricature style, which tends to emphasize humorous or whimsical presentation over realism.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.0
+}

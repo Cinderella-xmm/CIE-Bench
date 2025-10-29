@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0028",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the woman in the image have a clear, noticeable smile?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman is depicted with a chibi-style drawing, which often emphasizes exaggerated expressions. Her drawn smile is strongly depicted, suggesting a happy demeanor. Using world knowledge of chibi art, where features are often simplified and smiles highlighted, this indicates she indeed has a clear and noticeable smile.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there exactly three teddy bears, each with a distinct red shirt containing a blessing text?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are three teddy bears, each wearing distinct red shirts. However, the text on the shirts doesn't read as normal language; instead, it seems to mimic text but isn't legible. This reflects artistic style rather than conveying specific messages as blessings. In Image A, the text is clear. Hence, the question technically could be answered as no referring to legible blessings.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the teddy bears positioned in front of the woman as she holds them?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman is seen holding three teddy bears positioned directly in front of her lap area. Using common knowledge, this is a traditional way people hold objects, like plush toys, when seated. Thus, they are indeed in front of her.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the woman wearing a checkered black-and-white jacket?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman is depicted wearing a simple solid-colored outfit without any visual checkered pattern. This contrasts with Image A, where the woman is wearing a black-and-white checkered shirt, suggesting a deliberate stylistic change in the edited version.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background kept simple with minimal distractions (beige wall and striped blanket)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B portrays a very simplified cartoon background with a plain beige color, consistent with the artistic style of minimizing distractions commonly employed in drawings. Therefore, it aligns with the notion of Image A having a simple background.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6363636363636364
+}

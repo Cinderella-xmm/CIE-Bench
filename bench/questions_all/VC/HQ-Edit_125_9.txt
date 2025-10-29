@@ -1,0 +1,108 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a young male soccer player in mid-action on a vibrant green football pitch, positioned centrally and slightly to the right. He wears a red-and-white vertically striped short-sleeve jersey with a white collar, dark gray shorts, long red socks with white cuffs, and black cleats with white stripes. His left leg is raised, balancing a classic black-and-white paneled soccer ball under his foot. He has short brown hair, a broad smile, and is looking toward the viewer. The background features a detailed suburban setting: houses with gabled roofs and chimneys, large rounded trees with dense foliage, and a crowd of spectators behind a metal fence. Other players are visible in the field—some in matching red-and-white kits, others in light blue or white shirts. The sky is light blue with soft clouds, and the lighting suggests bright daylight casting sharp shadows.
+
+Thinking process:  
+The editing instructions specify a transformation into a **vintage sports magazine cover** titled *"Footy Legends"*, with a **retro aesthetic**, **textured grain overlay**, enhanced **reds and greens**, and added **headlines** ("1962 Champions", "Inside: The Game Changers") using **bold serif fonts**. The **background** is to be simplified into **minimal silhouettes** of houses and trees. The **title "Footy Legends"** is to appear in large uppercase letters across the bottom. The style change includes color enhancement and texture addition, but no mention is made of altering the **subject’s identity**, **pose**, **clothing**, or **ball interaction**. The instruction explicitly says to **add headlines** and **simplify background elements**, which implies that **the core scene and subject must remain recognizable**, even if stylized.
+
+Allowed Changes List:  
+- Background houses and trees → simplified into minimal silhouettes (allowed)  
+- Color palette → enhance reds and greens for vibrancy (allowed)  
+- Add textured grain overlay (allowed)  
+- Add text headlines at top: "1962 Champions", "Inside: The Game Changers" (allowed)  
+- Add title "Footy Legends" in large uppercase across bottom (allowed)  
+- Overall style → retro magazine aesthetic (allowed)  
+- Simplify background details (allowed)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements must be preserved because they define the subject’s identity and action. The **boy's pose**—with one leg raised and ball underfoot—is central to the dynamic football moment. His **distinctive red-and-white striped jersey**, **red socks with white tops**, **black cleats**, and **specific facial expression** (smiling, looking forward) are key identifiers. These are not mentioned in the instructions as modifiable, so they must remain intact. The **soccer ball**’s traditional black-and-white pentagon-hexagon pattern is iconic and should be preserved for authenticity. The **interaction between the boy’s foot and the ball** is functional and essential to the scene’s logic; changing it would break the narrative of skillful play.
+
+Functional/logical elements include the **position of the ball under the foot**, which conveys balance and control. If altered, the action becomes physically implausible. The **relative positioning of the subject to the field lines** (white boundary lines visible beneath him) must stay consistent to maintain spatial coherence.
+
+Non-modified element deduction:  
+While the background is to be simplified, the **presence of other players**, their **positions**, and **team colors** (e.g., red-and-white vs. white/light blue) are not mentioned for change. Thus, these should remain visually present, though possibly less detailed. The **field markings** and **goalposts** must remain to preserve the football context. The **shadow cast by the boy** is part of the original lighting logic and should be retained unless the lighting style changes completely—which is not stated. Since the instruction does not say to alter the subject’s appearance, clothing, or posture, these are all to be preserved.
+
+Preservation Targets List:  
+- The boy’s red-and-white striped jersey with white collar  
+- The red socks with white cuffs and black cleats  
+- The black-and-white paneled soccer ball under his foot  
+- The boy’s pose: left leg raised, right foot touching the ball  
+- The facial expression: smiling, looking directly at viewer  
+- The presence and position of other players on the field  
+- The green football pitch with white boundary lines  
+- The shadow of the boy on the ground  
+- The interaction between the foot and the ball (contact point)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The red-and-white vertical stripes on the jersey are a defining visual feature of the team uniform and are central to the subject’s identity. This pattern is unique and essential for recognizing the player’s affiliation and outfit. Changing it would alter the core visual identity of the character. Therefore, its presence and pattern must be preserved.
+    Question: Is the red-and-white vertically striped jersey with a white collar still present on the boy?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The black-and-white paneled soccer ball is an iconic object in football imagery. Its specific design (pentagons and hexagons) is universally recognized. Altering this would make the ball unidentifiable as a traditional football, undermining the sport’s authenticity in the scene. It is a core object in the composition.
+    Question: Is the classic black-and-white paneled soccer ball still under the boy’s foot?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The boy’s pose—left leg raised, right foot on the ball—is critical to conveying motion and skill. This dynamic stance defines the action of the image. Any change to limb positioning would disrupt the narrative of active play and reduce the image’s impact. It is a functional and compositional core element.
+    Question: Is the boy’s left leg raised while his right foot remains in contact with the soccer ball?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The red socks with white cuffs are a distinctive accessory that matches the jersey and completes the team uniform. They contribute to the visual consistency of the player’s attire. Their absence or alteration would affect the authenticity of the outfit and break the color scheme.
+    Question: Are the red socks with white cuffs visible on both legs of the boy?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The boy’s face, particularly his smile and direct gaze, establishes emotional engagement with the viewer. This expression is a key part of the image’s charm and narrative tone. Removing or distorting it would change the mood and personal connection implied in the original.
+    Question: Is the boy’s face clearly visible with a smiling expression and looking toward the viewer?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The shadow cast by the boy on the grass provides depth and confirms the lighting direction and physical presence in the scene. It supports the realism of the moment. While lighting may be adjusted for vintage effect, the shadow’s existence and general shape should remain consistent to maintain spatial logic.
+    Question: Is the shadow of the boy visible on the green field beneath him?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The green football pitch with white boundary lines defines the playing environment. Even with a retro filter, the field’s structure must remain identifiable to preserve the context of the game. Altering the field color or removing lines would misrepresent the setting.
+    Question: Is the green football field with white boundary lines still visible beneath the players?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q8: 
+    Thinking process: The presence of other players in the background contributes to the sense of a live match. Their positions and contrasting uniforms (e.g., white vs. red-and-white) help establish team dynamics. While background simplification is allowed, their basic forms and positions must remain to maintain scene coherence.
+    Question: Are multiple players visible in the background, some wearing red-and-white kits and others in different colors?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

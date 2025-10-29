@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0090",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the stapler's primary color blue in both the front and rear views?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, which provides two views of the stapler, the primary color of the stapler is blue. This is consistent in both the front and rear views provided in the image. The blue hue is visibly clear and homogenous across both views, indicating that the stapler maintains the same color from both angles. World knowledge about design consistency suggests that such products typically have a uniform color unless specified otherwise.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the metallic hinge appear on the stapler in both the front and rear views?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the two views provided in Image B, the metallic hinge is visible in the front view of the stapler, identifiable by its reflective property and typical hinge location towards the front bottom side of the stapler. However, in the rear view, the back part of the stapler does not display this metallic hinge, indicating that it is not visible from that angle. Knowledge of stapler design suggests that hinges are often situated where movement occurs, typically towards the front.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the stapling slot visible in the front view of the stapler?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the front view of the stapler clearly shows the metallic section underneath the top part, which is where the stapling slot would typically be located. This mirrors common design setups of staplers which feature the slot where staples are ejected at the front. Thus, the location and alignment support the visibility of the stapling slot in the front view.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a light blue strip visible on the top surface of the stapler in both views?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no distinct light blue strip on the top surface of the stapler in either the front or rear views. The top appears to have a uniform blue color without any separate or lighter strip. Normally, if there were a strip, it should create a contrast noticeable even with slight lighting changes, which is absent here.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background uniformly green in both the front and rear views?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both views of Image B, the background comprises a consistent green hue without any gradient or pattern differences. The color continuity in both the front and rear views suggests uniformity. Such consistency is typical for images focused on showcasing products where distractions are minimized.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

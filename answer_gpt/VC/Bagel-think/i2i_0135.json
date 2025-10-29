@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0135",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the skier on the right still wearing a bright yellow jacket?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the skier on the right is seen with a bright yellow jacket, which is a vivid color that stands out against the snowy background. This observation uses visual recognition skills, which rely on the distinct color contrast between the jacket and the snow. Despite the blurring in the image, the yellow color remains distinguishable.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the skier on the right still have a helmet on their head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the skier on the right appears to be wearing a helmet. This conclusion is drawn from the outline and shape of the headgear, which is consistent with typical skiing safety equipment. The helmet's presence is identifiable even if fine details are less visible due to motion blur.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the skier on the right still in an active skiing posture with bent knees and forward lean?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the motion blur indicates high-speed action, but the skier's posture can still be discerned. The skier is bent forward, an indication of active engagement in skiing, with knees bent, which is typical of an active skiing posture to maintain control and balance.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the snow-covered mountains and clear blue sky still visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B still features the snow-covered mountains and a clear blue sky. The background landscape remains unchanged from the original and provides context and scale to the skiing activity. These elements are clearly visible despite the motion effects applied to the skier.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the skier on the left still present in the image, wearing a red jacket and skiing posture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the skier on the left is not visible. This deduction is drawn from the fact that the entirety of Image B is focused on the blurred motion of the skier on the right, with no trace of another skier with a red jacket, indicating that either they have been cropped out or weren't present during the editing.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.75
+}

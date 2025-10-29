@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0063",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the transformed subject (horse) maintain the same pose and size relative to the remote control as the original cat did?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the primary subject is a cat, but the setting is dramatically different from Image A. The background shows a post-apocalyptic cityscape and the words 'LAST RIDE' are present along with the cat, giving the impression of a movie poster, not a natural scene involving a remote control. There isn't a physical remote or pose related to it present in this edited scene. In Image A, the original subject was a cat positioned next to a remote on a cream surface. Therefore, Image B doesn’t feature a horse or a cat in relation to a remote control in a consistent pose or size as in Image A.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the remote control positioned in the same location and maintains the same visual appearance as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B doesn't contain a remote control at all. Instead, it has a dramatic backdrop with a focus on the cat against a post-apocalyptic cityscape. Image A originally had a remote control next to the cat. Since Image B lacks any remote control, it cannot be located or visualized in a manner similar to Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the texture and design of the remote control remain unchanged from the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is an absence of any remote control. The focus is the cat and the dramatic setting, without including such everyday objects. In Image A, the remote had specific textures and designs that are completely missing in Image B, where the remote isn't present at all.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the texture of the cream-colored surface, upon which the subject lies, preserved as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not include the cream-colored surface from Image A. Instead, the background shows a destroyed cityscape, not a domestic setting with a clear, textured surface akin to Image A. This shift from a homey, fabric texture to a grim, digital artistic background means the texture from Image A is not preserved.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the collar's shape and placement remain consistent with the new subject (horse)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a cat wearing a collar, similar to the one in Image A. However, there is no horse present in either image. The collar's positioning on the cat is consistent between the two images, maintaining its shape around the cat's neck with a bell attached.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.0
+}

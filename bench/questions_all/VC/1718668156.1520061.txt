@@ -1,0 +1,126 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject consists of two drinks placed on a stone ledge overlooking Sydney Harbour at sunset. On the left is a short glass filled with an amber-colored beverage, ice cubes, and a yellow straw; on the right is a tall, clear glass entirely filled with large ice chunks, resembling an iceberg. The background features the iconic Sydney Opera House with its white sail-like shells, partially illuminated by golden sunset light, set against a calm blue ocean and a city skyline in soft focus. The sky transitions from warm orange near the horizon to pale blue above. The lighting suggests late afternoon or early evening, casting long shadows and creating a serene atmosphere.
+
+**Thinking process:**  
+The editing instruction specifies:  
+- "Transform this scene into a futuristic digital display" → implies overall aesthetic transformation.  
+- "Make the iceberg-inspired ice tower pixelated with circuit-like textures" → explicitly modifies the tall ice-filled glass (right), changing its texture and form.  
+- "The Opera House in neon line art" → transforms the architectural structure into stylized digital representation.  
+- "The ocean composed of geometric wave patterns" → alters the water’s appearance.  
+- "Maintaining the vivid frozen drink as a holographic render" → explicitly preserves the *left* drink but changes its rendering style to holographic.  
+
+Thus, allowed changes include:  
+- Texture and form of the **tall ice glass** (now pixelated/circuit-like).  
+- Visual style of the **Opera House** (now neon line art).  
+- Appearance of the **ocean** (now geometric waves).  
+- Rendering style of the **left drink** (now holographic, but content preserved).  
+
+However, the instruction says “maintaining the vivid frozen drink as a holographic render,” which means:  
+- The **presence** of the drink must remain.  
+- Its **identity** as a frozen beverage with ice and amber liquid must be retained.  
+- It must still be in a **short glass**, with **ice cubes**, and a **yellow straw** — though rendered holographically.  
+
+Therefore, while the **style** of the drink can change, its **core visual components** must be preserved.
+
+**Allowed Changes List:**  
+- The surface texture and material of the tall ice glass (can become pixelated/circuit-like).  
+- The architectural rendering of the Opera House (can become neon line art).  
+- The water surface pattern (can become geometric wave shapes).  
+- The rendering technique of the left drink (can become holographic).  
+- The color tone and lighting of the entire scene (to match futuristic digital theme).
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+Core recognition elements:  
+- The **Sydney Opera House** is globally recognized by its unique shell-shaped roof design. Even if rendered in neon line art, its **distinct silhouette** must be preserved — specifically, the **arrangement and shape of the white shells** forming the sails. If these are altered beyond recognition, it would no longer be identifiable as the Opera House.  
+- The **left drink** is specified to be preserved as a "vivid frozen drink," meaning its **content (amber liquid, ice cubes, yellow straw)** and **container (short glass)** must remain visually identifiable, even if rendered holographically. The **presence of ice**, **liquid color**, and **straw** are core functional and identity features.  
+- The **relative positioning** of the two glasses on the ledge must be maintained — one short, one tall, side by side — to preserve spatial logic.  
+- The **stone ledge** serves as the platform for the drinks; its presence grounds the composition and provides context. While texture may shift slightly in a digital rendering, its **existence and position** should not be removed.  
+
+Functional/logical association elements:  
+- The **drinks are placed on a ledge overlooking the Opera House and harbor** — this spatial relationship must be preserved to maintain scene coherence. Removing or relocating the ledge would break the logical connection between foreground and background.  
+- The **ice in both glasses** must remain present — even if transformed, the concept of "frozen drink" depends on visible ice. In the left glass, ice cubes are clearly visible; in the right, the entire glass is filled with ice, forming an iceberg-like structure. This structural use of ice is key to the composition’s narrative.  
+
+Non-modified element deduction:  
+After excluding allowed changes (texture of ice tower, Opera House style, ocean pattern), the following must remain:  
+- The **short glass** with amber liquid and yellow straw.  
+- The **shape and arrangement** of the Opera House shells.  
+- The **position of the drinks relative to each other and the background**.  
+- The **color of the liquid** (amber) and **straw** (yellow) — unless specified otherwise, these colors are part of the original identity.  
+- The **ice cubes** in the left glass — their presence is essential to the "frozen drink" identity.  
+
+**Preservation Targets List:**  
+- The presence of a short glass containing amber liquid, ice cubes, and a yellow straw.  
+- The presence of a tall glass filled entirely with ice, resembling an iceberg.  
+- The distinct shell-like silhouette of the Sydney Opera House.  
+- The relative placement of the two glasses on a stone ledge facing the Opera House.  
+- The existence of the stone ledge as a platform.  
+- The presence of ice in both glasses.  
+- The color of the liquid in the left glass (amber).  
+- The color of the straw (yellow).  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The amber-colored liquid in the short glass is a core identification feature of the drink, distinguishing it from other beverages. Its presence and color are essential to recognizing the drink as a cocktail or iced tea variant. If lost, the drink loses its identity. This is a key visual element directly tied to the subject's recognition.
+    Question: Is the amber-colored liquid visible in the short glass?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The yellow straw is a distinctive accessory that contributes to the drink’s identity and visual balance. Its presence is necessary to confirm the drink's setup as seen in the original. Losing it would make the drink appear incomplete or altered beyond recognition.
+    Question: Is a yellow straw inserted into the short glass?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q3: 
+    Thinking process: The ice cubes in the short glass are critical to identifying the drink as "frozen." Their presence confirms the cooling state and physical nature of the beverage. Without them, the drink would lose its defining characteristic.
+    Question: Are ice cubes visible within the short glass?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The tall glass filled entirely with ice forms an iceberg-like structure, serving as a visual centerpiece and symbolic element. Its fullness and ice composition are central to the scene’s theme. Even if textured differently, its function as an ice tower must remain intact.
+    Question: Is the tall glass completely filled with ice?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q5: 
+    Thinking process: The Sydney Opera House’s unique shell-like architecture is its most recognizable feature. Even when rendered in neon line art, the basic shape and arrangement of the shells must be preserved to maintain identity. Altering this would result in a loss of geographic and cultural reference.
+    Question: Are the sail-like shells of the Sydney Opera House visible in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q6: 
+    Thinking process: The stone ledge provides spatial grounding for the drinks and maintains compositional balance. Its presence ensures the scene remains coherent and realistic, even in a digital transformation. Removing it would disrupt the visual hierarchy.
+    Question: Is there a stone ledge beneath the two glasses?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The relative positioning of the two glasses — one short, one tall, side by side — is crucial for visual storytelling and symmetry. Changing their positions would alter the intended composition and viewer perception.
+    Question: Are the two glasses positioned side by side on the ledge, with the short glass on the left and the tall glass on the right?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

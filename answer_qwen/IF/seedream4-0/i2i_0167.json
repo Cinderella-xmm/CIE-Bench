@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0167",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image include the apple's current front view as originally shown?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the right half of the split image shows a whole red apple placed on a wooden surface, viewed from the front. The apple is positioned similarly to how it appears in Image A, with its stem pointing upward and the lighting highlighting the curvature and texture of its skin. This front view matches the original presentation in Image A, where the apple is also shown from the front, with similar lighting and orientation. Based on visual cues such as the angle of illumination, shadow placement, and the apple’s positioning, this front view is preserved. Therefore, the current front view as originally shown is indeed included in the edited image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a cross-section view of the apple that shows its inner flesh texture and seeds?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the left half displays a halved apple, cut vertically through the center. The exposed interior reveals the pale yellowish-white flesh typical of many apple varieties, with visible grainy texture consistent with fresh apple pulp. Additionally, the central core contains small dark seeds embedded within the fibrous structure, which are clearly visible. These features—flesh texture and seeds—are characteristic of a proper cross-sectional view of an apple. Given that the internal anatomy aligns with biological expectations of an apple’s structure, this cross-section accurately portrays the inner components.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the image contain a top view that clearly displays the apple's stem structure and calyx area?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "A top view would show the apple from directly above, revealing the stem and the surrounding calyx (the ring-like base at the top where the stem attaches). In Image B, both halves depict the apple from a side or slightly angled perspective. While the stem is visible in both the whole and halved apples, the view does not capture the full top-down perspective required to clearly see the calyx area and its detailed structure. The angle is too oblique to qualify as a true top view. Therefore, although the stem is present, the necessary top-down clarity for the calyx is missing.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the current front view of the apple remained unchanged compared to the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the apple is shown in full, uncut form, with a clear front view displaying its smooth red skin, stem, and subtle speckling under natural light. In Image B, the right panel replicates this same front view of the whole apple, including identical lighting, shadowing, and positioning on the wooden surface. There are no noticeable differences in color, shape, or orientation between the two images. The composition, depth of field, and environmental context (background blur, sunlight direction) are consistent. Thus, the front view has been preserved without alteration.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the cross-section of the apple reveal both the flesh texture and seeds accurately?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The left half of Image B presents a cross-section of the apple. The flesh appears uniformly textured, with a fine, granular consistency typical of apple pulp. The core region shows a central cavity with several small, dark seeds arranged symmetrically around the axis, which is anatomically accurate for most apple species. The transition from outer skin to inner flesh is smooth and realistic. There are no distortions or inconsistencies that would suggest inaccuracies. Based on botanical knowledge and visual realism, this cross-section correctly represents both the texture of the flesh and the presence of seeds.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

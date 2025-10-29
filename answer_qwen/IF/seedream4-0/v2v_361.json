@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_361",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is there a person's hand visible in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a human hand is clearly visible holding the keychain. The hand appears to be positioned in a way that displays the keychain prominently, with fingers spread out to support it. The skin tone, texture, and anatomical features such as fingernails and wrinkles are consistent with a real human hand. This visual evidence, combined with common knowledge about how people typically hold small objects like keychains for display, confirms the presence of a person's hand.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the keychain feature a chibi-style depiction of the dog from the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The keychain in Image B depicts a Yorkshire Terrier, which matches the breed of the dog in Image A. However, the style is not 'chibi'—a term referring to an anime-inspired, exaggeratedly cute and simplified character design with large eyes, small body, and oversized head. Instead, the keychain has a more realistic, stylized representation with proportionate features and detailed fur texture. While it is cartoonish, it lacks the exaggerated proportions typical of chibi art. Therefore, although it is a stylized version of the dog, it does not meet the definition of chibi style.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the keychain made of soft rubber with thick black outlines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The keychain in Image B appears to have a matte finish and flexible contours, suggesting it is made of soft rubber or silicone—a common material for such items due to its durability and tactile appeal. Additionally, the edges of the dog figure are sharply defined with a thick black border, which serves both as a stylistic choice and a structural element to enhance contrast and define the shape. This combination of material appearance and design elements aligns with typical soft rubber keychains featuring bold outlines.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the keychain connected to a tiny silver keyring?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The keychain in Image B is attached to a metallic ring via a short chain. The ring is silver in color and appears to be standard-sized for a keychain, not particularly tiny. It is connected through a small metal loop at the top of the keychain. Based on visual inspection, the ring is appropriately sized for keys and functional use. The term 'tiny' implies unusually small size, which is not accurate here; it is a normal-sized keyring. Therefore, while it is silver, it is not 'tiny'.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background plain and neutral without any additional elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B is uniformly light-colored, likely off-white or beige, with no discernible patterns, textures, or objects. It appears to be a flat surface, possibly a table or backdrop used for product photography. There are no shadows, reflections, or other elements that would suggest depth or complexity. This minimalistic setup is typical for showcasing products clearly, ensuring focus remains on the keychain. Thus, the background is indeed plain and neutral, free from distractions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

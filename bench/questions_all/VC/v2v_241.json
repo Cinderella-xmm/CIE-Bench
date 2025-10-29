@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The horse's posture is a core recognition feature. If the horse is not standing on the elephant's back, the image loses its unique identity. This is a key element with a weight of 3 points.",
+      "question": "Is the horse depicted standing on the elephant's back?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The elephant's posture is crucial for supporting the horse. Changing this would disrupt the logical relationship. This is an important element with a weight of 2 points.",
+      "question": "Is the elephant shown in a posture that supports the horse on its back?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The photorealistic background is essential for maintaining the scene's consistency. Losing this would significantly alter the image's context. This is an important element with a weight of 2 points.",
+      "question": "Does the background retain a photorealistic appearance with a grassy field and sky?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The spatial relationship between the horse and elephant ensures the scene's logic. This is a key element with a weight of 3 points.",
+      "question": "Is the spatial relationship between the horse and elephant preserved, with the horse positioned above the elephant?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The ornate photo frame is a specified addition that should be present. Its absence would indicate non-compliance with the instructions. This is a detail-level element with a weight of 1 point.",
+      "question": "Is the scene displayed within an ornate photo frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

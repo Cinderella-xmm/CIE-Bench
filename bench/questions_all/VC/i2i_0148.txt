@@ -1,0 +1,75 @@
+### Step 1: Analyze the Modification Requirements and Allowed Changes
+
+**Description of Reference Image:**  
+The image depicts two cars stopped at a red traffic light on a city street. The perspective is from behind the cars, showing their rear ends. The cars appear to be modern sedans. The surrounding environment includes a roadway lined with trees and additional traffic lights visible in the distance. The overall lighting suggests an overcast or evening setting.
+
+**Thinking Process:**  
+The editing instructions specify converting the image to a movie poster style, which involves enhancing certain visual aspects without fundamentally altering the core composition. Thus:
+
+**Allowed Changes List:**  
+1. Car reflections and environmental haze can be intensified, adjusting the reflectivity and light scattering effects.
+2. Contrast can be increased to enhance the visual impact, possibly altering colors and brightness levels.
+3. The atmosphere can be adjusted to create a tense confrontation mood, potentially involving color grading and light changes.
+4. The overall style can shift towards a more cinematic appearance while retaining the essential elements.
+
+### Step 2: Determine Elements That Should Remain Unchanged
+
+**Thinking Process:**  
+Elements critical to maintaining the core identity and logical consistency of the image include:
+
+- **Core recognition elements:** The two cars should remain identifiable as the central subjects, including make, model, and relative positioning.
+- **Functional/logical associations:** The red traffic lights and the cars stopping at them maintain the logical narrative of the scene.
+- **Scene details:** The road layout, lane markings, and general urban environment should persist for coherent visual context.
+
+**Preservation Targets List:**  
+1. Cars’ make, model, and positioning on the road.
+2. Red traffic lights and their functioning as stop signals.
+3. Road layout and lane markings.
+4. General urban environment around the cars.
+
+### Step 3: Generate Yes/No Questions for Key Visual Elements
+
+{
+    Q1:  
+    Thinking process: The make and model of the cars are crucial for recognizing the primary subjects. Losing this would alter the viewer’s understanding of the subjects.
+    Question: Are the two cars in the image identifiable as the same models shown in the original, with the same body shapes and design features?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2:  
+    Thinking process: The red traffic lights establish the context of the scene, signaling the cars to stop. Without them, the narrative of the image changes.
+    Question: Are the red traffic lights still visible above the cars, maintaining their original function as stop signals?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3:  
+    Thinking process: Lane markings provide spatial orientation and realism. Removing or altering them would disrupt the coherence of the road layout.
+    Question: Are the lane markings on the road clearly visible and consistent with the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4:  
+    Thinking process: The urban environment sets the stage for the scene, ensuring the cars seem realistically placed. Changing or removing it would be inconsistent.
+    Question: Is the urban environment around the cars intact, including trees and roadside features?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5:  
+    Thinking process: The positioning of the cars relative to each other maintains the balance and composition of the image. Altering it would compromise the visual flow.
+    Question: Are both cars still positioned parallel to each other, maintaining their original placement on the road?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

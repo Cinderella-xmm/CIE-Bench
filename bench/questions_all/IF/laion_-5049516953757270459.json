@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The instruction requires converting the entire heart-shaped board into a LEGO mosaic. This means the original wooden board and natural produce must be replaced entirely with LEGO bricks arranged in a mosaic pattern. The presence of any non-LEGO material or untransformed food would violate this requirement.",
+      "question": "Is the entire heart-shaped board composed solely of LEGO bricks forming a mosaic?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The instruction specifies using multicolored LEGO bricks to represent the produce. Each food item should be made from LEGO bricks that reflect its actual color (e.g., green for avocado, red for strawberries). Using monochrome or inaccurate colors would fail this requirement.",
+      "question": "Are the LEGO bricks used to represent the food items colored appropriately to match the original produce (e.g., blue for blueberries, red for tomatoes)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The instruction explicitly states varying brick sizes to match textures—smooth for avocado, round for berries, chunky for broccoli. This implies a visual distinction in brick size and shape to simulate texture. If all bricks are uniform, the textural detail is missing.",
+      "question": "Are different LEGO brick sizes and shapes used to simulate textures (e.g., smooth bricks for avocado, small round bricks for berries, larger chunky bricks for broccoli)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Each food item must have distinct borders to separate it visually from others. This ensures clarity and recognition of individual items within the mosaic. Blurred or merged boundaries would violate this requirement.",
+      "question": "Do all food items in the LEGO mosaic have clearly defined and distinct borders separating them from adjacent items?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The original heart shape of the board must be preserved. Even though it's now a LEGO mosaic, the overall outline must remain a heart. Any distortion or change in shape (e.g., oval, circular) would break the constraint.",
+      "question": "Does the overall shape of the LEGO mosaic remain a perfect heart, matching the original board’s silhouette?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The instruction specifies placing the LEGO piece on a neutral gray base. This background must be flat, solid gray, and not include wood or other textures. A wooden background or any color other than gray would fail this requirement.",
+      "question": "Is the LEGO mosaic placed on a solid, neutral gray base with no visible texture or pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The playful, pixelated aesthetic is a key stylistic goal. This implies a clear grid-like structure, blocky appearance, and lack of smooth gradients. If the image appears photorealistic or blended, the pixelated style is lost.",
+      "question": "Does the LEGO mosaic exhibit a clear pixelated, blocky appearance consistent with a LEGO construction, rather than a smooth or realistic rendering?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

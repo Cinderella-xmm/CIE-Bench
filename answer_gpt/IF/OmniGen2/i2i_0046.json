@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0046",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image have a white border surrounding it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a white border is clearly visible around the entire image. This is a typical characteristic of some editorial styles that aim to mimic traditional photo prints or Polaroids. The presence of the white border is distinct and contrasts with the darker elements within the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the caption “11:13 AM” visible at the bottom within the white border?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited Image B, a caption reading '11:13 AM' is clearly visible at the bottom within the white border. The inclusion of time captions is common in styles that emulate instant photography, like Polaroids, which often include timestamps.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Has the faded effect been applied to the entire image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the skater appears darker and less contrasted compared to traditional images, suggesting the use of a vignette or a faded effect, especially noticeable in corners and edges, which are characteristic of such effects. The overall image appears less vibrant than a fresh photograph.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the image have a paper-like grain texture applied to it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not show a visible paper-like grain texture. The skater and background elements have a smooth appearance, lacking the fine speckles or patterns typical of grainy or textured photographic prints.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the original composition and elements of the image preserved, aside from the added white border, caption, faded effect, and grain texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the central subject remains a skater in mid-air, which aligns with the original composition of Image A. Despite the presence of a white border, a caption, and the faded effect, the composition and main elements like the skater and skateboard are preserved as they originally appear in Image A without alterations in their placements or shapes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

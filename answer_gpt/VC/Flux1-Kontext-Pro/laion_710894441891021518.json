@@ -1,0 +1,84 @@
+{
+  "filename": "laion_710894441891021518",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the white tea light candle present on the black surface to the left of the bonsai pot?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no white tea light candle visible on the black surface next to the bonsai pot. Instead, the area where the candle was is now occupied by a decorative fairy-like figure with wings and branches. By comparing with Image A, where the candle is clearly present, it is evident that the candle has been removed in the edited image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the bonsai and candle resting on a flat black surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Regarding Image B, the bonsai is still on a flat black surface. However, the candle that is visible in Image A is absent in Image B. This confirms that only the bonsai, not the candle, remains on the surface.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the background uniformly light gray with no visible patterns or objects?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background remains a light gray color without any discernible patterns or objects, maintaining the simplicity and neutrality that aids in highlighting the bonsai and the added figure. This is consistent with the background in Image A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the bonsai planted in a wide, shallow, teal-colored ceramic pot that occupies the center of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a decorative pot that is more ornate and is not the original teal-colored pot from Image A. Additionally, a fairy-like figure is now integrated with the bonsai, altering the composition. Therefore, the bonsai is no longer in the wide, shallow, teal-colored pot as seen in Image A.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are dark soil and exposed root matter visible at the surface of the pot?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the surface of the pot is obscured by the decorative fairy-like figure, and thus, no dark soil or exposed root matter is visible. In contrast, Image A clearly shows dark soil and root matter on the bonsai’s surface.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the bonsai positioned centrally and upright in the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bonsai is positioned with more decorative elements, including a fairy-like figure, which still maintains a central and upright positioning within the frame. This aligns with Image A, where the bonsai is also central and upright.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5454545454545454
+}

@@ -1,0 +1,120 @@
+**Step 1 – Analyze the editing instructions and determine allowed changes**
+
+**Description of reference image:**  
+The subject is a bald eagle in mid-flight, captured from a low-angle perspective against a vivid blue sky with scattered cumulus clouds. The eagle's wings are fully extended upward and outward, showcasing detailed feather textures with dark brown primary feathers transitioning to lighter golden-brown secondary feathers near the body. The wingtips are sharply defined, with individual feathers clearly visible. The eagle’s head is white with a sharp yellow beak slightly open, and its piercing yellow eye is focused forward. Its tail feathers are white and fan-shaped, with subtle orange-brown shading at the base. The underside of the wings reveals layered patterns of brown and gold tones, illuminated by sunlight from above. The background consists of a dynamic sky with large, fluffy white clouds tinged with pink and orange hues due to lighting, suggesting either sunrise or sunset. The horizon line is faintly visible at the bottom edge, indicating an open expanse below.
+
+Thinking process:  
+The editing instruction specifies transforming the eagle into a **3D stylized sculpture** displayed within a **glass dome**, with **swirling miniature clouds under its wings**, **gold leaf accents**, a **polished dark wood base engraved with "Noble Sky Guardian"**, and **brass compass roses around the dome**. This indicates that:
+
+- The **form of the eagle** is being changed from a living bird in flight to a **sculpture**, so its **physical state** (alive vs. static) can change.
+- The **scene environment** is being replaced entirely: the sky and clouds are not required to remain as-is; instead, they will be **stylized miniature elements** inside the display.
+- The **position and posture** of the eagle may be preserved for aesthetic continuity but are now part of a **displayed object**, not a natural scene.
+- **New elements** (dome, base, compass roses, gold leaf) are introduced — these are additions, not replacements of original content.
+
+Allowed Changes List:
+- The **natural sky and cloud background** can be replaced with stylized miniature clouds inside the dome.
+- The **eagle’s form** can be transformed into a **3D stylized sculpture**, altering its texture and material appearance.
+- The **lighting and color tone** of the eagle can be modified to suit the sculptural style.
+- The **position and scale** of the eagle relative to the viewer may shift due to enclosure in a dome.
+- **New decorative elements** such as brass compass roses, glass dome, and engraved base are permitted and expected.
+
+---
+
+**Step 2 – Determine the elements that should remain unchanged**
+
+Thinking process:  
+Despite the transformation into a sculpture, certain **core visual features** of the eagle must remain intact to preserve identity and recognition. These include:
+
+- **Core recognition elements**: The eagle must still be identifiable as a bald eagle. Key features include:
+  - The **white head and tail** contrasting with dark brown body feathers.
+  - The **yellow beak and eye**.
+  - The **distinctive shape of the wings** — broad, curved, with prominent primary feathers.
+  - The **fan-shaped tail**.
+  - The **proportion and structure** of the head, neck, and body.
+
+These are essential for species identification. Even if stylized, the **basic anatomical form** must remain consistent.
+
+- **Functional/logical association elements**: Although the eagle is no longer flying in nature, its **flight posture** (wings up, body angled forward) must be retained because it is central to the theme of “mid-flight.” Changing this would contradict the narrative of “flying” implied by the original image and the new display title “Noble Sky Guardian.”
+
+- **Non-modified element deduction**: Elements not mentioned in the allowed changes list — especially those critical to species identification — must be preserved. For example:
+  - The **color pattern** (white head/tail, dark body) cannot be altered arbitrarily.
+  - The **eye color and beak shape** are key identifiers.
+  - The **wingtip feather structure** must remain recognizable even if stylized.
+
+Preservation Targets List:
+- The presence of a **white head** on the eagle
+- The **yellow beak** with a hooked tip
+- The **white tail feathers** fanned out
+- The **dark brown body feathers** with layered texture
+- The **extended wings** in a soaring pose
+- The **piercing yellow eye**
+- The **overall silhouette** of a bald eagle in flight
+
+---
+
+**Step 3 – Generate yes/no questions based on key identifying visual elements**
+
+{
+    Q1: 
+    Thinking process: The white head is the most iconic feature distinguishing the bald eagle from other raptors. Its absence or replacement with another color would make the subject unrecognizable as a bald eagle. This is a core identity element, hence weight 3.
+    Question: Is the eagle’s head white?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The yellow beak with a hooked tip is a defining anatomical trait of the bald eagle. It is essential for accurate species representation and is not mentioned as changeable in the instructions. Altering its color or shape would compromise identification.
+    Question: Does the eagle have a yellow beak with a hooked tip?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The white tail feathers are a key identifier, especially when contrasted with the dark body. Their presence and fan-like shape are crucial for visual recognition. Even in stylization, this feature must remain.
+    Question: Are the tail feathers white and fanned out?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The dark brown body feathers are characteristic of the bald eagle’s plumage. While texture might be stylized, the overall coloration must remain to maintain species accuracy. This is a core visual attribute.
+    Question: Is the body of the eagle primarily dark brown?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q5: 
+    Thinking process: The extended wings in a soaring posture define the action of flight and are central to the image’s theme. The instruction does not allow changing the flight pose, only the medium (sculpture). Therefore, the wing position must be preserved.
+    Question: Are the wings fully extended upward and outward in a soaring pose?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The yellow eye is a distinctive facial feature that contributes to the eagle’s fierce expression and realism. It is not mentioned as modifiable and is necessary for maintaining lifelike detail in the sculpture.
+    Question: Does the eagle have a visible yellow eye?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The layered texture of the wing feathers, particularly the gradient from dark to golden-brown, adds depth and realism. While stylization may simplify it, the general pattern must remain to preserve the eagle’s natural appearance.
+    Question: Do the wings show layered feather patterns with darker tips and lighter bases?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q8: 
+    Thinking process: The silhouette of the eagle in flight — including the head position, wing curve, and tail spread — is critical for recognizing the subject. Even in a stylized sculpture, this outline must remain consistent.
+    Question: Is the overall silhouette of the eagle consistent with a bald eagle in mid-flight?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

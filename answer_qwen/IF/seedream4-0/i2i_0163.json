@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0163",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the background been changed to an outdoor camping scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background features a grassy field, trees, and a tent, which are typical elements of an outdoor camping environment. The presence of a canvas tent, natural greenery, and soft sunlight filtering through the trees strongly suggests a campsite setting. This is in contrast to the indoor kitchen environment seen in Image A, which includes white tiled walls, wooden shelves, and kitchen appliances. The change from an indoor kitchen to an outdoor camping scene indicates that the background has indeed been altered. Based on visual cues such as the tent, open field, and natural lighting, it is clear that the background has been changed to an outdoor camping scene.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the toasters placed on a folding table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the toasters are positioned on a flat, metallic surface with visible foldable legs and a segmented top, which are characteristic features of a portable folding table commonly used for outdoor activities like camping. The table's construction, including its lightweight frame and compact design, aligns with typical camping furniture. In contrast, Image A shows the toasters on a solid wooden countertop, which is part of a fixed kitchen setup. The difference in surface material and structure confirms that the toasters are now on a folding table in Image B. This conclusion is supported by world knowledge about outdoor equipment and common camping gear.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there sunlight shining on the golden toast?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the toast appears to have a warm, golden hue with highlights and shadows consistent with natural sunlight. The light source comes from the upper left, casting soft glows and creating a realistic interplay of light and shadow on the bread's surface. Additionally, the ambient lighting in the scene—such as the sun flare in the background and the overall brightness—suggests that the scene is illuminated by natural daylight. This contrasts with Image A, where the lighting is more evenly distributed and artificial, likely from indoor overhead lights. The presence of directional light and the warm tones on the toast indicate that sunlight is indeed shining on it in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have the appearance and position of the toasters and toast remained unchanged?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The toasters in Image B are visually identical in design, color, and orientation to those in Image A—they are both silver, have black handles, and feature similar control knobs. The toast also appears to be the same in terms of shape, browning level, and placement within the toaster slots. However, despite their unchanged appearance, their physical context has shifted: they are now on a different surface (a folding table) and in a completely different environment (outdoor vs. indoor). While the objects themselves have not been altered in form or position relative to each other, the overall scene context has changed significantly. Therefore, while the appearance and relative positioning of the toasters and toast are preserved, the surrounding environment and surface have changed, meaning they have not remained unchanged in a broader sense.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the lighting and shadows appear realistic and consistent with an outdoor setting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting is warm and directional, with a noticeable sun flare in the upper-left corner, suggesting early morning or late afternoon sunlight. The shadows cast by the toasters are soft and elongated, consistent with natural outdoor lighting conditions. The gradient of light across the scene—from bright areas near the sun to darker regions in the shade—adds depth and realism. These elements align with typical characteristics of outdoor scenes during golden hour. In contrast, Image A has more uniform, diffused lighting typical of indoor environments. The combination of directional light, natural color temperature, and realistic shadowing in Image B supports the conclusion that the lighting and shadows are consistent with an outdoor setting.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

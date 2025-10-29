@@ -1,0 +1,119 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is an ornate teapot positioned centrally on a polished wooden surface, viewed from a slightly low angle to emphasize its three-dimensional form. The teapot has a rich, deep red body with a glossy finish, adorned with intricate silver embossed floral and vine motifs that cover the entire surface in symmetrical patterns. The lid is domed and topped with a small finial, also featuring silver detailing and a central red accent matching the body. The spout is elegantly curved, crafted from polished silver metal, while the handle is sculpted into a flowing, organic shape resembling a stylized dragon’s tail or leafy flourish, also made of silver. The base of the teapot features a wide, decorative silver band with detailed scrollwork. The background is a softly lit, textured brown gradient with warm highlights emanating from behind the teapot, creating a halo effect that enhances its prominence. The reflective wooden surface beneath the teapot mirrors its lower half, adding depth and realism.
+
+**Thinking process:**  
+The editing instruction specifies transforming the teapot into a **limited-edition luxury candle holder packaging**, which implies a complete functional reimagining of the object. However, it explicitly states:  
+- "Retain the intricate floral motifs as embossed gold details" → indicates that the **floral design pattern must be preserved**, though material (silver → gold) and placement (on glass chamber) may change.  
+- "Ensure a rich camel red hue for the glass" → color of the central chamber must remain red, but now applied to glass.  
+- "Add a polished wooden lid that mimics the original teapot handle contours" → new lid added, but **contour of the original handle must be referenced**.  
+- "Incorporate an elegant brand logo on the base" → base will have new element, but **original base structure must support this addition**.  
+- "Replace background with a luxuriously patterned fabric" → background changes entirely.  
+
+Thus, the **subject's core form (teapot shape)** is being transformed into a **candle holder**, so the overall silhouette may shift. But specific **design elements** are required to be retained:  
+- Floral motifs (pattern, not necessarily material)  
+- Red color (now on glass)  
+- Handle contour (as inspiration for new lid)  
+- Base structure (to host logo)  
+
+Allowed Changes List:  
+- Subject function: changed from teapot to candle holder  
+- Material of floral motifs: silver → gold  
+- Material of body: solid red → transparent glass with red tint  
+- Lid: replaced with wooden lid based on handle contour  
+- Background: replaced with patterned fabric  
+- Addition of brand logo on base  
+- Overall lighting and atmosphere: can be adjusted to suit new context  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now determine what **must remain unchanged** based on exclusion from the allowed changes and visual coherence logic:
+
+1. **Core recognition elements**:  
+   - The **intricate floral motifs** are explicitly stated to be retained ("retain the intricate floral motifs as embossed gold details"). Even if material changes, the **design pattern itself** (shape, arrangement, density) must remain identical. This is critical because these motifs define the ornamental identity of the piece. If lost, the transformation would lose its artistic continuity.  
+   - The **rich red color** is mandated to persist in the glass chamber. Although the medium changes (from solid body to glass), the **hue must remain consistent**—specifically “camel red,” which is a key identifier of the original aesthetic.  
+   - The **spout and handle shapes** are not directly mentioned for retention, but since the new lid is to “mimic the original teapot handle contours,” the **handle’s form must be preserved visually** as a reference point. Thus, the **contour of the handle** is a core structural feature that must remain recognizable.  
+   - The **overall silhouette** of the teapot is implied to be retained as a base for the candle holder, even if internal function changes. Therefore, the **basic volumetric shape**—rounded body, elevated spout, arched handle—should be preserved.
+
+2. **Functional/logical association elements**:  
+   - The **base** must remain structurally intact because the instruction says to place a logo *on* it. This means the **original base’s form and position** must be preserved to serve as a foundation for branding.  
+   - The **floral motif distribution** must follow the same spatial logic: covering the main body, wrapping around curves, and connecting at seams. This ensures logical continuity between original and modified versions.
+
+3. **Non-modified element deduction**:  
+   - The **texture of the silver embellishments** (though changing to gold) should retain their **embossed, raised appearance** and **detailed craftsmanship**. While material changes, the **relief quality and complexity** must remain.  
+   - The **spout’s curvature** is not mentioned, but since it contributes to the teapot’s iconic form, and no alternative is specified, it should be preserved.  
+   - The **lid’s finial** is not mentioned, but given the importance of symmetry and detail, and since the new lid is derived from the handle, the **original lid’s top structure** may be implied to inform design, but not necessarily preserved.
+
+Preservation Targets List:  
+- The intricate floral and vine motifs in their original pattern and spatial arrangement  
+- The camel red coloration of the central body/glass chamber  
+- The contour and shape of the teapot handle  
+- The spout’s curved form  
+- The base structure and its decorative silver band  
+- The overall rounded, bulbous body shape of the teapot  
+- The embossed texture of the metallic details (even if material changes)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The intricate floral and vine motifs are the defining ornamental feature of the teapot, forming a continuous, symmetrical pattern across the body and lid. Their preservation is explicitly required in the instructions ("retain the intricate floral motifs"), making them a core identity element. Any loss or simplification would break the visual continuity and diminish the luxurious aesthetic. Thus, this is a high-weight question.
+    Question: Are the intricate floral and vine motifs present in their original pattern and spatial arrangement across the body and lid?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The camel red hue is a key chromatic identifier of the original teapot. The instruction mandates that this color be maintained in the glass chamber, indicating that the red tone must be preserved exactly. Since this is a specific color requirement tied to the original visual identity, its absence would make the edited version visually inconsistent.
+    Question: Is the central chamber rendered in a rich camel red hue matching the original teapot’s body color?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The handle’s contour is directly referenced in the instruction to inspire the new wooden lid. This means the shape of the handle must remain visually identifiable. Its unique flowing, organic curve is a distinctive design feature that defines the teapot’s elegance. Losing this shape would undermine the design logic of the transformation.
+    Question: Is the contour of the teapot handle clearly visible and accurately preserved?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The spout’s curved form contributes to the teapot’s balanced silhouette. Though not explicitly mentioned, its presence is essential to maintaining the original object’s identity. The instruction does not suggest replacing or altering it, so it should be retained. Its shape is a secondary but necessary structural element for recognition.
+    Question: Is the spout’s curved, elongated shape preserved without alteration?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The base structure supports both the physical stability of the teapot and serves as a platform for the new brand logo. Its decorative silver band with scrollwork is a distinct feature. Since the logo is to be placed on it, the base must remain intact in form and position. Altering it would compromise both functionality and visual coherence.
+    Question: Is the base structure, including its decorative silver band, preserved in form and position?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The embossed texture of the metallic details (flowers, vines, borders) is a key tactile and visual characteristic. Even though the material changes from silver to gold, the raised, detailed relief must remain. This texture defines the craftsmanship and luxury aspect. Loss of embossing would flatten the design and violate the intent of retaining ornateness.
+    Question: Are the metallic details still rendered with embossed, raised textures rather than flat or painted designs?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The overall rounded, bulbous body shape is the fundamental form of the teapot. It provides the canvas for all other design elements. The instruction implies a transformation into a candle holder, but one that retains the teapot’s silhouette. Changing this shape would fundamentally alter the object’s identity.
+    Question: Is the body of the object still a rounded, bulbous form consistent with the original teapot’s shape?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}

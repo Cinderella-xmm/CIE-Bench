@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of stylizing the human figure into a cartoonized form while preserving anatomical structure, this question evaluates whether the limbs and joints maintain physical plausibility despite exaggerated posture lines. The figure's raised leg and bent arm forming a loop above the head must retain realistic bone alignment and muscle flow.",
+      "question": "Does the figure's raised leg and upper arm maintain continuous, smooth curvature without sharp breaks or disconnected segments?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of modifying the color palette to calming earth tones, this question checks if the colors across the figure and environment transition smoothly and harmoniously, particularly in areas like the green top, black leggings, and golden sky.",
+      "question": "Are the colors of the figure's clothing and the surrounding environment (sky, sand, water) unified in tone, with no abrupt shifts or clashing hues?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of elongating posture lines without distorting geometry, this question assesses whether the figure’s spine, neck, and limbs follow natural biomechanics, even when stretched. The head tilt and arm extension should not suggest impossible flexibility or collapsed joints.",
+      "question": "Is the angle between the neck and torso consistent with human flexibility, and do the extended arms show smooth, uninterrupted lines without kinks or bends?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of maintaining natural textures, this question examines whether the surface details of the figure’s skin, fabric of the leggings, and sand appear coherent and free from artificial patterns or noise, especially in high-detail areas like the back and legs.",
+      "question": "Do the textures on the figure’s skin and clothing show consistent shading and fine detail without visible pixelation or smeared regions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of correct hand anatomy, this question evaluates the hand grasping the foot—specifically checking finger count, spacing, and grip realism. Each hand must have five fingers, properly curved and aligned with the foot.",
+      "question": "Does the hand holding the foot have exactly five fingers, each with natural curvature and proper contact with the foot, without overlapping or missing digits?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "Based on the sub requirement of consistent lighting, this question checks whether the shadow cast by the figure aligns with the sun’s position and intensity, and whether highlights on the skin and clothing follow the expected direction of light.",
+      "question": "Is the shadow beneath the figure aligned with the sun’s position in the sky and does it taper naturally toward the horizon?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "Based on the sub requirement of avoiding artifacts, this question focuses on the boundary between the figure and the background, especially where limbs intersect the sun or sea, to detect potential edge artifacts or transparency issues.",
+      "question": "Are there any visible halos, jagged edges, or blending errors along the outline of the figure, particularly around the raised leg and arm?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

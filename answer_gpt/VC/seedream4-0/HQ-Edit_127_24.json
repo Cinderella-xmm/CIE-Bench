@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_127_24",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly two chalet-style buildings visible in the scene, positioned side-by-side on a snowy slope?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the scene features ice structures that resemble chalet-style buildings, but they are not positioned side-by-side like traditional chalets. Instead, they are part of a larger, more fantastical ice castle structure, with multiple architectural elements and embellishments that differentiate them from traditional chalet-style buildings, making the description inaccurate for this edited image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there visible smoke rising from at least one chimney on a building?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the buildings are made of ice, with no visible chimneys emitting smoke. The icy structures are illuminated but lack any signs of warmth such as smoke, as the entire scene gives off a frozen, fantastical vibe. Thus, no smoke from chimneys can be seen.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there multiple windows across both buildings that emit a warm yellow-orange glow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, although the ice structures have windows that seem to emit light, the glow is more of a cool, pale blue due to the icy theme and the reflection of the aurora borealis, not the warm yellow-orange typically associated with traditional chalets. This shift in color tone matches the icy setting.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there tall, conical evergreen trees with snow-covered branches visible behind and around the chalets?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the scene does not feature evergreen trees in the immediate vicinity of the buildings. Instead, the surroundings consist of ice formations and structures that resemble trees made of ice. This fantastical atmosphere replaces the natural tree elements present in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a large, snow-capped mountain peak visible in the background, rising above the treeline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background also showcases a large mountain peak, similar to Image A. Despite the fantastical ice setting in the foreground, the mountain's silhouette remains, providing consistent scenery across both images.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there smooth, rounded snowdrifts in the foreground, casting soft shadows toward the right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the foreground is composed of ice and water, with no clear evidence of snowdrifts casting shadows. This is a stark contrast to Image A, where smooth snowdrifts prominently feature in the foreground, casting soft shadows. The focus on ice replaces typical snowdrift formations.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is there a bright, circular light source (moon) visible in the upper-right portion of the sky?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sky is illuminated by the aurora borealis, not by a singular moonlike light source. The aurora's glow dominates the sky, providing diffuse light without a distinct circular moon in the upper-right section.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.14285714285714285
+}

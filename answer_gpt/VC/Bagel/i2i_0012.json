@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0012",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the subject's serene expression with the subtle smile retained?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the face being blurred, the posture and hand placement convey a sense of calmness which is usually consistent with a serene facial expression. In Image A, the Mona Lisa is known for her serene expression and subtle smile. Without seeing the face in Image B, it's not explicitly visible, so based solely on world knowledge of serene posture, we conclude the expression cannot be confirmed.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the subject wearing a dark garment with a gold-trimmed neckline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject is depicted with a dark garment featuring a gold-trimmed neckline. The garment and neckline colors are clearly illustrated. In Image A, the Mona Lisa traditionally wears a dress with a dark color and a subtle decorative trim. The comparison indicates that the key features of the garment are preserved in the edited image.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the subject's arms crossed in front of her at the waist?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject's arms are arranged in front, with one hand resting on the other, a posture akin to being crossed. In Image A, the traditional Mona Lisa pose shows her arms similarly positioned. Hence, the arm arrangement in Image B reflects the same positioning.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the background retain the winding river and distant mountain elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases a background with a winding river and distant mountains, elements that are visually distinct. In Image A, the famous landscape of the Mona Lisa includes these key features. Thus, these elements have been retained in the edited image.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the subject centrally positioned within the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays the subject centrally within the frame, clearly positioned in the middle. Similarly, the traditional composition of the Mona Lisa in Image A places the figure centrally. This consistent central positioning is retained in the edited image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7
+}

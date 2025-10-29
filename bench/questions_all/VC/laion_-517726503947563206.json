@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The name \"Aurora\" is a core identity marker of the cruise ship, visible on the hull in the original image. Even if the ship is transformed into a crystal palace, retaining the name ensures the identity of the vessel is preserved. Its absence would make the ship unrecognizable as the original Aurora. This is a key identifier, hence weight 3 points.",
+      "question": "Is the text \"Aurora\" visible on the side of the ship?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The registration number \"QV-8880\" is a unique identifier of the ship, located on the hull. It is a legal and operational detail that distinguishes this vessel from others. Losing it would compromise the authenticity of the ship’s identity. Though the instruction allows transformation, such identifiers are typically preserved in stylized versions. Thus, it is a core identity element, weight 3 points.",
+      "question": "Is the registration number \"QV-8880\" visible on the hull of the ship?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The red flag at the top of the mast is a national symbol, likely the Vietnamese flag, indicating the ship’s origin. It is a prominent feature in the original image and contributes to the ship’s identity. While the instruction allows changes, national symbols are often retained in transformations for authenticity. Its presence is crucial for cultural and identity recognition, hence weight 3 points.",
+      "question": "Is a red flag visible at the top of the ship’s mast?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The ship is shown in a side profile, facing to the right, which is a standard view for maritime photography. Changing the orientation would alter the viewer’s perception of the vessel’s design and symmetry. Since the instruction does not specify a change in angle, preserving the side profile maintains spatial consistency. This is a functional/logical element affecting layout, weight 2 points.",
+      "question": "Is the ship oriented in a side profile view, facing toward the right side of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The ship is floating on water, which is essential for its function and context. The instruction mentions it as a \"floating crystal palace,\" so the floating state is preserved. The water surface may be altered, but the ship must remain on a liquid surface. This is a functional requirement, weight 2 points.",
+      "question": "Is the ship depicted as floating on a body of water?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The ship is centrally positioned in the frame, which is a compositional choice emphasizing its importance. While the background is to be simplified, the ship’s central placement helps maintain visual balance. This is a minor but important compositional element, weight 1 point.",
+      "question": "Is the ship positioned near the center of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

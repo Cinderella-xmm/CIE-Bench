@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0048",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the stripes on the zebra sharp and distinct without any unnatural pixelation or blurring?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the stripes on the zebra appear to have a very stark contrast compared to Image A. The editing process has intensified the stripes, making them appear sharp and distinct, without visible pixelation or blurring. This high contrast is likely due to a filter, enhancing their definition. In Image A, the stripes are naturally blended with subtle variations in shading due to lighting and the zebra's fur texture.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the zebra's fur textures appear natural without any visible artificial streaks or patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the fur texture of the zebra appears highly contrasted with artificial patterns. The editing has introduced a filtered look that emphasizes geometric shapes and bright, saturated colors, resulting in visible streaks and altering the natural appearance of the fur seen in Image A. In Image A, the fur texture is smooth and follows natural shading patterns consistent with lighting and the animal's movement.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the proportions of the zebra's body consistent and free from any geometric distortions like warping or stretching?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the intense filtering applied, the proportions of the zebra's body remain intact and consistent. There are no visible signs of warping or stretching in the zebra's shape. Image A confirms this as well, showing natural proportions. The filtering did not alter the geometry of the zebra's body; it only affected texture and color.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the relative position between the zebra and the background grassland remain unchanged and natural?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the relative position of the zebra within its environment of the grassland remains unchanged from Image A. The editing impacts mainly the color, contrast, and texture, but does not change the position of the zebra in relation to the background. Image A shows that the zebra is standing naturally in the grassland with consistent spatial relationships reflecting accurate positioning.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the grass blades and the zebra's hooves detailed and free from any loss of sharpness or introduction of noise?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the detail of the grass blades and zebra's hooves is significantly altered by the editing process. The grass appears very contrasted, with some loss of fine details and introduction of noise due to the applied filter. Similarly, the hooves show reduced definition and increased artificial texture. Image A offers natural detail and sharpness in both the grass blades and hooves, without such artifacts.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

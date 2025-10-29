@@ -1,0 +1,72 @@
+Description of reference image: The subject is a seated male figure depicted in a sketch-like style using charcoal or similar medium on toned paper. He has short dark hair, a prominent mustache, and a closed-eyed expression suggesting contemplation or repose. His posture is relaxed yet composed, with one arm resting on the back of a chair and his body slightly turned toward the viewer. He wears a dark, high-collared jacket or coat, possibly military or formal attire, with visible lapels and a button near the collar. The chair is partially visible, with a straight vertical backrest and a curved armrest, rendered in light strokes that suggest form without detail. The background is minimal, consisting of soft shading around the figure to create depth, with no distinct objects or scenery. The overall tone is muted, with warm beige paper and dark contrasts defining the figure’s silhouette. The texture of the paper is subtly visible, contributing to the drawing's tactile quality. A number “27826” appears in the bottom right corner, likely an inventory or catalog mark.
+
+Thinking process:  
+First, analyze the editing instructions word by word:  
+- "Transform the figure into an Art Deco-inspired poster" → This indicates a complete stylistic overhaul, including color, line treatment, and composition. The *form* of the figure can be altered significantly, but not necessarily its identity or pose.  
+- "Stylize the suit into bold geometric shapes with metallic silver and blue hues" → The *design* of the suit is explicitly allowed to change; its material, shape, and color are subject to transformation. However, the *presence* of the suit as clothing remains implied.  
+- "Accentuate the chair with streamlined patterns" → The chair’s form may be reinterpreted, but its function as a support object for the seated figure must remain consistent.  
+- "Render the background in a vibrant sunset gradient" → The background is fully replaceable; no original elements need to be preserved.
+
+Allowed Changes List:  
+- The visual style of the figure (e.g., line work, shading, texture)  
+- The color scheme of the suit (to metallic silver and blue)  
+- The shape and design of the suit (to geometric forms)  
+- The appearance of the chair (to include streamlined Art Deco patterns)  
+- The background (to a vibrant sunset gradient)  
+- The overall medium and rendering technique (from sketch to poster-style graphic)
+
+Step 2 – Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: The figure’s identity hinges on specific facial features—particularly the mustache and closed eyes—which are iconic in this depiction. These features distinguish the individual from others and are essential for recognition. Even if stylized, they must retain their basic form. The seated posture and orientation (slightly turned, arm on chair back) are also key to identifying the pose and context. If these are radically changed, the figure becomes unrecognizable.
+
+Functional/logical association elements: The relationship between the figure and the chair is functional—the figure is seated upon it. This spatial logic must be preserved: the figure must still be positioned as if sitting, supported by the chair. Changing this would break the physical plausibility of the scene. Additionally, the direction of gaze (closed eyes, head slightly tilted) suggests introspection; this emotional tone should be retained even if stylized.
+
+Non-modified element deduction: Elements not mentioned in the instruction for change—such as the presence of the mustache, the general silhouette of the head, the placement of the arm on the chair, the seated position, and the catalog number “27826”—must be retained unless explicitly overruled. Since the instruction does not mention altering the facial features or the figure’s position, these are considered non-changeable by default.
+
+Preservation Targets List:  
+- The presence of the mustache  
+- The closed-eye expression  
+- The seated posture with arm resting on the chair back  
+- The positioning of the figure relative to the chair (sitting)  
+- The catalog number “27826” in the bottom right corner  
+
+{
+    Q1: 
+    Thinking process: The mustache is a defining facial feature in this portrait, critical for identifying the subject. Its presence and shape are central to the figure’s identity. Even under Art Deco stylization, its core form—thick, curved, and centered above the upper lip—must be preserved to maintain recognition. Losing it would fundamentally alter the subject’s identity.
+    Question: Is the mustache present and clearly defined above the upper lip?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The closed eyes are a key emotional and compositional element, conveying introspection or calmness. They define the facial expression and contribute to the overall mood. In any stylized version, the eyes must remain closed to preserve the intended psychological state of the figure.
+    Question: Are both eyes closed in the facial expression?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The seated posture, particularly the arm resting on the back of the chair, establishes the figure’s interaction with the environment. This gesture is integral to the composition and cannot be removed or replaced with a standing or reclining pose without changing the scene’s logic. The arm’s position relative to the chair must remain consistent.
+    Question: Is the figure’s right arm resting on the back of the chair?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The figure is seated, which implies physical contact with the chair and a stable lower-body posture. Even if the chair is stylized, the figure must remain in a seated position to maintain functional logic. Standing or floating would contradict the original scene.
+    Question: Is the figure depicted in a seated position?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The catalog number “27826” is a real-world identifier, likely part of the artwork’s provenance. It is a fixed textual element in the bottom right corner. Unless explicitly instructed to remove it, it must be preserved as a factual detail tied to the original image.
+    Question: Is the number “27826” visible in the bottom right corner of the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

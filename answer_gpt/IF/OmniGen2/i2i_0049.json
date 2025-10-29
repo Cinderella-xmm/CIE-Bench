@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0049",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is only one zebra visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there isn't any zebra visible at all. The figure appearing in the image is actually a person skiing. The skis and poles might loosely suggest the leg and neck patterns of a zebra but this isn't a correct association.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Has all the grass been removed from the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background has been completely replaced by a solid lime-green color, removing all environmental details, including any grass, that might have been present in the original image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the grass area replaced by a green gradient plane?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B is a solid lime-green color plane without any gradient effect. A gradient would show gradual color changes, but this is a flat green color.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image maintain a calm and solitary atmosphere without extra distractions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B has a simple background with a single solid green color, which eliminates any additional background details. While this may make the scene less complex, the bright green color itself is quite striking and not typically associated with a calm atmosphere.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the original zebra's position and appearance preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The subject in both images is a person skiing, not a zebra. The position and appearance refer to an individual with skiing equipment. In this context, the person’s position and appearance (clothing and gear) have been preserved in the edited image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

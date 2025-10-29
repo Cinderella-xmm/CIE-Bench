@@ -1,0 +1,84 @@
+{
+  "filename": "laion_6150787109615377867",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the tabletop still circular in shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tabletop is clearly circular, as indicated by its uniform round shape with no irregularities or deviations from a circular form. The circular shape is easily recognizable by its symmetrical round edges. This observation is consistent with circular tabletops found in furniture design.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does a single vertical column extend from the center of the tabletop to the base?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is indeed a single vertical column that extends from the center of the tabletop to the base. This is identifiable by the singular, prominent support structure that is aligned with the center of the circular tabletop and extends vertically downward. This design feature is typical in pedestal tables, where there is a central column providing support.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the base consist of five symmetrically arranged legs forming a star shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a base with four legs, not five. They are symmetrically arranged, forming a cross or '+' shape rather than a star. A star-shaped base typically consists of an odd number of legs that radiate outward symmetrically. Thus, the design in Image B does not form a star.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there small black rubber feet at the tip of each leg?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the ends of the legs do not feature black rubber feet. The ends of each leg are visible and lack any addition that resembles rubber feet. Therefore, the visual evidence does not support the presence of black rubber feet at the tips of the legs.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the height of the central column approximately equal to the diameter of the tabletop?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the central column is visually taller than the diameter of the tabletop. This is estimated by observing the proportion of the vertical column compared to the tabletop's horizontal span—common sense indicates that the height exceeds the tabletop's diameter.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the main body of the table still made of a shiny, silver-colored metal?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the main body of the table is composed of a bronze or gold-colored material with intricate detailing, not shiny silver. The visual appearance includes metallic elements, but the color and finish have shifted from silver to a different metallic shade, which affects how light reflects off the surfaces. Therefore, the metal is not silver-colored anymore.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.46153846153846156
+}

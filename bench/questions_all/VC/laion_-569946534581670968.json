@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The golden-brown color is the key visual identifier of the chicken wings in the original image. Even when transformed into plush toys, the instruction specifies \"golden-brown fabric,\" meaning this color is a required attribute for recognition. Losing this would make the object unidentifiable as a chicken wing replica.",
+      "question": "Is the golden-brown color present on the plush chicken wings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The shape of the chicken wings — including drumettes and flats — is essential for identifying them as chicken wings. The instruction calls for \"replicas,\" which implies preservation of form. Changing their silhouette would break the identity of the subject.",
+      "question": "Are the plush chicken wings shaped like real chicken wings, including distinct drumettes and flats?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The small white bowl is a functional element that holds the sauce. It is clearly visible in the original image and is directly referenced in the editing instruction. Its presence and position are necessary for maintaining the logical structure of the scene — even if the contents change.",
+      "question": "Is there a small white bowl located at the bottom right corner of the plate?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The bright orange color of the sauce is specified in the instruction as the target for the pillow. In the original image, this color is distinctive and identifies the sauce as spicy or sweet chili-based. Preserving this color ensures the visual consistency of the replacement.",
+      "question": "Is the object inside the small white bowl bright orange in color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The number of chicken wings (approximately ten) is a key detail in the composition. The instruction does not mention reducing or increasing quantity, and transforming them into replicas implies maintaining the same count for visual coherence.",
+      "question": "Are there approximately ten plush chicken wings on the plate?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The relative positioning of the bowl near the bottom right of the plate establishes spatial logic in the original image. The instruction does not alter this placement, so retaining it ensures continuity in the scene’s layout.",
+      "question": "Is the small white bowl positioned near the bottom right corner of the plate?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

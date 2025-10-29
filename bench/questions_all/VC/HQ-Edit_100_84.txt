@@ -1,0 +1,118 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a traditional dhow boat sailing on calm ocean waters during sunset. The dhow features three large triangular sails, fully unfurled and catching the golden light of the sun. The hull is wooden, with ornate carvings visible along its sides and a covered upper deck with arched windows and decorative lattice work. The bow is long and pointed, extending forward with a slight upward curve. The boat is positioned diagonally across the frame, moving from the lower left toward the upper right. The sea reflects the warm hues of the sky, transitioning from deep turquoise near the boat to golden shimmer where sunlight hits the surface. In the background, several smaller sailboats are visible as distant silhouettes on the horizon, under a dramatic sky filled with soft orange, yellow, and brown clouds. The sun is low on the left side of the frame, casting a bright reflection across the water.
+
+Thinking process:  
+The editing instruction specifies the following transformations:
+- **Style the dhow with intricate Middle Eastern ornamentation** → This implies enhancement or addition of decorative patterns but does not require changing the fundamental form of the boat.
+- **Add mythical sea creatures with delicate detailing around it** → New elements introduced; original marine life or absence thereof may be altered.
+- **Utilize rich blues and golds for vibrant contrast** → Color palette adjustment allowed, but core color identity (e.g., wood tone) may be modified.
+- **Simplify the sailboats into subtle silhouettes** → Existing sailboats can be reduced in detail, but their presence must remain.
+- **Add an exotic Arabian skyline mirage with intricate geometric patterns at the horizon** → Background transformation; horizon content changes significantly.
+
+From this analysis:
+- The **form and structure of the dhow** (shape, number of sails, orientation) are implied to remain intact, though decoration may be enhanced.
+- The **presence of multiple sailboats** in the distance is mentioned as being simplified — so they must still exist but become less detailed.
+- The **skyline and horizon** will be replaced with a mirage effect, meaning original distant land or sky features are not required to persist.
+- The **sea creatures and new ornamentation** are additions, not replacements of existing content.
+
+Allowed Changes List:
+- Addition of mythical sea creatures around the dhow
+- Enhancement of Middle Eastern ornamentation on the dhow’s hull and deck
+- Color shift toward richer blues and golds
+- Simplification of distant sailboats into faint silhouettes
+- Replacement of natural horizon with an Arabian skyline mirage featuring geometric patterns
+- Modification of lighting and reflection effects to enhance vibrancy
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements:
+- The **three-sail configuration** of the dhow is iconic and essential to identifying it as a traditional Arabian dhow. Changing the number or shape of sails would fundamentally alter its identity.
+- The **wooden hull with arched windows and open deck structure** defines the functional and architectural style of the vessel. While ornamentation may increase, the basic structural layout must remain recognizable.
+- The **diagonal positioning** of the boat across the frame establishes spatial dynamics and perspective. Altering this could disrupt compositional balance unless explicitly permitted — but since no such change is requested, it should be preserved.
+- The **presence of the sun low on the left**, creating a reflective path on the water, is a key atmospheric element anchoring the scene in time (sunset). Though lighting may be intensified, the sun's position and reflection pattern are central to visual coherence.
+
+Functional/logical association elements:
+- The **dhow floating on water** maintains physical logic. Even with added mythological elements, the boat must remain buoyant and interacting with the sea surface.
+- The **relative scale between the main dhow and distant sailboats** supports depth perception. While the distant boats may be simplified, their existence and relative size must be retained to preserve spatial hierarchy.
+
+Non-modified element deduction:
+After excluding allowed changes (new creatures, added mirage, enhanced colors), the following must remain:
+- The **number and shape of the sails** (triangular, three in total)
+- The **basic hull design** (pointed bow, flat stern, enclosed deck with arches)
+- The **position of the boat in the foreground**, dominating the composition
+- The **presence of other sailboats in the distance**, even if simplified
+- The **overall direction of movement** (from lower-left to upper-right)
+
+Preservation Targets List:
+- The three triangular sails of the dhow
+- The wooden hull with arched window openings and decorative railing
+- The diagonal orientation of the boat across the frame
+- The presence of multiple distant sailboats on the horizon
+- The sun's position low on the left, casting a golden reflection across the water
+- The interaction between the boat and the water surface (visible wake and reflection)
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The three triangular sails are the defining feature of the dhow’s silhouette and distinguish it from other vessels. Their number and shape are critical to identifying the boat type. Removing or altering them would make the vessel unrecognizable as a traditional dhow. This is a core identity element, hence weighted at 3 points.
+    Question: Are there exactly three triangular sails attached to the dhow, arranged in a staggered vertical line?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The wooden hull with arched windows and decorative railing is a structural hallmark of the dhow’s design. It provides both functional and aesthetic identity. Even with added ornamentation, the base structure must remain visible to maintain authenticity. This is a core functional/formal element, thus weighted at 3 points.
+    Question: Does the dhow have a wooden hull with visible arched windows and decorative lattice railings along the upper deck?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The diagonal placement of the boat from lower-left to upper-right creates dynamic motion and depth. This positioning is essential for compositional balance and viewer engagement. Altering this would misrepresent the scene’s spatial logic. It is a key compositional element, so it receives a weight of 2 points.
+    Question: Is the dhow oriented diagonally across the frame, with its bow pointing toward the upper right?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The presence of distant sailboats establishes context and scale. Although the instruction allows simplification, their removal would break continuity with the original scene. Their existence is necessary for environmental consistency, making this an important scene element with a weight of 2 points.
+    Question: Are there multiple small sailboats visible on the horizon in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The sun’s position low on the left and its reflection on the water define the time of day and lighting condition. This is a key atmospheric anchor. While color intensity may change, the sun’s location and reflection path must remain to preserve realism and mood. This is a significant environmental detail, thus weighted at 2 points.
+    Question: Is the sun located low on the left side of the image, casting a bright golden reflection across the water surface?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The interaction between the dhow and the water—specifically the visible wake and reflection beneath the hull—is essential for conveying motion and realism. Even with added fantasy elements, this physical relationship must remain intact. It supports logical consistency in the scene and is a secondary but important detail, earning 1 point.
+    Question: Is there a visible wake and reflection of the dhow beneath its hull on the water surface?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The pointed bow with an extended prow is a distinctive feature of traditional dhows. Its shape contributes to the boat’s identity and distinguishes it from other ship types. While ornamentation may be added, the basic form must be preserved. This is a minor but identifiable structural detail, so it is assigned 1 point.
+    Question: Does the dhow have a long, pointed bow extending forward from the hull?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

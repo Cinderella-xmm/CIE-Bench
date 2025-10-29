@@ -1,0 +1,162 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a female boxer positioned in a boxing ring, facing slightly to the right with her body angled forward in a defensive stance. Her hair is pulled back into a tight, neat bun at the back of her head, revealing a clean jawline and defined facial features. She wears a beige sleeveless athletic crop top that exposes her toned midriff and abdominal muscles, paired with matching high-waisted athletic shorts featuring an elastic waistband. Her arms are raised in a classic boxing guard position, with red boxing gloves on both hands; the gloves have white wrist straps and appear to be made of leather with visible stitching. The background depicts a dimly lit indoor arena with rows of stadium seating blurred into soft focus, illuminated by bright overhead spotlights creating lens flares and dramatic lighting effects. A red rope of the boxing ring is visible in the foreground, framing the lower portion of the image. The overall atmosphere is intense and cinematic, emphasizing strength, focus, and athleticism.
+
+---
+
+**Thinking process:**  
+The editing instruction states: *"Transform the athlete into a dynamic art print series: enhance her form with comic-style muscular exaggeration, render her gloves in fiery red with gold accents, and set against an electrifying backdrop with vibrant strobe lights. Incorporate a blank motivational quote panel on the side. Present as a trio of gym wall prints, using bold typography to amplify the sportif energy."*
+
+From this, we extract:
+
+- **Allowed changes to subject form**: "enhance her form with comic-style muscular exaggeration" → allows for distortion of muscle definition and proportions.
+- **Allowed changes to gloves**: "render her gloves in fiery red with gold accents" → color and texture of gloves can change (red → fiery red + gold).
+- **Allowed changes to background**: "set against an electrifying backdrop with vibrant strobe lights" → background lighting and atmosphere can be altered; original arena lights can be replaced or enhanced.
+- **New elements introduced**: "blank motivational quote panel on the side" → new element not present in original, so its presence is permitted but not required to match original content.
+- **Presentation format**: "Present as a trio of gym wall prints" → format change allowed; composition may be adapted for triptych layout.
+- **Typography**: "using bold typography" → text style added, not part of original image.
+
+Thus, **allowed changes list** includes:
+- Muscular form and proportions (exaggerated comic-style)
+- Color and design of boxing gloves (fiery red with gold accents)
+- Background lighting and ambiance (strobe lights, electrifying effect)
+- Addition of a blank quote panel
+- Format adaptation for triptych presentation
+- Use of bold typography
+
+These are all **explicitly permitted modifications** under the instruction.
+
+---
+
+**Allowed Changes List:**
+- Muscular structure and proportion of the athlete (can be exaggerated)
+- Color and material details of boxing gloves (can be rendered in fiery red with gold accents)
+- Background lighting and atmosphere (can be transformed into electrifying strobe effects)
+- Introduction of a blank motivational quote panel
+- Presentation format (e.g., triptych layout)
+- Typography style (bold font for text)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now apply exclusion logic based on the above allowed changes.
+
+### Core Recognition Elements:
+- **Subject identity**: The figure is a female boxer in a boxing ring — this identity must remain intact even if stylized. Key identifiers include:
+  - **Gender and facial features**: Female face with distinct features (nose, lips, eyes, ear shape) — must remain recognizable as human, specifically female.
+  - **Athletic attire**: Beige crop top and matching shorts — while colors might shift slightly due to lighting, their **form and type** must remain consistent (i.e., sleeveless top, high-waisted shorts).
+  - **Boxing gloves**: Though color and design can change, they **must remain gloves**, worn on hands, with wrist support — functionally essential.
+  - **Hair style**: Bun at the back — while not strictly unique, it's a specific detail contributing to visual identity; should remain unless explicitly changed.
+  - **Pose**: Defensive boxing stance — hands up, elbows in, body angled — this posture defines the action and context.
+
+> Note: While *muscle mass* can be exaggerated, the **basic anatomical structure** (limb placement, joint angles, torso orientation) must remain logically consistent with a human boxer in motion.
+
+### Functional/Logical Association Elements:
+- **Gloves on hands**: Must remain attached to hands; cannot float or be misplaced — functional requirement for boxing.
+- **Position within ring**: Must remain inside the boxing ring, with red ropes visible — maintains scene logic.
+- **Hand positioning**: Guard stance — left hand near chin, right hand slightly lower — preserves fighting posture.
+- **Clothing continuity**: Crop top and shorts must cover appropriate areas (midriff exposed, legs covered), maintaining realism despite stylization.
+
+### Non-modified Element Deduction:
+After excluding allowed changes:
+- **Hair bun**: Not mentioned in instructions to change → must remain.
+- **Facial expression**: Focused, intense gaze to the side — not specified for change → must be preserved.
+- **Skin tone and texture**: Not mentioned for alteration → should remain consistent.
+- **Waistband elasticity and fabric folds**: Visible on shorts — subtle but important for realism → retain.
+- **Rope texture and color**: Red rope of ring — not mentioned for change → retain.
+
+Even though the background can be changed, the **presence of a boxing ring environment** must be retained (implied by “boxing ring” in original), so the **ring ropes and spatial context** must persist.
+
+Thus, **preservation targets** are those visual features not explicitly allowed to change and necessary for core identity and logical consistency.
+
+---
+
+**Preservation Targets List:**
+- The subject’s gender and facial features (female, with clear eyes, nose, lips, ear)
+- The hairstyle (tight bun at the back of the head)
+- The clothing type: sleeveless beige crop top and high-waisted beige shorts
+- The presence of boxing gloves on both hands
+- The defensive boxing stance (hands raised, elbows in, body angled)
+- The red rope of the boxing ring in the foreground
+- The relative position of the subject inside the ring
+- The visibility of the midriff and abdominal muscles through the crop top
+- The wrist strap design on the gloves (white section with closure mechanism)
+- The skin tone and natural lighting on the face and body
+- The angle of the head (slightly turned to the right, looking forward)
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+Q1:  
+Thinking process: The tight bun hairstyle is a distinctive feature of the subject’s appearance in the original image. It is a key identifier of her grooming style and contributes to the overall sense of discipline and readiness. If removed or replaced (e.g., with loose hair or a different style), the character would lose a core visual attribute. This is not mentioned in the editing instructions as something to change, so it must be preserved. Its presence is critical for recognition of the original subject.  
+Question: Is the subject’s hair styled in a tight bun at the back of her head?  
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+Q2:  
+Thinking process: The sleeveless beige crop top is a defining piece of athletic wear in the original image. Its cut, color, and fit are central to the subject’s outfit and contribute to the visual identity. While the instructions allow for artistic enhancement, they do not specify changing the garment type. Therefore, the basic form and color of the top must be preserved. Losing this would disrupt the original aesthetic and identification.  
+Question: Is the subject wearing a sleeveless beige crop top that exposes her midriff?  
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+Q3:  
+Thinking process: The high-waisted beige athletic shorts with an elastic waistband are a key component of the subject’s attire. Their design, including the gathered fabric at the waist and the way they drape over the hips, is specific to the original image. Even if stylized, the fundamental shape and position must remain to maintain coherence. This is not listed for modification, so it must be preserved.  
+Question: Are the subject’s shorts high-waisted with a visible elastic waistband?  
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+Q4:  
+Thinking process: The defensive boxing stance — with hands raised, elbows tucked, and body angled forward — is essential to the subject’s identity as a boxer in action. This pose conveys intent and readiness, and is a core functional element. The instructions do not permit altering the pose, only enhancing musculature. Thus, the spatial relationship between limbs and torso must remain consistent.  
+Question: Is the subject in a defensive boxing stance with both hands raised near her face?  
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+Q5:  
+Thinking process: The red rope of the boxing ring is a critical environmental element anchoring the subject in the correct setting. It defines the space and provides context. Although the background lighting can change, the rope itself is not mentioned for alteration. Its presence is necessary to maintain the scene’s authenticity and logical consistency.  
+Question: Is a red rope visible in the foreground, indicating the edge of the boxing ring?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+Q6:  
+Thinking process: The boxing gloves are essential functional items. While their color and design can be modified (as per instructions), they must remain on the hands and retain their basic shape and wrist support. The white wrist strap with closure is a specific detail visible in the original. Even if stylized, the glove structure must be recognizable.  
+Question: Are the gloves worn on both hands, with visible wrist straps?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+Q7:  
+Thinking process: The subject’s facial expression — focused, intense, with eyes looking forward — is a key emotional and narrative element. It conveys determination and concentration. Since no instruction mentions changing expression, it must be preserved. Loss of this expression could alter the mood and intent of the image.  
+Question: Is the subject’s face showing a focused, intense expression with eyes directed forward?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+Q8:  
+Thinking process: The exposed midriff and visible abdominal muscles are a direct result of the crop top and the subject’s physique. These details are not mentioned for change and contribute to the athletic portrayal. They are secondary but important for maintaining the realism and physicality of the subject.  
+Question: Is the subject’s midriff exposed, showing defined abdominal muscles?  
+Choices: Yes, No  
+A: Yes  
+Weight: 1  
+
+Q9:  
+Thinking process: The skin tone and natural lighting on the face and upper body are consistent throughout the original image. While lighting can be enhanced, the base skin tone and realistic texture must remain to preserve the subject’s identity. This is not explicitly allowed to change, so it should be maintained.  
+Question: Does the subject have a natural skin tone with visible highlights and shadows from lighting?  
+Choices: Yes, No  
+A: Yes  
+Weight: 1  
+
+Q10:  
+Thinking process: The angle of the head — slightly turned to the right, looking ahead — is a specific compositional choice in the original. It contributes to the sense of anticipation and direction. Since no instruction mentions altering this angle, it must be preserved.  
+Question: Is the subject’s head turned slightly to the right, with her gaze directed forward?  
+Choices: Yes, No  
+A: Yes  
+Weight: 1

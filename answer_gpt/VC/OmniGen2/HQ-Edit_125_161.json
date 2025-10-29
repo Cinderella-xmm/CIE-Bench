@@ -1,0 +1,110 @@
+{
+  "filename": "HQ-Edit_125_161",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the herringbone-patterned wooden floor present and accurately rendered in the same layout and orientation as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the marble flooring replaces the herringbone wooden pattern seen in Image A. Using world knowledge, herringbone is a common design for wooden floors, typically featuring a compact, interlocking layout. The marble flooring in Image B significantly contrasts and alters the floor's texture and appearance, ensuring that the original herringbone pattern is not present.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the vertical and horizontal moldings of the wall paneling preserved, including the recessed rectangular panels and crown molding?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing Image B, the wall paneling appears largely preserved, maintaining a classical aesthetic. Comparing with Image A, the vertical and horizontal moldings, as well as the recessed rectangular panels, are consistent between both images. Using the knowledge of architectural wall paneling, these elements are recognized as decorative features that add depth and texture.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the oval-shaped skylight or oculus at the top of the spiral staircase still present and positioned centrally above the coil?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the oval-shaped skylight is missing. Image A depicted a central skylight where spiral staircases often allow light to create a focal point within a grand architectural space. Image B omits this element, causing a significant alteration in lighting and primary composition focus.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the graphite pencil visible in the lower-right corner of the image, angled diagonally across the drawing’s border?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there isn’t any visible pencil present. Image A showcases a pencil at the lower-right corner, which is a standard tool used for drafting and sketching, indicating an artistic process. The removal in Image B transitions the scene from illustration to a rendered visual without drafting tools.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the thin ruled border enclosing the entire drawing present, with short perpendicular lines at each corner?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B lacks the ruled border and the perpendicular corner lines that are present in Image A. Typically, these elements frame drawings and sketches to define boundaries and include drafting details. Their absence in Image B indicates a shift away from an illustrated representation.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the perspective of the scene maintain convergence toward the oval skylight at the top, with all architectural lines aligning accordingly?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the convergence of perspective toward a central skylight is not maintained because the skylight is absent. Image A’s design uses the architectural lines to lead attention upward, creating a sense of depth and focus central to building symmetry. This change in Image B disrupts anticipated architectural perspective cues.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are the tonal gradients on the walls and floor, particularly the darker shadows near the base and lighter areas under the skylight, preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a noticeable difference in tonal gradients due to the absence of the skylight, affecting lighting dynamics significantly when compared with Image A. Shadows cast by sunlight would naturally drift from darker near the base, lightening upward. Without the skylight, this interplay of light and shadow is lost.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q8",
+      "question": "Are the individual wooden planks of the floor rendered with fine parallel lines to indicate texture and grain?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the floor is depicted with a marble finish rather than wooden planks. Using world knowledge, hardwood floors commonly show texture and grain through meticulous detail, contrasting marble's uniform and polished surface, effectively removing any indication of wooden parquet texture.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.17647058823529413
+}

@@ -1,0 +1,110 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+Description of reference image:  
+The subject is a Yamaha scooter, presented in a side profile view facing right. The motorcycle features a black base color with dynamic blue angular striping patterns that form sharp geometric shapes across the bodywork, including the fuel tank, side panels, front fairing, and rear section. Key visual elements include two cartoonish skull-like faces—one on the rear fender and one on the front headlight cowl—both stylized with exaggerated white teeth, dark eye sockets, and pointed ears or horns. The design incorporates various brand decals such as “V-SDI,” “VFORCE3,” “TDR,” and “Dunlop” printed on the lower side panel. The wheels are standard spoked rims with visible disc brakes. The background is a clean white canvas framed by a dark border containing branding elements: “MRSTIKER.COM” at the top, “YAMAMA SEMI FULL/STRIPING” with checkered flag motif, and a logo at the bottom center featuring “MR & Work” with a crown. Social media and contact details are displayed at the bottom. The overall composition is promotional, emphasizing customization.
+
+Thinking process:  
+The editing instruction specifies transforming the motorcycle into a **vibrant LEGO model using black and blue bricks**, maintaining its **distinct angular design**. This indicates that:
+- The **form and silhouette** of the motorcycle must be preserved (allowed change: material and texture).
+- The **color scheme** (black and blue) must remain consistent.
+- The **angular geometry** of the bodywork must be retained (structural integrity of shape).
+- The **wheel rims** are to be replaced with **intricate cog patterns**, so original rim design can be changed.
+- **Decals** are to be rendered as **printed tile elements**, meaning their placement and content may stay but presentation changes.
+- The **baseplate** is introduced (new scene element), requiring a smooth gray platform with directional arrows.
+- The **display case** is added for impact — this is a new environmental context not present originally.
+
+Allowed Changes List:  
+- Material of the motorcycle (from metal/plastic to LEGO bricks)  
+- Texture of surfaces (smooth paint → brick pattern)  
+- Wheel rims (spoked → cog-shaped)  
+- Decal appearance (printed stickers → printed tiles on LEGO bricks)  
+- Background environment (white canvas → display case with baseplate and arrows)  
+- Scene lighting and depth (implied by "clean display case")  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements:  
+- The **skull faces** on the rear fender and front cowl are iconic design features. They are stylized and highly distinctive; changing them would compromise the identity of this specific sticker design. These are not generic decorations but signature artistic elements tied to the branding ("MR Stiker").
+- The **blue angular stripe patterns** define the semi-full striping style. Their **shape, direction, and placement** are critical to identifying the design. Even if rendered in LEGO bricks, their **geometric layout** must remain identical.
+- The **position and content of sponsor decals** (“V-SDI”, “VFORCE3”, etc.) must be preserved because they are part of the product’s branding and serve as key identifiers for customers seeking this exact design.
+- The **overall silhouette and proportions** of the motorcycle must be retained since the instruction says “maintaining its distinct angular design.” This includes the relative length of the body, position of the seat, handlebars, exhaust, and wheelbase.
+- The **presence of both skulls** (one near the tail, one on the front) is essential for recognition — removing or altering one would misrepresent the original artwork.
+
+Functional/logical association elements:  
+- The **relationship between the decals and the body panels** must be preserved. For example, “VFORCE3” appears on the lower side panel just above the foot peg area — this spatial logic should remain intact even if transformed into LEGO tiles.
+- The **orientation of the motorcycle** (side profile, facing right) must be maintained to preserve visual consistency with the original marketing layout.
+
+Non-modified element deduction:  
+After excluding allowed changes (material, texture, rim type, background), all remaining **visual details** — such as the **exact shape of the stripes**, **placement of logos**, **skull facial expressions**, **exhaust pipe curvature**, and **seat contour** — must be retained to ensure fidelity to the original design.
+
+Preservation Targets List:  
+- The presence and placement of the two cartoonish skull faces (one on rear fender, one on front cowl)  
+- The blue angular stripe pattern across the bodywork (including its shape, direction, and coverage areas)  
+- The exact positioning and content of sponsor decals (e.g., “V-SDI”, “VFORCE3”, “TDR”)  
+- The overall silhouette and proportion of the Yamaha scooter  
+- The side profile orientation (facing right)  
+- The relative positions of key components: seat, exhaust, handlebars, wheels  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The skull face on the rear fender is a core artistic feature unique to this design. Its presence, expression (grinning teeth, hollow eyes), and location directly identify the custom decal set. If removed or altered beyond recognition, the design loses its identity. It is a signature element of MR Stiker’s branding.
+    Question: Is the skull face with grinning teeth and hollow eyes located on the rear fender of the motorcycle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The second skull face on the front headlight cowl is symmetrically paired with the rear one and forms part of the dual-iconic theme. Its removal or modification would break the visual balance and branding continuity. It is equally essential for identification.
+    Question: Is there a skull face with grinning teeth and hollow eyes positioned on the front headlight cowl?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The blue angular stripe pattern defines the “semi full striping” style. Its shape, sharp angles, and flow across the fuel tank, side panels, and front fairing are unique to this design. Changing it would make the LEGO version unrecognizable as the same skin.
+    Question: Are the blue angular stripes present along the fuel tank, side panels, and front fairing in the same geometric configuration as in the original?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The “V-SDI” and “VFORCE3” decals are functional branding elements placed on the lower side panel. Their text and position are critical for authenticity. Even when converted to LEGO tiles, their content and placement must remain unchanged.
+    Question: Is the “V-SDI” and “VFORCE3” decal visible on the lower side panel near the foot peg area?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The motorcycle’s side profile orientation (facing right) is fundamental to how the design is marketed and recognized. Reversing or rotating it would disrupt visual coherence and misalign with the original layout.
+    Question: Is the motorcycle shown in a side profile view facing toward the right side of the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The relative position of the exhaust pipe beneath the seat and extending backward is a structural detail that helps identify the bike model and design. Altering its path or attachment point would affect realism and recognition.
+    Question: Is the exhaust pipe located beneath the seat and curving downward toward the rear wheel?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The seat shape and contour are part of the scooter's identity. While minor, preserving its rounded back and smooth surface ensures accurate representation of the original vehicle.
+    Question: Does the seat have a smooth, slightly curved surface with a raised backrest?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

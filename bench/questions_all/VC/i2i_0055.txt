@@ -1,0 +1,82 @@
+Description of reference image:  
+The subject is a construction worker wearing a bright yellow safety helmet, a high-visibility neon yellow vest with reflective orange stripes, bright green shorts, and orange pants underneath. The person is holding a mobile phone to their ear while standing in front of a red train vehicle. The individual’s posture suggests engagement in a conversation. The background includes parts of a train with visible windows and a metallic fence near the lower portion.
+
+---
+
+### Step 1 - Allowed Changes List:
+
+Thinking process:  
+Based on the provided editing instructions, the following is explicitly allowed to change:  
+- The foreground baby elephant is transformed into a cartoon character styled as rounded and cute.  
+- Text “First Splash!” and “Ele-Baby” will be added with a transparent background.  
+
+Specific element 1 that allows for changes:  
+Foreground subject transformation from a baby elephant to a cartoon character.  
+(Specific element 2 that allows for changes: Addition of text with specified content.)
+
+---
+
+### Step 2 - Determine Elements That Should Remain Unchanged:
+
+Thinking process:  
+Core recognition elements:  
+- The background setting must remain consistent with the train and fence as it provides context for the subject.  
+Functional/logical association elements:  
+- The posture and context of the person's interaction with the phone must be preserved.  
+
+Non-modified element deduction:  
+- Retain the attire of the worker, including the reflective vest, helmet, and other details, ensuring visual coherence and recognition.
+
+Preservation Targets List:  
+(Background train and fence)  
+(Posture and phone interaction)  
+(Worker’s attire)
+
+---
+
+### Generated Question Answer Pairs:
+
+{
+    Q1:  
+    Thinking process: The background train and metallic fence are core elements providing setting context. Alterations here would disrupt the scene's realism.
+    Question: Is the background still showing the red train and metallic fence?
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 3  
+}
+
+{
+    Q2:  
+    Thinking process: The high-visibility neon yellow vest is an essential safety item, forming a key characteristic of the subject's identity.
+    Question: Does the worker still wear the neon yellow vest with orange reflective stripes?
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 3  
+}
+
+{
+    Q3:  
+    Thinking process: The posture and the phone action define the scene's dynamics. These elements establish the subject's interaction context.
+    Question: Is the worker still holding the phone up to their ear in the same posture?
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2  
+}
+
+{
+    Q4:  
+    Thinking process: The bright yellow hard hat is another critical safety element and contributes significantly to the subject's identity.
+    Question: Is the worker still wearing the yellow hard hat?
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 3  
+}
+
+{
+    Q5:  
+    Thinking process: Maintaining the visual consistency of the safety attire helps reinforce the worker's role and environment.
+    Question: Are the worker’s green shorts and orange pants still visible under the neon yellow vest?
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 1  
+}

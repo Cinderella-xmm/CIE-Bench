@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_0_91",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the facial features proportionally consistent with human anatomy, and do they maintain natural contours without exaggerated or distorted lines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the facial features are blurred, thus not allowing a direct assessment of proportion or contour consistency. Based on world knowledge of facial blurring and artistic representations, the contours generally remain consistent with human anatomy. However, this specific assessment cannot be fully realized due to the blur.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the gold leaf accents follow the existing pattern flow and appear integrated into the textile without unnatural highlights or floating textures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the gold accents visually integrate with the floral patterns on the robe and do not disrupt the flow. They appear consistent with typical textile patterns without unnatural highlights or floating appearance. In Image A, although more subtle, the gold details follow the existing fabric pattern. Comparing both, Image B effectively maintains integration within its artistic context.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the enlarged hands anatomically accurate with five fingers each, proper joint structure, and natural skin texture without stretching or blurring?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the hands appear stylized and simplified within an artistic frame, exhibiting five distinct fingers with proper joint articulation. While texture is simplified to match stylistic choices, joint definition remains visible. Image A showcases more detailed and natural skin texture. Image B's representation is accurate in the context of its artistic style.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the floral outlines extend naturally from the robe into the indigo border without sudden breaks, inconsistent linework, or misaligned patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the floral outlines transition into the indigo border with a consistent pattern flow, maintaining continuity in linework and pattern alignment. Based on textile design knowledge, this continuity suggests well-integrated design elements. Image A does not include a border, focusing more on robe detail alone.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the textile materials retain visible texture variation and depth, avoiding flatness or pixelation that would suggest degraded quality?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B adopts a stylized artistic representation where texture variation is deliberately minimized to fit its aesthetic narrative. There is no pixelation associated with degradation, and floral elements are clear and vibrant. In Image A, texture and depth are pronounced, reflecting high-quality detailing.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

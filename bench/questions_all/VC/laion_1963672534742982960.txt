@@ -1,0 +1,80 @@
+Description of reference image: The subject is a close-up of a highly detailed, textured humanoid figure with an aged and weathered appearance. The face is grayish-silver in color, featuring deeply etched wrinkles and creases across the forehead, cheeks, and chin, giving it a stone-like or metallic texture. The eyes are strikingly bright blue with dark pupils, set within deep sockets. The figure has long, flowing white hair that extends past the shoulders, and a thick, full beard of the same pale blonde-white hue. The skin texture appears cracked and layered, resembling ancient stone or fossilized flesh. The neck and upper chest area show a continuation of the same cracked, textured surface, suggesting a non-human or mythical being. There is no visible clothing or background detail; the focus is entirely on the head and upper torso. A partial brown object, possibly a staff or weapon, is visible on the left edge of the frame, partially obscured.
+
+Thinking process: First, analyze the editing instructions to determine what can be changed. The instruction specifies transforming the monochrome figure into a snow globe scene, which implies a complete environmental change — the original background and setting will be replaced by a winter-themed snow globe. However, the instruction explicitly states to **retain** certain elements: "long hair," "muscled neckline" (though this contradicts the current cracked texture), and the chibi-style warrior form now clad in icy armor. But crucially, it says “retain the long hair and muscled neckline” — indicating these features must remain even if stylized. Also, “position atop a snowy, jagged terrain pedestal” suggests the base structure changes, but not necessarily the core visual identity of the figure’s head and facial features.
+
+The instruction does not say to alter the face’s texture, eye color, or overall design — only to recontextualize it within a new scene. Therefore, while the figure's form may be simplified into chibi style, its core identity features (especially facial details) should still reflect the original. Furthermore, the “translucent icy armor” and “miniature ice shards” are new additions, not replacements for existing features.
+
+Allowed Changes List:
+- The overall form and scale of the figure (transformed into chibi-style)
+- Clothing and armor (replaced with translucent icy armor)
+- Background and environment (changed to snow globe setting)
+- Base and pedestal (replaced with wooden carved runes and snowy terrain)
+- Scene lighting and atmosphere (adjusted for wintry effect)
+- Positioning of figure within the globe (now enclosed, elevated)
+- Texture of the body (may be simplified or stylized under armor)
+
+Step 2 – Determine the elements that should remain unchanged
+
+Thinking process:
+Core recognition elements: The original figure’s identity hinges on specific visual traits — particularly the **bright blue eyes**, **deeply wrinkled and cracked facial texture**, **long white hair**, and **pale white beard**. These are not just stylistic choices but defining characteristics of the character as depicted. If these were altered beyond recognition (e.g., changing eye color, removing wrinkles, altering hair color), the figure would no longer be identifiable as the original subject. Even in chibi form, these features must be preserved in essence.
+
+Functional/logical association elements: The instruction mentions retaining “long hair and muscled neckline.” Although the current figure shows a cracked, non-muscular neck, the instruction implies that the neckline should retain a sense of definition or strength — possibly meaning the shape or volume of the neck must remain prominent, even if stylized. This suggests the **presence of a defined neck structure** must be maintained, even if rendered differently.
+
+Non-modified element deduction: Elements not mentioned in allowed changes must be retained. For example, the **white hair’s length and flow**, the **texture of the beard**, the **blue irises**, and the **facial wrinkles** are not listed as modifiable. Since the instruction only allows transformation into a chibi warrior with icy armor, the underlying facial structure and key textures must remain recognizable.
+
+Preservation Targets List:
+- The presence of long, flowing white hair
+- The blue irises of the eyes
+- The deeply wrinkled and cracked texture of the face
+- The full white beard
+- The structural outline of the face and neck (including jawline and cheekbones)
+- The general proportion and placement of facial features (eyes, nose, mouth)
+
+{
+    Q1: 
+    Thinking process: The bright blue eyes are a distinctive and unique feature of the original figure, serving as a core identification marker. In fantasy or mythological depictions, such vividly colored eyes often signify otherworldliness or magical nature. Altering their color or removing them would fundamentally change the character’s identity. Thus, preserving the blue iris color is essential for maintaining recognition.
+    Question: Are the eyes of the figure still bright blue with clearly visible irises?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The deeply etched wrinkles and cracked texture across the face are central to the figure’s aged, stone-like appearance. This texture is not merely decorative but defines the character’s aesthetic and perceived age/origin. Removing or smoothing these lines would make the figure appear younger or less authentic, undermining its core visual identity.
+    Question: Is the facial texture still characterized by deep, horizontal and vertical wrinkles and a cracked, stone-like pattern?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The long, flowing white hair is a prominent feature that frames the face and contributes significantly to the figure’s mystical or ancient appearance. While the instruction allows for styling changes, it explicitly requires retention of the long hair. Therefore, the hair must remain present and extend beyond the shoulders in some form, even if stylized.
+    Question: Is the figure still shown with long, white hair extending past the shoulders?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The full white beard is a defining facial feature that complements the hair and enhances the aged, wise appearance. It is a consistent part of the original image and not mentioned as something to be removed. Even in chibi form, a stylized version of the beard must be present to maintain continuity.
+    Question: Does the figure still have a full, white beard covering the lower face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The structural outline of the face — including the jawline, cheekbones, and nasal bridge — forms the foundation of the figure’s identity. Even if transformed into chibi style, the basic proportions and placement of these features must be preserved to ensure the character remains recognizable. Changing the shape of the nose or jaw would distort the likeness.
+    Question: Are the facial contours, including the jawline and cheekbones, still clearly defined and consistent with the original?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The neck region, though currently textured like cracked stone, is specified in the instruction to retain a "muscled neckline." This suggests the neck must maintain a sense of definition and volume, even if stylized. While the texture may change under icy armor, the underlying shape and prominence of the neck must remain intact.
+    Question: Is the neck still visibly defined and structured, showing a clear transition from head to torso?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

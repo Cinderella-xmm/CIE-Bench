@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0101",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the text 'flyaway' added below the painting seamlessly integrated into the image without disrupting its authentic appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text 'flyaway' appears in a large, prominent style that contrasts with the rest of the image. It overlays a significant portion of the furniture, which disrupts the coherence and authenticity of the original scene. Given the style and placement, the text is not seamlessly integrated; it appears as an artificial addition with a clear disconnect from the natural elements around it.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the handwriting of 'flyaway' appear natural and consistent with what one would expect on a postcard-style image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The font of 'flyaway' in Image B resembles a cursive style, which is often seen in more personal, handwritten messages like those on postcards. However, the context of the image (an interior decor scene with furniture and art) does not match traditional postcard elements, making the handwriting feel out of place rather than a natural element of the scene. Thus, while the handwriting style might be consistent with a postcard image, it's not in harmony with this specific image context.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Has the addition of 'flyaway' caused any visible artifacts or unnatural textures around the painting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "In Image B, the text 'flyaway' is a uniform color against a stark white background that covers part of the furniture. It gives an impression of overlay without interaction with surrounding textures, suggesting an addition of a digital artifact. The lack of blending into the scene, with distinct edges between text and image, indicates unnatural textures in comparison to the original image's organic detailing.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the text 'flyaway' maintain proper proportion and not cover any significant part of the painting or adjacent objects?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text 'flyaway,' presented in a large size and atop a white block, obscures a portion of the furniture beneath the painting. This overlay affects the visibility and aesthetic balance of the original decor setup, highlighting a proportion issue where text overshadows and covers adjacent objects, disrupting the visual flow and proportional harmony.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the overall composition of the image still visually coherent and balanced after adding the text 'flyaway'?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bold and centrally placed text 'flyaway' disrupts the visual balance by drawing focus away from the natural and symmetrical elements of the painting and furniture arrangement. The contrast between the text's stark presentation and the subtle tones of the painting and decor disturbs the image's original harmony and coherence. The shift in focus and the placement of the text disturb the otherwise balanced and aesthetically integrated composition.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.0
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0068",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the seated person still holding the cake with both hands?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the seated person is holding a small round cake with candles on it using their left hand, while their right hand is resting on their knee. Combining this visual information with common sense, we can conclude the person is not holding the cake with both hands, since one hand is clearly not on the cake but resting elsewhere.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the standing person still in the act of throwing a gray object over the seated person's head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the standing person is seen holding a gray object above the seated person, seemingly in the motion of placing or throwing it over their head. This indicates the action is caught mid-motion, which aligns with the act of throwing or placing the object. Based on this analysis, considering the object's position and the person's posture, it is reasonable to conclude they are still in the act.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the candles on the cake still lit in a soft glow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a cake with multiple candles that appear to be lit, evidenced by the glow at the tip of each candle. This glow is characteristic of lit candles where the flame produces light. Thus, the candles are still emitting a soft glow, as deduced from their appearance.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the refrigerator with drinks still visible in the background behind the seated person?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a visible refrigerator to the left of the seated person filled with drinks. This is a common fixture in cafes for beverage storage. Given the clear visibility of the refrigerator and its drinks in the background, it confirms its presence.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the lighting in the café still warm and evenly distributed across the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting appears warm and casts a consistent illumination throughout the scene. This warmth is reflected by the ambient light tone seen across the café's interior, allowing for even visibility of details such as the wall decorations and objects on shelves. Such lighting is often used for creating a cozy atmosphere in cafes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7272727272727273
+}

@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_128_34",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the cityscape and car fully enclosed within a transparent, cube-shaped resin casing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cityscape and the car are clearly contained within a transparent, cube-shaped structure that resembles a resin or glass display case. The edges of the cube are sharply defined, with reflections and refractions visible on its surfaces, indicating it is made of a clear, solid material like acrylic or resin. The cityscape inside appears to be a miniature model, scaled down and placed within this enclosure. The car is positioned outside the cube but visually aligned as if it belongs to the same scene. However, upon closer inspection, the car is not inside the cube—it is placed in front of it on a dark surface, suggesting that only the cityscape is enclosed. Therefore, while the cityscape is fully enclosed, the car is not. This distinction is critical when interpreting 'fully enclosed.'",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the car feature a sleek, futuristic design with metallic and highly reflective surfaces?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The car in Image B has a low-slung, aerodynamic body typical of high-performance sports cars, such as a McLaren or similar supercar. Its design includes sharp angles, sculpted lines, and large air intakes, all contributing to a futuristic aesthetic. The surface is highly polished and metallic, reflecting light and surrounding elements with clarity, indicating a chrome-like or brushed metal finish. These visual cues—such as the reflective headlights, glossy paintwork, and intricate wheel design—are consistent with modern luxury sports cars known for their advanced engineering and aesthetics. The reflections on the car’s body suggest a smooth, high-gloss surface, reinforcing the impression of a sleek, futuristic design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the skyscrapers visibly reduced in size compared to the original image, enhancing the sense of depth and scale?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "To assess this, we compare Image B with Image A. In Image A, the skyscrapers appear full-sized and proportionate to the car, creating a realistic urban environment where the car is part of the street-level scene. In Image B, the skyscrapers are clearly miniaturized and contained within a transparent cube, suggesting they are models rather than real buildings. Their reduced size creates a strong contrast with the full-scale car placed in front of the cube, emphasizing the difference in scale. This deliberate scaling enhances the sense of depth and perspective, making the cityscape appear as a diorama. Thus, the reduction in size is intentional and contributes to a stylized, artistic representation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the skyscrapers have small, distinct points of light resembling micro LEDs on their windows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the skyscrapers within the resin cube are illuminated with numerous small, bright points of light distributed across their windows. These lights are evenly spaced and emit a warm yellow or white glow, mimicking the appearance of lit windows at night. The brightness and uniformity of these lights suggest they are artificial sources, likely micro LEDs or embedded lighting within the model buildings. This detail adds realism to the miniature cityscape, simulating nighttime urban lighting. Such features are common in architectural models and dioramas to enhance visual appeal and depth.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the trees feature finely detailed, miniature foliage with rich green coloration that contrasts with the surrounding urban structures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The trees in Image B are clearly miniature versions, scaled to match the reduced size of the cityscape within the cube. Their foliage is dense and layered, with individual leaves visible upon close inspection, indicating high detail. The green coloration is vibrant and varied, ranging from light to dark green, which adds depth and realism. This rich coloration stands out against the gray and blue tones of the buildings and roads, creating a visual contrast that emphasizes the natural elements within the urban setting. Such attention to detail is typical of high-quality architectural models or dioramas designed to simulate real-world environments.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the resin cube completely transparent with no visible color distortion or opacity, allowing full view of the interior scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The resin cube in Image B appears to be made of a high-clarity material, likely acrylic or glass, with minimal internal distortions. The transparency allows an unobstructed view of the cityscape inside, including the buildings, trees, and road layout. There are slight reflections and refractions on the cube’s surfaces, which are expected due to light interaction with transparent materials. However, there is no noticeable color tinting, cloudiness, or opacity that would obscure the view. The interior details remain sharp and well-defined, confirming that the cube is effectively transparent and functions as a display case without compromising visibility.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the car positioned in the same relative location on the street as in the original image, maintaining its orientation and alignment with the road?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the car is centered on the street, facing forward, with its position aligned with the road markings and flanked by buildings on both sides. It appears to be driving through a real urban environment. In Image B, the car is placed in front of the resin cube containing the cityscape. While the car itself retains its orientation (facing forward), it is no longer on the street within the city. Instead, it sits on a flat, dark surface outside the cube, separate from the modeled environment. The road and lane markings from Image A are not present in Image B; thus, the car's spatial relationship to the street has been altered. Although the car’s pose is similar, its location and context have changed significantly, breaking the continuity of the original scene.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7142857142857143
+}

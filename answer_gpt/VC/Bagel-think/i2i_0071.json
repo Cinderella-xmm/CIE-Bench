@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0071",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the white and red color scheme of the train retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, a train appears to have a primary color scheme of white with a red stripe, which is consistent with the color scheme of many modern trains, including some maglev or high-speed trains. These color choices are visually apparent in the train's design in the edited image.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the train remain on a suitable track or elevated system, consistent with the maglev design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image shows the train on a sandy beach rather than on any type of rail, track, or elevated system. Common world knowledge tells us that maglev trains require a specialized track to function properly, typically elevated and not positioned on sand. Therefore, the placement of the train is inconsistent with the requirements for maglev operation.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the background environment, including the horizon and setting, largely consistent with the original scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background environment in both the original and edited images features a sandy beach leading to water with a visible horizon. The setting appears consistent with the original scene's natural environment, as no major changes have been made to the background elements.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the lighting and shadows consistent with those in the original image, preserving the realistic look of the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The shadows in the edited image align with the lighting direction seen in the original image, where the shadows extend towards the bottom left. The train casts a shadow in a similar manner as the dog did in the original, making the lighting conditions appear consistent across both images.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the train maintain realistic proportions and scale in relation to its surroundings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the train is depicted at a relatively small scale compared to what would be expected if a train were placed in such an environment. Trains are typically much larger compared to the nearby ground and surroundings. Here, it appears as if the train is miniature in scale, which is unrealistic.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7
+}

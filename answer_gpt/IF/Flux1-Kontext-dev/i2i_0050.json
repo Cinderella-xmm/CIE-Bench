@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0050",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image contain three separate frames capturing the skater's motion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are indeed four sections, but three frames clearly show an individual in motion. The fourth section has a humorous transition where the lower body of the skater is replaced by a horse's body. Each of the frames shows a progression in the action, indicating a sequence capturing motion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the three frames clearly showing the push-off, ground contact, and forward lean of the skater?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the first three frames show a progression in the skater's motion. The first frame shows a preparation stance, the second showcases the airborne transition indicating a push-off and ground contact, and the third frame highlights a lean forward indicating forward momentum. Each frame captures distinct phases of the skating motion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain the real image style without any significant stylistic distortions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image maintains a realistic photographic style, as observed from the matching background and consistent coloring. Except for the humorous replacement of the skater's lower body with that of a horse in the last frame, the rest of the image style remains true to real-life depiction.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are motion trajectory lines present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are no visual trajectory lines illustrating the skater’s movement path between the frames. The sequence of the skater’s actions indicates motion, but no trajectory lines are used to guide this movement.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the three frames combined in a cohesive manner within the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The sequence of actions depicted across the first three frames aligns cohesively to portray a smooth and logical progression of motion. Despite the humorous element in the last frame, the transition between the initial frames appears natural and continuous.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

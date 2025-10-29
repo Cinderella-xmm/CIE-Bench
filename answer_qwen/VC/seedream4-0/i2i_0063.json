@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0063",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the transformed subject (horse) maintain the same pose and size relative to the remote control as the original cat did?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the horse is lying down on a cream-colored surface with its body oriented similarly to how the cat was positioned in Image A—resting beside the remote control. However, the horse is significantly larger than the cat, so its overall size relative to the remote control is not the same. The cat in Image A was small enough that the remote control appeared proportionally large in comparison, while the horse in Image B is much larger, making the remote control appear disproportionately small. Despite the similar resting pose, the scale difference means the size relationship has changed. Therefore, although the pose is analogous, the size relation is not preserved.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the remote control positioned in the same location and maintains the same visual appearance as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the remote control lies horizontally in front of the cat on a cream-colored fabric surface. In Image B, the remote control is placed in a nearly identical horizontal position in front of the horse, also on a cream-colored surface. The layout and orientation are consistent with the original image. Additionally, the design, button colors (blue and beige), shape, and branding (e.g., 'TCL') are visually unchanged. There is no visible alteration to the remote’s physical features or placement, indicating it has been retained exactly as in the original. This suggests that the remote control has been preserved both in location and appearance.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the texture and design of the remote control remain unchanged from the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The remote control in Image B shows the same design elements as in Image A: a black casing, blue circular buttons, beige directional pad, and white text labeling. The arrangement of buttons, including the power button, volume controls, and navigation cluster, matches precisely. There is no visible distortion, added textures, or alterations in color or form. Given that the remote appears functionally identical in both images, and no artistic changes are evident, we can conclude that the texture and design have remained unchanged.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the texture of the cream-colored surface, upon which the subject lies, preserved as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the cream-colored surface appears to be a quilted or textured fabric, likely a bedspread or blanket, with visible stitching patterns creating a soft, padded look. In Image B, the same surface is present, but the texture appears more uniform and less detailed—possibly due to lighting or digital enhancement. However, the surface still displays a similar ribbed or ridged pattern, suggesting it is meant to represent the same material. While the lighting and atmosphere in Image B give it a colder, more desaturated tone, the underlying texture pattern remains consistent with the original. Thus, despite differences in mood and contrast, the fundamental texture is preserved.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the collar's shape and placement remain consistent with the new subject (horse)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the cat wears a collar with a small bell, positioned around its neck. In Image B, the horse does not have any visible collar or accessory. The absence of a collar on the horse indicates that this feature has been omitted in the transformation. Even if one were added, the shape and placement would not logically match a horse’s anatomy compared to a cat’s. Since the horse lacks a collar entirely, the shape and placement cannot be considered consistent with the original subject. This omission reflects an intentional change in the edited version, possibly to align with the post-apocalyptic theme where such accessories are absent.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5555555555555556
+}

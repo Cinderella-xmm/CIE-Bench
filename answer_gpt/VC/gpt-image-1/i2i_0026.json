@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0026",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the player depicted wearing a red shirt with black shorts in all frames?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the player is illustrated wearing a short-sleeved shirt and shorts. The coloring appears uniform across all frames as a single color tone pattern rather than specific colors like red or black used for contrast. Descriptions of specific colors like 'red' or 'black' are more visible in photographs like Image A, where the player wears a red shirt and black shorts, but such contrast is not evident in the edited illustration. Thus, the depiction of 'red shirt with black shorts' is indiscernible.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does each frame show the player dynamically engaged with the tennis racket and ball, mimicking a natural hitting motion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the player is shown in four distinct positions that indicate a natural sequence of movements akin to actions in tennis, such as swinging, positioning, and making contact with a ball. The body posture and racket angle in each frame reflect dynamic engagement, suggesting the illustration mimics a natural hitting motion.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the racket and ball consistently positioned to indicate a realistic hitting action in every frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the racket and ball are shown in various positions corresponding to stages of a tennis swing, from the backswing to follow-through. The depiction suggests realistic interactions, as the racket is consistently aligned in a manner that suggests a logical trajectory with the ball, typical of a hitting action.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the player retain his short dark hair in all frames of the sequence?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the player is illustrated with short hair throughout all frames. Despite the limitation of color detail in the sketch, the hair's outline and style are consistent in every frame, indicating that the player maintains short hair across the sequence.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the yellow tennis ball appear consistently across all frames, maintaining its bright color and position relevance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a ball is depicted consistently across the frames as part of each tennis action scene, but due to the monochromatic nature of the illustration, the ball does not possess a bright color or provide specific color context such as 'yellow.' However, its positional relevance to the action is maintained, with its presence vital to conveying the motion sequence.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5454545454545454
+}

@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of modifying the character’s pose to crouching on a rooftop ledge, evaluate whether the posture maintains anatomical correctness and structural coherence. The original image shows the character in a dynamic crouch with one hand extended forward and legs bent. The edited version must preserve joint alignment, limb proportions, and muscle tension consistent with a realistic crouch. Any unnatural bending or stretching would compromise visual credibility.",
+      "question": "Does the character's crouched pose maintain natural limb proportions and joint alignment without exaggerated or distorted angles?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of adding a rooftop ledge beneath the character, assess whether the new surface integrates seamlessly with the character’s feet and shadows. The original image has no ground plane; thus, introducing a ledge requires matching material texture, depth, and shadowing to avoid floating or disjointed appearance. The edge should align with the character’s foot placement and cast a plausible shadow.",
+      "question": "Is the rooftop ledge positioned directly under the character’s feet with consistent shadow direction and material texture that matches the surrounding environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of adding a dimly lit cityscape background with spotlights and skyscrapers, evaluate whether the background elements are visually coherent with the character’s scale and perspective. The original image has a plain black background; therefore, inserting a distant city must respect depth cues, lighting consistency, and relative size. Spotlights should appear directional and not clash with the ambient lighting on the character.",
+      "question": "Are the distant skyscrapers and spotlights in the background properly scaled and positioned to match the character’s viewpoint and lighting direction?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of highlighting the character’s claws with a metallic glint, assess whether the reflection and sheen on the claws are consistent with metallic materials and light sources in the scene. The original image shows sharp, dark claws; adding metallic highlights must follow light direction (e.g., from spotlights) and avoid unnatural glare or inconsistent shading.",
+      "question": "Do the claws exhibit a metallic glint that follows the direction of the spotlight illumination without excessive or misplaced reflections?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of adding speech text \"The night awaits...\", evaluate whether the text is legible, stylistically consistent with comic art, and positioned naturally within the scene. The font style, size, and placement should not obscure key features (like the face or hands), and the speech bubble should be integrated into the composition without distorting nearby elements.",
+      "question": "Is the speech text clearly visible, properly aligned, and placed in a position that does not interfere with the character’s form or visual balance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_100_47",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the Eiffel Tower depicted with its characteristic lattice iron framework, including the four arched legs and tapered spire?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, we see the Eiffel Tower as part of a miniature or model framed in a shadow box, which accurately represents the real Eiffel Tower's lattice iron framework, including its four arched legs and tapered spire. The visual cues in this model mimic the iconic structure of the actual Eiffel Tower, leading to the conclusion that it is depicted with these characteristic features. This reasoning is supported by world knowledge of the Eiffel Tower's architectural design.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the rectangular reflecting pool positioned directly in front of the Eiffel Tower, aligned along the central axis of the composition?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a miniature scene within a shadow box, where the reflecting pool is indeed positioned directly in front of the Eiffel Tower, aligned along the central axis. Based on its depiction, the pool's symmetry and placement correspond with where the reflecting pool is typically situated relative to the Eiffel Tower in real life, confirming the alignment along the central axis.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the pathways and tree arrangements in the foreground arranged symmetrically around the central axis leading to the Eiffel Tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The miniature setup in Image B depicts pathways and tree arrangements that are symmetrically aligned around the central axis leading to the Eiffel Tower. Observing this setup reveals a well-balanced design, which is consistent with garden layouts that aim for symmetry and orderly arrangements, guiding the eye towards a central focal point, in this case, the Eiffel Tower.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a distinct spire-shaped building visible in the distance to the left of the Eiffel Tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the shadow box model includes a spire-shaped building visible in the distance to the left of the Eiffel Tower. This building is part of the miniature design and resembles prominent structures found in skyline views associated with the real Eiffel Tower location. This spire provides a sense of depth and realism in the model, matching typical urban settings.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the sun located in the upper-left portion of the sky, casting light from that direction?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B is a shadow box model and does not depict active sky elements such as the sun; instead, it has a static background with a lighting effect that suggests light is coming from an upper-left direction. Therefore, the scene doesn't have a real sun depicted, unlike other typical outdoor views where the sun can be visually positioned.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.9
+}

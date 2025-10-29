@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0021",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Do the chibi-style sheep retain proportional accuracy and structural coherence relative to their original poses near the fence in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi-style sheep are depicted in a stylized cartoon manner, characterized by exaggerated proportions typical of chibi art, such as larger heads and smaller bodies. This artistic style inherently lacks the proportional accuracy and structural coherence of a realistic depiction. The sheep in Image A are realistic and maintain normal proportions. Given these differences, the chibi sheep do not retain proportional accuracy relative to the realistic poses seen in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the added accessories (red scarf, knit hat, and small bell) free of unnatural textures and logically placed on the chibi sheep?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The accessories on the chibi sheep in Image B are designed to fit within the cartoonish style. The red scarf, knit hat, and small bell are placed logically around the neck and on the head, respectively, and are consistent with the playful theme. The textures appear smooth and appropriate for a cartoon representation, avoiding any unnatural appearance. Therefore, the accessories are integrated well within the style.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the thick white outlines and flat colors applied to the chibi sheep create a visually coherent and artifact-free appearance, maintaining their structural integrity?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The chibi sheep in Image B utilize thick white outlines and flat colors, characteristic of sticker or cartoon art styles, which help them stand out and maintain structural integrity. These elements provide a clean and coherent look without visual artifacts, keeping the design intact and appealing within the genre.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the positioning of the chibi sheep near the fence remain visually credible, preserving their original spatial relationship with the environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi sheep are depicted against a transparent background, without any context of the original environment, such as the fence or snowy ground seen in Image A. Their placement is not related to any surrounding structure in the edited image, making their positioning and original spatial context with the fence irrelevant in this scenario.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background successfully made transparent without visible artifacts or remnants of the snowy landscape affecting the clean appearance of the chibi sheep?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the chibi sheep on a transparent background, with no visible remnants of the snowy landscape that appeared in Image A. The clean cutout ensures that the transparency is intact, and there are no artifacts impacting their appearance, which is consistent and clear.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

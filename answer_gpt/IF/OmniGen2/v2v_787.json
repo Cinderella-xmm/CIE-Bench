@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_787",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the character retain the original facial details and pose from the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character appears as a chibi-style figure, characterized by exaggerated and disproportionate features typical of chibi art, such as a larger head and a smaller body. The pose in Image B is similar but not identical to Image A. The character's pose is slightly altered to fit the chibi aesthetic, as seen by the slightly different arm positioning and proportions. Therefore, the character does not retain the original facial details due to the chibi style, and while similar, the pose is adapted.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the character have chibi-like long-legged proportions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character displays typical chibi-style proportions, where the overall figure is compact with a larger head relative to the body and stubbier limbs, rather than longer legs. Therefore, Image B does not portray the character with long-legged proportions characteristic of chibi art.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the character wear chic designer apparel, glasses, a tablet or sketchbook, and fashionable footwear?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character is dressed in a stylish outfit similar to Image A but portrayed in chibi form. Accessories included in the layout suggest a stylized depiction based on professional or fashionable elements, such as a tablet or sketchbook, chic glasses, and fashionable footwear. The depiction implies a fashionable or designer influence intended by the chibi design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the outfit and accessories incorporate fashion-forward elements that coordinate with the green and burnt orange hues?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents the character's outfit in the same color scheme of green and burnt orange as in Image A. The image includes accessories that reflect a stylish and coordinated aesthetic fitting modern fashion trends while aligning with the character's color scheme. Thus, the coordination of fashion elements with the mentioned hues is evident.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background a solid color that complements the character's color scheme, avoiding gradients or patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B is a uniform bright color, a clear choice to complement the green and burnt orange of the character's outfit. This solid background choice avoids any additional patterns or gradients, maintaining a focus on the character and enhancing the visual coherence with the character's color scheme.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the layout have an aspect ratio of 9:16, with \"OOTD\" text at the top, the full-body chibi character on the left, and a breakdown of the outfit and accessories on the right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The Image B layout displays the 'OOTD' text at the top. However, the structured layout with one full-body character on the left and additional accessory breakdowns on the right doesn't specifically indicate an aspect ratio of 9:16 as typically expected in a vertical format for digital screens. The composition can fit multiple orientations, lacking a distinctive aspect ratio identification based solely on such characteristics.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

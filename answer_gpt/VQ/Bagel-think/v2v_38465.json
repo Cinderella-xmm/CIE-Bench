@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_38465",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the pandas holding the surfboards seamlessly integrated into the scene without any visible artifacts or unnatural textures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the silhouettes of the figures holding the surfboards now have panda heads, which seem to have been digitally added. The integration of the panda heads may not be seamless due to the shapes being quite distinct against the sunset, which could reveal the digital alteration. The texture and lighting on the panda heads need to match the overall lighting of the scene, which appears challenging due to the strong backlighting. If shadows and lighting on the pandas do not match perfectly with that in the rest of the image, they can appear as artifacts or be visually inconsistent with the scene.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the surfboards held by the pandas maintain their original shape and proportions without any distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the surfboards appear to maintain the same shape and proportions as seen in the original figures from Image A. The surfboards have a specific elongated design and vibrant colors, which are visually consistent with common surfboard aesthetics. Assuming no digital manipulation has altered their shape or size in Image B, they should look the same as in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the pandas' postures and positioning appear natural and consistent with the beach and sunset environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figures originally holding the surfboards have been replaced with panda-headed figures. While the bodies and postures have not been altered, the addition of panda heads creates a surreal element. Despite this, their postures, standing upright and facing the ocean while holding surfboards, seem consistent with a scene of surfers at a beach. However, the pandas' heads, being larger and differently proportioned compared to human heads, may create an inconsistency with natural human postures.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the sunset and beach setting remained intact and visually credible without any alterations or distortions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background, which features a sunset over the ocean with waves and a sandy beach, appears untouched and consistent with Image A. The focus of alteration seems to be the figures themselves; thus, the background maintains its original appearance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the pandas' sizes relative to the surfboards and the environment proportionally realistic and physically plausible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pandas' heads have replaced human heads, leading to a potentially disproportionate size when compared to typical human figures. Panda heads are larger and different in size relative to human bodies, which may make them appear disproportionate to the surfboards that are realistically human-sized. If the rest of the body maintains a human form while only the heads are altered, this introduces a scale inconsistency.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

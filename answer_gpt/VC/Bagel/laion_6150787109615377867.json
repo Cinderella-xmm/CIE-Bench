@@ -1,0 +1,84 @@
+{
+  "filename": "laion_6150787109615377867",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the tabletop still circular in shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tabletop is visually circular, as evidenced by the symmetrical edge and the round design. The circular shape is identified through its evenly distributed radius from the center, and this is consistent with how circles are typically perceived. Comparing to Image A, which also shows a clear circular tabletop, the shape remains unchanged and circular in the edited image.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does a single vertical column extend from the center of the tabletop to the base?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a complex design in place of a simple column, including multiple interconnected parts, deviating from a single, straight vertical column. World knowledge of mechanical structures helps identify that while the column is still fundamentally vertical, it is visually comprised of multiple parts. Analyzing Image A, which shows a straightforward vertical column, it is clear that the edited image does not maintain its singularity.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the base consist of five symmetrically arranged legs forming a star shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B visually displays four legs in a symmetrical arrangement, not five, forming a star-like distribution. World knowledge of furniture design indicates that symmetrical bases typically distribute legs evenly around a center axis. Image A, which shows an actual star-shaped arrangement with five legs, helps confirm that the edited image doesn't retain this specific design.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there small black rubber feet at the tip of each leg?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly depicts small black rubber feet at the tips of each of the four legs, as evidenced by the circular black components at the end of each leg. This design element is commonly used for stability and non-slip functionality on tables. Comparing to Image A, where similar feet are evident, the feature remains consistent in the edited version.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the height of the central column approximately equal to the diameter of the tabletop?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, visually, the central column and tabletop diameter exhibit proportions where the column height is shorter relative to the tabletop diameter. Typically, tables have a column height that matches or exceeds the tabletop diameter for functionality; here, it seems shorter. In Image A, both measurements appear more equal, indicating a change in the edited image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the main body of the table still made of a shiny, silver-colored metal?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B visual cues show a predominant bronze or gold-toned metal with intricate gear details, rather than the shiny silver finish observed in Image A. Using world knowledge, metals like bronze provide a distinct appearance and ambiance, different from silver. Image A’s silver color reinforces that the primary metal appearance is altered in the edited image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.3076923076923077
+}

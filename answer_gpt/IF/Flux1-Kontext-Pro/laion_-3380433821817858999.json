@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-3380433821817858999",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image now structured as a multi-panel infographic with at least three distinct steps?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, we can observe that it is formatted as a comic-style infographic with text-heavy panels. The second image consists of three separate panels, suggesting that it indeed is a multi-panel structure. This aligns with the common design of comic strips or instructional graphics where sequential steps or instructions are divided into distinct visual sections.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a panel showing a simple figure in a kneeling position with bent arms pulled back, labeled as \"Step 1: Positioning: Kneel with bent arms back\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does contain a figure with bent arms pulled back on what appears to be a stand, but the label 'Step 1' does not correspond exactly to the statement in the question. Instead, the label mentions 'LEAP USING CORE TIEGHT,' suggesting a different action from kneeling positioning.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a panel showing an explosive leaping motion with visual cues of propulsion (e.g., motion lines, energy burst), labeled as \"Step 2: Leap Attack: Propel using core strength\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is visually expressive language such as 'LEAP USING CORE TIEGHT' with motion lines that imply movement. However, the label does not match the exact wording 'Step 2: Leap Attack: Propel using core strength.' The discrepancies in wording exclude this from a positive identification.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a panel showing the figure mid-air with knees tucked tightly, labeled as \"Step 3: Mid-Air Adjustment: Tuck knees tightly\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B includes panels where the character is in positions suggesting motion. However, none of the panels contain the exact phrasing 'Step 3: Mid-Air Adjustment: Tuck knees tightly.' Instead, they show dynamic positions with alternate text, e.g., 'Mict Kneis Tightly' which alters the outcome.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the illustrations rendered with bold outlines, vibrant blues and whites as dominant colors, and captions written in energetic, stylized fonts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The illustrations in Image B are indeed outlined boldly, demonstrating a comic-book or graphic-novel style. The blues and whites are dominant colors in the representation of the character's attire, and the captions use a font that is both striking and stylized, which is commonly seen in energetic visual media.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

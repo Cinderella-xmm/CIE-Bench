@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0100",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image include a top-down view of the sink structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the sink structures are depicted using diagrams that show an angled side view but do not include a complete top-down view. The diagrams help to understand the sink's dimensions and layout from a perspective commonly used in architectural or design sketches, not from a direct overhead view.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image include an angled side view of the sink structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image features two angled side views of the sink structure, presenting an isometric view that allows for understanding the depth, height, and width of the elements such as the cabinets, faucets, and sinks. This is often utilized in planning and design to convey the overall arrangement from a three-dimensional perspective.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the top-down view and the angled side view merged into a single image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, there is no merging of a top-down view with angled side views. The image only includes angled side views presented separately but within the same image space, showcasing different views of the sink structure without combining them into a singular representation. Therefore, they are distinct and not integrated as a single view.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the layout of the top-down and angled side views clear and well-organized in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Despite the absence of a top-down view, the edited image's layout with the two separate angled side views is clear and well-organized. Each view is positioned in a way that provides a comprehensive representation of the sink structure, allowing viewers to compare and understand the design effectively.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do both the top-down view and the angled side view accurately depict the sink structure seen in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing the original image with the edited one reveals that the angled side views in the edited image accurately reflect the sink structure in terms of proportions and layout, aligning with what is seen in the original image. However, since there is no top-down view included in the edited image, considering the question's scope on both views, the answer involves acknowledging the absence of one specified view.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

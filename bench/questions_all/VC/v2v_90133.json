@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The background is explicitly required to remain unchanged in the instruction (\"poised on the existing neutral background\"). Its uniform beige color is a key environmental identifier that anchors the scene. If the background were altered in color, texture, or lighting, it would contradict the instruction and disrupt visual consistency. This is a core scene element, essential for maintaining the intended context and visual coherence. Losing it would make the edited image inconsistent with the instruction's requirements.",
+      "question": "Is the background a uniform beige color without any gradient, pattern, or texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The flatness and lack of depth in the background are critical to preserving the original scene’s simplicity and neutrality. A textured or reflective surface would introduce new visual information not present in the original, violating the principle of minimal environmental change. This detail supports the overall integrity of the scene and ensures the focus remains on the transformed subject.",
+      "question": "Does the background have no visible texture, grain, or surface variation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The absence of shadows or highlights on the background is a key detail indicating even lighting and a flat surface. Introducing shadows would imply depth or object interaction not present in the original, potentially misleading the viewer about the scene’s nature. This detail contributes to the clean, studio-like presentation of the original image.",
+      "question": "Are there no shadows, reflections, or light variations on the background surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The position of the two boards relative to the frame is not preserved — they are to be merged. However, the **overall composition** of the image (a horizontal layout with two objects centered) may influence how the final cyborg beetle is placed. But since the instruction allows full transformation, the only preserved spatial element is the background. The **edges of the image** and **frame boundaries** are implicitly preserved as part of the scene.",
+      "question": "Is the image framed with straight edges and no border or crop distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The lighting condition in the original image is consistent and diffuse, with no harsh contrasts or directional highlights. This even illumination is part of the neutral aesthetic and must be preserved if the background is to remain unchanged. Altering the lighting would affect the perceived color and texture of the background, thus violating the preservation requirement.",
+      "question": "Is the lighting on the background evenly distributed with no hotspots or directional shadows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

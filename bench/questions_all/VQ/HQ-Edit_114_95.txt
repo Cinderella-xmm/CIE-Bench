@@ -1,0 +1,55 @@
+```
+Step 1: Disassemble Editing Instructions
+-Thinking process 1: The editing instruction requires transforming the Eiffel Tower into a high-end perfume bottle design. This involves significant structural and material transformation of the central object in the image—the Eiffel Tower—which is located at the center of the frame, towering over the surrounding cityscape and road leading directly toward it. The original structure is metallic, lattice-based, and iron-colored, with clear geometric patterns and real-world proportions. Converting it into a glass silhouette with embossed patterns and a gold-plated base introduces new materials (glass, gold), alters its physical form, and modifies its surface texture. This transformation affects realism, structural coherence, and visual plausibility. The addition of a Parisian skyline motif along the glass and a minimalist logo at the neck further adds elements that must be seamlessly integrated without distorting the overall shape or introducing artifacts.
+
+-Sub requirement 1: The Eiffel Tower's structure is transformed into a sleek glass silhouette—evaluate whether the new glass material appears transparent, reflective, and consistent with real glass properties, avoiding unnatural textures or opaque patches.
+-Sub requirement 2: Delicately embossed patterns resembling the tower’s lattice are added to the glass—assess whether these patterns are proportionally accurate, evenly distributed, and do not distort the underlying geometry of the tower.
+-Sub requirement 3: A gold-plated base is introduced as the foundation of the bottle—check if the base has realistic metallic sheen, appropriate thickness, and seamless integration with the glass body without visible seams or misalignment.
+-Sub requirement 4: A subtle Parisian skyline motif is incorporated along the glass surface—determine whether this motif is clearly visible yet unobtrusive, maintains correct scale relative to the tower, and does not appear distorted or misplaced.
+-Sub requirement 5: A modern, minimalist logo is placed at the bottle’s neck—verify that the logo is properly aligned, stylistically consistent with the design, and does not introduce sharp edges, clipping, or textural inconsistencies.
+-Sub requirement 6: The entire transformation preserves the structural integrity and proportional relationships of the original Eiffel Tower—ensure no parts are stretched, compressed, or geometrically broken during the conversion.
+-Sub requirement 7: The edited image avoids artifacts such as pixelation, blurring, color bleeding, or unnatural lighting reflections—confirm that all new elements blend naturally with the background and lighting conditions.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of transforming the Eiffel Tower into a glass silhouette, evaluate whether the material transition from metal to glass is visually coherent and physically plausible. Glass should exhibit transparency, refraction, and reflection consistent with real-world optics. The presence of unnatural opacity, lack of reflection, or inconsistent translucency would indicate poor material rendering.
+Question: Does the glass-like surface of the transformed Eiffel Tower show natural transparency and subtle reflections consistent with real glass under overcast lighting?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of adding embossed lattice patterns resembling the original tower’s structure, assess whether the patterns maintain accurate proportions and do not distort the tower’s geometry. These patterns should follow the curvature and angles of the original structure without appearing flattened, stretched, or misaligned.
+Question: Are the embossed patterns on the glass surface aligned with the original lattice structure of the Eiffel Tower and proportionally consistent across all levels?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of adding a gold-plated base as the foundation, check whether the base integrates seamlessly with the glass body. It should have a realistic metallic finish, appropriate thickness, and proper alignment with the bottom of the tower. Any visible gaps, mismatched angles, or unrealistic shine would compromise authenticity.
+Question: Is the gold-plated base positioned correctly at the bottom of the tower, with smooth edges and consistent metallic texture that matches the scale and lighting of the scene?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of incorporating a Parisian skyline motif along the glass surface, evaluate whether the motif is subtly rendered, maintains correct perspective, and does not interfere with the tower’s structural clarity. The motif should appear etched or frosted into the glass, not overlaid as a separate layer.
+Question: Is the Parisian skyline motif visible along the glass surface without distorting the tower’s shape or appearing as a floating or disconnected element?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of placing a minimalist logo at the bottle’s neck, assess whether the logo is cleanly rendered, properly scaled, and stylistically compatible with the rest of the design. It should not appear blurry, clipped, or misaligned with the neck’s curvature.
+Question: Is the logo at the neck of the bottle clearly defined, centered, and free from jagged edges or texture artifacts?
+Choices: Yes, No  
+A: Yes
+
+Q6: 
+Thinking process: Based on the sub requirement of preserving structural coherence, verify that the overall shape of the tower remains geometrically sound after transformation. The arches, legs, and vertical supports should retain their original proportions and spatial relationships, avoiding warping or collapse of forms.
+Question: Are the main structural elements of the tower (legs, arches, central column) preserved in correct proportion and alignment, with no signs of stretching or geometric distortion?
+Choices: Yes, No  
+A: Yes
+
+Q7: 
+Thinking process: Based on the sub requirement of avoiding artifacts, evaluate whether the edited image contains any visual anomalies such as blurring, ghosting, or unnatural lighting. The transitions between materials (glass, gold, sky) should be smooth, and shadows should match the ambient light.
+Question: Are there any visible artifacts such as pixelation, color bleeding, or unnatural reflections around the transformed tower or its components?
+Choices: Yes, No  
+A: Yes
+```

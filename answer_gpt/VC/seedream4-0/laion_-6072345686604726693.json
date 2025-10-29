@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-6072345686604726693",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the four minarets positioned symmetrically—two on the left and two on the right—relative to the central dome?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual feature of the original building, notably the central dome and the surrounding minarets, has been replaced by a large decorative structure resembling wings and a crystal. Therefore, the presence of minarets is not visible, and their symmetry cannot be determined. In Image A, the original structure of the Hagia Sophia with its four symmetrically positioned minarets is evident, but since they do not appear in Image B, the answer is no.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the 15 July Martyrs Bridge clearly visible in the background, crossing the water behind the Hagia Sophia?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, though the background shows some features of a cityscape with water bodies, the specifics of a bridge, such as the 15 July Martyrs Bridge, are not clearly visible. The edited structure draws focus away from such details. In Image A, these background elements might be discernible, but without the exact depiction in Image B, the answer remains no.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is a large body of water visible behind the Hagia Sophia, extending toward the horizon with boats on its surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Even with the extravagant central edit in Image B, it is clear that behind the structure, there is a visible body of water with the suggestion of boats present, as seen from visual cues like the color and texture indicating water. This feature is consistent with Image A, thus confirming large water bodies and boats in Image B.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are green trees visible in the foreground, partially obscuring the base of the building?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lower part of the image clearly shows an abundance of green trees, which partly obscure the structure’s base, similar to what is visible in Image A. Despite the substantial modification in the building's appearance, the tree coverage remains consistent.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are multiple arched windows visible on the front-facing wall beneath the central dome?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the central feature is an ornamental and fantastical structure that does not display conventional architectural elements such as walls or arched windows. In Image A, such windows exist beneath the Hagia Sophia's dome, but these are absent in the edited version, leading to a negative answer.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are several smaller domes visible around the base of the central dome, forming a tiered roofline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The elaborate central figure in Image B, which has replaced the original structure with its varied domes, does not feature smaller domes around a central one as seen in Image A's traditional architecture. Therefore, there are no smaller domes forming a tiered roofline in Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the sky uniformly clear and light blue, indicating daytime conditions without clouds?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sky is a consistent clear and light blue, suggesting daytime with no visible clouds. This color and clarity match the natural daytime sky in Image A. Thus, the signs clearly point to a daytime setting without cloud cover.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

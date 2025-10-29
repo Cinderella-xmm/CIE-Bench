@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0081",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the sink positioned directly below the mirror?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B visually, the sink is clearly positioned directly below the mirror. The dimensions and alignment indicate a common setup where the sink is centered under the mirror. Therefore, based on this observation combined with general knowledge of bathroom layouts, the sink is indeed directly below the mirror.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the image include a mirror with a black frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Referring to Image B, the mirror does not display a black frame. Instead, it features a prominent neon glow, brightly illuminating the edges with pink lighting, which diverges from the black frame seen in typical bathroom mirrors. The analysis of the glowing frame suggests a deliberate design choice in the edit. Hence, the answer based on this visual examination is 'No'.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the fixtures and cabinet predominantly black, while the sink remains white?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the fixtures and cabinet are edited to appear predominantly blue; the sink maintains a lighter hue which resembles white but might have some colored lighting influence. General knowledge supports the assumption that fixtures and cabinet colors can be modified digitally without affecting sink’s color consistency. Thus, in comparison to Image A, which shows black fixtures and cabinet with a white sink, the answer for Image B is 'No'.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the mirror, sink, and cabinets maintain their rectangular shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B reveals that despite color changes, the essential shapes of the furniture remain consistent with rectangular forms. The mirror is illuminated along its edges without altering shape, and the sink and cabinet maintain clear rectangular structures. Therefore, considering standard bathroom designs and digital edits, the answer is 'Yes'.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the black faucet positioned beside the black soap dispenser on the sink?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image (Image B) shows that the faucet and soap dispenser are colored black and positioned closely on the sink, maintaining their relative positions seen in typical bathroom configurations. Even with the significant color changes in the surrounding environment, the fixture placement remains intact. Thus, the answer is 'Yes'.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5454545454545454
+}

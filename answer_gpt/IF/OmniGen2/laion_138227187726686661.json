@@ -1,0 +1,97 @@
+{
+  "filename": "laion_138227187726686661",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the bedspread composed of multicolored LEGO-style blocks arranged in a patchwork pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bedspread is visually distinct with a pattern that resembles oversized LEGO-style blocks. The multicolored sections, featuring prominent LEGO stud patterns, give it the appearance of a patchwork quilt made from colorful LEGO pieces. This visual is clearly designed to mimic the texture and look of LEGO blocks, known for their bright colors and modular design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the sports balls on the quilt represented by circular arrangements of LEGO-style tiles?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the quilt has various patterns that resemble LEGO tiles. However, among these patterns, the sports balls (like the soccer ball motif) appear as a straightforward printed design on top of the LEGO-style patchwork rather than being constructed from individual LEGO-style tiles arranged in a circle. The sports balls' designs are integral to the pattern, printed over the blocky texture rather than composed of separate tile elements.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Has the pillow been replaced with a cube-shaped object constructed from stacked LEGO bricks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pillow maintains a visual structure similar to a traditional pillow, albeit styled in a LEGO pattern. It features the same multicolored LEGO-style design as the bedspread, but its form still resembles a soft pillow, not a hard, cube-shaped object that would be typical of stacked LEGO bricks. The visual cues suggest it's decorated with LEGO-inspired prints rather than constructed from bricks.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the bed resting on a plain white surface with a visible LEGO baseplate texture (grid of raised studs)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bed is depicted on a plain white surface, but there is no visible texture resembling a LEGO baseplate, which would have a distinctive grid of raised studs. The appearance is of a smooth, uninterrupted white surface rather than one mimicking LEGO's trademark baseplate texture.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the entire background of the image a smooth, uninterrupted white surface with no visible walls, windows, or furniture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the bed in a setting where the background lacks detail, presenting a clean, white surface. It lacks the presence of walls, windows, or other furniture, creating an isolated scene focused solely on the bed. This setup emphasizes the LEGO-style bedding without additional visual distractions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the bed frame or mattress appear to be constructed from LEGO bricks or styled to resemble LEGO material?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No (unless explicitly stated; default assumption is only the baseplate is LEGO)",
+      "explanation": "In Image B, the bed frame and mattress maintain a traditional form and do not feature the distinct LEGO stud or brick pattern. While the quilt and pillow are designed to imitate a LEGO aesthetic, the rest of the bed does not follow this theme, as the frame and mattress are simple and devoid of any LEGO-like texture.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are there any non-LEGO objects such as a real soccer ball, lamp, or framed picture present in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Image B presents a minimal setting where the focus is solely on the bed with LEGO-themed decor. There are no additional objects such as soccer balls, lamps, or pictures, which would be categorized as non-LEGO related, within the scene. This deliberate choice maintains a theme consistent with the LEGO style bedding.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.42857142857142855
+}

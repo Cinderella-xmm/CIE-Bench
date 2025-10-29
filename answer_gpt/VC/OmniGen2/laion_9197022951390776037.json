@@ -1,0 +1,84 @@
+{
+  "filename": "laion_9197022951390776037",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the word \"SCARECROW\" clearly visible and legible on the label?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the label appears blurred, and no text is visible. This suggests that the word 'SCARECROW' is not visible or legible. In contrast, Image A clearly shows 'SCARECROW' on the label. Therefore, based on a comparison, Image B lacks the visible text.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the year \"2017\" visible somewhere on the bottle or label?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not display any clear text due to the label being blurred, which means the year '2017' is not visible. Conversely, Image A clearly shows '2017' centrally below 'SCARECROW' on the label. The comparison indicates Image B does not show this year.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the icon at the top of the label, now transformed into a face, retain the shape of a straw hat and rustic features consistent with a scarecrow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the label area where the icon would be is entirely obscured and blurred out, making it impossible to discern any specific features or shapes. Therefore, the scarecrow icon, including its hat and rustic features, cannot be confirmed. Image A presents the scarecrow icon clearly, but the comparison shows it is not visible in Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the label still a rectangular shape positioned centrally on the front of the bottle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B maintains the general notion of a label on the bottle, as suggested by its central blur. Rectangular shape is assumed due to the symmetry, even though specific outlines are blurred. Image A shows a distinct rectangular label in the center. The analysis suggests Image B retains a rectangular label in roughly the same position.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the bottle oriented vertically, standing upright?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bottle appears vertically oriented, standing upright, as suggested by its positioning within the image. This is consistent with how bottles are typically displayed, and Image A presents similar positioning. Therefore, Image B shows the bottle standing upright.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the label positioned exactly in the center of the bottle’s height?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The blurred area in Image B implies the label remains centrally placed on the bottle, likely as the original placement in Image A, which supports the understanding that labels are often positioned centrally for aesthetic balance and branding purposes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.38461538461538464
+}

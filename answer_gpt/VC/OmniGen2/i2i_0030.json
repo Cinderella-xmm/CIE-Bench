@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0030",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are all the original fruit types (pineapple, kiwi, pear, watermelon, orange, banana, and blueberries) retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the package cover features a visual of assorted sliced fruits, which closely resembles the assortment presented on the plate in Image A. By examining the fruits depicted on the packaging, it appears all types from the original image (pineapple, kiwi, pear, watermelon, orange, banana, and blueberries) have been retained and are visually identifiable in a similar arrangement. Thus, all fruit types are retained.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the original colors of the fruits (yellow, green, red, orange, and purple) preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cover art continues to display the vivid colors of the fruits found in Image A: the yellow of the pineapple, green of the kiwi and pear, red of the watermelon, orange of the orange slices, and the dark color of the blueberries. These colors are consistent with the natural and expected hues of the mentioned fruits, indicating that the original colors are preserved.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the cross-section texture of the kiwi and the seed pattern of the watermelon retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image on the packaging maintains the detailed features of the fruits as seen in Image A. The kiwi slices show the characteristic cross-section with small black seeds, and the watermelon displays the typical seed pattern across the red flesh. These detailed textures and patterns are visually retained, representing an accurate depiction in both images.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the original relative positioning and arrangement of the fruits preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The layout of the fruits in Image A displays a systematic layering and arrangement which is mirrored in Image B on the packaging. The various sliced fruits maintain their relative positioning, such as the orientation and placement of the different fruit types, creating a visually cohesive replica of the original arrangement. Thus, the relative positioning and arrangement is preserved.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the white plate and golden tray still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, which showcases the packaging, the focus is primarily on the fruits with the background designed to complement the displayed content. The white plate and golden tray present in Image A are no longer visible in the packaging design, as such elements are likely excluded to focus solely on the fruit imagery. Therefore, they are not present in the edited image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.9
+}

@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The \"S\" emblem is the definitive symbol of Superman. Its unique shield shape with a red outer border, yellow/gold inner field, and red \"S\" lettering is the core identifier. Any loss of this shape or placement would make the character unrecognizable. Even in chibi style, this symbol must retain its fundamental form and position. Therefore, this is a key identity element with weight 3.",
+      "question": "Is the \"S\" emblem present on the chest of the character, with a shield shape, red outer border, yellow/gold inner field, and red \"S\" lettering?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The red cape is a signature feature of Superman, distinguishing him from other characters. It must originate from the shoulders and flow behind him. In chibi form, it may be simplified, but its presence and attachment point are essential for recognition. Removing or altering its origin would disrupt identity. This is a major identity element, thus weight 2.",
+      "question": "Is there a red cape attached at the shoulders and extending downward behind the character?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The blue suit is the base of Superman’s costume. While texture may be simplified, the dominant color and form must remain. The instruction emphasizes vibrant blues, so the blue color must still be present. Losing the blue suit would make the character unidentifiable. This is a key component of the costume, hence weight 2.",
+      "question": "Is the character wearing a predominantly blue suit that covers the torso and arms?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The gold/yellow trim around the \"S\" emblem and possibly the belt is a distinctive detail. While not as critical as the emblem itself, it contributes to the iconic design. The instruction mentions bright primary colors, so gold/yellow must be retained in key areas. Its absence would reduce visual accuracy. This is a secondary but important detail, so weight 1.",
+      "question": "Are there gold or yellow accents present on the \"S\" emblem and/or the belt area of the suit?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The character’s pose — standing upright with arms at sides — is not strictly defined in the instruction, but the instruction does not allow for dramatic repositioning. However, since the transformation is to a chibi magnet, posture may be simplified. But the **overall orientation** (facing forward) and **limb positioning** (arms down) are implied by the original stance. Since the instruction allows exaggerated limbs, this is not a core requirement. However, the **relative position of the head and torso** must remain coherent. This is a minor detail, so weight 1.",
+      "question": "Is the character depicted in an upright stance with arms positioned at the sides of the body?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The **color contrast** between red, blue, and gold is essential to Superman’s visual identity. The instruction specifies vibrant primary colors, so these hues must be preserved. If the colors were muted or reversed, the character would not be recognizable. This is a functional aspect of the costume’s design, so weight 2.",
+      "question": "Are the dominant colors of the costume red, blue, and gold/yellow, with high contrast between them?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The **placement of the \"S\" emblem** directly on the chest is non-negotiable. Moving it to the back or side would violate the character’s established design. The instruction requires it to be “prominently” displayed, confirming its central position. This is a core spatial feature, so weight 3.",
+      "question": "Is the \"S\" emblem located centrally on the chest of the character?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    }
+  ]
+}

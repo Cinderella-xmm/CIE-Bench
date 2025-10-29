@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0046",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image have a white border surrounding it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a distinct white border is visible surrounding the central image area, which gives it a Polaroid-style appearance. This visual cue indicates that an editing effect has been applied to include this border, which is not part of the central image itself but rather a frame-like addition to the outer edges.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the caption “11:13 AM” visible at the bottom within the white border?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, the bottom portion of the white border contains the caption '11:13 AM'. This caption is clearly differentiated from the central image and appears as a timestamp commonly associated with snapshot or instant photography, further enhancing the Polaroid effect.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Has the faded effect been applied to the entire image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the colors appear less vibrant and more muted compared to what one might expect in a standard digital image. This suggests a faded effect has been applied, which washes out some of the colors, giving the image a vintage or aged look reminiscent of old photographs.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the image have a paper-like grain texture applied to it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B appears to show a subtle grain texture that mimics the look of photographic paper or film grain. This texture is spread evenly across the image, indicating an editing effect that simulates the tactile quality of traditional photographic prints, enhancing the vintage feel.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the original composition and elements of the image preserved, aside from the added white border, caption, faded effect, and grain texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "When comparing Image B to the assumed baseline of Image A, although the added effects (border, caption, faded effect, and texture) are present, the primary composition involving the skateboarder, the skateboard, and the background environment is retained without other modifications. The spatial arrangement and core content have not been altered.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

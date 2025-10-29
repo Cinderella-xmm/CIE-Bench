@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_559",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Have both individuals been transformed into a chibi-style 3D model?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, both individuals appear simplified with features such as larger heads and smaller bodies, typical of a chibi-style representation. The design choices, such as exaggerated proportions and smooth, cartoon-like textures, indicate a chibi-style transformation. This contrasts with Image A, where the individuals have more natural human proportions and textures.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the person in front still wearing a formal suit and holding a cup in the chibi-style 3D model?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the chibi-style transformation, the person in front retains the attributes of wearing a formal suit and holding a cup. This continuity suggests an effort to maintain key identifying features from the original image, where the individual was similarly dressed and posed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the person in the back positioned near a gently glowing lamp resting on a table in the chibi-style 3D model?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the person in the background remains positioned near a lamp on a table, which is softly glowing. This scene element is preserved from Image A, where the lamp was already present on a table beside the individual, adding to the ambient lighting.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the scene maintain a photorealistic vibe with warm lighting throughout?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B, with its chibi-style transformation, moves away from photorealism, exhibiting a more stylized and artificial appearance. The lighting is still warm, but the overall visual style is not photorealistic due to the cartoon-like features.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the entire composition enclosed within a photo frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual cues indicate that the entire composition is presented as if it is within a bordered frame, suggesting the appearance of a photo frame. This is a new element not present in Image A, where the boundaries of the image are conventional and without a visible frame.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

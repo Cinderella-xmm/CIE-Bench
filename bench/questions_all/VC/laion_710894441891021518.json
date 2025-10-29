@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The white tea light candle is a distinct object in the lower-left corner of the image. Its presence contributes to the scene’s realism and scale. Since it is not mentioned in the editing instruction, it should remain unaltered. Removing it would disrupt the spatial logic and reduce visual coherence. This is a minor but identifiable detail, so it is assigned a weight of 1 point.",
+      "question": "Is the white tea light candle present on the black surface to the left of the bonsai pot?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The black surface serves as the base for both the bonsai and the candle. It provides contrast and defines the foreground. The instruction does not mention changing the surface, so it must remain unchanged. Altering its color or texture would affect the overall balance and realism of the scene. This is a key environmental element, hence 2 points.",
+      "question": "Is the bonsai and candle resting on a flat black surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The light gray background is essential for isolating the subject and ensuring focus. It is not referenced in the transformation, so it should remain untouched. Changing it could shift the mood or distract from the central figure. As a core scene element, it is vital for consistency and earns 2 points.",
+      "question": "Is the background uniformly light gray with no visible patterns or objects?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The teal-colored pot is a defining feature of the original image. While the instruction says it should become a stone base, its **position, size, and general shape** must be preserved for continuity. If it were moved or resized drastically, the edited image would lose its anchor. Thus, its **visual footprint** is critical. This is a core functional element, earning 3 points.",
+      "question": "Is the bonsai planted in a wide, shallow, teal-colored ceramic pot that occupies the center of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The soil and visible root matter at the top of the pot are part of the bonsai’s planting detail. They contribute to the realism of the plant’s presentation. Though the tree may become magical, the **soil layer** should remain visible and undisturbed unless explicitly replaced. This is a minor but important detail that supports authenticity. Weight: 1.",
+      "question": "Are dark soil and exposed root matter visible at the surface of the pot?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The bonsai’s **upright posture and centered composition** are fundamental to its visual identity in the original image. Even after transformation, the **spatial arrangement** should remain consistent to preserve the viewer’s sense of orientation. Moving or tilting the tree would break the original framing. This is a key compositional element, so it is worth 2 points.",
+      "question": "Is the bonsai positioned centrally and upright in the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

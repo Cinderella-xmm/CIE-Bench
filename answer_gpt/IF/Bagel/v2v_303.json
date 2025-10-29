@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_303",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image appear as a 3D render with smooth surfaces and soft lighting characteristic of Pixar animations?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual cues such as smooth surfaces, especially on the coat and scarf, as well as the soft lighting and vibrant color palette, are characteristic of 3D Pixar-style renders. These elements, combined with the harmonious shading, suggest a stylized animation style often used by Pixar.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the background still vibrant and wavy, matching the original image's pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B maintains a vibrant and wavy pattern similar to the one found in Image A. The color scheme is bright, with flowing lines in various colors, supporting the idea of continuity in the background design between both images.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the textures of the coat and scarf detailed and preserved in the 3D render?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the textures seem simplified with smooth surfaces typical of 3D animation, lacking the detailed textures found in the original image. Therefore, the intricacies of materials like fabric texture from the original are not preserved in the 3D render.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the overall style of the image align with Pixar's aesthetic, including appropriate shading and material properties?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B is rendered in a style with characteristics such as smooth surfaces and soft gradients, aligning with Pixar's aesthetic. The shading and material properties maintain a consistent and harmonious look typical of Pixar animations.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the subject's pose and expression remained consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The subject's pose, in terms of the orientation and wearing of clothing items like the coat and scarf, remains consistent between both images. However, since the face expression is obfuscated, facial consistency cannot be determined and has been excluded.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

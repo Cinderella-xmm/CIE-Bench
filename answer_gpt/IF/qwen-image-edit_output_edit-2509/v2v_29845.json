@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_29845",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image show a single humanoid figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a man walking alongside a cow, which clearly indicates the presence of more than one entity in the image. Understanding that the man and the cow are distinct figures is essential, irrespective of the human's posture or attire.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the cow's horns visible on the humanoid figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cow's horns are an integral part of the cow itself, which is separate from the human figure in the image. Observing the image helps affirm that the horns are associated with the cow rather than the humanoid figure.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the humanoid figure have fur resembling that of a cow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The humanoid figure in Image B is visually depicted with human characteristics, including wearing a suit, which contrasts distinctly with the cow's appearance featuring fur. This indicates that fur similar to the cow's is not evident on the human.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the humanoid figure wearing the man's original clothing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the humanoid figure is dressed in a navy blue suit, which differs from the white coat seen in Image A. Comparing the clothing in Image B with that in Image A indicates a change from the original attire.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the humanoid figure maintain the man's original posture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "By examining Image B, the humanoid figure continues to walk alongside the cow in a similar posture as seen in Image A, with the rope held in a similar manner. This continuity suggests the original posture is maintained.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.2
+}

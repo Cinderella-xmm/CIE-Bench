@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-4640309812135307815",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the woman’s hairstyle still platinum blonde with shoulder-length soft waves?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figure that was previously a woman is now replaced by a large red fragrance bottle. The human form, including the head and hair, has been entirely transformed into the shape of the bottle. There is no visible hair or hairstyle present in Image B. Therefore, based on visual evidence, the platinum blonde, shoulder-length soft waves are no longer present because the person has been replaced by an object.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the woman still have bright red lipstick applied to her lips?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a fragrance bottle in place of the woman. There are no facial features such as lips visible in the image. Since the entire human figure has been replaced by a bottle, there can be no lipstick present. This conclusion is derived from the fact that the original human features have been removed and substituted with a non-human object.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the black vertical slats with copper horizontal lines still present in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B remains consistent with Image A. The black vertical slats with copper horizontal lines are clearly visible behind the fragrance bottle. These architectural elements appear unchanged, indicating that the editing process only altered the foreground subject (the woman) while preserving the background environment. This consistency supports the inference that the background elements remain intact.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the small red clutch still visible in the woman’s right hand?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman has been replaced by a large red fragrance bottle. The hand holding the clutch is no longer visible; instead, a hand appears to be emerging from behind the bottle, likely belonging to the same person who was originally holding the clutch. However, the clutch itself is not present—its place is occupied by the bottle's design. Therefore, the small red clutch is no longer visible in the image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the woman still holding hands with the man on the right side of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman has been replaced by a fragrance bottle. Although a hand is visible near the bottle, it does not appear to be connected to the woman’s body anymore. The man on the right side of the frame is still present, but his hand is no longer visibly linked to the woman’s. Instead, the interaction seems to be between the man and the bottle, suggesting a change in the physical connection. Thus, the act of holding hands between the two individuals is no longer present.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the fragrance bottle retain the elongated, flowing silhouette of the original dress?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The fragrance bottle in Image B has a shape that closely mimics the silhouette of the original dress worn by the woman in Image A. It features a narrow waist, flared bottom, and a long train-like base, reflecting the flow and structure of the gown. The floral details and overall form suggest intentional design alignment with the dress. This indicates that the bottle was modeled after the dress, preserving its elongated and flowing characteristics.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the fragrance bottle still predominantly red in color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The fragrance bottle in Image B is made of transparent red material, giving it a vibrant red appearance throughout. The liquid inside is also red, and the cap features a red flower-shaped design. All visible components of the bottle contribute to a predominantly red color scheme. This matches the dominant color of the original dress, suggesting a thematic continuity in design.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4444444444444444
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_741",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the character's attire incorporate both purple and white colors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character is depicted wearing a t-shirt with sleeves that appear to be white, and the body of the shirt has a purple section. The visual cue of the colored attire combined with common knowledge that colors can be part of clothing designs leads to the conclusion that purple and white are indeed part of the character's attire.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the text \"XML Application Platform xfy\" present on the character's design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a visible purple book, but the text displayed is 'XMY' instead of 'XML Application Platform xfy'. Analysis of this relies on knowing that book covers can have text and observing that the specific text in question is absent from the purple design in the scene.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the character have a design element resembling a spiral binding?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there doesn't appear to be any spiral binding on or around the character's design. Instead, the character is depicted in a digital setting with computers and a trophy, and there is no visual cue resembling a spiral binding element like what might be seen on a notebook.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a black wireless mouse in the character's hand or nearby in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a mouse is visible on the desk next to the character, holding it in at least one of the comic panels. This determination is based on recognizing the shape and appearance of a computer mouse and considering its common use as part of a desktop setup.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the character depicted holding or interacting with the black wireless mouse?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character is shown interacting with the laptop and is visibly holding the black wireless mouse in her hand, especially in the third panel. This conclusion is drawn from observing the character's actions where she is interacting with, lifting, or possibly using the mouse, a common action associated with computer work.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

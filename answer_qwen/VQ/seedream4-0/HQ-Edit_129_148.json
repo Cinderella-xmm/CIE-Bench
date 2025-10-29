@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_129_148",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the figure proportionally scaled and positioned within the globe such that her body parts (especially limbs and head) maintain natural anatomical alignment and do not appear stretched or compressed?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figure is seated inside a broken globe, which appears to be a digitally constructed 3D scene. The figure’s proportions are consistent with those of a human child or young girl—her limbs, torso, and head are anatomically plausible and well-aligned. There is no visible distortion in her posture; her arms rest naturally on her lap, and her legs are folded beneath her without unnatural stretching or compression. The curvature of the globe does not seem to affect her form, as she is positioned centrally and appears to be scaled appropriately relative to the interior space. The perspective suggests a careful rendering to preserve anatomical integrity despite the surreal context. Based on visual analysis, there is no indication of warping or scaling artifacts affecting her body parts.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the intricate patterns on the dress and the braided hairstyle clearly visible and free from blurring, aliasing, or loss of fine detail after conversion to a 3D model?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The dress features bold geometric patterns with red, green, and gold circular motifs, and the braid style includes layered textures and color bands. In Image B, these elements are rendered with high fidelity—the individual dots and lines within the fabric pattern remain sharp and distinct, suggesting a high-resolution texture map was used. Similarly, the braided hairstyle shows clear separation between strands and defined color transitions, indicating attention to detail in the 3D modeling process. There is no noticeable blurring or pixelation, and the edges of patterns are crisp, implying that anti-aliasing techniques were likely applied during rendering. This level of clarity suggests that the conversion to a 3D model preserved fine details effectively.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the wall patterns inside the globe accurately reflect the colors and shapes of the dress's pattern without warping, misalignment, or color deviation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The walls inside the globe feature decorative patterns composed of geometric shapes such as diamonds and zigzags, using a palette of red, blue, yellow, and black. These patterns are stylistically similar to traditional African textiles but differ significantly in structure and design from the dress’s polka-dot motif. While both share cultural aesthetic influences, they are not direct reflections of each other. The wall patterns are symmetrically aligned and evenly spaced, showing no obvious warping or misalignment due to the spherical geometry. However, they do not mirror the dress’s pattern in shape or color scheme—instead, they serve as a complementary background. Therefore, while visually coherent, they do not replicate the dress’s design. The question asks whether they 'accurately reflect' the dress’s pattern, which implies a direct correspondence. Since this is not the case, the answer must reflect that the patterns are not a faithful reflection.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the miniature roots beneath the figure arranged in a way that follows natural growth patterns and does not intersect or distort the figure’s legs or skirt?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The roots at the base of the globe are stylized to resemble tree roots, curving outward from the globe’s stand. They are placed below the figure’s seated position and do not physically intersect with her legs or skirt. Instead, they appear to grow around the base of the globe, forming a natural-looking foundation. Their branching structure is organic and follows typical root growth logic—thicker near the trunk and tapering outward. Importantly, there is no visual evidence of the roots passing through or distorting the figure’s limbs or clothing, which would suggest poor spatial modeling. The placement respects the figure’s silhouette, maintaining separation and depth. Thus, the roots are arranged plausibly and do not interfere with the figure’s anatomy.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the miniature animals positioned at ground level with proper shadowing and scale relative to the figure, and do they have natural textures and forms without visible artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The miniature animals—a lion, a goat, a hyena, and possibly a smaller rodent—are placed on the base surrounding the globe. They are positioned at ground level, consistent with the terrain depicted beneath the globe. Each animal casts subtle shadows that align with the lighting direction, suggesting accurate rendering of light sources. Their sizes are proportionally smaller than the figure, which is appropriate given their status as miniatures within a diorama-like setup. The textures of their fur and skin appear smooth and detailed, with no obvious pixelation or mesh artifacts. Forms are anatomically correct for each species, and the overall presentation conveys a sense of realism within the stylized context. Although slightly exaggerated for artistic effect, the animals maintain naturalistic qualities without visible rendering flaws.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

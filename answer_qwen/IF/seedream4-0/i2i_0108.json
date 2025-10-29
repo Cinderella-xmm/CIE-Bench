@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0108",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the character depicted as a 3D half-body figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character is shown from the waist up, with visible depth and volume suggesting a three-dimensional rendering. The lighting, shadows, and perspective indicate that it is not a flat 2D image but rather a 3D model. The way light reflects off the suit and shield, along with the realistic proportions and musculature, supports the conclusion that this is a 3D half-body representation. The character's torso, arms, and head are fully rendered with depth, consistent with a 3D digital model.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the character appear to be breaking out from a television screen?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows Captain America positioned in front of a television screen, with his body partially extending beyond the screen’s boundary. His shield is prominently placed in the foreground, appearing to emerge from the screen into the real-world space. The TV screen displays a digital interface with holographic elements, and the character’s pose suggests he is stepping forward from within the display. This visual effect, combined with the depth cues and lighting, creates the illusion that the character is breaking out of the screen, simulating a 'breaking the fourth wall' moment. This is a common technique used in augmented reality or interactive media visuals.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the character in a defensive shield-raising pose?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The character is holding his shield in front of him, angled slightly toward the viewer, which is characteristic of a defensive stance. However, the pose is not strictly one of active defense—his other hand is raised in a clenched fist, suggesting readiness or aggression rather than passive protection. While the shield is present and positioned defensively, the overall posture leans more toward an assertive or preparatory stance. Therefore, while there is a defensive element due to the shield’s placement, the full body language does not clearly convey a purely defensive action.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the image simulate an augmented reality display effect through lighting, shadows, and spatial realism?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Yes, the image employs several visual techniques typical of augmented reality (AR) simulations. The character appears to be emerging from a screen into physical space, with accurate lighting and shadowing that interact with both the virtual figure and the real-world environment (e.g., the wooden desk). The glow from the screen and the reflections on the character’s suit suggest digital projection. Additionally, the background on the screen includes futuristic UI elements and holographic overlays, reinforcing the AR aesthetic. These elements—depth perception, realistic lighting, and interaction between virtual and real spaces—are hallmarks of AR simulation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the character's original appearance and posture been maintained while implementing the new effects?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing Image B to Image A, the character’s costume, helmet, and shield remain consistent with the original design—same color scheme, star emblem, and tactical gear. However, the posture has changed significantly: in Image A, the character stands upright with a neutral stance, while in Image B, he is posed dynamically with one arm raised and the other holding the shield forward, suggesting action. This indicates that while the core appearance is preserved, the posture has been altered to fit the narrative of emerging from a screen. Thus, the original appearance is largely maintained, but the posture is modified for dramatic effect.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

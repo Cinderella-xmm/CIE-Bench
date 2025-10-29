@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_35327",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the figure’s skin uniformly colored in a vivid blue tone?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the skin of the figure is covered in a vivid blue tone with a glossy, liquid-like texture. The uniformity of the blue hue is visually consistent across the body and matches with a highly saturated blue appearance.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the banana rendered in a metallic gold color with a curved, elongated shape resembling a real banana?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, instead of a banana, there is a geometric, golden polyhedral object being levitated. The shape does not resemble a banana, deviating significantly from the natural curves and elongation characteristic of a real banana.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the facial features (eyes, nose, mouth, ears) clearly visible and anatomically recognizable?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the area where facial features would typically be visible is obscured and no distinct facial features like eyes, nose, mouth, or ears are discernible. Instead, a blue box covers the face.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the hand visible and positioned near the banana, suggesting a prior or ongoing interaction?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figure’s hand is visible and positioned near a geometric object, suggesting it is holding or supporting the object, implying an interaction despite the object not being a banana.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the figure shown in a side profile with the head turned slightly forward, facing right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figure appears to be in a side profile with the head directed slightly forward and facing towards the right, similar to the traditional posture often observed in portraits.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is there a background behind the figure, even if it is transformed or warped?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a complex and dynamic background with swirling patterns and abstract colors, altering the spatial perception and indicating the presence of a warped or transformed background behind the figure.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5714285714285714
+}

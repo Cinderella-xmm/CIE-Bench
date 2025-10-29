@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-267641566490570944",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the sunlight originating from the upper-left portion of the sky, casting diagonal rays across the mountain range?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are visible light rays streaming down diagonally from the upper-left portion of the sky. This visual cue, coupled with the soft illumination across the landscape, suggests that the sunlight is indeed casting diagonal rays. Such lighting is typical in landscapes where the sun is low in the sky, either at sunrise or sunset.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there visible layers of mist or haze separating the mountain ranges at different depths?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, multiple layers of mountains are visible, with decreasing clarity as they recede into the background. This visual effect is often due to atmospheric haze or mist, which adds depth to the scene by creating visual separation between layers by partially diffusing the light.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the tallest, most prominent peak located near the center of the image, rising above surrounding spires?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no singular prominent peak that stands taller than other elements; instead, the focal point is the dragon, which is not positioned as a mountain peak but is woven through the landscape. The original natural scene of a singular prominent peak being the focus is altered by the presence of the mythical creature.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there green leafy plants visible in the foreground, especially on the left side of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, near the lower-left corner and edges of the frame, there are indeed green plants with leaves visible. These add a touch of nature to the scene and help frame the foreground, contributing to the depth perception.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the sky display a gradient from warm orange-pink near the horizon to cooler blue-gray at the top?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sky does show a gradient in color, transitioning from warmer hues like orange and pink near the horizon to cooler, blue-gray tones as it approaches the upper part of the sky. This gradient is indicative of typical sky conditions during sunrise or sunset.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there visible rough, dark gray rock surfaces on the mountain sides, especially on the left and right edges of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, rather than clear dark gray rock surfaces, the texture of the landscape is visually obscured by the dragon, as its serpentine body covers areas that would typically show rocky surfaces on the mountain sides. The dragon’s texture mimics the mountainous landscape, but it does not distinctly exhibit the rough, dark-gray rock texture mentioned.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7142857142857143
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0056",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the horse's brown coat and dark mane?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the foreground features a chibi character instead of a horse, so the horse's coat and mane are not visible. Therefore, the image does not retain any specific features of the horse, including the brown coat and dark mane.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the horse depicted in a grazing posture in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image replaces the horse with a chibi character wearing a construction outfit. This character stands upright, thus the image does not depict any grazing posture reminiscent of a horse.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain the sea and grassy shore in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image retains the sea and grassy shore in the background. These elements are visible behind the chibi character and construction equipment, similar to how they appeared in the original.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the white house visible in the background of the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, a small structure that resembles a white house is present in the background, similar to the buildings seen in the original image. Thus, the white house remains visible in the edited version.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the sea appear calm in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The sea in the edited image appears similarly calm as it does in the original image. The surface shows no waves or disturbances, contributing to a serene background setting.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5
+}

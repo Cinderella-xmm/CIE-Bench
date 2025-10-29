@@ -1,0 +1,137 @@
+Description of reference image: The subject is a cozy, snow-covered log cabin situated in a dense winter forest. The cabin has a steeply pitched A-frame roof fully blanketed in snow, with a dark chimney protruding from the peak, emitting a thick plume of dark smoke rising vertically into the overcast sky. The structure is built from horizontal logs with visible wood grain and chinking between them. Warm, golden light glows from multiple windows—three on the upper level and three on the lower level—including one large central window on the ground floor. The eaves are adorned with glowing string lights and garlands that emit a soft orange glow, illuminating the surrounding snow. Snowflakes gently fall across the scene. The cabin is surrounded by tall, snow-laden evergreen fir trees forming a misty, atmospheric backdrop. Small coniferous shrubs flank the front porch, which features a wooden railing partially buried in snow. A simple split-rail fence lies in the foreground to the left and right, also covered in snow. The ground is uniformly covered in deep white snow, with faint footprints leading toward the cabin. The overall atmosphere is serene, warm, and inviting despite the cold environment.
+
+Thinking process:  
+First, analyze the editing instructions word by word: "Transform the cozy snowy cabin scene into an Impressionist painting, depicting the cabin with dappled brushstrokes and soft colors; reimagine the surrounding fir trees with loose, vibrant strokes; convey the chimney smoke as a gentle blur, suggesting movement and warmth amidst a serene, snowy environment."  
+
+The instruction explicitly changes the **style** of the image (Impressionist), which allows for modifications in rendering technique, texture, color application, and brushwork. However, it does **not** state any change to the **identity**, **structure**, or **core components** of the subject or scene. Instead, it describes how these elements should be *reimagined* in style, not replaced.  
+
+Allowed Changes List:  
+- Rendering style (e.g., dappled brushstrokes, soft colors)  
+- Texture of surfaces (e.g., logs, snow, trees)  
+- Color palette (within artistic interpretation, especially “soft” and “vibrant”)  
+- Representation of motion (e.g., smoke as a gentle blur)  
+- Stroke quality of surrounding trees (loose, vibrant strokes)  
+- Visual impression of warmth and serenity through lighting and color blending  
+
+Note: The instruction does **not** allow for removal or replacement of core objects such as the cabin, chimney, windows, smoke, or trees. It only modifies how they are visually rendered.
+
+Step 2 – Determine the elements that should remain unchanged
+
+Thinking process:  
+Core recognition elements:  
+- The **log cabin** is the central subject. Its identity relies on key structural features: the A-frame roof, log construction, chimney placement, and window layout. Even in an Impressionist style, the cabin must remain recognizable as a log cabin. Changing its shape or removing key features would destroy its identity.  
+- The **chimney** is a functional and iconic element—its presence and position are critical. Smoke rising from it indicates activity and warmth, essential to the scene’s narrative. Though the smoke may become blurred, the chimney itself must remain.  
+- The **windows** are vital for conveying warmth and life inside. Their number, position, and glowing light are core to the image’s emotional tone. They must remain in place and illuminated.  
+- The **snow-covered roof and ground** define the winter setting. While texture may change, snow must still cover the roof and landscape.  
+- The **surrounding fir trees** form the environmental context. Though their rendering may become looser, their presence, height, and positioning relative to the cabin must be preserved to maintain spatial logic.  
+
+Functional/logical association elements:  
+- The **smoke rising from the chimney** implies a fire inside, linking the interior warmth to exterior cold. This functional relationship must be preserved—even if blurred, smoke must originate from the chimney.  
+- The **position of the cabin within the forest** maintains spatial coherence. It must remain centrally located, framed by trees, with no radical repositioning.  
+- The **glowing lights from windows** must persist to preserve the sense of habitation and warmth.  
+
+Non-modified element deduction:  
+After excluding allowed changes (style, texture, stroke, color intensity), the remaining visual content must be retained:  
+- Specific number and arrangement of windows  
+- Log construction pattern  
+- Chimney location and vertical smoke emission  
+- Presence of snow on roof, ground, and trees  
+- Porch with railing and small shrubs  
+- Split-rail fence in foreground  
+- Falling snowflakes  
+
+These are not mentioned as changeable and are essential for visual continuity and identity.
+
+Preservation Targets List:  
+- The cabin's A-frame roof with snow covering it  
+- The chimney positioned at the peak of the roof, emitting smoke  
+- The three upper windows and three lower windows (including central ground-floor window)  
+- The glowing light emanating from all windows  
+- The log construction of the cabin walls  
+- The presence of snow on the ground, roof, and trees  
+- The surrounding tall fir trees framing the cabin  
+- The small coniferous shrubs near the porch  
+- The split-rail fence in the foreground  
+- The falling snowflakes in the atmosphere  
+- The smoke rising vertically from the chimney  
+
+{
+    Q1: 
+    Thinking process: The A-frame roof is the defining architectural feature of the cabin, distinguishing it from other house types. Its triangular shape and snow coverage are essential for recognizing the structure as a traditional alpine cabin. If this shape is altered or lost in the Impressionist rendering, the subject becomes unidentifiable. Therefore, the presence and form of the A-frame roof must be preserved.
+    Question: Is the cabin’s roof clearly shaped as an A-frame with snow covering its surface?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The chimney is a functional and iconic element—its location at the peak of the roof and its emission of smoke are central to the scene’s narrative of warmth and habitation. Even if rendered as a blur, the chimney must remain present and connected to the roof. Removing or relocating it would break the logical and visual integrity of the scene.
+    Question: Is there a chimney located at the peak of the roof, from which smoke is rising?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The glowing windows are the primary source of warmth and life in the image. Their specific number (three upper, three lower) and positions are key to identifying the cabin’s layout. Losing any window or changing its placement would distort the cabin’s identity and emotional impact.
+    Question: Are there exactly three illuminated windows on the upper level and three on the lower level, including one central window on the ground floor?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The log construction is a core visual identifier of the cabin type. The horizontal logs with visible gaps (chinking) define the material and style. In an Impressionist rendering, while texture may soften, the underlying structure must remain recognizable as logs. Altering this would make the cabin appear like a different building material.
+    Question: Are the walls of the cabin constructed from visible horizontal logs with chinking between them?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The surrounding fir trees create the forested context and frame the cabin. Their presence, height, and snow-covered appearance are essential for establishing the winter wilderness setting. Even if rendered with loose strokes, their form and position relative to the cabin must be preserved to maintain environmental coherence.
+    Question: Are there tall, snow-covered evergreen fir trees surrounding the cabin on all sides?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The smoke rising from the chimney is a dynamic element indicating warmth and occupancy. While the instruction allows it to be a "gentle blur," it must still originate from the chimney and rise upward. Any deviation—such as missing smoke or incorrect direction—would undermine the scene’s logic.
+    Question: Is there smoke visibly rising vertically from the chimney into the sky?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The glowing string lights along the eaves are a decorative detail that enhances the cozy atmosphere. Their presence adds warmth and festivity, contributing to the cabin’s charm. While their brightness or rendering may vary, their location along the roofline must be preserved to maintain visual consistency.
+    Question: Are there glowing string lights running along the edge of the roofline beneath the eaves?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q8: 
+    Thinking process: The small coniferous shrubs near the porch are part of the immediate landscaping and help ground the cabin in its environment. While minor, their presence contributes to realism and depth. Removing them would simplify the scene unnecessarily.
+    Question: Are there small snow-covered shrubs positioned on either side of the front porch?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q9: 
+    Thinking process: The split-rail fence in the foreground provides spatial depth and rustic charm. It anchors the viewer’s perspective and frames the approach to the cabin. Though stylistically softened, its presence must be retained to preserve compositional balance.
+    Question: Is there a split-rail fence partially buried in snow in the foreground, extending to the left and right of the cabin?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q10: 
+    Thinking process: Falling snowflakes contribute to the wintry atmosphere and suggest ongoing weather conditions. Their presence is essential for maintaining the scene’s seasonal identity. Even in an Impressionist style, they should remain visible as scattered white specks in the air.
+    Question: Are there visible snowflakes falling throughout the scene, particularly in the sky and around the cabin?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

@@ -1,0 +1,84 @@
+{
+  "filename": "laion_3745298076957807089",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the bottle’s main body still a transparent rectangular glass container with softly rounded edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the object present is a green container which is not transparent. The shape is cylindrical and missing the previous rectangular shape with rounded edges as seen in typical bottles. Therefore, the main body no longer matches the description of a transparent rectangular glass container with softly rounded edges.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the interior of the bottle filled with a golden-yellow translucent liquid?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the container is filled with reed diffuser sticks and is not a bottle holding liquid. Hence, there's no golden-yellow translucent liquid visible in Image B because it contains aromatic reeds instead.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the black box with the arched cutout and gold text \"CADENHEAD'S\" at the top and \"ESTD. 1842\" at the bottom still present?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B has a green box with floral patterns and gold text but not the black box with the arched cutout and distinct text as described. The box is also visibly different in color and design from Image A.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there visible reflections and highlights on the glass surface of the bottle indicating transparency and smoothness?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the container appears to be opaque, and while it is smooth, transparency is not demonstrated, eliminating the possibility of reflections or highlights that show transparency.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the bottle positioned to the left of the box, with the box’s arched window aligned to frame the bottle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the container is not positioned next to a box with an arched window. Instead, it stands beside a rectangular decorated box, eliminating any alignment with an arched window present in Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the bottle have a flat, thickened base that rests stably on the surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the green container does have a flat base that allows for stability, but it does not have the thickened base typical of weighted bottles as in Image A. However, it does rest stably on the surface.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.07142857142857142
+}

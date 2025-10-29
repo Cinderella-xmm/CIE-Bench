@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Given the sub requirement to transform the sheep into chibi-style sticker characters while maintaining their pose, it's crucial the transformation does not introduce unnatural distortions in shape or structure, especially since these characters are near a fence which provides context for their size and orientation. Evaluating the perception of authenticity requires ensuring the sheep maintain structural consistency even after stylization.",
+      "question": "Do the chibi-style sheep retain proportional accuracy and structural coherence relative to their original poses near the fence in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Considering the addition of accessories like a red scarf, knit hat, and small bell, the material and texture of these added items must appear consistent with typical cartoon accessories and not introduce unnatural textures or artifacts. The specific points to analyze are the scarf's drape, the hat’s fit, and the bell’s size in relation to the sheep.",
+      "question": "Are the added accessories (red scarf, knit hat, and small bell) free of unnatural textures and logically placed on the chibi sheep?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Thick white outlines and flat colors are part of the chibi style required but should respect the contours and forms of the sheep without creating discontinuities or breaking shapes unnaturally. Observing the edges where the outlines meet the body and the uniformity of colors contributes to assessing the absence of artifacts and visual coherence.",
+      "question": "Do the thick white outlines and flat colors applied to the chibi sheep create a visually coherent and artifact-free appearance, maintaining their structural integrity?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Converting the sheep into chibi characters necessitates retaining the core elements like their proximity to the fence. This preserves the composition's visual credibility. Ensuring that the transformed sheep still align well within their environment checks if the conversion respects the scene's original spatial relationships.",
+      "question": "Does the positioning of the chibi sheep near the fence remain visually credible, preserving their original spatial relationship with the environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The requirement for a transparent background demands that the extraction of the sheep from the snowy environment is done without leaving behind traces of the background or introducing new artifacts. This ensures that the stickers look clean and usable for various backgrounds.",
+      "question": "Is the background successfully made transparent without visible artifacts or remnants of the snowy landscape affecting the clean appearance of the chibi sheep?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

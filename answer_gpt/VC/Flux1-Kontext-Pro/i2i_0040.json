@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0040",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the bike frame still red in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the frame of the bike is clearly visible and is red in color. This is determined by identifying the color of the frame from the visual cues provided, which indicates the vibrant, warm hue typically associated with red. Combined with common knowledge about bike colors, it confirms that the bike frame remains red.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the bike still have a rear rack attached to it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bike is shown with a rear rack attached above the rear wheel, which is identifiable by its typical structure and placement. This suggests that the functionality related to carrying additional items on the bike is still present. Therefore, the bike retains its rear rack in the edited image.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the bike still leaning against a wooden log?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bike is standing upright and not shown leaning against any object, particularly not a wooden log. The lack of visual support structure against the bike indicates that it is not in contact with any wooden log. This suggests that in the edited image, the bike is not leaning against a wooden log.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there grass and scattered leaves visible in the foreground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts a bike set against a vivid green background, indicating a grassy area. However, there are no visible scattered leaves in the foreground, only the grass itself. This analysis is based on the landscape and surface depicted directly beneath and around the bike.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a tree trunk visible on the left side of the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image (Image B), the scene is depicted with a blurred background where grass dominates the visible area, and there is no apparent vertical structure resembling a tree trunk on the left side. Analyzing the absence of hard, vertical lines typical of a tree trunk suggests there is no tree trunk present in Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

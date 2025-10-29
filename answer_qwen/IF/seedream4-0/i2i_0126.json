@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0126",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image include a front view of the office environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the main scene shows two individuals seated at desks facing computer monitors, with their backs partially visible to the viewer. This perspective is not a direct front view of the entire office environment but rather a side or angled view focusing on the people and their workstations. A true front view would show the faces of the individuals directly and provide a head-on look at the room's layout, which is not present here. Therefore, based on visual cues and standard definitions of viewing angles in architectural or interior illustrations, this is not a front view.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a side view of the office environment present in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Yes, the primary depiction in Image B shows two people seated at desks from a side profile angle. The individuals are shown in lateral orientation, with one person on the left and another on the right, both facing toward the center of the image. This arrangement provides a clear side view of the office setup, including the desks, chairs, computers, and surrounding decor such as potted plants and wall frames. This aligns with common conventions for illustrating interior spaces from a side perspective, where depth and spatial relationships are conveyed through profile views.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the image incorporate a top view of the office environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Yes, Image B includes a small inset illustration located near the top center of the image that shows a bird’s-eye or top-down view of the office setup. This top view displays the rectangular table with four chairs arranged around it, clearly indicating the layout from above. Such an overhead perspective is commonly used in architectural or design diagrams to convey spatial organization. The inclusion of this inset confirms that a top view is intentionally incorporated into the overall composition.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the three views (front, side, and top) depicted as distinct illustrations within one image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B contains two main views: a side view of the office environment showing the two individuals working at desks, and a top-down view inset in the upper portion of the image. However, there is no front view present—no illustration shows the office from a direct frontal perspective where the faces of the people and the full front-facing layout are visible. While the side and top views are included, the absence of a front view means that all three views are not represented. Thus, although multiple perspectives are combined, they do not constitute a complete set of three distinct views.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the combined illustrations show the full office environment layout comprehensively, covering essential elements like desks, chairs, and equipment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Yes, the combined illustrations in Image B provide a comprehensive representation of the office environment. The side view shows two desks, office chairs, computer monitors, keyboards, and personal items such as framed pictures and potted plants. The top view inset further clarifies the spatial arrangement by showing the table and chair layout from above. Together, these views cover key components of the workspace: furniture (desks, chairs), technology (monitors), and decorative elements (plants, portraits). The integration of multiple angles ensures that the viewer gains a thorough understanding of the office’s layout and contents, even though the full 360-degree view is not shown.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

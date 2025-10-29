@@ -1,0 +1,71 @@
+Description of reference image:  
+The subject is a black smartphone placed on a wireless charging pad, connected by a charging cable inserted into the bottom port. The phone screen is turned off, displaying a reflective surface. The home button is visible below the screen. The charging pad is circular, and both the cable and the phone are on a solid green surface. The phone has a sleek design with rounded edges.
+
+### Step 1 - Allowed Changes List:
+
+Thinking process:  
+The instructions specify redrawing the image in Pixar animation style while preserving the original composition. This allows for changes in texture, material finish, shading, and style, but limits altering the overall placement, connection, and identity of the objects. 
+
+Allowed Changes List:  
+1. Artistic style of the objects, including texture and finish (to fit Pixar animation style).  
+2. Lighting effects to match the new artistic style.  
+3. Minor alterations in the sharpness and smoothness of edges.  
+
+### Step 2 - Determination of Elements That Should Remain Unchanged:
+
+Thinking process:  
+Core recognition elements include the identifiable features of the phone (shape, home button, charging port) and the functional relationship between the phone and charging pad (connection via cable, positioning on the pad). Logical association elements include the placement and interaction of objects. Remaining visual details should maintain coherence.  
+
+Preservation Targets List:  
+1. Shape and form of the phone (maintain rectangular form with rounded edges).  
+2. Presence and position of the home button on the phone.  
+3. Connection of the charging cable to the phone’s port and its route to the charging pad.  
+4. Placement of the phone on the charging pad.  
+5. Solid green background with no additional elements.
+
+### Step 3 - Generation of Questions:
+
+{
+Q1:  
+Thinking process: The phone's rectangular shape with rounded edges is a key identifier for a smartphone. Losing this would make the object unrecognizable.  
+Question: Does the smartphone retain its rectangular shape with rounded edges?  
+Choices: Yes, No  
+A: Yes  
+Weight: 3
+}
+
+{
+Q2:  
+Thinking process: The home button is an important feature for recognizing this particular smartphone model. Its presence and position are critical for maintaining the phone's identity.  
+Question: Is the home button visible and located at the bottom center of the phone?  
+Choices: Yes, No  
+A: Yes  
+Weight: 3
+}
+
+{
+Q3:  
+Thinking process: The connection between the phone and the charging pad via the cable is crucial for preserving the functional relationship.  
+Question: Is the charging cable visibly connected to the phone's charging port and leading to the charging pad?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2
+}
+
+{
+Q4:  
+Thinking process: The position of the phone on the charging pad maintains the logical interaction between the two objects.  
+Question: Is the phone still placed flat on top of the charging pad?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2
+}
+
+{
+Q5:  
+Thinking process: The green background is a simple yet distinctive scene element that ensures visual consistency.  
+Question: Is the background a solid green color without any additional elements?  
+Choices: Yes, No  
+A: Yes  
+Weight: 1
+}

@@ -1,0 +1,47 @@
+```
+Step 1: Disassemble Editing Instructions
+-<Thinking Process 1>: The editing instruction requires transforming the Eiffel Tower landscape into a shadow box diorama with layered paper cut-outs, replacing the lawn with a mirror-like surface, adding tiny 3D-printed pedestrians, and encasing the scene in a dark-framed shadow box with engraved city names and coordinates. This transformation involves significant changes to materials, depth perception, and physical structure. The original image features a realistic outdoor scene with natural lighting, trees, pathways, and the Eiffel Tower under sunlight. The edits must preserve structural coherence while introducing artificial elements (e.g., mirror surface, paper layers, frame). The key perceptual quality concerns include: whether the new materials (mirror, paper, frame) appear physically plausible; whether the layering creates unnatural distortions or depth inconsistencies; whether the replacement of grass with a reflective surface maintains visual credibility; whether the tiny pedestrians are proportionally correct and not deformed; and whether the frame and engravings are detailed and integrated without artifacts.
+
+-Sub requirement 1: Replace the lawn in front of the Eiffel Tower with a mirror-like surface—evaluate whether this change maintains visual plausibility and reflects light realistically without introducing unnatural textures or distortion.
+
+-Sub requirement 2: Layer the skyline and foreground using multiple paper cut-outs—assess whether the layered effect preserves geometric consistency and avoids misalignment, warping, or inconsistent depth cues.
+
+-Sub requirement 3: Add tiny 3D-printed pedestrians on pathways and around the mirror surface—check whether these figures are proportionally accurate, anatomically correct, and free from deformation or unnatural textures.
+
+-Sub requirement 4: Encase the entire scene in a dark-framed shadow box with metallic edges—verify that the frame appears structurally consistent, with no floating or misplaced edges, and that it integrates naturally with the scene.
+
+-Sub requirement 5: Engrave city names and coordinates along the frame—determine whether the text is legible, properly aligned, and stylistically consistent with fine engraving, without blurring or pixelation.
+
+-Sub requirement 6: Maintain overall realism despite the artistic transformation—ensure that lighting, shadows, and reflections remain coherent across all added elements, especially where mirror surfaces interact with surrounding objects.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of replacing the lawn with a mirror-like surface, evaluate whether the material change at the central reflecting pool area (originally green grass) maintains visual credibility. The mirror should reflect surrounding elements (trees, sky, tower) accurately and without unnatural distortions or texture mismatches.
+Question: Does the mirror-like surface in the foreground reflect the sky, trees, and Eiffel Tower with clear, undistorted imagery and smooth texture?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of layering the skyline and foreground as paper cut-outs, assess whether the depth planes (skyline buildings, trees, pathways) exhibit consistent scaling and alignment, avoiding overlapping errors or geometric distortions that would break spatial logic.
+Question: Are the distant buildings and tree clusters positioned at distinct depth layers without overlapping or misaligned edges that suggest incorrect layering?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of adding tiny 3D-printed pedestrians, check whether the small human figures on the pathways and near the mirror surface are proportionally correct, anatomically plausible, and lack unnatural shapes or textures such as jagged edges or missing limbs.
+Question: Do the small pedestrian figures on the pathways have consistent proportions, recognizable body parts, and smooth textures without visible deformities or clipping artifacts?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of encasing the scene in a dark-framed shadow box with metallic edges, verify that the frame appears as a solid, continuous border around the image, with no gaps, floating edges, or inconsistent shading that would suggest poor integration.
+Question: Is the dark frame with metallic edges present around the entire perimeter of the image, appearing solid and uniformly integrated without breaks or misalignments?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of engraving city names and coordinates along the frame, assess whether the text is clearly visible, evenly spaced, and stylistically consistent with fine engraving, without blur, aliasing, or misplacement relative to the frame’s edge.
+Question: Are the engraved city names and coordinates along the frame legible, precisely aligned, and free from pixelation or uneven spacing?
+Choices: Yes, No  
+A: Yes
+```

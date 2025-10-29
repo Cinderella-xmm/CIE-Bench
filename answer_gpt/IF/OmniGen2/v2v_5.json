@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_5",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the zebra depicted in a stylized 3D chibi form?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a zebra with exaggerated features such as large, cute eyes, and a small, round body, which are typical of a 3D chibi style. Chibi figures are characterized by their cute, miniaturized appearance, often with oversized heads and simplified forms. The zebra in Image B fits these criteria, suggesting a transformation into a stylized 3D chibi form.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the zebra’s stripes and distinctive pattern accurately depicted as in the original photo?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the zebra’s stripes pattern is portrayed, but with a stylized approach. The stripes are fewer and designed more simply to fit a chibi form, contrasting the complex and realistic patterns seen in Image A. Chibi figures often simplify and stylize details for a cartoonish look, thus not retaining the full accuracy of the original's stripe pattern.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the zebra engaging playfully with a miniature replica of the cake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The zebra in Image B is shown alongside a cake that is visually very similar in design to the cake from Image A but is scaled to fit the chibi aesthetic. Although the zebra is positioned close to the cake, it doesn't show distinct signs of playful engagement, as the posture is static and does not convey action or interaction.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the zebra leaning forward with a curious look while seated on the edge of an oversized Instagram frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents a scene where the zebra is positioned near the cake with an Instagram frame behind it. The zebra's posture and facial expression surface a curious look, but it does not appear to be seated on the Instagram frame—it is standing in front of it. The playful and curious expression hints at engagement but not in the manner described.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the top section of the Instagram frame feature the username “ZebraLover”?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases an Instagram-like frame with the username visible at the top. Upon inspection, the username displayed is 'ZemarieLover', not 'ZebraLover'. This requires recognizing the text and verifying the precise spelling based on established standards for usernames.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are varying social media icons (like, comment, and share) floating around the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, several social media icons are visible, including elements that indicate interaction within a social media setting, such as 'like' and 'comment' icons circled around the frame. These icons are typical of social media interfaces, providing visual cues that imply sharing capabilities.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

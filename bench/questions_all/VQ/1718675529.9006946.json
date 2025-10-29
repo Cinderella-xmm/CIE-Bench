@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the waves into bold geometric curves, evaluate whether the wave shapes in the edited image maintain structural coherence and visual plausibility. The original image shows natural, fluid wave forms with white foam and gradual transitions. The editing instruction requires replacing these with stylized geometric curves, so we must assess if the new wave forms retain a sense of physical rationality and avoid unnatural distortions such as broken edges or abrupt angular shifts that contradict water dynamics.",
+      "question": "Do the wave patterns along the shoreline consist of smooth, continuous geometric curves without jagged or disconnected segments?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of stylizing palm trees as vertical lines, evaluate whether the palm trees in the background have been transformed into simplified linear forms while preserving their general spatial positioning and alignment with the beach environment. The original image shows detailed palm trees with fronds and trunks; converting them to vertical lines should not introduce floating or misaligned elements, nor disrupt the horizon line or perspective.",
+      "question": "Are the palm trees along the right side of the beach represented as clean, straight vertical lines without irregular gaps or misplaced branches?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of transforming clouds into symmetrical shapes, evaluate whether the cloud formations in the sky now exhibit deliberate symmetry and geometric regularity while still appearing integrated with the lighting conditions of the scene. The original image has soft, organic cloud shapes; the edit demands symmetry, so we check for balanced, mirrored forms without visible seams or unnatural repetition that breaks atmospheric continuity.",
+      "question": "Are the clouds in the sky arranged in symmetrical, repeating patterns without visible distortion or mismatched edges between adjacent cloud shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of using an earthy color palette of muted greens, blues, and warm oranges, evaluate whether the overall color scheme has shifted appropriately to match this palette without introducing unnatural hues or inconsistent color gradients. The original image features bright turquoise water and golden sand; the edit should replace these with more subdued tones while maintaining tonal harmony across sky, sea, and land.",
+      "question": "Is the entire scene uniformly rendered in muted greens, blues, and warm oranges, with no areas exhibiting bright or out-of-place colors such as vivid cyan or yellow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of maintaining structural consistency and visual credibility despite stylistic changes, evaluate whether the relationship between the foreground sand, midground waves, and background hills remains coherent. The editing may alter textures and forms, but the spatial depth and relative proportions (e.g., size of rocks, distance of mountains) must remain physically plausible to preserve visual credibility.",
+      "question": "Do the rocks on the sandy shore appear proportionally consistent with the surrounding terrain, and are they positioned in a way that aligns with the slope and texture of the beach?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

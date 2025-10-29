@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_303",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image appear as a 3D render with smooth surfaces and soft lighting characteristic of Pixar animations?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting is soft and diffused, giving it a smooth appearance without sharp shadows. The surfaces of the coat and scarf are sleek and consistent, exhibiting characteristics of a 3D render. The colors are vibrant, and lines are clean, aligning with the aesthetic seen in Pixar-style animations.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the background still vibrant and wavy, matching the original image's pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background remains vibrant with similar wavy patterns as Image A, which feature colorful bokeh-like circles and fluid lines. This suggests retention of the original background's vibrancy and style.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the textures of the coat and scarf detailed and preserved in the 3D render?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, while the coat and scarf maintain their form and placement, the texture details are smoothed out. This transformation is characteristic of 3D rendering where surface detailing often becomes less intricate, favoring a polished appearance.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the overall style of the image align with Pixar's aesthetic, including appropriate shading and material properties?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the overall style shifted to a smoother, more polished look, with simplified textures and bright, vivid colors. The shading is soft with gradual transitions. These elements align with Pixar’s aesthetic commonly found in their stylized CGI animations.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the subject's pose and expression remained consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B independently of facial details, the subject maintains the same pose as in Image A, indicated by the position of the coat, scarf, and overall body orientation. This suggests that the pose has remained unchanged between the images.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

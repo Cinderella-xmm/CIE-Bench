@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the cardinal and blue jay into 3D anthropomorphic figurines, evaluate whether the conversion from natural birds to stylized figurines maintains structural coherence and visual plausibility. The original image shows a cardinal on the left with red plumage and snow on its head and back, perched on a snow-covered branch in a muted winter forest scene. The blue jay on the right has vibrant blue, white, and black feathers, sitting on a pine branch with cones under a bright sky. The editing instruction requires replacing these realistic birds with anthropomorphic versions dressed in Victorian attire. This transformation involves altering body proportions, adding limbs, clothing, and accessories, which may affect geometric integrity and realism. The key concern is whether the resulting figurines retain plausible anatomy and avoid unnatural distortions such as misshapen limbs or inconsistent scale.",
+      "question": "Do the anthropomorphic cardinal and blue jay have proportionally correct limbs and body structures that maintain anatomical plausibility without visible deformations?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of dressing the figurines in Victorian-style winter attire with detailed stitching and elegant accessories, evaluate whether the added clothing elements (such as coats, hats, gloves) appear seamlessly integrated with the bird bodies. The original birds are depicted with fine feather textures and natural color gradients. Adding fabric textures like wool, lace, or buttons must not introduce unnatural textures, blurry edges, or mismatched lighting. The focus is on whether materials look physically consistent with their environment—e.g., fabrics should reflect light similarly to surrounding snow and fur—and whether stitching details are sharp and logical.",
+      "question": "Are the Victorian garments worn by the cardinal and blue jay rendered with clear, consistent texture and stitching, free from pixelation, blurring, or material inconsistencies?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of positioning the cardinal on a frosty stage adorned with tiny icicles and the blue jay in a cozy pine-scented alcove, assess whether the new environments are visually coherent and structurally sound. The original image features snow-laden branches and pine needles. The edited version must include miniature architectural elements (e.g., a stage base, alcove walls) that do not conflict with the scale or perspective of the scene. The placement of icicles and pine elements should follow physical logic—e.g., icicles should hang downward, and pine cones should rest naturally on surfaces. Any floating objects or incorrectly angled structures would compromise visual credibility.",
+      "question": "Are the miniature stage and alcove elements positioned with proper depth and alignment, and do icicles and pine accents adhere to gravitational and spatial logic?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of surrounding each scene with miniature seasonal elements for an enchanting winter narrative, evaluate whether the added decorative items (e.g., tiny ornaments, snowflakes, lanterns) are appropriately scaled and integrated. These elements must not appear disproportionately large or small compared to the birds or their surroundings. Additionally, their shadows and lighting should match the ambient conditions—e.g., if the scene is lit from above, shadows should fall downward. Inconsistent lighting or floating objects would indicate artifacts or lack of depth consistency.",
+      "question": "Are all miniature seasonal elements (e.g., ornaments, snowflakes) properly scaled, cast realistic shadows, and aligned with the lighting direction of the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of creating a split-frame shadow box effect, evaluate whether the division between the two scenes (cardinal and blue jay) is clean, continuous, and visually convincing. The original image is already split vertically, but the editing instruction introduces a shadow box frame that implies depth and enclosure. The frame should not distort the underlying imagery, and any seams between panels should be smooth and unobtrusive. Additionally, the transition between the two environments (darker forest vs. brighter sky) must remain visually coherent across the divide without abrupt color shifts or clipping artifacts.",
+      "question": "Is the split-frame border clean and seamless, with no visible artifacts, distortion, or color bleeding at the boundary between the two scenes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

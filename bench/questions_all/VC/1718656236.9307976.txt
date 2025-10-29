@@ -1,0 +1,136 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a woman depicted in a highly stylized, ancient Egyptian-inspired regal attire. She wears a tall, structured golden headdress resembling the Double Crown of Egypt (Pschent), featuring layered horizontal bands with hieroglyphic-like inscriptions and two prominent upright elements on either side—possibly representing the uraeus or symbolic animal heads. The headdress has a central vertical ornament at the forehead, likely a uraeus or divine symbol. Her hair is dark, braided into two thick strands that fall over her shoulders. She wears large, teardrop-shaped gold earrings with intricate detailing, and a broad, beaded collar necklace made of interlocking metallic links, resembling traditional Egyptian broad collars. A pendant hangs from the center of the necklace, shaped like an ankh or similar sacred symbol. Her attire includes a sleeveless garment with wide shoulder straps adorned with engraved geometric patterns and gold accents. The texture of all garments and accessories is metallic, with a polished bronze or gold finish, reflecting light with high contrast. The background is neutral and softly blurred, emphasizing the subject’s face and costume. Her expression is solemn and direct, gazing forward with strong, defined eyebrows and pale eyes.
+
+**Thinking process:**  
+The editing instruction specifies transformation of the headpiece and ornamental attire into **Incan royal elements**, including:
+- Replacement of the **Egyptian-style headdress** with one featuring **vibrant feathers and gold accents**.
+- Conversion of **metallic textures** to **woven textiles with geometric patterns**.
+- Transformation of the **necklace** into **layered gold and turquoise pieces**.
+- Use of **warm, regal color tones** to evoke Incan cultural richness.
+
+From this, we can extract the following allowed changes:
+- The **form and material** of the headdress can change: from Egyptian crown to Incan feathered headdress.
+- The **texture** of clothing and jewelry can shift: from metallic to woven textile.
+- The **design** of the necklace can be altered: from single broad collar to layered gold and turquoise.
+- The **color palette** can change: from monochromatic gold/bronze to warm, vibrant tones (e.g., reds, turquoises, golds).
+- The **material appearance** of all adornments can be transformed: from metal to fabric and stone.
+
+However, the instruction does **not** mention changing:
+- The **subject's facial features**, posture, or gaze.
+- The **overall composition** (head-on portrait, neutral background).
+- The **placement** of accessories (e.g., earrings still hang from ears, necklace remains around neck).
+- The **structure of the garment** (sleeveless, shoulder straps present).
+
+Thus, the **allowed changes list** includes only those components explicitly mentioned for transformation.
+
+---
+
+**Allowed Changes List:**
+- The **headdress form and material** (from Egyptian crown to Incan feathered headdress)
+- The **texture and material** of the attire (from metallic to woven textiles)
+- The **necklace design and materials** (from single broad collar to layered gold and turquoise)
+- The **color scheme** of the entire ensemble (to warm, regal tones evoking Incan culture)
+- The **ornamental patterns** on the clothing (from Egyptian motifs to Incan geometric designs)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now exclude the allowed changes and identify what must remain unchanged based on core recognition, functional logic, and visual coherence.
+
+**Core recognition elements:**  
+- The **subject’s face** is central to identity. Her facial structure, especially the **eyes, nose, lips, and eyebrow shape**, are key identifiers. Changing them would alter the subject’s identity.
+- The **pose and orientation**—direct frontal view, neutral expression—are critical to maintaining the original composition. Any significant shift in angle or expression would break continuity.
+- The **presence and position of earrings**—they are attached to the ears and visible. While their design may change, their **placement** must remain consistent.
+- The **general silhouette of the garment**: sleeveless top with shoulder straps—this structural outline must persist even if material changes.
+
+**Functional/logical association elements:**  
+- The **earrings** serve a functional role as wearable jewelry; they must remain attached to the ears. Their **position** is tied to anatomy and cannot be moved without violating realism.
+- The **necklace** must remain around the neck, resting on the chest. Its **location** is functionally fixed by human anatomy.
+- The **shoulder straps** of the garment must remain connected to the shoulders, preserving the garment’s structural integrity.
+
+**Non-modified element deduction:**  
+After excluding allowed changes, the following unmentioned details must be preserved:
+- The **facial features** (shape of eyes, nose, lips, eyebrows)
+- The **hair style** (two braids falling over shoulders)
+- The **earring placement** (one on each earlobe)
+- The **necklace location** (around the neck, centered)
+- The **garment structure** (sleeveless, with shoulder straps)
+- The **background** (neutral, softly blurred, no specific elements)
+
+These are not mentioned for modification and are essential to maintaining the subject’s identity and compositional coherence.
+
+---
+
+**Preservation Targets List:**
+- The subject’s facial features (eyes, nose, mouth, eyebrows)
+- The presence and positioning of the earrings on both earlobes
+- The two braided pigtails extending from the sides of the head
+- The necklace’s position around the neck and central pendant placement
+- The sleeveless garment with shoulder straps
+- The overall frontal pose and direct gaze
+- The neutral, blurred background
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The subject’s facial structure—specifically the shape of the eyes, nose, and lips—is the primary identifier of her identity. Altering these would make the edited image unrecognizable as the same person. This is a core identity feature, hence weighted at 3 points.
+    Question: Does the subject retain the original facial structure, including the shape of the eyes, nose, and lips?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The earrings are positioned on the earlobes and are integral to the subject’s appearance. Even if their design changes, their placement must remain consistent to maintain anatomical accuracy and visual coherence. This is a key accessory element, thus weighted at 2 points.
+    Question: Are the earrings still present and attached to the earlobes on both sides of the head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q3: 
+    Thinking process: The two braided pigtails are a defining hairstyle detail that contributes to the subject’s distinct look. Removing or altering their presence would significantly affect visual consistency. This is a secondary but identifiable feature, so it receives 2 points.
+    Question: Are there two braids extending from the sides of the head, hanging over the shoulders?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The necklace is located around the neck and features a central pendant. Its position is fixed by anatomy and must remain unchanged even if its material and design evolve. This is a key accessory placement, crucial for continuity, hence 2 points.
+    Question: Is the necklace positioned around the neck, with a central pendant resting on the chest?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The sleeveless garment with shoulder straps defines the upper body silhouette. While texture may change, the structural outline must remain to preserve the original form. This is a key garment feature, important for visual coherence, thus weighted at 2 points.
+    Question: Does the garment remain sleeveless with wide shoulder straps extending from the shoulders?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The frontal pose and direct gaze are central to the composition. Changing the angle or expression would disrupt the intended visual narrative. This is a core compositional element, vital for identity and context, so it is assigned 3 points.
+    Question: Is the subject facing directly forward with a neutral expression, maintaining eye contact with the viewer?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q7: 
+    Thinking process: The background is neutral and blurred, serving to isolate the subject. It is not specified for change, so it should remain unaltered to preserve scene consistency. This is a minor environmental detail, but its absence could affect depth perception, hence 1 point.
+    Question: Is the background a neutral, softly blurred tone without any distinct objects or patterns?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

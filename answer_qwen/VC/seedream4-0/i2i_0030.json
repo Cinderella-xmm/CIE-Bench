@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0030",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are all the original fruit types (pineapple, kiwi, pear, watermelon, orange, banana, and blueberries) retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the fruits visible include pineapple (yellow chunks), kiwi (green slices with black seeds), pear (light green slices), watermelon (red flesh with dark green rind), orange (orange segments), banana (yellow curved slices), and blueberries (small dark purple berries). Each of these fruits is clearly identifiable by their distinct shape, color, and texture. Based on visual inspection, all seven fruit types mentioned in the question are present. There is no indication of any fruit being removed or replaced. Therefore, the original fruit types are fully retained.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the original colors of the fruits (yellow, green, red, orange, and purple) preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The colors of the fruits in Image B appear vivid and consistent with natural expectations. Pineapple is bright yellow, kiwi is green with black seeds, pear is light green, watermelon has a red interior and dark green outer rind, oranges are bright orange, bananas are pale yellow, and blueberries are deep purple-blue. These colors align with typical fruit pigmentation and are not altered or desaturated. The background has been changed to a light green with decorative leaves, but this does not affect the fruit colors themselves. Thus, the original natural hues are preserved.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the cross-section texture of the kiwi and the seed pattern of the watermelon retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon close inspection of Image B, the kiwi slices show a clear green flesh with small black seeds arranged in a radial pattern, which is characteristic of a kiwi's cross-section. Similarly, the watermelon slices display a red flesh with scattered black seeds embedded within, consistent with real watermelon anatomy. These textural details are sharp and well-defined, indicating that the editing process did not smooth out or distort these features. Therefore, both the kiwi’s internal structure and the watermelon’s seed pattern are faithfully retained.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the original relative positioning and arrangement of the fruits preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing Image A and Image B, the arrangement of fruits appears nearly identical. In both images, pineapple is on the left, followed by kiwi and pear in the upper center, watermelon on the right, oranges in the center, banana slices at the bottom, and blueberries scattered across the middle. The spatial layout and grouping of fruits remain consistent. While Image B adds a decorative background and text overlay, the physical placement of each fruit type relative to others has not been altered. Thus, the original arrangement is preserved.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the white plate and golden tray still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the white circular plate holding the fruits is clearly visible, just as in Image A. It sits atop a larger, golden-brown tray with a glossy finish, which matches the appearance of the tray in the original image. Although the background has been changed to a light green with tropical leaf graphics, the plate and tray remain unchanged in color, shape, and position. There is no evidence of replacement or removal. Hence, both the white plate and golden tray are still present.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

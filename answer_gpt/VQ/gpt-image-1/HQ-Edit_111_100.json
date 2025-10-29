@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_111_100",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the entire surface of the LEGO statue display uniform brick textures with no visible patches of residual wood grain or inconsistent material transitions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the LEGO statue is designed to appear as constructed from LEGO bricks, featuring uniform LEGO texture across the entire surface. No wood grain or inconsistent material transitions are visible, as LEGO bricks usually exhibit a consistent plastic texture. Analyzing image A shows wood grain textures that are absent in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the detailed carvings on the headdress, chest plate, and belt represented by small, precisely placed LEGO bricks that preserve the original patterns without loss of detail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B portrays the detailed carvings using LEGO bricks. Given the limitations of LEGO bricks in capturing intricate patterns, the statue in Image B simplifies the details but attempts to preserve original patterns using distinct brick placements. Image A shows carved details that LEGO typically cannot perfectly replicate.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the arms, legs, and torso of the LEGO statue maintain natural human proportions with correctly scaled joints and limbs?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The LEGO statue in Image B showcases blocky and simplified shapes caused by using LEGO bricks that do not perfectly emulate natural human proportions, often resulting in stylized limb dimensions. Contrasting with Image A, which has more anatomically accurate proportions, the LEGO version diverges from typical human scaling.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do both hands of the LEGO statue have five distinct fingers with natural finger positioning and no signs of merging or deformation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the hands are constructed from LEGO bricks, which traditionally don't allow for the detailed representation of five distinct fingers due to their blocky nature. LEGO models often depict hands with simpler designs. Image A has carved fingers, but the simpler LEGO hands don't replicate this.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the LEGO statue centered on a flat white pedestal with realistic shadows and reflections that align with the lighting direction in the gallery?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B correctly shows the LEGO statue centered on a flat white pedestal. The shadows and reflections in Image B appear realistic and consistent with the lighting in the gallery space. No discrepancies are noted in image alignment, as it accurately depicts gallery lighting effects.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

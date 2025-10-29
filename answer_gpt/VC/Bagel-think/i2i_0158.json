@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0158",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the car rendered in its original red color in all views?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the car is visible with a red color, which appears consistent throughout the image. To evaluate if it matches the color in Image A, note the shade and hue consistency from front to back in Image A as well. Comparing both, the red color is consistent in both images, indicating that the red color is retained in all views.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the front view retain the detailed grille design and Ford emblem in its original position?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the front view of the car shows a grille with a specific design pattern and a central emblem, which resembles the Ford emblem. When comparing this to Image A, the grille's pattern and emblem placement are retained in the same position, suggesting detailed fidelity to the original design.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the same style and configuration of LED daytime running lights visible in both the front and side views?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "LED daytime running lights in Image B are clearly styled with a specific configuration in the front view. However, the side view is not clearly depicted with LED lights in Image B. Since the side view does not provide enough evidence of the same style and configuration of LED lights as seen from the front, the conclusion is that the same style is not clearly visible from side views based on available visible information.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do all views show the same specific design and detail of the car’s alloy wheels?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, checking the visible design of the alloy wheels, there is a noticeable difference in sharpness and clarity compared to Image A. Image A clearly shows the design, whereas in Image B, the clarity is reduced, making it difficult to verify if the same level of design detail is maintained.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the body shape and proportions of the Mustang accurately represented in all views?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the body shape and proportions can be assessed by comparing the visible shapes and lines with those in Image A. The body shape and proportions such as curvature of the sides, roofline, and back in B appear consistent with those in A. Given these visual confirmations, the body shape and proportions seem accurately represented.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

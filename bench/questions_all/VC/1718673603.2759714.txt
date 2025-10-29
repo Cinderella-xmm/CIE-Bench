@@ -1,0 +1,98 @@
+Description of reference image: The subject is a traditional two-story Japanese-style building, likely a temple or palace, with dark tiled roofs featuring upward-curving eaves and ornamental ridge decorations. The structure has wooden frames, multiple windows with paper-like panels (shoji), and glowing warm light emanating from within, suggesting interior illumination. The building sits on a raised platform accessible by stone steps leading down to a calm reflective pond in the foreground. On either side of the building are vibrant red-leafed trees, resembling autumn maple trees, with dense foliage that contrasts sharply against the night sky. Behind the building, tall evergreen pine trees rise into the background. A large, luminous red moon dominates the upper center of the composition, casting a reddish glow across the scene. The sky is dark blue-black with scattered stars, and the reflection of the building, trees, and moon appears clearly in the still water below. The overall atmosphere is serene and mystical, with strong color contrast between the deep reds, blacks, and warm yellows.
+
+Thinking process:  
+First, analyze the editing instructions word-by-word:  
+- "Convert the scene into a stained glass window": This indicates the entire visual presentation will be transformed into a stained-glass style, implying changes in texture, material representation, and line work.  
+- "Replace the Japanese house's structure with colored glass panels framed by black lead": The architectural form remains but its material representation changes—this means the *shape* and *layout* of the house must stay, but the surface becomes glass and lead lines.  
+- "Transform red trees into floral motifs with red and green segments": The red trees are to be reinterpreted as stylized floral patterns; thus, their *position* and *color* may remain, but their *form* is altered.  
+- "Depict the large red moon with gradient circles": The moon’s *presence*, *position*, and *red color* are preserved, but its *texture* and *representation* become abstract gradients.  
+- "Emphasize line detailing": This suggests increased prominence of outlines, especially black lead lines, but does not alter core shapes.
+
+Allowed Changes List:  
+- The material texture of the house (wood → glass)  
+- The form of the red trees (natural tree → floral motif)  
+- The surface texture of the moon (lunar surface → gradient circles)  
+- The overall rendering style (photorealistic → stained glass)  
+- Line thickness and emphasis (especially black framing lines)  
+
+Step 2–Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements:  
+- The **architectural silhouette** of the Japanese building (two-tiered roof, curved eaves, central balcony, symmetrical layout) is iconic and essential for identifying the structure as a traditional Japanese temple/palace. Even if rendered in stained glass, its outline must remain consistent.  
+- The **position and shape of the red moon** must be retained because it is a dominant compositional element and a key identifier of the scene’s mood and setting.  
+- The **relative placement of the red trees** on either side of the building must be preserved to maintain spatial balance and scene logic.  
+
+Functional/logical association elements:  
+- The **pond in the foreground** serves as a reflective surface mirroring the building and moon. Its presence supports the composition and depth. Even if stylized, its position and function as a mirror must be preserved.  
+- The **stone steps leading from the building to the pond** establish physical access and spatial continuity. Their path and position must remain intact to preserve logical flow.  
+
+Non-modified element deduction:  
+- The **window layout** (number, size, and arrangement of lit windows) must remain unchanged because they define the building’s internal lighting pattern and contribute to its identity.  
+- The **overall layout of the garden**, including shrubs and low hedges, contributes to the aesthetic harmony and must be preserved in relative position, even if stylized.  
+- The **sky background with stars** provides context and atmosphere; while star positions may be simplified, the presence of a starry night sky must remain.  
+
+Preservation Targets List:  
+- The architectural outline and tiered roof structure of the Japanese building  
+- The position and red color of the large moon in the upper center  
+- The placement of the red trees on both sides of the building  
+- The presence and reflective function of the pond in the foreground  
+- The stone staircase leading from the building to the pond  
+- The lit window configuration (number, location, and warm glow)  
+- The overall garden layout including shrubs and ground cover  
+
+{
+    Q1: 
+    Thinking process: The tiered roof with upward-curving eaves and decorative ridge elements is a defining architectural feature of traditional Japanese buildings. Its shape and structure are essential for identifying the building type. Even when converted to stained glass, the silhouette must remain intact. Loss of this would make the structure unrecognizable as Japanese architecture, hence a weight of 3 points.
+    Question: Is the two-tiered roof with upward-curving eaves and ornamental ridge details preserved in the same structural outline?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The large red moon is a central visual anchor and mood-setting element. Its position in the upper center and its vivid red color are critical for scene recognition. While its texture may change to gradient circles, its placement and hue must remain consistent. Removing or relocating it would fundamentally alter the scene’s identity, justifying a weight of 3 points.
+    Question: Is the large red moon positioned in the upper center of the sky and retaining its dominant red color?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The red trees on either side of the building are key compositional elements that frame the structure and enhance symmetry. Though they are to be transformed into floral motifs, their lateral positioning and red coloration must be preserved to maintain balance and thematic consistency. Changing their location would disrupt the scene’s harmony, making this a high-priority retention point.
+    Question: Are there two red-colored trees symmetrically placed on the left and right sides of the building?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The pond in the foreground reflects the building, trees, and moon, serving as a vital compositional element. Its presence ensures visual depth and symmetry. Even if stylized, its position and reflective function must be retained. Removing it would break the scene’s spatial logic and reduce coherence, warranting a weight of 2 points.
+    Question: Is there a reflective body of water in the foreground mirroring the building and moon?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The stone staircase leading from the building to the pond establishes physical connection and spatial hierarchy. Its path and steps are visible and functional in the original. While material may change, the step sequence and direction must remain to preserve logical access and perspective. This is a secondary but important structural detail, so it receives a weight of 1 point.
+    Question: Are there stone steps descending from the building platform toward the pond?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The lit windows with warm orange glow are distinctive features indicating interior activity and contributing to the building’s inviting ambiance. Their number, placement (e.g., second-floor balcony, ground-floor shoji), and illuminated state must be preserved. Altering them would affect the building’s character and realism, making this a key detail worth 2 points.
+    Question: Are the windows on the building emitting a warm orange light, particularly on the upper and lower levels?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The garden layout, including low shrubs and trimmed greenery around the building and pond, contributes to the scene’s serenity and authenticity. These elements provide environmental context and must remain in relative position. While stylized, their presence and arrangement help maintain visual coherence. This is a supporting detail, so it receives 1 point.
+    Question: Are there low green shrubs and manicured plants surrounding the base of the building and pond?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

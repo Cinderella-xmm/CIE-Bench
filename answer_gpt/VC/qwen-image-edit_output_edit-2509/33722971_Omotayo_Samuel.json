@@ -1,0 +1,97 @@
+{
+  "filename": "33722971_Omotayo_Samuel",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image contain exactly four suitcases?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the edited image, the luggage stack consists of three visible suitcases: two are rectangular, and one is round. There are no additional visible suitcases, which means that the image contains fewer than four suitcases. Therefore, the correct option is based on visual confirmation of just these three pieces.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the suitcases stacked in the same order from bottom to top: two rectangular, one round, one duffel?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, from bottom to top, the sequence of suitcases is two rectangular, followed by a round one, and topped with a duffel. The order of stacking accurately matches the description given in the question.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the third suitcase from the bottom clearly round in shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The stack in Image B consists of two rectangular suitcases at the bottom and a clearly round suitcase as the third from the bottom. This particular suitcase is distinguishable by its circular shape, confirming the description in the question.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the figure positioned to the right of the luggage stack?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figure is located to the right side of the luggage stack. This positioning is consistent with spatial orientation and corroborates the question's assertion.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the figure depicted in side profile, facing left?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the figure is portrayed in a side profile standing to the right of the luggage, facing the luggage on the left side of the image. This confirms the description given in the question.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Do the suitcases rest directly on top of one another in a stable vertical stack?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The luggage stack in Image B shows the suitcases resting on top of each other. However, the round suitcase makes the stack visually unstable since it's balanced at an angle. Although it maintains a vertical arrangement, the stability is visually challenged due to the round suitcase. Thus, the stack does not appear completely stable.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is there exactly one human figure present in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, only one human figure is situated to the right of the luggage stack. There are no additional human figures present, affirming the presence of exactly one human figure in the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6875
+}

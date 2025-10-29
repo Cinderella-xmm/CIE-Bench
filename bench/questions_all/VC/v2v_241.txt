@@ -1,0 +1,61 @@
+### Step 1: Description of Reference Image and Allowed Changes List
+
+**Description of Reference Image:**  
+The image features a horse standing atop an elephant in a grassy field under a clear blue sky with scattered clouds. The horse has a rich chestnut coat with a black mane and tail, and the elephant is gray with large ears and tusks. Both animals are positioned in profile, with the horse facing left and the elephant facing forward. The background consists of a natural landscape with a grassy plain and distant trees.
+
+**Thinking Process:**  
+The editing instructions specify converting the horse and elephant into chibi-style 3D models while maintaining their current pose. The background must remain photorealistic, and the scene should be displayed within an ornate photo frame. This means the subjects' forms can change, but their poses and the background must stay consistent.
+
+**Allowed Changes List:**  
+1. Conversion of the horse and elephant into chibi-style 3D models.
+2. Addition of an ornate photo frame around the image.
+3. Minor adjustments to the proportions and angles of the horse and elephant to fit the chibi style.
+
+### Step 2: Determination of Elements That Should Remain Unchanged
+
+**Thinking Process:**  
+Core recognition elements include the distinct postures of the horse and elephant, the natural background, and the spatial relationship between the two animals. Functional/logical elements involve the horse standing on the elephant's back, which must be preserved for logical consistency. Remaining elements like the grassy field and sky contribute to visual coherence.
+
+**Preservation Targets List:**  
+1. The horse's posture (standing on the elephant's back).
+2. The elephant's posture (supporting the horse on its back).
+3. The photorealistic background (grassy field and sky).
+4. The spatial relationship between the horse and elephant.
+5. The ornate photo frame (as specified in the instructions).
+
+### Step 3: Generation of Question Answer Pairs
+
+**Q1:**  
+Thinking process: The horse's posture is a core recognition feature. If the horse is not standing on the elephant's back, the image loses its unique identity. This is a key element with a weight of 3 points.
+Question: Is the horse depicted standing on the elephant's back?
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+**Q2:**  
+Thinking process: The elephant's posture is crucial for supporting the horse. Changing this would disrupt the logical relationship. This is an important element with a weight of 2 points.
+Question: Is the elephant shown in a posture that supports the horse on its back?
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+**Q3:**  
+Thinking process: The photorealistic background is essential for maintaining the scene's consistency. Losing this would significantly alter the image's context. This is an important element with a weight of 2 points.
+Question: Does the background retain a photorealistic appearance with a grassy field and sky?
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+**Q4:**  
+Thinking process: The spatial relationship between the horse and elephant ensures the scene's logic. This is a key element with a weight of 3 points.
+Question: Is the spatial relationship between the horse and elephant preserved, with the horse positioned above the elephant?
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+**Q5:**  
+Thinking process: The ornate photo frame is a specified addition that should be present. Its absence would indicate non-compliance with the instructions. This is a detail-level element with a weight of 1 point.
+Question: Is the scene displayed within an ornate photo frame?
+Choices: Yes, No  
+A: Yes  
+Weight: 1  

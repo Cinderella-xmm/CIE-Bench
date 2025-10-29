@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0038",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the person's pose and expression been simplified into a cartoon line-art style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts a person in a cartoon line-art style, which is characterized by simplified shapes, bold outlines, and exaggerated features typical of cartoon illustrations. The cartoon elements such as line precision and color blocking confirm the conversion from a real picture to a stylized illustration.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the raised hand still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the raised hand visible in Image A is absent; only one hand (holding the camera) is depicted in the cartoon version, which makes it visually simpler than the original.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the cartoon-style person retain an open mouth expression?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cartoon iteration of the person has a closed mouth with no expression of an open mouth visible. The focus is on the simplified trademark style of cartoon line-art, which often omits intricate facial expressions like an open mouth.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the cartoon-style image include a camera covering part of the person's face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cartoon representation continues to depict the person holding a camera that occludes part of their face, which is evident from the camera's exaggerated stylization in the illustration.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a speech bubble with the text “Take a photo” in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B includes a speech bubble with the text 'Take a photo,' a common feature in cartoons used to convey dialogue or thoughts visually and enhance narrative context.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "1718656310.7491896",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the original woman's facial structure, including the shape of her eyes, nose, and mouth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Since the face in both images is blurred, it is not possible to determine whether the facial structure including the shape of eyes, nose, and mouth is retained. Therefore, a comparison or analysis based on this attribute cannot be made.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the woman's hair still auburn in color, curly in texture, and short in length?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman's hair appears to maintain the auburn color, curly texture, and short length observed in Image A. This consistency aligns with typical features of auburn, curly short hair, which is evident through visual clues such as the color tone and style.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the woman still seated in a cross-legged position with her arms resting on her knees?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman is still seated in a cross-legged position with her arms resting on her knees, similar to Image A. This position is identifiable by the arrangement of the legs and the placement of the arms, which are consistent across both images.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the small pendant necklace still visible at the subject’s collarbone?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The necklace with a small pendant is visible on the woman's collarbone in both images. In Image B, the necklace can still be identified by the presence of a chain and a pendant, which is a distinct attribute carried over from Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the subject still sitting on a moss-covered surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject is seated on what appears to be a natural surface, but it is not the same moss-covered setting as in Image A. The differences in the immediate environment's textures, such as the absence of visible moss, indicate that the setting has changed.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

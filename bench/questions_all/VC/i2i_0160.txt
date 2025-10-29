@@ -1,0 +1,78 @@
+### Step 1 - Understanding Reference Image and Allowed Changes:
+
+**Description of reference image:**  
+The subject is two birds perched on a tree branch, facing each other while appearing to sing. They have brown and white feathers with distinctive markings like eyestripes and wing bars. The background is a warm golden hue, resembling a sunset, with soft blurred light creating an ethereal glow around the subjects. The trees and leaves surrounding them are green, illuminated softly by the sunlight. The birds' postures, with open beaks, are central to the interaction depicted.
+
+**Thinking process:**  
+The instruction explicitly states changing the background to a starry night sky with a faint new moon. This involves transforming the color scheme and elements of the background entirely. Other scene aspects, like the position and posture of the birds, and the tree branch, aren't mentioned for change. Therefore, these elements should remain consistent. 
+
+**Allowed Changes List:**
+- Change the background color and elements from a sunset to a starry night sky.
+- Add a faint new moon to the background.
+- Adjust lighting and color tones to match a nighttime ambiance.
+
+---
+
+### Step 2 - Determining Elements That Should Remain Unchanged:
+
+**Thinking process:**  
+Given the editing instructions focus solely on the background, the essential traits of the birds and their immediate environment should stay intact. Here’s the logic:
+
+- **Core Recognition Elements:** The birds’ appearance (feathers, beaks, eyes) and their postures (perched on a branch, mouths open as if singing) are crucial for recognizing them and maintaining the mood. Changing these would alter the essence of the image.
+- **Functional/Logical Association Elements:** The branch and leaves must remain to support the birds logically in their natural habitat setting. Their placement relative to the subjects should also stay consistent.
+- **Remaining Visual Coherence:** Subtle details like the positioning, feather texture, and leaf shapes contribute to the realism and coherence of the image.
+
+**Preservation Targets List:**
+- The appearance of the birds (feather patterns, colors, beak shape, eye details).
+- The postures of the birds (open beaks, facing each other, perched on a branch).
+- The branch and leaves (structure, positioning, and relationship with the birds).
+- The lighting effects on the birds and leaves, ensuring they remain visible.
+
+---
+
+### Step 3 - Generating Questions for Consistency Check:
+
+{
+    Q1: 
+    Thinking process: The birds’ feather patterns are critical characteristics that define their identity. Changing these would make the birds unrecognizable. Thus, this is a high-weighted element due to its importance in identifying the subjects.
+    Question: Do the birds retain their original feather patterns including the brown and white colors and striated wing markings?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The postures of the birds are integral to the mood of the image, conveying interaction and harmony. This is an important visual element that affects the scene's consistency.
+    Question: Are the birds still perched on the branch with their beaks open as if singing?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The branch provides context and supports the birds logically. Its structure helps maintain the scene’s realism.
+    Question: Is the branch still present with the same structure and positioning beneath the birds?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The leaves add to the composition and realism of the scene, providing balance to the image. Though minor, they enhance the overall cohesiveness.
+    Question: Are the leaves around the birds still visible with their original shapes and positions?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q5: 
+    Thinking process: The lighting on the birds ensures they remain prominently visible even against the new background. This maintains the image's clarity and focus.
+    Question: Do the birds still exhibit the original lighting effects highlighting their forms despite the background change?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

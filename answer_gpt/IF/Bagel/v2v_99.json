@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_99",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the soccer player depicted as a charming chibi-style 3D figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the player is shown with exaggerated proportions such as a large head, small body, and simplified features, typical of a chibi style. This visual cue combined with world knowledge about cute, cartoonish characters supports the conclusion. Image A shows a realistic soccer player, mirroring human proportions accurately.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the chibi character posed mid-kick, with the leg extended towards the ball?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi character is positioned with one leg outstretched towards the soccer ball, suggesting motion and intent to kick, which aligns with the dynamic pose of a soccer action scenario. In Image A, the realistic player also shows a similar kicking position.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the soccer field, stadium, and cheering crowd kept realistic?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the stadium and crowd appear simplified and have a cartoon-like quality to match the chibi character, lacking the realistic textures and detailed crowd representation found in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image maintain the vibrant energy of the match with realistic lighting and colors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B captures vibrant colors and lively atmosphere associated with soccer matches but exaggerates them to fit the cartoonish aesthetic of the chibi style. However, it lacks the realistic lighting and shadow details found in Image A, focusing more on a bright, animated look.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the soccer ball positioned correctly, appearing as if it is about to be struck by the chibi character?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the soccer ball is depicted close to the chibi character's extended leg, in line with the trajectory and timing of a kick. This positioning supports the narrative of imminent action, similar to Image A but adapted to the chibi style.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

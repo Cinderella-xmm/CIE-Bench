@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_851",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image rendered in monochrome (grayscale)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are no colors visible, and the image consists only of black text on a white background. This indicates that the image is rendered in monochrome or grayscale, as there are no additional colors aside from the black and white contrast.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the event details written in rustic, slightly imperfect typography?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the typography appears to be bold and slightly imperfect, giving off a rustic or handmade feel. This is often intentional in designs meant to convey an element of authenticity or tradition, which matches the rustic theme.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the advertisement include the event name \"Riders & Reins Expo 2024,\" location \"Evergreen Equestrian Center, Olympia, WA,\" and date/time \"Saturday, September 14, 2024, from 10:00 AM to 6:00 PM\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text is distorted and the details are not legible or accurately rendered. Instead, there are jumbled letters and numbers, making it impossible to confirm the precise information mentioned in the question.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there visible space allocated for listing ticket prices and contact details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there appears to be text at the bottom regarding ticket details, yet it is not clearly legible. However, the space at the bottom doesn't explicitly offer a clear listing for ticket prices and contact details.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the advertisement formatted in standard letter-sized portrait orientation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The design in Image B appears to be oriented in a portrait format which is typical for flyers or advertisements, suggesting it could be standard letter size. However, exact dimensions cannot be confirmed from the image alone.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

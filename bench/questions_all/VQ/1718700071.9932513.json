@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the subject into a baroque sculpture with marble-like textures, specifically focusing on the hair being converted into intricately detailed marble curls, this editing action involves material and texture transformation. The original image shows voluminous, curly hair with organic texture. The edited version must preserve anatomical plausibility while converting it into stone-like curls. The evaluation focuses on whether the new texture appears consistent with polished marble, without unnatural smoothing, jagged edges, or loss of fine detail.",
+      "question": "Are the curls in the hair rendered with consistent marble texture, showing natural variations in depth and surface detail without visible artifacts such as blurring, flattening, or inconsistent shading?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The instruction requires adding ornate carvings to the neck and shoulders, replacing the original jewelry and skin with sculpted ornamentation. The original image features a gold necklace with intricate patterns. The edit transforms this into bas-relief-style carving. This involves structural changes to the neck and shoulder regions—critical areas for maintaining anatomical proportion and visual credibility. The question evaluates whether the added carvings follow plausible geometry and do not distort the underlying musculature or introduce floating elements.",
+      "question": "Do the ornamental carvings on the neck and shoulders maintain anatomical alignment with the musculature and have continuous, coherent shapes without gaps, misaligned edges, or geometric distortions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The background is instructed to be modified into an elaborate bas-relief featuring angelic figures. The original background has abstract, flame-like forms with warm tones. The edit replaces these with sculptural relief elements. The evaluation checks whether the transition from abstract to bas-relief maintains spatial coherence, depth perception, and avoids visual inconsistencies such as overlapping layers that violate perspective or missing details in the carved figures.",
+      "question": "Are the angelic figures in the background depicted with clear outlines, proper proportions, and consistent depth relative to the central figure, without appearing flat, distorted, or fragmented?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The instruction specifies a monochrome palette to mimic polished white marble. The original image uses warm earth tones and golden highlights. The edit must convert all colors to grayscale or near-monochrome while preserving tonal variation and contrast. This affects every element—skin, clothing, jewelry, background. The evaluation checks whether the color conversion preserves realistic shading and avoids unnatural uniformity or loss of detail due to over-saturation or under-rendering.",
+      "question": "Is the entire image uniformly rendered in a monochrome palette with smooth gradients and no abrupt transitions between light and dark areas that suggest incomplete color conversion or artifacting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The hands are positioned in a meditative pose in the original image. The edit must maintain their natural form and finger count while adapting them to the marble sculpture style. The evaluation checks whether the hands retain five fingers each, correct proportions, and ergonomic positioning. Any deformation, extra digits, or unnatural curvature would compromise structural consistency and visual credibility.",
+      "question": "Do both hands display exactly five fingers each with natural joint articulation and realistic proportions, without fused digits, elongated limbs, or unnatural bending?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0084",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the dog and its mat positioned in front of a tent?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the dog is lying on a blue cushioned mat, which is placed directly on a snowy surface. Behind the dog, there is a visible beige and orange tent with its entrance open, indicating that the dog and its mat are indeed positioned in front of it. The spatial arrangement shows the dog closer to the viewer than the tent, confirming that the dog and mat are in front of the tent. This conclusion is drawn from the relative positioning of objects in the scene and common visual depth cues such as overlap and perspective.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the background show a snowy mountain campsite?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background of Image B features snow-covered mountains, evergreen trees laden with snow, and a tent set up on a snow-covered ground. These elements are characteristic of a winter camping environment in a mountainous region. The presence of camping gear near the tent further supports the idea that this is a campsite. Combined with the natural landscape, these visual cues strongly indicate a snowy mountain campsite setting.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there elements in the background that contribute to a winter adventure atmosphere, such as snow-covered mountains or a clear sky indicating cold weather?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B includes several elements that contribute to a winter adventure atmosphere. The snow-covered mountains in the background, the snow-laden pine trees, and the bright, clear blue sky all suggest cold, crisp winter weather typical of high-altitude environments. Additionally, the presence of a tent and outdoor gear indicates human activity consistent with winter camping or adventure tourism. These environmental details align with common expectations of a winter outdoor experience.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the dog’s position and posture on the mat remained the same as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the dog is lying on a blue mat indoors, facing slightly to the right, with its front paws extended forward and head raised. In Image B, the dog is also lying on a blue mat, facing forward with its front paws stretched out, and its head held upright—very similar in posture. However, the orientation of the dog has shifted slightly; in Image B, it faces more directly toward the camera, whereas in Image A, it is angled. While the overall posture (lying down, front paws forward) is preserved, the subtle difference in head direction and body alignment suggests a slight variation in pose. Therefore, while the general position is similar, it is not exactly the same.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the visual elements of the dog and its mat integrate naturally with the snowy mountain campsite setting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The dog and its blue mat appear well-integrated into the snowy mountain campsite setting. The mat provides a soft contrast to the white snow, making it visually plausible as a portable pet bed for outdoor use. The dog's fur color blends naturally with the earthy tones of the tent and surrounding landscape. There are no visual inconsistencies such as unnatural shadows, lighting mismatches, or disproportionate scaling. The composition feels cohesive, suggesting that the elements have been thoughtfully combined to create a realistic and harmonious scene. Thus, the integration appears natural and believable.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

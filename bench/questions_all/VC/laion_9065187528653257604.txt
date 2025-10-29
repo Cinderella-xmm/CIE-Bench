@@ -1,0 +1,121 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+Description of reference image:  
+The subject is a white Indian Motorcycle, specifically an Indian Scout model, positioned in a side profile view within a dimly lit underground parking garage. The motorcycle features a classic cruiser design with a prominent V-twin engine, chrome exhaust pipes extending along the right side, a black leather seat, and a fuel tank bearing the "Indian" script logo in cursive lettering. The front wheel has a multi-spoke black rim with a disc brake, and the headlight is round and mounted on a black fork assembly. The rear fender is smooth and white, matching the fuel tank. The bike is equipped with a single-sided swingarm, dual mirrors on the handlebars, and orange turn signals. The environment includes concrete flooring with painted parking lines, white walls, and overhead fluorescent lighting fixtures spaced across the ceiling. The scene is static, with no people or motion present.
+
+Thinking process:  
+The editing instruction explicitly transforms the motorcycle into a **sci-fi themed collectible figure displayed in an isometric box**, indicating that the **form, function, and physical state** of the motorcycle are to be fundamentally altered. The instruction specifies changes such as:
+- Adding **glowing neon accents**
+- Replacing wheels with **hover wheels**
+- Introducing a **sleek digital interface**
+- Placing it inside a labeled **isometric display box** titled “FUTURE RIDER”
+- Including a **transparent window** showing the figure
+- Displaying an **ultra-realistic version beside it** with advanced textures
+
+These directives clearly indicate that the **subject’s form (motorcycle → collectible figure)**, **function (rideable vehicle → static collectible)**, **design elements (realistic mechanical parts → futuristic components)**, and **scene context (parking garage → product display)** are all intended for transformation.
+
+Allowed Changes List:  
+- Subject's overall shape and structure (e.g., conversion from real motorcycle to stylized collectible)  
+- Wheel type (from rubber tires to hover wheels)  
+- Engine and body design (addition of glowing neon elements, digital interfaces)  
+- Scene environment (from parking garage to isometric display box)  
+- Lighting and material finishes (to include glowing effects, metallic sheen, transparency)  
+- Presence of additional objects (display box, transparent window, second ultra-realistic version)  
+- Text labels ("FUTURE RIDER")  
+- Perspective (from side-profile to isometric view)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Despite the extensive modifications required by the instruction, certain **core identity elements** of the original motorcycle must remain intact to preserve recognition of the subject as an *Indian Motorcycle*, particularly the **Scout model**. These include:
+
+**Core Recognition Elements:**  
+- The **"Indian" script logo** on the fuel tank is a key brand identifier. It is essential for distinguishing this motorcycle from others and is central to its identity. Even if the motorcycle is transformed into a sci-fi collectible, the logo should remain visible and legible to maintain brand continuity.
+- The **V-twin engine configuration** is iconic to Indian motorcycles and contributes to their visual signature. While the engine may be stylized, its fundamental layout—two cylinders arranged in a V—should be preserved to retain mechanical authenticity.
+- The **chrome exhaust system** is a distinctive feature of this model. Its presence and placement (running along the right side) are critical for identifying the bike as a Scout. Even if modified with neon glow, its position and general form should remain recognizable.
+
+**Functional/Logical Association Elements:**  
+- The **relationship between the engine and exhaust system** must be maintained in terms of spatial logic. If the exhaust is moved or disconnected from the engine, it would break the functional coherence of the design, undermining believability even in a stylized version.
+- The **position of the seat relative to the fuel tank and engine** defines the rider’s ergonomics and silhouette. This arrangement should not be drastically altered to prevent misidentification.
+
+**Non-modified Element Deduction:**  
+After excluding elements explicitly allowed to change (e.g., wheels, lights, materials), the following remain:
+- The **fuel tank shape** (smooth, rounded, white)  
+- The **black leather seat**  
+- The **side-mounted chrome exhaust pipes**  
+- The **"Indian" script logo**  
+- The **general proportions** of the frame and chassis  
+
+These elements are not mentioned for modification and are intrinsic to the original design. Retaining them ensures that the edited version still references the original motorcycle, even when stylized.
+
+Preservation Targets List:  
+- The "Indian" script logo on the fuel tank  
+- The V-twin engine configuration  
+- The chrome exhaust pipes running along the right side  
+- The black leather seat positioned above the engine  
+- The white fuel tank with smooth, rounded contours  
+- The spatial relationship between the engine and exhaust system  
+- The overall silhouette of the motorcycle (low-slung, cruiser-style profile)
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The "Indian" script logo is the primary brand identifier on the motorcycle and is essential for recognizing it as an Indian Motorcycle. It appears in cursive font on the white fuel tank and is a unique visual element that distinguishes it from other brands. Losing this logo would render the object unidentifiable as an Indian product, making it a core identity feature. Therefore, its presence and legibility must be preserved, even in a stylized form.
+    Question: Is the "Indian" script logo visible and legible on the fuel tank?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The V-twin engine layout is a defining characteristic of Indian motorcycles, especially the Scout model. The two cylinders arranged in a V-shape are visually distinct and serve as a key recognition feature. Altering this configuration (e.g., changing to inline or removing cylinders) would fundamentally change the motorcycle's identity. Thus, preserving the V-shape is crucial for maintaining the correct model identification.
+    Question: Are the engine cylinders arranged in a V-shape?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The chrome exhaust pipes are a signature design element of this model, extending from the engine along the right side of the frame. Their polished metal finish and dual-pipe configuration are highly recognizable. Even if modified with neon glow, their placement and form must remain consistent to preserve the bike’s identity. Removing or relocating them would disrupt the visual balance and recognition.
+    Question: Are there two chrome exhaust pipes running along the right side of the motorcycle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The black leather seat is a standard feature of the Indian Scout and contributes to its cruiser aesthetic. Its position above the engine and behind the fuel tank defines the rider’s posture and is part of the bike’s silhouette. While color or texture may be altered, the seat’s location and basic shape must remain unchanged to maintain structural consistency.
+    Question: Is there a black leather seat located above the engine and behind the fuel tank?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The white fuel tank with smooth, rounded contours is a core visual component of the motorcycle’s design. Its shape and color contrast with the black engine and frame, forming a key part of the bike’s identity. Changing its shape or color would alter the model’s appearance significantly. Therefore, its form and color must be preserved.
+    Question: Is the fuel tank white and smooth with rounded contours?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The spatial relationship between the engine and exhaust system is functionally logical and visually coherent. The exhaust pipes originate from the engine and extend outward, which is essential for realism and design integrity. Disrupting this connection would make the motorcycle appear non-functional, even in a stylized version. Hence, this relational detail must be retained.
+    Question: Do the exhaust pipes connect directly to the engine block?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The low-slung, cruiser-style silhouette—characterized by a forward-leaning stance, wide handlebars, and long wheelbase—is essential for identifying the bike as a Scout. This profile is distinct from sport or touring models. While proportions may be slightly exaggerated in a collectible, the overall shape must remain recognizable.
+    Question: Does the motorcycle have a low-slung, cruiser-style silhouette with a forward-leaning stance?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

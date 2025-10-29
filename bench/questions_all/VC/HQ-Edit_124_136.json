@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The cross-legged seated posture is a core compositional element of the original image, defining the figure’s interaction with the environment. It is not mentioned in the instruction as being changed, and changing it would disrupt the tranquil, grounded nature of the scene. Even though the seating surface changes, the posture itself must remain to preserve the figure’s orientation and balance. This is a key functional and spatial element, hence weight 3.",
+      "question": "Is the figure seated in a cross-legged position?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The right hand is positioned over the strings, actively plucking them, while the left hand is placed on the neck near the tuning pegs, pressing the strings. This functional interaction is essential to the act of playing music. Although the instrument changes, the hand gestures must remain logically consistent with string instrument performance. This is a critical functional detail, so its retention ensures coherence in action. Weight 3.",
+      "question": "Is the right hand positioned above the strings in a plucking gesture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The left hand is clearly placed on the neck of the instrument, fingers pressing down on the strings, indicating fretting. This is a functional requirement for playing a string instrument. Even with a new instrument (lyre), this gesture must be preserved to maintain the musical action. Loss of this would make the figure appear inactive. Weight 3.",
+      "question": "Is the left hand positioned on the neck of the instrument with fingers pressing the strings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The figure faces directly toward the viewer, with the head slightly tilted upward, creating a sense of engagement and serenity. This orientation is a key compositional element and is not mentioned as being changed. Altering the gaze direction would significantly affect the emotional tone and narrative focus. While not a core identity feature, it is a crucial aspect of the scene’s atmosphere and visual balance. Weight 2.",
+      "question": "Is the figure facing forward with the head slightly tilted upward?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The long white beard and mustache are prominent features of the original figure, contributing to his identity as an elder. While the instruction transforms him into a Byzantine monk, many monastic traditions include beards. Since the instruction does not specify removing facial hair, and it is a defining characteristic of the original image, its retention helps maintain continuity in appearance. It is a secondary but recognizable trait. Weight 2.",
+      "question": "Does the figure have a long, flowing white beard and mustache?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The turban is a distinctive headwear in the original image, forming a key part of the character’s cultural attire. Although the instruction transforms the figure into a Byzantine monk, who may wear a different head covering, the turban’s shape and texture are not explicitly replaced. However, since the instruction implies a full costume change, the turban may be replaced. But if it is retained, it would be a detail of continuity. Given that it is not mentioned as being changed, and its texture and form are visually distinct, its retention could help anchor the figure. However, it is not essential to identity after transformation. Weight 1.",
+      "question": "Is the figure wearing a brown, textured turban?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The instrument has a pear-shaped body with a circular rosette on the soundboard. While the instruction replaces it with a lyre, the **presence of a string instrument** is preserved. The **soundboard area** is where the rosette was — this location must be maintained in the new instrument for functional consistency. Even if the shape changes, the **area of the soundboard** must be present. This is a minor but logical detail. Weight 1.",
+      "question": "Is there a visible soundboard area on the instrument?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

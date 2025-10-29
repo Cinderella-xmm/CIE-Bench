@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_22251",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the subject's face, including their facial features, unchanged?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the face area is deliberately obscured, therefore it's impossible to analyze or conclude the state of facial features directly by observation, leading to the assumption that changes might exist.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the subject still have long black hair?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject appears to have long brown hair with elaborate styling, including accessories and a crown-like feature, which indicates a change in hairstyle and color.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the green earrings still present on the subject's ears?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "There is a presence of earrings in Image B, but they appear to be different from the green earrings in Image A, as they seem to match the more ornate style of the outfit.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the subject still facing forward with a neutral expression?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The subject in Image B appears to be facing forward, complemented by body posture and orientation cues, consistent with a forward-facing position despite the face obscuration.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there still a graphic design visible on the subject's clothing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the clothing does not have any visible modern graphic design. Instead, the subject is dressed in what appears to be ornate, historical attire, representative of classical paintings, implying a change in attire style.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

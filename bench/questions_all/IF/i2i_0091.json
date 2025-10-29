@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "To replace the wall clock with a castle hall, one must ensure that no clock is present in the edited image.",
+      "question": "Is the wall clock still visible after the edit?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "No",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Replacing the wooden cabinet requires ensuring the cabinet is absent in the new scene.",
+      "question": "Is the wooden cabinet still visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "No",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The new scene should depict the interior of a castle hall while maintaining the original lighting style. Check for details indicative of a castle hall such as stone walls, pillars, or fireplaces.",
+      "question": "Does the edited image show elements typical of a castle hall interior, such as stone walls or arches?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Confirm if the lighting is consistent with the original. This involves checking if the light source and shadows resemble those in the initial image.",
+      "question": "Does the lighting in the edited image match the lighting style from the original image, with similar shadows and highlights?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The image should solely consist of the castle hall setting without traces of the previous objects.",
+      "question": "Are there any remaining objects from the original scene, such as vases or plants, in the castle hall setting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "No",
+      "weight": 1
+    }
+  ]
+}

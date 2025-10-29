@@ -1,0 +1,97 @@
+{
+  "filename": "laion_4275911921816387814",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the blade visibly curved in the same manner as in the original image, extending from the guard to a pointed tip?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the object representing the blade is curved and extends from the guard downwards. However, it does not end in a sharp pointed tip but rather is softer and more rounded, typical of a plush or toy version rather than a real dagger. In Image A, the blade does curve and extends to a sharp pointed tip. Therefore, while the curvature similarity is present, the tip is not pointed in Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the hilt retain the segmented, block-like pattern along its length, similar to the original?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the hilt does not possess a segmented, block-like pattern similar to Image A. Image A's hilt consists of distinctive segmented sections, whereas Image B's hilt appears smooth and uniform in texture, indicative of a plush design.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the guard decorated with intricate floral and geometric patterns, matching the original design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The guard in Image B is simple and lacks the intricate floral and geometric patterns seen in the guard of Image A. Image A features detailed designs on the guard, whereas Image B has a basic design with plush material, without intricate detailing.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the blade covered with a dense black filigree pattern, matching the original in layout and coverage?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the blade features a pattern, but it is not as detailed or dense as the black filigree pattern seen in Image A. The patterns in Image B are simpler and indicative of applique or embroidery typical of a plush toy, differing in complexity and layout from the original.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the proportions between the hilt, guard, and blade preserved, with the blade being longer than the hilt?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both Image A and Image B, the blade is longer than the hilt, maintaining a similar proportional relationship. This general proportion where the blade extends longer than the hilt is common in both representations.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the blade end in a pointed tip, consistent with the original?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the blade concludes in a soft, rounded end, typical of a plush design, whereas Image A shows the blade with a sharply pointed end. The plush version does not have the pointed tip consistent with the original blade design.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the dagger positioned diagonally across the frame, from upper left to lower right, as in the original?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both Image A and Image B depict the dagger positioned diagonally from the upper left to the lower right across the frame. This consistent orientation can be observed in both the original and plush representations.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.2
+}

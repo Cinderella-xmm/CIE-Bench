@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0092",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the main subject of the new scene (seaside café elements) centrally positioned on the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the main subject is a smartphone placed on a wooden table with a seaside background. The smartphone is slightly off-center, positioned more towards the right side of the table rather than the center. This is observed from the table's perspective and the placement of the smartphone within the composition. The table is large compared to the phone, and the phone is clearly not in the central part of the table.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the new scene retain a clean and minimalistic style with no extraneous objects or clutter?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the scene is uncluttered, featuring only a smartphone on a wooden table, with a view of the ocean in the background. There are no additional items or clutter present, which keeps the focus on the phone and the scenic background, providing a clean and minimalistic look.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the perspective and composition of the new scene consistent with the original, providing a clear view of the seaside café tabletop?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image A shows a smartphone on a white charging stand on a tabletop, in a controlled indoor environment, while Image B features a smartphone directly placed on a wooden table outside, with a seaside background. The perspective and composition have changed from an indoor to an outdoor setting, altering the overall scene, and thus affecting the view of the tabletop and the context. Due to these changes, the perspective and composition are not consistent between the images.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there distinct sunlight reflections visible on the table surface in the new scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the wooden table has visible sunlight reflections, creating bright spots and areas due to the direct sunlight hitting the surface. These reflections are enhanced by the shiny surface of the tabletop which catches and reflects the light.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Can you see subtle sea wave reflections in the background or on the table surface in the new scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background of Image B prominently features the sea, where sunlight catching the waves creates bright reflections on the sea surface. These reflections are distinct in highlighting sea waves, as seen in the changes of light intensity on the water. However, there are no direct reflections of these waves on the tabletop itself, as the table is more affected by direct sunlight.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

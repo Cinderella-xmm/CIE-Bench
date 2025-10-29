@@ -1,0 +1,84 @@
+{
+  "filename": "1718668322.7674208",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the irises of the eyes still blue?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the face is blurred, making it impossible to determine the color of the irises. Therefore, without clear visual information and given that the task directs the exclusion of this region from consideration, the answer must be based on available information, which does not confirm blue irises.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the facial structure, including the nose, jawline, and cheekbones, unchanged?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The blurring in Image B affects the facial features, making it unclear if the structure is unchanged. The analysis must rely on the guideline to exclude the blurred area, thus leading to the answer that structural changes cannot be verified.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the subject positioned with a slight leftward turn of the body while facing forward?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject's body is facing forward with a slight turn to the right, which suggests a rightward turn rather than a leftward one. This orientation is determined by examining the alignment of the shoulders and the visibility of the suit's sides.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are both arms positioned naturally at the sides of the body?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject's arms are positioned close to the sides of the body, which is consistent with a natural pose. The arms appear aligned with the body, suggesting they are naturally placed.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the skin tone consistent with a natural light complexion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The visible parts of the subject, excluding the blurred face, demonstrate a complexion that can be interpreted as a natural light tone, based on the parts that are visible and unobscured by the suit.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the lips closed in a neutral expression?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The facial features, including lips, are blurred in Image B, so it is not possible to discern the expression or the state of the lips. Hence, based on visible information, we cannot confirm the lips' state.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.25
+}

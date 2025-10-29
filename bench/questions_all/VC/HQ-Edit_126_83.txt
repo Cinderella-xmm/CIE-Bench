@@ -1,0 +1,103 @@
+Description of reference image: The subject is a woman wearing a traditional Korean hanbok, standing upright and facing forward with her hands gently clasped in front of her. Her dark, shoulder-length hair is styled neatly with a decorative hairpin on the right side, featuring intricate floral patterns. She wears long, dangling earrings with detailed designs. The upper garment (jeogori) is olive green with subtle sheen, embroidered with delicate floral motifs in soft pink, white, and gold tones along the sleeves and front panels. The collar is white, contrasting with the main color. A wide, dark ribbon belt (daenggi) is tied at the waist, with a small square red fabric accent at the center knot. The lower garment (chima) is a layered, pleated skirt in pale pink, also adorned with faint floral embroidery matching the jeogori. The background is plain beige with no distinct features, providing neutral contrast to highlight the attire. The lighting is soft and even, emphasizing the texture and elegance of the clothing.
+
+Thinking process: First, analyze the editing instructions word by word. The instruction specifies creating a "miniature 3D scene" within a "wooden shadow box," indicating that the **overall presentation format** will change — from a flat portrait to a framed diorama-like setting. This implies changes to the **scene environment**, including adding depth, framing, and new background elements such as a cherry blossom tree and pastel-toned backdrop. However, the instruction explicitly retains the **figure in a traditional hanbok**, so the **subject’s identity and core attire** must remain recognizable. It further states to “add tiny embroidered floral details to the garment,” suggesting that **existing floral patterns may be enhanced or supplemented**, but not replaced. The addition of a “delicate fan in her hand” means the **hand position or object held may change**, thus altering functional interaction. The “small blooming cherry blossom tree behind” indicates a **new background element**, meaning the original plain background is to be replaced. Therefore, any **core visual attributes of the hanbok, facial features, hairstyle, jewelry, and posture** that are not mentioned for modification must be preserved unless logically affected by added elements.
+
+Allowed Changes List:
+- Scene environment: transformation into a wooden shadow box with depth
+- Background: replacement with pastel-toned backdrop and addition of cherry blossom tree
+- Hand-held object: introduction of a delicate fan (replaces empty hands)
+- Garment details: enhancement of floral embroidery (can add more detail, but not alter base design)
+- Lighting and perspective: adjusted to suit 3D scene and depth perception
+- Overall composition: restructured to fit within a miniature frame
+
+Step 2 - Determine the elements that should remain unchanged
+
+Thinking process:
+Core recognition elements: The figure is identified by her traditional hanbok, which includes specific components such as the **olive green jeogori with floral embroidery**, **pale pink chima with pleats**, **white collar**, **dark daenggi belt with red knot**, and **distinctive hairstyle with hairpin**. These are essential for recognizing the cultural identity and authenticity of the attire. The **facial features**, especially the **dark eyes, red lips, and makeup style**, are also key identifiers of the character's appearance. Since the instruction does not allow replacing the person or changing her core attire type, these must be preserved.
+
+Functional/logical association elements: The **hands are currently clasped in front**, forming a stable pose. The instruction adds a fan, which alters this function — the hands now hold an object. However, the **posture of the body** (upright, facing forward) and **relative positioning of limbs** must still align with logical human anatomy and the original stance. The **belt placement** and **garment layering** must remain consistent to maintain structural integrity of the hanbok.
+
+Non modified element deduction: After excluding allowed changes (background, hand object, added embroidery), all remaining visual details — such as **the exact shape of the hairpin**, **the pattern of the earrings**, **the color palette of the clothing**, **the texture of the silk-like fabric**, **the fold lines of the chima**, and **the symmetry of the face** — must be retained. These are not mentioned for modification and are essential for maintaining visual coherence with the original.
+
+Preservation Targets List:
+- The olive green jeogori with floral embroidery
+- The pale pink pleated chima
+- The white collar of the jeogori
+- The dark daenggi belt with red central knot
+- The hairstyle with decorative hairpin on the right side
+- The dangling earrings with ornate design
+- The facial features: dark eyes, red lips, rosy cheeks
+- The upright frontal posture with hands clasped in front (before fan addition)
+- The overall silhouette and proportions of the figure
+
+{
+    Q1: 
+    Thinking process: The olive green jeogori is the defining outer garment of the hanbok and its color and material texture are critical for cultural identification. Changing it would fundamentally alter the subject’s identity. The presence of the specific olive green hue and the satin-like sheen are unique to the original image and serve as core visual anchors.
+    Question: Is the upper garment (jeogori) olive green in color with a smooth, satin-like texture?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The pale pink chima is a key component of the hanbok ensemble, and its pleated structure and soft tone distinguish it from other garments. Its preservation ensures the traditional aesthetic remains intact. Any deviation in color or pleating would disrupt recognition.
+    Question: Is the lower garment (chima) a pale pink pleated skirt?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The white collar is a distinctive feature of the jeogori, providing contrast and structural definition. It is a standard element in traditional hanbok design and serves as a visual marker of authenticity. Its absence or alteration would affect the garment's identity.
+    Question: Is there a white collar visible at the neckline of the jeogori?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The dark daenggi belt with the red central knot is a functional and symbolic part of the hanbok. Its placement and color contrast are culturally significant. Even if the belt is slightly adjusted in the 3D scene, its form and color must remain consistent to preserve the garment’s integrity.
+    Question: Is the belt dark-colored with a small red square fabric accent at the center knot?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The decorative hairpin on the right side of the head is a specific accessory that contributes to the character’s elegance and cultural accuracy. Its intricate floral design is visually distinct and must be retained to preserve the original styling.
+    Question: Is there a decorative hairpin with floral design located on the right side of the hair?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The dangling earrings with detailed ornamentation are personal accessories that define the subject’s look. Their presence and design contribute to the overall elegance and must remain unaltered to maintain consistency with the original portrait.
+    Question: Are there long, dangling earrings with ornate designs visible on both ears?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q7: 
+    Thinking process: The facial features, particularly the dark eyes, red lips, and rosy cheeks, are essential for identifying the subject. These features are not mentioned for modification and are central to the portrait’s expression and identity.
+    Question: Does the subject have dark eyes, red lips, and rosy cheeks?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q8: 
+    Thinking process: The upright frontal posture with hands clasped in front is the original stance of the figure. While the instruction adds a fan, the underlying body posture must remain consistent. The arms' positioning and alignment are crucial for maintaining the original composition.
+    Question: Is the figure standing upright with hands clasped in front of the body?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

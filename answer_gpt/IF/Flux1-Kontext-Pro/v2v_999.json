@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_999",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Have the cabinet and sink been converted into five chibi-style Russian nesting dolls?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are four visible chibi-style nesting dolls inside the bathtub. Commonly, Russian nesting dolls are stacked inside one another, but here, they are displayed separately. Image A features a cabinet and sink, suggesting a replacement or transformation took place for Image B to feature dolls.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the nesting dolls organized from biggest to smallest?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, four nesting dolls are aligned from left to right, with each subsequent doll smaller than the previous one. This suggests they are arranged from largest to smallest based on their heights and proportional sizes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the nesting dolls positioned along the edge of the bathtub?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the nesting dolls are located inside the bathtub, aligned along the width rather than the edge. They are placed centrally within the bathtub's interior rather than the exterior edge.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the aspect ratio of the edited image maintained at 3:2 horizontally?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "To determine the aspect ratio, consider the dimensions and shape of Image B. Both Image A and Image B visually appear to have a similar shape and ratio. Common sense and experience in image evaluation recognize an aspect ratio close to 3:2 is typical for such image dimensions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the nesting dolls exhibit a chibi-style design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays four figures characterized by exaggerated proportions, such as larger heads and simplified features, commonly linked with chibi-style design. This is apparent due to their design choices like simplistic facial features and rounded forms.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

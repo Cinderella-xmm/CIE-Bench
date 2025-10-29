@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0050",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image retain the sandy beach with grassy patches where the skater moves?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a sequence of a person running, transitioning into a humorous swap with a horse in the last frame, on the same sandy beach with grassy patches. The edited addition of human and horse figures does not alter the underlying beach setting, indicating the sandy beach with grassy patches is retained.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the house with a light-colored exterior and gabled roof visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background includes a light-colored house with a gabled roof, consistent in all frames. Houses like this are architectural structures that are distant from the main action, thus not altered or obscured by the edited sequence of events in the foreground.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the calm water body visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly depicts a calm water body in the background of each frame, unaffected by the changes in the foreground scene involving the person and horse edit. This suggests the tranquil water setting remains intact in the edited image.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the sparse trees around the house visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B shows sparse trees surrounding the house, a detail clearly visible behind the edited sequence of the person and horse. These trees, being background elements, do not change with the foreground activity.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the overcast sky and distant vegetation/horizon visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the overcast sky and distant vegetation or horizon remain visible beyond and above the scene where the edited action occurs. These elements, being natural and distant features, are constant and unmodified in the edited image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

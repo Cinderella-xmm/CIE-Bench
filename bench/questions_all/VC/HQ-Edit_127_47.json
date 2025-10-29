@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The number of ducklings is a core identity feature of the original scene. There are exactly five ducks visible in the image, arranged in a specific cluster. Changing their number would fundamentally alter the composition and make it inconsistent with the source. Even though they are to be transformed into 3D models, the count must remain unchanged to preserve the scene’s integrity. This is a key element because it defines the scale and narrative of the moment—five ducklings together is a specific detail that cannot be altered without breaking recognition.",
+      "question": "Are there exactly five ducklings swimming in the foreground of the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The swimming posture of the ducks—heads above water, bodies partially submerged, creating ripples—is essential for identifying their behavior and positioning within the water. This posture distinguishes them from floating or standing birds and maintains the dynamic of movement. Although the model style may change, the pose must be preserved to maintain continuity with the original scene’s action. Altering it would misrepresent the ducks’ activity.",
+      "question": "Do the ducklings have their heads above water and bodies partially submerged, indicating swimming motion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The rocky lakebed is a defining feature of the water’s clarity and depth. Its visibility through the transparent water is critical to the realism and serenity of the scene. Even if rendered with resin, the underlying pattern of smooth, rounded stones must remain visually present and correctly positioned beneath the water surface. Removing or distorting this would compromise the authenticity of the aquatic environment.",
+      "question": "Is the bed of smooth, rounded stones clearly visible beneath the water surface in the foreground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The reflection of the surrounding trees and sky on the water surface is a key compositional element that enhances symmetry and tranquility. It demonstrates the stillness of the lake and the density of the forest. Even with resin-based rendering, the mirrored image of the coniferous trees and sky must remain recognizable to preserve the visual balance and mood of the original scene.",
+      "question": "Is the reflection of the evergreen trees and sky clearly visible on the water surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The tall coniferous trees lining both banks of the lake are central to the forest setting. Their vertical alignment, density, and green coloration define the environment. While the scene may be refracted in an orb, the tree silhouettes and their arrangement must remain intact to ensure the landscape is still identifiable as a dense pine forest. Losing these would transform the scene into something else entirely.",
+      "question": "Are tall evergreen trees densely arranged along both sides of the lake, forming a natural corridor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The distant mountain range, partially obscured by mist, contributes to the depth and scale of the scene. It serves as a horizon anchor and provides geographical context. Even within a glass orb, the mountain’s silhouette and hazy appearance must be preserved to maintain the sense of vastness and natural isolation. Its absence would flatten the landscape.",
+      "question": "Is a mist-covered mountain range visible in the background beyond the lake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The color palette—dominated by deep greens of the forest, turquoise-blue water, and earthy browns of the rocks—defines the mood and realism of the scene. While lighting might shift slightly due to the orb’s refraction, the fundamental colors must remain consistent to preserve the naturalistic tone. Altering dominant hues would result in a stylistic mismatch.",
+      "question": "Are the dominant colors of the scene green (trees), blue-green (water), and brown (rocks)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

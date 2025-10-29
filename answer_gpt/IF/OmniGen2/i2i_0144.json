@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0144",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has a small flag reading “Fresh” been added on top of the sandwich?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the addition of a small flag labeled “Fresh” is visible on top of the sandwich. This conclusion is derived from observing the presence of a new object placed at the center of the sandwich bun, which was not there before. From known conventions, such flags are often used for aesthetic presentation in food to convey a message or a theme related to freshness.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Have the tomato slices been replaced with grilled pineapple slices?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the slices that resemble pineapple segments have replaced the previous tomato slice seen in Image A. These slices in Image B exhibit a yellow color and a texture that aligns with typical pineapple appearance, whereas Image A displays the recognizable red tomato slice with smooth surface and seeds. This deduction comes from observing the visual characteristics and applying world knowledge about typical appearances of these fruits.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the layers of lettuce and meat unchanged except for the addition of the flag and substitution of the tomato?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "When comparing Images A and B, the lettuce and meat layers appear consistent in both. The arrangement and texture of these components show no alteration apart from the visible changes of added flag and swapped slice from tomato to pineapple. This conclusion results from inspecting both images and noting the lack of changes in the color or positioning of the lettuce and meat.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the pineapple slices appear grilled, showing char marks or a browned exterior?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The pineapple slices in Image B do not show any grilled characteristics such as char marks or a browned exterior that would result from cooking. The slices are vivid yellow with smooth surfaces, aligning with raw or fresh pineapple appearance rather than grilled. This answer arises from recognizing grilling features and observing that these are absent in the image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the flag sit properly on top of the sandwich without disrupting its composition?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The flag in Image B is positioned vertically and stably within the top bun without appearing to affect the sandwich structure or cause any visible disturbance. The sandwich layers including the bun remain aligned, suggesting the flag placement is deliberate and does not impact the sandwich's integrity.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

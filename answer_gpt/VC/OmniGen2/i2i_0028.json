@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0028",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the woman in the image have a clear, noticeable smile?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the area where the woman's face is expected to be is blurred, making it impossible to discern facial expressions like a smile. Therefore, based on the visible information, it is reasonable to conclude that a smile is not noticeable.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there exactly three teddy bears, each with a distinct red shirt containing a blessing text?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are three teddy bears visible, each wearing a red shirt. The shirts appear to have distinct texts, indicating some form of messaging or blessing. Analyzing Image A, these bears and shirts are also present, though the texts are more legible in Image B due to the text overlay, confirming the distinct blessing text.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the teddy bears positioned in front of the woman as she holds them?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly shows the teddy bears positioned in the foreground, with the woman's arms visible behind them, suggesting she is holding them. Comparing with Image A, the position and arrangement are similar, supporting the conclusion that in Image B, the teddy bears are indeed positioned in front of the woman as she holds them.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the woman wearing a checkered black-and-white jacket?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman's top has a dark color, but due to image clarity and angle, detailed patterns such as checkers are not distinctly visible. Analyzing Image A, the woman is indeed wearing a checkered black-and-white jacket, which suggests that this detail was possibly edited out or obscured in Image B. However, based on the lack of visible pattern in Image B, the conclusion is that it is not evidently checkered.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background kept simple with minimal distractions (beige wall and striped blanket)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background appears simple with a uniform beige wall behind the woman. There is no visible blanket likely due to cropping or angle. Comparing Image A, this confirms a simple background with minimal distractions, although the blanket is more visible. Image B aligns with these characteristics, focusing on simplicity with likely minimal elements.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6363636363636364
+}

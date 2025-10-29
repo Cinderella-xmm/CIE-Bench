@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_371",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the man still wearing a gray T-shirt and black pants while sitting cross-legged on the floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B (edited image), the focus has shifted to a keychain featuring a cartoon representation of a German Shepherd, and the man's presence is absent. Based on the visual cues, there is no indicator of a man wearing a gray T-shirt and black pants while sitting cross-legged on the floor. Thus, the absence of such a depiction leads to the conclusion.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there still multiple bananas arranged in a pile between the man and the dog?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B centers around the keychain, with no visual indication of bananas. In fact, the context shifts entirely to a close-up and focused subject matter, eliminating any previous elements like bananas or the man's presence. Thus, the image doesn't show bananas in a pile.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the background still plain and neutral with no additional decorations?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases a neutral, minimally distracting background which enhances the visibility of the keychain. The absence of any decorations behind the hands holding the keychain supports this, aligning with the description of a plain and neutral setting.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the keychain still depict a German Shepherd with tan and black markings, even in a chibi style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The keychain in Image B is visualized with distinct tan and black coloration that resembles the recognizable features of a German Shepherd but depicted in a chibi style characterized by exaggerated, cute features. This aligns with the description of such species-specific markings in the chibi format.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the man still positioned next to the pile of bananas, with the dog (now a keychain) near the bananas?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the composition shifts entirely, focusing on a keychain and omitting the previous setting, including the man, bananas, and the original dog. The absence of these elements, replaced by a close-up of the keychain, leads to this determination.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

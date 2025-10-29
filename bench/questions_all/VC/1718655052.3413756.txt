@@ -1,0 +1,106 @@
+Description of reference image: The subject is a small white fluffy dog, likely a Maltese or Bichon Frise breed, with soft, curly fur covering its entire body. Its face is round and expressive, featuring large black eyes, a small black nose, and an open mouth showing a hint of pink tongue, conveying a cheerful expression. The dog wears a winter hat with a thick, light brown fur trim around the brim and two white pom-poms on either side, resembling a snowman-style design. The hat has an orange knitted band visible beneath the fur trim. Around its neck is a matching orange knitted scarf, loosely draped and textured. The dog's ears are floppy and covered in long white fur, partially tucked under the hat. It wears a dark collar with a silver-colored metal ring. Snowflakes are visibly falling in the background, which is blurred but suggests a wintry outdoor environment with muted gray and dark tones. The lighting is soft and diffused, enhancing the fluffiness of the fur and creating a cozy, festive atmosphere.
+
+Thinking process: First, analyze the editing instructions word by word:  
+- "Transform the hat and scarf to wood-carved replicas, with distinct engravings on woolly textures" → This indicates that the **form** (material and texture) of the hat and scarf can be changed, but their **presence**, **position**, and **function** (covering head and neck) must remain.  
+- "Change the fur coat to LEGO bricks, emphasizing color diversity while maintaining warmth" → The **material** of the dog’s fur is to be replaced entirely, but the **shape**, **size**, **posture**, and **overall appearance** of the dog must remain recognizable.  
+- "Use a minimalist background resembling a light-colored wooden tabletop to highlight transitional contrasts" → The **background** is to be replaced completely; therefore, the original snowy, blurred outdoor scene is no longer required.  
+
+Thus, allowed changes include:
+- Material and texture of hat and scarf (from knit/fur to carved wood)
+- Material of the dog’s fur (from real fur to LEGO bricks)
+- Background (from snowy outdoor to wooden tabletop)
+
+Allowed Changes List:  
+- Hat material (knit/fur → wood-carved)  
+- Scarf material (knit → wood-carved)  
+- Fur texture (soft white fur → LEGO brick construction)  
+- Background environment (snowy outdoor → light-colored wooden tabletop)  
+
+Step 2–Determine the elements that should remain unchanged
+
+Thinking process:  
+Core recognition elements:  
+- The **dog’s facial features** (round face, large black eyes, black nose, open mouth with visible tongue) are essential for identifying the subject as a small white dog. These are not mentioned in the instruction to change, so they must be preserved.  
+- The **position and shape of the hat and scarf**—they must still cover the head and neck respectively, even if made of wood. Their function as accessories remains unchanged.  
+- The **dog’s posture and orientation**: it faces forward, slightly tilted, with ears flopping down. This pose is central to the image’s composition and must remain.  
+- The **collar with metal ring** is a minor but present detail; since it is not mentioned to be altered, it should be retained.  
+
+Functional/logical association elements:  
+- The **hat must still sit on the head**, and the **scarf must wrap around the neck**—their spatial relationship to the dog must be maintained for logical consistency.  
+- The **dog must remain the central subject** in the frame, facing forward, to preserve narrative focus.  
+
+Non-modified element deduction:  
+After excluding changes to materials and background, the remaining visual details—such as the **dog’s facial structure**, **ear shape**, **eye placement**, **mouth expression**, **collar**, and **body outline**—must be preserved because they are not specified for modification and are critical to identity.  
+
+Preservation Targets List:  
+- Dog’s facial features (eyes, nose, mouth)  
+- Position and shape of hat on head  
+- Position and shape of scarf around neck  
+- Collar with metal ring  
+- Dog’s overall posture and orientation (forward-facing, slight tilt)  
+- Floppy ear shape and position  
+
+{
+    Q1: 
+    Thinking process: The dog's large black eyes are a core recognition feature, essential for identifying the animal as a small, expressive breed like a Maltese or Bichon Frise. If the eyes are removed, altered in shape, or changed in color, the subject becomes unrecognizable. This is a key identity element, hence weight 3.
+    Question: Are the dog's large, round, black eyes clearly visible and positioned symmetrically on the face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The black nose is a defining facial feature that contributes to the dog’s identity. It is centrally located and contrasts sharply with the white fur. Altering its shape or color would disrupt recognition. This is a core facial element, thus weight 3.
+    Question: Is the dog's black nose clearly present and centered on the snout?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The open mouth with visible pink tongue is a distinctive expression that conveys emotion and personality. It is a key detail in the original image and contributes to the dog’s charm. While not strictly necessary for identity, it is a major expressive feature and should be preserved. Weight 2.
+    Question: Is the dog's mouth open, revealing a pink tongue?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The floppy ears covered in white fur are characteristic of the breed and contribute to the dog’s appearance. Even if the fur is replaced with LEGO bricks, the shape and position of the ears must remain consistent. This is a structural feature important for species identification. Weight 2.
+    Question: Are both ears floppy and positioned symmetrically on either side of the head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The collar with a silver metal ring is a minor but identifiable accessory. Since it is not mentioned to be changed, it must be retained for continuity. It serves as a functional detail and helps anchor the dog’s identity as a pet. Weight 1.
+    Question: Is there a dark collar with a visible silver-colored metal ring around the dog’s neck?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The hat must still cover the head and have the same general shape, including the two white pom-poms on the sides. Even if made of wood, the silhouette and positioning must match the original. This maintains the accessory’s function and visual role. Weight 2.
+    Question: Is the hat positioned on the dog’s head with two white pom-poms visible on either side?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The scarf must still drape around the neck in a loose, V-shaped manner. Its position and function are critical to the composition. Though material changes, its placement must remain. Weight 2.
+    Question: Is the scarf wrapped around the dog’s neck, forming a visible loop or knot at the front?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q8: 
+    Thinking process: The dog’s forward-facing posture with a slight head tilt is essential for maintaining the original composition and emotional engagement. Changing this would alter the image’s dynamic. Weight 2.
+    Question: Is the dog facing directly toward the camera with a slight upward tilt of the head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

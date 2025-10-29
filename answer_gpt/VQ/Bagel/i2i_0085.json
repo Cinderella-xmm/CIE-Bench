@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0085",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the transition area between the painting and the wall maintain the natural texture of the wall material without introducing obvious artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the painting appears to be cut out in an irregular shape with parts of the painting itself protruding into the wall space, a feature not typical or natural for a standard painting. This creates a unique effect where the painting blends with the wall, but it doesn't maintain the consistent natural texture of a flat wall. The transition is not seamless as there are visible irregularities and a lack of wall texture continuity.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the proportions of the trees and water in the painting maintained realistically without appearing stretched or distorted?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the elements within the painting—trees and water—remain proportionate and similar to typical scenic paintings. There's no evidence of stretching or distortion within the painting content itself that would make the trees or the water appear inconsistent or unrealistic.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the shadows and lighting in the painting align consistently with the room's light source, avoiding unnatural contrasts or disruptions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the painting's own internal lighting and shadows, such as the sunset glow, appear consistent with typical scenic lightning. While the room has its own light source casting natural shadows, it's not meant for alignment with the painting's internal light unless specifically painted that way. Thus, the painting appears internally consistent, and there are no disruptive unnatural contrasts.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the painting preserve its depth and layering, creating a believable 3D effect without disrupting its visual coherence?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Looking at Image B, the painting has been edited to give a three-dimensional look where parts of it protrude from the wall. While the attempt is to add depth, this unconventional method might disrupt visual coherence depending on viewer preference. However, the overall appearance maintains artistic cohesion with a unique 3D effect.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the frame around the painting retain its structural integrity and material appearance without visible damage or unnatural textures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no traditional frame visible as the painting itself blends into the wall in an irregular fashion. Lacking a frame alters the structural presentation, leading to an absence of structural integrity typical for a framed piece.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

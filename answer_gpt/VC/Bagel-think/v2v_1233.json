@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1233",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the patient still visibly connected to the IV drip via tubing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on the visual cues in Image B, we observe an IV drip attached through tubing which is still connected to the patient's arm. Recognizing the setup of such medical equipment involves knowledge that IV tubing should run from the standing drip chamber to the patient's arm, which visually appears intact in Image B.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the nurse still interacting with medical supplies on the cart near the patient?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the nurse is depicted as standing next to the medical cart with her hands positioned in a way suggesting interaction with supplies. Understanding the actions of a nurse typically involves recognizing tasks involving medical supplies on a cart is a common procedure, which is evident here.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the medical monitors still visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows medical monitors mounted on the wall behind the patient bed. These monitors display readings typically found in a hospital setting, signifying their presence with visual clarity. The depiction maintains these positioned behind the patient in a clinical environment.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the patient still lying in a relaxed position with his eyes closed?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the patient is depicted lying on the bed with eyes closed, suggesting a relaxed position possibly due to rest or medical relaxation. Knowledge about typical patient positions under medical care often includes lying supine with eyes shut, which is clearly illustrated.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the IV stand still positioned next to the patient's bed?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows an IV stand situated adjacent to the patient's bedside, holding the IV bag steadily. Understanding hospital equipment involves recognition of the IV holder’s placement next to patients for optimal administration of fluids, which is visible in the edited image.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

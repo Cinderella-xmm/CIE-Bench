@@ -1,0 +1,71 @@
+### Step 1 - Analyzing Reference Image Description and Allowed Changes
+
+**Description of reference image:** The subject is a ginger kitten with white markings on its face and chest, lying on a soft, blue blanket. The kitten has large, greenish-yellow eyes, perked-up ears, and soft orange fur with visible stripes. Its expression is serene and curious, gazing directly at the viewer. The background is softly blurred, showing a continuation of the blue blanket and providing a cozy, intimate setting.
+
+**Thinking process:** The instructions specify transforming the kitten into a form that appears to jump out of the screen with a 3D effect. This means the position and perspective of the kitten may change to simulate depth. The background and scene may also adapt this 3D effect, but the core identity of the kitten (its unique colors, fur patterns, and facial features) should remain intact. 
+
+**Allowed Changes List:**
+- Position and perspective of the kitten to create a 3D effect
+- Background adjustment to enhance the illusion of depth
+- Lighting and shading to support the 3D appearance
+
+
+### Step 2 - Determining Elements That Should Remain Unchanged
+
+**Thinking process:** 
+To preserve the kitten's core identity, features like its fur color (ginger with white markings), eye color (greenish-yellow), and distinct facial features (perked ears, whiskers, nose spots) must remain unchanged. Functional/logical associations include the kitten's relaxed posture and its interaction with the blanket, which will influence how the 3D effect is applied.
+
+Based on visual coherence, other details such as the blanket's texture and color should also stay consistent unless specified differently.
+
+**Preservation Targets List:**
+- Kitten's fur color and pattern (core identity)
+- Kitten's eye color and shape (core identity)
+- Kitten's facial features (ears, nose, whiskers) (core identity)
+- Blanket's blue color and texture (important scene element)
+
+### Step 3 - Generating Question Answer Pairs
+
+{
+    Q1: 
+    Thinking process: The kitten's fur pattern is crucial for its identity. The orange fur with white markings is a key feature that distinguishes it. Altering this would change the essential appearance of the kitten.
+    Question: Does the edited image retain the kitten's original orange fur with white markings?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The kitten's greenish-yellow eyes are a distinctive trait, and their shape and placement contribute significantly to its identity. Losing this detail could alter the kitten's recognizable appearance.
+    Question: Are the kitten's greenish-yellow eyes preserved in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The kitten's facial features, including perked ears, small pink nose, and white whiskers, are essential for maintaining its identity. These elements help define the kitten's expression and charm.
+    Question: Does the image retain the kitten's perked ears, pink nose, and white whiskers?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4: 
+    Thinking process: The blue blanket provides an important context and contributes to the overall scene's ambiance. Although the perspective might adjust for the 3D effect, the blanket's color and texture should remain consistent.
+    Question: Is the blue blanket with its soft texture maintained in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The relaxed pose of the kitten is part of the scene's coherence and helps establish the visual narrative. While the perspective changes for 3D, the general pose should still be recognizable.
+    Question: Does the kitten retain its relaxed posture while appearing to leap out of the screen in 3D?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0050",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image retain the sandy beach with grassy patches where the skater moves?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the area surrounding the skater displays a minimalist background with a blank white space, suggesting a focus on the skater's movement without any environmental context. This indicates the absence of any beach or grassy patches that were present in the original setting. The editing transforms the setting from a natural beach into a more abstract focused view on the skater, which visibly occurs on an artificial surface or context as opposed to sand.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the house with a light-colored exterior and gabled roof visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B consists of two sections: one involving the horse on the beach, retaining the original background, and another featuring the skater where the background is pure white, devoid of details. However, the edited part where the horse appears does retain the background featuring the distant house with a light-colored exterior and gabled roof.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the calm water body visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B is split between two scenarios: one preserving the landscape with the horse, and another focusing on the skater with a pure white background. The edited region where the horse stands maintains the vista that includes a calm water body seen in the distance.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the sparse trees around the house visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, portions of the image maintain the background elements of the original photo; these include the presence of sparse trees situated near a house in the distance in the scene where the horse is present. The unchanged parts where the horse is depicted still show these natural elements.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the overcast sky and distant vegetation/horizon visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The section of Image B where the horse is present maintains the background from the original image, such as the overcast sky and distant vegetation/horizon. In the edited scene, these elements are untouched and remain visible, particularly where the horse stands.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.75
+}

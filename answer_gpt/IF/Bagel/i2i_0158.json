@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0158",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the front view of the car clearly visible in the final three-view combination?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the car in multiple views with the front view being a prominent part of the top left quadrant of the combination. The front of the car is clearly visible, showing details like the grille, headlights, and overall shape, making it recognizable as a Ford Mustang. Thus, the front view is indeed clearly visible.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the left side view of the car clearly visible in the final three-view combination?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the left side view of the car is represented in the top right quadrant. While the view primarily shows the side, allowing for easy identification of features like the doors, side mirrors, and wheels, these aspects form a distinct and recognizable side profile of the car.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the rear view of the car clearly visible in the final three-view combination?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not feature a rear view of the car in any of the quadrants. The combination showcases variations of the front and side views instead. Therefore, the rear view is not visible in the final combination.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the three views of the car presented in a non-overlapping manner, ensuring they are distinct and clearly visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the views are segmented into distinct quadrants within the combined image, with no visual overlap between the images. Each view—including front and side—occupies its own space without interference from other sections, ensuring clarity.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the overall presentation of the combined three-view image align with the standards suitable for car magazines or showroom flyers?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The arrangement in Image B is organized into three distinct sections, often seen in car magazines or promotional materials to provide multiple perspectives of a vehicle. The clear separation and presentation of different views adhere to typical standards found in professional automotive marketing materials.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

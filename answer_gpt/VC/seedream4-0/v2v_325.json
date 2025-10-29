@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_325",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the blue car in the upper left position still rendered in blue?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the upper left car is a caricature-style vehicle with a face and smiley features. It retains the same relative position as in Image A. The car's main body paint is indeed blue, similar to Image A. This is identified through direct visual observation of the blue color on the car's exterior.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the red car in the upper middle position retain the compact sedan body shape with a sloped roofline and four doors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the car in the upper middle position appears to have a cartoonish rendition with a face and exaggerated facial features. The overall shape retains some attributes of a compact sedan, but due to the stylized presentation, elements like a sloped roofline and specific door placements are less pronounced. Compared to Image A, where these elements are clear, Image B takes on a more comedic, less realistic shape while still alluding to a compact sedan style.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there exactly eight cars depicted in the final image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, upon visual inspection, there are visibly four cars on top and four at the bottom of the car carrier, making a total of eight cars. This corresponds directly to the number and basic positioning observed in Image A, where the same count and arrangement occur.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the yellow car located in the upper middle-right position still yellow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the car located in the upper middle-right position clearly maintains its yellow coloration. Despite the cartoon-like facial addition, the car's primary paint color is consistently yellow, matching the appearance seen in Image A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does each car have four wheels, with two at the front and two at the rear?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both Image A and Image B, the cars are rendered with the standard vehicular wheel configuration of two wheels at the front and two at the rear. Despite the stylization in Image B, this basic configuration hasn't been altered, actively implying normal wheel placement from visible wheels on each car.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the red car in the lower right position still red and retains the compact sedan shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the red car in the lower right retains its red color. However, while the color remains the same, the shape has shifted to a more rounded, cartoonish style with exaggerated features such as a face, diverging from the typical hard-line compact sedan body observed in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

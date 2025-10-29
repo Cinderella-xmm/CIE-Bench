@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0091",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the integration of the castle hall elements into the room visually align with the existing lighting and shadows, avoiding unnatural artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the integration of the castle hall elements shows a corridor with intricate arches and pillars. The lighting falls naturally along the corridor with shadows created by the arches, indicating that the light source is consistent with the placement of these architectural elements. The corridor also has sunlight streaming in, and the shadows cast along the floor align well with the light source, indicating no apparent unnatural artifacts.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the materials of the newly added castle hall elements, like stone and metal, depicted naturally and free from obvious artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The castle hall features in Image B are constructed with stone pillars and arches. The texture of the stone appears realistic, with detailed grooves and shading that match natural stone surfaces. The lighting enhances the perception of depth and solidity, and there are no visible artifacts or inconsistencies with how real stone should look.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Have the books, vases, and plants remained undistorted and preserved their original details post-editing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In comparing the two images, these elements are completely missing in Image B, as the focus has shifted entirely to the castle hall. The absence of these items means they cannot be evaluated for any potential distortion or loss of detail.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the introduction of the castle hall maintain the room's spatial rationality, keeping the proportions and placements of objects consistent with expectations?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents a visually dominated castle hall that does not retain the characteristics or function of the room depicted in Image A. The proportions and placement cater entirely to the hall's architecture rather than maintaining a domestic interior setup. Therefore, the spatial rationality related to the original room has not been preserved.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the lighting effects in the edited castle hall scene match the light source and style of the original room, ensuring continuity in illumination?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The lighting in Image B aligns with the light source positioning, similar to that in Image A, where light comes in from one side. Although the environments differ, the style of illumination maintains similar directionality with strong shadow play, thus preserving continuity in terms of light sourcing and style.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

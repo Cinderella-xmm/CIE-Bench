@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0100",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image include a top-down view of the sink structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B contains two distinct views: a top-down view on the left side and an angled side view on the right side. The top-down view is depicted as a diagram of the sink and vanity layout, showing the positioning of the faucets and handles, which is characteristic of a top-down perspective.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image include an angled side view of the sink structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the right section features a side view of the sink and vanity area, which is taken from an angle, presenting depth and height perspectives. This view complements the top-down layout by giving a more realistic perspective on the setup.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the top-down view and the angled side view merged into a single image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, both views are integrated into a single composition with a diagonal split. The left section showcases a top-down diagram, and the right section offers an angled photograph, combining both views into a single, cohesive image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the layout of the top-down and angled side views clear and well-organized in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The layout in Image B is well-organized with a clean diagonal split that distinctly separates the two views, making it clear and easy to comprehend. This organization allows viewers to easily interpret both the structural details and the real-world appearance of the sink setup.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do both the top-down view and the angled side view accurately depict the sink structure seen in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image A provides a frontal view of the bathroom vanity, showing elements like the dual sinks, mirrors, and faucets. In Image B, the top-down view and angled side view depict these elements accurately. The diagram aligns with the layout seen from above, and the angled view resembles the structure and design of the original setup.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

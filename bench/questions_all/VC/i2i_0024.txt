@@ -1,0 +1,77 @@
+Description of reference image: The subject is a female tennis player positioned on a clay court, wearing an orange dress and a white visor. Her body is angled slightly to the right, holding a tennis racket in her right hand, with her left hand raised in a fist pump gesture. Her hair is tied back in a ponytail under the visor. The clay court is reddish-brown with distinct white boundary lines. The background includes green elements associated with the court setup.
+
+---
+
+### Step 1 - Allowed Changes List:
+
+Thinking process:
+The instructions indicate a transformation into a chibi-style flat illustration. This allows for changes in detailed textures, realistic skin tones, and shading. Elements like the tennis racket's design can be simplified. The background can also be simplified or removed entirely as long as essential elements required by the instructions (e.g., clay court lines) are preserved.
+
+Allowed Changes List:
+- Detailed textures of the dress and visor
+- Realistic human features and proportions
+- Racket design details
+- Specific background details unrelated to the clay court lines
+
+---
+
+### Step 2 - Preservation Targets List:
+
+Thinking process:
+The core recognition elements include the tennis player’s pose, attire, and the clay court setting. Functional elements such as the racket's presence and the gesturing pose (victory sign) need to be retained. Remaining elements like the orange dress color and white visor contribute visual coherence.
+
+Preservation Targets List:
+- Pose (stance, arm positions)
+- Clay court lines
+- Orange dress and white visor (colors and basic shapes)
+- Tennis racket (as a filled shape)
+- Tennis-related gestures and actions (fist pump)
+
+---
+
+### Step 3 - Question Generation:
+
+{
+    Q1: 
+    Thinking process: The player’s pose is central to the image's identity. Losing the specific arm positions would disrupt the intended action and feeling of the scene, making it a key element with a significant impact on recognition.
+    Question:Does the tennis player retain the pose with her right arm holding the racket and her left arm raised in a fist pump?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The clay court and its lines are critical for establishing the context of the scene. Absence of the clay court lines would disassociate the player from the tennis theme entirely, so this is a key element.
+    Question: Are the clay court lines present with a white outline to define the boundaries?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The orange dress and white visor are iconic elements that establish the player’s appearance. Changing these basic color and shape aspects could confuse or misidentify the character.
+    Question: Does the tennis player wear an orange dress and a white visor, preserving their basic shapes and colors?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4: 
+    Thinking process: The presence of the racket is crucial for the tennis theme. Its black-filled shape simplification maintains the logical connection to the sport while aligning with the chibi style, ensuring the subject remains identifiable.
+    Question: Is the tennis racket represented as a black-filled shape with minimal detailing?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The tennis-related gestures reinforce the player’s action and add context. Losing this detail would strip away part of the narrative conveyed by the image.
+    Question: Does the player exhibit a tennis-related gesture (specifically, the fist pump)?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

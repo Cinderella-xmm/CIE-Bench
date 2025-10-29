@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of adding a simple figure in the starting pose (kneeling with bent arms back), this new figure must be positioned in the same scene space as the original character. The question evaluates whether the added figure has correct limb proportions, natural joint alignment, and appropriate hand structure (five fingers, ergonomic shape) without deformation or extra digits.",
+      "question": "Does the added kneeling figure have five fingers on each hand, with natural hand shapes and no distorted joints?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of depicting the \"Leap Attack\" phase with explosive movement, the character’s posture must reflect dynamic propulsion. This includes proper extension of limbs, muscle definition, and balance in mid-leap. The question checks for geometric integrity in the legs and torso during the leap.",
+      "question": "Are the legs and torso of the leaping figure properly extended and aligned to reflect forward momentum without broken or warped limbs?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of illustrating \"Mid-Air Adjustment\" with tucked knees, the character's legs must show a compact tuck with bent knees close to the chest. The question evaluates whether the knee bend is anatomically feasible and whether the thighs and calves maintain realistic proportions without overlapping or flattening.",
+      "question": "Are the knees tucked tightly toward the chest with natural curvature and no visible deformation in the leg muscles?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of integrating bold outlines and vibrant colors (blues and whites), the question assesses whether the coloring remains consistent across the figure and added elements, with clean line work and no color bleed or pixelation along edges.",
+      "question": "Do the bold outlines follow the contours of the figure smoothly without jagged edges or color spillage into adjacent areas?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of ensuring spatial coherence between all elements, the question checks whether the added text captions and step indicators are placed in non-obstructive positions and do not overlap critical features like the face or limbs in a way that distorts perception.",
+      "question": "Are the text captions and step numbers positioned so they do not cover key facial features or limbs of the main figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "Based on the sub requirement of maintaining structural consistency across poses, the question evaluates whether the size, scale, and proportions of the character remain uniform across the three illustrated steps, especially when comparing the original figure to the simplified versions.",
+      "question": "Are the simplified figures in each step scaled consistently with the original character and aligned in perspective?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

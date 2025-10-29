@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_325",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the blue car in the upper left position still rendered in blue?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, we observe the car located in the upper left position on the car transport trailer. This car maintains a blue color similar to the blue aesthetic often used in cars shown being transported. The color remains consistent in the edited image.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the red car in the upper middle position retain the compact sedan body shape with a sloped roofline and four doors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the red car positioned in the upper middle retains its compact sedan body shape. This includes a sloped roofline typical of compact cars marketed for their agile look and practical size, as well as four-door styling which is common for cars designed for passenger accessibility.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there exactly eight cars depicted in the final image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing Image B, the edited image shows six cars, three on the upper section and three on the lower section of the car transport vehicle. Common sense of car transport trailers indicates a typical six-car setup. Therefore, there are not eight cars depicted.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the yellow car located in the upper middle-right position still yellow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited Image B, the car in the upper middle-right position remains yellow. This color is frequently employed in cars to ensure they stand out for identification or marketing purposes amid other colored vehicles.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does each car have four wheels, with two at the front and two at the rear?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examination of Image B, each depicted car has four visible wheels, three in the front section and one at the rear of each vehicle. The conventional arrangement of wheel positions in standard vehicles confirms this pattern remains unchanged in various edits.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the red car in the lower right position still red and retains the compact sedan shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B exhibits a red car positioned at the lower right of the transport trailer. It maintains the red color and the compact sedan body shape with the sloped roofline and four doors, consistent with common styling for economy-minded vehicles.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8333333333333334
+}

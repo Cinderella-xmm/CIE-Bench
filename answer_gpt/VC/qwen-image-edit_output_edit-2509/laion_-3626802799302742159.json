@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-3626802799302742159",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the cookies still golden-yellow in color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cookies appear as small characters with facial expressions, arms, and legs, but they retain their golden-yellow color. The visual information, combined with common knowledge of cookie coloring, allows us to conclude that their color hasn't changed.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a red jam filling in the center of each cookie?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows cookies as characters with red jam-like centers. Given the visual cues and understanding of cookie decoration, it can be confirmed that the red jam filling is present in the cookies.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the mug white with black speckles and a handle on the right side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the mug retains its white color with black speckles, despite having a face added to it. The handle appears on the right side, which matches common mug designs.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the plate pink with a speckled texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not have a plate; instead, cookies are presented as characters on a floral-patterned cloth. Therefore, the description of a pink speckled plate does not apply to this image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are some cookies inside the mug and others arranged on the plate?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, some cookies are in the mug, which takes on a personified form. Cookies are depicted interacting outside the mug, but not specifically arranged on a plate as they are pictured on a floral cloth.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Do both the mug and the plate have a speckled surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The mug in Image B is speckled, but there is no plate present in this image which makes the evaluation of two speckled surfaces incorrect.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the mug smaller than the plate and positioned centrally on it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not feature a plate. The mug is depicted as a character with cookies inside. There is no indication of a plate in the edited version, logically concluding that the mug cannot be on a plate.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

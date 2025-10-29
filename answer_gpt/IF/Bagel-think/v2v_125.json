@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_125",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly six chibi-style stickers in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image features nine chibi-style stickers arranged in a grid layout with eight character stickers and one horse sticker. By visually counting the distinct stickers, we determine there are nine distinct figures. Therefore, answering the question requires noting that the total number exceeds six. Analyzing this does not require comparison with the original image, as it is purely observational.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the chibi characters in the stickers have oversized, expressive eyes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing the edited image, the chibi-style characters display small, simple eyes typical of several chibi art forms that focus on exaggerated other features rather than eyes. Chibi art often has varied styles, and these characters feature smaller, less expressive eyes, thus answering based on observation without comparing to the original image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the background of the stickers feature warm, earthy tones along with subtle stars or confetti?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "By analyzing the visual attributes of the edited image, we note that the background is a warm beige color, complemented by small stars or confetti-like decorations around the chibi characters. This combination of warm tones and decorative elements meets the description given in the question, requiring no comparison from the original image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the aspect ratio of the edited image 9:16?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The aspect ratio of an image can be detected based on its dimension measurements. The edited image appears more square-shaped rather than having a portrait or landscape orientation typically associated with a 9:16 ratio. Thus, based solely on observation without the need for exact measurements, logic indicates a rejection of the 9:16 description. There is no need for comparison with the original image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the rider’s shirt depicted in a chibi style and retains the beige color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing visually, it is evident that the chibi character wears a shirt in a beige color, consistent with the rider's shirt in the original image, confirming that it retains its color in the chibi representation. The common depiction of clothing color is retained between the original and edited representation, and this continuity does not require additional context from the original image to affirm.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

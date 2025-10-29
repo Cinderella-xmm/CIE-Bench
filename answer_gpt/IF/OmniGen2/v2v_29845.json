@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_29845",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image show a single humanoid figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the presence of a person next to the cow is clear. The humanoid figure is identified by the individual's body, clothing, and posture. The cow is a separate entity and not part of the humanoid figure, which confirms that the image contains more than just the humanoid figure alone.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the cow's horns visible on the humanoid figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly shows the cow with its horns, however, these horns are on the cow and not on the humanoid figure. The humanoid figure stands next to the cow and does not possess any horns itself.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the humanoid figure have fur resembling that of a cow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the humanoid figure is wearing a white coat, typical of an outfit worn by humans possibly in an agricultural or show setting. The cow, on the other hand, has a noticeable fur coat typical of its species. The humanoid figure itself does not have cow-like fur.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the humanoid figure wearing the man's original clothing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing the man's attire in both images, the humanoid figure in Image B is seen in a white coat and dark trousers. This matches with the original image, where the man also wore a white coat and similar trousers.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the humanoid figure maintain the man's original posture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The posture of the humanoid figure in Image B is upright and similar to that in Image A. The way the figure holds the rope and stands next to the cow suggests that the original posture is preserved.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

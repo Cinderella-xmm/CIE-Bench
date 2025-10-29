@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-3380433821817858999",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image now structured as a multi-panel infographic with at least three distinct steps?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, Image B, the visual structure is displayed in a multi-panel format. There are six distinct panels present, each illustrating a different action or sequence as part of the infographic. This clearly demonstrates that there are multiple steps being explained.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a panel showing a simple figure in a kneeling position with bent arms pulled back, labeled as \"Step 1: Positioning: Kneel with bent arms back\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the left-most panel of the top row in Image B, there is a figure in a kneeled position with their arms bent and pulled back. However, the label reads \"PIOSTONING; KNEL,\" which is a nonsensical or scrambled text rather than the label specified in the question.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a panel showing an explosive leaping motion with visual cues of propulsion (e.g., motion lines, energy burst), labeled as \"Step 2: Leap Attack: Propel using core strength\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does have a panel showing a figure in a leaping motion, but there are no clear visual cues like motion lines or energy bursts. The label for the second panel from the left in the top row reads \"LAEP-WIY ATCAQ;\" which again, does not match the specific label mentioned in the question.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a panel showing the figure mid-air with knees tucked tightly, labeled as \"Step 3: Mid-Air Adjustment: Tuck knees tightly\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the final panel on the bottom right depicts a figure in a lowered position but it does not show the figure mid-air with tucked knees. Moreover, the label reads \"MID-ANEINDST\" which does not match the requested label.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the illustrations rendered with bold outlines, vibrant blues and whites as dominant colors, and captions written in energetic, stylized fonts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features illustrations with bold outlines. The color scheme prominently includes vibrant blues and whites. The captions are written in a stylized font that appears energetic and is consistent with the dynamic theme of the panels.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

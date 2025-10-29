@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-4003832708075596196",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Do the transformed trunk sections into arms and legs follow natural joint-like curves and avoid sharp, unnatural bends?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features characters with anthropomorphized limbs. The arms and legs are depicted with curved lines, which resemble natural joints as seen in cartoon or vector art. These curves avoid sharp angles, contributing to a cohesive design style commonly used in illustrations involving simplified characterizations.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the leaf-shaped heads composed of intact maple leaves with visible veins and gradient coloring, and do the facial features (eyes, mouth) sit naturally on the surface without distorting the leaf shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the heads of the characters are styled as leaves, yet these leaf shapes do not follow realistic leaf attributes such as veins or gradient coloring. The facial features, namely eyes and mouths, appear pasted onto these leaf-like heads, creating a whimsical appearance but somewhat distorting the natural leaf shape.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the hats and scarves rendered with the same flat, vector-style design as the rest of the image, and do they have consistent edge lines and no visible texture artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The accessories worn by the anthropomorphized characters in Image B, such as hats and scarves, use a simple vector-style illustration consistent with the rest of the image. The edges are clean, and there's no indication of texture artifacts, adhering to the cohesive visual style.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are all added elements (limbs, faces, accessories) colored exclusively within the original orange, yellow, red, and brown spectrum, with no unexpected or contrasting hues?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The added elements such as limbs, faces, and accessories in Image B incorporate colors outside the original Thanksgiving-themed spectrum. The anthropomorphized characters have accessories in varying colors such as purple, indicating the addition of contrasting hues that are not part of the original color palette.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do all anthropomorphized tree characters and their accessories lie completely within the brown rectangular border without extending outside its edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows that the anthropomorphized tree characters, along with their accessories, lie within the brown rectangular border, adhering to the layout and design constraints dictated by the frame.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the text bubbles placed near the characters without overlapping leaves or limbs, and do they have consistent line thickness and transparent fill matching the illustration’s style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The placement of text bubbles in Image B is near the characters, designed not to overlap with leaves or limbs. However, the line thickness and fill differ from main elements of the illustration, as bubbles appear with solid white fill against all characters and their respective parts linked to the objects, making them contrast with the transparency seen elsewhere in the image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

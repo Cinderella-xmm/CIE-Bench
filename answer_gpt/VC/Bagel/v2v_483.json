@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_483",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is there a handheld fan with a circular blade structure being held in the man’s right hand, directed toward the cake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the handheld fan is visible with a circular blade structure, identifiable by the circular guard and overall fan shape. This matches common design features of typical handheld fans, being held in the right hand and appears directly facing in the forward direction, which is typically toward the object of attention - in this case, contextually likely a cake from the other elements present in the image.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there exactly seven candles on the cake, with visible flames and smoke rising from them?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are exactly seven candles visible on the cake, each with a lit flame on top. The flames are distinguishable by their traditional teardrop shape. However, no visible smoke is rising from them, which matches the attributes of lit but not yet extinguished candles, often associated with birthday celebrations.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there visible smoke rising from the candles on the cake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the candles have lit flames. The depiction of flames without visible smoke trails indicates that they are still burning rather than being recently extinguished, which is when smoke typically becomes visible.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the man leaning forward with his mouth puckered as if blowing air toward the cake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B transforms the man into a stylized character, which retains a similar sitting position. Given his holding a fan, the implication here changes as the character is not shown in a typical blowing gesture (mouth puckered) using their mouth. This depiction shifts the action's focus to the fan’s role in directing air.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the cake placed on a white plate, which is on a wooden surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not directly show the cake or plate in the same exact setting as Image A due to its stylized depiction approach. Instead, it abstracts this into a card-like visual without details on the immediate setting (like a plate and table surface). Traditional physical elements like a plate on a table aren't directly depicted due to the character card format.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the handheld fan positioned so that its airflow is directed toward the candles on the cake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the handheld fan is held in a position and angle that naturally suggests the airflow would be directed forward. However, without explicitly showing a cake or its placement, one can infer this based on the posture and usual aim associated with such depictions that include a fan as if intended to influence candles depicted on the corresponding card.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5714285714285714
+}

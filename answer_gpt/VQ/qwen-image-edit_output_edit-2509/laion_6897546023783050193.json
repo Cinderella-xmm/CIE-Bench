@@ -1,0 +1,71 @@
+{
+  "filename": "laion_6897546023783050193",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the robes depicted with consistent indigo and gold patterns that follow the contours of the original drapery without visible seams or unnatural texture breaks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the robes are decorated with indigo and gold patterns that seamlessly follow the natural flow of the drapery. The patterns are harmonious, consistent, and do not exhibit any unnatural texture breaks or visible seams. By analyzing Image A, it is clear that the edited patterns in Image B match the contours of the original robe's folds accurately, preserving the integrity of the design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the arms feature calligraphic lines that follow the natural curvature of the limbs without distorting the hands or creating more than five fingers per hand?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the arms and hands are depicted with calligraphic lines that gracefully follow the natural curvature without distorting the anatomy. Each hand is drawn with the correct number of fingers, and the contours are refined. Comparing this with Image A, where the arms extend naturally, Image B successfully maintains the original proportion and shape.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the face composed of clean, continuous outlines that preserve the shape of the eyes, nose, and mouth without exaggerated or broken lines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Although instructed to exclude the face from the response, the completion specifies analyzing facial features. However, due to the blur effect in both images, a proper analysis cannot be performed, and this question cannot be accurately answered.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the wave-like clouds in the background smoothly blended with the statue's silhouette, without sharp boundaries or overlapping inconsistencies?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the wave-like clouds are artistically integrated into the background and blend smoothly with the silhouette of the statue. There are no sharp transitions or overlapping inconsistencies between the clouds and the statue. This results in a cohesive visual, where the statue's presence complements the surrounding cloud design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the statue's posture stable, with arms symmetrically extended and the head centered above the torso, showing no signs of misalignment or deformation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The posture of the figure in Image B maintains symmetry and balance. The arms are extended uniformly, and the head is centrally positioned over the torso, demonstrating stability and alignment. Comparing with Image A, the statue originally has a symmetrical posture, which is accurately reflected in the edited depiction of Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

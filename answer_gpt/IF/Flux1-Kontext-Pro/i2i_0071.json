@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0071",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the train been transformed into a futuristic maglev train design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train features a sleek and aerodynamic design, which is characteristic of futuristic or modern high-speed trains, including maglev trains. The rounded nose and streamlined shape contribute to this impression. By utilizing world knowledge about train designs, maglev trains are known for such streamlined appearances to reduce air resistance, suggesting an attempt to depict a futuristic maglev train.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the train retain the original white and red color scheme?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train is predominantly white with a red stripe running along its side. These colors are in line with the typical white and red color schemes commonly used in train designs, particularly for high-speed rail, indicating that the original color scheme is retained.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the train incorporate elements indicative of maglev technology?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays a train with a smooth and aerodynamic design, which usually hints at high-speed capabilities and efficiency. However, there are no visible elements explicitly indicating maglev technology, such as the train being levitated above tracks or lacking visible wheels on a standard rail. Hence, while the appearance may hint at futuristic technology, there's no direct visual evidence specifically indicating maglev technology.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the train still appear recognizable as a train despite the futuristic changes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the object maintains the fundamental features of a train, such as multiple connected cars and train-like windows and doors. Despite its futuristic modifications, including aerodynamic shaping, the structure is still identifiable as a train. This reflects the recognition of common train features enhanced with modern aesthetic elements.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Have all parts of the original train been transformed into the new maglev design, with no elements of the old design remaining?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a train that has been modified to have a modern and futuristic appearance, characteristic of high-speed trains or maglevs. However, the visible standard tracks suggest that not all components have been fully transformed into a maglev train. Retention of some elements like standard rail tracks means the design is not completely maglev.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

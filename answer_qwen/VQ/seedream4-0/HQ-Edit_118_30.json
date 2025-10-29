@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_118_30",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the train’s locomotive and carriages transformed into interlocking geometric blocks that maintain their original proportions and alignment along the track without visible distortions or misaligned edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train's locomotive and carriages are clearly composed of colorful, block-like segments resembling interlocking geometric shapes. These blocks are arranged in a way that mimics the original form of the train, maintaining its overall length and alignment along the track. The transition from one block to another is smooth and consistent, with no apparent gaps or misalignments. Each segment retains the general shape and orientation expected of a traditional steam locomotive and passenger cars, suggesting a deliberate artistic transformation rather than distortion. The proportions appear preserved, as the relative sizes of the engine and carriages remain consistent with real-world expectations. This transformation aligns with a stylized, puzzle-like aesthetic while preserving structural coherence.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the smoke above the train rendered as smooth, continuous swirling white forms that follow the natural trajectory of rising steam without jagged edges or texture artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The smoke above the train in Image B is depicted using stylized, swirling white forms that resemble cartoonish or abstract representations of steam. While the shapes are fluid and dynamic, they exhibit exaggerated, curvilinear patterns typical of animated or illustrative styles. However, upon close inspection, the edges of the smoke are not perfectly smooth—they contain subtle jagged lines and sharp turns, especially at the outer contours, which deviate from the natural diffusion and softness expected in real steam plumes. Additionally, some parts of the smoke appear segmented or outlined, suggesting digital rendering artifacts or intentional stylistic choices that compromise realism. Therefore, although the smoke follows a plausible upward trajectory, it lacks the continuous, seamless quality required for a naturalistic representation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are all human figures at the station platform replaced by small, flat puzzle-shaped elements wearing vintage clothing, with no visible distortions in limbs or posture, and do they retain recognizable positions relative to benches and luggage?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, several human figures on the platform are indeed replaced by puzzle-piece-shaped elements. These pieces are designed to resemble people in vintage attire, such as top hats and long dresses, and are positioned near benches and luggage. However, not all figures are fully replaced—some individuals retain their original human form, particularly those seated on benches. Moreover, the puzzle-shaped figures themselves show noticeable distortions; for example, limbs appear truncated or misaligned, and postures are inconsistent with anatomical norms. Some figures are fragmented or partially obscured by other elements. While their positions relative to benches and luggage are roughly maintained, the transformation is incomplete and inconsistent across the scene. Thus, the condition of full replacement and absence of distortions is not met.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the fields and hills in the background rendered as clearly defined geometric patterns (e.g., rectangles, triangles) that form a cohesive, interlocking design without gaps, overlapping errors, or abrupt texture changes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background landscape in Image B features fields and hills divided into distinct geometric shapes such as rectangles, triangles, and trapezoids. These shapes are uniformly colored and sharply delineated, creating a mosaic-like effect. The boundaries between them are clean and precise, forming an interlocking pattern that covers the entire terrain without visible gaps or overlaps. There are no abrupt texture changes; instead, each region maintains a consistent color and style, contributing to a harmonious visual composition. This stylization is consistent throughout the landscape, suggesting a deliberate artistic choice to represent the land as a structured, puzzle-like environment. Therefore, the geometric rendering is cohesive and well-executed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the entire scene, including the train, tracks, station, and landscape, placed on a light wooden tabletop with visible wood grain and consistent lighting, and are there no floating elements or mismatched shadows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents the entire scene as if it were constructed on a light-colored wooden surface, evident from the visible wood grain running across the platform, tracks, and even extending into the background. The lighting appears uniform, casting soft shadows beneath objects like benches, luggage, and figures, which align with the direction of illumination. There are no floating elements—the train rests firmly on tracks embedded in the wooden plane, and all structures, including the station buildings and wind turbines, are anchored to this surface. Shadows are consistent with the overhead light source and do not suggest depth inconsistencies or misalignment. The illusion of a three-dimensional diorama on a flat wooden board is convincing, with no visible discrepancies in perspective or shadowing.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

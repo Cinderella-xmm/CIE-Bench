@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_213",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the specific black spots and white markings on the butterfly's wings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the butterfly shows black spots and white markings on its wings. Analyzing these visual elements, they are distinctive and are positioned where one would expect spots and markings to be on a typical butterfly wing. Thus, the butterfly in Image B retains these specific markings, compared to common features observed in butterflies, where black spots and white markings often act as identification patterns. Image A also displays a butterfly with black spots and white markings, typical for wing identification. By comparing this with Image B, despite the pixelated, blocky texture in Image B, the basic pattern arrangement is successfully preserved.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image retain the fuzzy texture of the butterfly's body?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the body of the butterfly appears faceted and block-like, suggesting a pixelation effect. The smoothness and fuzziness typical of a butterfly's body texture are compromised due to this style of rendering. In Image A, the butterfly retains a natural fuzzy texture, commonly associated with butterfly morphology. Comparing Image A to the edited representation, Image B does not maintain the fuzzy texture due to the apparent digital modification that alters the surface appearance.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the butterfly still positioned on the wooden surface in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays the butterfly on a wooden surface that is similar in color and pattern to that observed in naturally occurring wood tabletops. Based on this understanding, the butterfly remains in position as if it were perched on such a surface. In Image A, the butterfly is shown on a wooden surface with similar characteristics, forming a consistent scene between the two images, except for the pixelation effect in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image retain the detailed texture of the butterfly's wings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B's representation of the butterfly exhibits a clear deviation from intricate detail, showing a pixelated and blocky texture, which is the opposite of a highly detailed and fine texture found in nature. In Image A, the butterfly wings are finely detailed, displaying subtle gradients and smooth texture relevant to a butterfly's natural wing structure. When comparing both images, the loss of detailed texture in Image B is evident due to the applied editing effect that simplifies wing detail into larger, less-detailed pixel blocks.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image retain the specific arrangement of spots on the butterfly's wings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing Image B, despite the pixelation, the general arrangement of spots can still be identified. These spots are positioned in a manner consistent with typical butterfly wing patterns, and the overall placement aligns with an anticipated butterfly design. In Image A, these arrangements of spots are more refined and distinct, naturally occurring in structured patterns. Compared to Image A, Image B maintains the essential design layout, albeit in a more abstract form due to the pixelation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

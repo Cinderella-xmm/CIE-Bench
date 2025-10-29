@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0049",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the removal of the second zebra and grassland resulted in a clean transition without visible artifacts or unnatural edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background is replaced with a solid green gradient, which lacks the complexity of the original grassland scenery. However, considering the type of background used, any artifacts or unnatural edges are minimized as the consistency of the color mitigates potential transition issues. Therefore, the transition appears clean without visible artifacts.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the green gradient plane replacing the grass blend seamlessly with the zebra and ground, maintaining natural gradients and avoiding sharp contrasts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not feature a zebra, nor does it feature grass. Therefore, evaluating whether a zebra or grass blends seamlessly into the green gradient is not applicable. Instead, the skier and the color of the snow create a noticeable contrast with the green background, causing a distinct separation between the subject and the plane.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the zebra on the left intact and proportionally correct, with no signs of distortion or unnatural texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not contain a zebra, so analyzing the proportions, distortion, or texture of a zebra is irrelevant. Therefore, the question is not applicable to this image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the details of the zebra's stripes and the ground's texture well-preserved, ensuring high-quality representation without loss of detail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B lacks a zebra, and therefore there are no zebra stripes to preserve. Also, the ground's texture as visible is predominantly snow and lacks any distinguishing features or texture details typically found in backgrounds like grasslands.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the final composition effectively convey a calm and solitary atmosphere without any elements disrupting the visual harmony?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B's simplistic background of a green gradient and the solitary figure gives a sense of isolation, which can convey a calm and solitary atmosphere. However, the stark contrast between the vibrant background and the subject introduces a visual disruption, reducing the harmony.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

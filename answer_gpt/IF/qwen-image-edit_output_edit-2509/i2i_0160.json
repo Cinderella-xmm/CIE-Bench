@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0160",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the background been changed from a sunset to a starry night sky?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background has a dark, deep blue color characteristic of nighttime with scattered stars, indicating a starry night instead of the warm hues typical of a sunset seen in Image A. This is a clear indication that the background has been changed to a starry night sky.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a faint new moon visible in the new background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a crescent shape distinct in the night sky, which is recognized as a new moon. Its presence amidst the stars confirms the existence of a faint new moon in the background.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the image include subtle dreamy effects such as soft lighting or faint clouds to create a dreamy atmosphere?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not explicitly show added dreamy effects like soft lighting or faint clouds beyond the natural transition into a nighttime scene. The light is more subdued compared to the original vibrant sunset but does not distinctly add dreamy stylistic elements.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have the birds remained in their original positions and retained their detailed appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The positioning and detailing of the birds in Image B are consistent with those in Image A. They appear in the same poses with well-defined features, indicating they have remained unchanged in their positioning and detail.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any additional changes to the image apart from the background, new moon, and dreamy effects?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No\n```",
+      "explanation": "Aside from the background shift to night and the addition of the moon, no other elements such as the birds, plants, or their detailing appear altered. There are no new elements or modifications beyond those mentioned.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

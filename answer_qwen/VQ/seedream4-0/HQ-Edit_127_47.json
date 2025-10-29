@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_127_47",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the trees, mountains, and water inside the glass orb correctly proportioned and undistorted despite the spherical enclosure, with no visible warping or bending of vertical lines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The glass orb in Image B acts as a transparent sphere containing a miniature landscape. Due to the physics of refraction through a spherical lens, light bends as it passes through the curved surface, causing objects inside to appear distorted—particularly at the edges where vertical lines would typically curve outward or inward. However, in this image, the trees, mountains, and water within the orb appear almost perfectly proportioned and undistorted, with straight vertical lines preserved. This is physically implausible because a real glass sphere would cause significant optical distortion (like barrel or pincushion effects). The absence of such warping suggests digital manipulation or artistic stylization rather than realistic optics. Therefore, while the scene looks visually pleasing, it violates the laws of refraction expected from a spherical glass container.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the ducks retain their natural body shape and size relative to the water and rocks, with smooth, reflective surfaces that do not show exaggerated shine or unnatural specular highlights?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Inside the glass orb, the ducks are clearly toy-like rubber duckies, not real birds. Their shapes are consistent with common rubber duck designs—rounded, stylized, and slightly oversized for their environment. They float on water that reflects light realistically, but the ducks themselves exhibit bright, uniform specular highlights that suggest artificial lighting or rendering artifacts. These highlights are overly sharp and intense compared to how light would reflect off matte plastic in real life. Additionally, their proportions are inconsistent with natural ducks; they are more cartoonish and larger relative to the surrounding tiny plants and rocks. Thus, while the ducks maintain recognizable forms, their appearance is not naturalistic due to exaggerated reflections and incorrect scaling.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the water beneath the ducks transparent enough to clearly see the rocky bottom, with no visible layering artifacts, texture tiling, or unnatural opacity variations?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The water inside the orb appears clear and turquoise, allowing visibility of the rocky bottom beneath the ducks. The transparency is high, and individual stones are distinguishable without obvious blurring or opacity inconsistencies. There is no evidence of layered textures or repeating patterns that might indicate texture tiling. The gradient of color from top to bottom suggests depth, and the way light refracts through the water seems consistent with shallow, clean water. While slight digital enhancement may be present, there are no visible artifacts such as banding, pixelation, or unnatural transitions in opacity. The clarity and realism of the underwater view are well-rendered, suggesting careful attention to detail in the digital composition.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the miniature animal figurines positioned on solid surfaces (rocks or ground), properly scaled compared to surrounding elements, and free from floating or unnatural shadows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Within the orb, several small animal figurines—a fox and a deer—are placed on rocks and mossy ground. The fox sits firmly on a cluster of pebbles and soil, and the deer stands on a small island-like landmass. Both animals are appropriately sized relative to the rocks and plants around them, maintaining a sense of scale typical of diorama-style miniatures. Their shadows are soft and cast downward, consistent with overhead lighting, and they appear grounded with no floating effect. The positioning and shadowing suggest physical contact with the surface, reinforcing the illusion of a stable, three-dimensional scene. No visual cues indicate levitation or misalignment with gravity or lighting direction.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the wood base have a natural grain pattern and cast a consistent shadow under the orb, indicating physical contact and realistic lighting interaction?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The wooden base supporting the glass orb displays a detailed grain pattern characteristic of a tree stump cross-section, including rings and natural texture variations. The surface shows signs of weathering and organic imperfections, enhancing its realism. A soft, diffused shadow extends from the orb onto the wood, consistent with directional lighting from above. The shadow’s edge is slightly blurred, which matches real-world light diffusion. Moreover, the orb appears to rest directly on the wood, with no gaps or floating impression, and the shadow suggests direct contact. The interplay between light, shadow, and material texture supports a believable physical presence, aligning with realistic lighting principles.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

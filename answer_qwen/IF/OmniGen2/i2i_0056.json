@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0056",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the worker been transformed into a chibi-style 3D cartoon character?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The character in Image B exhibits exaggerated features typical of chibi-style art, such as a large head and small body. The 3D rendering style further confirms this observation. The analysis is based on visual cues like the proportions and design, combined with knowledge of chibi art characteristics.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the chibi-style 3D character wear a yellow hard hat, a fluorescent yellow shirt, and an orange reflective vest?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character is clearly wearing a yellow hard hat and an orange reflective vest over a fluorescent yellow shirt. This conclusion is drawn from observing the colors and shapes of the clothing items, which align with common safety gear for construction workers.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the chibi-style 3D character placed at the center of a low-poly construction scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not depict a low-poly construction scene. Instead, it shows a simple background with no detailed environment. The analysis is based on the absence of any complex or low-poly structures that would suggest a construction setting.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the background a simplified light gray plane with a small crane model included?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B is indeed a simplified light gray plane, and there is a small crane model visible to the left of the character. This conclusion is reached by observing the plain background and identifying the small object resembling a crane.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image maintain a 1:1 composition ratio?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes\n```",
+      "explanation": "Both images appear to have the same square composition, maintaining a 1:1 ratio. This is determined by comparing the dimensions and layout of both images, noting that they are equally proportioned.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

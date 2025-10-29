@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-202907397178837221",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the wooden truss supports of the railway bridge clearly visible and structurally intact?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the railway bridge's supports appear to have a neon color filter that affects its clarity. The details of the truss supports are obscured by the glowing effect, making it difficult to discern structural integrity. This differs from Image A, where the wooden supports are clearer, allowing for easier visual assessment. Therefore, based on the altered visibility due to the color effects in Image B, the truss supports are not clearly visible.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the river present and flowing continuously beneath the bridge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a continuous dark area beneath the bridge, interpreted as the river, though its natural flow appearance is altered by neon color effects. Despite this change in visual presentation, the continuity suggests the presence of a river. Comparatively, Image A features a naturally flowing river beneath the bridge. Thus, the conceptual presence of the river is retained in Image B.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the red-brick buildings with gabled roofs and chimneys visible in the park area?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the saturation and color effects transform the buildings, making it difficult to distinguish their original red-brick texture and details. The area where the red-brick buildings appear in Image A is noticeably altered in Image B, obscuring their distinctive features. Consequently, the original characteristics of the red-brick buildings are indistinguishable.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the green lawns and paved pathways in the park area clearly visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the park area is subject to intense color changes that obscure the natural green and gray of lawns and paths. The neon hues alter their appearance, making it challenging to identify lawns and pathways distinctly. Contrastingly, in Image A, the lawns are bright green and the paths are clearly visible, emphasizing the difference caused by the edits in Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the city skyline located behind the river and bridge, maintaining the original depth order?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Even though Image B's skyline is stylized with neon effects, the layout retains the city's position behind the bridge and river, reflecting the same depth order as in Image A. Despite the visual transformation, the linear perspective remains consistent between both images, maintaining the original spatial arrangement.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are two parallel railroad tracks visible along the length of the bridge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, due to the overwhelming neon effects, the details of the railway tracks, including the parallel lines, are less discernible. Image A clearly shows the two parallel tracks, but the edited version alters their clarity, making it difficult to confirm their visibility. Therefore, the transformation in Image B obscures these details.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.42857142857142855
+}

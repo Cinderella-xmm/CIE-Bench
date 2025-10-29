@@ -1,0 +1,63 @@
+Description of reference image: The subject is a person taking a selfie in a bathroom. The individual has shoulder-length brown hair, uneven bangs partially covering their eyes, and is smiling while holding a phone with a decorated case close to their face. They are wearing a black T-shirt featuring a graphic design, along with a necklace and wristbands. One hand is extended upward with an open palm in a friendly gesture. The background includes a wooden-framed mirror reflecting part of the room, a wooden shelf mounted above the sink, a white sink with a faucet, and some toiletries placed on it. The walls are clad with white tiles.
+
+### Step 1 - Allowed Changes List:
+- The person's pose and facial expression can be simplified into cartoon line art.
+- The general form of the hand gesture, open mouth, and camera position may remain the same, but detailed features can be stylized.
+- A speech bubble reading “Take a photo” can be added.
+
+### Step 2 - Determining Elements That Should Remain Unchanged:
+Thinking process: 
+The core recognition elements here include the person's posture (raising a hand, holding a phone, and showing an open mouth), which define the action and intent even in a cartooned form. Functional/logical association elements include the person's interaction with the phone (holding it correctly to take a photo). Additional elements, such as the overall environment (bathroom setting with recognizable features like a mirror, sink, and shelf), assist in maintaining visual coherence.
+
+Preservation Targets List:
+- The raised hand, open mouth, and phone held near the face.
+- The bathroom setting (mirror, sink, shelf, and visible toiletries).
+- The person's black T-shirt and necklace as major clothing/accessory details.
+- Positional relationship between the person and the background elements.
+
+---
+
+{
+    Q1:
+    Thinking process: The raised hand with the open palm is a core element that indicates friendliness and interaction. Its presence and positioning are crucial for maintaining the intended action and message of the image. Losing this element would eliminate a significant part of the subject's communication.
+    Question:Is the person's raised hand with an open palm still present in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2:
+    Thinking process: The mirror is an integral part of the bathroom setting and provides context for the location. Its presence helps maintain the scene's authenticity and prevents the image from appearing disconnected from its environment.
+    Question:Is there still a wooden-framed mirror visible in the bathroom background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3:
+    Thinking process: The phone in the person's hand is essential for depicting the action of taking a photo. It is a key object that connects the person's posture and expression to the intended activity of photography.
+    Question:Is the person still holding an object resembling a phone near their face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4:
+    Thinking process: The person's T-shirt and necklace are distinctive details that aid in recognizing the individual's style and appearance. Retaining these elements supports the character's identity and visual continuity.
+    Question:Does the person still wear a black T-shirt with a graphic and a necklace?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5:
+    Thinking process: The presence of a sink and faucet is necessary to reinforce the bathroom setting. These elements provide realism and context for the overall scene.
+    Question:Is there still a white sink with a faucet visible in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

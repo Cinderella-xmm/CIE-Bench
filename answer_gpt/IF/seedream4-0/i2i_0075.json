@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0075",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image combine the front and right-side views of the cat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are two distinct views of the cat presented side by side. The left view shows the cat facing forward, directly towards the viewer, while the right view presents the cat's profile, showing its right side. This arrangement visually combines both the front and right-side views in a single image layout.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the cat's facial features clearly visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image (Image B), the facial features of the cat, such as the eyes, nose, and mouth, are clearly depicted in the forward-facing view on the left side of the composition. These features are outlined and detailed in a way that makes them easily recognizable.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the cat's body structure properly showcased in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the forward-facing view shows the cat's body in a resting position with its paws visible, while the side view presents a profile that includes the outline of the body along with the legs. Both views provide an adequate representation of the cat's body structure.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the original color, size, and position of the cat been preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image (Image B) has transformed the original photo into a cartoon-style illustration, altering the color to a more simplified palette with strong outlines, which changes the perception of the original color. The size and position appear adjusted for artistic representation rather than precise replication, showing deviation from the original characteristics and positioning from Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the overall composition free from distortion and inconsistency in integrating both views of the cat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The composition in Image B manages to incorporate both the front and profile views of the cat without visible distortion or inconsistent transitions between the two sections. The segmentation between the views is clear and maintains separate but coherent portrayals of the cat in each distinct view.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

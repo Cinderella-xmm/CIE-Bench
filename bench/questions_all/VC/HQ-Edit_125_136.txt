@@ -1,0 +1,84 @@
+Description of reference image: The subject is an astronaut in a white space suit, positioned centrally and facing the viewer, with the helmet's reflective visor showing a clear reflection of Earth and the lunar surface. The astronaut’s suit features a visible American flag patch on the right shoulder (viewer’s left), a blue NASA insignia patch on the left shoulder (viewer’s right), and detailed mechanical components on the chest, including a life support unit with circular ports and tubing. The helmet has two illuminated side lights, and its reflective visor captures a precise reflection of Earth hovering above the Moon’s horizon. In the background, the International Space Station (ISS) is partially visible, with its solar panels extended outward, set against a star-filled cosmos with nebulae in deep blues and blacks. The ground beneath the astronaut is the Moon’s surface—gray, cratered, and textured with fine regolith. The overall composition suggests a self-portrait-style shot taken on the lunar surface, with the ISS floating nearby in low lunar orbit.
+
+Thinking process:  
+The editing instructions specify retaining the astronaut, Moon, and ISS as existing visual elements, but allow simplification of shapes and texturization of the spacesuit. The style is to shift to a clean vector graphic approach with flat colors and high contrast, adding gold accents. The content must illustrate step-by-step movements of the astronaut interacting with the station using arrows. Text labels “Step 1: Prepare”, “Step 2: Navigate”, “Step 3: Operate” are to be added at the bottom. The layout must remain vertical for clarity.  
+
+Allowed Changes List:  
+- Shape simplification of all elements (astronaut, Moon, ISS)  
+- Texture modification of the spacesuit (texturized → simplified)  
+- Color palette adjustment (flat colors, high contrast, addition of gold accents)  
+- Addition of directional arrows and step labels  
+- Format reorganization into a vertical infographic layout  
+- Simplification of mechanical details on the suit and station  
+- Removal or stylization of complex textures (e.g., regolith detail, nebula texture)  
+
+Step 2 – Determine the elements that should remain unchanged  
+
+Thinking process:  
+Core recognition elements: The astronaut's identity hinges on key visual markers—specifically the presence and placement of the American flag and NASA patches, which are iconic identifiers of U.S. astronauts. These patches must remain identifiable despite any stylistic simplification. The ISS must retain its recognizable structure—its modular segments, solar arrays, and general configuration—to maintain identity. The Moon must remain clearly defined as a cratered, gray planetary body. The Earth reflected in the helmet is a critical compositional element, representing the spatial relationship between Earth, Moon, and astronaut. Its presence in the reflection is essential for narrative coherence and visual storytelling.  
+
+Functional/logical association elements: The astronaut’s position relative to the Moon and ISS establishes context—being on the lunar surface while the ISS floats nearby implies a specific mission scenario. This spatial logic must be preserved even if simplified. The reflective visor showing Earth above the lunar horizon is not just aesthetic; it encodes a scientifically accurate viewpoint, and thus must remain present and correctly oriented. The astronaut’s posture—facing forward with arms slightly bent—suggests readiness for action, supporting the instructional theme of interaction with the station.  
+
+Non-modified element deduction: After excluding allowed changes (simplification, color shifts, layout restructuring), the following must remain:  
+- The existence and correct placement of the U.S. flag and NASA insignia patches  
+- The presence of Earth in the helmet reflection  
+- The ISS’s core structural features (modules, solar arrays)  
+- The Moon’s surface as a cratered, gray terrain  
+- The astronaut’s forward-facing orientation and helmet design (including dual side lights)  
+
+Preservation Targets List:  
+- Presence and location of the American flag patch on the right shoulder  
+- Presence and location of the NASA insignia patch on the left shoulder  
+- Earth visible in the helmet’s reflection, positioned above the lunar horizon  
+- ISS visible in the background with its solar panels and module structure  
+- Cratered texture of the lunar surface beneath the astronaut  
+- Astronaut’s forward-facing posture and helmet with dual illuminated side lights  
+
+{
+    Q1: 
+    Thinking process: The American flag patch on the astronaut’s right shoulder is a core identity feature, distinguishing this astronaut as part of the U.S. space program. Its presence and position are critical for recognizing the astronaut’s national affiliation. If removed or relocated, the astronaut’s identity would be misaligned with known missions. Therefore, this element is essential and weighs 3 points.
+    Question: Is the American flag patch present on the right shoulder of the astronaut?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The NASA insignia patch on the left shoulder is another key identifier, directly linking the astronaut to NASA. It complements the flag and together forms a standard uniform marking. Removing or altering it would compromise the authenticity of the astronaut’s representation. This is a core identity element, hence 3 points.
+    Question: Is the blue NASA insignia patch visible on the left shoulder of the astronaut?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The reflection of Earth in the helmet visor is a unique compositional feature that establishes the spatial relationship between Earth, Moon, and astronaut. It is not only visually striking but also scientifically accurate. Its absence would break the narrative continuity and visual logic of the scene. Thus, it is a critical retention point with a weight of 3.
+    Question: Is Earth visible in the reflection within the astronaut’s helmet visor, appearing above the lunar horizon?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The ISS in the background is a major scene element required by the instruction to be retained. Its distinctive shape—with cylindrical modules and large solar arrays—is essential for identification. Even if simplified, its core structure must remain recognizable. Losing this would violate the requirement to preserve the space station, making the infographic contextually inaccurate. This is a key scene element, thus 2 points.
+    Question: Is the International Space Station visible in the background with its solar panels and modular structure?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The lunar surface beneath the astronaut must remain identifiable as a cratered, gray terrain. This grounds the scene and confirms the setting as the Moon. While texture may be simplified, the presence of craters and the gray tone are necessary for environmental accuracy. This is an important scene detail affecting coherence, so it carries 2 points.
+    Question: Is the ground beneath the astronaut visibly cratered and gray, consistent with the Moon’s surface?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The astronaut’s forward-facing posture and helmet with dual illuminated side lights define the character’s stance and equipment. The lights are functional and symbolic, indicating active systems. Changing their position or removing them would alter the perception of the astronaut’s readiness and visibility. This is a key detail supporting the subject’s identity and function, so it is worth 2 points.
+    Question: Is the astronaut facing forward with both side lights on the helmet illuminated?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

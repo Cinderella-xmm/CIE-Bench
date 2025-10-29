@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_126_32",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the two small human figures visible beneath the tree in the same relative position as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are no human figures visible beneath the tree since the scene has changed dramatically to portray a glowing figure rather than a tree. Therefore, there cannot be any human figures in the same relative position as Image A.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the horizon line present and continuous across the entire width of the image, separating the field from the sky?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the horizon line is indeed present and continuous across the width of the image, delineating where the grass ends and the sky begins above. This is similar to Image A.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the sky retain the gradient transition from pale blue near the horizon to deeper teal at the top?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sky does not exhibit a gradient transition from pale blue to teal. Instead, the predominant color is a darker shade due to the night setting and the luminescent figure in the foreground. Image A has a clear gradient sky from pale blue to teal.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the foreground composed of tall grass with a mix of green and golden-yellow hues, extending toward the tree?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the foreground does consist of tall grass, but the hues are more uniform and darker, matching the night setting of the scene and lacking the golden-yellow hues present in Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the tree located in the center-right portion of the image, dominating the right half of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no tree present as the main focus is the luminescent winged figure at the center of the image, unlike Image A where the tree is dominant in the center-right part.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is there a subtle shadow cast beneath the tree, indicating directional lighting from the upper left?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no tree or similar object to cast a shadow; instead, the glowing figure is illuminated with light emanating from itself, radically altering any shadow dynamics compared to Image A where directional lighting casts shadows around the tree.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.23076923076923078
+}

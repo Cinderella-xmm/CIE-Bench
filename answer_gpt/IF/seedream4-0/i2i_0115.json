@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0115",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the background show a battlefield scene with visible explosive effects?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background explicitly shows scenes characteristic of a battlefield, such as explosions with fiery bursts and billowing smoke, which are commonly associated with explosive effects during conflicts. The presence of destroyed structures and scattered debris further supports this analysis, aligning with typical battlefield imagery.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the character's pose and facial expression identical to those in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B without considering Image A initially, the character's pose appears to be one of surprise or shock, with hands on either side of the head and mouth open. This depiction is well-known from the original artwork and typically signifies an emotional response. Comparing Image A, the visual and thematic continuity of pose and expression is maintained between the two images.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the character remain the primary focus and maintain its prominence within the composition despite the new background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the dramatic and attention-catching background, the character remains central in the composition. The character's distinct colors and pose stand out against the chaotic scene, directing the viewer's attention primarily towards it, which suggests that the character maintains its prominence.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the new battlefield background integrated seamlessly without abrupt transitions or disruptions around the character?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing Image B, the transition between the character and the background is noticeable. Elements like the explosion and debris are directly juxtaposed near the character with fairly defined edges, indicating some lack of seamless integration. Such abrupt transitions can disrupt the visual flow, revealing the edited nature of the background.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are elements commonly found in a battlefield scene, such as soldiers, smoke, or debris, present in the new background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly depicts a scene with typical battlefield features: explosions are visible, generating smoke clouds, and debris covering the ground conveys destruction. These elements are frequent indicators of a conflict zone, thus aligning with battlefield characteristics.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

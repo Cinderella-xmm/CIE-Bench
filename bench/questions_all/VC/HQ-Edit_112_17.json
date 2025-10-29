@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The claw hammer is the most iconic object in the image. Its **claw-shaped end** and **dual-headed structure** (flat face and curved claw) are core identity features distinguishing it from other hammers or tools. If these shapes are altered (e.g., rounded claw, single head), the object would no longer be recognizable as a claw hammer. Since the instruction allows material change but not form, this shape must be preserved. It is a key identifier and thus weighs 3 points.",
+      "question": "Does the hammer retain its claw-shaped end and dual-headed structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The chisel is defined by its **flat, rectangular blade** with a **beveled edge** and **wooden handle**. The blade's geometry is essential for identification. Even if made of enamel, the blade must remain flat and rectangular. Altering this shape (e.g., rounding edges or making it pointed) would misidentify the tool. This is a functional and visual core feature, critical for recognition, hence weight 3.",
+      "question": "Does the chisel retain its flat, rectangular blade with a beveled edge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The file is identifiable by its **long, straight, narrow shape** with a **serrated surface**. This form is necessary to distinguish it from a knife or scraper. The instruction does not mention altering its shape, only material. Thus, the elongated, straight form must be preserved. It is a key functional element, and losing it would break the tool's identity. Weight 3.",
+      "question": "Does the file retain its long, straight, narrow shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The arrangement of tools shows **spatial relationships** that imply usage context. The hammer is placed diagonally across the frame, intersecting with the chisel and file. This layout is not random—it suggests a work-in-progress scene. Changing the positions (e.g., placing hammer vertically) would disrupt the narrative logic. Though background changes, this relative positioning is crucial for scene consistency. Weight 2.",
+      "question": "Are the tools positioned in the same relative arrangement as in the original image (e.g., hammer diagonal, chisel crossing file)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Wood shavings are present in specific locations—near the hammer and chisel—and have a **curled, ribbon-like shape**. Their **distribution** and **form** suggest recent carving. Even if transformed into enamel, their **shape and location** must be preserved to maintain visual coherence. The number and general curvature are important details. Weight 2.",
+      "question": "Do the shavings retain their curled, ribbon-like shape and approximate distribution around the tools?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The number of tools is a key detail. There are exactly **five distinct tools** visible: hammer, chisel, file, pry tool, and wrench. Removing or adding any would alter the scene’s completeness. The instruction specifies replacing them, not changing count. Thus, the total number must remain unchanged. This is a minor but essential detail for fidelity. Weight 1.",
+      "question": "Are there exactly five tools present in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The **wrench-like tool** has a distinctive **open-ended jaw** and **metal shaft**. This form identifies it as a specific tool. Even if made of enamel, its shape must be preserved. Losing this feature would make it unrecognizable. It is a unique identifier among the tools. Weight 2.",
+      "question": "Does the wrench-like tool retain its open-ended jaw and metal shaft shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

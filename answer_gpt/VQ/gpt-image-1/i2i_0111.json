@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0111",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain authentic swirl patterns and color transitions in the night sky, maintaining its style and materials without introducing unnatural textures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the swirl patterns of the night sky are maintained, resembling the well-known style of Van Gogh's 'Starry Night' despite the glow-in-the-dark effect. World knowledge of Van Gogh's technique helps identify authentic brush strokes. The texture appears natural but the color transitions are replaced with a uniform green to achieve the glow effect, which is not a typical choice for authenticity, thus introducing an unnatural texture in terms of color shift.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the proportions and alignment of key elements such as the cypress tree and the village preserved correctly in the bedroom scene, ensuring structural consistency and visual credibility?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B indicates that the proportions and alignment of elements like the cypress tree and village remain consistent with their original depiction in Van Gogh's painting. Comparing with Image A, these elements are structurally consistent, maintaining visual credibility in terms of shape and position within the scene.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the church steeple and stars maintain their crisp details and natural appearance in the wall sticker, avoiding unnatural distortion or loss of detail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Looking at Image B, while the outline of the church steeple and the positioning of stars are preserved, the details are muted due to the glow effect that applies a uniform green. Although this effect generally lessens sharpness, the uniform coloring doesn't lead to a detailed appearance, deviating from Image A where natural detailing exists.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the colors used for the glow-in-the-dark effect create a natural and visually plausible appearance, harmonizing well with the bedroom environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Within Image B, the green glow effect on Van Gogh's 'Starry Night' appears dominant and striking against the dark background. While the glow effect is intended, its color may seem alien to the natural colors expected within the painting or bedroom environment. Such a singular color could clash rather than harmonize with the typical bedroom aesthetics, revealing an implausibility in visual coherence.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the shapes and forms of elements like the clouds and moon preserved accurately in the edited image, avoiding any damage or unnatural distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the shapes of the clouds and the moon are preserved accurately compared to Image A. Despite the glow-in-the-dark effect, they maintain their iconic forms without visible distortion or damage, retaining their essence as depicted in the original painting.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

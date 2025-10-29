@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_127_39",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the four-legged base of the Eiffel Tower with a central archway present and clearly visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the central structure that resembles a figure with glowing elements is not similar in design to the Eiffel Tower. The distinctive four-legged base and central archway typically found in the Eiffel Tower are absent in Image B. There is no visual structure matching the iconic design of the Eiffel Tower in the edited image. Therefore, the structure in Image B does not have the four-legged base and central archway typical of the Eiffel Tower.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the classical-style building visible through the central arch of the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not feature an archway or structure through which another building can be seen. Instead, it has a large, unique figure that doesn't provide a view through any arch as the Eiffel Tower does. The classical-style building visible through the arch in the original Eiffel Tower image cannot be seen in the edited image due to the absence of such a structure.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the symmetrical rows of trimmed green hedges present along both sides of the foreground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, symmetrical rows of trimmed green hedges are visible and appear to match the description. They are placed on either side of the large structure in the edited image, similar to traditional landscaping maintained in such gardens. This interpretation is consistent with common garden designs found in similar environments.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there people visible sitting or walking on the grassy field in front of the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The grassy field in front of the structure in Image B does not appear to show people sitting or walking. The focus of the image is on the large figure without any noticeable individuals on the grass, unlike in Image A where people are clearly present. Given the lack of detailed visibility of people in Image B, the answer is concluded based on this absence.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the sky gradient transitioning from deep blue at the top to orange near the horizon present?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The sky in Image B shows a smooth gradient transitioning from a deep blue at the top to an orange hue near the horizon. This visual matches the description and indicates a typical evening or sunset scene. Despite the changes in subject matter, the atmospheric sky effect remains similar to a natural gradient transition.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the embedded lights illuminating the hedges visible as glowing spots?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays glowing spots embedded within the symmetrical rows of hedges, matching the description of lights illuminating these hedges as seen in the original image. This aligns with typical park lighting arrangements where lights are often used to highlight landscaped features. Thus, the visual element of glowing lights is present.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

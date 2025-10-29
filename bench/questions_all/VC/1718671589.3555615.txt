@@ -1,0 +1,112 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a large, classical-style government or institutional building featuring a prominent central dome with a metallic silver finish and a golden star at its apex. The structure is constructed from light gray stone or concrete, with symmetrical rectangular windows arranged in vertical rows across multiple floors. The base includes a portico with tall columns supporting an entablature. The building has a square plan with rounded corners on the upper levels, leading into the dome. It is situated in a wide open area with a paved road in the foreground and grassy lawns surrounding it. Two large deciduous trees with golden-yellow autumn foliage frame the scene on either side, while smaller trees are visible in the background. The sky is overcast with soft, diffused lighting, contributing to a calm, slightly melancholic atmosphere.
+
+Thinking process:  
+The editing instruction explicitly transforms the entire architectural form and environment into a candy-themed gingerbread wonderland. Key transformations include:
+- Replacing the building's walls with spiced biscuit panels
+- Replacing the dome with a sugar-glazed cinnamon dome
+- Decorating windows and doors with icing patterns
+- Converting surrounding trees into candy sculptures with sugar-coated leaves
+- Placing the entire structure on a smooth marble slab
+
+These changes indicate that **the material composition**, **surface textures**, **color palette**, and **environmental context** are all intended for transformation. However, the instruction does not mention altering the **overall shape**, **proportions**, **architectural layout**, or **spatial relationships**—only their **material representation**. Thus, the structural form and spatial configuration remain implicitly preserved.
+
+Allowed Changes List:  
+(Specific element 1 that allows for changes)  
+- Building wall material (to spiced biscuit panels)  
+- Dome material and surface (to sugar-glazed cinnamon dome)  
+- Window and door decoration (to intricate icing patterns)  
+- Tree appearance (to candy sculptures with sugar-coated leaves)  
+- Ground surface (to smooth marble slab)  
+- Overall color scheme and texture (to confectionery aesthetic)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements must be retained if they define the identity of the structure. Despite the fantastical transformation, the **iconic architectural form**—including the **dome**, **central tower**, **symmetrical window grid**, **columned portico**, and **star-topped spire**—are essential for recognizing the original building’s identity. These are not just decorative but serve as **visual anchors** for public recognition of such neoclassical structures.
+
+Functional/logical association elements:  
+The **relative positioning** of the building within the scene—its placement behind the road, flanked by two large trees, and centered in the frame—is crucial for maintaining visual coherence. Changing this layout would disrupt the spatial logic of the original composition. Furthermore, the **orientation of the dome atop the central structure** and the **alignment of windows** must remain consistent to preserve architectural integrity.
+
+Non-modified element deduction:  
+Although materials and textures are replaced, the **shape and arrangement of windows**, the **number and placement of columns**, the **height ratio between base and dome**, and the **position of the golden star** are not mentioned for change. Therefore, these **structural forms** must be preserved even if rendered in new materials.
+
+Preservation Targets List:  
+- The presence and position of the central dome  
+- The star-shaped finial atop the dome  
+- The symmetrical arrangement of rectangular windows across the facade  
+- The columned portico at the ground level  
+- The overall square-plan geometry of the building with rounded upper corners  
+- The relative positioning of the two large framing trees on either side of the building  
+- The straight alignment of the road in front of the building  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1:  
+    Thinking process: The central dome is the most iconic feature of the building, defining its architectural identity. Its spherical shape and central placement are critical for recognition. Even if transformed into a cinnamon dome, the **spherical shape and axial position** must be preserved to maintain the building’s core identity. This is a key identifier, so its retention is essential.
+    Question: Is the central dome present and positioned directly above the main structure?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2:  
+    Thinking process: The golden star atop the dome is a distinctive symbolic element, serving as a visual landmark. Its presence at the peak of the spire is crucial for identifying the building’s unique silhouette. Even in a candy-themed version, the **presence and location** of the star must be preserved to retain the original’s identity.
+    Question: Is there a golden star located at the very top of the dome’s spire?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3:  
+    Thinking process: The symmetrical pattern of rectangular windows across the façade defines the building’s formal design. Their number, spacing, and alignment contribute to the structure’s balance and recognizability. Altering this grid would fundamentally change the building’s appearance, so the **window layout** must remain intact.
+    Question: Are the windows arranged in a symmetrical grid pattern across the building’s front face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4:  
+    Thinking process: The columned portico at the base is a functional and architectural hallmark of neoclassical buildings. Its presence and position at the entrance establish the building’s grandeur and formal entry. Even if made of biscuit, the **existence and alignment of the columns** must be preserved to maintain structural authenticity.
+    Question: Is there a row of vertical columns forming a portico at the ground level of the building’s front?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5:  
+    Thinking process: The two large trees framing the building on the left and right sides create a balanced composition and anchor the scene. Their **position relative to the building** and **height proportion** are important for visual harmony. While their material may change, their **placement and size relationship** must remain consistent.
+    Question: Are there two large trees with golden-yellow foliage positioned symmetrically on both sides of the building?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6:  
+    Thinking process: The road in front of the building provides spatial context and leads the viewer’s eye toward the structure. Its **straight alignment** and **position relative to the building’s base** are essential for maintaining the original perspective and depth. Even if the surface changes, the **road’s linear path and placement** must be preserved.
+    Question: Is there a straight paved road running in front of the building, parallel to its base?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q7:  
+    Thinking process: The building’s overall shape—a square base with rounded upper corners leading into the dome—is a defining geometric feature. This **transition from rectilinear to curved form** is unique to the design and must be preserved to avoid misidentification. Even with candy materials, the **outline and volume** must remain unchanged.
+    Question: Does the building have a square base with rounded corners on the upper levels before transitioning into the dome?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}

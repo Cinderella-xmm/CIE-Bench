@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The green grass background is a core environmental feature that defines the setting of the original image. It is not mentioned in the editing instruction as something to be changed, and preserving it ensures the scene remains coherent and realistic. The texture and color of the grass are visually distinct and serve as a baseline for the entire composition. Losing this would fundamentally alter the context and make the image unrecognizable as a continuation of the original. Therefore, this is a high-weight element.",
+      "question": "Is the background composed of green grass with visible blades and natural texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The lighting in the original image is soft and natural, suggesting daylight with subtle shadows beneath the dog and banana. This lighting contributes to the realism and three-dimensionality of the scene. Since the instruction requires a “realistic look,” the lighting conditions must be preserved to maintain plausibility. Altering the lighting (e.g., adding harsh artificial light) would break the visual consistency. Thus, this is an important but not defining element.",
+      "question": "Are there soft shadows cast by the subject(s) onto the grass, consistent with natural outdoor lighting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The positioning of the subject(s) on the grass surface is critical for maintaining logical spatial coherence. The original image shows both the dog and banana resting on the ground. Even after blending, the fused form must remain grounded on the grass to preserve environmental logic. If the subject were floating or elevated without support, it would violate the original scene’s realism. This is a functional element tied to the scene’s integrity.",
+      "question": "Is the fused form positioned directly on the grass surface, with contact points visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The color of the grass is a key visual identifier of the environment. The original image features a vibrant green hue with slight variation in tone, typical of healthy lawn grass. Changing this to another color (e.g., blue or gray) would distort the scene’s realism and identity. While not as central as the subjects, the grass color is a foundational detail that supports visual consistency.",
+      "question": "Is the grass predominantly green with natural variations in shade and tone?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The overall color palette of the image includes the tan fur of the dog, the yellow peel of the banana, and the green grass. These colors are distinctive and contribute to the image’s visual harmony. Even though the dog and banana are blended, the resulting form should retain a combination of these colors to reflect the original components. A significant shift in color scheme (e.g., turning the fusion purple) would lose the connection to the source elements. This is a secondary but meaningful detail.",
+      "question": "Does the fused form incorporate both yellow and tan hues, reflecting the original banana and dog colors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The texture of the grass is a fine detail that adds realism to the scene. Individual blades are visible, and the surface appears slightly uneven. Preserving this texture helps maintain the authenticity of the environment. While not a core identity feature, it contributes to the overall fidelity of the image. Loss of texture would make the background appear flat or artificial.",
+      "question": "Are individual blades of grass visible in the foreground and midground, contributing to a textured surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

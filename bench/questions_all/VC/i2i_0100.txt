@@ -1,0 +1,67 @@
+Description of reference image: 
+The subject is a bathroom vanity setup featuring a double-sink arrangement with a white shaker-style cabinet. The countertop is made of marble with a light beige tone. Two black faucets and matching handles complement the design. Above the sinks are two large rectangular mirrors framed in black, accompanied by wall-mounted lights that cast a warm glow. A decorative metallic gold planter with green foliage sits on the left side of the countertop. The walls are painted white, providing a clean and minimalist backdrop. A towel hangs neatly on a black towel ring mounted on the right wall.
+
+Thinking process: 
+The editing instructions indicate a transformation of perspective, requiring a top-down and angled side view illustration of the sink structure. This primarily affects the layout and orientation while retaining the core elements like the sink, faucets, and cabinetry. The background and certain scene elements may be altered or removed due to the new perspectives.
+
+### Allowed Changes List:
+1. Perspective of the vanities: changing the current frontal view to a top-down and angled side view.
+2. Background details: simplifying or omitting non-essential elements like the wall-mounted lights, mirror reflections, and towels due to new viewing angles.
+3. Layout proportions: adjusting the relative sizes and positions of the sink components and cabinetry to fit the new perspectives.
+
+### Thinking process:
+Core recognition elements include the sink basins, the shaker-style cabinets, the light-colored marble countertop, and the black faucets. These define the subject's identity as a double-sink vanity unit. Functional/logical elements include the logical placement of faucets over the sinks and the consistent cabinet design across both views. Non-modified elements like the gold planter and wall-mounted towel ring contribute to scene coherence and should be retained unless their presence disrupts the new perspective.
+
+### Preservation Targets List:
+1. The form and design of the double sink basins.
+2. The shaker-style white cabinetry.
+3. The light-colored marble countertop texture and color.
+4. The black faucet design and placement.
+5. The general layout and alignment of the vanity compartments.
+
+---------------------------------------------------------------------------------------
+
+{
+    Q1: 
+    Thinking process: The shaker-style cabinetry is an iconic feature of the vanity, pivotal for recognizing the original design. Losing this detail would compromise the core identity, thus warranting a high weight.
+    Question: Are the cabinet doors and drawers designed in a shaker style in both views?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The sink basins' design and positioning are critical for maintaining the functional essence of the subject. Any change here would significantly alter the sink area's identity.
+    Question: Do both the top-down and side views show two rectangular sink basins with consistent dimensions?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The black faucet design is a distinctive accessory that complements the overall aesthetic. Its presence supports the identity without being the primary focus, thus earning a moderate weight.
+    Question: Are the black faucets present above each sink basin in both views with the correct orientation?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The light-colored marble countertop contributes heavily to the overall aesthetic, serving as a recognizable background element. A slight deviation in color or texture could still preserve coherency, hence a lower weight.
+    Question: Is the countertop depicted in both views as a light-colored marble texture?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: While secondary, the precise arrangement of the vanity compartments, including their size and spacing, ensures visual consistency across both perspectives. Minor changes might be tolerable, but preserving the exact layout helps maintain coherence.
+    Question: Are the compartments (drawers and cabinets) arranged in the same manner in both the top-down and side views, mirroring the original layout?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

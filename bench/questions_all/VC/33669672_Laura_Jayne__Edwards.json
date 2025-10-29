@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The turquoise background is explicitly required to be retained as a “matching turquoise base” in the editing instruction. It serves as the foundational color field and spatial context for the entire composition. Its removal or alteration would violate the directive to maintain cohesion. Since it is a key environmental anchor and directly tied to the instruction, its preservation is critical for visual consistency.",
+      "question": "Is the background a solid turquoise color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The overall color palette—specifically teal dress, red boots, pink and white flowers, black hair—is central to the original image’s identity. The instruction mandates retaining this palette in metallic tones, indicating that while textures may change, the **colors themselves must be preserved**. Losing any primary hue (e.g., replacing teal with gold) would break the visual link to the source.",
+      "question": "Are the dominant colors teal, red, pink, white, and black present in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The diagonal pose with the right arm extended forward and the left leg stepping back defines the dynamic energy of the image. This posture is not just aesthetic—it establishes movement and balance. The instruction asks to emphasize graceful movement, which implies that the **spatial relationship** of limbs must be preserved, even if elongated. Altering this pose fundamentally would result in a different composition.",
+      "question": "Is the subject in a diagonal stance with the right arm extended forward and the left leg behind?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The boots are adorned with decorative elements in the original image. Though the instruction says to replace floral details with geometric patterns, it does **not** say to remove adornments. Therefore, the **presence** of decoration on the boots must be preserved. Their location—on the sides and tops of the boots—must also remain consistent to maintain functional logic (i.e., boots as decorated fashion items).",
+      "question": "Are there decorative elements attached to the boots?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The high-heeled structure of the boots is a defining feature of the footwear. Even when transformed into a bronze sculpture, the **silhouette of the heel** must remain recognizable as a stiletto or high heel to preserve the original fashion statement. Changing it to flat or chunky would alter the functional and stylistic intent.",
+      "question": "Do the boots have high heels?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The wrist area features multiple bracelets on the right hand and a floral charm on the left forearm. These accessories are part of the subject’s personal styling and contribute to the image’s detailed character. The instruction does not mention removing them, only replacing floral motifs. Thus, the **presence of bracelets on the wrists** must be retained, even if their design changes.",
+      "question": "Are there bracelets on the subject’s wrists?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The subject’s long black hair is a key visual trait contributing to the silhouette and movement. While the instruction allows for stylization, it does not permit removal. Hair plays a role in framing the face and enhancing the sense of motion. Retaining its **length and dark color** ensures continuity in appearance.",
+      "question": "Does the subject have long black hair?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

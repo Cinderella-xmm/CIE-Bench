@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0166",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has a poem been added at the bottom of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is white text at the bottom left corner, which appears to be a poem or a phrase. The elements of this text are distinct and visible on the image, indicating that something has been added to the original picture.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the poem exactly read: “A beam of morning light, a soft whisper, an unnamed yellow bird perching on a branch”?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text in Image B reads: 'A beam of morrling light, a sof wiyssr, an y an unend perchhg on perich a bhack.' This doesn't match the exact wording provided in the question. There are several spelling differences present.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the poem placed at the bottom section of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The white text, which can be identified as a poem or phrase, is located at the bottom left section of Image B. This is based on the visual layout, which shows the text being aligned at the bottom, parallel to the lower edge of the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the image quality been maintained after adding the poem?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The quality of the image seems to be generally well-maintained in terms of color, focus, and composition. Though text has been added, it doesn't intrusively alter or distort the main visual elements or the quality of the image as observed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the font style of the poem complementary to the artistic tone of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The font style of the text in Image B is simple and clear, positioned against a soothing natural scene. Despite being simple, it doesn't clash with the visual elements or overwhelm the aesthetics. Hence, it complements the image without being distractive or stylistically incompatible.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

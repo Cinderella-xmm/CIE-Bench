@@ -1,0 +1,84 @@
+{
+  "filename": "laion_926047648418539754",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the model’s original facial features, including dark eyes, defined cheekbones, and full lips?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the face is visibly blurred, thus obscuring any specific facial features like dark eyes, cheekbones, or lips. Based on these visual cues, it is clear that details of facial features cannot be discerned. Therefore, the facial features are not retained in the edited image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the model’s long, straight black hair parted down the middle still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the model's hairstyle is clearly visible. The hair appears to be long, straight, and parted down the middle, similar to typical hairstyles seen in fashion representations, suggesting the retention of the original hairstyle. Comparison with Image A confirms the same hairstyle is present.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the wide silver crystal choker necklace still visible around the model’s neck?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a clear depiction of a wide silver crystal choker necklace around the model's neck. By independently analyzing Image B, this piece of accessory does appear to be maintained, corroborated by visual assessment of Image A, which show similar features.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the model maintain the same upright stance with hands clasped at the waist and legs slightly apart?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the model’s posture is upright, with hands positioned near the waist and legs slightly apart. The stance description aligns closely with classic standing poses in fashion photography. A similar posture is observed in Image A, confirming the stance has been preserved in the edited image.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are both hands positioned together at the waist, holding the bag handle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, both hands of the model appear to be together, positioned near the waist, and holding the handle of the bag. This is consistent with commonly observed positions when handling small handbags. The same arrangement is noted in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the model’s natural skin tone and body proportions preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, the model's skin tone and body proportions appear to be largely preserved, albeit stylized. The visual representation aligns with typical illustrations meant to maintain original body proportions, confirmed by the natural skin tone visible in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.75
+}

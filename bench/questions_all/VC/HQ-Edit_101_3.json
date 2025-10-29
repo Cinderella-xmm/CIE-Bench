@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The vibrant yellow color is explicitly required to be preserved in the edited version (\"keeping its vibrant yellow color\"). This is the primary identifier of the bird in the original image, and changing it would fundamentally alter its identity. The yellow is not just a tone but a saturated, luminous hue that makes the bird stand out against the background. Thus, preserving this color is essential for maintaining visual consistency and brand identity.",
+      "question": "Is the bird rendered in a vibrant yellow color matching the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The black striped pattern on the wings is a defining morphological feature of the bird in the original image. It distinguishes it from other yellow birds and adds visual contrast. Although the instruction allows stylization, the presence of contrasting black lines within the yellow wing area is necessary to maintain the bird’s identity. Removing or altering this pattern would make it unrecognizable.",
+      "question": "Are there distinct black stripes visible on the bird’s wings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The round black eye with a reflective highlight is a key facial feature that gives the bird expression and realism. In an illustrated emblem, the eye may be simplified, but its presence and shape must remain to preserve the bird’s character. Without it, the bird would lose its distinct look and become generic.",
+      "question": "Does the bird have a clearly defined round black eye?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The cherry blossoms are required to be used as motifs in the design. Their five-petal structure and soft pink color are essential for accurate representation. Even in stylized form, the petal count and color must be retained to ensure they are recognizable as cherry blossoms. Losing this detail would break the nature-infused theme.",
+      "question": "Are the cherry blossoms depicted with five rounded petals and a pale pink color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The bird’s feet are orange-yellow, matching the overall color scheme and adding to its natural appearance. While not the most critical feature, their color and position contribute to the bird’s anatomical accuracy. Changing them to another color or omitting them would reduce visual coherence and make the bird appear unnatural.",
+      "question": "Are the bird’s feet orange-yellow in color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The bird is shown perched on a branch, which is a key contextual element in the original image. Although the branch may be stylized or removed in favor of a clean design, the instruction implies the bird is central and associated with nature. However, since the instruction does not require the branch to be present, and it may be omitted in favor of a minimalist design, this is not a required retention. But since the bird is described as perched, and the feet are gripping something, the **posture of gripping** must be preserved to show it is resting. Therefore, the **gripping pose** of the feet is important.",
+      "question": "Are the bird’s feet positioned as if gripping a branch?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

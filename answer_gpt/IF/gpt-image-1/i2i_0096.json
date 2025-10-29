@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0096",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image show a left-side 90-degree view of the sofa alongside the front view?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a clear representation of the front and a portion of the side view of the sofa. The side view extends towards the right end of the image, showing a sectional aspect. The sofa's arm and side cushioning are visible, but it's not a full 90-degree side view; it's more an angled view. A full 90-degree side view would have the side facing the viewer directly, which is not the case here. Therefore, it cannot be considered a left-side 90-degree view alongside the front view.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the dimensions of the sofa consistent between the front and left-side views?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the dimensions of the sofa appear proportionate between the front and side views as it transitions smoothly to the sectional end on the right. The sectional dimensions are coherent with the visible structure, offering a good representation of an L-shaped or sectional sofa where portions maintain consistent scale relative to each other.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the transition between the front and side views of the sofa smooth and coherent?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The transition in Image B appears smooth and coherent. The placement and perspective of the sectional side transition naturally from the front view, maintaining alignment without any visible distortion or unusual interruptions in the flow of the sofa's design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the lighting and shadows on the sofa consistent in both the front and side views?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting and shadows cast upon the sofa appear consistent across both views. The sunlight coming in from the left creates a coherent shadow pattern following the sofa's contour, indicative of a unified light source affecting both the front and side views similarly. These shadows are soft and fit the expected style given the angle of illumination visible through the window.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do objects around the sofa (e.g., wall art) appear correctly scaled and positioned relative to the combined view?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the wall art above the sofa proportionately scaled and centered over both the front and side sections. The artwork fits well into the positioning with sufficient clearance on all sides, and the overall scale is balanced with the size of the sofa and room fixture, consistently matching the given views.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

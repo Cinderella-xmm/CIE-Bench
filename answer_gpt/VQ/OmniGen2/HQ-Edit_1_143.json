@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_1_143",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the facial features of the scientist proportionally accurate and free from exaggerated or distorted shapes such as elongated eyes, misaligned nose, or uneven lip contours?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the face is blurred, preventing an accurate assessment of the facial features' proportions. Since we cannot observe the details of the facial features, a judgment on proportional accuracy cannot be made.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the lab coat exhibit natural fabric folds and subtle shading consistent with real-world draping, without appearing uniformly flat or lacking depth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lab coat is illustrated in a simplified and stylized manner, characteristic of graphic art. While it lacks the complex folds and shading found in realistic images, it appropriately fits the style of illustration intended for the context, such as a poster or infographic. Given this art style, it does not aim for realism but effectively conveys the image of a lab coat.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the hand holding the pipette have exactly five fingers with natural curvature and spacing, and are the joints and knuckles positioned realistically?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the depiction is stylized as an illustration of a scientist with hands not specifically shown with details. The character stands with hands in pockets, focusing instead on the overall portrayal and thematic elements rather than anatomical accuracy.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the test tubes display uniform liquid levels and clear glass surfaces with coherent reflections and refractions, without visible texture distortions or broken geometric outlines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents an illustrative, simplified representation of scientific equipment, including test tubes. They are depicted with uniform levels and simple designs typical for graphic art, where precise reflections and refractions are not typically rendered. The aim is clarity and thematic conveyance rather than detailed realism.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the components of the microscope and adjacent control panel correctly aligned and proportionally scaled, with no misplaced parts or floating elements that violate physical logic?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not include the detailed depiction of a microscope and control panel. The artistic focus is more on the representation of the scientific theme rather than detailed equipment design. The illustration presents elements in alignment with graphic design rather than mechanical accuracy.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_993",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the chibi character maintain the same pose and clothing details as the original image without introducing unnatural distortions or artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi character is depicted in a stylized, cartoonish form with exaggerated proportions typical of chibi art. While the character wears black clothing similar to the original image (black top and pants), the pose is significantly altered. In Image A, the person is in a wide, grounded martial arts stance with arms extended outward, indicating balance and focus. In contrast, the chibi version is sitting on the edge of an Instagram frame with legs spread apart and arms raised in a more playful, less structured manner. This change in pose deviates from the original's dynamic posture. Additionally, the facial expression and hand positioning are simplified and not consistent with the original. Therefore, despite the similar clothing, the pose and overall body language are not preserved, resulting in a distortion from the original.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the textures and fine details of the chibi character's clothing and skin natural and consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The chibi character in Image B features smooth, simplified textures typical of 3D-rendered cartoon characters. The clothing appears uniformly black with no visible fabric texture, wrinkles, or shading that would reflect real-world material properties. In comparison, the original image (Image A) shows realistic fabric folds, subtle lighting effects on the clothing, and natural skin tones with slight variations due to lighting. The chibi version lacks these fine details and instead uses flat, idealized surfaces for both skin and clothing. While this is stylistically appropriate for chibi art, it does not match the realism and texture fidelity of the original image. Thus, the textures and details are not consistent with the original.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the proportions and physical rationality of the chibi character's hands and legs match the original image without distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi character exhibits exaggerated proportions common in anime-style designs: large head, small body, oversized hands, and disproportionately long limbs relative to the torso. The hands are notably large compared to the body, and the legs appear elongated and bent at unnatural angles as they dangle over the edge of the frame. These features deviate from the anatomical proportions seen in Image A, where the human figure has realistic limb ratios and balanced joint positions. While such distortions are intentional in chibi art, they do not preserve the physical rationality or accurate proportions of the original image. Hence, the character’s limbs are distorted compared to the original.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the placement of the chibi character sitting on the edge of the Instagram frame look natural and visually plausible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The chibi character in Image B is positioned as if sitting on the bottom edge of a stylized Instagram interface. This setup is clearly symbolic and artistic rather than physically plausible. The character appears to be floating slightly above the surface, with feet dangling and no visible support beneath them. However, the rendering includes shadows and depth cues that suggest a three-dimensional interaction between the character and the frame. Despite this, the idea of a 3D animated figure literally sitting on a digital interface is inherently surreal and not grounded in real-world physics. It functions well as a creative metaphor but lacks visual plausibility in a literal sense. Therefore, while visually engaging, the placement is not naturally plausible.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the social media icons and the username \"Graceful\" integrated seamlessly into the scene without disrupting the natural appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The social media elements—such as the Instagram logo, username 'Graceful', like and comment icons—are rendered in a clean, cartoonish style that matches the aesthetic of the chibi character. They are placed around the frame in a way that mimics actual Instagram UI interactions, with floating hearts and thumbs-up symbols suggesting engagement. These elements are stylistically consistent with the overall design and do not clash with the character or background. There is no visible pixelation, misalignment, or awkward layering; instead, they appear intentionally designed as part of a cohesive digital scene. While they are not real-world objects, their integration respects visual harmony and thematic coherence. Therefore, they are seamlessly incorporated into the composition.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.2
+}

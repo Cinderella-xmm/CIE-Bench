@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0142",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is there a top view of the baseball and glove included in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, there are four quadrants showing different views of a baseball glove and a ball. The bottom left quadrant shows an overhead shot, which displays the inner part of the glove with the ball not visible. This is considered a top view as it provides a perspective from above the glove.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a side view of the baseball and glove included in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image features the top right and bottom right quadrants, which display a side view of the glove and baseball. These views present the glove and partially reveal the baseball from a side perspective, matching the typical representation of a side view.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a sectional view of the baseball and glove included in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "A sectional view would typically imply a cut or opening showing the inside structures of an object. The edited image does not provide any such views, as all perspectives depict the glove and ball in their entirety without revealing internal structures through a sectional cut.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the views of the baseball and glove clear and detailed enough for product catalogs or sports equipment manuals?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image presents multiple perspectives, each highlighting different aspects of the glove and ball. The visual quality is high, with clear details of the textures and shapes making it suitable for catalogs or manuals. The diverse angles allow a comprehensive understanding of the product's design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the colors and textures of the baseball and glove accurately preserved in all views?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In each quadrant of the edited image, the leather texture of the glove and the stitching of the baseball are clearly visible, with consistent colors across different views. This suggests that the colors and textures are well-preserved, maintaining realistic depictions in each image section.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

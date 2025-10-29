@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-6291977903332652716",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the buildings and water surface inside the sphere free from unnatural bending or warping at the edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "First, analyzing Image B, the buildings inside the sphere seem to follow the natural curvature of the sphere with a slight expected distortion due to the glass. This suggests that there isn’t unnatural bending but rather the expected spherical distortion. In image A, the buildings appear straight as expected from the perspective shot without any distortion. Thus, when comparing the two, the bending observed in Image B is an expected optical effect of placing the scene inside a sphere rather than being unnatural warping.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the wooden beams and stucco surfaces of the houses retain clear, natural textures without pixelation or repeating patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, the wooden beams and stucco surfaces are consistently detailed, showing no signs of pixelation or repeating patterns, maintaining clarity and realistic textures. In Image A, similar textures are observed. As both images effectively maintain the realistic look and detailing without any digital artifacts, the textures appear naturally conveyed across both images.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the water surface show smooth, continuous reflections of the buildings and sky without excessive glare or broken mirror-like effects?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the water surface inside the sphere reflects the buildings and sky smoothly and continuously. The reflection aligns with the realistic representation of the scene, avoiding any excessive glare or broken mirror-like effects. Comparing to Image A, similar smooth and continuous reflections are noted. As both images maintain realistic reflections, Image B successfully captures the scene’s essence without distortion in the depiction.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the added mini bridges connected to both banks and do the plants grow from valid surfaces without appearing suspended in air?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows mini bridges and plants within the sphere, with bridges visually connected to both banks and plants emerging from valid surfaces, not appearing suspended in air. Analyzing Image A, the natural arrangement of bridges and greenery support valid placement as seen in Image B. Therefore, there is logical and realistic placement of added mini elements within Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do all visible characters have five fingers per hand, natural limb proportions, and clothing that conforms to body shape without clipping or floating?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the characters are detailed miniatures with simplified proportions consistent with miniature art, which may not adhere to realistic limb proportions or five fingers per hand, clothing appears designed to fit the miniature style, without clipping or floating issues specific to those interpretations. Image A does not feature observed characters. Image B’s characters are intentionally stylized; therefore, realism as expected in traditional sense isn’t applicable.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

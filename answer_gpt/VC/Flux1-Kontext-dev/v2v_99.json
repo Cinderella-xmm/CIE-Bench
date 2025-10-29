@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_99",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the text \"RONALOO\" and the number \"7\" visible on the player's jersey?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the player's jersey clearly displays the text 'RONALDO' and the number '7.' The letters and numbers are bold and easily visible, indicative of soccer jerseys where the player's name and number are prominently featured. Based on this clear depiction, the answer is 'No' to 'RONALOO,' which doesn't match what is visible ('RONALDO').",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the player depicted in the act of kicking the soccer ball?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the player is shown with one leg raised and in close proximity to the soccer ball, with an obvious posture indicative of a kicking motion common in football. The leg position and body posture suggest an attempt to kick the ball, a typical action in soccer.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the stadium filled with spectators and equipped with bright lights visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background of Image B shows a stadium with multiple tiers of seats filled with what appear to be spectators. Additionally, there are bright lights illuminating the stadium's roof structure, which is a common setup in major sports venues, indicating a well-attended match environment.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the goalkeeper dressed in green positioned near the goalpost?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a figure dressed in distinct green attire situated near the goal, which is typical attire for goalkeepers as it helps distinguish them from outfield players. The positioning directly in front of the goal line aligns with a goalkeeper's usual place during a match.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the soccer ball shown in motion, heading toward the goalpost?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The soccer ball in Image B is depicted as being in the air, appearing to move towards the goal net. This depiction, along with the player's kicking posture, suggests the ball is in motion, typical of a shot on goal situation in soccer.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8333333333333334
+}

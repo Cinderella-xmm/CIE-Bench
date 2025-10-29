@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-4967514685807500102",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the shrimp rendered in a pink-orange color consistent with cooked shrimp?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the shrimp are illustrated as part of a cartoon. The shrimp character is red, which aligns more closely with how animated depictions represent shrimp rather than accurately depicting their cooked color in real life. Real cooked shrimp are pinkish-orange, but being a cartoon, it's styled differently. Therefore, the color in the cartoon does not reflect the actual color of cooked shrimp.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there visible red spice coating on the shrimp?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the depicted shrimp is a cartoon character, and there isn't any detail showing a red spice coating like paprika or chili powder which would imply spice used commonly in cooking. Instead, the focus is on a stylized narrative rather than ingredients. In Image A, the shrimp have a red spice coating, but Image B does not illustrate this.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there yellow lemon wedges with visible rind and pulp in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, cartoon representation includes yellow lemons held by the shrimp character, identifiable by their shape and common coloring for lemons. The lemons do not show realistic detail like rind texture or pulp visibility as seen in cooked dishes, because they are simplified cartoon graphics. However, the presence of yellow lemon-like objects implies their representation.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there finely chopped green herbs visible on and around the shrimp?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cartoon shrimpy character is surrounded by abstract green blocks which could represent herbs. However, since this is a cartoon, the detailed rendering required to clearly identify finely chopped herbs on or around the shrimp is lacking. Image A, shows finely chopped herbs; however, Image B does not provide such a level of realistic detail.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the shrimp maintain a curled, C-shaped form?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the shrimp character is anthropomorphized in a cartoon style, standing upright with limbs and not maintaining the natural C-shape typical of cooked shrimp. Image A depicts shrimp in a curled C-shape, which is common when they are cooked; meanwhile, Image B is more focused on a humorous representation over anatomical accuracy.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the stainless steel pan with rivets present in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Image B does not feature any cooking pans or kitchenware like the stainless steel pan with rivets present in Image A. Instead, it is a cartoon that shows only the shrimp character without any realistic kitchenware. Hence, no such pan is depicted in the cartoon image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.23076923076923078
+}

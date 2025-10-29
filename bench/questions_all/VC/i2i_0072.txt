@@ -1,0 +1,65 @@
+Description of reference image: The subject is a young girl standing outdoors in a residential area. She has blonde hair styled straight, wearing a striped pink and white top paired with a red dress featuring white polka dots. Her pose suggests she is playing, with outstretched arms and an animated expression. A bright yellow frisbee is captured mid-air near her, indicating motion. The background consists of a grassy lawn, a trash bin, trees, and parked cars. The setting appears casual and everyday.
+
+Thinking process: 
+Based on the provided instructions, the subject will be converted into a 3D cartoon style and the frisbee replaced with a spinning metal shield. The background will shift to a sci-fi training ground. Thus, the following elements are allowed to change:
+
+ Allowed Changes List:
+Specific element 1 that allows for changes - Replace the frisbee with a spinning metal shield.
+(Specific element 2 that allows for changes - Convert the girl into a 3D cartoon style.)
+(Specific element 3 that allows for changes - Change the background to a sci-fi training ground.)
+
+Step 2- Determine the elements that should remain unchanged
+
+Thinking process: 
+Core recognition elements include the girl's overall posture, her clothing pattern, and the action of throwing the frisbee. Functional/logical association elements include the placement of the girl in the foreground relative to the background elements. Remaining elements, such as the specific design of her outfit and the location of her feet on the stone, must be retained for visual coherence.
+
+Preservation Targets List:
+(The overall posture of the girl throwing an object)
+(The distinctive clothing patterns of the girl's outfit)
+(The girl's position relative to the ground)
+(The specific placement of her feet on the stone)
+
+{
+    Q1: 
+    Thinking process: The girl's overall posture is critical for recognizing the action of throwing. If this posture is altered significantly, the continuity of the action may be lost. This is a core recognition feature worth 3 points.
+    Question: Does the girl retain her original throwing posture?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The clothing patterns, especially the polka dots on her dress, are visually distinctive. Losing these would make it harder to identify her outfit. This is an important visual element worth 2 points.
+    Question: Are the red dress and polka-dot pattern retained intact?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The position of the girl relative to the ground ensures the logic of her standing and action. This maintains visual coherence, hence it's a logical association element assigned 2 points.
+    Question: Is the girl still positioned in the foreground relative to the ground or new sci-fi background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The specific placement of her feet on the stone helps anchor the scene. Though a minor detail, it contributes to overall coherence, rated 1 point.
+    Question: Are the girl's feet still placed on the stone?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q5: 
+    Thinking process: The girl's hands extended outward are a functional aspect of the throwing action. Altering this would disrupt the logical association between her and the thrown object, thus it's also a logical association element worth 2 points.
+    Question: Are the girl's hands still extended outward as if throwing something?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

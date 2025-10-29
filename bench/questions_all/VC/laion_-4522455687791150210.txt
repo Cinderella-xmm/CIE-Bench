@@ -1,0 +1,125 @@
+**Step 1 – Analyze the editing instructions and determine allowed changes**
+
+**Description of reference image:**  
+The subject is a woman standing in a three-quarter pose, facing slightly to her right. She wears a vibrant lime green saree with a rich blue border and pallu featuring intricate golden zari work, including elephant motifs and geometric patterns. The body of the saree has small golden diamond-shaped butis evenly spaced across the fabric. The saree’s pallu is draped over her left shoulder, flowing outward with elaborate borders composed of alternating blue and gold stripes, floral designs, and repeated elephant motifs. Her blouse is royal blue with short sleeves, matching the border of the saree, and features golden embroidery along the neckline and sleeve edges. She accessorizes with a traditional Indian necklace (a polki-style piece with red and green stones), matching earrings, and a golden bangle on her right wrist. Her hair is styled in soft waves, parted to the side, and she has a bindi on her forehead. The background is plain white, emphasizing the subject.
+
+**Thinking process:**  
+The editing instruction specifies transforming the woman into a **Renaissance-inspired marble statue**, repositioning her in an elegant standing pose. This implies a complete transformation of her **form and material**, from living human to sculpted figure. However, it explicitly states to **"keep her jewelry as engraved accents"**, which means the **jewelry must be preserved in form and placement**, though rendered in stone texture. It also instructs to **"render the fabric details in marble texture"**, meaning the **design and pattern of the saree must remain intact**, only the material changes. Additionally, it mentions adding a **classical pedestal** and placing the statue in an **ornate palace hall setting**, indicating that the **background environment is to be changed entirely**.
+
+Key points:
+- The **subject’s form** changes: human → statue.
+- The **pose** may change: “repositioning in an elegant standing pose” allows for posture modification.
+- The **material** changes: cloth → marble; skin → stone.
+- The **saree’s design** (patterns, colors, motifs) must be preserved but **textured as marble**.
+- **Jewelry** must be retained as **engraved accents** — shape and position preserved, not replaced.
+- **Background** changes: from plain white to ornate palace hall.
+- **Pedestal** is new and not present originally.
+
+**Allowed Changes List:**  
+- Subject’s physical form (from human to statue)  
+- Pose and stance (repositioned into elegant standing pose)  
+- Material rendering (fabric and skin → marble texture)  
+- Background environment (white → ornate palace hall)  
+- Addition of classical pedestal  
+- Lighting and atmosphere (to suit Renaissance style)  
+
+---
+
+**Step 2 – Determine elements that should remain unchanged**
+
+**Thinking process:**  
+We now exclude all elements listed in the "Allowed Changes List" and identify what **must be preserved** based on core recognition, functional logic, and visual coherence.
+
+**Core recognition elements:**  
+The **saree’s design** is iconic: the **lime green body with golden butis**, the **blue border with elephant motifs**, and the **gold-and-blue striped pallu** are unique identifiers of this specific saree. These are essential for recognizing the original garment. Even if rendered in marble, the **pattern layout, color arrangement, and motif placement** must remain. Changing them would make the garment unrecognizable.
+
+**Functional/logical association elements:**  
+The **jewelry** is specified to be preserved as **engraved accents**, meaning its **presence, shape, and relative position** (necklace around the neck, earrings in ears, bangle on wrist) must be maintained. This is a direct instruction — not changing it ensures continuity between original and edited versions.
+
+**Non-modified element deduction:**  
+Although the **blouse** is not mentioned in the instruction, it is part of the saree ensemble and visually integrated. Since the saree's border matches the blouse, and the blouse is worn under the saree, altering its design or removing it would disrupt the cohesive look. The instruction does not mention modifying the blouse, so it should be preserved in form and color. Similarly, the **bindi** is a small but culturally significant detail that appears on the forehead — unless explicitly removed, it should remain.
+
+Other minor details like **hair style** (side-parted wavy hair) may be altered due to the statue transformation, but the **overall hairstyle structure** (length, volume, wave direction) could be preserved in stone form. However, since the instruction doesn’t specify preserving hair, and statues often stylize hair, this is **not required**.
+
+Thus, the **core visual identity** lies in:
+- The **saree’s pattern and color scheme**
+- The **jewelry's form and placement**
+- The **blouse’s color and design**
+- The **bindi’s presence**
+- The **overall composition of the saree drape and pallu**
+
+These are not allowed to be changed because:
+- They are **explicitly referenced** in the instruction (jewelry)
+- They are **essential for identifying the original garment**
+- They are **visually distinct and non-replaceable without loss of identity**
+
+**Preservation Targets List:**  
+- The **lime green body of the saree with golden diamond-shaped butis**  
+- The **blue border and pallu with elephant motifs and striped zari patterns**  
+- The **royal blue blouse with golden embroidery on sleeves and neckline**  
+- The **necklace with red and green stones, positioned at the neck**  
+- The **earrings matching the necklace, placed in the ears**  
+- The **golden bangle on the right wrist**  
+- The **bindi on the forehead**  
+- The **overall drape of the saree**, including how the pallu flows and folds
+
+---
+
+**Step 3 – Generate yes/no questions targeting key visual elements**
+
+{
+    Q1: 
+    Thinking process: The lime green body of the saree with evenly spaced golden diamond-shaped butis is the primary visual identifier of the garment. If this pattern is altered or removed, the saree loses its defining characteristic. The instruction specifies rendering the fabric in marble but not changing the design, so the pattern must remain. This is a core identity feature, hence weight 3.
+    Question: Is the lime green body of the saree adorned with small golden diamond-shaped butis evenly distributed across the fabric?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The blue border and pallu with elephant motifs and alternating gold and blue stripes are distinctive elements of the saree’s design. These are central to its cultural and aesthetic identity. The instruction requires preserving fabric details in marble, meaning these patterns must remain intact. Altering them would misrepresent the original.
+    Question: Does the pallu feature a blue and gold striped pattern with repeating elephant motifs in gold zari?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The royal blue blouse with golden embroidery on the neckline and sleeves is a key component of the outfit. It matches the saree’s border and contributes to the overall harmony. Since it is not mentioned in the editing instruction as being changed, and it is visually inseparable from the saree’s identity, it must be preserved. Its color and embroidery are essential.
+    Question: Is the blouse royal blue with golden embroidered detailing along the neckline and sleeve edges?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The necklace with red and green stones is specifically mentioned to be preserved as an "engraved accent." This indicates that its shape, placement, and gemstone arrangement must remain. Removing or altering it would violate the instruction and break continuity with the original.
+    Question: Is there a necklace with red and green stones positioned around the neck?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q5: 
+    Thinking process: The earrings are part of the jewelry set and are described as matching the necklace. Their presence in the ears is crucial for maintaining the original appearance. The instruction preserves jewelry as engraved accents, so their shape and location must be retained.
+    Question: Are there earrings matching the necklace visible in both ears?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The golden bangle on the right wrist is a minor but identifiable accessory. Though not central, it contributes to the completeness of the attire. The instruction does not mention removing accessories, and since it is clearly visible, it should be preserved in form and position.
+    Question: Is there a golden bangle present on the right wrist?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The bindi on the forehead is a cultural detail that is part of the original image. While not structurally critical, it is a recognizable facial feature. Since no instruction specifies its removal, and it is consistently present in such portrayals, it should be preserved.
+    Question: Is there a bindi visible on the center of the forehead?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The red velvet cushion is a key visual element in the original image, serving as the base for the saxophone. Its deep red color and quilted texture are distinctive and contribute significantly to the composition’s richness and contrast. The instruction mentions “poised against the velvety background,” which directly references the cushion’s texture and role in the scene. If the cushion were removed or replaced with a different material or color, the visual coherence and emotional tone would be disrupted. Therefore, preserving the **color and texture of the cushion** is essential for maintaining scene consistency. This is a critical scene element, not tied to the saxophone’s identity but vital to the environment, hence weighted at 2 points.",
+      "question": "Is the red velvet cushion with visible quilted texture present beneath the saxophone?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The gold trim along the edge of the cushion is a minor but distinct detail that enhances the luxurious aesthetic of the scene. While not central to identity, its presence contributes to visual precision and continuity. Since the instruction does not mention altering the cushion’s trim, and it is clearly visible in the original, it should be retained. Removing it would slightly affect the fidelity of the scene. It is a secondary detail, hence assigned 1 point.",
+      "question": "Is there a thin gold trim running along the outer edge of the red cushion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The spotlight from above is a defining feature of the lighting in the original image, creating a gradient glow centered on the saxophone and enhancing its metallic sheen. The instruction does not specify changing the lighting, and the phrase “poised against the velvety background” implies a consistent ambient setup. Altering the lighting direction or intensity would fundamentally change the mood and focus of the image. Thus, the **direction and quality of the spotlight** (from above, creating a bright center with radial dimming) must be preserved. This is a crucial environmental element affecting the entire composition, so it is assigned 2 points.",
+      "question": "Is the lighting source positioned above the saxophone, creating a bright central glow that fades into darkness toward the edges of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The diagonal orientation of the saxophone across the cushion is a compositional choice that defines the image’s balance and flow. The instruction does not specify changing the angle, and the transformation into a serpent would still require a similar spatial arrangement to maintain visual logic. Even if the form changes, the **relative diagonal placement** from lower left to upper right should remain to preserve the original framing. This spatial relationship is important for scene coherence and is not mentioned for modification, so it must be retained. It is a key layout element, hence 2 points.",
+      "question": "Is the saxophone (or transformed serpent) positioned diagonally across the cushion, extending from the lower left to the upper right of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The dark background surrounding the saxophone and cushion is essential for creating contrast and focusing attention on the subject. The instruction does not mention modifying the background, and the spotlight effect depends on a dark backdrop to function effectively. Changing the background color or introducing new elements would disrupt the dramatic lighting and visual hierarchy. Therefore, the **dark, unobstructed background** must be preserved. This is a foundational environmental element, crucial for mood and composition, so it is assigned 2 points.",
+      "question": "Is the background uniformly dark, with no visible objects or textures other than the spotlight glow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The metallic sheen and reflective highlights on the saxophone’s surface are core to its visual identity as a polished brass instrument. Although the saxophone will be transformed into a serpent, the instruction specifies “metallic scales,” implying that **metallic reflectivity** should be retained as a material property. The original reflective quality is therefore a **core visual attribute** that must carry over into the transformation. Losing this would make the fantasy creature appear dull or non-metallic, breaking the link to the original object’s material essence. This is a key identity feature in terms of materiality, hence 3 points.",
+      "question": "Does the transformed serpent retain a highly reflective, metallic surface with visible highlights and specular reflections consistent with polished brass?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    }
+  ]
+}

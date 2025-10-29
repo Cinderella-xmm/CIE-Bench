@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1005",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Do the facial features and accessories of the individuals appear detailed and clear despite the enlarged heads?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the individuals have enlarged heads which are characteristic of a cartoon style. Such style often simplifies facial features and accessories, making them less detailed and clear compared to realistic images. The increased size tends to enhance the caricature effect rather than preserve intricate details, leading to a lack of clarity in facial features and accessories.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the transition between the enlarged heads and the cartoonish bodies smooth and free from noticeable artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the transition between the enlarged heads and bodies is consistent with a simplified cartoon style, which typically has smooth lines and shapes without noticeable artifacts. The style smooths out features for visual coherence, so despite the distinct change in proportion, it maintains even transitions characteristic of cartoon illustrations.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the proportions of the individuals' bodies in relation to the log cabin realistic and consistent with the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the proportions of the individuals' bodies are exaggerated with disproportionately larger heads, which is common in cartoon depictions. Such stylization often disregards realistic proportions for effect, making them inconsistent with the realistic size of the log cabin seen in the background. Compared to Image A, where the individuals have realistic proportions relative to the cabin, the cartoon bodies in Image B alter this consistency.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the clothing and equipment retain their natural textures and details without any loss or distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cartoon style simplifies textures and details as compared to realistic depictions. Therefore, clothing and equipment typically lose their natural textures and intricate details, appearing smooth and less textured. This is a characteristic transformation when converting realistic elements into cartoon-style illustrations.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the geometric shapes of the individuals' bodies and the log cabin intact and undistorted?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, while the style is cartoonish, the geometric shapes of the bodies and the log cabin remain coherent and intact. The depiction respects the basic forms without distortions that impair recognition or structural integrity, maintaining the shapes required for visual clarity within the cartoon style.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

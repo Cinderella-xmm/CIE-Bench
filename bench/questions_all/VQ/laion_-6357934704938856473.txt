@@ -1,0 +1,48 @@
+```
+Step 1: Disassemble Editing Instructions
+-Thinking process 1: The editing instruction specifies designing the robot as a premium collectible figure with a brushed metal and matte finish palette. This involves modifying the surface materials of the robot's body, which includes areas such as the torso, limbs, head, and armor plating visible in the original image. The change from the current glossy or standard plastic-like appearance to a brushed metal and matte texture must preserve structural coherence and avoid introducing unnatural textures or material inconsistencies. Therefore, the sub requirements focus on material realism, texture consistency, and visual plausibility across all surfaces.
+-Sub requirement 1: Modify the surface finish of the robot’s body (torso, arms, legs, head, and armor panels) to a brushed metal and matte palette, ensuring that the material transition is consistent and free of artificial or pixelated textures.
+
+-Thinking process 2: The instruction requires packaging the robot in a sleek hexagonal box labeled "MECHA VANGUARD." This introduces a new object (the box) not present in the original image. The placement and design of the box must be visually plausible and proportionally accurate relative to the robot. The label text must be legible and stylistically consistent with high-end collectibles. This affects overall composition and visual credibility.
+-Sub requirement 2: Add a hexagonal box surrounding the robot, ensuring its shape, proportions, and labeling ("MECHA VANGUARD") are geometrically accurate and visually coherent without distortion or misalignment.
+
+-Thinking process 3: The robot must include replaceable weapons, detailed armor engravings, and articulated joints. The original image already shows the robot holding a rifle and a sword, so these elements may be enhanced or duplicated for interchangeability. Engravings on armor plates (e.g., on shoulders, thighs, chest) must be fine and precise, not blurred or aliased. Articulated joints (e.g., elbows, knees, hips) should appear mechanically plausible and not deformed.
+-Sub requirement 3: Enhance or modify weapon systems (rifle, sword) to suggest modularity, and add fine engraved details on armor panels and joints to reflect mechanical complexity without losing clarity or introducing artifacts.
+
+-Thinking process 4: A dramatic splash screen illustrating a futuristic cityscape must be added behind the robot. This background element must be integrated seamlessly into the scene without disrupting depth perception or lighting consistency. It should not clip through the robot or appear unnaturally flat or out of scale.
+-Sub requirement 4: Insert a futuristic cityscape background behind the robot, ensuring it aligns properly with perspective, lighting, and depth cues, avoiding clipping, warping, or inconsistent scale.
+
+-Thinking process 5: The overall presentation must maintain structural coherence and visual plausibility—no broken geometry, floating parts, or distorted limbs. The robot’s pose (dynamic, mid-leap) must remain physically rational even after modifications. For example, the position of the sword and rifle must not intersect improperly with the body.
+-Sub requirement 5: Ensure all components (limbs, weapons, armor, box, background) maintain correct spatial relationships and physical logic, preserving the integrity of the robot’s structure and pose.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement to modify the robot’s surface to a brushed metal and matte finish, this question evaluates whether the material application across the torso, limbs, and armor panels appears uniform and free of unnatural textures such as oversharpening, noise, or gloss mismatches. The goal is to assess material authenticity and visual coherence.
+Question: Are the brushed metal and matte finishes applied consistently across the robot’s body without visible texture artifacts or inconsistent sheen?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement to add a hexagonal box labeled "MECHA VANGUARD," this question checks if the box is geometrically accurate, proportionally sized relative to the robot, and positioned without clipping or misalignment. The label must be readable and stylistically appropriate.
+Question: Is the hexagonal box fully enclosed around the robot with clean edges, proper proportions, and a clearly legible "MECHA VANGUARD" label without distortion?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement to enhance weapons and armor with engravings and articulation, this question evaluates whether the fine details on the rifle, sword, and armor plates are sharp and realistic, and whether the joints (e.g., elbows, knees) appear mechanically functional without deformation or missing parts.
+Question: Are the engraved details on the armor plates and weapon surfaces clear and non-blurry, and do the joint areas (elbows, knees) show no signs of geometric distortion or missing segments?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement to add a futuristic cityscape background, this question checks if the background integrates naturally with the robot’s pose and lighting, maintaining depth and perspective without clipping or scaling issues.
+Question: Does the cityscape background extend behind the robot without clipping through its limbs or body, and does it match the lighting direction and scale of the scene?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement to maintain structural coherence and physical rationality, this question evaluates whether the robot’s dynamic pose remains intact, with no floating limbs, intersecting weapons, or misplaced parts after editing.
+Question: Are the robot’s limbs, weapons, and armor pieces correctly aligned and positioned without overlapping or floating elements that violate spatial logic?
+Choices: Yes, No  
+A: Yes
+```

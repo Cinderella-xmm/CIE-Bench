@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The requirement specifies adding the word \"Fresh\" at the bottom left. This involves verifying if the text is present at this exact location without ambiguity.",
+      "question": "Is the word \"Fresh\" located at the bottom left of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Similarly, the word \"Sweet\" should be placed at the top right corner, as per the instructions. The question checks the correct placement of this text.",
+      "question": "Is the word \"Sweet\" located at the top right of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The instructions require a minimalist design for the text added. This means the font choice and presentation should align with a simple and clean style, often seen in fruit brand posters.",
+      "question": "Are the words \"Fresh\" and \"Sweet\" presented in a minimalist style suitable for a fruit brand poster?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The original visual elements must be preserved. Therefore, the apples and their setting should remain unaltered except for the addition of the specified text.",
+      "question": "Have the original visual elements, such as the apples and their setting, remained unchanged apart from the added text?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "It's important to confirm that no extraneous changes were made beyond what was specified. This ensures that the focus remains solely on the additions described.",
+      "question": "Are there any additional changes besides the addition of the words \"Fresh\" and \"Sweet\" in the specified locations?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "No",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_1009",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the carrot slices clearly circular in shape with visible concentric rings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "When observing Image B, the carrot slices appear geometrically stylized rather than perfectly circular. They lack smooth edges and detailed concentric rings due to the low-poly effect applied. This artistic interpretation, common in low-poly art, simplifies shapes and omits finer details present in realistic depictions.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the cauliflower florets retain their natural branching structure and clustered bud formation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cauliflower florets are represented in a low-poly style, which simplifies the detailed natural structure. They consist of angular, geometric shapes that give an impression of the general form but do not closely mimic the intricate branching and clustered buds found in realistic cauliflower. This style trades detailed anatomy for a stylized essence.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are all the carrots and cauliflower florets contained within the bowl?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows all vegetable pieces, both carrot slices and cauliflower florets, placed inside the confines of the bowl. There are no elements spilling over the sides or extending beyond its perimeter, which is consistent with how content is typically managed within a graphical representation of a bowl.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the arrangement of vegetables in the bowl natural and non-symmetrical, with both carrots and cauliflower present in similar quantities?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts a symmetrical and orderly arrangement due to the geometric style. Both carrots and cauliflower appear evenly distributed, but the stylized manner imposes a sense of structure rather than a natural inconsistency seen in typical food presentations. While there is a balance, the distinctly geometric form overrides natural randomness.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the carrots distinctly orange and the cauliflower distinctly white in color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases intensely colored carrot slices and cauliflower florets, with the carrots being distinctly orange and cauliflower appearing as a pale off-white. The vibrant coloring contrasts sharply without blending, which is characteristic of simplified palates used in low-poly art, maintaining distinct color identity.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there multiple distinct carrot slices and cauliflower florets visible in the bowl?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Within Image B, we see multiple distinct entities of carrot slices and cauliflower florets, conveyed through varied shapes and placements within the bowl. The low-poly style accentuates individual elements, ensuring separation and distinction, common in such representations to portray diversity in components.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.38461538461538464
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0055",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the background still showing the red train and metallic fence?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a large label of 'Finst EleBay!' featuring a cartoon-style depiction of an elephant, which completely obscures any background detail that might have been visible. Without the background visible in Image B, it is unclear whether the red train and metallic fence are still present.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the worker still wear the neon yellow vest with orange reflective stripes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visible foreground is completely replaced with the edited label of 'Finst EleBay!' and the cartoon elephant, thus obscuring any detail that might indicate clothing or any other features of the worker. Therefore, the neon yellow vest with orange reflective stripes is not observable in Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the worker still holding the phone up to their ear in the same posture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Given that Image B is a depiction of the 'Finst EleBay!' label, it masks any posture indication of the worker's activity or behavior, including holding a phone to their ear.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the worker still wearing the yellow hard hat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited label in Image B overshadows any prior appearance related to the worker's attire, such as the yellow hard hat. Consequently, such details are not visible or ascertainable in Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the worker’s green shorts and orange pants still visible under the neon yellow vest?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Considering the cartoonish portrayal of 'Finst EleBay!' in Image B, any clothing details, including the worker’s green shorts and orange pants, are completely absent and therefore not discernible.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.0
+}

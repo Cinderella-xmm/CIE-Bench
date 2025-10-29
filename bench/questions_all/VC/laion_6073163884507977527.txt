@@ -1,0 +1,103 @@
+Description of reference image: The subject is a miniature rustic house model, constructed with textured, earth-toned materials resembling aged stucco or plaster. It features a two-tiered roof with a reddish-brown shingled lower section and a darker, rough-textured upper section resembling slate or stone tiles. The building has an arched green door at the front center, flanked by a smaller rectangular window to the left and a dark oval-shaped window above it. A small square window is visible on the upper level near the peak of the roof. The structure appears partially ruined on the right side, with exposed brickwork and crumbling walls. To the left of the house stands a tree with rust-colored foliage, likely representing autumn, set beside a low red brick wall. The ground is covered in coarse brown material simulating soil or gravel, with patches of green moss-like vegetation growing around the base of the house and along steps leading up to the entrance. The entire scene rests on a flat wooden base, forming a self-contained diorama.
+
+Thinking process: First, analyze the editing instructions word by word:  
+- "Transform the rustic house scene into a miniature diorama within a glass-domed terrarium" → This implies that the **entire scene** will be enclosed in a transparent dome, changing the overall environment and presentation form.  
+- "Add mossy green pathways, tiny shrubs, and a lake with a shimmering silver surface" → These are new additions not present in the original; they can be freely added.  
+- "Surround the house with delicate fairy lights woven around miniature trees" → New lighting elements, allowed to be added.  
+- "Position a small bridge crossing the lake, leading to the entrance" → New structural element, allowed to be introduced.  
+
+The instruction does **not** specify removing or altering any existing core components of the house itself (e.g., shape, windows, door, roof texture), nor does it mention replacing the house with another structure. Instead, it says “transform the scene,” implying the **original house remains as the central subject**, now embedded in a richer environment. Therefore, changes are permitted only in **scene expansion and environmental enhancement**, not in the identity or key visual features of the house.
+
+Allowed Changes List:
+- Addition of a glass dome enclosure
+- Introduction of mossy green pathways
+- Placement of tiny shrubs and new vegetation
+- Creation of a lake with a shimmering silver surface
+- Inclusion of fairy lights around trees
+- Construction of a small bridge across the lake
+- Modification of ground cover beyond original moss and soil textures
+
+Step 2 – Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: The house’s **distinctive architectural form**—including its **two-tiered roof**, **arched green door**, **oval and rectangular windows**, **crumbling right wall**, and **rust-colored foliage tree**—are essential for identifying the original subject. These features define the unique character of the model and distinguish it from generic structures. If these were altered or removed, the object would no longer be recognizable as the same diorama.
+
+Functional/logical association elements: The **position of the entrance** (arched door) and the **steps leading up to it** must remain logically consistent because the bridge mentioned in the instruction is described as “leading to the entrance.” Thus, the **entrance location and approach path** must be preserved for spatial coherence. The **tree with rust-colored leaves** also serves as a key landmark on the left side, anchoring the composition visually.
+
+Non-modified element deduction: After excluding all explicitly allowed additions (like the lake, bridge, lights), the remaining visual content—such as the **texture of the stucco walls**, **color and shape of the roof**, **window placements**, **brick wall segment**, **moss patches**, and **soil-like ground cover**—must be retained. These details contribute to the authenticity and visual fidelity of the original model and are not mentioned as changeable.
+
+Preservation Targets List:  
+- The two-tiered roof structure with distinct reddish-brown and dark textured sections  
+- The arched green door at the front center  
+- The oval-shaped window above the door and the rectangular window to its left  
+- The partially ruined right wall with exposed brickwork  
+- The rust-colored tree with dense foliage on the left side  
+- The low red brick wall adjacent to the tree  
+- The steps leading up to the entrance  
+- The presence of green moss-like vegetation near the base and steps  
+- The coarse brown ground covering simulating soil or gravel  
+- The flat wooden base supporting the entire scene  
+
+{
+    Q1: 
+    Thinking process: The two-tiered roof with its specific color contrast—reddish-brown lower section and dark, rough-textured upper section—is a defining architectural feature of the house. Its shape and material texture are crucial for identifying the model as a rustic, weathered structure. Altering this would fundamentally change the identity of the building. This is a core recognition element, hence weighted at 3 points.
+    Question: Is the two-tiered roof structure with a reddish-brown lower section and a dark, rough-textured upper section still present?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The arched green door is a central functional and visual feature of the house. It is positioned at the front center and serves as the primary entry point. The instruction specifies that a bridge leads to the entrance, which implies the door's position must remain unchanged. Removing or relocating it would break the logical connection between the bridge and the house, undermining scene coherence. This is a critical functional and identity element, thus weighted at 3 points.
+    Question: Is the arched green door located at the front center of the house?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The oval-shaped window above the door and the rectangular window to its left are distinctive openings that contribute to the facial-like symmetry of the house. Their shapes and positions are unique identifiers of the model’s design. Changing them would make the house unrecognizable. These are key architectural details necessary for identity preservation, so they are assigned 2 points due to their importance but slightly less than the main door or roof.
+    Question: Are the oval-shaped window above the door and the rectangular window to its left still present in their original positions?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The partially ruined right wall with exposed brickwork is a signature detail indicating decay and age. It distinguishes this model from intact buildings and contributes to its rustic charm. Since the instruction does not mention modifying this feature, it must be preserved. Loss of this element would remove a major visual identifier, making the model appear different. This is a key detail element, so it is weighted at 2 points.
+    Question: Is the partially ruined right wall with exposed brickwork still visible?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The rust-colored tree with dense foliage on the left side is a prominent environmental feature that anchors the composition. It provides seasonal context and visual balance. The instruction allows adding new trees with fairy lights, but does not specify replacing this one. Therefore, its presence and appearance must be preserved. This is a significant landscape element, so it is given 2 points.
+    Question: Is the rust-colored tree with dense foliage located on the left side of the house still present?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The low red brick wall next to the tree is a minor but identifiable structural element that adds depth and context to the scene. It helps define the boundary of the property and complements the tree. While not central, its absence would reduce visual fidelity. It is a secondary detail that supports coherence, so it is assigned 1 point.
+    Question: Is the low red brick wall adjacent to the rust-colored tree still present?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The steps leading up to the entrance are a functional pathway that connects the ground level to the door. They are essential for maintaining the spatial logic of access to the house. The instruction mentions a bridge leading to the entrance, implying the steps may be replaced or supplemented, but since no explicit removal is stated, their existence must be assumed unless overridden. However, if the bridge replaces them entirely, this could be a permissible change. But since the instruction says "leading to the entrance," not "replacing the steps," the steps may still be present. To ensure consistency, we treat this as a minor but important layout element. Weighted at 1 point.
+    Question: Are the steps leading up to the entrance still present?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q8: 
+    Thinking process: The green moss-like vegetation near the base of the house and along the steps is a key textural detail that enhances realism. It is part of the original ground cover and contributes to the naturalistic setting. The instruction allows adding more vegetation, but does not require removing existing moss. Therefore, its presence must be preserved. This is a detail-level element affecting visual coherence, so it is assigned 1 point.
+    Question: Are patches of green moss-like vegetation visible near the base of the house and along the steps?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-4241540289686848847",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the character retain the golden-yellow eye color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character's eye color is not visible due to the face being blurred. Based on world knowledge of anime characters or stylized representations, character eye color can commonly manifest alongside particular aesthetic choices, such as hair color or thematic elements. Given the face is blurred, I cannot ascertain the eye color in this image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the character’s facial structure (jawline, cheekbones, nose shape) preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The facial structure details like jawline, cheekbones, and nose shape are part of the face, which is blurred in Image B, meaning that these elements cannot be evaluated or compared.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the character’s skin tone and texture preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The visible parts of the character in Image B, specifically the neck area, display skin tone and texture. World knowledge suggests that skin tone can be recognized through exposed areas, which appear consistent with the first image. However, the majority of the character's skin is obscured, preventing full assessment.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the character’s body proportions and stance preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts the character with a consistent body structure, wearing a distinct robe with runic designs. Knowledge about character designs in stylized content shows a focus on preserving body size and pose for thematic representation. The stance appears natural and proportional, hinting at consistency with Image A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the camera angle and lighting direction preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the character facing the viewer frontally, with lighting casting a mild shadow and highlighting certain areas of the outfit. Though different in setting from Image A, the direct lighting and consistent viewpoint suggest similarity in camera angle.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the character’s relative position to the background preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character stands centrally in a richly detailed environment, which does not exhibit a direct similarity to the rocky setting in Image A. World knowledge of creative environments shows differing aesthetic choices can shift the character’s relative placement, making it distinct in both cases.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.38461538461538464
+}

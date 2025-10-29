@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-951652905320987247",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the snow-capped peak exhibit a consistent, non-uniform glittering texture that mimics natural snow while avoiding blocky or artificial sparkles?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The snow-capped peak in Image B exhibits a glittering texture that appears to mimic natural snow. The glitter is distributed unevenly, which gives it a non-uniform appearance and avoids the look of blocky or artificial sparkles. This effect is achieved by using fine particles that reflect light variably, creating a realistic impression of snow's reflective properties.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the tree lines and grasslands along the base of the mountain rendered with natural variation in color and density, without repeating brush-like strokes or artificial line artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The tree lines and grasslands at the base of the mountain in Image B show variation in color and density. The trees are not identical but have different shades and sizes, suggesting natural diversity. There are no visible repeating brush-like strokes or artificial line artifacts, indicating careful attention to detail in rendering the scene naturally.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the lake surface uniformly reflective with no visible distortion, warping, or artificial shine that breaks the continuity of the mountain's reflection?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The lake surface in Image B reflects the mountain with uniformity, maintaining continuity in the reflection without distortion or warping. However, there is an artificial shine on the water surface that does not fully align with how natural water would reflect light, hinting at some level of artificial enhancement.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the chalet figurines positioned at ground level along the shoreline with proper scale and shadow alignment, and do they cast subtle shadows consistent with lighting direction?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The chalet figurines in Image B are positioned along the shoreline at ground level and appear to be scaled appropriately relative to their surroundings. They cast subtle shadows that seem consistent with the lighting direction, enhancing the realism of the scene by adhering to natural shadow behavior.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any visible seams, distortions, or artificial reflections around the perimeter of the scene that suggest an unnatural glass boundary?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "There are visible seams and distortions around the perimeter of the scene in Image B, particularly where the glass boundary meets the background. These elements suggest an unnatural containment of the landscape within a glass sphere, disrupting the seamless integration of the scene.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

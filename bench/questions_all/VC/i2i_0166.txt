@@ -1,0 +1,62 @@
+Description of reference image: The subject is a bright yellow bird with soft feathers perched on a thin, rough-textured branch. The bird has a vibrant orange beak, black eyes, and delicate feet gripping the branch. Its posture is upright, and it faces slightly to the right. The background is blurred with shades of green and hints of sunlight, creating a natural and serene atmosphere. 
+
+### Step 1 - Allowed Changes List
+Thinking process: The instructions indicate the addition of a literary-style short poem at the bottom. This implies that the text addition is the primary change, while other elements like the bird's appearance, branch, and background should remain intact.
+Allowed Changes List:
+Specific element 1 that allows for changes: The addition of text at the bottom of the image.
+
+### Step 2 - Preservation Targets List
+Thinking process: The core identity of the image lies in the characteristic yellow coloring and features of the bird, its perch on the branch, and the natural background. These elements must be retained to preserve the image's core identity and context.
+
+Preservation Targets List:
+(Element 1 that should be maintained): The bird's bright yellow feathers and orange beak.
+(Element 2 that should be maintained): The bird's black eyes.
+(Element 3 that should be maintained): The bird's position on the branch.
+(Element 4 that should be maintained): The natural background with its green hues and bokeh effect.
+
+### Step 3 - Generate Questions
+
+{
+    Q1: 
+    Thinking process: The bird's bright yellow color and orange beak are key identifying features. Losing this would make it unrecognizable as the specific bird depicted. Thus, it is a core identity feature worth 3 points.
+    Question:Is the bird depicted with bright yellow feathers and an orange beak?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The bird's black eyes are a distinct feature contributing to its recognizability. Changing this could alter the bird's appearance significantly. Therefore, it is an important scene element worth 2 points.
+    Question:Does the bird have black eyes?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The bird's position on the branch is crucial for maintaining the natural setting and logical relation between the bird and its environment. It is essential for the scene’s consistency and receives 2 points.
+    Question:Is the bird perched on a thin branch?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The natural background with green hues and bokeh effect sets the scene and provides context. While not core, it contributes significantly to the visual consistency and receives 1 point.
+    Question:Does the background have a natural setting with green hues and a bokeh effect?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q5: 
+    Thinking process: The bird's delicate feet gripping the branch are a minor detail that aids in confirming its stance and interaction with the environment. This detail is worth 1 point.
+    Question:Are the bird's feet visibly gripping the branch?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

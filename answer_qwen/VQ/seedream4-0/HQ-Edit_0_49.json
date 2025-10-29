@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_0_49",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the teapot proportionally scaled down while maintaining its original shape, surface details, and structural coherence?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the teapot is displayed under a glass dome and appears to be identical in design and proportions to the teapot in Image A. There is no visual indication that it has been resized or altered in scale—its ornate engravings, handle curvature, spout length, lid shape, and base structure are consistent with those seen in Image A. The level of detail on the surface remains sharp and uninterrupted, suggesting no scaling distortion. From a world knowledge perspective, when an object is proportionally scaled down, we expect minor changes in perceived texture resolution or depth cues due to size reduction. However, here, the teapot maintains full fidelity in engraving clarity and symmetry, indicating it has not been downsized. Instead, it appears to be the same physical object placed in a new context (under a dome). Therefore, the teapot has not been proportionally scaled down.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the porcelain cups arranged around the base in a balanced, non-overlapping manner, and do they appear to be made of realistic ceramic material with appropriate reflections and shadows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, eight small porcelain cups are arranged symmetrically around the base of the teapot on a mirrored platform beneath the glass dome. Their placement is evenly spaced, forming a circular pattern without overlapping. Each cup displays a floral pattern typical of fine porcelain, with blue and red accents on a white background—a common aesthetic for traditional tea sets. The material appears glossy and reflective, consistent with glazed ceramic. Subtle highlights and soft shadows beneath each cup suggest proper lighting interaction, and their reflections on the mirror-like surface below enhance realism. These visual cues align with real-world physics of light reflection and shadow casting. There are no signs of unnatural warping, clipping, or inconsistent shading. Thus, both the arrangement and material representation are realistic and well-executed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the new engravings on the elevated surface match the existing decorative patterns in style and depth, without appearing pixelated, duplicated, or unnaturally enhanced?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The teapot in Image B shows no visible 'new engravings' added to its elevated surface. The entire body of the teapot features intricate embossed designs consistent with traditional silverwork, such as baroque-style scrollwork and floral motifs. These patterns are continuous and seamlessly integrated across the surface, matching the style seen in Image A. There is no evidence of digital enhancement, duplication, or artificial detailing—no jagged edges, repeating textures, or excessive sharpness that would suggest post-processing artifacts. The depth and relief of the engravings are consistent throughout, and the lighting casts natural shadows that reinforce the three-dimensional quality of the carvings. Since there are no newly introduced engravings, the question about their consistency becomes moot. The existing patterns remain coherent and authentic in style and execution.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the steam spirals rise smoothly from the teapot’s spout and lid area, exhibiting soft edges, proper translucency, and consistent lighting interaction?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, several wisps of steam are depicted rising from the spout and lid of the teapot. The steam forms elegant, swirling patterns that mimic natural convection currents observed when hot liquids emit vapor. The edges of the steam are soft and diffuse, lacking sharp outlines, which is characteristic of real vapor. The translucency is appropriate—light passes through the steam but is slightly diffused, creating a hazy effect. Additionally, the steam interacts realistically with ambient lighting; it appears brighter where illuminated by overhead light and fades into the darker background, consistent with how light scatters through thin vapor. There is no sign of artificial rigidity or pixelation. While the steam is stylized slightly for aesthetic appeal, it adheres closely to physical plausibility. Therefore, the visual representation of steam is convincing and well-rendered.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the glass dome show accurate light refraction and surface reflections, allowing clear visibility of the teapot and surrounding elements without visual distortion or artificial glare?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The glass dome in Image B exhibits high-quality rendering of optical effects. Light enters the dome and refracts subtly at the curved surface, creating gentle distortions that are consistent with real glass behavior. Reflections on the dome’s inner surface capture the surrounding environment—including parts of the room and ceiling—accurately, with smooth gradients and no harsh glares. The transparency allows unobstructed views of the teapot and cups inside, though slight bending of light near the edges of the dome is present, which is physically accurate. There are no distracting artifacts such as chromatic aberration, over-sharp reflections, or unnatural bright spots. The reflections on the dome also interact naturally with the lighting, showing soft highlights rather than specular flares. Overall, the dome behaves like a real glass enclosure, preserving clarity while introducing plausible optical effects.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

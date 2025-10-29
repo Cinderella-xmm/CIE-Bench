@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0021",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Do the chibi-style sheep retain proportional accuracy and structural coherence relative to their original poses near the fence in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi sheep have been transformed into cartoon-like characters with exaggerated features typical of chibi art style, such as oversized heads and simplified bodies. Comparing with Image A, where the sheep have natural proportions and postures, Image B lacks the proportional accuracy and structural coherence since chibi designs intentionally distort realism for cuteness. Therefore, the chibi sheep do not maintain proportional accuracy relative to their original poses.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the added accessories (red scarf, knit hat, and small bell) free of unnatural textures and logically placed on the chibi sheep?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Looking at Image B, the accessories added to the chibi sheep seem to follow the cartoon aesthetic standards. The scarf and hats are placed in a manner that logically follows the simplified anatomy of the chibi figures and do not display unnatural textures as they are drawn in the same flat style. Based on this consistency, the accessories are placed logically on the chibi sheep.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the thick white outlines and flat colors applied to the chibi sheep create a visually coherent and artifact-free appearance, maintaining their structural integrity?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi sheep are outlined with thick white lines and filled with flat colors typical of chibi art style. These design choices are intentionally made to provide a clear separation between the characters and any possible backgrounds, and to keep the art consistent. There are no obvious visual artifacts affecting the design; hence, they maintain structural integrity as chibi characters.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the positioning of the chibi sheep near the fence remain visually credible, preserving their original spatial relationship with the environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi sheep are positioned in front of the fence similar to Image A; however, their positioning seems slightly altered due to the stylization and poses of chibi art. The positioning does not seem as credible as the original, realistic depiction because chibi figures may not align perfectly with the spatial logic as seen in natural photography. Therefore, the spatial relationship is somewhat altered.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background successfully made transparent without visible artifacts or remnants of the snowy landscape affecting the clean appearance of the chibi sheep?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents the chibi sheep with a clear, transparent background, purposefully eliminating elements from Image A's snowy landscape. The transparency appears clean without visible artifacts or remnants affecting the chibi characters' presentation. This indicates a successful separation of the chibi figures from their original environment.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

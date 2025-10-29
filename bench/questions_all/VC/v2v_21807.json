@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The presence of four clock faces is the core identity feature of the tower. Each face must be present and positioned on a different side of the tower to maintain its recognizability. Removing or merging them would fundamentally alter the tower’s identity. This is a key identifier, hence weight 3.",
+      "question": "Are there four clock faces, one on each visible side of the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The Roman numerals on the clock faces are essential for identifying the time display mechanism. Their presence and arrangement define the clock’s functionality and appearance. Losing them would make the clocks unrecognizable as traditional analog clocks. This is a critical detail for identity, hence weight 3.",
+      "question": "Do the clock faces contain black Roman numerals arranged in a circular pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The pyramidal roof with a finial is a distinctive architectural feature that defines the tower’s silhouette. It is a unique identifier and contributes to the tower’s iconic profile. Altering or removing it would make the structure unrecognizable. This is a core structural element, hence weight 3.",
+      "question": "Is there a steeply pitched pyramidal roof topped with a finial at the very top of the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The arched openings at the base are a defining structural feature that distinguishes this tower from others. They provide both functional access and aesthetic symmetry. Their absence would disrupt the tower’s architectural integrity and visual balance. This is a key structural element, hence weight 2.",
+      "question": "Are there four arched openings at the base of the tower, one on each side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The tower’s central placement within the roundabout is a critical spatial relationship that defines its role in the urban landscape. Moving it or changing the road layout would break the scene’s logic and context. This is an important environmental element, hence weight 2.",
+      "question": "Is the tower located at the center of a circular road with vehicles traveling around it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The presence of cars on the road provides contextual scale and activity. While their exact models may vary, their presence and movement around the tower are essential for grounding the scene in reality. Removing them would make the environment feel static or unnatural. This is a minor but important contextual detail, hence weight 1.",
+      "question": "Are there multiple cars visible on the road surrounding the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The trees lining the road in the background contribute to the environmental setting and seasonal context (bare or sparse foliage). Their presence helps establish the location and atmosphere. Removing them would alter the scene’s natural backdrop. This is a secondary environmental detail, hence weight 1.",
+      "question": "Are there trees with bare or sparse foliage visible along the road behind the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_34379",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the vegetables in the dish visibly smaller than they were in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the vegetables appear to have lost some volume, likely due to the cooking process. This is based on the visual cues in Image B, where the broccoli and cauliflower on the left look slightly wilted and less voluminous compared to the fresh appearance in Image A. The browning and shriveling of the roasted broccoli in the right dish also suggest shrinkage, a common outcome of roasting vegetables. This implies that the vegetables are indeed smaller in the edited image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Has the space between the vegetables increased due to their shrinkage?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows more visible space between the pieces of vegetables, particularly in the dish on the right, where the broccoli pieces are more distinct and separated compared to Image A. This indicates an increase in space as the vegetables have likely shrunk and compacted due to cooking.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the vegetables maintain their original shapes and colors despite being smaller?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "While the overall shape of the vegetables in Image B is similar, their color has changed significantly, especially in the dish on the right where the broccoli has a roasted, brown appearance. This suggests that the vegetables do not maintain their original colors, which have been altered by the cooking process.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the size of the dish holding the vegetables unchanged?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the size and structure of the dishes appear consistent with those in Image A. The dishes are of standard size and the editing focuses on the state of the vegetables, not the dishes themselves. Therefore, no change in the dishes' size is observed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Have any new elements been added or existing elements removed besides shrinking the vegetables?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Image B does not show any additional elements beyond the change in the state of the vegetables, which have been cooked. The dishes and the number of vegetables are consistent with Image A, with no noticeable additions or deletions.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

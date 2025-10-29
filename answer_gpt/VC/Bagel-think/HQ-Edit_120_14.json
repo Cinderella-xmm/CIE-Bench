@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_120_14",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the background composed of vertical wooden planks with patches of peeling red paint?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background has features consistent with wooden texture. The vertical alignment and areas of red paint, both worn and peeling, support the observation that these are indeed wooden planks. This interpretation is backed by general understanding of how old, painted wood appears over time.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the floorboards made of rough, aged wood with visible grain and gaps between planks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image, Image B, shows a floor that maintains the appearance of wood, appearing aged and with clear demarcations between planks, suggesting gaps and visible grain which are characteristic of worn wood surfaces. This interpretation relies on recognizing traditional characteristics of wooden floors.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a red circular reflector attached to the rear fender near the wheel?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, what appears to be a red circular object is found on the rear fender area, suggesting it could be a reflector. The understanding of bicycle design includes reflectors as common safety features, which aids in identifying this object as a reflector.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a wire mesh basket mounted on the front handlebars?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the analysis of Image B, the area typically used for holding a basket is heavily modified with mechanical elements like clocks, gears, and artistic additions. These additions cover where a traditional wire mesh basket might be. Therefore, no wire mesh basket is visibly discernible in the image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a metal luggage rack mounted above the rear wheel?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, modifications and embellishments largely obscure where such a luggage rack might exist. However, remnants suggestive of a frame or structure above the rear wheel region remain visible, which could imply this was a luggage rack based on bicycle structural design knowledge.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are soft shadows cast by the bicycle onto the wall and floor, indicating directional lighting from the left?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, shadows are present on both wall and floor regions but the details of their intensity and directionality are overwhelmed by heavy mechanical and stylistic modifications on the bicycle itself, making it complex to detect clear lighting direction. Without evident shadow weighting or skew, the directional origin is uncertain.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

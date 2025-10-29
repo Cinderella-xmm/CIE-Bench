@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0164",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there still people on top of the train?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "In Image B, no individuals can be observed on top of the train. The edited image shows only one person standing on the lower front part of the train. This indicates that the people originally sitting atop the train have been removed.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a conductor standing on the train?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is one person clearly standing on the front part of the train. The position and demeanor suggest he is likely a conductor or someone in a similar authoritative role.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the conductor holding a flag?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The individual standing on the front part of the train in Image B is clearly holding a flag. The visual cue confirms that the conductor is indeed holding a flag.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the flag have a visible logo on it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the flag being held by the individual has a discernible logo or insignia printed on it, making it distinctly visible and identifiable.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Have the original people from the top of the train been removed and replaced by a conductor holding a flag with a logo?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparison between Image A and Image B shows that the original people atop the train in Image A have been removed. In their place, Image B features a single individual standing in front of the train, holding a flag with a logo, replacing the previous scene.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0091",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the original lighting style, including the placement and intensity of shadows, preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting appears to be natural sunlight streaming in from high windows on the right side of the space, casting long, angular shadows across the wooden parquet floor. The direction of light is consistent with a source from the upper right, creating strong contrasts between illuminated and shaded areas. The shadows are sharp and geometric, suggesting a clear, sunny day. This lighting style—characterized by directional sunlight and distinct shadow patterns—is typical of large historical or architectural interiors with high ceilings and limited artificial lighting. However, comparing this to Image A, which features a modern interior with soft, diffuse daylight entering from the left, the lighting style is fundamentally different. In Image A, the shadows are softer and more evenly distributed, likely due to a broader light source or indirect sunlight. In contrast, Image B has a dramatic, high-contrast lighting scheme, which is not preserved from Image A. Therefore, the original lighting style is not preserved.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the items on the chest of drawers arranged in a similar fashion to the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not contain a chest of drawers at all. Instead, it shows an expansive, open architectural space with stone walls, arched vaults, and a wooden parquet floor. There are no decorative items, books, vases, or furniture present on any surface that would resemble the arrangement seen in Image A. In Image A, a mid-century modern chest of drawers is topped with a potted plant, books, small decorative objects, and two vases. Since Image B lacks any such furniture or objects, the arrangement cannot be similar. The absence of any comparable elements means the item arrangement is not preserved.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the wooden parquet flooring texture still present?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Yes, the wooden parquet flooring is clearly visible in Image B. It features a herringbone pattern composed of polished wooden planks, which is a common design in historic buildings and formal interiors. The texture is detailed and well-defined, with variations in wood tone and grain visible under the sunlight. This type of flooring is consistent with the architectural style of the room, which resembles a medieval or Gothic hall. While Image A also features a wooden floor, its pattern and material appear simpler and less ornate than the herringbone design in Image B. However, since the question pertains only to Image B, and the parquet texture is indeed present and prominent, the answer is affirmative.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a large piece of furniture serving as the primary storage unit in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no furniture present at all. The space is vast and uncluttered, featuring only architectural elements such as stone walls, arches, vaulted ceilings, and a wooden floor. There are no cabinets, drawers, shelves, or other storage units. In contrast, Image A contains a large wooden chest of drawers that serves as the central furniture piece and primary storage unit. Since Image B lacks any such object, there is no large piece of furniture fulfilling that role. Therefore, the presence of a primary storage unit is not maintained.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is natural light still illuminating the scene from the same direction as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, natural light enters from the right side of the frame, through tall, narrow windows located high on the walls. This creates elongated shadows stretching diagonally across the floor toward the left. The directionality suggests a light source from the east or southeast, depending on the time of day. In Image A, the natural light comes from the left side, casting shadows to the right and illuminating the left side of the chest of drawers and wall clock. The lighting direction in Image B is opposite to that in Image A. Thus, although both scenes use natural light, the direction differs significantly. Therefore, the illumination direction is not preserved.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.18181818181818182
+}

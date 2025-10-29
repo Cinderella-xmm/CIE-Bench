@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_90133",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the background a uniform beige color without any gradient, pattern, or texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background appears to be a creamy beige color. However, a thorough examination shows subtle variations in the shading, notably at the edges and areas closest to the objects. These variations suggest a gradient in lighting across the image, which indicates that the background is not uniformly beige. Thus, the presence of minor gradients disqualifies it from being classified as a uniform color background.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the background have no visible texture, grain, or surface variation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon close inspection of Image B, the background seems smooth without any prominent patterns or grains visible on the surface. The lighting and image quality do not reveal any significant texture or surface variation. Therefore, it can be concluded that the background lacks visible texture or grain.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there no shadows, reflections, or light variations on the background surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows variations in lighting, particularly near the edges and closer to the objects, which indicate the presence of some shadows or light variations. These shading differences suggest that there are areas where light falls more prominently, creating subtle reflections or shadows. This contradicts the notion of a completely uniform light distribution.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the image framed with straight edges and no border or crop distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The framing of Image B appears to be straight with neatly defined edges. There is no indication of irregular border shapes or visible cropping distortions, which means the image maintains a consistent rectangular form.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the lighting on the background evenly distributed with no hotspots or directional shadows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting isn't evenly distributed. There are areas in the image, particularly towards some edges, that appear darker compared to other parts of the background, indicating the presence of hotspots or directional shadows. This uneven distribution is visible even without sophisticated equipment, just based on observable light gradients and shading.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

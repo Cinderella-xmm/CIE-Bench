@@ -1,0 +1,110 @@
+{
+  "filename": "laion_6379749997042206753",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the brand name \"Karls\" clearly visible on the label of the jar?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the label on the jar shows a logo with green text, which is common for brand names. However, instead of displaying 'Karls', the label has a different logo that doesn't correspond to the original brand. This suggests an intentional alteration to make the label distinct from the original.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the text \"Pumpkin Spice Popcorn\" present on the label of the jar?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays 'Pumpkin Spise Paon' on the label, which is similar but deliberately distorted from the original 'Pumpkin Spice Popcorn'. The non-standard spelling implies an edited or satirical version.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the popcorn contained in a clear glass jar with a silver metal lid?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the depiction is more of a cartoon illustration, and the jar is animated and stylized rather than intricately detailed like real glass. It lacks the realistic elements that typically indicate glass material.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a white ceramic bowl with a blue rim containing popped popcorn?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The bowls in Image B are cartoon-like illustrations with bold, solid colors. While similar colors like blue are present on the bowls, they do not match the real-world ceramic aesthetic shown in Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are unpopped corn kernels visible in a separate clear jar?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are illustrations of popcorn, but no separate jar containing unpopped corn kernels is depicted like in Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the dominant colors of the labels and popcorn orange and brown?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B uses vibrant orange prominently on the label and background, but does not feature brown as a primary color. It exaggerates the orange tone suitable for a seasonal theme, thus differing from the realistic version in Image A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the scene set on a wooden surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a bright orange background, characteristic of cartoon illustrations, foregoing the wooden surface more common in real-world settings as depicted in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q8",
+      "question": "Are unpopped or popped popcorn kernels scattered on the surface around the jars?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B uses scattered popcorn as part of its animated theme, showing popcorn floating around creatively. While it doesn't directly depict kernels on a surface, the loose popcorn in the image mimics the scattered effect in a stylized manner.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.17647058823529413
+}

@@ -1,0 +1,73 @@
+Description of reference image: The image depicts a cozy living room with a large window framed by beige curtains, allowing natural light to illuminate the space. Two white armchairs with orange cushions are positioned facing each other, separated by a small round wooden table. On the windowsill, there's a black vase with dried flowers, a potted green plant, a few books, and two small terracotta pots. To the right of the window stands a tall indoor plant in a woven basket. A beige rug covers the wooden floor beneath the furniture.
+
+Thinking process: Analyzing the editing instructions, only the black vase is to be replaced with a teapot and two porcelain cups added to the table. The rest of the scene's composition, including the armchairs, their positions, the window, the plants, and the general layout, remains unchanged.
+
+Allowed Changes List:  
+Specific element 1 that allows for changes:  
+- The black vase is replaced with a teapot.  
+- Two porcelain cups are added to the round wooden table.
+
+---
+
+### Step 2 - Determine the elements that should remain unchanged:
+
+**Thinking process:**  
+- **Core Recognition Elements:** The two white armchairs with orange cushions, the round wooden table, the large window with the beige curtains, and the indoor plant represent the scene's core identity and should be retained. Changing these would alter the basic setting and the intended cozy atmosphere.  
+- **Functional/Logical Association Elements:** The placement of the armchairs relative to the table and window makes up a logical seating arrangement for conversation. The plants and books on the windowsill contribute to the room’s decor and should be preserved to maintain visual consistency.  
+- **Remaining Elements:** Other details like the rug, wood flooring, and curtain rods add to the cozy aesthetic and should also remain consistent.
+
+**Preservation Targets List:**  
+(Element 1 that should be maintained: Position and style of the armchairs)  
+(Element 2 that should be maintained: The round wooden table)  
+(Element 3 that should be maintained: The large window and its framing by beige curtains)  
+(Element 4 that should be maintained: The indoor plant and its placement)  
+(Element 5 that should be maintained: The rug and wood flooring)
+
+---
+
+### Step 3 - Generate Yes/No Questions
+
+{
+    Q1: 
+    Thinking process: The armchairs’ position and design are central to the room's layout and identity. Altering this would disrupt the scene's core identity.  
+    Question: Are the two white armchairs with orange cushions still present in the same location as in the original image?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The round wooden table is a key piece linking the armchairs and serves as the focal point for interaction. Its presence and design are important for the scene's continuity.  
+    Question: Is the small round wooden table still present between the two armchairs?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The window is a defining feature that sets the natural lighting and background. Retaining the window's size, position, and framing by the beige curtains maintains visual coherence.  
+    Question: Is the large window framed by beige curtains still in the same position as in the original image?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 3
+}
+
+{
+    Q4: 
+    Thinking process: The indoor plant adds life and balance to the room's composition. Its placement near the armchairs contributes to the scene's harmony.  
+    Question: Is the tall indoor plant in a woven basket still located to the right of the window?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The rug and wood flooring provide the base layer of the scene's cozy ambiance. Their presence helps anchor the arrangement of furniture and decor.  
+    Question: Is the beige rug covering the wooden floor still present under the furniture arrangement?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 1
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0056",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the worker been transformed into a chibi-style 3D cartoon character?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a cartoon character with a chibi-style design, indicated by the large head and simplistic body proportions, which match the typical characteristics of chibi figures. This transformation from what is likely a more realistic depiction of a worker in Image A suggests the character is indeed chibi-inspired.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the chibi-style 3D character wear a yellow hard hat, a fluorescent yellow shirt, and an orange reflective vest?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi character is visually confirmed to be wearing a yellow hard hat, a fluorescent yellow shirt, and an orange reflective vest. These are commonly associated with construction workers and contribute to an accurate depiction of similar attire.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the chibi-style 3D character placed at the center of a low-poly construction scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background of Image B is minimalistic and mostly white, and while there is a small crane model present, the environment does not display typical polygon-based simplification of a low-poly scene. Thus, the background doesn't constitute a low-poly construction setting.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the background a simplified light gray plane with a small crane model included?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays a simplified light gray plane as the background, and a small crane model is visible, supporting the description of a simplified environment with a crane.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image maintain a 1:1 composition ratio?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes\n```",
+      "explanation": "The dimensions of Image B appear square, as the height and width seem to be equally proportioned, ensuring a 1:1 aspect ratio, typical for images that are meant to be perfectly square.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

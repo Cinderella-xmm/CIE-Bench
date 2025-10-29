@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-202907397178837221",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the wooden truss supports of the railway bridge clearly visible and structurally intact?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the scene presents a futuristic, digital art style. The bridge structure is stylized with glowing lines resembling circuits, not showing any traditional wooden truss supports. The intricate glowing patterns suggest a modern or conceptual design rather than realistic wooden construction. This indicates that the original wooden features are not clearly visible or intact in Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the river present and flowing continuously beneath the bridge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the area beneath the bridge is filled with a glowing pattern that suggests water, possibly representing a river in this stylized context. However, it is not a realistic or continuous portrayal as in a photograph; instead, it is abstract, with lines and colors. Thus, although a river-like region is there, it doesn't flow in a natural, continuous manner like in Image A.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the red-brick buildings with gabled roofs and chimneys visible in the park area?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases abstract structures in a future cityscape style, with no discernible features like red bricks, gabled roofs, or chimneys that are present in Image A. The scene relies on luminous lines and shapes, deviating from traditional architectural details seen in a park area.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the green lawns and paved pathways in the park area clearly visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the landscape is an abstract depiction with glowing digital patterns that replace natural elements like lawns and pathways. There are no green lawns or traditional paths depicted, just stylized circuit-like representations, contrasting with the realistic park of Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the city skyline located behind the river and bridge, maintaining the original depth order?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B retains the depth order with the city skyline placed behind what represents a river and bridge. This placement mirrors the original spatial arrangement of Image A, despite the change in artistic style. The key elements of city structures behind a bridge-like element are maintained.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are two parallel railroad tracks visible along the length of the bridge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bridge is stylized with glowing lines, but there are no clear indications of railroad tracks. The emphasis is on creating a futuristic aesthetic, not the detailed depiction of tracks. In Image A, such tracks are identifiable, suggesting they are not replicated in Image B.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.21428571428571427
+}

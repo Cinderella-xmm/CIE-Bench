@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_16351",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the individuals' facial features, hairstyles, and body types retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the characters' facial features, such as the long nose, prominent eyebrows, and distinct facial expressions, are consistent with those in Image A. The man in the suit retains his exaggeratedly long nose and slicked-back dark hair, while the player in the blue jersey (number 21) maintains his beard, long hair, and angular face. Their body types, including proportions and posture, also appear unchanged. This suggests that the artist preserved the core character designs despite changing the background. Based on visual cues and common artistic practices in cartoon-style illustrations, character consistency is typically maintained across scenes unless intentionally altered for narrative or stylistic reasons. Since no such alteration is evident here, the characters’ physical traits are retained.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the man in the suit still gesturing with his hands in the same manner as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both images, the man in the suit is depicted with both hands extended outward, palms up, in a gesture that suggests explanation or exasperation. The positioning of his arms and hands is nearly identical—left hand slightly lower than the right, fingers spread. This consistent gesture indicates continuity in the character’s expressive action. In cartoons, hand gestures are often used to emphasize emotion or dialogue, and their preservation across scenes helps maintain narrative coherence. There is no visible change in the gesture’s form or direction, so it can be concluded that the hand movement is retained.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the relative positions of the characters (e.g., who is standing next to whom) retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the man in the green jersey is on the far left, followed by the player in the blue jersey (number 21), then the man in the suit, and partially visible another character on the far right. In Image B, this arrangement remains unchanged: the green-jerseyed player is still on the left, the blue-jerseyed player is next to him, the suited man is to their right, and the partial figure on the far right is still present. The spatial relationships between characters have not been altered. This retention of character placement supports narrative continuity, especially in scenes where group dynamics are important. Therefore, the relative positions are preserved.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the individuals still wearing the same type of clothing (e.g., jerseys, suit) as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the man in the green jersey continues to wear a green and blue striped shirt with an Italian crest, consistent with his appearance in Image A. The player in the blue jersey (number 21) wears the same style of kit with the same crest and number. The man in the suit is dressed identically in a dark suit, white shirt, and black tie. Clothing types are preserved, which is typical in animated storytelling to maintain character identity across scenes. No changes in attire are observed, indicating that the clothing has not been altered despite the setting change.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a clear focal point in the new setting that replaces the jersey's position in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the focal point is clearly the blue jersey with 'BROCATELI 9' hanging on a hanger in the center of the frame, drawing attention due to its central placement and contrast against the wooden locker room background. In Image B, the setting has changed to a modern lounge with a sofa, coffee table, and decorative elements. While the central area now features a round coffee table and a sofa, these do not serve as a strong focal point like the jersey did. The absence of a similarly prominent object or element in the center means there is no direct replacement for the jersey’s role as a visual anchor. Thus, while the environment has a clear layout, it lacks a singular, dominant focal point that matches the significance of the jersey in the original image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

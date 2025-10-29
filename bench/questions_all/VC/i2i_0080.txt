@@ -1,0 +1,65 @@
+Description of reference image: The subject is a cartoon dog lying on a small wooden bed placed outdoors. The dog has a reddish-brown coat, floppy ears, and a short tail curved upwards. Its friendly face is turned slightly towards the viewer, with a visible red collar around its neck and a small tag hanging from it. The bed is simple, with a green mattress and pillow, and the setting is an open outdoor area with light green grass and a pale blue background.
+
+Thinking process: The instructions require illustrating the dog from both the left side and back views and combining them into a single image. This means that the dog’s view and perspective can change, but the essential visual identity and details of the dog as well as the bed must be retained.
+
+### Allowed Changes List:
+1. The dog's perspective/view can be changed to depict both left side and back views.
+2. The relative placement of the dog on the bed can be adjusted to accommodate multiple angles.
+
+### Preservation Targets List:
+
+Thinking process:
+Core recognition elements include the dog's reddish-brown fur, distinctive floppy ears, red collar, and the overall setting of the wooden bed outdoors. Functional/logical association elements require the dog to still lie on the bed in a way that makes sense for both new angles. Remaining elements include specific visual details like the tag on the collar, the pillow, and the color of the mattress, which contribute to visual consistency and coherence.
+
+Preservation Targets List:
+(Dog’s reddish-brown fur and overall coloration)
+(Dog’s floppy ears and tail shape)
+(Red collar with a tag)
+(Wooden bed with green mattress and pillow)
+
+---------------------------------------------------------------------------------------
+
+{
+    Q1: 
+    Thinking process: The reddish-brown fur is central to recognizing the dog. Altering this color would make the dog unidentifiable in terms of species and breed characteristics. Therefore, this is a key element with high weight.
+    Question: Does the dog retain its reddish-brown fur in both the left side and back views?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: Floppy ears are a distinctive characteristic of many breeds and are crucial for maintaining the dog’s recognizable appearance. The presence and shape of the ears must remain consistent to keep the dog identifiable.
+    Question: Are the dog’s floppy ears present and maintained in shape in both views?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The red collar with a tag is an accessory that helps in identifying the dog as a domesticated pet. Losing this detail could weaken the connection between the dog and its environment.
+    Question: Is the dog wearing a red collar with a tag in both views?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The bed maintains the logical relationship between the dog and its resting place. Without the bed, the dog would appear disconnected from the context provided by the original image.
+    Question: Is the dog still lying on a wooden bed with a green mattress and pillow in both views?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The location and background elements like the grass and pale blue background contribute subtly to the overall coherence and atmosphere of the image. While less critical, missing them may reduce scene consistency.
+    Question: Is the dog’s bed set against a pale blue background with green grass around it?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

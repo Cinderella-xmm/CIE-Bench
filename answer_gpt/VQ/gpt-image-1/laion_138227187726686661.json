@@ -1,0 +1,71 @@
+{
+  "filename": "laion_138227187726686661",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the quilt display uniform square blocks with visible grid lines and a matte finish consistent with LEGO bricks, without any fabric-like folds or stitching?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The quilt in Image B features uniform square blocks colored in primary colors like yellow, red, green, and blue, resembling LEGO bricks. The squares exhibit a texture that suggests LEGO-like studs on each block, representing the protuberances common to LEGO pieces. There are no evident fabric folds or stitching lines, which would be characteristics of traditional textile quilts. Instead, the surface appears flat with the consistent geometric pattern of LEGO bricks.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the round sports elements (e.g., football, soccer ball) represented as circular LEGO tiles with consistent size and alignment within the square grid, without stretching or deformation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are no visible round sports elements like a football or soccer ball. Instead, the blocks are consistently square with uniform size and shape, resembling LEGO bricks, without any round or circular components that would deviate from the block pattern.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the pillow replaced by a cube composed of stacked LEGO bricks with equal dimensions on all sides, right angles, and no visible gaps or misalignments?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pillow retains a rectangular shape that matches the quilt's pattern with Lego-like surface features but does not form a perfect cube. It maintains a rectangular pillow form, consistent with a standard bedding pillow design rather than a cubic structure, and is flush with the bedding without any misalignments.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the bed base a flat, white, seamless surface with no visible wood grain, shadows, or depth cues, resembling a standard LEGO baseplate?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The bed base in Image B is a flat, white surface that appears seamless. It features a texture reminiscent of LEGO stud patterns across its surface, suggesting a design inspiration from LEGO baseplates. There are no visible wood grains, which eliminates the wooden texture from Image A, nor are there discernible shadows or depth cues that would indicate it being anything other than a simplified, plastic-like LEGO structure.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the entire background a smooth, uniform white surface with no visible walls, furniture, or windows, and are there no shadows or lighting gradients indicating a physical space?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B is a smooth, uniform white surface. There are no visible elements such as walls, furniture, or windows. The overall lighting is even, and there are no visible shadows or gradients that suggest depth or a defined physical space. The setting is minimalist and lacks the context provided by room details visible in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

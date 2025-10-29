@@ -1,0 +1,132 @@
+Description of reference image: The subject is a richly detailed, ornate library interior centered around an elaborate wooden desk with multiple drawers and intricate carvings. The desk features a central organ-like structure with pipes and keys, suggesting a blend of musical instrument and writing surface. On the desk are open books, quills, inkwells, and a lit candelabra casting soft light. Behind the desk is a large arched window with decorative stained glass in a fan-shaped design at the top and patterned translucent panes below, allowing diffused daylight to enter. Flanking the window are dark wooden columns with Corinthian capitals, supporting the ceiling. The walls are lined with tall bookshelves filled with uniformly bound leather books, creating a symmetrical and scholarly atmosphere. The floor is made of dark stone tiles with geometric patterns, and scattered on it are parchment papers, rolled scrolls, and a knife. A single upholstered chair sits to the left of the desk. The overall color palette is deep brown, black, and gold, evoking a sense of antiquity and intellectual grandeur.
+
+Thinking process: First, analyze the editing instructions that clearly state what can be changed:  
+- "Replace one book with a magnifying glass casting a large shadow" → This allows modification of one specific book object into a magnifying glass; thus, the *content* and *form* of one book may change.  
+- "Add a ghostly outline of a detective in a trench coat onto the window curtain pattern" → This adds a new element (ghostly figure) to the existing curtain pattern, meaning the curtain’s visual texture can be altered but not its fundamental presence or position.  
+- "Use deep sepia tones for a moody, aged appearance" → This changes the color tone globally, so hue and contrast can shift, but not structural forms.  
+- "Integrate the title in a bold, serif font across the top of the image" → This adds text overlay, which is allowed as per instruction.  
+
+Therefore, the following elements are allowed to change:  
+1. One book on the shelf → replaced by a magnifying glass  
+2. Window curtain pattern → modified to include ghostly detective silhouette  
+3. Overall color tone → shifted to deep sepia  
+4. Text added at the top → title "The Lost Legacy" in bold serif font  
+
+However, the instruction does **not** allow changes to:  
+- The core architectural layout (columns, arch, ceiling)  
+- The presence and form of the central desk, including its organ-like structure  
+- The placement and function of objects on the desk (open book, quill, inkwell, candlestick)  
+- The general spatial arrangement (desk centered, shelves flanking, chair to the left)  
+- The existence of the floor tiles, scattered parchments, and knife  
+- The lighting direction from the window (sunlight entering through the stained glass)  
+- The material and texture of the wood, leather books, and stone floor — only tone may shift
+
+Allowed Changes List:  
+- One book → replaced by a magnifying glass  
+- Window curtain pattern → includes ghostly detective silhouette  
+- Color tone → converted to deep sepia  
+- Top of image → overlaid with title text in bold serif font  
+
+-----------------------------------------------------------------------------------
+
+Thinking process:  
+Core recognition elements: The identity of this scene hinges on its unique combination of architectural and furnishing details. The central desk with its organ-like structure is highly distinctive — it is not just a regular desk but a symbolic fusion of music and scholarship. Its carved wood, multiple drawers, and pipe array must remain intact because altering them would fundamentally change the scene's character. Similarly, the arched stained-glass window with fan-shaped upper panel and patterned lower panes is a key visual anchor. The presence of the two Corinthian columns framing the window is also critical to the classical aesthetic and spatial symmetry. These are non-negotiable due to their role in defining the room’s identity.  
+
+Functional/logical association elements: The desk must remain functional in appearance — it supports writing tools, books, and light sources. If the drawer configuration or desk base were altered, it would lose its logical coherence as a working space. The positioning of the chair relative to the desk maintains spatial logic; removing or repositioning it would disrupt the intended use of the room. The scattered parchments on the floor suggest recent activity — they should remain to preserve narrative continuity.  
+
+Non-modified element deduction: After excluding allowed changes (one book, window pattern, color tone, title), all other elements must be retained. This includes the full height of the bookshelves, the uniform binding of the books, the ceiling coffering, the stone floor pattern, the candelabra’s shape and flame, the open book on the desk, the quill holder, and the knife on the floor. These are not mentioned as changeable and contribute to visual consistency and realism. Even minor textures like the grain of the wood or the embossed patterns on the drawers must persist, as they define the craftsmanship of the setting.
+
+Preservation Targets List:  
+- The central ornate wooden desk with organ-like structure and multiple drawers  
+- The arched stained-glass window with fan-shaped upper section and patterned lower panes  
+- The two Corinthian columns flanking the window  
+- The full height of the bookshelves lining both walls, filled with uniformly bound books  
+- The open book, quill, inkwell, and candelabra on the desk  
+- The scattered parchments and rolled scrolls on the stone floor  
+- The dark stone floor with geometric tile pattern  
+- The ceiling with coffered panels and decorative molding  
+- The single upholstered chair to the left of the desk  
+- The knife lying near the scattered papers  
+
+-----------------------------------------------------------------------------------
+
+{
+    Q1: 
+    Thinking process: The central desk with its organ-like structure featuring vertical pipes and keyboard is a unique identifier of the scene. It is not a standard desk but a hybrid object combining musical and scholarly functions. Its presence defines the room’s purpose and aesthetic. Removing or altering the pipe array or keyboard would destroy this identity, making the room unrecognizable as the original setting. Thus, this is a core identity feature.
+    Question: Is the central desk still present with its organ-like structure including vertical pipes and a keyboard-like row of keys?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The arched stained-glass window with a fan-shaped upper section and patterned lower panes is a signature architectural feature. Its design is complex and distinct, serving as a primary source of natural light and visual focus. Altering its shape or removing it would fundamentally change the room’s composition and ambiance. Therefore, its structural integrity must be preserved.
+    Question: Is the arched window with a fan-shaped stained-glass upper section and patterned lower panes still present?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The two Corinthian columns flanking the window are essential to the classical architectural style and symmetry of the room. They support the ceiling and frame the window, contributing to the formal, scholarly atmosphere. Their removal or replacement would disrupt the balance and historical authenticity of the space.
+    Question: Are the two Corinthian columns with ornate capitals still positioned on either side of the window?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The full-height bookshelves lining both walls, filled with uniformly bound leather books, are critical to establishing the library environment. Their presence reinforces the theme of knowledge and antiquity. While one book may be replaced, the overall structure and content of the shelves must remain consistent to maintain the scene’s integrity.
+    Question: Are the tall bookshelves on both sides of the room still fully stocked with uniformly bound leather books?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The open book, quill, inkwell, and candelabra on the desk are functional items that define the workspace. They indicate active use and scholarly pursuit. Their absence would make the desk appear unused or out of context, undermining the narrative of intellectual labor. These are key accessories tied to the scene’s logic.
+    Question: Are the open book, quill, inkwell, and lit candelabra still present on the desk?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The scattered parchments and rolled scrolls on the dark stone floor suggest recent activity, possibly research or discovery. They add narrative depth and grounding to the scene. Their presence contributes to the atmosphere of mystery and urgency, especially relevant for a detective novel cover. Removing them would weaken the story context.
+    Question: Are the scattered parchments and rolled scrolls still visible on the stone floor?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The dark stone floor with its geometric tile pattern provides a stable foundation for the room and enhances the gothic, antique aesthetic. The pattern is consistent and detailed, contributing to the overall texture and mood. Changing the floor material or pattern would alter the visual harmony and historical feel.
+    Question: Is the dark stone floor with geometric tile pattern still present beneath the desk and chairs?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q8: 
+    Thinking process: The ceiling with coffered panels and decorative molding is a key architectural detail that completes the room’s opulent design. It matches the richness of the furniture and enhances the sense of grandeur. While color may shift to sepia, the structure must remain unchanged to preserve the spatial hierarchy.
+    Question: Is the coffered ceiling with decorative molding still visible above the room?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q9: 
+    Thinking process: The single upholstered chair to the left of the desk maintains the spatial relationship between seating and work surface. It suggests a place for contemplation or conversation, reinforcing the room’s function. Its removal would leave an imbalance in the composition.
+    Question: Is the upholstered chair still positioned to the left of the desk?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q10: 
+    Thinking process: The knife lying near the scattered papers is a small but significant detail that hints at action or conflict. It adds tension and narrative potential, especially in a detective context. Its presence grounds the scene in a moment of disruption or discovery.
+    Question: Is the knife still lying on the floor near the scattered parchments?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

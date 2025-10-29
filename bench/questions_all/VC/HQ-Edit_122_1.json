@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The vertical cluster of lavender-like flowers with fuzzy purple petals is a key environmental feature in the original image. It defines the setting and provides context for the butterfly’s presence. Although the instruction mentions changing the surroundings to a dreamlike meadow, it does not specify altering the flower type or structure. Therefore, the morphological characteristics of the flower—specifically its clustered, upright growth habit and textured petals—are core to the original composition and must be retained to maintain visual consistency. Losing this detail would break the connection between the butterfly and its natural habitat, even in a fantastical version. This is a 3-point element because it serves as the primary anchor of the scene.",
+      "question": "Is the vertical cluster of lavender-like flowers with fuzzy purple petals present in the same structural arrangement as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The single prominent blue flower with a yellow center at the top of the cluster is a distinctive visual marker. Its unique color contrast and central placement make it a focal point of the floral structure. Since the instruction does not state that this flower should be removed or transformed, and it contributes to the botanical accuracy of the scene, it must be preserved. Changing or removing it would alter the composition significantly and reduce fidelity to the original image. This is a 2-point element because it is important for scene recognition but not the sole identifier.",
+      "question": "Is there a single blue flower with a yellow center located at the top of the flower cluster?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The butterfly’s position on the flower stem—specifically its legs gripping the stem and body oriented diagonally upward—is a functional interaction that grounds the subject in reality. Even though the butterfly will be transformed into a fairy, the spatial relationship between it and the flower must remain consistent to preserve logical coherence. Altering this positioning (e.g., hovering freely without contact) would violate the original scene logic. This is a 2-point element because it maintains the narrative of interaction.",
+      "question": "Is the butterfly positioned with its legs touching the flower stem, maintaining physical contact?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The butterfly’s wings are spread in a symmetrical, side-profile view, showing both forewings and hindwings clearly. This posture is crucial for identifying the species and understanding its behavior. While the wings themselves will be replaced, the **orientation and spread of the wings** are part of the original pose and should be preserved in the new form. If the fairy version has wings folded or angled differently, it would deviate from the original posture. This is a 2-point element because it affects the viewer’s perception of motion and stance.",
+      "question": "Are the wings of the butterfly fully spread in a side profile view, showing both left and right wings symmetrically?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The warm golden backlighting from above creates a soft glow around the butterfly and flowers, contributing to the mood and depth of the image. While the instruction allows changes to lighting for a dreamlike effect, the **direction of the light source** (from above) and the **golden tone** are key to the original atmosphere. Retaining this ensures continuity in ambiance. If the light were shifted to the side or made cold-toned, it would fundamentally alter the visual tone. This is a 1-point element because it supports the aesthetic but is less critical than structural features.",
+      "question": "Is the lighting in the image coming from above, casting a warm golden glow over the butterfly and flowers?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

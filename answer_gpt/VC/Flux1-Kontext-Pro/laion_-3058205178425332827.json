@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-3058205178425332827",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the bell tower with a domed roof and two arched windows clearly visible and structurally intact in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, which appears to be a page from a book, there is no bell tower present. Instead, the scene focuses on a cityscape with a cat sitting in the foreground. This indicates that the bell tower structure that was visible in Image A is not included in this version of the scene in Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the large, dark mountain with a distinct peak visible in the background behind the city?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a mountain range with a prominent peak in the background, which resembles a typical landscape feature such as Mount Vesuvius in Naples, Italy. This mountain scene is depicted behind the city, with a noticeable silhouette against the sky, suggesting the presence of such a mountain in the composition.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the docks and harbor structures clearly visible extending into the blue body of water?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, while the sea and cityscape are illustrated, the docks and harbor details are not clearly visible. The focus appears to be more artistic, capturing the essence of a coastal city rather than emphasizing specific structures like docks and harbors extending into the water.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the red-tiled rooftops of the foreground buildings still present and clearly colored in warm reddish-brown tones?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cityscape includes rooftops predominantly colored in warm reddish-brown and yellow tones, reflecting typical Mediterranean architecture. This suggests that the rooftops characteristic of such areas are preserved in this illustration.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the sky retain a dominant pink and purple gradient transitioning toward the horizon, with blue tones over the sea?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The sky in Image B features a gradient with dominant pink and purple hues transitioning toward the horizon. The sea below exhibits blue tones. This maintains consistency with the artistic style and color palette often found in scenic illustrations.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the city positioned between the foreground rooftops and the distant mountain, with the sea to the right side of the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts a city that is visually positioned between foreground elements and a distant mountain range. The sea is visible on the right side of the scene, aligning with a common coastal city layout. This geographical positioning suggests an accurate reflection of a typical city like Naples.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6153846153846154
+}

@@ -1,0 +1,133 @@
+**Step 1 – Analyze the editing instructions and determine allowed changes**
+
+**Description of reference image:**  
+The subject is a large, intricately carved wooden warrior statue standing upright on a rectangular wooden base. The statue is positioned centrally in a modern art gallery with white walls, polished reflective flooring, and track lighting overhead. The warrior wears elaborate armor made of layered, feather-like carvings, with a prominent chest plate featuring a circular emblem at its center. Its head is adorned with a fan-shaped headdress resembling feathers or sun rays, and it has a stern facial expression with wide eyes and a defined jawline. The arms are slightly bent, holding a spear in the right hand and a shield-like object in the left. The legs are armored with segmented plates, and the feet are bare but detailed with textured soles. The statue is mounted on a minimalist white pedestal, which includes two informational plaques at the front. On either side of the gallery, framed landscape paintings are displayed evenly along the walls, each illuminated by individual spotlights. The overall atmosphere is clean, neutral, and museum-like.
+
+**Thinking process:**  
+The editing instruction explicitly states: "Transform the wooden warrior statue into a LEGO creation." This indicates that the **form, material, and texture** of the statue are to be changed — from wood to LEGO bricks. However, the instruction specifies using **brown and tan bricks**, preserving the **color palette**, and employing **smooth bricks for armor** and **textured ones for intricate designs**, suggesting that **visual details such as armor structure, ornamentation, and proportions** should be preserved in form, even if material changes. The instruction also says: "Position the LEGO statue on a minimalist white pedestal inside a gallery setting," meaning the **pedestal and gallery environment must remain** — including the **white walls, track lighting, floor reflections, and surrounding artworks** — though their style may be consistent with the original.
+
+Therefore, the **allowed changes** include:
+- Material transformation (wood → LEGO)
+- Texture modification (carved wood → brick surface)
+- Surface finish adjustment (natural grain → plastic brick texture)
+
+However, the **structure, pose, proportions, and decorative elements** of the warrior must remain visually consistent to maintain identity.
+
+**Allowed Changes List:**  
+- Material of the statue (wood → LEGO bricks)  
+- Surface texture of the statue (carved wood → smooth/textured LEGO bricks)  
+- Color rendering (limited to brown/tan tones, but not other hues)  
+- Visual representation of ornaments (recreated with small bricks instead of carving)  
+
+---
+
+**Step 2 – Determine the elements that should remain unchanged**
+
+**Thinking process:**  
+Core recognition elements must be retained because they define the **identity of the statue**. These include:
+- The **overall shape and posture** of the warrior (upright stance, arms at sides, weapon-holding pose)
+- The **iconic headdress** (fan-shaped, radiating from the head)
+- The **distinctive armor design**, especially the layered chest plate with central circular motif
+- The **proportions** of limbs, torso, and head
+- The **presence and position** of weapons (spear in right hand, shield-like object in left)
+- The **facial features**: broad nose, deep-set eyes, stern mouth, ear flaps
+
+Functional/logical elements:
+- The **statue's placement on a pedestal** — this is required by the instruction ("on a minimalist white pedestal"), so the **positioning and support structure** must be preserved.
+- The **gallery context** — the instruction requires retaining the gallery setting, so **walls, lighting, floor, railings, and surrounding artworks** must remain in place and spatially coherent.
+
+Non-modified element deduction:
+After excluding allowed changes (material, texture), the remaining **structural and spatial relationships** must stay intact. For example:
+- The **relative size** of the statue compared to the room and artworks
+- The **symmetrical layout** of the gallery
+- The **placement of the information plaques** on the pedestal
+- The **orientation** of the statue (facing forward, centered)
+
+These are essential for maintaining visual coherence and logical consistency.
+
+**Preservation Targets List:**  
+- The **upright stance** and **full-body frontal pose** of the warrior  
+- The **fan-shaped headdress** with radiating elements  
+- The **central circular emblem** on the chest plate  
+- The **spear held in the right hand** and **shield-like object in the left hand**  
+- The **layered armor pattern** on the torso and legs  
+- The **white pedestal** with **two informational plaques** at the front  
+- The **gallery environment** including **track lighting, white walls, reflective floor, metal railings, and framed landscape artworks** on both sides  
+- The **spatial symmetry** and **central positioning** of the statue within the gallery  
+
+---
+
+**Step 3 – Generate yes/no questions based on key identifying visual elements**
+
+{
+    Q1: 
+    Thinking process: The fan-shaped headdress is a defining feature of the warrior’s identity, distinguishing it from other statues or figures. It is a core recognition element due to its unique radial structure and placement atop the head. If lost or altered in shape, the statue would no longer be recognizable as this specific cultural or artistic representation. Therefore, preserving its presence and form is critical, making it a 3-point question.
+    Question: Is the fan-shaped headdress with radiating elements present on the warrior’s head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The central circular emblem on the chest plate is a key ornamental and symbolic detail that anchors the armor design. It serves as a focal point and is structurally distinct from surrounding patterns. Its absence or replacement would alter the identity of the armor, affecting recognition of the figure’s cultural or mythological significance. Thus, it is a high-weight element.
+    Question: Is there a circular emblem located at the center of the chest plate?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The spear in the right hand is a functional and symbolic accessory that defines the warrior’s role and posture. Its presence and position are essential for maintaining the intended action and balance of the figure. Changing or removing it would disrupt the narrative and structural integrity of the pose, making it a crucial preservation target.
+    Question: Is a spear held in the warrior’s right hand?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The layered armor pattern on the torso and legs is a distinctive design feature that contributes to the statue’s visual complexity and cultural authenticity. While the material may change, the **arrangement and segmentation** of the armor must remain to preserve the original form. Altering this would result in a loss of identity.
+    Question: Are the torso and legs covered in layered, scale-like armor pieces?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q5: 
+    Thinking process: The white pedestal with two informational plaques is explicitly mentioned in the instruction as part of the display setup. Its presence ensures contextual continuity and proper exhibition framing. Removing or altering the pedestal would break the scene logic and violate the requirement to retain the gallery setting.
+    Question: Is the statue placed on a white pedestal with two visible plaques at the front?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The gallery environment, including the white walls, track lighting, reflective floor, and framed artworks on both sides, is required to be retained per the instruction. These elements establish the context and spatial coherence. Their removal or significant alteration would make the scene inconsistent with the original setting.
+    Question: Are framed landscape artworks visible on both side walls of the gallery?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The statue’s central positioning and symmetrical alignment within the gallery space contribute to the composition’s balance and aesthetic intent. Deviating from this would disrupt the visual harmony and implied importance of the piece. While minor shifts might be acceptable, the core spatial relationship must be preserved.
+    Question: Is the statue centered in the gallery space with equal spacing to the side walls?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q8: 
+    Thinking process: The shield-like object in the left hand is a secondary but identifiable accessory that complements the warrior’s equipment. Its presence helps define the character’s role and completes the bilateral symmetry of the pose. While less critical than the spear, its omission would reduce fidelity.
+    Question: Is a shield-like object held in the warrior’s left hand?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q9: 
+    Thinking process: The facial features—especially the broad nose, deep-set eyes, and stern mouth—are key to recognizing the warrior’s expression and cultural style. While the material may change, these features must remain in form and position to preserve identity. Minor stylization is acceptable, but fundamental alterations would affect recognition.
+    Question: Does the warrior have a broad nose, deep-set eyes, and a stern mouth?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

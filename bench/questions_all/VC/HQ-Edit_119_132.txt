@@ -1,0 +1,120 @@
+**Step 1 – Analyze the editing instructions and determine allowed changes**
+
+**Description of reference image:**  
+The subject is a Siberian Husky sitting upright in a snowy winter landscape. The dog has a thick, layered fur coat with a mix of tan, cream, and dark brown markings, particularly along the back, ears, and face. Its facial features include striking bright blue eyes, a black nose, and a white muzzle with symmetrical markings extending up between the eyes. The ears are erect and pointed, with inner fur visible. The husky's posture is alert and centered, facing directly toward the viewer, with its front paws placed firmly on the snow. The background consists of a wintry scene: snow-covered ground, bare birch trees to the right with smooth light-colored trunks, a snow-laden evergreen tree to the left, and a distant forest line under a cloudy gray sky. The lighting is diffused, suggesting overcast weather, with soft shadows indicating ambient illumination.
+
+**Thinking process:**  
+The editing instruction explicitly transforms the husky into a **life-sized plush toy**, which implies a complete reimagining of the subject’s physical form and material properties. Key changes specified include:
+- **Exaggerated proportions**: oversized paws and an extra-fluffy tail
+- **Fur texture replaced** with soft, velvety fabric
+- **Embroidered facial features**, including bright blue eyes (though color preserved)
+- **Repositioning** on a clean wooden shelf with a minimalist backdrop
+
+This means that:
+- The **form** of the husky (as a real animal) is being changed into a **plush representation**
+- The **texture** of fur is replaced with fabric
+- **Proportions** are altered (paws larger, tail fluffier)
+- **Facial details** become embroidered (not natural anatomy)
+- The **scene** is changed entirely — from a natural snowy landscape to a minimalist indoor setting
+
+Therefore, only elements **explicitly required to be retained** by the instruction or **inherently tied to identity** can remain unchanged.
+
+**Allowed Changes List:**
+- Subject’s form (from realistic dog to plush toy)
+- Fur texture (replaced with velvety fabric)
+- Proportions (oversized paws, exaggerated tail)
+- Facial features (embroidered instead of natural)
+- Background environment (replaced with wooden shelf and minimalist backdrop)
+- Posture (may be adjusted for display, though sitting likely retained)
+- Material properties (real fur → synthetic fabric)
+
+---
+
+**Step 2 – Determine the elements that should remain unchanged**
+
+**Thinking process:**  
+We now apply exclusion logic based on what was *allowed* to change.
+
+**Core recognition elements:**  
+Even though the husky becomes a plush toy, certain visual traits must remain to preserve its **identity as a Siberian Husky**. These are not just aesthetic but functional for identification:
+- **Color pattern**: The specific distribution of tan, cream, and dark brown fur — especially the symmetrical facial markings and white muzzle — defines this breed visually.
+- **Eye color**: Bright blue eyes are a hallmark trait of many Siberian Huskies and are explicitly mentioned in the instruction ("bright blue eyes") — thus, they must be preserved even if embroidered.
+- **Ear shape and position**: Erect, triangular ears with inner fur detail help identify the breed.
+- **Overall body shape**: While proportions may be exaggerated, the general silhouette (e.g., broad chest, medium-length legs, wedge-shaped head) must remain recognizable.
+
+These are **core identity markers**. If the plush loses these, it would no longer resemble a husky.
+
+**Functional/logical association elements:**  
+There is no functional interaction in this image (e.g., no tools or actions), so no logical dependencies exist. However, the **relationship between the subject and its original environment** is severed by the instruction, meaning the scene does not need to be preserved.
+
+**Non-modified element deduction:**  
+After excluding all elements that are allowed to change (texture, proportions, background, etc.), we retain:
+- The **specific color scheme** of the fur (tan/cream/dark brown)
+- The **facial markings** (white blaze between eyes, white muzzle)
+- The **blue eye color**
+- The **ear shape and orientation**
+- The **sitting posture** (implied by “position on shelf”)
+- The **presence of a fluffy tail** (though exaggerated, still present)
+
+These are derived from the original image and are necessary to maintain breed identity despite transformation.
+
+**Preservation Targets List:**
+- The presence of a white facial blaze extending between the eyes
+- The bright blue color of the eyes
+- The erect, pointed ear shape
+- The tan and cream fur coloration with dark brown markings on the back and face
+- The sitting posture of the subject
+- The overall body shape resembling a Siberian Husky (wedge-shaped head, broad chest, proportionate limbs)
+
+---
+
+**Step 3 – Generate yes/no questions based on key identifying visual elements**
+
+{
+    Q1: 
+    Thinking process: The white facial blaze extending between the eyes is a core identity feature of this particular husky, distinguishing it from other dogs and even other huskies. It is a unique marking visible in the original image and critical for recognition. If lost in the plush version, the character would lose its individuality and breed-specific appearance. This is a key identifier, hence weight 3.
+    Question: Is there a distinct white stripe running vertically between the eyes on the dog's face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: Bright blue eyes are both a breed characteristic and explicitly mentioned in the editing instruction. Their preservation ensures continuity of identity, even when rendered as embroidery. Losing this would misrepresent the subject and break consistency with the original. This is a core visual trait, thus weight 3.
+    Question: Do the dog's eyes have a vivid blue color?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The erect, pointed ear shape is essential for identifying the husky breed. Even in a plush form, the ears must retain their upward-pointed structure to maintain breed authenticity. Altering their shape would make the toy unrecognizable as a husky. This is a core structural feature, so weight 3.
+    Question: Are the ears upright and sharply pointed at the tips?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The color pattern of tan and cream fur with dark brown markings on the back and face is a defining trait of this specific husky. Changing it would result in a different-looking animal or breed. Though texture changes, color distribution must remain consistent for recognition. This is a major identity element, hence weight 2.
+    Question: Does the dog have tan and cream fur with dark brown markings along the back and face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The sitting posture is implied in the instruction (“position on a shelf”) and matches the original image. While the pose may be slightly adjusted for display, the fundamental seated position with front paws forward must be retained to preserve the composition and identity. This is an important compositional and behavioral cue, so weight 2.
+    Question: Is the dog sitting upright with its front paws placed forward on the surface?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The overall body shape — including the wedge-shaped head, broad chest, and proportionate limbs — is necessary to maintain the husky’s silhouette. Even with exaggerated proportions in the plush, the basic outline must match to ensure recognition. This is a secondary but crucial structural detail, so weight 1.
+    Question: Does the dog have a broad chest and a wedge-shaped head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

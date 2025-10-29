@@ -1,0 +1,109 @@
+Description of reference image: The subject is a woman standing outdoors on a gravel path, facing slightly to the right with her body angled toward the viewer. She has dark brown hair styled in an elegant updo, with soft curls framing her face. Her makeup is natural yet defined, featuring dark eyeliner and a warm smile. She wears a strapless, layered gray tulle gown with ruffled tiers cascading from the waist down, creating a full, flowing skirt. The bodice is gathered and fitted, with thin spaghetti straps. A sheer white fabric drapes over one shoulder and arm, held loosely in her right hand, suggesting movement or a gentle flow. She is wearing a delicate silver necklace with a small pendant. Her left leg is slightly bent, and she appears mid-twirl, lifting the edge of the skirt. The background includes green foliage, some dry shrubs, and part of a wooden structure (possibly a shed) on the left side. The lighting is soft and natural, indicating daylight under overcast conditions. The overall tone is elegant and poised, with a focus on the texture and volume of the dress.
+
+Thinking process: First, analyze the editing instructions that clearly state what can be changed:  
+- "Transform the image into a Rococo era ballroom scene" → entire scene must be replaced; background elements such as gravel path, foliage, and wooden structure are not required to be retained.  
+- "Depicting the woman in an elaborate pastel gown with intricate lace and floral embroidery" → the dress style, color, material, and design must change. The original gray tulle gown is to be replaced.  
+- "Reimagine her pose as a graceful dance position" → posture and stance may be altered; current twirling pose is not required to remain.  
+- "Add a powdered wig and accessorize with pearls" → hairstyle and accessories must be changed; original updo and necklace are not preserved.  
+- "Implementing a soft, harmonious color palette" → color scheme is to be adjusted; original colors (gray, white, green, brown) are not required to stay.  
+
+Thus, the only elements **not** explicitly allowed to change are those that are **structurally tied to the identity of the person** or **inherently linked to the original visual content**, unless directly overridden by instruction. However, since the instruction fully reimagines the character’s appearance (gown, wig, accessories), posture, and setting, only **core biometric identifiers** — such as facial features, skin tone, and general body shape — might remain if not contradicted. But even these are implicitly transformed by the context of "Rococo era," which may involve stylization.
+
+However, per the task's requirement to retain **only what exists in the original image** and is **not allowed to be changed**, we must identify elements that are **not mentioned in the transformation instructions** and thus should be preserved **unless logically invalidated**.
+
+Allowed Changes List:
+- Dress style, color, material (from gray tulle to pastel lace/embroidered gown)
+- Hairstyle (from updo to powdered wig)
+- Accessories (necklace → pearls)
+- Pose (twirling → dance position)
+- Background (outdoor gravel path → opulent ballroom)
+- Lighting and color palette (natural daylight → soft, harmonious Rococo tones)
+- Fabric drape (white sheer cloth → possibly removed or reimagined)
+
+Step 2 – Determine the elements that should remain unchanged
+
+Thinking process:  
+Core recognition elements: The original image features a specific human subject with identifiable facial characteristics (e.g., eye shape, nose structure, smile line, cheekbone definition). These are not mentioned in the instruction as being changed, though the addition of a powdered wig and pearls implies a transformation of appearance. However, since the instruction does not specify altering facial structure, it is reasonable to assume that the **face remains recognizable**, even if stylized. Therefore, core facial features like the **shape of the eyes, mouth, and jawline** are key identity markers and should be preserved for continuity.  
+
+Functional/logical association elements: There is no functional dependency (e.g., holding an object, interacting with environment) that must be preserved. The woman’s interaction with the dress (holding the sheer fabric) is a dynamic detail, but since the pose is to be reimagined, this action is not required.  
+
+Non-modified element deduction: After excluding all elements listed in the "Allowed Changes List", the remaining elements that exist in the original image and are not specified for modification include:
+- Facial features (eyes, nose, lips, chin)
+- Skin tone
+- General body proportions and silhouette
+- The presence of the silver necklace (though it may be replaced, its existence suggests a neck accessory that could be adapted)
+- The fact that she is a single woman in a formal gown
+- The direction of gaze (toward the camera with a smile)
+
+However, since the instruction says “accessorize with pearls,” the necklace may be replaced, so its exact form is not required. But the **presence of a necklace** might be inferred as a logical continuation of adornment.
+
+But critically: **The original image contains a distinct facial expression and structure** — a smiling face with visible teeth, defined eyebrows, and a clear jawline — which, if lost, would make the subject unrecognizable. This is a core identity feature.
+
+Preservation Targets List:
+- The facial structure of the woman, including the shape of her eyes, nose, and mouth
+- The presence of a smile showing teeth
+- The general head shape and ear placement
+- The skin tone and complexion
+- The body silhouette (height, proportion, posture orientation relative to viewer)
+
+Note: While the pose changes, the **orientation of the body** (facing forward-right) may be retained in a transformed way, but not strictly necessary. Only **biometric identifiers** are truly non-negotiable.
+
+Now proceed to Step 3.
+
+{
+    Q1: 
+    Thinking process: The shape of the eyes, particularly the almond-shaped form with dark eyeliner and defined lashes, is a core facial identifier in the original image. This feature contributes significantly to the subject’s individuality and expression. If altered beyond recognition (e.g., changing eye shape or adding false lashes), the identity of the subject would be compromised. Since the instruction does not specify changing the eyes, and only adds a wig and pearls, the eye structure should be preserved. This is a key identification feature, making it a 3-point question.
+    Question: Are the almond-shaped eyes with visible dark eyeliner and defined lashes present in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The presence of a wide, genuine smile showing upper teeth is a defining expression in the original image. It conveys emotion and personality, contributing to the subject’s identity. The instruction does not mention changing the facial expression, only adding a wig and pearls. Therefore, the smile should remain consistent. Loss of this feature would alter the emotional tone and identity of the subject. This is a high-priority facial feature, hence 3 points.
+    Question: Is the woman smiling with visible upper teeth in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The nose shape — specifically the straight bridge and rounded tip — is a unique facial landmark. Altering it would affect facial recognition. The instruction does not mention modifying the nose, so it should remain unchanged. Though less critical than eyes or mouth, it is still a core biometric feature. Its retention ensures consistency in identity, warranting a 2-point weight.
+    Question: Is the nose with a straight bridge and rounded tip present in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The skin tone of the subject is light with a warm undertone, visible across the face and arms. This is a physical attribute not mentioned for change in the instruction. Although lighting may shift in the Rococo scene, the underlying skin tone should remain consistent to preserve realism and identity. Changing it drastically (e.g., to porcelain-white or golden) would be inconsistent with the original. This is a secondary but important identifier, so assigned 2 points.
+    Question: Does the woman have light skin with a warm undertone in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The general body silhouette — specifically the height, shoulder width, and torso proportions — is essential for maintaining the subject’s identity. Even if the dress changes, the underlying body shape should remain consistent. The instruction does not specify altering body proportions, only clothing and pose. Thus, preserving the basic human form and posture alignment (e.g., upright stance) is necessary. This is a structural identity element, vital for coherence, so weighted at 2 points.
+    Question: Is the woman's body silhouette consistent with the original — upright, slender build, and proportional limbs — in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The presence of a silver necklace with a small pendant is a minor accessory but a visible detail in the original image. Although the instruction says to "accessorize with pearls," it does not require removing the existing necklace entirely. However, since pearls are to be added, the original necklace may be replaced. But if it is absent, it would be a loss of detail. Still, this is a low-level detail, not critical to identity. Hence, it is a 1-point question.
+    Question: Is a silver necklace with a small pendant visible around the woman’s neck in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The woman’s dark brown hair is a core feature, though the instruction specifies replacing it with a powdered wig. However, the original hair color and length are part of the identity before transformation. Since the instruction mandates a powdered wig, the original hair is not expected to remain. Therefore, this is **not** a preservation target. But if the instruction had not mentioned the wig, it would be. Since it does, we do not ask about it. Instead, we focus on what is not changed.
+    Question: Is the woman’s dark brown hair visible in the edited image?
+    Choices: Yes, No
+    A: No
+    Weight: 0
+    (Not included in final list due to explicit override)
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_223",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the Victorian Lady depicted in a 3D cartoon style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The character in Image B is rendered with smooth, rounded features, exaggerated proportions (such as large eyes and small nose), and stylized facial expressions typical of 3D animated or cartoon characters. The lighting and shading suggest a digital 3D model with soft surface normals and simplified textures, consistent with modern 3D animation styles used in games or children's media. These visual cues—combined with the lack of realistic skin texture, fine facial details, and naturalistic proportions—strongly indicate a 3D cartoon style rather than photorealism or traditional illustration.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the image feature soft lighting that balances a refined yet colorful personality?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The lighting in Image B is indeed soft and diffused, casting gentle shadows and avoiding harsh contrasts. This contributes to a warm, inviting atmosphere appropriate for a refined character. However, the color palette is relatively muted—dominated by beige, black, and light brown tones—with limited vibrant colors. While the lighting supports elegance, the overall tone leans more toward subtlety and formality rather than vibrancy. Thus, while 'refined' is accurate, 'colorful personality' is not well supported by the visual evidence, as there is no strong use of bright or varied hues to convey liveliness or energy.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are skill bars or attributes like [Grace +10, Etiquette +8] included on the card?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly displays several labeled bars on both sides of the character. On the left, there are three horizontal bars labeled 'Skill1', 'Grace 10', and 'Etiquette +x'. On the right, there are similar bars labeled 'Skill2', 'Grace +10', and 'Etiquette +8'. These resemble stat or attribute indicators commonly found in role-playing games or collectible card designs. The presence of specific numerical values (+10, +8) and category names ('Grace', 'Etiquette') confirms that these are skill or attribute bars designed to represent character abilities. This matches exactly with the description provided in the question.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a title banner at the top and a name tag at the bottom of the card?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "At the top of Image B, there is a decorative golden ribbon banner with text that reads 'Vircnusal MinsoHantixs', which functions as a title or character designation. At the bottom, there is a rectangular label with a decorative border containing the placeholder text 'Virtusin Name', indicating a space for the character's name. Both elements are stylistically consistent with collectible cards or game character profiles. Therefore, the image includes both a title banner at the top and a name tag at the bottom, fulfilling the criteria described in the question.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the background align with the Victorian era, featuring warm tones and complementary designs?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B consists of a solid, gradient beige or light tan color with subtle texture, framed by a thin decorative border. While the warm tones (beige, gold accents) are consistent with the aesthetic often associated with Victorian-era design, the background lacks period-specific elements such as floral patterns, ornate wallpaper, or architectural details. It appears more like a stylized, minimalist frame typical of digital collectible cards rather than an authentic Victorian setting. Although the color scheme evokes warmth and refinement, the absence of detailed period-appropriate design elements means it does not fully align with a historically accurate Victorian environment. Thus, while it uses warm tones, it lacks the complementary designs necessary to truly reflect the era.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

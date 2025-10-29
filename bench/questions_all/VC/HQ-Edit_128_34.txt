@@ -1,0 +1,126 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a silver McLaren P1 hypercar positioned centrally in the foreground on an urban street, facing slightly toward the viewer’s left. The car features a sleek, aerodynamic design with sharp angular lines, a low-slung profile, and distinctive dihedral doors. Its front includes a prominent air intake grille, narrow LED headlights with a curved shape, and a central McLaren logo on the hood. The wheels are multi-spoke alloy rims with orange brake calipers visible behind them. The car's body has reflective metallic silver paint with subtle black accents along the side intakes and rear diffuser.
+
+The background consists of a modern cityscape with tall glass-and-steel skyscrapers, including one cylindrical high-rise building with vertical blue-tinted windows. Buildings are arranged symmetrically along both sides of a wide asphalt road marked with white lane lines. Trees line the sidewalks, planted in wooden planters, with full green foliage. Streetlights are mounted on poles along the road. In the distance, other vehicles (including a red sedan and yellow sports car) are parked or moving. The sky is overcast with soft ambient light suggesting early morning or late afternoon.
+
+Thinking process:  
+The editing instruction explicitly states to transform the scene into a **3D miniature encased in a crystal-clear resin cube**, which implies that the overall form and environment will be altered significantly. It specifies changes such as:
+
+- Transforming the cityscape and car into a **miniature scene** → scale and spatial context change allowed.
+- Encasing the entire scene in a **crystal-clear resin cube** → new container added; original open-air setting replaced.
+- Stylizing vehicles with **sleek futuristic design** using **metallic and reflective textures** → vehicle appearance can be modified, but only if core identity remains intact.
+- Shrinking skyscrapers to emphasize depth and scale → buildings can be resized.
+- Infusing skyscrapers with **micro LED lights** to mimic illuminated windows → lighting effects on buildings can be changed.
+- Adding **delicate micro foliage** for trees while maintaining **rich green tones** → tree appearance can be stylized, but color must remain consistent.
+
+From this, we identify what **can be changed**:
+- Scale of all elements (car, buildings, trees).
+- Environmental enclosure (resin cube).
+- Lighting and texture of buildings (LED illumination).
+- Texture and finish of car (futuristic metallic/reflective).
+- Tree details (micro foliage), though green tone must be preserved.
+- Perspective and depth perception due to miniaturization.
+
+Allowed Changes List:
+- Size and proportion of buildings
+- Presence and type of lighting on buildings (e.g., LED simulation)
+- Surface texture and reflectivity of the car
+- Enclosure format (resin cube)
+- Detail level of foliage (micro-scale)
+- Overall spatial composition (miniature perspective)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+We now exclude the allowed changes and determine what **must be retained** based on:
+
+1. **Core recognition elements**: These are essential to identifying the subject. For example:
+   - The **McLaren P1** is identifiable by its unique silhouette, especially the dihedral doors, front splitter, and distinctive headlight shape.
+   - The **McLaren logo** on the hood is a brand identifier.
+   - The **orange brake calipers** are signature visual cues associated with McLaren performance models.
+   - The **overall proportions and layout** of the car — such as the long hood, short rear deck, and mid-engine placement — define it as a hypercar.
+
+2. **Functional/logical association elements**:
+   - The **position of the car relative to the road and surrounding environment** must be logically coherent even in miniature form. If the car were floating or placed incorrectly, it would break realism.
+   - The **road markings and directionality** help maintain scene logic; they should remain present and correctly aligned.
+
+3. **Non-modified element deduction**:
+   - Though the car may be stylized, its **iconic design features** cannot be lost — e.g., the shape of the headlights, the air intakes, and the wheel design.
+   - The **color scheme of the car** (silver body with black accents and orange brakes) is part of its visual identity and should not be fundamentally altered unless specified.
+   - The **trees’ rich green color** is explicitly required to be maintained, so their hue must stay within natural green range despite being micro-foliage.
+   - The **presence of other cars** (red sedan, yellow sports car) in the background suggests a populated city scene — their existence should be preserved even if scaled down.
+
+Preservation Targets List:
+- The presence and position of the McLaren logo on the hood
+- The distinct shape and orientation of the car’s headlights
+- The orange brake calipers behind the wheels
+- The overall silhouette of the McLaren P1 (long nose, short tail, dihedral doors)
+- The rich green color of the tree foliage
+- The presence of road markings and lane divisions
+- The relative positioning of the car on the road (centered, facing forward-left)
+- The presence of other vehicles in the background (red and yellow cars)
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The McLaren logo on the hood is the primary brand identifier of the vehicle. Without it, the car could be mistaken for another manufacturer’s model, especially given the similar design language among hypercars. This logo is a key recognition feature, and its absence would compromise the identity of the subject. Therefore, it must be retained exactly as shown in the original image.
+    Question: Is the McLaren logo clearly visible on the center of the car's hood?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The shape of the headlights is uniquely designed for the McLaren P1 — narrow, curved, and integrated into the front fascia. This specific geometry is a core design element that distinguishes it from other models. Altering this shape would make the car unrecognizable as a P1. Thus, preserving this exact form is critical.
+    Question: Are the headlights shaped in a narrow, curved, and horizontally elongated design with internal LED strips?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The orange brake calipers are a signature detail of McLaren’s performance lineup, often used for visual branding and contrast against silver or black components. Their presence adds authenticity and helps identify the car as a high-performance variant. Removing or changing their color would diminish the vehicle’s identity.
+    Question: Are the brake calipers behind the front wheels colored bright orange?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The tree foliage must retain its rich green tone as per the instruction. While the foliage can be micro-scaled, its color must not shift toward yellow, brown, or artificial hues. Green is essential to maintain contrast with the urban environment and preserve naturalism within the miniature scene.
+    Question: Do the tree leaves display a vibrant, natural green color without significant discoloration?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The road markings (white dashed lines) provide spatial context and indicate traffic flow. Even in a miniature scene, these lines help establish scale and realism. Their absence or distortion would disrupt the coherence of the urban setting.
+    Question: Are white lane markings present on the asphalt road beneath the car?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The dihedral door design is a defining feature of the McLaren P1, contributing to its futuristic aesthetic and functional identity. Although the doors may appear closed in the image, their characteristic upward-opening shape is implied by the car’s body structure. Preserving this structural outline ensures correct identification.
+    Question: Does the car have a raised, sharply angled edge along the side above the wheel arches indicating dihedral door hinges?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The presence of additional vehicles (red sedan and yellow sports car) in the background contributes to the realism and density of the city scene. Their inclusion supports the narrative of a populated urban area. Even if downsized, their presence should not be omitted unless explicitly stated.
+    Question: Are there at least two other cars visible in the background — one red and one yellow?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

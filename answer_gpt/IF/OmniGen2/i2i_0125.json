@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0125",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the word \"Fresh\" located at the bottom left of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the word 'Fresh' is prominent and centrally positioned near the bottom of the image. This placement attracts attention as it is typical for branding or emphasis in advertisements, using legible font to convey its message clearly.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the word \"Sweet\" located at the top right of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Examining Image B reveals that the word 'Sweet' is located at the top of the image but closer to the left rather than the right. This placement allows the word to be a title or key message in a poster, drawing focus to the overall theme presented in the image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the words \"Fresh\" and \"Sweet\" presented in a minimalist style suitable for a fruit brand poster?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The font choice in Image B is simple, clean, and legible and appropriately conveys a sense of freshness and sweetness associated with fruit branding. Minimalism in typography helps convey the message without overpowering the visual elements of the apples, making it fitting for a brand poster.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have the original visual elements, such as the apples and their setting, remained unchanged apart from the added text?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing Image A and Image B, aside from the text addition, changes are evident in the overall brightness and color saturation. The background in Image B is lighter, and the apples appear more vibrant with heightened contrasts, indicating additional edits beyond just the text addition.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any additional changes besides the addition of the words \"Fresh\" and \"Sweet\" in the specified locations?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "A comparison between Image A and Image B shows that besides the added text, the lighting and background of Image B are altered. The background is transformed into a plain white, removing the original setting elements like the wooden surface and any greenery, indicating extra edits beyond text insertion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

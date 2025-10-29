@@ -1,0 +1,84 @@
+{
+  "filename": "laion_5097728209000204422",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the rectangular-framed glasses present on the subject's face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on Image B, the portion where glasses might be seen is obscured. However, the attire and styling suggest a historical context where glasses are not typically part of the look. Frames are absent from the observable attire and decor, combining visual cues with common historical attire knowledge.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the gray and white beard and mustache present on the subject's face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the historical attire suggests a clean-shaven look, fitting the context of the period shown. The typical accessories for individuals in such vintage attire do not include visible facial hair, combining visual understanding with common knowledge of historical fashion.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the graying hair visible on the top and sides of the subject's head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the subject wearing a hairstyle typical of historic fashion, characterized by a styled coif with no distinctly visible signs of gray hair, relying on visual cues and knowledge of historical trends in grooming.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is a ring visible on the ring finger of the subject's left hand?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The ring is clearly visible on the subject's left hand in Image B, matching historical depictions in which rings often indicate status. The clothing style further supports a setting where such accessories are common.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the hands of the subject visible with natural skin tone and proportion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the hands exhibit a texture and tone befitting realistic skin, maintaining proportionate dimensions. The visual cues suggest hands painted in historical portraits, integrating understanding of art styles where natural depiction is prevalent.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the facial structure, including the nose, jawline, and eye spacing, consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparison of Image A and Image B in regions visible shows changes. While both depict an individual, Image B is styled to render traditional or period-specific features, which may differ from a modern interpretation shown in Image A. Using world knowledge of historical art styles, Image B does not maintain the modern proportions seen in Image A.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.25
+}

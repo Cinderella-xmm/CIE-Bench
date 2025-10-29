@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_126_32",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the two small human figures visible beneath the tree in the same relative position as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a large humanoid figure with a tree-like appearance, situated where the original tree was in Image A. The presence of this new figure means the two small human figures beneath the original tree in Image A have been obscured or replaced. Since the humanoid figure takes up most of the space in that area and the original figures are not visibly present in Image B, the answer is that they are not in the same relative position.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the horizon line present and continuous across the entire width of the image, separating the field from the sky?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, although the sky and field are visible, the large humanoid figure disrupts the continuity of the horizon line, where in Image A it runs uninterrupted. This discontinuation is due to the humanoid figure's presence, which breaks the clear demarcation of the horizon.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the sky retain the gradient transition from pale blue near the horizon to deeper teal at the top?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both images exhibit a sky that transitions from pale blue near the horizon to a deeper teal at the top. Image B has retained this gradient despite the addition of the humanoid figure, indicating that the background sky's color gradient remains unchanged.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the foreground composed of tall grass with a mix of green and golden-yellow hues, extending toward the tree?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tall grass with green and golden-yellow hues is consistent with the foreground observed in Image A, even though a humanoid figure has been added. Hence, the foreground's composition remains unchanged in terms of the grass hues and their extent toward the former location of the tree.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the tree located in the center-right portion of the image, dominating the right half of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, there is a tree located prominently in the center-right portion of the image. However, in Image B, the tree is replaced by a humanoid figure that occupies a similar central space. As the tree itself is no longer present in Image B, the answer is 'No'.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is there a subtle shadow cast beneath the tree, indicating directional lighting from the upper left?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tree is replaced by a humanoid figure. While shadows might be cast by this new figure, they would not be the same as those from a tree. Image A displayed such shadows due to the tree's presence. This change indicates the absence of the original tree's shadow under the same conditions in Image B.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.3076923076923077
+}

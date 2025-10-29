@@ -1,0 +1,64 @@
+Description of reference image: The subject is a sandwich placed on a white square plate, with a visible cross-section revealing layers of ingredients including a slice of cheese, pieces of meat (possibly steak or roast beef), lettuce, and tomato. The bread appears freshly baked with a golden-brown crust. There are some additional greens scattered on the plate beside the sandwich. The background is a wooden table surface.
+
+Thinking process:
+The instructions specify repainting the image in a thick-painted cartoon style, simplifying certain elements like lettuce, and adding sauce decorations. The sandwich's core structure and composition remain central, while the specific details of ingredients like the texture of the bread and the precise layering must be preserved in a simplified form. The scene retains the white plate and wooden background, as there are no explicit instructions for changing this environment.
+
+Allowed Changes List:
+1. Repainting the image in thick-painted cartoon style.
+2. Simplifying the lettuce into smeared green shapes.
+3. Adding sauce decorations around the plate.
+4. Adjusting the overall color scheme and light/shadow effects to match a cartoon style.
+
+Thinking process:
+Core recognition elements include the sandwich's distinct cross-section showing layered ingredients and the bread's golden-brown crust. The functional/logical association involves the sandwich's structural integrity—ingredients need to be visible as layers within the bread. Visual coherence requires retaining the white plate and wooden background.
+
+Preservation Targets List:
+1. Sandwich cross-section with layered ingredients.
+2. Golden-brown crust of the bread.
+3. White plate and its rectangular shape.
+4. Wooden texture of the table.
+
+{
+    Q1: 
+    Thinking process: The sandwich’s cross-section revealing the layers of ingredients is crucial for recognizing the item as a sandwich. Changing this would make it unidentifiable.
+    Question:Is the sandwich cross-section with layered ingredients clearly visible?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The golden-brown crust is a distinctive feature of the bread, which is a key visual element of the sandwich.
+    Question:Does the sandwich bread retain its golden-brown crust appearance despite the cartoon style?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The white plate is essential for providing context and serving as the base for the sandwich. Losing this element would disrupt the scene composition.
+    Question:Does the sandwich remain on the white, rectangular plate?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The wooden background adds an authentic touch to the food setting. Maintaining this preserves the setting's coherence.
+    Question:Does the background still depict a wooden table surface?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q5: 
+    Thinking process: The shape and placement of the sandwich define its relation to the plate. This ensures that the subject's position relative to the scene remains consistent.
+    Question:Is the sandwich positioned centrally on the plate as in the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

@@ -1,0 +1,122 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+Description of reference image:  
+The subject is a seated male figure resembling George Washington, depicted in a formal portrait style. He has white powdered hair styled in an 18th-century fashion, with curls framing the sides of his head. His facial features include a prominent nose, high cheekbones, and a composed expression. He wears a white military-style coat with gold buttons arranged vertically down the front, blue lapels, and elaborate gold epaulettes on the shoulders. The coat has decorative gold trim along the edges and gold fringe on the shoulder pieces. A white cravat is visible at the neck, adorned with a cascade of small golden coins draped over it. The figure sits upright in a large ornate chair with gilded armrests and backrest details featuring sculpted golden elements, possibly acanthus or scroll motifs. The chair's seat and back are upholstered in red fabric. The background consists of classical architectural columns, soft drapery, and a dimly lit interior space suggesting a grand hall or palace setting. Light falls from the upper left, casting subtle shadows and highlighting the texture of the clothing and facial features.
+
+Thinking process:  
+The editing instruction explicitly states to "reimagine the seated figure as a figure from a steampunk universe," which indicates that the **form and identity** of the subject can be transformed—meaning the original historical appearance may be altered. However, the instruction specifies to **maintain the pose**, so the seated posture, hand placement, and overall orientation must remain unchanged.  
+
+Further breakdown of allowed changes:
+- "Transform the military uniform into a Victorian-inspired steampunk outfit" → the clothing type and material can change.
+- "Intricate gears and brass detailing" → new mechanical design elements can be added to attire.
+- "Replace the chair with a mechanical throne featuring cogwheel accents" → the chair’s structure and function can be changed.
+- "Alter the color scheme to incorporate copper, brown, and dark green hues" → colors of clothing and environment can be modified.
+- "Add a smoky backdrop with faint steam trails" → background atmosphere can be changed.
+
+Thus, only **the pose and general physical positioning** (e.g., hands resting on arms, upright sitting) are required to stay consistent. All other visual elements—including clothing, chair, colors, background—are permitted to change under the transformation.
+
+Allowed Changes List:  
+- The military uniform (including its design, materials, and ornamentation)  
+- The chair (its form, material, and decorative elements)  
+- The color palette (white, gold, blue replaced by copper, brown, dark green)  
+- The background (from classical architecture to smoky, steampunk ambiance)  
+- The accessories (gold coins on cravat, epaulettes, buttons)  
+- The lighting and atmosphere (shift to industrial haze and steam)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+To determine what must be preserved, we apply exclusion based on the above allowed changes. We now identify what remains unmentioned or implicitly protected by the instructions.
+
+Core recognition elements:  
+Although the subject is being reimagined as a steampunk figure, the **original identity** is not specified as changed—only the **style** is. Therefore, while the clothing and setting will transform, the **subject’s core identity** (as George Washington) should be retained through recognizable features such as:
+- Facial features: The specific shape of the face, including the long nose, high forehead, and distinctive eye placement.
+- Hair: The white powdered wig with curled sideburns and structured coiffure.
+- Posture: The seated position with hands resting on armrests, torso upright, head centered.
+
+These are **iconic identifiers** of George Washington in historical portraiture. If they were removed or distorted beyond recognition, the figure would no longer be identifiable as Washington, undermining the purpose of the edit—a stylized reinterpretation rather than a complete replacement.
+
+Functional/logical association elements:  
+The **pose** is directly stated to be maintained: “maintaining the pose.” This includes:
+- The orientation of the body (facing forward)
+- The placement of hands (on armrests)
+- The alignment of limbs and torso
+This is essential for maintaining continuity between the original and edited versions. Changing this would break the visual logic of the transformation.
+
+Non-modified element deduction:  
+Even though the clothing and chair are to be replaced, certain **structural relationships** must persist:
+- The relative position of the hands to the arms of the chair
+- The fact that the figure is seated in a throne-like chair (though its design changes)
+- The frontal view of the face and symmetrical composition
+
+Additionally, **the facial features** are not mentioned for alteration, and since they are the primary means of identifying the individual, they must remain intact. Even if stylized, their fundamental shape and proportions must be preserved.
+
+Preservation Targets List:  
+- The facial structure, including the shape of the nose, eyes, and jawline  
+- The white powdered wig with characteristic curls and volume  
+- The seated pose with hands resting on the armrests  
+- The frontal orientation of the head and body  
+- The overall proportion and symmetry of the figure  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The key recognition feature of this portrait is the distinct facial structure of George Washington, particularly the long, straight nose, deep-set eyes, and defined jawline. These features are universally associated with his likeness in historical art. Altering them would render the figure unrecognizable as Washington, even in a stylized version. Therefore, preserving these facial contours is essential for identity retention and qualifies as a core identity element.
+    Question: Is the subject's face clearly showing the same facial structure as in the original image, including the long nose, high cheekbones, and symmetrical eye placement?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The white powdered wig with its characteristic curls and volume is an iconic element of Washington’s appearance in official portraits. It serves as a critical identifier distinguishing him from other historical figures. Even in a steampunk reinterpretation, this hairstyle must be preserved in form and placement to maintain recognition. Its absence or radical alteration would compromise the subject’s identity.
+    Question: Does the subject retain the white powdered wig with voluminous curls framing the sides of the head, matching the original hairstyle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The seated pose is explicitly instructed to be maintained. The position of the hands on the armrests and the upright posture are functional components of the composition. Changing the pose would violate the instruction and disrupt the visual continuity between the original and edited images. Thus, the spatial relationship of the limbs and torso must remain consistent.
+    Question: Are both hands positioned on the armrests of the chair, with fingers relaxed and palms facing downward, mirroring the original posture?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The frontal orientation of the head and body is a defining compositional choice in the original portrait. It emphasizes dignity and directness. While the background and costume may change, the subject must still face forward without significant tilt or turn. Deviating from this would alter the intended presence and authority conveyed by the figure.
+    Question: Is the head and body oriented directly forward, with no lateral tilt or rotation, maintaining the original frontal view?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The proportional balance of the figure—specifically the relative size of the head, torso, and limbs—is crucial for maintaining realism and recognition. Even in a stylized version, extreme distortions (e.g., elongated neck, oversized head) would make the figure unidentifiable. Preserving natural human proportions ensures the subject remains grounded in the original likeness.
+    Question: Does the figure maintain the same proportionate body structure as in the original, with balanced head-to-body ratio and anatomically accurate limb lengths?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The lighting direction from the upper left creates a specific shadow pattern on the face and clothing, contributing to depth and three-dimensionality. While the lighting tone may shift due to the steampunk theme, the directional source should remain consistent to preserve the original modeling of the face and form. This affects how the subject is perceived in terms of volume and expression.
+    Question: Is the light source still coming from the upper left, casting shadows on the right side of the face and clothing as in the original?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The symmetry of the composition—particularly in the alignment of the shoulders, arms, and facial features—is a hallmark of classical portraiture. Maintaining symmetry supports the dignified tone of the image. While minor artistic liberties may be taken, significant asymmetry would disrupt the intended balance and coherence.
+    Question: Are the shoulders, arms, and facial features aligned symmetrically, with no noticeable imbalance in positioning?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

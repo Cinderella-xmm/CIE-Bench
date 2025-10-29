@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the original image into a miniature diorama inside a vintage globe, the central figure must be repositioned and scaled to fit within a spherical enclosure. This involves altering the spatial context of the figure seated under a large tree in the original image. The key concern is whether the transformation maintains structural coherence and visual plausibility by preserving the figure’s proportions and natural pose without distortion or unnatural scaling. The editing position includes the entire figure and its interaction with the surrounding environment.",
+      "question": "Is the figure proportionally scaled and positioned within the globe such that her body parts (especially limbs and head) maintain natural anatomical alignment and do not appear stretched or compressed?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The editing instruction specifies creating a stylized 3D model of the figure seated gracefully within the globe. This implies changes to the rendering style of the figure—potentially introducing digital textures or lighting effects. The original image features highly detailed fabric patterns, skin texture, and hair braiding. The question evaluates whether these fine details are preserved during the 3D modeling process and whether the transition from photorealistic to stylized 3D introduces artifacts like pixelation, loss of texture detail, or unnatural shading.",
+      "question": "Are the intricate patterns on the dress and the braided hairstyle clearly visible and free from blurring, aliasing, or loss of fine detail after conversion to a 3D model?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The instruction requires mirroring vibrant tribal patterns on the walls of the globe’s interior. These patterns must align visually with the dress’s design to maintain thematic consistency. The original image contains green, red, and orange geometric motifs. The question assesses whether the mirrored wall patterns match the color palette and style of the dress, ensuring visual harmony and avoiding mismatched or distorted designs that could break immersion.",
+      "question": "Do the wall patterns inside the globe accurately reflect the colors and shapes of the dress's pattern without warping, misalignment, or color deviation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The addition of tiny, detailed roots interwoven beneath the figure introduces new elements into the scene. In the original image, the roots are part of a large baobab tree. The edited version must integrate these roots into the floor of the globe while maintaining physical realism—roots should not float, intersect improperly, or violate botanical structure. The focus is on structural consistency and visual credibility of the root system relative to the figure’s seated posture.",
+      "question": "Are the miniature roots beneath the figure arranged in a way that follows natural growth patterns and does not intersect or distort the figure’s legs or skirt?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The instruction calls for incorporating miniature wildlife peeking from the textured ground. These animals must be small enough to fit within the scale of the diorama and positioned realistically—e.g., partially hidden, with appropriate shadows and depth. The original image has no animals, so this is an added element. The evaluation focuses on whether the animals’ size, shape, and placement conform to physical logic and avoid floating, unnatural textures, or inconsistent lighting.",
+      "question": "Are the miniature animals positioned at ground level with proper shadowing and scale relative to the figure, and do they have natural textures and forms without visible artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

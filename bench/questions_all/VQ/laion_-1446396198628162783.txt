@@ -1,0 +1,49 @@
+```
+Step 1: Disassemble Editing Instructions
+-Thinking process 1: The editing instruction involves transforming the current workshop environment into a mission control center, which includes replacing or modifying background elements such as walls, furniture, and equipment. This transformation affects the overall realism and natural appearance of the scene, especially since the original image shows a cluttered workshop with tools, tables, and a NASA-themed flag. The addition of illustrative icons for training stages (Physical Training, Technical Skills, Simulators, Space Suit Check) requires inserting new graphical elements that must align with the spatial layout and lighting conditions of the original scene to maintain visual coherence. These added elements must not introduce unnatural textures, distorted shapes, or inconsistent lighting.
+
+-Sub requirement 1: Replace the workshop environment with a mission control center setting while preserving the astronaut’s position and scale; evaluate whether the new background maintains structural consistency and visual credibility without introducing distortions or artifacts.
+-Sub requirement 2: Add color-coded sections (e.g., blue, green, yellow, red) corresponding to each training stage; assess whether these sections have consistent color gradients, sharp boundaries, and do not interfere with existing objects in the scene.
+-Sub requirement 3: Insert illustrative icons representing training stages (e.g., treadmill, computer interface, simulator cockpit); check if these icons are proportionally accurate, correctly positioned relative to the astronaut, and visually integrated into the scene without floating or misalignment.
+-Sub requirement 4: Add clean, modern typography explaining each training stage; verify that text is legible, properly scaled, and aligned with the layout without overlapping critical elements like the astronaut or suit details.
+-Sub requirement 5: Ensure the astronaut remains structurally intact and physically plausible within the new environment; confirm that no parts of the suit (especially joints, gloves, helmet, or backpack) are distorted, stretched, or obscured by added elements.
+-Sub requirement 6: Maintain consistent lighting across all added elements (icons, text, background); ensure shadows and highlights match the original lighting direction from the ceiling lights in the original image.
+-Sub requirement 7: Avoid introducing artifacts such as jagged edges, pixelation, or unnatural textures on newly added elements (e.g., icons, text, background panels), particularly around the astronaut's suit and the surrounding floor area.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of replacing the workshop environment with a mission control center, this question evaluates whether the background transformation preserves structural consistency and visual credibility. The original image features a white wall with a red, white, and blue flag, workbenches, and tools. The edited version should show a coherent mission control room layout without broken geometry or floating objects. The presence of monitors, consoles, or control panels should be logically placed and aligned with perspective.
+Question: Are the newly added mission control elements (such as consoles, screens, or panels) geometrically consistent with the room's perspective and do not appear to float or clip through surfaces?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of adding color-coded sections for training stages, this question checks whether the added color blocks are seamlessly integrated into the scene without disrupting existing elements. The original image has a blue tarp on the floor and various colored items (e.g., red toolbox). The new color-coded areas should not overlap incorrectly with the astronaut or obscure key details.
+Question: Do the color-coded sections for training stages (e.g., Physical Training, Technical Skills) have clean edges and are they positioned so they do not overlap or obscure the astronaut’s suit or feet?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of inserting illustrative icons for training stages, this question assesses whether the icons are proportionally correct and visually grounded in the scene. For example, an icon of a treadmill should not be larger than the astronaut or appear to be floating above the floor. The placement must respect depth and scale relative to the astronaut standing on the blue tarp.
+Question: Are the illustrative icons (e.g., treadmill, simulator) proportionally sized and placed at appropriate distances from the astronaut so they do not appear oversized or misplaced in the scene?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of adding clean, modern typography, this question evaluates whether the text is clearly visible, properly spaced, and does not interfere with the astronaut or other critical visual elements. Text should be legible and aligned with the layout, avoiding clipping into the suit or helmet.
+Question: Is the explanatory text for each training stage clearly readable, properly aligned, and not overlapping with the astronaut’s body or suit components?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of maintaining the astronaut’s structural integrity, this question checks whether the suit, gloves, helmet, and backpack remain undistorted after editing. The original image shows a detailed suit with visible seams, hoses, and NASA patch. Any edit must preserve these details without stretching, blurring, or altering anatomy.
+Question: Are the astronaut’s suit joints (e.g., elbows, knees), gloves, and helmet fully intact with no visible distortion, warping, or missing texture details?
+Choices: Yes, No  
+A: Yes
+
+Q6: 
+Thinking process: Based on the sub requirement of maintaining consistent lighting, this question evaluates whether the newly added elements (icons, text, background) have lighting and shadows that match the original ceiling light source. Shadows should fall consistently toward the bottom-right, as indicated by the ambient lighting in the original image.
+Question: Do the shadows cast by the added mission control elements (e.g., consoles, icons) align with the direction of the original ceiling lighting and do not contradict the existing shadow patterns on the floor and astronaut?
+Choices: Yes, No  
+A: Yes
+```

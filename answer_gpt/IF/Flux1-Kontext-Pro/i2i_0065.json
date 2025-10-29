@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0065",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image now presented in the context of a museum exhibit corner?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the setting looks like a museum exhibit corner because the dog is encased in what appears to be a glass display box, and there are other blurred artifacts visible in the background, resembling a gallery or museum setup.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the dog shown inside a glass display case?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the dog contained within a transparent enclosure that resembles a glass display case commonly used in museums to preserve and present artifacts, suggesting it is within a glass box.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the light focused on the dog's face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting appears to be evenly distributed rather than directly focused on the dog's face. The lighting within a museum display case is often balanced to evenly illuminate the exhibit.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a label present that describes the breed and includes a story title?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a label in front of the dog inside the glass display case. Although the text is partially readable, it typically suggests informational context such as breed identification or a narrative component.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the dog maintain its original posture and appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B maintains the dog's posture and appearance as seen in Image A. The dog's sitting posture and facial expression look unchanged aside from the addition of the museum context.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

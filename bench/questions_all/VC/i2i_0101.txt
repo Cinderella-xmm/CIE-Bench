@@ -1,0 +1,72 @@
+Description of reference image: The image shows a neatly arranged interior scene. The central piece is a wooden console table with a natural finish, featuring four drawers in the middle and two cabinet doors on either side. On top of the console table, there are three items: a potted green plant on the left, a stack of books in the center, and a vase with bare branches on the right. Above the console is a framed painting depicting a serene mountain landscape with tall pine trees against a misty backdrop. The wall behind is plain white, and the floor has a herringbone parquet wood pattern.
+
+### Step 1 - Allowed Changes List:
+
+Thinking process: The editing instruction requires adding handwritten text “flyaway” below the painting. This specifically affects the area beneath the painting and doesn't require altering the painting itself, the arrangement of objects on the console, the console design, or the surrounding environment.
+
+Allowed Changes List:
+- Adding handwritten text “flyaway” below the painting.
+
+### Step 2 - Determine Elements That Should Remain Unchanged:
+
+Thinking process:
+
+- **Core Recognition Elements:** The painting's content, console table design, the objects placed on the console (potted plant, books, and vase with branches), and their specific arrangement are essential for recognizing this scene. These elements define the identity and aesthetics of the image.
+  
+- **Functional/Logical Association Elements:** The position of the objects relative to the console table and the painting above it must be retained because they contribute to the scene's logic and cohesiveness.
+
+- **Non Modified Element Deduction:** Elements like the white wall color, the herringbone parquet flooring pattern, and the clean lines of the console table should also be kept consistent for visual coherence.
+
+Preservation Targets List:
+- The painting depicting the mountain landscape and pine trees.
+- The wooden console table with its design and finish.
+- The potted plant, stack of books, and vase with branches on the console table.
+- The positions of all objects on the console table relative to each other and the console.
+- The herringbone parquet flooring and plain white wall.
+
+### Step 3 - Generate Key Identifying Visual Questions:
+
+{
+    Q1:
+    Thinking process: The painting is a critical identity feature of the image; losing it would drastically change the scene’s aesthetic and meaning.
+    Question: Does the image include a framed mountain landscape painting with pine trees above the console table?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2:
+    Thinking process: The console table design is a unique element that distinguishes this particular scene; changes here could alter the image’s core identity.
+    Question: Is the console table made of wood with four drawers in the middle and two cabinet doors on either side?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3:
+    Thinking process: The specific arrangement of the objects on the table maintains the image’s balance and logic.
+    Question: Are the objects on the console table arranged with a potted plant on the left, a stack of books in the center, and a vase with branches on the right?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4:
+    Thinking process: The herringbone parquet flooring is a distinct detail that contributes to the visual consistency of the setting.
+    Question: Is the floor covered with herringbone-patterned parquet wood?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q5:
+    Thinking process: The white wall provides a clean backdrop that complements the rest of the scene; changing it would disrupt the visual harmony.
+    Question: Is the wall behind the console table painted white?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

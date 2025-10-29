@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_111_4",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the golden tufted grasses clustered around the base of the cactus still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background scene, including elements like the surroundings at the base of the object replacing the cactus, appears consistent with the original Image A, which includes golden tufted grasses. Although the cactus itself was replaced by an unusual object, the grasses appear unchanged and remain around the base of the structure. Therefore, the altered object does not affect the presence of these grasses.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the blue-gray succulent plants visible at the base of the cactus in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Despite the central cactus being replaced in Image B by a fantastical structure, the floral elements such as the blue-gray succulent plants remain unchanged at the base of the new structure. This indicates that the editing focused on the central object, not the surrounding details, thus keeping the succulents visible.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the sandy ground with visible pebbles and soil texture still present beneath the cactus in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, while the central cactus has been replaced by an abstract object, the sandy foreground, including visible pebbles and soil texture, remains consistent with Image A. The editing kept the base environment intact, indicating the focus was specifically on altering the main object, maintaining the ground details beneath it.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the reddish-brown rolling hills visible in the background behind the cactus in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background landscape, including reddish-brown rolling hills, remains intact in Image B even though the cactus has been replaced by a fictional structure. This suggests the alterations were centered on the foreground cactus rather than the distant landscape, ensuring the hills are still present.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the sky gradient from pale blue near the horizon to deeper blue overhead still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, though the central object is conceptually altered, the sky continues to show a gradient from a paler blue near the horizon to a deeper blue overhead, as in Image A. This continuity in the sky's appearance indicates that the change focused on the central structure, leaving atmospheric elements untouched.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the shadow of the cactus cast directly beneath it, aligned with the direction of midday sunlight, in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Despite the replacement of the cactus with an abstract object in Image B, the shadow underneath this object remains similar to the shadow that would have been cast by a cactus in midday sunlight. This suggests the edited object’s shadow aligns with expected lighting conditions, maintaining consistency in shadow placement under the new figure.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Does the edited image retain the upright, multi-armed silhouette of the cactus with a central trunk and multiple upward arms?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a vastly different central object from a biological cactus. This new object, having no trunk or traditional upward arms like a cactus, shows characteristics of vibrant, fantastical design rather than natural botanical accuracy. The silhouette has transformed from an upright cactus form to a complex, alien-like structure, not resembling a saguaro cactus silhouette.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8125
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1001",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the ketchup bottle in the lower-right corner appear naturally integrated into the scene without any visible artifacts or unnatural textures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The ketchup bottle is an added element that needs to be assessed for its integration into the scene. In Image B, the bottle is positioned distinctly on a pool of ketchup in the lower right corner. The visual cues such as lighting, shadows, and reflection are key to determining its integration quality. It appears to stand out due to its vibrant color contrasting with the misty background, potentially showing its addition. The reflection and shadow ought to match the scene's consistency, yet seem a bit distinct in coloring and texture compared to the natural elements of the background.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the text \"The king of flavors\" appear to float naturally in the air and blend seamlessly with the mist, without any distortion or unnatural appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text 'The king of flavors' floats in the air, marked by dripping effects extending down to the ground. Key considerations are its size, color, integration with misty surroundings, and alignment with scene dynamics. The text is bold and red, contrasting significantly with the misty, subdued forest, drawing attention to its artificial addition. Dripping shapes seem graphical and slightly unrelated to the misty edges, thus appearing less naturally blended into the mist.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the streams of ketchup linking back to the opened bottle physically plausible and free from any unnatural distortions or artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Examining the streams of ketchup is crucial for assessing their physical plausibility and realism. The streams appear to flow from the text and connect to other elements like the bottle. Despite resembling a fluid form, their physics are questionable due to the inconsistent gravity pulling effect shown with these drips defying natural liquid motion in such an environment.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the dinosaur retain its natural appearance and structural consistency without any distortion or unnatural changes due to the added elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The dinosaur, initially seeming natural and consistent in Image A, must display unchanged natural characteristics in Image B after additional elements are included. Upon examining, the dinosaur retains its prominent position and visual characteristics without distortions, reflecting natural consistency unaffected by the prominently added text or bottle.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the forest background remain authentic and detailed, without any noticeable loss of details or introduction of artifacts due to the editing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing the forest scene between Images A and B, the background must assure authenticity and undistorted continuity. Image B keeps the misty details of Image A despite introduced elements. The forest texture remains detailed with no intruding artifacts that disrupt its natural appearance, besides additional elements occupying foreground space.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

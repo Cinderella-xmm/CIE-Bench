@@ -1,0 +1,119 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject consists of a collection of traditional woodworking tools arranged on a weathered wooden surface. The tools include a claw hammer with a dark metal head and a worn wooden handle, a chisel with a flat steel blade and wooden handle, a file with a long metallic body, a small curved metal tool resembling a pry bar or gouge, and a wrench-like tool with an open-ended jaw. These tools are scattered in a natural, slightly overlapping arrangement across the vertical grain of aged, textured wood planks. Wood shavings—light tan, curled, and fibrous—are dispersed around the tools, especially near the hammer and chisel, suggesting recent use. The lighting is directional, casting soft shadows that emphasize texture and depth. The overall tone is rustic and tactile, with emphasis on material authenticity: patina on metal, grain in wood, and organic debris.
+
+**Thinking process:**  
+The editing instruction explicitly states:  
+- Replace **woodworking tools** with **intricately detailed enamel replicas** → This means the **form and function** of the tools remain, but their **material composition** changes.  
+- Specify **deep blue enamel for the hammer handle**, **glossy metallic heads** → Material transformation is allowed; original color and texture of wood/metal are replaced.  
+- Turn **wood shavings into delicate enamel curls** in **amber and ivory shades** → The **shape and presence** of shavings are preserved, but **material and color** are altered.  
+- Position tools on a **textured linen fabric surface** → The **background surface** is changed from wood to linen.  
+
+Thus, the following elements are **allowed to change**:  
+- Material of all tools (from wood/metal to enamel)  
+- Color of hammer handle (from brown wood to deep blue enamel)  
+- Color and texture of tool heads (from rusted/oxidized metal to glossy metallic)  
+- Material and appearance of wood shavings (from organic wood to enamel curls)  
+- Background surface (from weathered wood to textured linen)
+
+**Allowed Changes List:**  
+- Material of the hammer head and handle  
+- Material and color of chisel, file, pry tool, and wrench  
+- Material and color of wood shavings  
+- Surface beneath tools (wood to linen)  
+- Texture and finish of all tools (rusty/patina → polished/enamel)  
+- Color scheme of shavings (tan → amber/ivory)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+Now we exclude the allowed changes and identify what **must be retained** based on:
+
+1. **Core recognition elements** – Features essential to identifying the objects as *specific types of tools* or *representing a woodworking scene*. Even if materials change, the **iconic form** must remain. For example:
+   - A hammer must retain its **claw shape**, **head structure**, and **handle orientation**.
+   - A chisel must retain its **flat blade**, **beveled edge**, and **handle length**.
+   - Wood shavings must retain their **curled, thin, layered shape**—even if made of enamel.
+
+2. **Functional/logical association elements** – The spatial relationship between tools and shavings suggests active use. The **arrangement** (e.g., hammer angled diagonally, chisel near shavings) implies purposeful placement. While background changes, **relative positioning** should stay consistent to preserve narrative logic.
+
+3. **Non-modified element deduction** – After removing allowed changes, remaining visual features include:
+   - The **number and type** of tools (5 distinct tools)
+   - The **presence and distribution** of shavings
+   - The **overall layout** of tools (diagonal hammer, horizontal chisel, etc.)
+   - The **orientation** of each tool (e.g., hammer handle pointing downward-left)
+
+These are not mentioned in the edit instructions as being changed, so they must be preserved to maintain coherence and identity.
+
+**Preservation Targets List:**  
+- The hammer’s claw-shaped end and dual-headed structure  
+- The chisel’s flat, rectangular blade with beveled edge  
+- The file’s elongated, straight, serrated profile  
+- The presence of five distinct tools (hammer, chisel, file, pry tool, wrench)  
+- The position and curl of wood shavings relative to tools  
+- The diagonal orientation of the hammer across the frame  
+- The overlapping arrangement of tools (e.g., file partially under chisel)  
+- The number and general shape of shavings (curled, ribbon-like, thin)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The claw hammer is the most iconic object in the image. Its **claw-shaped end** and **dual-headed structure** (flat face and curved claw) are core identity features distinguishing it from other hammers or tools. If these shapes are altered (e.g., rounded claw, single head), the object would no longer be recognizable as a claw hammer. Since the instruction allows material change but not form, this shape must be preserved. It is a key identifier and thus weighs 3 points.
+    Question: Does the hammer retain its claw-shaped end and dual-headed structure?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The chisel is defined by its **flat, rectangular blade** with a **beveled edge** and **wooden handle**. The blade's geometry is essential for identification. Even if made of enamel, the blade must remain flat and rectangular. Altering this shape (e.g., rounding edges or making it pointed) would misidentify the tool. This is a functional and visual core feature, critical for recognition, hence weight 3.
+    Question: Does the chisel retain its flat, rectangular blade with a beveled edge?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The file is identifiable by its **long, straight, narrow shape** with a **serrated surface**. This form is necessary to distinguish it from a knife or scraper. The instruction does not mention altering its shape, only material. Thus, the elongated, straight form must be preserved. It is a key functional element, and losing it would break the tool's identity. Weight 3.
+    Question: Does the file retain its long, straight, narrow shape?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The arrangement of tools shows **spatial relationships** that imply usage context. The hammer is placed diagonally across the frame, intersecting with the chisel and file. This layout is not random—it suggests a work-in-progress scene. Changing the positions (e.g., placing hammer vertically) would disrupt the narrative logic. Though background changes, this relative positioning is crucial for scene consistency. Weight 2.
+    Question: Are the tools positioned in the same relative arrangement as in the original image (e.g., hammer diagonal, chisel crossing file)?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: Wood shavings are present in specific locations—near the hammer and chisel—and have a **curled, ribbon-like shape**. Their **distribution** and **form** suggest recent carving. Even if transformed into enamel, their **shape and location** must be preserved to maintain visual coherence. The number and general curvature are important details. Weight 2.
+    Question: Do the shavings retain their curled, ribbon-like shape and approximate distribution around the tools?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The number of tools is a key detail. There are exactly **five distinct tools** visible: hammer, chisel, file, pry tool, and wrench. Removing or adding any would alter the scene’s completeness. The instruction specifies replacing them, not changing count. Thus, the total number must remain unchanged. This is a minor but essential detail for fidelity. Weight 1.
+    Question: Are there exactly five tools present in the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The **wrench-like tool** has a distinctive **open-ended jaw** and **metal shaft**. This form identifies it as a specific tool. Even if made of enamel, its shape must be preserved. Losing this feature would make it unrecognizable. It is a unique identifier among the tools. Weight 2.
+    Question: Does the wrench-like tool retain its open-ended jaw and metal shaft shape?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

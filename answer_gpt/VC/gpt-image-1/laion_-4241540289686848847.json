@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-4241540289686848847",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the character retain the golden-yellow eye color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image has the character's face blurred, thus making it impossible to ascertain the specific eye color. Visual cues do not provide sufficient information to assess whether the eye color is golden-yellow; therefore, it cannot be confirmed.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the character’s facial structure (jawline, cheekbones, nose shape) preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The face in the edited image is blurred, making it impossible to assess the facial structure or details such as the jawline, cheekbones, and nose. Therefore, the facial structure cannot be confirmed as preserved.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the character’s skin tone and texture preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The face in the edited image is blurred and lacks visible skin details. Hence, it is impossible to determine the skin tone and texture preservation.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the character’s body proportions and stance preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the character's stance and body proportions, including arms and torso, can be visually analyzed and appear unchanged, suggesting they are preserved.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the camera angle and lighting direction preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on the visual cues such as shadows and highlights in the edited image, the lighting direction appears consistent, illuminating the same sides of the character's body. The perspective, focusing on the same part of the character from a similar angle, suggests that camera angle is preserved.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the character’s relative position to the background preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the character is positioned in front of a backdrop with a stone wall or earthy elements, similar to Image A, indicating the relative positioning between the character and background remains the same.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.38461538461538464
+}

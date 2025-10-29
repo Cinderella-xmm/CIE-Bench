@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_329",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the bicycles depicted in a 3D chibi style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bicycles have a more realistic and proportionate depiction rather than exaggerated features common in 3D chibi style, such as oversized heads and smaller bodies. The bicycles are rendered with realistic proportions and details in terms of frame, wheels, and handlebars, typical of standard bicycle designs.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Have the bicycles retained their original arrangement?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon analyzing Image B, the bicycles appear to be arranged from left to right in a sequence of red, yellow, and blue, similar to Image A. The position and alignment of the bicycles relative to each other and the background window in both images suggest that their arrangement in the scene has not changed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the colors of the bicycles identical to those in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the colors of the bicycles are red, blue, beige (or yellowish), and black. In Image B, the bicycles appear in similar colors: red, blue, and yellow (instead of beige), with the fourth bicycle not clearly visible or mentioned due to its less prominent presence. The visual cues show some similarity in color tone but with slight variations, particularly in how the beige is depicted more as yellow in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the bicycles retain their original design details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the design details such as the frame structure, handlebars, seats, and wheel composition appear consistent with those in Image A. The shapes and mechanical components seem depicted realistically and retain similarity upon close inspection in both images, showcasing typical common details found on bicycles.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the overall scene composition and lighting consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both Image A and Image B depict bicycles aligned in front of a large window with a similar luminous effect, casting soft light and reflections on the floor. This creates a coherent scene composition and lighting effect, indicating there's no substantial deviation in how the scenes are set and illuminated.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

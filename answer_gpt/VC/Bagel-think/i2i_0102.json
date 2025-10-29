@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0102",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the pencil blue in color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing Image B, the pencil is clearly visible in the foreground of the image. The body of the pencil is blue, which is evident from its consistent coloration along the pencil's length. The visual cue of this distinct blue coloring combined with general knowledge about pencil manufacturing supports the conclusion that the pencil is blue.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the yellow paper have clean edges and a uniform color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the yellow paper appears to have clean, straight edges based on the alignment and sharpness of the lines outlining the paper. Its color is a consistent, bright yellow throughout the visible surface, with no visible variations or patterns. This observation, along with the understanding of typical paper characteristics, indicates that the paper has clean edges and a uniform color.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the pencil's tip visibly touching the yellow paper?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pencil's tip is seen very close to the surface of the yellow paper as the word 'Bartk' is written. However, the tip itself is visibly elevated above the paper, suggesting it is not physically touching it. This conclusion is drawn from the gap between the pencil tip and writing surface, where there appears to be no contact.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a blurred silver laptop in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The blurred object seen in Image B appears to have the general shape and color matching that of a laptop, with a keyboard and trackpad area visible. The silver color is typical of many laptops. The correlation between the visual cues and knowledge of common laptop designs indicates there's likely a blurred silver laptop in the background.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the pencil's tip visibly sharp?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pencil's tip appears pointed, which is usually associated with being sharp, suitable for writing. This is assessed through the observation of its narrow end and considering typical characteristics of sharpened pencil tips, which are designed to be sharp for accurate writing and drawing.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7272727272727273
+}

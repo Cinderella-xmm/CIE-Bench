@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_99",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the chibi-style 3D soccer player appear to blend seamlessly with the realistic soccer field and stadium without any noticeable artifacts or inconsistencies?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a chibi-style 3D soccer player, characterized by exaggerated and simplified proportions, such as a larger head and shorter limbs, which are commonly seen in chibi or cartoon styles. This stylistic choice inherently contrasts with the realistic features of the soccer field and stadium. The chibi character does not visually match the realistic elements, creating a noticeable inconsistency between the player and the environment.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the soccer field, stadium, and cheering crowd still visually plausible and structurally coherent, without any distortions or unnatural textures introduced by the editing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the introduction of a chibi-style character, the soccer field, stadium, and crowd retain their realistic and coherent appearance. The textures and structure of these elements are not distorted and maintain the visual credibility seen in Image A. The cartoon soccer player does not alter the realistic nature of these background elements.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the chibi-style 3D soccer player maintain proper proportions and physical logic, avoiding any distorted or broken geometric shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases a 3D chibi-style character, which is designed to have exaggerated proportions typical of cartoons. This includes a large head and simplified body shapes, yet the character maintains consistency in proportions and coherent geometric shapes as intended in the chibi design. There is no distortion or broken shapes in the character's design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the materials and textures of the chibi-style 3D soccer player look natural and free of any unnatural artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The chibi-style character in Image B is rendered smoothly, with cartoonish materials and textures that fit the intended stylistic representation. These materials, while not realistic, are consistent with the playful and simplified design of chibi characters, showing no unnatural artifacts or inconsistencies in the context of its style.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the action pose of the chibi-style 3D soccer player consistent with the original image, maintaining structural consistency and visual credibility?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing Image A to Image B, both portray a soccer player in mid-action, suggesting a dynamic movement such as kicking a ball towards the goal. Despite a change in style to chibi in Image B, the pose is consistent with the original player’s action, maintaining visual credibility within the stylized design. The action is clearly recognizable and coherent.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

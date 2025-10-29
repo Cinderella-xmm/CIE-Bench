@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-267641566490570944",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the sunlight originating from the upper-left portion of the sky, casting diagonal rays across the mountain range?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the light source appears to come from the top left, illuminating the scene with beams of sunlight that stretch diagonally across the landscape. This can be inferred from the bright area in the upper-left corner and the rays of light passing over the mountains. The shadows and highlights on the terrain further confirm the direction of the light source.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there visible layers of mist or haze separating the mountain ranges at different depths?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a fantasy scene with a dragon, but despite the fictional elements, you can see varying degrees of mist or haze among the mountain ranges. This is indicated by the lighter regions between mountain layers, creating a sense of depth due to atmospheric perspective.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the tallest, most prominent peak located near the center of the image, rising above surrounding spires?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual center is dominated by a large dragon perched on a rock, which takes the place of a prominent peak. However, considering whatever context is visible alongside the dragon, the tallest and most visually dominating element would appear near the center. In Image A, this position is occupied by a peak, but the dragon significantly changes the perception of height.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there green leafy plants visible in the foreground, especially on the left side of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Foreground foliage is visible in Image B, particularly along the left side of the image. By analyzing the textured surfaces and color, which are consistent with leafy vegetation, it confirms that green plants are present.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the sky display a gradient from warm orange-pink near the horizon to cooler blue-gray at the top?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The sky in Image B shows a clear gradient, starting with warm hues like orange and pink close to the horizon, transitioning to cooler blue-gray tones higher up. This gradient is a common feature in sunrise or sunset scenes, reflecting the refraction and scattering of light at different angles.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there visible rough, dark gray rock surfaces on the mountain sides, especially on the left and right edges of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the mountain sides on the left and right edges display rough rock surfaces with a dark gray appearance. These visual cues, indicating texture and color typical of rocky terrain, suggest the presence of such formations.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7857142857142857
+}

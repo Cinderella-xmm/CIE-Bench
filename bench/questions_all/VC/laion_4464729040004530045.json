@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The subject's three-quarter profile pose is a defining compositional element in the original image. This includes her body facing left while her head is slightly turned toward the viewer. If this pose is changed to a full frontal or back view, the visual continuity with the original image is lost. Since the instruction does not specify changing the pose, and given standard editing practices, this orientation should be preserved. It is a core structural element that maintains subject identity across transformations. Losing it would result in a different subject presentation, thus affecting consistency. Hence, it is assigned 3 points.",
+      "question": "Is the woman in the edited image positioned in a three-quarter profile view, facing to the left?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The downward tilt of the head is a distinctive facial orientation in the original image. It contributes to the mood and gaze direction, which are key to recognizing the subject’s expression and posture. Although the instruction allows transformation, the head tilt is not mentioned as something to change, and altering it significantly would disrupt the subject’s continuity. This is a functional element of pose and expression, making it important for visual coherence. Its preservation ensures the subject remains recognizable in terms of stance. Thus, it is assigned 2 points.",
+      "question": "Is the woman’s head tilted downward in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The arms are positioned at the sides of the body in the original image, with slight bend at the elbows and hands relaxed. This is a key part of the subject’s posture and contributes to the overall balance of the composition. Changing the arm position (e.g., raising hands or placing them on hips) would alter the silhouette and disrupt the original framing. Since no instruction specifies changing limb positions, this detail should be retained. It is a secondary but important structural element, hence assigned 2 points.",
+      "question": "Are the woman’s arms positioned at her sides in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The white nail polish on the fingernails is a specific detail visible in the original image. It is a minor but identifiable feature that adds to the visual accuracy of the subject’s appearance. While not critical to identity, its absence would introduce a noticeable inconsistency, especially if the rest of the appearance is preserved. Since the instruction does not mention changing the nails, and no alternative nail color or style is specified, this detail should be retained. It is a detail-level element, so assigned 1 point.",
+      "question": "Does the woman have white nail polish on her fingernails in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The general body orientation—specifically, that the woman is facing left rather than front or back—is crucial for maintaining the original composition. A change to a full-frontal or back view would fundamentally alter the viewer’s perspective and disconnect the edited image from the original. Since the instruction does not specify changing the orientation, and given that pose continuity is standard in such edits, this should be preserved. It is a core compositional element, thus assigned 3 points.",
+      "question": "Is the woman facing to the left in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    }
+  ]
+}

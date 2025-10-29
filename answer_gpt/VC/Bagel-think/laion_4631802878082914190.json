@@ -1,0 +1,84 @@
+{
+  "filename": "laion_4631802878082914190",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image contain exactly six labeled process stages corresponding to the CRISP-DM phases?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In analyzing Image B, there is a colorful and cartoonish scene with animals around a campfire. There are speech bubbles containing random nonsensical text. No clear process stages or professional business diagram elements are present in Image B. Thus, it does not contain any labeled stages related to CRISP-DM phases or anything of that nature. Comparing this to Image A, which is a professional diagram with labeled stages such as 'Business Understanding,' 'Data Understanding,' etc., further confirms that Image B lacks these elements.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the six stages arranged in the correct sequential order: Business Understanding → Data Understanding → Data Preparation → Modeling → Evaluation → Deployment → back to Business Understanding?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B alone, it features cartoon characters and nonsensical text within speech bubbles, none of which pertain to any known process stages or sequences. No structured sequence resembling any CRISP-DM phases is visible in the edited image. Image A, however, clearly has stages arranged sequentially in the correct order as described in CRISP-DM methodology, which Image B clearly lacks.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a bidirectional connection (e.g., two-way path or mutual interaction) between the \"Business Understanding\" and \"Data Understanding\" stages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Considering only Image B, it depicts cartoon animals and nonsensical text without any structured interconnections or professional diagram elements. Therefore, there are no stages or bidirectional connections between any specific processes present. Image A shows a diagram with bidirectional paths between 'Business Understanding' and 'Data Understanding,' highlighting how Image B does not correspond with such connectivity.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a bidirectional connection (e.g., two-way path or mutual interaction) between the \"Data Preparation\" and \"Modeling\" stages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon analyzing Image B, it is clear that it consists of cartoon characters and incoherent text without any indication of structured sequences or processes. Consequently, there can be no bidirectional connection between 'Data Preparation' and 'Modeling' as no such stages exist. In contrast, Image A, the professional diagram, clearly contains interconnected processes, reinforcing that Image B lacks such features.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a central data source located at the center of the diagram, accessible to all six stages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not depict any structured diagram or elements suggestive of process stages or a central data source. It merely shows a cartoon scene with no professional content. Image A, however, does have a central data source depicted in its diagram, which is absent in Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the diagram include a clear return path from the \"Deployment\" stage back to the \"Business Understanding\" stage, completing the cycle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In analyzing Image B, there is no structured diagram or connectivity depicting stages or return paths like in CRISP-DM. The image consists of cartoon animals with incoherent speech bubbles. Image A features such paths and completes the cycle, implying the absence of these in Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.0
+}

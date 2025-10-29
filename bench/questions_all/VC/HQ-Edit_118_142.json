@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The ornate book in the original image has a distinct rectangular shape with visible binding, raised spine bands, and a central oval frame with decorative borders. Even if transformed into a pop-up, the fundamental form of a book — especially its rectangular shape and binding — must be retained to maintain identity. Without this, it would no longer be recognizable as a book. Thus, this is a core identity feature, warranting a weight of 3 points.",
+      "question": "Does the transformed book retain a rectangular shape with visible binding and page structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The quill in the original image is clearly a feathered writing instrument with a long shaft and barbs at the top. Even when reimagined as a pivot, it must retain the feathered form to be identifiable as a quill. Losing the feather structure would make it unrecognizable. This is a core identity feature, so it receives a weight of 3 points.",
+      "question": "Does the quill retain its feathered shaft and tapered tip?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The inkwell in the original image is a small glass jar filled with dark ink, placed on a brass tray. Even if transformed into a fountain, it must still contain liquid and resemble a container for ink. The presence of liquid and container shape are essential to its identity. This is a core functional element, so it gets a weight of 3 points.",
+      "question": "Does the inkwell retain a container shape with visible dark liquid inside?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The original image shows the book, quill, and inkwell arranged as a cohesive writing set. The instruction requires them to be part of a diorama where they interact functionally. Therefore, their logical association as writing tools must be preserved — even if their positions change, they must still appear connected by purpose. This is a key functional relationship, hence a weight of 2 points.",
+      "question": "Are the book, quill, and inkwell positioned in a way that suggests they function together as writing tools?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The original image features a vintage aesthetic with dark wood, aged leather, brass, and warm lighting. The instruction specifies a \"vintage explorer theme,\" which implies retention of this aesthetic. While specific elements like the lamp or stacks may be removed, the overall color palette (dark browns, golds, blacks), materials (leather, brass, glass), and tonal mood must be preserved. This is a secondary but important detail affecting visual consistency, so it receives a weight of 2 points.",
+      "question": "Does the diorama retain a vintage aesthetic with dark wood, brass, and aged materials?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The original book has a distinctive oval embossed frame with ornate scrollwork around it. While the instruction allows transformation into a pop-up, the decorative pattern could be simplified. However, if the frame is completely absent or replaced without reference, the ornate character of the book is lost. This is a key stylistic detail, so it is worth 1 point.",
+      "question": "Is there an ornate decorative border or frame visible on the book’s cover?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The original image includes a glass inkwell on a scalloped brass tray. While the inkwell may become a fountain, the presence of a tray or base supporting it is plausible in the diorama. However, since the instruction introduces a new wooden base with a map, the original tray may be replaced. But the idea of a supportive platform for the inkwell is functional and should be retained. This is a minor functional detail, so it receives 1 point.",
+      "question": "Is the inkwell supported by a base or tray of some kind?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

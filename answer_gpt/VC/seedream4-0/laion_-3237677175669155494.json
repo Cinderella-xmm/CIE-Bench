@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-3237677175669155494",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the Elizabeth Tower positioned on the right side of the image with a tall, vertical structure topped by a pointed spire and a clock face near the top?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, on the right side, there is a large golden robotic structure that resembles the Elizabeth Tower in terms of height and general shape, with a pointed spire at the top. However, the clock face seems to have been replaced or transformed into a glowing orb-like feature. Based on world knowledge, the Elizabeth Tower is commonly known for its clock face and gothic architectural style. Despite the transformation into a robot, it retains enough recognizable features like the height, spire, and position, confirming its identity.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the building complex on the left side of the image have multiple pointed Gothic spires and a long horizontal facade with repeating arched windows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, on the left side, there is a large building that exhibits multiple pointed spires, typical of Gothic architecture, along with a horizontal facade and windows, albeit partially obscured by sci-fi elements like vines and robots. From world knowledge, the style matches the Houses of Parliament's architectural features, indicating that those elements remain part of the building despite the futuristic alterations.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a red double-decker bus labeled with route number 53 traveling across the bridge from left to right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no red double-decker bus labeled with route number 53 visible. Instead, the image focuses on futuristic and science fiction elements, including robots and airships. This absence suggests a deviation from realistic features present in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a bridge with green metal railings and a paved roadway extending across the image from left to right, connecting the buildings to the right side of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B includes a bridge that is visually consistent with having green metal railings and a paved roadway, similar to typical bridge designs. It extends across the image, linking the left and right sides. Despite the futuristic additions in the image, the bridge's basic architectural style remains intact.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the text “BUS LANE” clearly visible in white lettering on the road surface near the right edge of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text “BUS LANE” remains visible in white lettering on the road surface at the right side of the frame. Unaltered road markings provide essential contextual clues for transportation and traffic indicators, hence they are retained even with the science fiction elements introduced.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there people visible walking on the sidewalk on the right side of the bridge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows people walking on the sidewalk to the right side of the bridge, consistent with a typical city scene despite the enhanced science fiction atmosphere. This element maintains a sense of realism within the fantastical depiction.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is there a second red double-decker bus with route number 43 visible further down the road on the right side of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a red double-decker bus further down the road on the right side, consistent with the original scene from Image A. The bus's visible characters distinctly show route number 45, not 43, evidencing the characteristic dual bus presence in urban environments but with retained route number differences.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7777777777777778
+}

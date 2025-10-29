@@ -1,0 +1,74 @@
+Description of reference image: In the original image, two skiers are gliding down a snowy slope amidst a stunning mountainous backdrop. The skier on the right is wearing a bright yellow jacket, black pants, and a helmet, equipped with ski poles, and is positioned slightly further ahead. The skier on the left is dressed in a red jacket, black pants, and a helmet, also equipped with ski poles. Both are actively skiing, kicking up clouds of snow behind them. The background consists of snow-covered mountains under a clear blue sky with scattered clouds.
+
+### Step 1 - Analyzing Allowed Changes
+
+**Thinking process:**  
+The editing instruction states that the right-side skier should appear to “slide out” of the image towards the viewer. This implies transformations focusing on perspective and depth perception. Therefore, we can adjust the skier’s position, size, and possibly the snow cloud effects to create this 3D effect. However, the skier's appearance, clothing colors, equipment, and action pose should remain consistent.
+
+Allowed Changes List:  
+1. Position adjustment of the right-side skier to create a 3D "sliding out" effect.  
+2. Perspective distortion to make the skier appear closer to the viewer.  
+3. Adjustment of the snow cloud effect to enhance depth.
+
+---
+
+### Step 2 - Determining Elements That Should Remain Unchanged
+
+**Thinking process:**  
+The core recognition elements of the skier include his outfit colors, helmet, ski poles, and posture. The functional association involves the skier's interaction with the snowy terrain, which must remain logically intact. Secondary details like the precise snow trail pattern and distant scenery should stay intact for visual coherence.
+
+Preservation Targets List:  
+1. Bright yellow jacket and black pants of the right-side skier.  
+2. Helmet, ski poles, and boots of the skier.  
+3. Skiing action posture and snow trail dynamics.  
+4. Background mountains and overall setting.  
+5. Relative position and appearance of the left-side skier.
+
+---
+
+### Step 3 - Generating Questions Focused on Unchanged Elements
+
+{
+    Q1:  
+    Thinking process: The skier's outfit colors are essential for identity recognition. Losing the yellow jacket would significantly alter the skier's appearance.  
+    Question: Is the skier on the right still wearing a bright yellow jacket?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 3
+}
+
+{
+    Q2:  
+    Thinking process: The presence of the helmet is critical for recognizing the skier's gear. Removing it would compromise safety and identification.  
+    Question: Does the skier on the right still have a helmet on their head?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2
+}
+
+{
+    Q3:  
+    Thinking process: The skier's active posture defines the action taking place. Changing it would disrupt the context of skiing.  
+    Question: Is the skier on the right still in an active skiing posture with bent knees and forward lean?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2
+}
+
+{
+    Q4:  
+    Thinking process: Maintaining the background ensures the environmental context stays intact. Changes here would disorient the scene.  
+    Question: Are the snow-covered mountains and clear blue sky still visible in the background?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2
+}
+
+{
+    Q5:  
+    Thinking process: Keeping the second skier provides balance and depth to the scene. Removing or altering their presence significantly impacts the composition.  
+    Question: Is the skier on the left still present in the image, wearing a red jacket and skiing posture?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 3
+}

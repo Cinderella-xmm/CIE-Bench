@@ -1,0 +1,105 @@
+Description of reference image: The subject is a church with a prominent bell tower, located in a mountainous alpine region. The bell tower features a dark green onion-shaped dome topped with a golden finial and cross. Below the dome, the tower has a white plastered section with arched openings and decorative red-brown trim. A clock face with Roman numerals and blue hands is centered on the tower’s facade. The tower is constructed from light gray stone blocks at its base, transitioning to smooth plaster above. Adjacent to the tower is the main body of the church, with a gabled roof covered in terracotta tiles and a white wall adorned with a black quatrefoil window and ornamental pink detailing. The surrounding landscape includes rolling green hills with patches of vineyards, scattered alpine-style houses with sloped roofs, and distant forested mountains under a pale blue sky with soft clouds. The foreground includes green foliage partially framing the scene.
+
+Thinking process: First, analyze the editing instructions word by word. The instruction specifies transforming the entire scene into a "miniature diorama within a dome glass case," which implies that the overall form and context of the scene will be reimagined as an enclosed display. However, it explicitly states to "recreate the church tower with precise clock details and a copper roof" — indicating that while the material (roof) may change from green to copper, the structure and function of the clock must remain intact. It also says to "include textured, terraced hills with vineyards emerging" — suggesting that the vineyard terrain should be preserved but enhanced in texture. It mentions adding "tiny, realistic alpine-style houses" — implying existing ones may be scaled down or duplicated but not removed. The instruction adds "whimsical, rolling mist effect along the distant mountains" — this is new and not present in original, so allowed to change. Lastly, placing the scene on a "small gold pedestal" is entirely new and not part of the original.
+
+Allowed Changes List:
+- The overall presentation format (conversion into a diorama within a glass dome)
+- The material of the church roof (from green dome to copper roof)
+- Addition of a whimsical rolling mist over distant mountains
+- Inclusion of a small gold pedestal beneath the diorama
+- Enhancement of hill textures and vineyard details
+- Scaling or replication of nearby alpine-style houses to fit miniature scale
+- Visual style shift to match a whimsical, diorama aesthetic
+
+Step 2 – Determine the elements that should remain unchanged
+
+Thinking process:
+Core recognition elements: The church tower, particularly its distinctive onion-shaped dome, is a key architectural identifier. Although the roof material is specified to change to copper, the shape of the dome must remain recognizable to preserve identity. The clock face with Roman numerals and blue hands is a functional and visual hallmark; its presence and design must be retained even if rendered more precisely. The quatrefoil window on the church façade is a unique decorative feature that distinguishes this building from others. These are core identity markers that cannot be altered without losing recognition.
+
+Functional/logical association elements: The spatial relationship between the bell tower and the main church body must remain consistent — the tower remains attached and positioned to the left side of the church. The relative positions of the church and surrounding houses must logically reflect their real-world arrangement, even if scaled down. The vineyards on the hills must still appear as terraced agricultural plots, preserving the land-use logic of the region.
+
+Non-modified element deduction: After excluding changes such as the glass dome, pedestal, mist, and copper roof, the remaining unmentioned visual details — such as the color and pattern of the church’s walls, the layout of the windows, the placement of the cross atop the dome, and the general shape of the adjacent buildings — must be retained to maintain visual coherence. Even though the scene becomes a diorama, the underlying composition and architectural forms must remain faithful to the original.
+
+Preservation Targets List:
+- The onion-shaped dome on the bell tower
+- The clock face with Roman numerals and blue hands
+- The quatrefoil window on the church façade
+- The position and attachment of the bell tower to the church
+- The terraced vineyard patterns on the hillsides
+- The presence and layout of nearby alpine-style houses
+- The cross atop the dome
+- The color and texture of the stone base of the tower
+- The terracotta-tiled roof of the church body
+
+{
+    Q1: 
+    Thinking process: The onion-shaped dome is the most iconic architectural feature of the church tower, distinguishing it from other regional churches. Its silhouette is central to the identity of the structure. Even if the material changes to copper, the shape must remain identical for recognition. Loss of this shape would fundamentally alter the building’s identity.
+    Question: Is the onion-shaped dome on top of the bell tower retained in the same form?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The clock face with Roman numerals and blue hands is a functional and visually distinct detail. It serves both as a timepiece and a decorative element. Its specific design (including numeral style and hand color) is critical for maintaining the authenticity of the tower. Any alteration would compromise its recognizability.
+    Question: Is the clock face featuring Roman numerals and blue hands visible and correctly positioned on the tower?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The quatrefoil window is a rare and distinctive architectural ornamentation found on the church façade. It is a key identifying feature that contributes to the church's unique appearance. Removing or altering it would make the building unrecognizable.
+    Question: Is the black quatrefoil window present on the front of the church?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The bell tower is physically connected to the main church body and positioned to its left side. This spatial relationship is essential for structural and compositional accuracy. Changing it would disrupt the logical architecture of the building.
+    Question: Is the bell tower attached to the church and positioned on its left side?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The terraced vineyards on the hillsides are a defining feature of the landscape and represent the agricultural character of the region. Their presence and layered pattern must be preserved to maintain environmental authenticity, even if enhanced in texture.
+    Question: Are the terraced vineyard patterns visible on the slopes of the hills in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The cross atop the dome is a symbolic and religious element that identifies the structure as a Christian church. Its presence is essential for cultural and architectural recognition. Removing it would undermine the building’s identity.
+    Question: Is the cross mounted at the very top of the dome?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The stone base of the tower is made of light gray masonry blocks, forming a clear contrast with the upper plastered sections. This material transition is a key textural detail that defines the tower’s construction. Altering it would misrepresent the original building.
+    Question: Is the lower portion of the bell tower constructed from light gray stone blocks?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q8: 
+    Thinking process: The terracotta-tiled roof of the church body is a consistent feature across the structure. Its color and slope contribute to the alpine architectural style. While the instruction allows for changes to the tower roof, the church roof must remain intact to preserve visual harmony.
+    Question: Is the main church roof covered with terracotta-colored tiles?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q9: 
+    Thinking process: The nearby alpine-style houses, with their sloped roofs and white walls, are part of the village setting. Their presence establishes the context of the church within a settlement. While they may be scaled down, they must remain in the scene to maintain environmental coherence.
+    Question: Are there multiple small houses with sloped roofs visible near the church?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

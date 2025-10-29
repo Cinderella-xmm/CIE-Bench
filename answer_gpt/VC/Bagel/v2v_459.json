@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_459",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the left tie retain its diagonal striped pattern in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the left tie appears to have a diagonal striped pattern consisting of multiple colors. This conclusion is drawn from the visual observation of distinct diagonal stripes, which is consistent with the common pattern observed in ties. The pattern is clearly visible, and stripes run diagonally across the tie. This indicates the striped pattern is indeed retained in the edited image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the right tie retain its white polka dot pattern in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the right tie is adorned with white polka dots against a blue background. The polka dot pattern is characterized by evenly spaced circular white shapes, which is a common design element for ties. The visual evidence supports that this pattern is maintained from the original design as it clearly shows polka dots similar to how it is typically displayed on such items.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the original colors (red, orange, turquoise, blue for the left tie and blue with white dots for the right tie) retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, the left tie displays red, yellow (possibly an edit from orange), turquoise, and blue stripes, while the right tie is primarily blue with white polka dots. These colors align closely with the original tie designs, showing only minor variations. The analysis of world knowledge indicates that typical tie designs often retain their colors due to brand consistency or aesthetic purposes. Therefore, the color scheme is effectively preserved in the edited image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the ties arranged next to each other in the edited image, maintaining their relative positioning?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the ties are aligned side by side, maintaining the same proximity and relative positioning as typically seen in displays or storage situations. This arrangement is consistent with common organizational practices for objects of similar type and function. Comparing it with Image A, the spatial relation between the two items remains unchanged, suggesting that the ties are indeed arranged next to each other in the edited image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a realistic surface texture in the background of the edited image, even if it is not the original wooden texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a smooth surface behind the ties, positioned within a drawer. While the material and texture take on a polished or slightly artificial look, simulating wood-like properties common in household items, it lacks the realistic tactile details that might be expected from genuine materials. The absence of grain, small imperfections, or nuanced reflections all point to a digital rendering rather than an authentic texture.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

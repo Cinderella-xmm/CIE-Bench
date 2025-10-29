@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0123",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the timer on the left been replaced with an illustration of a robotic dog?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the region where the timer is situated in the parking meter includes a small figurine resembling a dog located in the coin slot area, which is distinct from the timer above. It appears as though the original timer remains unchanged but an additional figurine has been added lower down, which might be misconstrued as a replacement. Therefore, reasoning from the position and context, the timer itself has not been replaced.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the robotic dog clearly shown holding a coin in its paws?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figurine inside the slot on the right parking meter appears to be a dog-like figure with paws holding a small round object that resembles a coin. Given the visual cues and common object associations, this correctly identifies the object.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the parking meter still display billing information such as numbers and labels in a legible manner?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, upon inspection of the parking meter's display, the labels and numbers such as '34887' and '1995' still appear intact and legible. The addition of the robotic figures hasn't obscured or altered the primary informational display of the meters.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the overall shape and structure of the parking meter remained consistent with the original design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the parking meters maintain their original physical design shape. The insertion of a dog figurine in specific areas hasn't altered the external structure or overall design indicated in Image A. The consistent parallel shape of the meters affirm their unchanged design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the robotic dog designed with features such as metallic textures or mechanical parts, making it identifiable as a robot?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figurine exhibits features such as a simplistic and cartoonish design without any obvious metallic textures or complex mechanical components that typically identify something as robotic. The features are more in line with a toy or artistic depiction rather than machinery.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

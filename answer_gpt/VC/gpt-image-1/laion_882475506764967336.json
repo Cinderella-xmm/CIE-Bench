@@ -1,0 +1,84 @@
+{
+  "filename": "laion_882475506764967336",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly six chairs surrounding the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there appears to be a total of four chairs and one bench surrounding the table: two chairs on one side, two chairs on the opposite side, and a bench on one of the remaining sides. This makes for a total of five seating pieces, not six chairs. From common sense, a bench typically allows for more than one person to sit, but it is not counted as separate chairs unless explicitly mentioned.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the table square in shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the table has equal lengths on all four sides, making it appear square. Using knowledge about geometric shapes, a square table would have four equal sides and right angles, both of which are visually represented here.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there two chairs on each long side of the table and one chair on each short side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are two chairs on one side and one chair on the opposite side, with a bench on one of the other sides. This pattern doesn’t match the description of having two chairs on each long side because only one side of the table features two chairs.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the chairs on the long sides of the table have armrests?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, chairs have armrests visible on the sides where chairs are individually placed. Observing standard chair design and using world knowledge, these components help support the arms of the person seated, identifying them as armrests.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a centerpiece located in the center of the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is an object located centrally on the table. It appears to have green pieces that mimic the look of a small plant, suggesting a decorative element typically used as a centerpiece.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the furniture set placed on a flat, level surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the furniture is placed on a LEGO-like gray base plate that is uniformly flat, indicated by the evenly distributed studs across its surface, representing a level platform on which the furniture stands.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

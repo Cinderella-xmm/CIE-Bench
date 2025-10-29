@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0141",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the silhouettes of the man and woman still positioned side by side on the bench after the edit?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the silhouettes of the man and woman are standing and holding hands rather than sitting on a bench. This is a significant change from the bench scene presented in Image A.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the park bench still present in the same design and position beneath the tree?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no visible park bench. The couple is standing in a park setting, and the focus is more on them. Image A featured the bench prominently, which is absent in Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the large tree with green leaves still visible above the couple?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a large tree with green leaves is present above the couple, similar to Image A. Despite other changes, this element remains consistent between the two images.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the grassy field still visible as the backdrop behind the bench?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background still shows a grassy field, similar to Image A. However, the context has changed as there is no bench depicted in the edited image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the image still depict early morning or late afternoon lighting with soft diffusion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B retains the lighting style seen in Image A, with soft, diffused lighting suggesting early morning or late afternoon. This effect remains unchanged even though other elements in the image have been altered.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5
+}

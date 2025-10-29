@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The key recognition feature of the lilies is their distinctive six-petal structure with elongated, recurved shape. Even when transformed into crystal, preserving this shape is essential for identifying the subject as a lily bouquet. If the petal forms are altered (e.g., becoming circular or flat), the core identity is lost. Thus, this is a core identification element with weight 3.",
+      "question": "Are the individual flower petals shaped like elongated, recurved lily petals with six distinct segments per bloom?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The overall bouquet configuration—a dense, rounded cluster of multiple blooms—is a defining compositional feature. Changing this layout (e.g., spreading out or linearizing) would break the visual identity of the original bouquet. It is a major structural element affecting recognition, hence weighted 2.",
+      "question": "Is the bouquet arranged in a tightly packed, spherical cluster with multiple flowers overlapping?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The clear glass vase is central to the scene's logic and function—it holds the stems and anchors the bouquet. Replacing it would alter the entire setup. The instruction mentions rods \"emanating from the vase,\" confirming the vase's continued presence. Its transparency and cylindrical shape are essential for visual consistency. Therefore, it must be preserved.",
+      "question": "Is there a transparent, cylindrical glass vase holding the bouquet?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The position of the vase relative to the bouquet is crucial for maintaining the original scene's logic. If the vase is moved or reoriented (e.g., tilted or placed sideways), the spatial relationship breaks. Since the bouquet emerges from it, this functional link must be preserved.",
+      "question": "Is the vase positioned directly beneath the bouquet, with stems/rods extending upward from it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The number of visible flowers and their arrangement (some open, some closed) contribute to the bouquet’s realism and completeness. Reducing or altering this would make the edited version inconsistent with the original. While not the most critical, it supports coherence and visual fidelity.",
+      "question": "Are there approximately ten to twelve flowers visible in the bouquet, including both open blooms and closed buds?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

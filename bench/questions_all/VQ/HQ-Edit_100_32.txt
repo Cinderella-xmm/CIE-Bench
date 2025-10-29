@@ -1,0 +1,48 @@
+```
+Step 1: Disassemble Editing Instructions
+-<Thinking Process 1>: The editing instruction requires transforming the woman into a stylized art postcard with semi-cartoony features. This involves altering facial proportions and expressions to be more exaggerated or stylized while maintaining recognizable identity. The original image shows a realistic portrait with natural facial features, so any stylization must preserve structural coherence (e.g., symmetry of eyes, nose, mouth) and avoid distorting anatomical elements such as the jawline or forehead. The focus is on perceptual quality—whether the stylization introduces unnatural distortions or breaks visual credibility.
+-Sub requirement 1: Evaluate whether the facial features (eyes, nose, mouth, chin) have been modified in a way that maintains structural consistency and avoids geometric distortion, such as elongated limbs or misaligned facial symmetry.
+
+-<Thinking Process 2>: The instruction specifies emphasizing the camera with playful enlargement and metallic accents. In the original image, the camera is held naturally in both hands and appears proportionate to the subject. Enlarging it may affect spatial realism if not scaled consistently with depth perception and hand grip logic. Metallic accents must not introduce unnatural textures or reflectivity inconsistent with real-world materials.
+-Sub requirement 2: Assess whether the camera has been enlarged proportionally without breaking physical plausibility (e.g., hands still gripping it realistically), and whether added metallic accents appear consistent with material properties (no floating highlights or incorrect reflections).
+
+-<Thinking Process 3>: A pastel color gradient background is required. The original background is soft and blurred with faint floral hints. Replacing it with a gradient must not introduce visible seams, abrupt transitions, or loss of depth. It should blend smoothly with the subject’s edges to maintain visual continuity.
+-Sub requirement 3: Check whether the new background gradient is smooth and seamless, with no visible edge artifacts or unnatural color banding, and whether it integrates naturally with the subject's silhouette.
+
+-<Thinking Process 4>: A decorative border of abstract camera motifs is to be added around the frame, leaving space at the bottom for personalization. This involves adding external graphical elements that must not interfere with the subject’s outline or cause occlusion. The border must be stylistically consistent with the semi-cartoony theme and not introduce jagged lines or pixelation.
+-Sub requirement 4: Determine whether the decorative border is cleanly rendered without aliasing or clipping errors, and whether it surrounds the subject uniformly without overlapping key facial or clothing details.
+
+-<Thinking Process 5>: The overall transformation into a "stylized art postcard" implies a shift from photorealism to a semi-cartoony aesthetic. This includes potential changes in lighting, shading, and line work. However, such stylization must not degrade fine details like hair strands, fabric texture, or skin pores in a way that compromises perceived authenticity.
+-Sub requirement 5: Verify that fine details (hair, denim weave, shirt folds, skin texture) remain intact and coherent even after stylization, avoiding over-smoothing or artifact generation.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of evaluating facial feature modifications for structural consistency and geometric accuracy, this question focuses on the shape and alignment of the eyes, nose, and mouth. Any exaggeration must preserve anatomical plausibility to avoid unnatural appearance.
+Question: Are the eyes, nose, and mouth aligned symmetrically and proportionally, with no distorted shapes such as stretched eyelids or misshapen lips?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of assessing the camera’s enlargement and metallic accents, this question evaluates whether the camera remains physically plausible in size relative to the hands and body, and whether the added metallic effects follow realistic material behavior.
+Question: Is the camera proportionally enlarged but still held securely by both hands without floating or unnatural grip angles, and do the metallic accents show consistent highlights and reflections?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of checking the pastel gradient background integration, this question assesses whether the transition between the subject and background is smooth and free of visible edges or color mismatches.
+Question: Does the background gradient blend seamlessly with the subject’s edges, with no visible haloing, sharp cutoffs, or color bleeding?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of verifying the decorative border’s rendering quality, this question checks for visual artifacts such as jagged lines, clipping, or overlap with the subject.
+Question: Is the decorative border composed of clean, continuous camera motifs that do not intersect with the subject’s face or clothing, and are there no pixelated or broken lines?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of preserving fine details during stylization, this question examines whether textures such as hair, denim, and skin retain clarity and natural structure despite artistic enhancement.
+Question: Are individual hair strands, denim stitching, and fabric folds clearly visible and undistorted, with no smoothing or blurring that removes detail?
+Choices: Yes, No  
+A: Yes
+```

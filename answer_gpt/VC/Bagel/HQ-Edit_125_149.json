@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_125_149",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the river present beneath the bridge, flowing from the background toward the foreground with visible white water over mossy rocks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual cues denote a fantastical scene with a large tree-like creature in place of the bridge from Image A. The creature stands over a river flowing from the background to the foreground. The river has visible white water flowing over what appear to be mossy rocks. The combined elements of a river with water flow and rocks appearing moss-covered match the attributes described in the question, indicating the presence of a river as described.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there moss-covered rocks visible in the river, especially near the center and right side of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the river contains several rocks that appear to be covered in green moss. These rocks are visible primarily in the center and right parts of the river, consistent with the image depiction of a flowing river interacting with mossy rocks. Combined with world knowledge that moss commonly grows on rocks in wet environments, these visual cues align with the question's description.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are multiple fallen logs visible along the left and right riverbanks, some partially submerged in the water?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not feature explicit fallen logs along the riverbanks, and the focus is on the tree-like creature rather than the detailed riverbanks themselves. The absence of visible logs indicates that the riverbanks do not correspond with the specific log-related attributes described in the question.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a canopy of green leaves overhead, allowing dappled sunlight to filter down onto the bridge and river?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the environment suggests a dense forest setting with an implied overhead canopy, given the lighting and background detailing. However, the explicit presence of dappled sunlight filtering through green leaves is not illustrated in a clearly recognizable way as it might be in a less stylized setting. The magical atmosphere and light glowing from the creature do not clearly demonstrate the dappled sunlight due to forest canopy as modeled in the question.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there several large, moss-covered tree trunks leaning toward the bridge from the left bank, with one prominently curving over the structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B distinctly features a large tree-like creature rather than clear tree trunks leaning toward what was a bridge location in Image A. While the creature itself could be metaphorically described as a large trunk given its wood-like structure, there are no explicit trees in the conventional sense with moss-covered trunks or the described configuration of leaning toward a bridge.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the image captured from a low-angle viewpoint, looking upward at the bridge from near the river level?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B's viewpoint focuses on the large creature, capturing its imposing presence from a slightly lower angle, suggesting a view from near the river level. However, this viewpoint does not correlate with looking upward at a bridge structure as such a structure is replaced by the creature, focusing on its form and the immediate surroundings.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Does the bridge structure extend horizontally across the river, supported by towers on both sides, forming a continuous span?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bridge structure depicted in Image A is replaced by a large, tree-like creature. There is no bridge extending horizontally across the river, nor is it supported by towers to form a continuous span. The creature dominates where the bridge would have been, indicating significant alteration of the original structure.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

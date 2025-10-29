@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0158",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Do the transitions between the front, left side, and rear views of the car appear smooth and free of unnatural artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "To assess the transitions in Image B, note that the edited image showcases different views of the car simultaneously, divided into quadrants, which may introduce challenges in creating seamless transitions. When examining Image B, each quadrant presents a separate view without blending into one another; instead, they are separated by visible divisions. These transitions are not physically smooth but are divided, indicating a separation rather than continuity. This is unlike Image A, which presents a continuous view of the vehicle without subdivisions.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the proportions and angles of the car parts consistent and logical across the three views without showing any distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, each view of the car—front, left side, and partial rear—retains consistency in size and form within its respective quadrant. The proportions of features like the headlights, grille, and wheels appear intact and logically consistent across these views within the edited context. Image A serves as a reference where real-world proportions are preserved in a single, continuous perspective. Image B maintains logical proportions for the separate presentations in the quadrants.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the car's surface texture and material properties, like reflections and shine, appear uniform and realistic across all three views?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "For this, visually assess the consistency of texture and reflections throughout the images in Image B. The shine and reflections on the car's surface seem uniformly applied across each quadrant, suggesting a deliberate effort to maintain realistic material properties. Although divided, each segment reflects similar textures and surface characteristics. This is mirrored in Image A, exhibiting consistent surface highlights and shine. Therefore, despite the separation, Image B reflects uniform material characteristics.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the lighting and shadow effects consistent and correctly aligned across all three views of the car?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, evaluate how the lighting and shadows fall on the car across the different quadrants. Despite the segmentation, lighting sources appear consistently aligned, casting shadows and reflections in a logical manner within each portion of the vehicle view. Image A shows cohesive lighting and shadow effects, suggesting similar lighting orientation. Image B succeeds in maintaining these effects correctly in a segmented format.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the background seamlessly integrate with the car without introducing any jarring inconsistencies or artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, observe the backgrounds presented against the quadrants showing different car views. Image B primarily focuses on the car's detailing rather than blending into a singular background, creating a disparity when compared to Image A, where the car is integrated into a natural setting seamlessly. The lack of a unified background in Image B leads to inconsistencies between the car and its surrounding elements.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

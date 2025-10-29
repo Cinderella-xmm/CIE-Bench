@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1009",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the bowl made of a transparent glass-like material?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bowl appears to be opaque and white, lacking any transparency or reflective sheen that characterizes glass. It has a matte finish which suggests a ceramic or other non-transparent material. Glass bowls typically allow some level of light to pass through, which would visibly alter the perception of the vegetables within. Thus, the conclusion is drawn from this absence of transparency.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the vegetables have a fresh and slightly damp surface texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the surface of the vegetables appears smooth and evenly lit, but they lack the slight glossiness or shine that would suggest dampness. Fresh vegetables often have a certain shine or texture indicating moistness, which is not apparent here. The image gives the impression of more stylized renderings, lacking the natural texture one might expect from real, fresh produce.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the image show angled lighting from above with soft ambient fill, creating highlights and soft shadows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting seems to be coming from an oblique angle, evident from the smooth shadows cast by the vegetables and the gentle gradient on the bowl. The highlights on the cauliflower pieces and the carrot slices also suggest soft lighting. This lighting creates a three-dimensional effect that emphasizes the shapes without harsh contrasts, typical of an ambient fill.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the background a neutral gray with a subtle vignette gradient and smooth texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly shows a uniform gray background with a smooth texture. The slight darkening at the corners hints at a vignette effect, which is often used to direct attention towards the center of an image by creating a natural frame. This helps to isolate the subject from the background, providing a neutral and calm backdrop.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the colors of the vegetables naturally vibrant with a soft glow effect?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The vegetables in Image B appear to have exaggeratedly bright and saturated colors, deviating from what would be considered natural. The cauliflower shows a slight yellow tint and the carrots have an intense orange color, suggesting artificial enhancement of color. This is not commonly seen in fresh, natural vegetables, where colors are more muted and less uniform.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

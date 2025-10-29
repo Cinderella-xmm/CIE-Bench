@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The presence of the white beard is a core identification feature of the subject in the original image. It is a prominent, distinguishing trait that defines the character’s age and identity. If removed or altered, the figure would no longer resemble the original individual, undermining the continuity of the edit. This is a key visual identifier, hence assigned 3 points.",
+      "question": "Is the full white beard present on the figure’s face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The tilak mark on the forehead is a culturally significant and visually distinct symbol located between the eyebrows. Its presence is a specific detail that contributes to the identity of the figure. Removing or altering it would change the cultural and personal identity of the subject, making it inconsistent with the original. As a unique marker, it is critical to retain, hence weighted at 3 points.",
+      "question": "Is there a red or dark tilak mark positioned between the eyebrows on the forehead?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The facial expression, specifically the open-mouthed smile revealing teeth, is a defining emotional cue in the original image. It conveys joy and warmth, and its retention ensures emotional continuity in the edited version. While not as iconic as the beard or tilak, it is a major expressive feature that affects recognition and coherence. Thus, it is important enough to warrant 2 points.",
+      "question": "Is the figure displaying an open-mouthed smile showing teeth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The posture—standing upright with arms at the sides and facing forward—is a fundamental compositional element. It establishes the figure’s position in space and maintains visual balance. Changing it would disrupt the intended framing and make the edit feel unnatural. Although not a core identity feature, it is essential for scene logic and consistency, thus assigned 2 points.",
+      "question": "Is the figure standing upright with arms relaxed at the sides?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The full-body view with the figure centered in the frame is a key compositional choice in the original image. It emphasizes the subject and creates symmetry. Altering the framing (e.g., cropping to half-body or shifting focus) would compromise the integrity of the edit. This is a minor but important detail affecting overall coherence, so it receives 1 point.",
+      "question": "Is the figure shown in full-body view and centered in the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The skin tone and facial texture (including wrinkles and natural shading) are essential for maintaining the realism and identity of the subject. Even with a costume change, preserving the skin details ensures the figure remains recognizable. While subtle, these features contribute to visual authenticity and are not mentioned for modification, so they should be retained. Assigned 1 point due to being secondary but identifiable.",
+      "question": "Are the natural skin tone and facial texture (including wrinkles) preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

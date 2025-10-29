@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_0_154",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the U.S. $20 bill with its distinctive green color, \"20\" numeral, and architectural design visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a reference to a USD currency but its design features such as color, '20' numeral, and architectural design are not visible due to the abstract representation of currency graphics. Therefore, without visual confirmation of those features, the answer is No.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the Qatari Riyal note with its pink-orange hue, Arabic script, and serial number \"103 01\" present and recognizable?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B uses abstract representations for currency and does not provide clear, real-life visual details such as color tone, script, or serial numbers that one would identify as belonging to a QAR note. Hence, the answer is No.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the Indian Rupee 50 note with the lion capital symbol and yellow-brown color clearly visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image provides a schematic representation for INR currency but lacks specific details like the lion symbol or its yellow-brown color. Therefore, the Indian Rupee 50 note is not visibly identifiable, leading to a No answer.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the U.S. $1 bill with the portrait of George Washington and \"ONE DOLLAR\" text present?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a simplified illustration representing USD currency is included. However, without elements like George Washington's portrait or 'ONE DOLLAR' text typically found on the $1 bill, the answer is No.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are all four banknotes (U.S. $20, Qatari Riyal, Indian Rupee 50, U.S. $1) present together in the same visual space?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, abstract iconography for these currencies is present collectively rather than actual banknotes as would be expected in real life visuals. Thus, the real-life versions of these currencies are not together in the same visual space, so No is the answer.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the original dominant colors of the banknotes (green for USD, pink-orange for QAR, yellow-brown for INR) preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image employs a representative color palette for currencies like green for USD and blue for QAR, which deviates from the actual colors. Although some attempt is made to distinguish them by color, it's not precise to real-life banknotes, hence the response is No.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.0
+}

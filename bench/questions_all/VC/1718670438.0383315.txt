@@ -1,0 +1,98 @@
+Description of reference image: The subject is a humanoid robot constructed in a steampunk aesthetic, standing upright on a wooden surface against a textured concrete wall. The robot’s body is composed primarily of aged bronze and copper materials with visible rivets, gears, and mechanical components. Its head is dome-shaped with three circular porthole-like eyes arranged horizontally, each featuring a central lens surrounded by metallic rings. On top of the head are several small spires and ornamental protrusions, including a central antenna-like structure and side-mounted valves or pipes. The torso is rectangular and features a transparent front panel revealing an intricate array of interlocking gears, cogs, and rotating mechanisms inside. The arms are articulated with segmented joints resembling pistons and hydraulic tubes, ending in closed fists. The legs are thick and cylindrical, terminating in multi-toed feet with five claw-like appendages per foot, giving it a stable stance. The overall color palette consists of oxidized bronze, dark brass, and weathered metal tones, contributing to an antique industrial feel. The background is a neutral gray concrete wall with subtle vertical lines and speckled imperfections, suggesting an abandoned workshop or industrial setting.
+
+Thinking process: First, analyze the editing instructions word by word to determine what can be changed. The instruction specifies creating a **steampunk-themed diorama inside a glass bell jar**, which implies that the **entire scene** (including background, floor, lighting, and framing) will be modified. It explicitly states placing the robot on a **small cog-adorned pedestal**, adding **miniature clockwork gadgets**, **copper wire coils**, **tiny glowing orbs**, and **etched patterns on the jar's base**, and changing the backdrop to a **rusted metal texture**. These changes indicate that the **scene environment, background, and surrounding elements are fully replaceable**. However, the instruction does **not mention altering the robot itself**, nor does it suggest modifying its form, structure, or internal mechanics. Instead, it refers to “placing the robot” — implying preservation of its original identity and physical characteristics. Therefore, any transformation must not affect the robot’s core visual traits.
+
+Allowed Changes List:
+- Background texture (from concrete to rusted metal)
+- Floor surface (from wooden to part of diorama setup)
+- Lighting and atmosphere (to suit enclosed glass jar)
+- Addition of glass bell jar enclosing the scene
+- Inclusion of a cog-adorned pedestal beneath the robot
+- Placement of miniature clockwork gadgets around the robot
+- Addition of copper wire coils as decorative elements
+- Insertion of tiny glowing orbs for illumination
+- Etching of steampunk patterns on the base of the glass jar
+- Overall composition shift from open space to enclosed diorama
+
+Step 2– Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: The robot is the central subject, and its unique design defines its identity. Key identifiers include the **dome-shaped head with three porthole eyes**, the **transparent chest panel showing internal gears**, the **segmented arms with piston-like joints**, and the **multi-toed feet with five claws**. These are essential to recognizing the robot as this specific model. If these are altered or obscured, the robot would no longer be identifiable as the original. Since the instruction only says “place the robot” without specifying modification, these structural and functional features must be preserved.
+
+Functional/logical association elements: The robot’s internal gear system visible through the chest panel suggests a working mechanism; removing or simplifying it would undermine the implied functionality. Similarly, the articulation of limbs and joint structures implies mobility — changing their shape could break mechanical logic. The robot must retain its **mechanical integrity** and **visual coherence** as a functioning automaton.
+
+Non-modified element deduction: All parts of the robot not mentioned in the allowed changes list must be retained. This includes the **exact shape and placement of the head spires**, the **texture of the brass casing**, the **arrangement of internal gears**, the **number and configuration of the toes**, and the **overall silhouette**. Even minor details like **rivet patterns** and **wear marks** contribute to authenticity and should be preserved unless explicitly altered.
+
+Preservation Targets List:  
+- The dome-shaped head with three circular porthole eyes  
+- The transparent chest panel revealing internal gears and cogs  
+- The segmented arm structure with piston-like joints  
+- The multi-toed feet with five claw-like appendages per foot  
+- The arrangement and shape of the head spires and antennae  
+- The visible internal gear system within the chest cavity  
+- The overall metallic bronze and copper coloration and weathering  
+- The exact number and positioning of rivets and mechanical joints  
+
+{
+    Q1: 
+    Thinking process: The dome-shaped head with three horizontal porthole eyes is the most iconic feature of the robot, serving as its primary identifier. The presence and arrangement of these eyes are critical to distinguishing this robot from others. Removing or repositioning them would fundamentally alter its identity. This is a core recognition element, making it essential to preserve.
+    Question: Does the robot retain its dome-shaped head with three evenly spaced circular porthole eyes?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The transparent chest panel revealing an intricate network of gears and cogs is a defining characteristic of the robot’s steampunk design. It visually communicates the internal mechanics and is central to the aesthetic. Altering or covering this panel would obscure the core functional representation and reduce authenticity.
+    Question: Is the transparent chest panel still present, clearly displaying the internal gear system?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The segmented arms with piston-like joints are key to the robot’s mechanical appearance and movement logic. Their structure supports the idea of articulation and function. Changing their form would disrupt the mechanical coherence and weaken the steampunk theme.
+    Question: Do both arms retain their segmented, piston-style joint construction?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The multi-toed feet with five claw-like appendages are distinctive and provide stability to the robot’s stance. They are integral to its biomechanical design and help anchor its identity. Modifying the number or shape of the toes would make the robot unrecognizable.
+    Question: Are both feet equipped with exactly five claw-like toes each?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The head spires and antennae contribute to the robot’s ornamental and functional design, enhancing its steampunk aesthetic. Their specific number and placement add uniqueness. Altering them would change the robot’s silhouette and character.
+    Question: Are there five distinct spires and antennae on top of the robot’s head, including one central and four lateral ones?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The internal gear system visible through the chest panel includes multiple interconnected cogs of varying sizes. This detail reinforces the mechanical complexity and is a hallmark of the design. Losing this detail would diminish the technical authenticity of the robot.
+    Question: Are multiple interlocking gears of different sizes visible through the transparent chest panel?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The coloration and weathering of the robot—oxidized bronze, copper tones, and darkened joints—are essential to its antique industrial look. While lighting may shift in the diorama, the material textures and patina must remain consistent to preserve the original aesthetic.
+    Question: Does the robot maintain its original oxidized bronze and copper color scheme with visible wear and aging effects?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q8: 
+    Thinking process: The rivets and mechanical joints are minor but important details that enhance realism and craftsmanship. Their presence contributes to the tactile quality of the robot. Although less critical than core features, their absence would reduce visual fidelity.
+    Question: Are the rivets and mechanical fasteners visible along the joints and edges of the robot’s body?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

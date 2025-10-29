@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_549",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the chibi-style Funko Pop figure maintain the correct proportions and physical rationality of the baseball player's pose and attire without introducing unnatural distortions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Chibi-style figures are known for their exaggerated proportions such as large heads and small bodies, focusing on achieving a cute and stylized appearance rather than realistic anatomy. The Funko Pop figure shows these traits with a proportionally oversized head and simplified clothing elements typical of this style, fitting the intended playful representation rather than realistic physical rationality. The pose of holding a bat is consistent with a baseball theme but does not adhere to realistic human proportions.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the detailed textures and lighting of the realistic depiction of the figure outside the box natural and consistent with the lighting and textures in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The realistic depiction uses consistent lighting and textures, matching the light direction and intensity seen on the surface of the box and the figure. However, comparing this to the original image, which has a wide outdoor setting with natural lighting, surfaces and lighting represented in Image B might unconsciously adjust to indoor studio lighting but remain within plausible ranges in relation to the outdoor scene light context.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there an absence of unnatural textures or loss of fine details where the chibi-style figure transitions to the realistic depiction of the figure outside the box?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The transition from the chibi figure inside the box to the realistic representation outside maintains sculpted textures with the smooth surfaces typical of the vinyl material; there are no apparent texture anomalies or detail loss, indicating a consistent transition.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the Funko Pop-style box and its elements (ball, glove, title) integrate naturally with the overall scene without disrupting the visual credibility?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The Funko Pop box and its elements are consistent within the generated scene. The packaging aligns with typical box designs for collectible figures, and the positioning with the figure maintains the visual context. Despite being a studio scene distinctly different from the stadium's realism, its own coherence preserves visual credibility within the distinct setting.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the isometric view of the Funko Pop-style box preserve the structural integrity and avoid any broken geometric shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The box in the isometric view retains its structural proportions, with clear lines that define the corners and edges without irregularities, ensuring the geometric shapes remain intact and consistent with typical packaging structure for this kind of product.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

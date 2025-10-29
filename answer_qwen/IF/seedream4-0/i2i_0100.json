@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0100",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image include a top-down view of the sink structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, on the left side, there is a schematic line drawing of a bathroom vanity with a sink. This drawing shows the sink from directly above, displaying the rectangular basin, faucet, and handles in alignment with the countertop and cabinet layout. This perspective is characteristic of a top-down view, commonly used in architectural or design renderings to illustrate spatial relationships. The absence of any depth cues (like shadows or angles) and the uniform scaling of elements confirm it is a top-down representation. Based on visual analysis and common conventions in technical drawings, this qualifies as a top-down view.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image include an angled side view of the sink structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "On the right side of Image B, there is a realistic photograph of the same bathroom vanity setup but viewed from a diagonal angle. This view shows the depth of the sink, the countertop's thickness, the cabinet’s front profile, and the surrounding environment such as the wall, mirror, and lighting. The visible three-dimensional aspects—like the sloped edge of the countertop and the side of the cabinet—indicate that this is an angled side view. Such views are typical in interior photography to convey spatial depth and realism. Therefore, based on the presence of depth and perspective, this is clearly an angled side view.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the top-down view and the angled side view merged into a single image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B combines two distinct representations: a top-down schematic on the left and a photographic angled side view on the right. These two views are separated by a diagonal white overlay that divides the image into two sections. The transition between them is sharp and clean, indicating they are presented together in one composite image but not blended or merged in a way that distorts either view. The purpose appears to be comparative visualization—showing both a technical plan and a real-world perspective. Since both views coexist within the same frame but remain visually distinct and unblended, they are presented as a merged composition rather than being physically merged or superimposed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the layout of the top-down and angled side views clear and well-organized in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The layout of Image B is structured with a clear diagonal division: the left side features the top-down schematic, while the right side displays the angled photograph. This arrangement allows for easy comparison between the two perspectives. The separation is clean, with no overlapping or clutter, and each view is fully visible and proportionally sized to maintain clarity. The use of contrasting styles (line drawing vs. photo) enhances distinction without confusion. Additionally, the consistent subject matter (the same vanity and sink) across both views supports coherence. Given these factors, the layout is intentional, logical, and well-organized, facilitating understanding of both views.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do both the top-down view and the angled side view accurately depict the sink structure seen in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing Image B to Image A (the original), we observe that both views in Image B correspond closely to the actual sink structure shown in Image A. The top-down schematic correctly reflects the rectangular shape of the sink, its position relative to the countertop, and the placement of the faucet and handles. The angled side view matches the physical dimensions, materials (marble countertop, white cabinet), and fixtures (black faucet, mirrors) seen in Image A. While the angled view in Image B shows only one sink (as opposed to the dual sinks in Image A), this discrepancy suggests a possible simplification or error. However, the overall structure—cabinet layout, drawer configuration, and sink form—is consistent with the original. Thus, despite the single-sink depiction, both views accurately represent key structural aspects of the sink and vanity system as seen in the original image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

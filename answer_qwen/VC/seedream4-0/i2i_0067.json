@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0067",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the horses still brown with distinct markings, including the white marking on one leg?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are no horses present. Instead, the image shows a plate of colorful macarons and a donut on a table covered with a white cloth. Since the content of Image B is entirely different from Image A, the horses are not present at all. Therefore, the question about their color and markings cannot be answered in the context of Image B. Based on world knowledge, horses are typically brown with possible white markings, but this information is irrelevant here because the animals are not in the edited image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the wire fence still visible and positioned correctly between the horses and the viewer?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not contain any wire fence or horses. The scene features a plate of pastries on a tablecloth, with no indication of an outdoor setting or fencing. The wire fence that was present in Image A is absent in Image B. Thus, based on visual analysis, the fence is not visible in the edited image. This conclusion is supported by common sense: a wire fence would not appear in an indoor setting with a table and pastries.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the green grass and field still visible in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background consists of a white tablecloth and part of an indoor environment, likely a kitchen or dining area. There is no green grass or open field visible. The presence of a tablecloth and indoor furniture indicates an interior setting, which contradicts the outdoor rural landscape seen in Image A. Therefore, the green grass and field are not present in Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the distant trees and open landscape still present in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a close-up of a plate of desserts on a table. The background is limited to a plain white tablecloth and blurred indoor elements, such as furniture. There are no distant trees or open landscapes visible. In contrast, Image A featured a wide rural scene with trees in the distance. The shift from an outdoor pastoral view to an indoor still-life setup confirms that the background has been completely altered.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the image still retain the softly overcast lighting and serene rural mood?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays a well-lit indoor scene with even, artificial lighting typical of food photography. The atmosphere is clean and composed, but it lacks the soft, diffused light and tranquil rural ambiance of Image A. The mood in Image B is more focused on presentation and aesthetics rather than serenity and nature. Therefore, the softly overcast lighting and rural mood are not retained in the edited image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.0
+}

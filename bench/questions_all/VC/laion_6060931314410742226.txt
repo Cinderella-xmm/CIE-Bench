@@ -1,0 +1,132 @@
+**Step 1 – Analyze the editing instructions and determine allowed changes**
+
+**Description of reference image:**  
+The subject is a cluster of blooming roses in the foreground, primarily white with soft pink undertones, arranged on green stems with serrated leaves. The roses vary in bloom stage—from tightly closed buds to fully opened flowers—displaying layered, delicate petals with subtle color gradients. The rose bush occupies the lower two-thirds of the frame, extending diagonally from the bottom left toward the top right. Behind it stands a red brick building with Gothic architectural features: pointed arch windows, stone trim, and vertical buttresses. One window has a tracery design visible through the glass. The brickwork is uniform in reddish-brown tone with light mortar lines. The sky above is overcast, providing diffuse lighting. The composition places the roses in sharp focus while the building remains slightly blurred but clearly identifiable.
+
+**Thinking process:**  
+The instruction states: *"Transform the rose bush into a mosaic mural, outlining each flower with bold, ceramic tile borders; render petals and leaves in pearl and jade hues; abstract the red brick building with terracotta tile shades, integrating architectural motifs into the mosaic pattern for continuity."*  
+
+This indicates that:
+- The **form of the rose bush** is to be transformed into a **mosaic mural**, meaning its physical appearance will be stylized.
+- **Petals and leaves** are to be rendered in **pearl and jade hues**, implying a change in color palette.
+- **Bold, ceramic tile borders** will outline each flower — this alters shape definition and texture.
+- The **red brick building** is to be **abstracted using terracotta tile shades**, suggesting a shift from realistic bricks to a tiled mosaic style.
+- **Architectural motifs** (e.g., arches, tracery) are to be **integrated into the mosaic pattern**, indicating retention of structural forms but in stylized form.
+
+Thus, elements explicitly allowed to change include:
+- The **texture and material** of the roses (from organic plant to ceramic tiles).
+- The **coloration** of petals and leaves (to pearl/jade tones).
+- The **structural rendering** of the building (from real brick to terracotta tile abstraction).
+- The **overall artistic medium** (from photograph to mosaic-style artwork).
+
+However, the instruction does **not** say to remove or alter the **presence** of the rose bush or the building. It only specifies how they should be *rendered*. Therefore, their **existence, position, and relative spatial relationship** must remain consistent.
+
+Additionally, the phrase *"integrating architectural motifs into the mosaic pattern"* implies that **key architectural features** (like arches and tracery) must be preserved in some form within the new mosaic design.
+
+---
+
+**Allowed Changes List:**  
+- Color of petals and leaves (to pearl and jade hues)  
+- Texture of roses (from natural to ceramic tile-like)  
+- Outline of flowers (with bold, tile-like borders)  
+- Rendering of the brick building (abstracted into terracotta tile mosaic)  
+- Overall visual style (from photographic realism to mosaic art)  
+- Material appearance of both subjects (organic → ceramic/tile-based)
+
+---
+
+**Step 2 – Determine the elements that should remain unchanged**
+
+**Thinking process:**  
+We now identify what **must not change**, based on exclusion from the "allowed changes" list and logical necessity.
+
+**Core recognition elements:**  
+- The **rose bush** must remain identifiable as such — even if stylized, its identity depends on retaining **flower shapes**, **blossom stages**, and **branch structure**. Otherwise, it would no longer be recognizable as roses.
+- The **building behind** must retain its **architectural silhouette** — particularly the **pointed arch window**, **vertical buttresses**, and **corner turret** — because these define its Gothic character. If completely removed or distorted beyond recognition, the scene loses its contextual identity.
+- The **spatial relationship** between the roses and the building must be preserved — the roses must still appear in front of the building, maintaining depth and perspective.
+
+**Functional/logical association elements:**  
+- The **foreground-background layout** is essential: roses in front, building behind. Changing this would violate spatial logic and misrepresent the original scene.
+- The **relative positioning** of the rose stems and blooms must align with their original placement — e.g., one large bloom near the bottom right, another near the top left — so that the viewer can recognize the same arrangement despite stylistic transformation.
+
+**Non-modified element deduction:**  
+Even though colors and textures may change, the following **visual facts** from the original image must persist:
+- The **number and location** of major blooms (e.g., the large white rose at the bottom right, the pink-tipped bud near the center).
+- The **presence of unopened buds** among open flowers.
+- The **green foliage** associated with the rose stems.
+- The **distinctive arched window** with internal tracery.
+- The **corner angle** of the building, where two walls meet at a right angle.
+
+These are not mentioned as being changed, and altering them would disrupt the fidelity of the edit.
+
+---
+
+**Preservation Targets List:**  
+- The presence and general shape of the rose bush in the foreground  
+- The number and approximate positions of individual roses (especially prominent ones)  
+- The existence and location of the red brick building in the background  
+- The distinctive Gothic architectural features: pointed arch window, stone trim, corner buttress  
+- The spatial relationship between roses and building (roses in front, building behind)  
+- The presence of green leaves and stems supporting the roses  
+- The orientation and proportion of the building’s corner structure
+
+---
+
+**Step 3 – Generate yes/no questions based on key identifying visual elements**
+
+{
+    Q1: 
+    Thinking process: The large, fully opened white rose located in the bottom-right quadrant of the image is a core visual anchor due to its size, clarity, and central placement. Its presence defines the focal point of the floral arrangement. Even if stylized, removing or relocating it would fundamentally alter the composition and recognition of the scene. This makes it a high-weight element.
+    Question: Is there a large, fully bloomed white rose positioned in the bottom-right area of the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The pointed arch window with visible tracery is a defining feature of the Gothic architecture in the background. Its unique shape and internal design distinguish the building from generic structures. Removing or distorting it would make the building unrecognizable as a church or cathedral-style edifice, undermining the scene's context. Thus, its preservation is critical.
+    Question: Is there a pointed arch window with decorative tracery visible on the upper part of the brick building?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The corner of the building where two brick walls meet at a right angle is a key structural identifier. It provides depth and orientation cues. Altering its geometry or omitting it would disrupt the architectural integrity and spatial understanding of the scene. This is a crucial compositional element.
+    Question: Does the building have a visible corner formed by two intersecting brick walls meeting at a right angle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The rose bush includes multiple buds in various stages of opening, including one prominent pink-tipped bud near the center-left. These developmental stages contribute to the naturalistic detail of the plant. Their presence supports authenticity and visual richness. While color may change, their number and placement should be preserved to maintain botanical accuracy.
+    Question: Are there at least three distinct rose buds visible along the stems, including one with pink tips near the center of the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The green leaves attached to the rose stems provide contrast and support the identification of the plant as a rose bush. Their presence is necessary to distinguish it from other flowering plants. While their color may shift to jade hues per instructions, their form and distribution must remain consistent to preserve botanical identity.
+    Question: Are there dark green, serrated leaves present along the stems of the rose bush?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The overall spatial arrangement — roses in the foreground, building in the background — establishes depth and context. Reversing or flattening this layering would destroy the original scene’s narrative and visual logic. The foreground-background relationship is foundational to the image’s coherence.
+    Question: Are the roses positioned in front of the brick building, creating a clear foreground-background separation?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q7: 
+    Thinking process: The vertical buttress or tower-like structure on the left side of the building contributes to its architectural profile. Its presence helps define the building’s scale and style. While it may be stylized, its elimination or misplacement would compromise the building’s identity.
+    Question: Is there a tall, vertical brick structure (buttress or tower) extending upward on the left side of the building?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

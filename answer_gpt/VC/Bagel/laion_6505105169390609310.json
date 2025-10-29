@@ -1,0 +1,84 @@
+{
+  "filename": "laion_6505105169390609310",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the gold crown present on the head of each of the three figures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are two figures visible, each with a gold crown on their heads. The depiction in Image A shows three figures each wearing a gold crown, suggesting a theme. Since the second image, Image B, is edited to reduce the number of visible figures to two in the snow globe, reasoning based on visual cues and common thematic elements leads to the conclusion that not all three figures are depicted in Image B, hence the answer is No.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do all three figures have prominent dark beards?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the two figures inside the globe do not show characteristics of having dark beards. In the context of traditional depictions like Image A where figures may have specific styling, coupling this with the current visual cues, the answer must consider the apparent visual depiction. World knowledge of common ornamentation suggests dark beards are not discernible; thus, the answer is No.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the robes of the figures colored in purple/green, red/white/gold, and green/blue respectively, with gold trim?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the central figure is wearing a red robe with gold trim, however, the second visible figure does not match the description of green/blue with gold trim, nor is there a visible figure with purple/green robes. Comparing this with Image A, where the figures have differing robe colors suggesting variety, it shows the edited version does not retain the same color scheme for all figures; therefore, No.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does each figure hold a golden object (vessel, box, or orb)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, one figure holds a small golden object and the central figure's hands are clasped. The visibility of a golden object is not apparent for each figure as per the thematic context of gift holding seen in Image A with world knowledge suggesting prominence in gift offerings in imagery. Thus, it leads to a No answer considering visual discrepancies.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the hands of the central figure clasped over the chest, and do the other two figures hold their gifts with both hands?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the central figure has hands clasped over the chest while the other figure, who is holding an object, does so with both hands. Image A depicts multiple figures holding different objects in a more specific posture, whereas Image B provides only two figures with a clear depiction favoring this question's context, Yes.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the central figure noticeably smaller than the other two, and is he standing upright with hands clasped?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows two figures where the central one is taller and standing with hands clasped, suggesting a recognizable position. In contrast, the concept in Image A supports thematic hierarchy in height, yet does not follow the same format here. Thus, given the questioning of relative size in the context, the answer considering visible depiction is No.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.14285714285714285
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_90133",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the background a uniform beige color without any gradient, pattern, or texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background appears to be a beige color with no apparent patterns or textures. The color consistency across the background suggests that it is uniform. This conclusion is drawn by observing the continuous, uninterrupted color behind the mechanical insect figure.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the background have no visible texture, grain, or surface variation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B looks smooth and lacks any apparent texture or grain. This observation comes from examining the uniform surface and absence of any visual cues indicating variation in the background's texture.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there no shadows, reflections, or light variations on the background surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "While the background mostly appears uniform, there are minor shadows and light variations near the object, particularly where the mechanical insect is standing and casting slight shadows. These observations indicate that there are some shadows and light variations present.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the image framed with straight edges and no border or crop distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B appears to be well-framed with straight edges and no visible border or signs of crop distortion. This conclusion is inferred from the clear and straight visual boundaries of the image frame.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the lighting on the background evenly distributed with no hotspots or directional shadows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The lighting in Image B, while mostly balanced, shows some directional shadows caused by the mechanical insect, indicating that the lighting is not entirely evenly distributed and has some directional characteristics. This is evident from the shadow cast by the object and slight light variance.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

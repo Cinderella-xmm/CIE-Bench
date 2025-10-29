@@ -1,0 +1,75 @@
+### Step 1 - Analyzing Modification Requirements
+
+**Description of reference image:**  
+The subject is a circular white plate with a slightly raised rim, positioned centrally against a plain white background. In the center of the plate lies a single metal spoon, oriented vertically with its bowl facing upwards. The spoon has a polished surface, reflecting some light. There are no additional objects, text, or decorations present.
+
+**Thinking process:**  
+The editing instructions focus on transforming the image into a poster for a cooking competition, adding the title "Master Chef" and subtitle "Final Round." These instructions imply significant alterations to the image, including the addition of text and possibly graphical elements. However, they do not specify changes to the existing objects (plate and spoon) or their fundamental characteristics.
+
+**Allowed Changes List:**  
+- Addition of text ("Master Chef," "Final Round") and potential graphical elements for the poster design.
+- Possible introduction of a background or scene to complement the poster theme.
+- Adjustments in size, position, or orientation of the plate and spoon to fit the poster layout.
+
+### Step 2 - Determining Unchangeable Elements
+
+**Thinking process:**  
+Core recognition elements include the distinct shape and clean appearance of the plate, along with the spoon's metallic finish and orientation. Functionally, both objects must remain as they are for the image to effectively communicate culinary themes.
+
+- **Core Recognition Elements:** The plate’s circular shape, white color, and raised rim, as well as the spoon’s metallic, reflective surface and vertical orientation, are crucial identifiers.
+- **Functional/Logical Association Elements:** The placement of the spoon on the plate maintains logical consistency with dining or cooking contexts, integral to the poster's theme.
+- **Unmentioned Details Retention:** Visual coherence demands retaining the simplicity of the setup, ensuring the objects remain central and undisturbed by new elements.
+
+**Preservation Targets List:**  
+- Circular shape and raised rim of the plate.
+- White color and clean surface of the plate.
+- Metallic finish and reflective surface of the spoon.
+- Vertical orientation of the spoon on the plate.
+- Central positioning of the plate and spoon.
+
+### Step 3 - Generating Questions
+
+{
+    Q1:  
+    Thinking process: The circular shape and raised rim of the plate are essential for identifying it as a typical dining plate, which aligns with the poster’s culinary theme. Losing this would compromise core recognition.
+    Question: Does the plate retain its circular shape and raised rim?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2:  
+    Thinking process: The white color of the plate is a distinctive characteristic that helps maintain the clean, minimal aesthetic necessary for a professional cooking competition poster. Changing it would detract from the intended look.
+    Question: Is the plate still white in color?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3:  
+    Thinking process: The metallic finish and reflection on the spoon are key visual cues indicating the material and quality, fitting the high-standard imagery expected for a "Master Chef" event.
+    Question: Does the spoon retain its metallic finish and reflective surface?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4:  
+    Thinking process: Maintaining the spoon's vertical orientation ensures a balance and professionalism in the composition, supporting the poster's visual appeal.
+    Question: Is the spoon still oriented vertically on the plate?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5:  
+    Thinking process: Keeping the plate and spoon centrally positioned preserves the visual focus and symmetry, crucial for effective communication in a poster format.
+    Question: Are the plate and spoon still centrally positioned in the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

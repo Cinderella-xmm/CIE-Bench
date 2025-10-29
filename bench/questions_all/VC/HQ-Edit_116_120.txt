@@ -1,0 +1,142 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a large, intricately detailed sandcastle built on a sandy beach. It features multiple conical towers with pointed spires, arched doorways, ornate latticework, and spiral staircases carved into the sand. The castle has a central flagpole atop the tallest tower flying a small, multicolored flag (orange, white, and blue). The structure is symmetrical in layout, with a prominent central entrance flanked by curved staircases leading up to an elevated platform. The base of the castle is surrounded by scattered seashells, starfish, and pebbles arranged in a semi-circular pattern on the sand. The background includes a calm ocean under a clear sky with soft golden sunlight illuminating the scene from the side, suggesting early morning or late afternoon light. The texture of the sand is smooth yet detailed, showing fine grain patterns and shadows that emphasize depth.
+
+**Thinking process:**  
+The editing instruction specifies a transformation: “Transform the sandcastle into a sumptuous, miniature 3D model displayed within a spherical glass dome on a sculpted mahogany base.” This indicates a complete change in **form**, **medium**, and **context** — the original physical beach setting will be replaced by a curated display setup. However, the instruction does not mention altering the **design or structural details** of the sandcastle itself; rather, it implies preserving its **visual identity** while recontextualizing it as a collectible artifact.
+
+Key elements explicitly allowed to change:
+- **Environment**: The beach, ocean, sky, and natural lighting are implied to be removed or replaced.
+- **Form and presentation**: The sandcastle is to become a miniature model inside a glass dome — this changes scale, material, and context.
+- **Base**: The original sand foundation is replaced by a sculpted mahogany base.
+- **Surrounding elements**: The shells and starfish are to be “incorporated” into the new design but may be repositioned or stylized.
+- **Texture**: “Fine, glittering grains” are to emulate sandy texture — this alters surface finish but not necessarily the underlying shape.
+- **Additions**: A ceramic plaque with “Empire of the Shores” is added — this is a new element not present originally.
+
+Thus, **allowed changes** include:
+- Background (beach/ocean/sky)
+- Scale and framing (glass dome, mahogany base)
+- Material (sand → model with glittering grains)
+- Display context (outdoor → indoor collectible)
+- Lighting (natural → possibly studio-style)
+- Addition of plaque
+- Reconfiguration of surrounding shells and starfish
+
+**Allowed Changes List:**
+- The beach environment and ocean background
+- The sky and ambient lighting
+- The scale and form of the sandcastle (now a miniature model)
+- The base support (from sand to mahogany)
+- The presence of a spherical glass dome enclosing the model
+- The addition of a ceramic plaque with inscription
+- The texture of the model surface (glittering grains instead of natural sand)
+- The arrangement and finish of seashells (matte pearl finish, possibly smaller or stylized)
+- The overall presentation style (collectible artifact)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+Despite the transformation into a display model, certain visual features must remain unchanged to preserve the **identity** and **recognizability** of the original sandcastle. These are determined through:
+
+1. **Core recognition elements**: Features unique to the sandcastle’s design that distinguish it from other castles or models. These include:
+   - The **number and placement of turrets** (especially the tall central one with the flag)
+   - The **architectural style** (Gothic-like arches, conical roofs, spiral staircases)
+   - The **flag on the highest tower** — a distinctive identifier
+   - The **symmetrical layout** with dual staircases curving toward the center
+   - The **detailed latticework** and decorative carvings on walls and arches
+
+2. **Functional/logical association elements**: The structure’s logic — such as the **entrance archway**, **staircase flow**, and **tower hierarchy** — must remain consistent to maintain architectural coherence. Even if scaled down, these spatial relationships should not be altered.
+
+3. **Non-modified element deduction**: Any detail not mentioned in the allowed changes list must be retained unless logically overridden. For example:
+   - The **shape of the turrets** (conical, tapering)
+   - The **presence of arched windows and doors**
+   - The **overall silhouette** of the castle
+   - The **relative height and positioning of towers**
+
+Although the texture may change to glittering grains, the **underlying geometry** of each feature must remain identical. Similarly, the **seashells and starfish** are described as being “incorporated,” meaning their **forms** should still be recognizable even if stylized.
+
+Therefore, the **core identity** lies in the **specific configuration** of towers, arches, stairs, and flag — not just general "castle" traits.
+
+**Preservation Targets List:**
+- The number and spatial arrangement of conical turrets
+- The presence and position of the flag on the tallest tower
+- The dual spiral staircases leading to the central platform
+- The central arched entrance with decorative lattice above
+- The symmetrical layout of the castle’s facade
+- The detailed ornamental carvings on arches and walls
+- The relative height and positioning of towers (e.g., tallest at center)
+- The shape and orientation of the main towers (pointed, conical)
+- The presence of arched windows and doorways
+- The basic shape and distribution of surrounding seashells and starfish (as decorative elements)
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The flag on the tallest tower is a distinct visual marker in the original image, located at the apex of the central spire. Its presence and position are critical for identifying the specific sandcastle design. If removed or relocated, the identity of the structure would be compromised. This is a core recognition feature because it is unique to this composition and not found on all sandcastles. Thus, it carries high weight.
+    Question: Is the flag positioned at the top of the tallest central spire of the sandcastle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The dual spiral staircases are a defining architectural feature, forming a mirrored pair that leads to the central platform. Their shape and symmetry are integral to the castle's identity. Altering their form or removing one would disrupt the structural balance and make the model unrecognizable. This is a key functional and aesthetic element.
+    Question: Are there two spiral staircases symmetrically positioned on either side of the central entrance?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The central arched entrance with intricate latticework above it is a signature detail of the sandcastle’s facade. It serves as a focal point and distinguishes this design from simpler sandcastles. Removing or simplifying this carving would lose essential identity information. It is a core architectural feature.
+    Question: Is there a central arched doorway with ornate latticework directly above it?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The conical turrets are a recurring motif throughout the structure, with varying heights and placements. Their specific number and arrangement (e.g., five visible turrets on one side) define the castle’s silhouette. Changing their count or shape would alter the visual identity. While the material may change, their geometric form must remain.
+    Question: Are there at least seven conical turrets visible around the perimeter of the sandcastle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The presence of starfish and seashells around the base is part of the original scene’s environmental storytelling. Although they may be stylized or repositioned in the new display, their inclusion is implied in the instruction (“incorporate tiny, ornately detailed seashells”). Therefore, their **presence** must be preserved, even if modified in texture or finish. This is a secondary but important contextual element.
+    Question: Are starfish and seashells visibly present around the base of the sandcastle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The symmetrical layout of the castle, particularly the mirrored towers and staircases, is fundamental to its design. Asymmetry would break the intended aesthetic and suggest a different structure. This symmetry is a logical and visual necessity for maintaining identity.
+    Question: Is the sandcastle designed with bilateral symmetry along its central vertical axis?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The detailed carvings on the walls and arches contribute to the ornate character of the sandcastle. While the texture may be enhanced with glittering grains, the underlying patterns (e.g., floral or geometric motifs) must remain visually intact to preserve artistic fidelity. These are non-core but significant detail elements.
+    Question: Are there decorative carvings visible on the surfaces of the towers and archways?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q8: 
+    Thinking process: The central tower is the tallest and most prominent, serving as the visual anchor of the structure. Its dominance in height and position is essential for identification. If another tower were made taller or if the central one were reduced, the composition would be fundamentally altered.
+    Question: Is the tallest tower located at the center of the sandcastle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

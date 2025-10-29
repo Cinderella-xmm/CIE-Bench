@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_805",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the original book illustration been replaced with a snow globe?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, we can clearly see a snow globe containing an open book within it, which differs from the original Image A containing only a simple illustration of an open book. This signals that a snow globe has been introduced, replacing the straightforward book illustration. Observing the distinct and notable presence of a snow globe, combined with world knowledge of typical book illustrations, confirms its replacement.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the snow globe placed on a shelf surrounded by other books?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a snow globe resting on a wooden surface that resembles a table rather than a shelf. The background is filled with books on shelves, but the snow globe itself is not directly on a shelf. This interpretation combines visual assessment with logical deduction about furniture types.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the background depict a blurred cozy library with warm tones such as orange and yellow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases a background that appears as a blurred cozy library, emphasized by the presence of books, wooden tones, and lighting that emits warm hues of orange and yellow. This creates an inviting and soft ambiance common in library settings designed for comfort.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a nearby lamp emitting soft golden light that refracts through the snow globe, creating sparkles?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a lamp emitting a warm, golden light is clearly visible in the background. The light interacts with the snow globe, producing a glow and sparkles that are evident inside the globe. This combination of light effects is typical for materials like glass or crystal used in snow globes, creating a magical sparkle effect.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Inside the snow globe, is the book depicted as a compact, chibi-style 3D model with fluttering pages in a snowy environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a book with realistic proportions inside the snow globe. The design of the book doesn't suggest a chibi style, which usually involves exaggerated features and proportions. Though the book is surrounded by a snow-like base within the globe, it does not display fluttering pages. The visual portrayal aligns more with a regular book rather than a chibi 3D model.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

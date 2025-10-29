@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0132",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the frisbee visible in mid-air between the two individuals?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a circular object depicted in the air between the two individuals. Given the context of the scene where the individuals are positioned in a way suggesting play or interaction with a thrown object, it is reasonable to conclude that this object is a frisbee. The visual information combined with common knowledge about outdoor activities supports this conclusion.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does one individual have their arm extended forward, as if throwing the frisbee?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, one of the individuals has their arms extended forward. However, their posture does not clearly indicate a motion associated with throwing. Typically, throwing involves a dynamic posture with potential follow-through limbs and body positioning. Lacking such indicators in their stance suggests they are not in the act of throwing.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the other individual have both hands raised, prepared to catch the frisbee?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The individual on the right has both hands raised in front of them, which is a common posture for preparing to catch a flying object such as a frisbee. The alignment and positioning of the hands relative to the anticipated trajectory of the frisbee supports the interpretation of a catching posture.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there trees visible in the background behind the characters?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts a scene set in a park or outdoor area, and there are numerous trees visible in the background behind the characters. These trees are depicted as part of the environment, adding depth and context to the space in which the activity is taking place.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are both individuals wearing casual, non-sport-specific clothing (e.g., white shirts and jeans)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The individuals in Image B are depicted wearing casual outfits, including white shirts and dark pants, suitable for everyday outdoor activity. The attire lacks any identifiable elements of specialized sports apparel, indicating casual wear commonly seen in non-sport-specific scenarios.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.75
+}

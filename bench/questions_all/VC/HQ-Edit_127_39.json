@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The four-legged base forming an archway is the most defining architectural feature of the Eiffel Tower. Its presence and shape are essential for identification. Even if transformed into a cybernetic figure, the silhouette must retain this arch structure to maintain the tower's identity. Losing this would make the object unrecognizable as the Eiffel Tower. Hence, it is a core identity element with a weight of 3 points.",
+      "question": "Is the four-legged base of the Eiffel Tower with a central archway present and clearly visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The classical building visible through the central archway is a real-world landmark detail (likely the Palais de Chaillot). It provides spatial context and confirms the location as Paris. Removing or distorting it would break the logical continuity of the scene. This is a key environmental anchor, so it must be preserved. Weight assigned as 2 points because it supports authenticity but is less critical than the tower itself.",
+      "question": "Is the classical-style building visible through the central arch of the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The symmetrical rows of trimmed hedges on both sides of the foreground are distinctive landscape features of the Champ de Mars. They provide visual balance and grounding to the composition. Their retention ensures environmental consistency. While lighting might be enhanced, their shape and placement must remain unchanged. This is an important scene element, hence weight of 2 points.",
+      "question": "Are the symmetrical rows of trimmed green hedges present along both sides of the foreground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The grassy park area with people sitting or walking is essential for scale and realism. It grounds the scene and shows human interaction with the space. Although individuals may be stylized, their presence and activity in the park must be retained to preserve the original setting. This is a minor but meaningful detail affecting coherence, so it receives 1 point.",
+      "question": "Are there people visible sitting or walking on the grassy field in front of the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The sky gradient from deep blue at the top to warm orange near the horizon is a key atmospheric feature of the original image, suggesting time of day (dawn/dusk). It contributes to mood and lighting consistency. Since the instruction does not mention altering the sky, it should remain unchanged. This is a background detail crucial for visual harmony, so it gets 1 point.",
+      "question": "Is the sky gradient transitioning from deep blue at the top to orange near the horizon present?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The embedded ground lights in the hedges are small but distinct visual markers. They contribute to the nighttime ambiance and are part of the original scene design. While the instruction allows for new lighting effects (e.g., holograms), these existing lights should remain to maintain fidelity to the original environment. This is a minor detail, so it receives 1 point.",
+      "question": "Are the embedded lights illuminating the hedges visible as glowing spots?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

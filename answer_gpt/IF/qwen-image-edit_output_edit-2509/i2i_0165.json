@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0165",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the refrigerator's brand logo been changed to \"Xu's Fresh Zone\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the area where a brand logo typically resides shows the text 'Xu's Fresh Zone'. Since this is a prominent placement for a brand logo on a refrigerator, common sense infers this represents a brand logo change. The visual cues support the reasoning that 'Xu's Fresh Zone' is now the brand indicator.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a custom label with the user’s name added on the top shelf?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the areas analyzed do not show a specific label with a user's name on the top shelf. The space above the top shelf is commonly used for brand names or slogans rather than personal labels, contributing to the inference that there isn't a separate label with a user's name present.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Have any additional parts of the refrigerator's design or logo been altered besides changing the brand logo?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Focusing on Image B, aside from the clear brand logo change to 'Xu's Fresh Zone', no other parts of the refrigerator's design or logos show evidence of alteration. The visual consistency across other sections compared to expectations based on common product designs further supports that this is the sole alteration.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the new \"Xu's Fresh Zone\" text clear and legible on the refrigerator?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the text 'Xu's Fresh Zone' prominently placed where the brand name is expected, and it appears with good contrast, making it easily readable. Common knowledge on text legibility supports that its placement and clarity are appropriate for identifying the brand.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the custom label with the user’s name placed exclusively on the top shelf of the refrigerator?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B reveals only the 'Xu's Fresh Zone' text above the shelving. Since this text is considered a replacement of brand-centric information rather than personal labeling, no other user-specific name or label is observed on the shelf itself, suggesting no exclusivity of user labeling on the top shelf.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

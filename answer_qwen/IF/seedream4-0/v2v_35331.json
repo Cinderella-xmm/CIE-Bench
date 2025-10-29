@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_35331",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the dog and banana appear as a single unified form?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the dog is entirely yellow, matching the color of the banana, and both objects are placed closely together on the grass. However, the dog retains distinct features such as its shape, ears, eyes, and fur texture, which are clearly separate from the banana. The banana is a separate object with a natural curvature and surface texture, and there is no visual fusion or merging between the two. They are positioned side by side but remain independent entities. Therefore, despite their similar colors, they do not appear as a single unified form.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the blended form retain a realistic appearance without obvious signs of manipulation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The dog in Image B appears to be made of a plastic or rubber-like material, indicated by its uniform yellow color, lack of natural fur texture, and artificial-looking surface. This contrasts with the realistic appearance of a real dog. Additionally, the banana is perfectly shaped and smooth, typical of a digitally rendered or idealized version. The combination of these elements suggests digital manipulation. The dog's unnatural yellow hue and glossy finish, along with the banana's perfect form, indicate that this image has been edited to create a surreal or humorous effect rather than maintaining realism. Thus, the overall appearance is not realistic and shows clear signs of manipulation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the transition between the dog and banana smooth and seamless?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The transition between the dog and the banana in Image B is not smooth or seamless. There is a clear gap between the two objects, and they are positioned separately on the grass. The dog’s body ends at a defined edge, and the banana begins at a distinct point nearby. There is no blending or merging of textures, colors, or forms between them. Even though both are yellow, the difference in surface texture (the dog’s matte, slightly ridged skin vs. the banana’s smooth peel) makes the separation evident. Hence, the transition is abrupt and lacks continuity.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the proportions and scale of the blended form consistent and realistic?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The proportions and scale of the dog and banana in Image B are inconsistent with reality. The banana is large enough to be comparable in size to the dog, which is exaggerated for comedic effect. In reality, a banana would be much smaller relative to a chihuahua. While the dog’s size is plausible, the banana appears disproportionately large, suggesting intentional scaling for visual impact. Furthermore, the dog itself is not anatomically accurate—it has a toy-like, stylized appearance with exaggerated features like large eyes and a simplified body structure. These distortions make the overall composition unrealistic in terms of proportion and scale.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the lighting and shadows on the blended form match the original lighting conditions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The lighting and shadows in Image B appear consistent with outdoor daylight, as both the dog and banana cast soft shadows on the grass, indicating a light source from above. The highlights on the banana’s curved surface and the subtle shading on the dog’s body suggest directional lighting, likely natural sunlight. However, the dog’s surface reflects light uniformly, lacking the depth and variation seen in real fur or skin, which hints at artificial rendering. Despite this, the shadows under both objects align with the expected direction of sunlight, and there is no evidence of conflicting lighting angles. Therefore, while the lighting is generally consistent with outdoor conditions, the artificial nature of the dog’s texture introduces some inconsistency in how light interacts with it.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.2
+}

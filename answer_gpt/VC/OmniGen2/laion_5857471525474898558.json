@@ -1,0 +1,84 @@
+{
+  "filename": "laion_5857471525474898558",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the windows aligned vertically in the same columns across all floors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the LEGO building structure has a consistent alignment pattern typical of modular constructions, where windows are aligned vertically in the same columns across all floors. This is further evidenced by the blocky and regular design inherent to LEGO constructions, which emulate real building standards in window placement for structural integrity and aesthetic uniformity.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a red door located on the left side of the ground floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lower part of the LEGO structure does not include any discernible doors. The image focuses on the facade, displaying windows and balconies, typical elements of a complete LEGO building model. Given the scale and style of LEGO structures, when the building's facade is visible, doors typically are too, but none appear in red on the left side.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a dark-colored door located on the right side of the ground floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the LEGO representation of a building (Image B), no actual doors are visible, including one on the right side with a dark color. The image mainly depicts a facade with windows and balconies, with any ground floor elements like doors not accurately rendered in terms of color or typical door features.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the climbing plant cover the central vertical strip of the building, spanning from near the ground floor up to the third floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, LEGO's distinct style makes it challenging to replicate natural features like climbing plants which cover large areas because of the brick form of LEGO pieces. The green blocks in the image do suggest vertical coverage but do not convey a natural climbing plant over several floors as in normal building facades.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a red rectangular outline enclosing a section of the building that includes three stacked windows and a balcony?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not feature any such outline on the building's facade. The design in LEGO does not incorporate digital or painted overlays typical of real-life architectural features or edited photographs, thus lacking the red rectangle seen in altered photographic imagery.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the balconies located directly outside specific windows on the second, third, and fourth floors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, LEGO's design aligns balconies logically with specific window placements to simulate real architectural arrangements. This emulation follows traditional building patterns where balconies are structurally placed directly outside windows across the second, third, and fourth floors, as depicted in this model.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4666666666666667
+}

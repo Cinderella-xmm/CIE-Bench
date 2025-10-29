@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0125",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the word \"Fresh\" located at the bottom left of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the word 'Fresh' is visually perceived to be located at the bottom left of the image. This conclusion is drawn by analyzing the spatial arrangement of the text relative to the apples and the edge of the image. The word is positioned horizontally, away from the top and more closely towards the bottom left, which is a common layout choice for text placement.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the word \"Sweet\" located at the top right of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no visible text 'Sweet' located at the top right. The only observed text is 'Fresh' located both at the top right and bottom left, suggesting that 'Sweet' is not present in the image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the words \"Fresh\" and \"Sweet\" presented in a minimalist style suitable for a fruit brand poster?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the context of Image B, we observe the word 'Fresh,' which is styled in a bold, black font. This type of presentation aligns with a minimalist style in design due to the clarity and simplicity it presents. However, since there is no 'Sweet' present in the image, the analysis is limited to 'Fresh,' which implies the presentation could still be fitting for promotional material due to its impactful yet uncomplicated design.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have the original visual elements, such as the apples and their setting, remained unchanged apart from the added text?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In analyzing Image A, the apples and their setting are highlighted by natural lighting on a wooden surface. Comparing this to Image B, the apples and background appear largely untouched besides the addition of text, maintaining the visual integrity and original composition in both images.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any additional changes besides the addition of the words \"Fresh\" and \"Sweet\" in the specified locations?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "By examining both images, Image A serves as a baseline with its unaltered visual elements. In Image B, no 'Sweet' text appears, and only 'Fresh' is seen twice. Upon reviewing other aspects such as lighting, arrangement, or background, no further edits or alterations are observed beyond the inclusion of the text 'Fresh.'",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

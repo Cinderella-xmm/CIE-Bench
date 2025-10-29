@@ -1,0 +1,84 @@
+{
+  "filename": "laion_1853743472720219502",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the wooden surface with visible grain patterns and warm brown tones present and unaltered in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the edited image, the wooden surface is present but has undergone significant color transformation. The original warm brown tones and natural grain patterns seen in Image A are now altered to accommodate the fiery and bright color scheme. The surface does not retain its original warm brown tones. Instead, it has a less natural and more vibrant look, indicating it has been altered.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the two feather pendants positioned such that one is in the foreground and the other is partially overlapped behind it, maintaining the original diagonal alignment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, although the color and design have drastically changed, the positioning and overlap of the two pendants remain consistent with Image A, where one pendant is in the foreground and partially covers another behind it. Their diagonal alignment is maintained.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the pendants cast soft, consistent shadows beneath them on the wooden surface, indicating overhead lighting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting and color scheme are highly stylized and do not mimic the natural shadows observed in Image A. The dynamic colors and glowing effects overshadow any natural shadowing that might exist, hence leaving little room for soft, consistent shadows that indicate overhead lighting.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the pendants aligned diagonally across the frame, extending from the lower-left toward the upper-right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both Image A and Image B, the pendants are arranged diagonally from the lower-left to the upper-right of the frame. Despite the stylistic changes in Image B, this basic orientation and alignment of the pendants have been preserved.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the wooden surface retain its natural grain texture, including variations in tone and minor imperfections, without digital smoothing or enhancement?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, although the wooden surface is visible, the heavy color editing and stylized effects give it an enhanced look. The texture does not appear as natural and the variations are less noticeable, indicating some smoothed or digitally enhanced appearance as compared to its natural look in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the edge of the leather feather clearly defined against the wooden surface, showing a slight separation and shadow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the edges of the feathers are not clearly defined with shadows due to the intense color transformation and glowing effects. The distinction and slight separation observed in Image A are not evident in this edited version.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4166666666666667
+}

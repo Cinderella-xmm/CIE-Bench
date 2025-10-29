@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The dynamic pose of each figure — particularly the raised arm holding the axe overhead — is explicitly stated in the instruction to be maintained (\"maintaining the figures' dynamic poses\"). This pose is central to the visual identity of the action depicted. If the arm is lowered or repositioned, the intended motion and energy of the figure are lost, undermining the original narrative. Thus, preserving the exact spatial orientation of limbs and body is essential for consistency.",
+      "question": "Is the figure in the top-right corner still shown with its right arm raised high, holding a weapon aloft?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The hand-to-weapon interaction is a functional element — each figure grips a weapon, which defines their role and action. Even if the weapon becomes a fish fin or tail, the hand must still appear to hold it. Losing this grip would break the logic of the figure’s action. The instruction does not allow removal of weapons, only transformation, so the grip must remain visually present.",
+      "question": "Does the figure in the bottom-left corner still show a hand gripping a curved blade in its right hand?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The kneeling posture of the bottom-left figure is a defining characteristic of its action — it conveys defense or attack from a low stance. The angle of the knee, the bent leg, and the forward lean must be preserved to maintain the original dynamic. Changing this would alter the perceived movement and intent.",
+      "question": "Is the figure in the bottom-left corner still in a kneeling position with one knee on the ground and the other leg bent forward?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The direction of the head and gaze contributes to the emotional expression and focus of each figure. For example, the snarling mouth and forward-facing head suggest aggression. While facial features may be simplified in plush form, the general orientation of the head must remain consistent to preserve the sense of engagement and intent.",
+      "question": "Does the figure in the top-left corner still face slightly to the left with its head turned toward the viewer?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The presence of a weapon in each figure’s hand is a key functional element. The instruction states \"transform\" rather than \"remove,\" so weapons must still be present, even if reimagined. The bottom-right figure holds a long spear-like object; this must remain visible as a weapon held vertically, even if reshaped into a fish tail or fin.",
+      "question": "Does the figure in the bottom-right corner still hold a long, vertical weapon in its right hand?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The relative spacing between figures is not explicitly required to be preserved, but their individual poses are. However, the instruction says \"creatively arranged,\" implying that layout may change. But the internal structure of each figure — such as the position of the left leg in the top-right figure — must stay consistent. This leg is bent backward, contributing to the charging stance. Altering it would change the pose.",
+      "question": "Is the left leg of the top-right figure still bent backward, supporting a forward lunge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The skull pendant around the neck is a distinctive accessory, though not central to the pose. Since the instruction does not mention removing it, and it is a unique visual element, it may be retained as a minor detail. However, since the transformation is into plush fish, it might be omitted. But to ensure fidelity, its presence should be checked. It is not a core identity element, but its absence would slightly reduce visual accuracy.",
+      "question": "Is there a skull-shaped pendant visible around the neck of the bottom-right figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

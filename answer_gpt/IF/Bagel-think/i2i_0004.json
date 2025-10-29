@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0004",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the head been slightly enlarged compared to the original body proportion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the head is noticeably larger relative to the body, which is a common characteristic in cartoon or caricature representations where exaggerated proportions are used. This enlargement contrasts with the original body proportion typically found in realistic images such as Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Has the body been cartoonified with flattened colors and simple shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a body with simplified features and shapes, such as a uniformly colored suit with minimal detail, characteristic of cartoonified designs. This style contrasts with the more detailed and naturalistic depiction in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the edited subject placed against a background resembling a bookshelf?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays a background with stacked rows of books and a decorative item, consistent with a typical bookshelf setup. This matches the outlined regions of shelves and books seen commonly in libraries or studies.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the facial features such as the eyes, smile, and proportions accurately maintained after enlarging the head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Even though the face is blurred in Image B, general knowledge of cartoonification suggests that facial features are often exaggerated or stylized, potentially lacking accurate maintenance of realistic proportions following enlargement.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the cartoonified body appear separate from and non-intrusive to the realistic face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Due to the cartoonified nature of the body, it is common for the integration with a realistic face to feel incongruent. The simplified body in Image B likely appears separate and dominant in terms of style, not blending seamlessly with realistic facial features.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

@@ -1,0 +1,58 @@
+{
+  "filename": "i2i_0143",
+  "questions": [
+    {
+      "question_id": "Q2",
+      "question": "Is the parking meter still in the foreground, maintaining its original position relative to the new background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the parking meter is prominently positioned in the foreground, similar to its position in Image A. In both images, the parking meter is centrally located and dominates the viewer's attention, making it clear that the parking meter's position relative to the viewer remains consistent. The new background in Image B—a desert highway—doesn't affect the meter's foreground placement.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there visible effects of heat haze, such as blurring and shimmering around the parking meter and the surrounding area?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Heat haze is often characterized by visual distortions like blurring and shimmering, typically occurring in hot environments such as deserts. In Image B, while the desert setting implies high temperatures, there are no visible cues of heat haze around the parking meter or surrounding area. The parking meter, as well as the road and vegetation in the background, appear sharp and without distortion.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the parking meter standing alone without any nearby objects or irrelevant elements in the new desert highway setting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the parking meter appears to be isolated without any nearby objects; the background is a vast desert highway with open space and sparse vegetation. There are no signs of other objects or entities in close proximity to the parking meter, enhancing the sense of its solitude in the setting.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the desert highway include sand and sparse vegetation in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background of Image B depicts a typical desert environment featuring an asphalt road running through a landscape of sand and scattered vegetation. Sparse vegetation is often visible in such settings, and the background in Image B supports this with visible patches of vegetation breaking up the expanses of sand.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.75
+}

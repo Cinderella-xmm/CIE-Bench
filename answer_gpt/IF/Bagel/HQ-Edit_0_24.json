@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_0_24",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the flowers in the image rendered with visibly higher color saturation compared to the original?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the flowers maintain vibrant and varied colors, which are consistent with the hues seen in Image A. The saturation level does not appear to have been increased, retaining its original vibrancy. Given the absence of added brightness or intensified colors, the saturation in Image B matches that of Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the gardening tools (shovel and watering can) appear to have an antique, metallic finish with signs of aging such as tarnish or patina?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The gardening tools in Image B, including the shovel and watering can, maintain a clean and shiny appearance without any visible signs of aging such as tarnish or patina. The metallic surfaces are depicted as polished and new, demonstrating a neat, well-maintained condition as opposed to an antique finish.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a faint, decorative vine pattern overlaid on the background of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B incorporates various decorative vine patterns along the edges, particularly prominent in the calendar format surrounding the central picture. These patterns compose a decorative element, contributing to the overall aesthetic without being faint. The central image itself does not feature any overlay of vine patterns directly; they are part of the calendar's frame.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a blank rectangular header space at the top of the image intended for monthly details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a header space above the calendar area where decorative motifs and the title 'WMEDAFER' are displayed. However, it is not intended for monthly details as it contains specific text and design. The calendar details are positioned below the central image, not in the form of a blank rectangular header.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the blank header framed by an ornate, decorative border composed of leafy or floral patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B includes ornate, decorative borders surrounding the calendar, featuring leafy and floral patterns. However, the header is not blank and the decorations are not contained within a header space but rather around the entire calendar design. These borders provide visual embellishment to the calendar structure.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

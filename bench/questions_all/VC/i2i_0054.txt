@@ -1,0 +1,62 @@
+Description of reference image: The subject is a young elephant standing near water, shown in profile view facing right. The elephant has a wrinkled gray hide, small ears, and a curved trunk. It appears to be standing on a rock edge with its front leg slightly raised, surrounded by other elephants partially visible in the background. The background contains water with a earthy brown tone.
+
+Thinking process:
+Analyzing the editing instructions, we see that the primary focus is changing the background to a matte solid gray, eliminating shadows while retaining a minimalistic design. This implies the elephant and its posture remain the central subject. The instructions do not mention altering the elephant’s appearance, position, or posture, indicating these aspects should stay intact. 
+
+### Allowed Changes List:
+1. Change the background from a natural setting to a matte solid gray.
+2. Remove all shadows present in the original image.
+
+### Preservation Targets List:
+1. The detailed textures of the elephant's wrinkled skin.
+2. The elephant's posture, including the raised front leg and curved trunk.
+3. The elephant's proportions, including its ears and trunk shape.
+4. The elephant's relative position on the rock edge.
+5. The overall profile orientation of the elephant.
+
+### Question Generation:
+
+{
+    Q1:
+    Thinking process: The texture of the elephant's wrinkled skin is a core element of its identity. Without this distinctive texture, the elephant would lose its realistic and recognizable appearance.
+    Question: Is the detailed texture of the elephant's skin, showing wrinkles and creases, preserved in the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2:
+    Thinking process: The posture of the elephant, particularly its raised front leg and curved trunk, is crucial for conveying its action and natural behavior. Changing this would alter the dynamic captured in the image.
+    Question: Is the elephant's posture, including the raised front leg and curved trunk, retained in the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3:
+    Thinking process: The proportions of the elephant's features, such as the size and shape of its ears and trunk, are essential for recognizing it as a young elephant. Modifications here could lead to misinterpretation of the animal.
+    Question: Are the proportions of the elephant's ears and trunk, consistent with its young age, maintained in the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4:
+    Thinking process: The relative positioning of the elephant on the rock edge provides context for understanding its interaction with the environment. This spatial relationship helps maintain visual coherence.
+    Question: Is the elephant positioned on the rock edge, with its legs and trunk maintaining their relative placement to the rock surface?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5:
+    Thinking process: The profile orientation of the elephant facing right is an integral aspect of the composition. Altering this would significantly impact the viewer's perception of the image.
+    Question: Does the elephant face towards the right side of the image, preserving its profile orientation?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

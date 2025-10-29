@@ -1,0 +1,84 @@
+{
+  "filename": "laion_5097728209000204422",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the rectangular-framed glasses present on the subject's face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject's face is not visible, preventing identification of any glasses. In analyzing the rest of the image, there's no visual indication of any glasses present in the surroundings or on other elements. Given that glasses are typically worn on the face and since the face isn't visible, it's reasonable to conclude that we cannot determine the presence of glasses in the edited image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the gray and white beard and mustache present on the subject's face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a blurred face, making it impossible to discern any facial features such as a beard or mustache. Therefore, it is not possible to confirm the presence of a gray and white beard and mustache.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the graying hair visible on the top and sides of the subject's head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on Image B, the subject is depicted with a ruffled hairstyle characteristic of Renaissance portraits, which is part of an artistic rendering rather than a regular depiction of gray hair. The artistic style suggests an incomplete representation of the hair's texture and color as in a real photograph.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is a ring visible on the ring finger of the subject's left hand?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject’s hand is visible holding a sword, and no rings are depicted on the fingers. This suggests a context more akin to historical portrayals where jewelry like wedding rings is not a focus.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the hands of the subject visible with natural skin tone and proportion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the hands are painted in a stylized fashion consistent with historical portraits. The color appears artificial and the proportions are artistic rather than natural, fitting an artistic styling of nobility or historical figures.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the facial structure, including the nose, jawline, and eye spacing, consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Given that the face in Image B is blurred, it's impractical to assess specific facial features such as nose or jawline structure. The absence of discernible features makes it impossible to compare the facial structure between the two images.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.0
+}

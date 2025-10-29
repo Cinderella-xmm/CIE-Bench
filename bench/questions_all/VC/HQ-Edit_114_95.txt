@@ -1,0 +1,118 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is the Eiffel Tower, centrally positioned in the frame, viewed from a low-angle perspective along a wide, straight avenue leading directly to its base. The tower's iconic wrought-iron lattice structure is clearly visible, with its three-tiered form, intricate cross-bracing, and pointed spire at the top. The coloration is dark metallic gray, consistent with the actual iron construction. The surrounding environment includes symmetrical rows of green trees lining the avenue, streetlights on both sides, a few vehicles moving along the road, and a distant Parisian skyline with low-rise buildings and a few modern high-rises. The sky is overcast with heavy, dark gray clouds, creating a moody atmosphere. The ground appears wet, suggesting recent rain, and the lighting is diffuse, with no strong shadows.
+
+Thinking process:  
+The editing instruction explicitly states: *"Transform the Eiffel Tower into a high-end perfume bottle design."* This indicates that the **form and structure of the Eiffel Tower itself are to be fundamentally altered**—its physical identity as a tower is being replaced by a new object (a perfume bottle). However, the instruction does **not** mention changing the surrounding environment, such as the avenue, trees, streetlights, or cityscape. It also does **not** state that these elements should be removed or reimagined. Therefore, the **scene context must be preserved**, including the layout of the road, the positioning of trees and lights, and the general urban setting.
+
+Further breakdown of the instruction:
+- "Convert the tower's structure into a sleek glass silhouette" → **Structure of the tower changes**.
+- "Delicately embossed patterns resembling the tower's lattice" → **Pattern inspired by original lattice is allowed**, but not the actual material or form.
+- "Add a gold-plated base as the bottle's foundation" → **Base is modified**.
+- "Incorporate a subtle Parisian skyline motif along the glass" → **Skyline motif added to bottle**, but **original skyline remains in background**.
+- "Design a modern, minimalist logo at the bottle's neck" → **New element added to bottle**, not affecting scene.
+
+Thus, only the **Eiffel Tower’s physical form** is to be changed; all other visual components of the scene are **not mentioned for modification** and therefore **must remain unchanged** unless logically dependent on the transformation.
+
+Allowed Changes List:
+- The structural form of the Eiffel Tower (from iron lattice tower to glass perfume bottle)
+- The material of the tower (from metal to glass)
+- The addition of embossed patterns resembling the lattice
+- The addition of a gold-plated base
+- The inclusion of a Parisian skyline motif on the bottle surface
+- The addition of a minimalist logo at the neck of the bottle
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements: The Eiffel Tower is a globally recognized landmark. Its **iconic silhouette**, especially the **three-tiered lattice structure**, **pointed spire**, and **arched base**, are essential for identification. However, since the instruction explicitly transforms it into a perfume bottle, the **actual shape and function** of the tower are to be replaced. But this transformation must still **reference** the original form. Therefore, while the **material and structure change**, the **overall silhouette and key architectural features** (e.g., the arch at the base, the tapering upward form) may be retained in stylized form within the bottle design.
+
+However, the **instructions do not require retention of the tower's original form**, so we cannot assume it must remain. Instead, we focus on **non-subject elements** that are not mentioned for change.
+
+Functional/logical association elements: The **avenue leading directly to the tower** forms a logical spatial relationship—this alignment creates depth and perspective. If the road were moved or distorted, the sense of place would be lost. Since the instruction does not mention altering the road, it must remain intact.
+
+Non-modified element deduction: The following elements are **not mentioned** in the editing instructions and are **not part of the transformation**, so they must be preserved:
+- The symmetrical avenue leading to the tower
+- The rows of trees on either side of the road
+- The streetlights and their positions
+- The wet pavement and reflections
+- The overcast sky and cloud formations
+- The distant Parisian skyline with identifiable buildings
+- The cars and bus on the road
+- The overall composition and perspective (central vanishing point)
+
+These elements define the **scene context** and provide **spatial coherence**. Changing them would result in an inconsistent or disorienting image, even if the tower is transformed.
+
+Preservation Targets List:
+- The wide, straight avenue leading directly to the tower’s base
+- The symmetrical rows of green trees lining both sides of the avenue
+- The placement and design of streetlights along the road
+- The wet asphalt surface with visible reflections
+- The overcast sky with dark, layered clouds
+- The distant Parisian skyline, including recognizable rooftops and modern skyscrapers
+- The presence and position of vehicles on the road
+- The central perspective and vanishing point aligned with the tower
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The wide, straight avenue leading directly to the Eiffel Tower is a core compositional element that defines the spatial relationship between the viewer and the monument. It is essential for maintaining the sense of scale and direction. Its removal or distortion would break the visual logic of the scene. Since the instruction does not mention modifying the road, it must remain unchanged. This is a key structural element of the scene, critical for spatial consistency.
+    Question: Is the wide, straight avenue leading directly toward the base of the Eiffel Tower preserved in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The symmetrical rows of green trees flanking the avenue are visually distinctive and contribute to the formal balance of the scene. They are not referenced in the editing instruction, meaning they are not intended to be altered. Their absence or misplacement would disrupt the symmetry and realism of the setting. These trees are important environmental markers that anchor the scene in real-world Paris.
+    Question: Are the symmetrical rows of green trees lining both sides of the avenue preserved in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q3: 
+    Thinking process: The streetlights along the avenue are functional and aesthetic elements that contribute to the nighttime ambiance and guide the viewer’s eye. They are positioned regularly and are visible in the original image. Since the instruction does not mention altering them, they must remain. Their presence ensures continuity in the urban environment.
+    Question: Are the streetlights positioned along the sides of the avenue preserved in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The wet pavement with visible reflections indicates recent rain and adds atmospheric depth. This detail enhances realism and mood. It is not mentioned in the editing instruction, so it must remain. Losing this would reduce the environmental authenticity and alter the lighting dynamics of the scene.
+    Question: Is the wet asphalt surface with visible reflections preserved in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q5: 
+    Thinking process: The overcast sky with dark, layered clouds is a dominant feature of the image’s mood and lighting. It contributes to the dramatic atmosphere and affects how light interacts with the scene. Since the instruction does not involve altering the sky, it must remain unchanged. This is a key environmental element that sets the tone.
+    Question: Is the overcast sky with dark, layered clouds preserved in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The distant Parisian skyline, including low-rise buildings and modern skyscrapers, provides geographical context and confirms the location as Paris. It is not mentioned in the editing instruction, so it must remain. Altering or removing it would make the setting ambiguous or incorrect.
+    Question: Is the distant Parisian skyline with identifiable rooftops and modern high-rises preserved in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The presence of vehicles on the road, including cars and a bus, adds life and scale to the scene. They are not referenced in the editing instruction, so they must remain. Their absence would make the scene feel empty or unreal.
+    Question: Are the vehicles, including cars and a bus, visible on the road in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

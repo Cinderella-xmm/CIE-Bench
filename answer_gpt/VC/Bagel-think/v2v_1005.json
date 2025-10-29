@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1005",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the facial features and accessories (hats, glasses) precisely detailed and recognizable?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the facial features and accessories like hats are simplified and lack precise details, resembling a stylized or cartoonish representation. The hats are simplified and any potential glasses are not visible, which reflects a less detailed depiction when compared to realistic images. Thus, the detail is not as high as on a real person or photograph.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the distinct colors and styles of the winter jackets (blue, yellow, green) retained?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the colors of the jackets are clearly blue, yellow, and what might resemble green despite its similar shade to yellow. This indicates that the distinct color style of the jackets from Image A is largely retained, at least in terms of identifiable colors, even though the styling may appear more uniform due to the simplified artistic style.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the individuals positioned in front of the log cabin, maintaining the original spatial relationship?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both Image A and Image B, the individuals are standing in front of a log cabin with the same spatial arrangement visible. The positioning relative to each other and the cabin behind them indicates retention of the original spatial relationship, even though the editing stylizes the figures.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the ski poles still present and held by the individuals?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the individuals are holding ski poles in a similar stance and position as in Image A. This consistency indicates that the ski poles are retained in the edited image, maintaining one of the key elements from the original.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the rustic texture of the log cabin retained, even though its scale may be reduced?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The cabin in Image B maintains a wood texture appearance, consistent with a rustic log cabin. Despite the edited image being stylized, the essence of a log cabin is kept similar to that in Image A, suggesting that the rustic texture is retained.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7
+}

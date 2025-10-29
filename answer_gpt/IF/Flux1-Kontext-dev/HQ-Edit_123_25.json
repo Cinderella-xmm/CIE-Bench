@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_123_25",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly three distinct postcards visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, we observe a layout featuring items resembling postcards or decorative cards. There are indeed three visually distinct cards in this setup. Each card displays unique embroidery designs similar to those on the person's garment. By counting these, it is evident that there are three. Thus, the answer is derived from the physical count of distinct objects that match the description of postcards.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is one of the postcards rendered with a blue gradient that emphasizes the embroidered dress?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, one of the postcards is seen with a blue-colored background which complements the embroidery on the dress. The postcard seems to be designed with an emphasis on the similarly colored embroidery on the dress, suggesting a thematic match. The process involves matching the postcard's color tones with those on the dress and recognizing the visual design logic of emphasizing matching themes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is one of the postcards rendered in silver tones, specifically emphasizing the hair accessory?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, none of the visible postcards exhibit purely silver tones that match the hair accessory. The postcards primarily feature designs in blue and yellow tones with embroidery design emphases, not in silver. The reasoning involves identifying color tones on the cards and comparing them with the visual characteristics of the accessories.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does one of the postcards incorporate stylized bamboo patterns as a dominant visual element?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, none of the postcards prominently display bamboo patterns. The design motifs on the postcards appear more centered around floral and foliage elements similar to those on the dress rather than explicitly depicting bamboo. The analysis involves recognizing the design motifs and comparing them against typical bamboo representations.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the entire set of postcards presented within a silk-bound book whose cover features an embroidery-inspired design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the postcards are not presented within a silk-bound book; they appear to be placed directly alongside each other in a spread-out manner with a frame-like border instead of being bound. While each card displays embroidered designs, there is no evidence of a book format in the presentation. This analysis requires interpreting the layout design and its characteristics to determine if a book format is used.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Do the floral and scroll motifs on the garment exhibit stylized paper-cut effects such as sharp edges, layered appearance, and high contrast?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the floral and scroll motifs on the garment are visually distinct with defined edges, but they do not exhibit the sharpness, layering, or high contrast typical of stylized paper-cut effects. The motifs appear more as embroidery with smooth transition and texture typical of fabric art. This understanding comes from analyzing the texture and style of the motifs in the image and comparing them to traditional paper-cut characteristics.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

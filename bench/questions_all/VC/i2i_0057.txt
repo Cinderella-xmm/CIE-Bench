@@ -1,0 +1,64 @@
+Description of reference image: The image shows a cow crossing a rural road in a serene natural setting. The cow is positioned slightly off-center, facing towards the left side of the frame. Its body is oriented sideways, showing its full profile as it walks across the path. The surrounding area consists of lush green grass, tall trees providing shade, and a rustic fence delineating the field boundary. The backdrop is a mix of vibrant foliage and soft light filtering through the trees, creating a peaceful countryside ambiance.
+
+### Step 1 - Analyze Allowed Changes
+**Allowed Changes List:**
+- The central subject, initially a cow, can be replaced with a biomechanical horse robot, with specified design features (silver-white metallic shell, exposed joint mechanisms, glowing red sensor eyes).
+- The posture of the subject remains grazing or moving in the same way as the cow originally was.
+  
+### Step 2 - Determine Elements That Should Remain Unchanged
+**Thinking Process:**
+- **Core Recognition Elements:** The scene’s rural setting is fundamental. Key features include the road, grassy field, fence, and trees must remain consistent. Changing this would lose the context.
+- **Functional/Logical Association Elements:** The relative position of the cow (now biomechanical horse) to the road and environment must stay intact to maintain logical coherence.
+- **Non-modified Element Deduction:** Details like the lighting, shadows, and natural textures of the environment should be preserved for visual consistency.
+
+**Preservation Targets List:**
+- Position of the subject over the road
+- Road surface and its direction
+- Grass, fence, and tree positions
+- Overall lighting and shadow play
+
+### Step 3 - Generate Questions Focused on Retained Elements
+{
+    Q1: 
+    Thinking process: The road serves as a central element for both the cow and the biomechanical horse robot; its position and continuity are critical for maintaining the scene's identity.
+    Question: Is the road still present in the image, with the same pathway direction and surface characteristics?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The fence forms a structural element that separates the field from the road, preserving spatial relationships. Its position and integrity should be retained.
+    Question: Is the rustic fence still correctly positioned along the edge of the field, dividing it from the road?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: Trees provide depth and context, contributing significantly to the rural setting. Their locations and general shapes enhance believability.
+    Question: Are the trees still present in their respective places, maintaining the natural backdrop of the scene?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The lighting and shadow define the time of day and atmospheric conditions. Consistency ensures visual harmony.
+    Question: Does the lighting remain consistent, with similar shadows cast on the road and grass as in the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The grassy field adds texture and a natural feel to the image. Its presence and condition support the rural aesthetic.
+    Question: Is the grassy field still visible, with its lush texture and coverage around the road and fence?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

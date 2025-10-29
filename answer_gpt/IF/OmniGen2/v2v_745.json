@@ -1,0 +1,123 @@
+{
+  "filename": "v2v_745",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the backgrounds of all stickers transparent?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image shows stickers with a visible white border and an opaque background, indicating that the backgrounds are not transparent. Stickers typically have clear boundaries, and the presence of a white border confirms this non-transparent design.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the stickers arranged in a 3x3 grid?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image displays four rows of stickers, but the question specifically asks if they form a 3x3 grid. Upon analysis, it’s clear there are more than 3 stickers per row, thus exceeding the 3x3 grid format.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do all stickers have a square 1:1 aspect ratio?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The stickers have a contour that outlines the chibi character rather than a square shape. While they all have uniform borders, their shape is not confined to a square aspect ratio, as the character outlines are rounded.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do all stickers uniformly depict a Chibi-style aesthetic reminiscent of Ghibli with lively and bold colors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "All stickers feature a Chibi-style characterized by exaggerated proportions and youthful features, akin to illustrations found in anime like Ghibli. The colors used are vivid, supporting the lively and bold color scheme typical in such art styles.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does each sticker portray a distinct travel-related action, emotion, or theme?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The stickers show characters holding travel items such as backpacks or devices, which is indicative of travel-related themes. While actions and emotions are subtle, the overall theme of the stickers aligns with travel-related elements.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are all characters in the stickers fully depicted without any missing features?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Each sticker character in the image is fully depicted with no missing features. All essential parts of the Chibi characters such as limbs, facial features, and accessories are present.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is there a consistent white border around each sticker?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing the image, each sticker has a distinct and consistent white border, which is common for stickers to separate the design from the surface they are applied to.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q8",
+      "question": "Are there any disconnected or unrelated elements within the stickers?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "The stickers maintain a cohesive theme, with each character interacting with travel-related items in a consistent art style. There are no noticeable elements that appear disconnected or unrelated.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q9",
+      "question": "Are there any texts in the stickers, or if present, are they entirely accurate?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "The image includes text at the top that appears garbled and nonsensical ('SETRIESS CONFY επικέLΛHc CHERPMERS'), which is not accurate or coherent. This text is not functional within the context of the stickers.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

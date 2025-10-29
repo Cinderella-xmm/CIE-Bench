@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_329",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the original colors of the bicycles preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bicycles are colored red, blue, yellow, and black. Upon analyzing Image A, we find that the bicycles also follow the same color scheme of red, blue, yellow, and black. The visual cues correspond directly with common knowledge of these colors, allowing us to confirm that the colors have been maintained from the original to the edited version.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the original designs and structural details of the bicycles preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows bicycles with simplified design features, lacking intricate structural details such as gear or chain systems. Image A, by contrast, displays more realistic bicycles with complex structural elements. By comparing the two, it is clear that the bicycles in Image B have a more stylized and less detailed design. The reasoning involves recognizing the level of detail typical in realistic objects compared to simplified, artistic representations.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the original arrangement and relative positions of the bicycles preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both Image A and Image B, the bicycles are arranged in a similar linear fashion, with consistent spacing and orientation relative to one another. The arrangement is visually analyzed as consistent across both images based on their closeness to each other and their placement in front of the window. This shows that while the design has changed, the spatial arrangement remains consistent.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the shadows cast by the bicycles and their alignment with the window grid preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B has the bicycles casting shadows that align with the window grid, similar to Image A. Both images show shadows extending onto the floor, reflecting the bicycles and patterns in line with the window's grid. The consistent alignment of shadows indicates that this aspect has been preserved. This observation involves recognizing the relationship between objects, light, and shadows typically found in realistic settings.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the warm, diffused lighting from the window preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B maintains a warm, diffused light filtering through the window, casting the room in a cozy glow. Image A shows a similar warm diffusion of light, creating an inviting atmosphere. Both images depict light that is soft and ambient, typically associated with a warm color palette. The parallels in lighting between both images confirm the preservation of this aspect.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7272727272727273
+}

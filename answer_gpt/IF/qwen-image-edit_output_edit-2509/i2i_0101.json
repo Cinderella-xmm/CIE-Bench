@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0101",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the text \"flyaway\" been added to the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the word 'flyaway' appears prominently below the painting, which was not originally present in Image A. The text is clearly distinguishable and directly contrasts with the rest of the image, making it evident that the text has been added.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the text “flyaway” written in a handwritten font?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text 'flyaway' in Image B appears curvaceous and flowing, indicative of a script or handwritten style font. This style typically mimics the natural variations and personal touch of handwriting.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the text \"flyaway\" located directly below the painting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text 'flyaway' is situated directly below and centered with the painting, aligning with the bottom edge of the artwork. This positioning is clear and designed to catch the viewer's attention.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the text \"flyaway\" complement the scene and contribute to a romantic postcard-style appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text 'flyaway' in its handwritten font paired with the serene landscape painting cultivates a dreamy and whimsical aesthetic that resembles the style of decorative or inspirational postcards, often featuring motivational words or phrases.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any additional elements or changes apart from the handwritten text “flyaway” below the painting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No\n```",
+      "explanation": "The only visible edition when comparing Image A and Image B is the addition of the handwritten 'flyaway' text. No other modifications or elements have been introduced in Image B besides the text addition.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The number \"1423\" is a key identification feature of the train model, uniquely identifying it within the fleet. Its presence is essential for recognizing the specific train. If removed or replaced, the train becomes unidentifiable in terms of operational identity. This is a core identity element, thus weighted at 3 points.",
+      "question": "Is the number \"1423\" clearly visible on the front of the train?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The train's front design—specifically the arrangement of two circular headlights below a central white circular light and the rectangular windshield—is a defining characteristic of its model. This configuration is essential for distinguishing it from other trains. Altering this would misrepresent the vehicle's identity. Thus, it is a core recognition element worth 3 points.",
+      "question": "Does the train have two circular headlights below a central white circular light on its front?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The barn's vertical rows of white-framed windows are a distinctive architectural feature that defines its appearance. Their arrangement and quantity are crucial for visual recognition of the building. Changing this pattern would make the structure unrecognizable. This is an important scene element, hence 3 points.",
+      "question": "Are there multiple vertical rows of white-framed windows on the side of the barn?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The double wooden doors on the barn's facade are a key structural feature, providing access and contributing to its identity as a storage or workshop building. Their presence and position are essential for understanding the building's function. Removal or relocation would disrupt logical coherence. This is a significant architectural detail, so it receives 2 points.",
+      "question": "Are there two large wooden doors centered on the lower part of the barn’s front facade?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The railway tracks must remain continuous and aligned with the train’s motion direction to preserve the scene’s logic. Any deviation would suggest a broken or unrealistic scenario. The curved path leading into the distance is also critical for depth and perspective. This is a core spatial element, hence 3 points.",
+      "question": "Do the railway tracks extend forward from under the train and curve gently to the right into the distance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The \"50\" speed limit sign and the yellow triangular warning sign are functional elements that provide contextual information about the railway environment. Their presence confirms the setting as a regulated rail corridor. Removing them would reduce authenticity and coherence. These are minor but meaningful details, thus 1 point.",
+      "question": "Is the yellow triangular warning sign with a blue border and the \"50\" speed limit sign visible near the track on the left side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The train must remain on the tracks to maintain functional logic. Off-track placement would violate basic physical plausibility and destroy the scene’s integrity. This is a fundamental spatial relationship, so it is a high-weight requirement.",
+      "question": "Is the train positioned directly on the railway tracks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    }
+  ]
+}

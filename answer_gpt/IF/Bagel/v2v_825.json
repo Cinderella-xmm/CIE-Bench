@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_825",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the calendar pages arranged into a tidy pile?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual cue shows a neat stack of calendar pages placed on a desk. The pages are organized such that they form a uniform pile without any spread out or overlapping pages, which signifies tidiness. From common visual understanding, a tidy pile is characterized by the alignment and orderliness of objects within the stack.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the handwritten notes and highlighted dates still present and unchanged?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B reveals that the handwritten note 'Wedding' remains on the October calendar page, marked on the 12th. The date is highlighted in blue, as seen in Image A. In Image A, various notes and highlighted dates across different months are observed. A comparison shows that only one note and its corresponding highlighted date from Image A persist into Image B, while notes from other months are absent.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the calendar pages and desk surface display convincing textures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the desk surface and the texture of the paper have been rendered clearly, providing a sense of realism. The desk has a wood grain texture that is typical for study desks, and the calendar pages appear to be made of standard paper from the visual cue. Recognizable textures contribute to a believable appearance based on typical material characteristics.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there evidence of lighting and shadow depth creating a realistic appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B’s lighting and shadows play a key role in creating depth and realism. The shadows under the stack of pages and the way light falls across the desk enhance the dimensional aspect of the scene. Realistic lighting from an overhead source and resulting subtle shadows are typical in everyday settings, evoking a lifelike presentation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Have the colors and styles of the handwritten notes and highlighted dates been preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B retains the 'Wedding' note in red and the blue highlighted date on October 12, which matches the October page in Image A. However, missing notes and highlights from other months in Image A indicate that not all styles and colors were carried over to Image B. Therefore, only specific notes and highlights were preserved.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

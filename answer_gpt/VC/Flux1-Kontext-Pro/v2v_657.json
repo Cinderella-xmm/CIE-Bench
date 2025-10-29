@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_657",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the skateboarder's black shirt?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the chibi figure is wearing a black shirt. This is clearly visible due to the contrast with the surrounding objects, like the blue pants and the packaging. Given that the original image also depicts the skateboarder in a black shirt, we can confirm that this attribute has been retained.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image retain the skateboarder's blue jeans?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The chibi figure in the edited image is depicted wearing blue jeans, identifiable by their color and jean-like texture. In the original image, the skateboarder is also wearing blue jeans. Therefore, the edited image has retained this aspect of the skateboarder's attire.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain the skateboard and its position relative to the skateboarder?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the skateboard is positioned beside the chibi figure, absent under the chibi's feet, whereas in the original image, the skateboard is directly under the skateboarder's feet, indicating a different positioning. The skateboard has not been retained in the same position as the original.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image retain the skateboarder's dynamic pose?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The original image captures the skateboarder in an expressive action pose that suggests movement. In contrast, the chibi figure in the edited image stands still, lacking the dynamic pose. Thus, the dynamic nature of the pose was not retained in the edited image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image retain the detailed textures and colors of the skateboarder's attire and skateboard?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image's chibi figure lacks the detailed textures and vivid colors observed in the skateboarder's attire and skateboard from the original image. The original image has realistic textures and depth, whereas the edited chibi figure and skateboard have simplified and stylized details. Therefore, the detailed textures and colors have not been retained.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

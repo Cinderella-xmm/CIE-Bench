@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0087",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the clock appear to protrude from the wall surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the clock appears to protrude from the wall due to the presence of shadows underneath it and the added rectangular backing. This backing makes the clock look like it is mounted on a separate surface, which is raised from the wall itself. This visual cue, combined with the knowledge that shadows often indicate an object is not flush with the surface it's attached to, leads to the conclusion that the clock indeed protrudes from the wall.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the clock cast a realistic shadow on the wall behind it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the shadow beneath the clock and its backing is evident and consistent with commonly observed shadows caused by raised objects. The shadows suggest that the object is receiving light from above and to the left, creating a shadow on the bottom right, which realistic lighting conditions would produce.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Have the edges of the clock been modified to indicate it is not flush against the wall?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the added rectangular backing behind the clock clearly indicates a modification intended to make the clock appear as if it is mounted on a platform that is separate from the wall itself. This modification makes it explicit that the clock is not flush against the wall. The edges of this backing play a crucial role in creating that perception.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there evidence of lighting changes around the clock to enhance its three-dimensional look?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows evidence of lighting changes, as indicated by the shadows and highlights on the clock and its backing. The light seems to come from the top-left direction, illuminating the front and casting shadows on the bottom-right. Such lighting effects enhance the 3D appearance by creating depth and separation from the wall.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the clock maintained a completely flat appearance, or does it now show signs of depth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No\n```",
+      "explanation": "In Image B, the added backing and the shadows cast beneath it add a sense of depth that was not present in Image A. The clock no longer has a flat appearance; instead, these elements give it a more three-dimensional look, suggesting that it is mounted on a protruding surface.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

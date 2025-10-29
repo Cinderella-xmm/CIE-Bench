@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-1301993215697188132",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the blue herringbone-textured jacket retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cartoonish owl character wears a blue jacket, but there is no visible herringbone texture. The texture seen in Image A, which has detailed fabric patterns, is absent in the hand-drawn style of Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the collar and lapel shape of the blue jacket preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image A shows a clear collar and lapel design typical of a formal jacket. In Image B, the owl's jacket does have a collar and lapel, resembling the general style but not identical in shape due to the simplified, cartoonish representation.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are two microphones visible in front of the speaker in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image A shows two microphones in front of the speaker. In Image B, there is no representation of microphones, as it is a cartoon drawing focusing on an owl character, with no podium or microphones depicted.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the speaker’s right hand raised with an open palm in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the speaker's right hand is visible and raised with an open palm. In Image B, the owl’s right 'hand' or wing is raised and open, mimicking a similar gesture. Despite the stylistic difference, the basic gesture is retained.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the circular emblem with a blue center, gold border, and star pattern visible on the podium in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image A has a podium with an emblem featuring a blue center, gold border, and star pattern. Image B, being a cartoon illustration, does not incorporate a podium or any emblem, focusing instead on textual and illustrative elements related to public speaking.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

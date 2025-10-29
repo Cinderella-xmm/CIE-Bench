@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_123_25",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly three distinct postcards visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, four separate items are arranged in a grid-like layout. Three of these appear to be framed or matted images resembling postcards: one showing a woman in traditional attire (top-left), one with a silver leaf-shaped hairpin (top-right), and one with green bamboo embroidery (bottom-right). The fourth item (bottom-left) is a folded book or fabric-covered object with embroidered floral patterns, not a postcard. While it may resemble a postcard in size and presentation, its physical form—being a bound book with visible spine and cover—is distinct from a flat postcard. Therefore, only three items qualify as postcards based on their format and content. This conclusion is drawn by analyzing the visual cues such as framing, material texture, and overall shape, combined with common knowledge about what constitutes a postcard.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is one of the postcards rendered with a blue gradient that emphasizes the embroidered dress?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The top-left image in Image B features a woman wearing a teal-blue garment with silver embroidery. However, the rendering of this image does not employ a blue gradient across the entire surface; instead, it presents a naturalistic coloration with subtle shading consistent with fabric lighting. A blue gradient would imply a smooth transition from light to dark blue across the image, which is not present. The focus is on realistic depiction rather than stylized gradients. Therefore, no postcard in the image uses a blue gradient to emphasize the dress.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is one of the postcards rendered in silver tones, specifically emphasizing the hair accessory?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The top-right image in Image B displays a metallic hairpin shaped like a leaf, rendered entirely in silver tones. The design includes detailed embossing and reflective highlights, suggesting a polished metal finish. This object is clearly isolated against a neutral background, drawing attention to its form and craftsmanship. Given its monochromatic silver appearance and central focus, it can be concluded that this postcard emphasizes the hair accessory using silver tones. This analysis relies on visual cues such as color uniformity, material reflection, and compositional emphasis, supported by general knowledge about how accessories are typically highlighted in product-style imagery.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does one of the postcards incorporate stylized bamboo patterns as a dominant visual element?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The bottom-right image in Image B shows an embroidered depiction of bamboo stalks and leaves in varying shades of green. The pattern is highly stylized, with clean lines and symmetrical arrangement typical of decorative art. Bamboo is the primary subject, occupying most of the frame, and is rendered with fine detail that suggests textile embroidery. Based on visual dominance and thematic focus, this postcard indeed features stylized bamboo as its main visual element. This conclusion is reached by identifying the recurring motif, color scheme, and artistic style consistent with traditional East Asian botanical designs.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the entire set of postcards presented within a silk-bound book whose cover features an embroidery-inspired design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The bottom-left item in Image B appears to be a book or album with a satin-like cover featuring embroidered floral and scroll motifs. It has a visible spine and appears to be bound, suggesting it's a physical book rather than a flat postcard. However, the other three items are displayed separately and are not contained within this book. There is no indication that the book holds or contains the other postcards. They are laid out independently on a white surface. Thus, while the book itself has an embroidery-inspired design, it does not enclose the full set of postcards. This assessment combines observation of spatial arrangement and object relationships with understanding of how books and postcards are typically displayed.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Do the floral and scroll motifs on the garment exhibit stylized paper-cut effects such as sharp edges, layered appearance, and high contrast?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The embroidery on the back of the garment in the top-left postcard (Image B) features intricate floral and scroll patterns. These designs have defined outlines and raised textures, but they do not display the characteristics of paper-cut art—such as sharp, clean cuts, stark black-and-white contrast, or multiple layers creating depth. Instead, the embroidery uses threadwork with soft shading and subtle tonal variation, more typical of traditional textile art. Paper-cut effects involve flat, silhouetted shapes with minimal gradation, which are absent here. Therefore, the motifs do not exhibit stylized paper-cut effects.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

@@ -1,0 +1,117 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a man dressed as Santa Claus, positioned slightly off-center in the frame, facing forward with his right arm extended outward in a welcoming gesture. He wears a traditional red velvet suit with white fur trim along the collar and cuffs, a matching red hat with a fluffy white brim and pom-pom, and white gloves. His face is partially visible beneath a long, curly, voluminous white beard that cascades over his chest, and he has thin-rimmed glasses on his face. The background consists of bare tree branches against a clear blue sky, indicating an outdoor winter setting. A golden bow and greenery (likely part of a Christmas decoration) are visible in the lower-left corner, suggesting a festive context.
+
+Thinking process:  
+The editing instruction explicitly states the following transformations:  
+- Change Santa’s attire to an **18th-century explorer’s coat with leather details** → the current red suit must be replaced.  
+- Replace the **red hat** with a **tricorn hat** → the current Santa hat must be removed and substituted.  
+- Replace the **white gloves** with **leather gauntlets** → the gloves are to be changed.  
+- Change the **background** to a **rugged, snowy mountain landscape** → the current natural trees-and-sky background is to be replaced entirely.  
+
+These changes indicate that the **entire costume and environment** are subject to transformation. However, no mention is made of altering the **subject’s facial features**, **beard**, **glasses**, or **posture**. The instruction does not specify changing the **identity** of the person (i.e., still representing a figure in historical disguise), nor does it suggest modifying the **gesture** or **facial expression**.
+
+Therefore, only elements directly specified for replacement are allowed to change. All other visual components not mentioned in the instructions must be preserved unless logically affected by the changes.
+
+Allowed Changes List:  
+- The red velvet suit (including fur trim)  
+- The red Santa hat with white fur and pom-pom  
+- The white gloves  
+- The background (trees and sky)  
+- The gold bow and greenery (as part of the scene)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements:  
+- The **long, curly white beard** is a defining feature of Santa Claus, essential for identity recognition. Even when transformed into an explorer, the character is still intended to be *Santa* reimagined—thus, the beard remains a core identifier. It is not mentioned in the instructions to change it, so it must be retained.  
+- The **thin-rimmed glasses** are unique to this individual's appearance and contribute to facial identity. Since they are not referenced in the edit, they should remain unchanged.  
+- The **facial structure** (nose, eyes, mouth) and **expression** (smiling, friendly) are critical for maintaining the recognizable persona. These are not altered in the instruction, so they must be preserved.  
+- The **posture**—specifically the extended right arm in a greeting gesture—is key to the scene’s dynamic. No instruction suggests changing pose, so it must stay.  
+
+Functional/logical association elements:  
+- The **arm extension** serves a communicative purpose (welcoming). If modified, the action loses its intent. Since the instruction does not specify altering the gesture, it must remain.  
+- The **position of the head and body** relative to the camera (slightly angled, looking toward viewer) maintains engagement. This spatial relationship is not mentioned for change and thus must be preserved.  
+
+Non-modified element deduction:  
+After excluding all elements listed for change (clothing, hat, gloves, background), the remaining unmentioned features include:  
+- The **texture and curl pattern of the beard**  
+- The **color and shape of the glasses**  
+- The **skin tone and facial contours**  
+- The **direction of gaze and smile**  
+- The **hand position and open palm** (though gloves will change, the hand shape and gesture must remain consistent)  
+
+All these are integral to the original subject’s identity and visual coherence. They are not described as changeable, so they must be retained.
+
+Preservation Targets List:  
+- The long, curly, voluminous white beard  
+- The thin-rimmed glasses on the face  
+- The facial expression (smiling, friendly)  
+- The extended right arm with open palm gesture  
+- The head orientation and slight turn toward the viewer  
+- The skin tone and facial features (nose, eyes, cheeks)  
+- The position of the hands and fingers (open, relaxed, palm up)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The long, curly white beard is the most iconic feature of Santa Claus and is central to his visual identity. Its texture, volume, and placement are distinctive and serve as the primary identifier of the character. Removing or altering it would fundamentally change who the figure is, even if dressed differently. Thus, preserving the exact form and flow of the beard is essential for maintaining recognition. This is a core identity element and therefore carries maximum weight.
+    Question: Is the long, curly, voluminous white beard present and extending down the front of the chest?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The thin-rimmed glasses are a specific detail of the subject’s face and contribute to his individuality. While not universal to all depictions of Santa, they are a key feature of this particular portrayal. Changing them would alter the likeness and make the figure unrecognizable as the same person. As a unique facial accessory, it is a high-importance retention point.
+    Question: Are the thin-rimmed glasses worn on the face, positioned over the eyes?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The extended right arm with an open palm is a functional gesture that conveys welcome and interaction. It is crucial to the composition and narrative of the image. Although the glove will be replaced, the hand's posture, finger spread, and direction must remain identical to preserve the original action. This gesture is not mentioned for change and is therefore a logical preservation target.
+    Question: Is the right arm extended outward with the palm facing upward and fingers slightly spread?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The facial expression—specifically the smiling mouth and crinkled eyes—conveys warmth and friendliness, which are core traits associated with Santa. This expression is not referenced in the editing instruction, so it must remain unchanged. Altering it would shift the emotional tone of the image and break continuity with the original subject.
+    Question: Is the mouth curved upward in a smile and the eyes slightly crinkled at the corners?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The head orientation—slightly turned toward the viewer—establishes eye contact and engagement. This spatial positioning is essential for maintaining the subject’s presence and connection with the audience. Since the instruction does not mention altering posture or angle, this must be preserved to maintain consistency in the figure’s stance.
+    Question: Is the head turned slightly to the left side of the frame, facing forward?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The skin tone and facial features (such as nose shape, cheekbones, and eyebrows) define the individual’s physical identity. These are not mentioned in the editing instruction, so they must remain intact. Any alteration would result in a different person being portrayed, undermining the continuity of the subject.
+    Question: Are the facial features including the nose, eyebrows, and cheeks clearly visible and consistent with the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The fingers' position—spread apart and relaxed—is part of the overall gesture and contributes to the naturalness of the pose. Though the gloves will be replaced, the underlying hand shape and spacing must remain unchanged to preserve the gesture’s authenticity. This is a minor but important detail that supports visual coherence.
+    Question: Are the fingers of the right hand splayed outward with natural spacing between them?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

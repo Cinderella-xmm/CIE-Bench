@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0144",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has a small flag reading “Fresh” been added on top of the sandwich?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a visible addition of a small flag with the text 'Fresh' placed on top of the sandwich. The placement of the flag on top of food items for branding or descriptive purposes is a common practice in culinary presentation, helping identify the freshness or quality of the item.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Have the tomato slices been replaced with grilled pineapple slices?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual cues indicate that grilled pineapple slices with visible grill marks have replaced the tomato slices that were present in Image A. The presence of pineapple slices with grill marks suggests they have been altered from fresh to grilled, indicating a significant change from the tomato layers originally seen.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the layers of lettuce and meat unchanged except for the addition of the flag and substitution of the tomato?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the lettuce layer intact, similar to Image A, but the meat layer is no longer visible, replaced by pineapple slices. Comparing Image A's turkey meat and lettuce layers with Image B’s composition, it is evident that the meat has been removed and replaced with pineapple slices, indicating more alterations than just additions of a flag and a substitution of tomato.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the pineapple slices appear grilled, showing char marks or a browned exterior?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pineapple slices show distinct grill char marks and a browned exterior. The visual presentation of the pineapple slices with these marks confirms grilling, as typical grill marks appear from the caramelization process during cooking.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the flag sit properly on top of the sandwich without disrupting its composition?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the small flag is placed in a spot that doesn't appear to disrupt the sandwich's overall composition or balance. Such flags are often designed to be lightweight and minimally invasive, ensuring they do not compromise the structure or presentation of the dish.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

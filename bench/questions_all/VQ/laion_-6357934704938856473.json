@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement to modify the robot’s surface to a brushed metal and matte finish, this question evaluates whether the material application across the torso, limbs, and armor panels appears uniform and free of unnatural textures such as oversharpening, noise, or gloss mismatches. The goal is to assess material authenticity and visual coherence.",
+      "question": "Are the brushed metal and matte finishes applied consistently across the robot’s body without visible texture artifacts or inconsistent sheen?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement to add a hexagonal box labeled \"MECHA VANGUARD,\" this question checks if the box is geometrically accurate, proportionally sized relative to the robot, and positioned without clipping or misalignment. The label must be readable and stylistically appropriate.",
+      "question": "Is the hexagonal box fully enclosed around the robot with clean edges, proper proportions, and a clearly legible \"MECHA VANGUARD\" label without distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement to enhance weapons and armor with engravings and articulation, this question evaluates whether the fine details on the rifle, sword, and armor plates are sharp and realistic, and whether the joints (e.g., elbows, knees) appear mechanically functional without deformation or missing parts.",
+      "question": "Are the engraved details on the armor plates and weapon surfaces clear and non-blurry, and do the joint areas (elbows, knees) show no signs of geometric distortion or missing segments?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement to add a futuristic cityscape background, this question checks if the background integrates naturally with the robot’s pose and lighting, maintaining depth and perspective without clipping or scaling issues.",
+      "question": "Does the cityscape background extend behind the robot without clipping through its limbs or body, and does it match the lighting direction and scale of the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement to maintain structural coherence and physical rationality, this question evaluates whether the robot’s dynamic pose remains intact, with no floating limbs, intersecting weapons, or misplaced parts after editing.",
+      "question": "Are the robot’s limbs, weapons, and armor pieces correctly aligned and positioned without overlapping or floating elements that violate spatial logic?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

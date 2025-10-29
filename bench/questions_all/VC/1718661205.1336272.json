@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The woman’s profile is the primary identifier of the subject in the image. Her distinct facial features—specifically the shape of her nose, jawline, and eyes—are essential for recognition. If these features are distorted or replaced, the individual cannot be identified. Since the instruction does not mention altering her face, this is a core identity feature that must be preserved. The weight is 3 points because losing this would make the subject unrecognizable.",
+      "question": "Is the woman’s facial profile, including the shape of her nose, jaw, and eyes, preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The light brown color and braided style of the hair are key visual identifiers. While the texture may be changed to LEGO-like, the instruction does not permit altering the hair color or basic styling. Changing either would misrepresent the subject’s appearance. This is a core recognition feature, especially given its prominence in the composition. Losing it would significantly affect identity.",
+      "question": "Is the woman’s hair light brown in color and styled in a braid?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The instruction explicitly states that the shirt and vest colors must be retained. The beige shirt and olive-green vest are defining elements of her attire and suggest a specific role (military/naval). Changing their colors would violate the instruction and disrupt visual continuity. Even in LEGO form, the colors must match exactly. This is a high-weight requirement due to explicit directive.",
+      "question": "Are the shirt and vest rendered in the original beige and olive-green colors, respectively?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The hand position on the control panel is a functional element indicating the subject is operating the vessel. It establishes the action and purpose of the scene. Even if the control panel becomes LEGO, the hand placement must remain consistent to preserve logical coherence. Altering this would break the narrative logic of the scene.",
+      "question": "Are the woman’s hands positioned on a control mechanism in the same way as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The presence of the tactical vest’s straps and buckles is critical for identifying the garment type. These structural details distinguish it from a simple jacket or vest. The instruction allows texture and shape change but not loss of functional components. Removing them would misrepresent the gear and undermine realism in the LEGO version.",
+      "question": "Are the straps and buckles of the tactical vest visibly present and structurally intact?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The skin tone and facial expression contribute to the subject’s identity and emotional state. The original image shows a calm, focused expression with natural skin tone. These are not mentioned for change and are essential for preserving the character’s identity. Although subtle, they are part of the core visual signature.",
+      "question": "Is the woman’s skin tone and facial expression (calm, focused) preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The eye color (blue-gray) is a distinctive trait that contributes to facial recognition. While not always emphasized, it is a key detail in portrait consistency. Since no instruction mentions altering it, and it is clearly visible in the original, it must be preserved to maintain fidelity.",
+      "question": "Does the woman have blue-gray eyes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

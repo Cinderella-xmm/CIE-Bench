@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0063",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the cat maintain its structural coherence and natural texture, without showing any unnatural artifacts or distortions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a horse at the center, not a cat, indicating the editing provided is significantly different than any expectation of a cat's presence. In this context, the question about the cat's structural coherence and natural texture is irrelevant because no cat is present in Image B. The given structure of a horse instead does not display obvious unnatural artifacts or distortions in itself.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the new background of a ruined city seamlessly integrated, avoiding any visible breaks or inconsistencies that betray the editing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background features an apocalyptic ruined city setting, which visually blends well with the horse in terms of lighting and tone coherence, maintaining a sense of visual unity. There are no obvious breaks or inconsistencies indicating poor editing between the horse and the background.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the text “LAST RIDE” appear natural and appropriately styled, without introducing any distracting elements that could detract from the image's overall harmony?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text 'LAST RIDE' in Image B is styled in a rugged, suitably distressed font that complements the apocalyptic theme. It is placed prominently but does not visually clash with the image's elements, maintaining overall harmony within the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the cool-tone filter been applied evenly across the image, preserving the clarity and fine details of both the cat and the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "While Image B does indeed have a cool-tone, the question is incorrect about involving a cat. The filter is consistently applied to both the horse and the cityscape, preserving details and clarity which enhance the image’s mood. There is no cat present to analyze for details.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the film rating label fit naturally within the composition of the image, complementing rather than disrupting the visual flow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The film rating label in Image B is located in the bottom right corner, designed in a small, unobtrusive manner, aligning with the visual structure without causing any disruption. It is consistent with common film poster practices that ensure brand and information placement complements rather than competes with the main visual.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

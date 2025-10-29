@@ -1,0 +1,101 @@
+Description of reference image: The subject is a short-sleeved t-shirt featuring an intricate, full-frontal graphic design. The design depicts a stylized, muscular male figure in a dynamic pose—bent forward with one arm raised and the other supporting his body—rendered in fine golden line art against a dark blue-green gradient background. The figure has long, wavy hair and is adorned with a circular emblem on the chest containing wavy lines. Surrounding the central figure are elaborate geometric patterns, floral motifs, celestial symbols (such as stars and zodiac signs), and tribal-like borders. These decorative elements form a symmetrical composition that frames the figure within a diamond-shaped structure. The overall aesthetic resembles ancient or mythological artwork, with high detail and a sense of sacred geometry. The shirt itself has a crew neck and standard fit, with no visible branding.
+
+Thinking process: First, analyze the editing instructions word by word: "Transform the shirt design into a vibrant pop art-style mural, utilizing bold color blocks and sharp geometric lines to accentuate the muscular figure, while reimagining the intricate patterns in neon tones with dynamic, repetitive motifs."  
+- The instruction explicitly changes the **style** of the design (from intricate line art to pop art).  
+- It specifies **bold color blocks**, **sharp geometric lines**, and **neon tones**, indicating a shift in color palette and visual texture.  
+- It mentions **reimagining the intricate patterns** in **dynamic, repetitive motifs**, suggesting transformation of existing decorative elements.  
+- However, it does **not** mention changing the **subject** (the muscular figure), its **pose**, or the **core composition** (e.g., the central figure framed by patterns).  
+- It does not state replacing or removing any specific element such as the figure’s anatomy, the circular chest emblem, or the overall layout.  
+
+Thus, the allowed changes include:  
+- Color scheme (from gold-on-dark to neon/bold colors)  
+- Artistic style (from detailed line drawing to pop art)  
+- Pattern treatment (from organic/floral to repetitive/abstract)  
+- Line quality (from fine lines to sharp, blocky edges)  
+
+But the following are **not explicitly allowed to change**:  
+- The **presence and posture** of the central muscular figure  
+- The **orientation and position** of the figure (bent forward, arms positioned as described)  
+- The **circular emblem on the chest**  
+- The **overall framing structure** (diamond shape enclosing the figure)  
+- The **relative spatial arrangement** of the figure and surrounding patterns  
+
+Allowed Changes List:  
+(Specific element 1 that allows for changes): Color palette of the design (gold → neon tones)  
+(Specific element 2 that allows for changes): Artistic rendering style (fine line art → bold pop art lines)  
+(Specific element 3 that allows for changes): Pattern complexity and repetition (organic motifs → dynamic, repetitive motifs)  
+(Specific element 4 that allows for changes): Texture of lines (smooth curves → sharp geometric lines)  
+(Specific element 5 that allows for changes): Background tone (dark gradient → potentially flat or contrasting blocks)
+
+---------------------------------------------------------------------------------------
+
+Thinking process:  
+Core recognition elements: The central figure is the primary identity anchor of the design. Its **muscular build**, **long wavy hair**, **bent-forward pose**, and **raised arm** define its iconic form. The **circular emblem on the chest** is a unique identifying mark. The **diamond-shaped frame** around the figure acts as a structural signature, similar to a mandala or sacred icon. These features are essential for recognizing the subject even after stylistic transformation. If these were removed or distorted beyond recognition, the edited image would no longer represent the same original concept.  
+
+Functional/logical association elements: The **spatial relationship** between the figure and the surrounding patterns must be preserved. The figure is centrally placed and enclosed by the geometric frame; altering this layout would break the intended composition logic. The **emblem's placement** on the chest is functionally tied to the figure’s anatomy—it cannot be moved without losing symbolic coherence.  
+
+Non-modified element deduction: After excluding allowed changes (color, style, pattern texture), the remaining visual content includes:  
+- The **figure’s silhouette and pose**  
+- The **chest emblem**  
+- The **diamond frame structure**  
+- The **position of key decorative motifs** (e.g., flowers at corners, stars near shoulders)  
+These must be retained because they are not mentioned for change and are necessary for maintaining visual continuity and identity.  
+
+Preservation Targets List:  
+(The presence and bent-forward posture of the central muscular figure)  
+(The location and shape of the circular emblem on the chest)  
+(The diamond-shaped framing structure enclosing the figure)  
+(The relative positioning of floral motifs at the top-left and bottom-right corners)  
+(The presence of stars near the upper shoulders of the figure)  
+
+---------------------------------------------------------------------------------------
+
+{
+    Q1: 
+    Thinking process: The central muscular figure is the core identity feature of the design. Its bent-forward pose with one arm raised is distinctive and defines the action and character of the subject. This pose is critical for recognition; if altered significantly (e.g., standing upright or arms down), the figure would no longer match the original. Thus, preserving the posture is essential for identity retention, making it a 3-point question.
+    Question: Is the central figure depicted in a bent-forward pose with one arm raised and the other supporting the body?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The circular emblem on the chest is a unique identifying symbol within the design. It contains wavy internal lines and is positioned directly over the sternum. Its presence and placement are consistent across the original and serve as a focal point. Removing or relocating it would alter the symbolic meaning and disrupt visual coherence. Hence, it is a key element worth 3 points.
+    Question: Is there a circular emblem with wavy internal lines located on the chest of the central figure?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The diamond-shaped frame encloses the figure and serves as a structural boundary for the entire composition. It is formed by intersecting geometric lines and borders that contain the figure and surrounding patterns. Altering its shape or removing it would fundamentally change the layout and visual hierarchy. As a core compositional element, it must be preserved, assigning it a weight of 3.
+    Question: Is the central figure enclosed within a diamond-shaped geometric frame?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The floral motif in the top-left corner is a recurring decorative element in the design, contributing to the symmetry and balance. While the instruction allows reimagining patterns, it does not specify removal of individual motifs. Since this flower is part of the original framing, its presence helps maintain visual consistency. Though not the most critical, its loss would affect detail fidelity, so it is assigned 2 points.
+    Question: Is there a floral motif located in the top-left corner of the design?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: Stars appear near the upper shoulders of the figure, integrated into the patterned border. They are small but distinct celestial symbols that contribute to the mythological theme. Their placement is specific and intentional. While the instruction allows reimagining patterns, it does not allow deletion of key symbols. Preserving their presence maintains thematic integrity, justifying a 2-point weight.
+    Question: Are there star symbols located near the upper shoulders of the central figure?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The long, wavy hair of the figure is a defining characteristic that contributes to its identity and aesthetic. While the instruction may allow stylistic reinterpretation (e.g., simplification), the hair must still be present and flowing in a similar manner to retain the figure’s appearance. Its absence would make the figure unrecognizable. Therefore, it is a critical feature worth 3 points.
+    Question: Does the central figure have long, wavy hair flowing over the shoulders?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+}

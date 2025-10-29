@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_345",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the 3D voxel-style model of the mouse retain a natural texture similar to the original mouse's fur without any obvious unnatural artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the mouse is designed in a 3D voxel style, which is characterized by blocky, geometric shapes and does not aim to replicate natural textures like fur. Instead, it is intentionally stylized in a way that embraces the pixelated, cubic aesthetic. In contrast, the original mouse in Image A has a natural fur texture that's smooth and detailed. Therefore, Image B does not retain the natural texture of Image A but instead applies a distinct voxel aesthetic.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the proportions and physical rationality of the mouse's body parts in the 3D voxel-style model consistent with its original form, avoiding any distortion or deformation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the mouse is represented in a 3D voxel style, which aims to simplify its form using basic geometric shapes. Despite this stylized approach, the mouse's proportions—such as the size of the ears, eyes, and body parts—are relatively consistent and logically related to the original mouse in Image A. This indicates that the proportions are adapted to the style but are not distorted.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the edges and surfaces of the 3D voxel-style mouse model appear smooth and coherent, without any jagged or broken geometric shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the voxel-style model intentionally features blocky and sharply defined geometric shapes as part of its design. These edges and surfaces are intentionally angular and crisp, following the voxel art aesthetic, which prioritizes geometric cleanness over smoothness found in naturalistic depictions like in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the interaction between the 3D voxel-style mouse model and the smartphone look plausible and realistic, without any unnatural positioning or shadows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the positioning of the 3D voxel-style mouse in relation to the smartphone is coherent and plausible within the context of the scene. The mouse and smartphone are well-aligned on the flat wooden surface, and there are no visually obtrusive shadows or unrealistic positioning based on the lighting and scene setup.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the fine details of the mouse's features, such as whiskers and eyes, preserved in the 3D voxel-style model without any loss or degradation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the mouse’s details such as whiskers and eyes are adapted to the 3D voxel-style. While they are not as finely detailed as in Image A, they are represented in a stylized manner that retains the essence of these features. The eyes are prominent, and the whiskers are simple lines, maintaining the overall character without the degradation of key attributes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

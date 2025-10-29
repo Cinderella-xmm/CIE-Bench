@@ -1,0 +1,71 @@
+Description of reference image: The subject is a small mouse in a kitchen setting, positioned centrally in the image. Its fur has a mix of brown, orange, and white, with a distinct white belly and face. The mouse has large, upright ears and long whiskers. Its eyes are wide, giving an alert expression. The background shows a wooden floor and parts of kitchen cabinets and appliances. Scattered around the mouse are crumbs of food.
+
+### Step 1 - Analyze editing instructions and determine allowed changes:
+
+Thinking process: The instructions require converting the image to Pixar-style animation. Therefore, the texture of the mouse's fur, the floor, and other elements can be changed to a cartoon style. The overall scene can shift toward softer lines and shading typical of animated films. However, the mouse's key features, the crumbs, and the setting must still be recognizable.
+
+Allowed Changes List:
+1. Texture and visual style of the mouse's fur and skin.
+2. Style and texture of the floor and background.
+3. Lighting and shadows to align with animation norms.
+
+### Step 2 - Determine elements that should remain unchanged:
+
+Thinking process: 
+- **Core recognition elements**: The mouse's brown-orange-white fur pattern, its distinctive whiskers and large ears, as well as the presence of crumbs on the floor are critical for identity.
+- **Functional/logical elements**: The mouse's interaction with the crumbs (standing near them and looking downward) maintains the logical context of the scene and thus must stay intact.
+- **Non-modified elements**: Details like the relative sizes and positions of the mouse, crumbs, and background elements ensure the image remains coherent.
+
+Preservation Targets List:
+1. Mouse's fur color pattern (brown, orange, white)
+2. Mouse's whiskers and large ears
+3. Presence of food crumbs on the floor
+4. Position of the mouse (near crumbs, looking downward)
+5. General kitchen setting (floor, cabinets)
+
+### Step 3 - Generate questions for detecting retention of edited elements:
+
+{
+    Q1: 
+    Thinking process: The mouse's color pattern is a key visual identifier. Losing this would make it hard to recognize the subject as the same mouse.
+    Question: Does the mouse retain its brown, orange, and white fur pattern?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The whiskers and ears are crucial for the character's identity. Without them, the mouse loses its distinct look.
+    Question: Are the mouse's whiskers and large ears clearly visible?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The crumbs are essential for the context of the scene. Their absence would disconnect the mouse from its environment.
+    Question: Are the food crumbs present on the floor near the mouse?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The mouse’s posture and gaze relate logically to the crumbs, ensuring that the scene makes sense.
+    Question: Is the mouse positioned near the crumbs and looking downward towards them?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The kitchen setting provides context and consistency in the environment. While the style may change, the setting should remain recognizable.
+    Question: Is the general kitchen setting with flooring and cabinets identifiable?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

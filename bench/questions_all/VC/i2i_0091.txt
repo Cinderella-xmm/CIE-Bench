@@ -1,0 +1,75 @@
+Description of reference image:  
+The image shows a minimalistic room setup featuring a large wall-mounted wooden clock with clean, black hour markers and hands, placed above a wooden chest of drawers. The chest has six drawers and is positioned against a neutral-colored wall. On top of the chest are decorative items including white vases with plants or branches, a stack of books, and small spherical objects. The floor is tiled with a light wood parquet design. The overall scene is lit by soft natural light coming from an unseen source, casting visible shadows.
+
+---
+
+### Step 1 - Analyze Allowed Changes:
+
+Thinking process:  
+The editing instruction transforms the scene into a castle hall while retaining the original lighting style. This means we can alter the specific furniture, wall design, and decor. However, the light's direction, intensity, and the way it creates shadows must stay consistent.
+
+Allowed Changes List:  
+- Change the wooden cabinet to match the interior of a castle hall.  
+- Replace the wall clock with something fitting a castle hall theme.  
+- Alter the decorative items on the chest of drawers to fit the castle hall aesthetic.  
+- Adjust the wall and floor designs accordingly.  
+
+---
+
+### Step 2 - Determine Elements That Should Remain Unchanged:
+
+Thinking process:
+The core recognition and functional/logical elements here include the lighting style and shadow patterns. Maintaining these ensures the ambiance remains consistent. The arrangement of objects on the cabinet is also critical as it establishes a logical connection between the decor and the space.
+
+Preservation Targets List:
+- Original lighting style and shadow placement.  
+- Spatial arrangement of objects on the chest of drawers.  
+
+---
+
+### Step 3 - Generate Questions Based on Key Visual Elements:
+
+{
+    Q1: 
+    Thinking process: The lighting and shadows are essential to preserving the original ambiance and are a key element in maintaining the scene's visual consistency.
+    Question:Is the original lighting style, including the placement and intensity of shadows, preserved?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2:
+    Thinking process: The arrangement of decorative items on the chest of drawers provides a sense of balance and logic in the scene. While the items themselves may change, their spatial relationship should remain intact.
+    Question:Are the items on the chest of drawers arranged in a similar fashion to the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3:
+    Thinking process: The parquet flooring’s texture adds a distinct aesthetic to the image. Although the setting changes, this specific detail contributes to the overall coherence and realism.
+    Question:Is the wooden parquet flooring texture still present?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4:
+    Thinking process: The chest of drawers, though replaced by castle hall furniture, should still have a similar function and appear as a major piece of furniture in the new setting.
+    Question:Is there a large piece of furniture serving as the primary storage unit in the scene?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5:
+    Thinking process: The presence of natural light is crucial for the mood and authenticity of the scene. Its direction and quality must align with the original despite the setting change.
+    Question:Is natural light still illuminating the scene from the same direction as in the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

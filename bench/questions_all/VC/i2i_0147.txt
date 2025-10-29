@@ -1,0 +1,60 @@
+Description of reference image: The subject consists of two hot dogs placed in buns on a grill. The hot dogs are topped with ketchup and mustard. The buns appear lightly toasted, showing a slight golden color. The grill has visible black metal bars, and glowing orange flames can be seen beneath, indicating active cooking. The background is mostly dark, emphasizing the bright colors of the food.
+
+### Allowed Changes List:
+- Adding melted cheese and fried onions on top of the hot dogs.
+- Placing a barbecue tong near the grill.
+
+### Preservation Targets List:
+- Position and structure of the hot dogs inside their buns.
+- Visible ketchup and mustard drizzles.
+- Lightly toasted appearance of the buns.
+- Black grill bars and orange flames.
+- Dark background to keep focus on the food.
+
+
+### Question Generation:
+
+{
+    Q1: 
+    Thinking process: The presence of ketchup and mustard is a critical detail as it defines the original topping. Removing them would significantly alter the hot dog's identity.
+    Question: Are the ketchup and mustard still visibly drizzled on the hot dogs?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The toasted bun texture indicates preparation quality and contributes to the hot dog’s identity. Losing this detail would diminish the realism and appeal of the hot dog.
+    Question: Do the buns retain their lightly toasted texture and golden color?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The grill bars and glowing flames provide context about the cooking method and setting, enhancing the scene's authenticity. These elements are crucial for visual consistency.
+    Question: Are the black grill bars and orange flames underneath them still visible?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4:
+    Thinking process: The position of the hot dogs relative to the buns is an essential aspect that ensures structural integrity. Changing this could make the food look improperly assembled.
+    Question: Are the hot dogs still properly positioned inside their respective buns?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5:
+    Thinking process: The dark background helps draw attention to the hot dogs, making them the focal point. Any deviation might distract from the main subject.
+    Question: Does the image retain a dark background to emphasize the food?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

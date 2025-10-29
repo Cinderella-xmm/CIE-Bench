@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0149",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the cat’s head extend slightly beyond the frame edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cat's head is positioned centrally within the frame, not extending beyond the edges. Using world knowledge and observation skills, understanding that the frame edges refer to the boundary of the image and the cat’s head is completely visible within these boundaries allows us to conclude that the cat’s head does not extend beyond them.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the curled tongue show clear spatial depth, giving a 3D effect?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tongue of the cat is sticking out, and its curvature and shading are analyzed for depth and dimensional effect. The tongue displays a pronounced curve and shadowing that gives it a three-dimensional appearance, showing spatial depth commonly associated with real-world objects in a 3D view.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the position and angle of the cat’s head create a visual illusion of peeking out from the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cat’s head is centered and resting naturally; it looks straight at the viewer without any tilt or angle that could suggest an illusion. Knowing how angles and perspective can create peeking illusions, the cat’s straightforward posture does not evoke such an impression, remaining enclosed within its frame without tricks.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image maintain a natural appearance for the cat, aside from the instructed modifications?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The cat in Image B maintains its natural characteristics with vivid fur, realistic eyes, and no irregularities outside the clear intentional tongue alteration. Using world knowledge, assessing visual elements like fur texture and eye realism helps determine that the cat appears natural except for the noticeable tongue modification.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the edits seamlessly integrated with the rest of the image, with no noticeable artificial artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tongue sticks out in an anatomically plausible way without visible artifact lines or mismatched tones, showing seamless editing with the rest of the cat’s natural shape. Understanding the effects of poor integration (like irregular borders or artificial texture) leads to concluding that the edit is well-merged and unobtrusive.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

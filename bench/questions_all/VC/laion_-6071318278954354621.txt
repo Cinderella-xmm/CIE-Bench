@@ -1,0 +1,110 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a woman walking down an urban street, captured mid-stride with her left leg forward and right arm slightly bent. She has long, voluminous curly dark brown hair cascading over her shoulders. She wears a wide-brimmed black fedora hat that sits low on her forehead. Her outfit consists of a highly textured, multicolored fringed jacket in shades of blue, purple, beige, and black, layered over a black bralette and a short floral-patterned skirt. The jacket features irregular fringes and shaggy textures, resembling hand-knitted or crocheted yarns. Around her neck is a prominent multi-layered silver necklace with intricate chainwork and a central gold pendant. A thick black belt with a large circular metallic buckle cinches her waist. She carries a dark brown paper shopping bag with an orange label in her right hand and a black mesh tote bag slung over her left shoulder. Her posture is confident and poised, facing the camera directly. The background shows a European-style city street with light-colored buildings, potted plants, pedestrians (some wearing masks), and a red-and-blue no-parking sign visible in the upper right.
+
+Thinking process:  
+The editing instruction explicitly states:  
+- "Transform the woman in vibrant, textured attire into a Renaissance-inspired noblewoman." → This indicates the **subject’s form and clothing are to be changed**, so her current attire, hairstyle, and accessories are not required to remain.  
+- "Reimagine her jacket as an intricately embroidered silk gown with rich gold and crimson hues" → The **jacket is to be replaced**, thus allowed to change.  
+- "Replace the urban background with an ornate palatial corridor" → The **background is to be replaced**, so it is not retained.  
+- "Depict her holding a delicate lace fan" → The **object she holds is to be changed**, so the shopping bags are not preserved.  
+- No mention is made of preserving facial features, skin tone, body shape, or pose — these are implied to be modifiable since the transformation is into a different character type.  
+However, **the instruction does not state that any specific visual element must be preserved**, such as the face, eyes, or general silhouette. Therefore, unless such elements are core identity markers (e.g., unique facial structure), they are open to modification.
+
+Allowed Changes List:  
+- The jacket (textured, fringed) → can be replaced with a silk gown  
+- The hat (black fedora) → can be replaced with a feathered velvet cap  
+- The background (urban street scene) → can be replaced with a palatial corridor  
+- The shopping bags → can be replaced with a lace fan  
+- The hairstyle (curly dark hair) → can be changed  
+- The necklace and belt → can be replaced  
+- The clothing underneath (bralette and floral skirt) → can be replaced  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements:  
+- While the subject is not a famous artwork or iconic figure, her **distinctive facial features** (such as the shape of her eyes, nose, lips, and jawline) are critical for maintaining identity continuity if the edit aims to retain her likeness. However, the instruction says “transform into a Renaissance noblewoman,” which implies a full stylistic reinterpretation — not necessarily preserving identity. Thus, **identity preservation is not required** by the instruction.  
+- However, since this is a real person (not a fictional or symbolic character), **her face remains the most identifiable anchor**. If the face is altered beyond recognition, the edited image would no longer represent the same individual, undermining the purpose of a consistency assessment. Therefore, **the face should be preserved**, even if stylized.  
+- The **posture and body orientation** (walking forward, left leg advanced, arms positioned naturally) are key to capturing motion and presence. These contribute to the dynamic nature of the original image and help maintain continuity in movement and expression. Although the instruction does not specify preserving motion, altering the stance drastically would disrupt the narrative flow. Thus, **the basic pose and body alignment should be retained**.  
+- The **color of her skin** is a core biometric identifier; changing it would imply a different person. Hence, **skin tone must be preserved**.  
+- The **eye color and gaze direction** are essential for emotional continuity. Since she looks directly at the camera with a slight smile, this engagement is part of the original impact. Changing it could alter the mood significantly. Therefore, **gaze and eye contact should be preserved**.  
+
+Functional/logical association elements:  
+- The **hand positions** are functionally linked to object-holding behavior. Originally, her right hand holds a bag, left hand holds another. In the new version, she holds a lace fan. But the **position of the hands in space** (right hand extended forward, left hand near hip) should be consistent with the action of holding an object, so the **spatial placement of hands** should remain similar to preserve naturalism.  
+- The **balance of the body** (weight distribution, leg position) supports the walking motion. Altering this would make the figure appear unnatural. Hence, **the walking gait and limb positioning** should be retained.  
+
+Non-modified element deduction:  
+After excluding all elements specified for change (clothing, accessories, background, carried items), the remaining **biological and physical traits** that define the subject’s identity — **face, skin tone, body shape, posture, and hand positions** — must be retained to ensure the image still depicts the same person in a transformed context. Even if stylized, these elements are necessary for coherence and recognition.
+
+Preservation Targets List:  
+- Facial features (eyes, nose, mouth, jawline)  
+- Skin tone  
+- Body shape and proportions  
+- Walking posture (left leg forward, right arm bent)  
+- Hand positions (right hand extended, left hand near hip)  
+- Gaze direction (directly at camera)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The face is the primary identifier of the individual in the original image. The shape of the eyes, the bridge and tip of the nose, the curvature of the lips, and the jawline are distinctive features that define her identity. If these are altered, the subject becomes unrecognizable. Even in a Renaissance reimagining, the face should remain consistent to preserve the subject's identity. This is a core identity feature, hence weight 3.
+    Question: Does the edited image retain the original woman’s facial features, including the shape of her eyes, nose, mouth, and jawline?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: Skin tone is a fundamental biological trait that identifies the subject. Changing it would imply a different person or racial identity, which contradicts the intent of transforming appearance while retaining identity. It is a core recognition element, thus weight 3.
+    Question: Is the original woman’s skin tone preserved in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The walking posture — specifically the left leg forward and right arm bent — defines the dynamic movement in the image. Altering this would disrupt the sense of motion and balance. This is a key functional element related to the subject’s action, hence weight 2.
+    Question: Does the edited image preserve the walking posture with the left leg forward and the right arm bent?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The hand positions are crucial for maintaining logical consistency in object interaction. The right hand is extended forward, holding a bag, and the left hand is near the hip. In the new version, she holds a fan, but the spatial placement of the hands should mirror the original to maintain naturalism. This is an important functional detail, hence weight 2.
+    Question: Are the hand positions preserved, with the right hand extended forward and the left hand near the hip?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The gaze direction — looking directly at the camera — is essential for maintaining emotional engagement and viewer connection. It is a key expressive element. Changing it would shift the mood and focus of the image. This is an important facial expression detail, hence weight 2.
+    Question: Does the woman continue to look directly at the camera with the same gaze direction?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The body shape and proportions (slender frame, height, leg length) are critical for identifying the subject. Even with costume changes, these should remain consistent to avoid distortion. This is a secondary but important identification factor, hence weight 1.
+    Question: Are the body shape and proportions of the woman preserved, including her slender frame and leg length?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The curl pattern and volume of the hair are distinctive features in the original image. Although the instruction allows replacement with a feathered cap, the original hair texture and style may be used as a base for transformation. However, since the instruction explicitly replaces the hat, the hair itself may be altered. But if the hair is present in the original, its general volume and curl pattern should be considered for consistency. This is a minor detail, hence weight 1.
+    Question: Is the original volume and curl pattern of the woman’s hair preserved, even if partially obscured or styled differently?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

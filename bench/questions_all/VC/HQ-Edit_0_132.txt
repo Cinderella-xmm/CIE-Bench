@@ -1,0 +1,98 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a serene lakeside scene featuring three individuals practicing Tai Chi. The foreground shows an elderly figure in a flowing white robe, standing on the grassy bank near a lotus pond, performing a graceful Tai Chi pose with one arm raised and the other forming a mudra-like gesture. This figure has gray hair tied in a bun, and their posture conveys calm focus. In the midground, two additional figures are visible: one standing on a small island covered in pink flowers, also in a Tai Chi stance, wearing a similar white robe; the other further back on the left bank, partially obscured by mist and willow branches. The environment includes weeping willow trees with long, drooping green fronds framing the scene, a tranquil lake reflecting the sky and surrounding foliage, and numerous pink lotus flowers blooming among large green lily pads. The background features distant misty mountains, softly illuminated by diffused light from above, creating a dreamlike atmosphere. The color palette is dominated by soft greens, blues, and pinks, with gentle lighting that enhances the ethereal mood.
+
+Thinking process:  
+The editing instruction specifies transforming the **three Tai Chi practitioners** into **figures within a Song Dynasty ink painting**, illustrated as **poets in elegant robes**, with **flowing calligraphy-inspired gestures**. This implies a complete stylistic transformation of these human figures—changing their visual representation to match traditional Chinese ink painting aesthetics, including brushstroke rendering, simplified forms, and expressive postures resembling classical poetry or calligraphy. However, it does not state that their **positions, number, or actions** must be altered—only their **appearance and artistic style**.
+
+Further, the instruction says to **style the willows and lotuses as brushstroke-rendered elements**, meaning their form should become stylized with ink-brush textures, but they remain present. Similarly, **distant mountains become misty ink washes**, indicating a shift in rendering technique but not removal.
+
+No mention is made of changing the **number of figures**, **their relative positions**, or **the overall layout** of the scene (e.g., lake, banks, flower clusters). Therefore, while the **visual style** of all elements can change, the **spatial arrangement and core compositional structure** must remain intact.
+
+Allowed Changes List:  
+- Style of the three Tai Chi practitioners: transform into Song Dynasty ink-painting-style poets with calligraphy-inspired gestures  
+- Visual rendering of willow trees: convert to brushstroke-style ink lines  
+- Visual rendering of lotus flowers and leaves: convert to brushstroke-rendered forms  
+- Rendering of distant mountains: transform into misty ink washes  
+- Overall artistic style: shift from realistic fantasy to classical Chinese ink painting aesthetic  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements must be preserved if they define the identity of the subject or scene. Here, although the **artistic style** of the figures and natural elements changes, the **presence and positioning** of key components must remain consistent for visual coherence and logical continuity.
+
+- **Core recognition elements**: The **three human figures** are central to the narrative and composition. Even though their appearance changes, their **number (three)**, **relative positions** (one in foreground, one on island, one on far bank), and **postures suggesting Tai Chi** must be retained. Removing or relocating any would disrupt the original scene’s logic.
+- **Functional/logical association elements**: The **spatial relationships** between the figures and landscape (e.g., figure on island, figure near water edge) establish depth and balance. These spatial configurations must be preserved to maintain environmental rationality. For example, the figure on the island cannot be moved to the shore without altering the scene's logic.
+- **Non-modified element deduction**: While the **rendering style** of willows, lotuses, and mountains changes, their **presence, location, and general form** (e.g., drooping willow branches, floating lily pads, mountain silhouette) must remain. The **lotus blooms** and **pink flowers** are key visual markers of the setting and must persist in position and quantity. The **lake surface** and **grass banks** are foundational to the scene and cannot be removed.
+
+Preservation Targets List:  
+- The presence and relative positioning of the three human figures (foreground, island, far bank)  
+- The existence and placement of the lotus flowers and lily pads in the foreground pond  
+- The presence of the willow trees with long, hanging fronds on both sides of the lake  
+- The lake’s reflective surface and its role as a central dividing element  
+- The distant mountain silhouette behind the mist  
+- The pink flowering shrubs on the left bank  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The presence of three distinct human figures is a core compositional element of the original image. Their number and spatial distribution (one in foreground, one on island, one on far bank) define the scene’s narrative and balance. If any figure is missing or repositioned, the scene becomes unrecognizable. Thus, this is a key identity feature with high weight.
+    Question: Are there exactly three human figures in the scene, positioned respectively in the foreground, on a small island in the lake, and on the far left bank?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The figure in the foreground performs a specific Tai Chi-like pose with one arm raised and the other in a meditative gesture. This posture is iconic and distinguishes the character from others. Even if rendered in ink style, the gesture must be preserved to maintain the action’s essence. Its loss would alter the subject’s identity.
+    Question: Is the foreground figure depicted in a dynamic Tai Chi pose with one arm extended upward and the other hand forming a circular or open palm gesture?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The lotus flowers in the foreground are prominent visual elements, both in number and color (pink blooms). They anchor the scene’s floral motif and are essential to the garden-like atmosphere. Their absence or significant reduction would break visual continuity.
+    Question: Are multiple pink lotus flowers clearly visible among large green lily pads in the foreground of the lake?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The willow trees with long, drooping green fronds frame the scene and create a sense of enclosure. Their distinctive shape and placement (on both sides of the lake) are critical to the composition. Even if stylized, their presence and orientation must remain unchanged.
+    Question: Are there tall willow trees with long, vertically hanging green fronds on both the left and right sides of the lake?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The lake acts as a central reflective surface, separating the foreground from the background and reflecting the sky and trees. Its presence is essential for the scene’s depth and tranquility. Altering or removing it would collapse the spatial structure.
+    Question: Is there a calm body of water in the center of the scene, reflecting the surrounding trees and sky?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The pink flowering shrubs on the left bank add color contrast and detail to the landscape. While not central, their presence contributes to the richness of the environment. Their absence would reduce visual fidelity.
+    Question: Are there clusters of pink flowering plants growing along the grassy slope on the left side of the lake?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The distant mountain range, partially veiled in mist, provides depth and context to the background. Its silhouette is a key environmental marker. Even if rendered in ink wash, its position and general shape must be retained.
+    Question: Is there a mountain range visible in the background, shrouded in mist and located behind the lake?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

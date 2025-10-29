@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_40363",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the child's original shape and position?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the depiction of the child appears more stylized compared to Image A. The child has been transformed from a silhouette-style artwork to a more detailed and colorful cartoon-like representation. The position of the child, however, remains consistent with the child extending an arm towards the balloon. Therefore, while the shape has changed in this transition to a more detailed depiction, the position is preserved.",
+      "weight": 3,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the round red balloon retained in its original shape and position?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the round red balloon appears to retain the same basic shape and position as seen in Image A. The balloon is depicted in a cartoonish style, which aligns with the editing style of the rest of the mural, but the fundamental shape and location have not changed.",
+      "weight": 3,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the heart-shaped balloon retained in its original shape and position?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the heart-shaped balloon retains the same general shape and position as in Image A. Although the mural's style has shifted to a cartoon aesthetic, the defining shape and location of the heart-shaped balloon are consistent.",
+      "weight": 3,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the child still appear to be reaching toward the heart-shaped balloon?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the child's depiction, though changed in style, continues to show an outstretched arm directed at the heart-shaped balloon. Despite the alterations in artistic depiction, the child still appears to be reaching towards the heart-shaped balloon as in Image A.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the relative positions of the child, the round red balloon, and the heart-shaped balloon maintained?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "The edited image, Image B, shows the child, round red balloon, and heart-shaped balloon in the same relative positions as Image A. Although the artistic style has changed, these elements are located in the same arrangement concerning each other.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7692307692307693
+}

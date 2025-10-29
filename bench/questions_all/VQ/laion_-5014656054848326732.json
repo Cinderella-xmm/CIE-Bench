@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the image into a Victorian-era sepia-toned illustration, evaluate whether the overall color tone has been uniformly converted to sepia without introducing unnatural color shifts or inconsistent lighting effects. The original image features neutral gray background and natural skin tones; the conversion must maintain visual coherence across all elements.",
+      "question": "Is the entire image rendered in a consistent sepia tone, with no areas retaining original color or showing abrupt transitions between color spaces?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of replacing the typewriter with a large, leather-bound book, assess whether the new object is proportionally correct relative to the man’s hands and desk, maintains realistic material texture (such as leather grain and stitching), and is positioned naturally as if being used. The original typewriter is centrally placed and occupies a significant portion of the desk space.",
+      "question": "Does the leather-bound book appear physically plausible in size and placement on the desk, with visible textures such as leather surface and binding details that match the style of the era?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of replacing the pipe with a quill, evaluate whether the quill is realistically held in the man’s mouth, aligned with his facial structure, and displays natural feather texture and appropriate scale. The original pipe is positioned at an angle from the mouth, so the quill should follow similar spatial logic.",
+      "question": "Is the quill positioned naturally in the man's mouth, with correct orientation and feather detail, and does it avoid deformation or unnatural bending?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of dressing the man in a finely-tailored frock coat, assess whether the coat fits anatomically, drapes naturally over the shoulders and torso, and integrates seamlessly with the existing shirt, suspenders, and bow tie. The original clothing includes a white shirt with suspenders and a bow tie, so the coat must not obscure or distort these elements.",
+      "question": "Does the frock coat show proper folds and tailoring consistent with human anatomy, and does it overlay the shirt and suspenders without clipping or unnatural layering?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of adding an ornate high-back chair, evaluate whether the chair is structurally sound, proportionally scaled to the man’s height, and visually integrated into the scene without floating or misalignment. The original image shows the man seated at a table with no visible chair back, so the added chair must be consistent with the perspective and depth.",
+      "question": "Is the high-back chair correctly positioned behind the man, with proper alignment to his body and the table, and does it feature detailed carvings or patterns typical of Victorian design without geometric distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "Based on the sub requirement of surrounding the man with intricate, hand-drawn floral motifs typical of Victorian graphic design, assess whether these motifs are evenly distributed, stylistically consistent, and do not overlap or obscure key elements like the face, hands, or book. They should appear as decorative overlays without disrupting spatial logic.",
+      "question": "Are the floral motifs evenly placed around the figure and background, maintaining consistent line quality and style, and do they avoid overlapping critical elements such as the face or hands?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

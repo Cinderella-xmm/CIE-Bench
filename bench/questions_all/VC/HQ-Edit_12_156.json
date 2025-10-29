@@ -1,0 +1,92 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The **four-legged base** is the most defining structural feature of the Eiffel Tower. Its unique configuration — four massive arches converging at the top — is essential for recognition. Even if transformed into vines or stone, the **presence of four distinct legs** must remain to ensure the tower is still identifiable. Losing this feature would make the structure resemble a generic tower rather than the Eiffel Tower. This is a core identity element, hence weight 3.",
+      "question": "Does the structure retain four distinct legs forming a wide base that converge upward?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The **tapering silhouette** from a broad base to a narrow top is a signature trait of the Eiffel Tower. This shape is universally associated with the tower and distinguishes it from other towers. Altering this profile would fundamentally change its identity. Therefore, the **overall vertical taper** must be preserved, even if stylized. This is a core recognition feature, so weight 3.",
+      "question": "Is the tower’s shape vertically tapered, narrowing progressively from base to spire?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The **three-tiered platform layout** — with visible horizontal levels at different heights — is a key architectural detail. These platforms are historically accurate and visually distinctive. Even if converted into magical elements, their **positions and spacing** must remain to preserve structural logic and recognizability. This is an important scene element affecting identity, so weight 2.",
+      "question": "Are there three distinct horizontal levels or platforms visible along the tower’s height?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The **central alignment** of the tower within the frame is critical for compositional balance and identity. The tower is famously centered in views like this one. Deviating from this alignment would disrupt the viewer’s expectation and weaken recognition. This is a key positional element, so weight 2.",
+      "question": "Is the tower centrally positioned in the image, aligned with the center of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The **symmetrical pathway** leading directly to the base is a well-known feature of the Eiffel Tower’s surroundings. It provides spatial context and enhances the sense of grandeur. Removing or distorting this path would alter the scene’s coherence and diminish the tower’s landmark status. This is a minor but important environmental detail, so weight 1.",
+      "question": "Is there a straight, symmetrical pathway extending from the foreground directly toward the base of the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The **sun positioned directly behind the base** creates a dramatic backlighting effect and is a key compositional choice in the original. While the instruction allows changing the sky to nebulae, the **relative placement of the light source behind the base** must be preserved to maintain the visual narrative. This is a key lighting and spatial relationship, so weight 2.",
+      "question": "Is the light source (sun or equivalent) located directly behind the base of the tower, creating a halo effect?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The **distant cityscape** in the background provides geographical context and confirms the setting as Paris. While the skyline may be stylized, its **presence and general layout** should remain to preserve the scene’s authenticity. This is a secondary environmental detail, so weight 1.",
+      "question": "Is there a visible cityscape in the background, extending horizontally behind the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q8",
+      "thinking_process": "The **vertical dominance** of the tower — its height surpassing all surrounding elements — is essential to its identity. Even if stylized, the tower must remain the tallest and most prominent object in the scene. This ensures it remains the focal point and maintains its symbolic stature. This is a core compositional element, so weight 3.",
+      "question": "Is the tower significantly taller than all other structures in the image, dominating the vertical space?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    }
+  ]
+}

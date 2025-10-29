@@ -1,0 +1,59 @@
+Description of reference image: The subject is a slice of cheesecake served on an oval white plate. The cheesecake has a creamy filling topped with whipped cream and garnished with banana slices. The plate also contains additional banana slices and a generous dollop of whipped cream beside the cake. The setting appears to be a table with a beige surface, and there is a silver spoon placed near the edge of the plate. The table also partially shows another person’s hand.
+
+### Step 1 - Allowed Changes List:
+- Add a white Polaroid-style border around the image.
+- Add a handwritten caption at the bottom saying “Banana Cream Dream 2024.”
+- Apply a light brown vintage filter to the entire image to simulate a film effect.
+
+### Step 2 - Preservation Targets List:
+- The triangular shape and creamy texture of the cheesecake.
+- The presence of whipped cream and banana slices.
+- The white plate and its oval shape.
+- The beige table surface beneath the plate.
+
+### Step 3 - Question Generation:
+
+{
+    Q1: 
+    Thinking process: The triangular shape of the cheesecake is a key visual element. Losing this shape could cause confusion about the identity of the dessert. The creamy texture is also iconic for cheesecake. These are core elements necessary for the identity of the image.
+    Question: Does the image retain the triangular shape and creamy texture of the cheesecake?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The whipped cream and banana slices are essential garnishes that contribute to the theme of the dessert. Their absence would significantly alter the presentation and theme of the dish.
+    Question: Are both the whipped cream and banana slices present in the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3:
+    Thinking process: The white oval plate serves as the base for the dessert and is a significant part of the presentation. Its shape and color are critical for maintaining the image's visual consistency.
+    Question: Is the cheesecake still placed on a white oval plate?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The beige table surface provides context and grounding for the plate. It ensures that the scene remains relatable and consistent with the original setting.
+    Question: Is the beige table surface visible beneath the plate?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q5:
+    Thinking process: The spoon next to the plate adds a functional aspect to the image, suggesting readiness to eat. Removing it might break the connection between the dessert and interaction.
+    Question: Is the silver spoon still placed near the edge of the plate?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

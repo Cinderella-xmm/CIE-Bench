@@ -1,0 +1,145 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+Description of reference image:  
+The subject is a historic church building with a Baroque architectural style, located in an open public square. The church features a white-painted façade with stone trim, a central arched doorway topped by a cross and decorative stonework, a round window above the entrance, and a bell tower with a dome and spire. The roof is red-tiled, and the structure includes multiple ornamental finials and pilasters. To the left of the church, there is a multi-story building adorned with blue-and-white azulejo tiles, featuring balconies and large windows. In front of this building, a café occupies the sidewalk under large white umbrellas, with people seated at tables. Several pedestrians are walking across the paved plaza. A tree with green foliage stands near the café. The sky is partly cloudy with soft daylight illuminating the scene.
+
+Thinking process:  
+The editing instruction specifies transforming the entire scene into a **miniature porcelain diorama encased within a baroque-styled dome**, with specific material transformations:  
+- The church must be rendered in **fine china** with intricate details.  
+- People must be replaced with **tiny pewter figures**.  
+- The café tables and trees must be crafted from **delicate glass**.  
+- The entire scene must sit atop an **antique marble base**.  
+
+This implies that the **form and composition of the scene** (church, plaza, café, people, trees) can be reinterpreted in miniature scale and altered materials, but the **spatial layout and key structural elements** must remain recognizable to preserve identity.  
+
+Allowed changes include:  
+- Material transformation of all objects (e.g., stone → porcelain, flesh → pewter).  
+- Scale reduction to miniature.  
+- Encasement in a baroque-style dome.  
+- Replacement of real humans with figurines.  
+- Change in medium (real-world → diorama).  
+
+However, the **identity-defining visual characteristics** of the original elements—such as the church’s shape, the café’s location, the tree’s position, and the overall spatial relationship—must be preserved to maintain recognition.
+
+**Allowed Changes List:**  
+- Material of the church (stone → fine china)  
+- Material of people (flesh → pewter figures)  
+- Material of café tables and chairs (wood/metal → glass)  
+- Material of tree (living plant → delicate glass)  
+- Scale of the entire scene (full-size → miniature)  
+- Enclosure of the scene in a baroque-styled dome  
+- Base material (paved plaza → antique marble base)  
+- Presence of people (real → figurine form)  
+- Overall presentation (realistic photograph → diorama)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements are those that define the identity of the scene or subject. For this image, the **church's architectural form**—specifically its **Baroque façade, central arched doorway, round window, bell tower with dome and spire, and red-tiled roof**—are essential for identification. These features are iconic and distinguish this building from others. Even if made of porcelain, their **shape, proportion, and placement** must be retained.
+
+Functional/logical association elements:  
+- The **spatial relationship** between the church and the café area must be preserved (café to the left of the church).  
+- The **tree’s position relative to the café** must remain consistent.  
+- The **presence of the paved plaza** and **steps leading up to the church** must be maintained in layout, even if transformed into marble.  
+- The **relative positions of people** (walking, sitting, standing) should reflect the original scene’s logic.
+
+Non-modified element deduction:  
+After excluding allowed changes (materials, scale, enclosure), the remaining **structural forms, proportions, and layout** must be preserved. This includes:  
+- The **architectural silhouette** of the church.  
+- The **location and orientation** of the café and umbrella structures.  
+- The **tree’s placement** near the café.  
+- The **cross on the church’s façade** and **bell visible in the tower**.  
+- The **azulejo-tiled building** to the left, including its balcony and window pattern.
+
+These are not explicitly mentioned as changeable and are critical for maintaining visual coherence and recognition.
+
+**Preservation Targets List:**  
+- The church’s central arched doorway with cross above it  
+- The round window above the doorway  
+- The bell tower with dome and spire  
+- The red-tiled roof  
+- The café with white umbrellas positioned to the left of the church  
+- The tree near the café  
+- The steps leading up to the church  
+- The azulejo-tiled building with balconies to the left  
+- The cross atop the bell tower  
+- The presence of people in the plaza and café, in similar positions
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The central arched doorway with the cross above it is a core architectural feature of the church, uniquely identifying its religious function and Baroque design. Its presence and position are essential for recognizing the building as a church. If removed or altered beyond recognition, the identity of the structure would be lost. Therefore, this is a 3-point question.
+    Question: Is the central arched doorway with a cross above it present in the same position on the church facade?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The round window directly above the entrance is a distinctive architectural detail that contributes to the church’s identity. It is a unique feature not found in typical rectangular windows and helps distinguish this building. Its removal would alter the visual signature of the façade, making it less recognizable. Thus, it is a 3-point element.
+    Question: Is the round window located directly above the central doorway?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The bell tower with its dome and spire is a defining vertical element of the church. Its shape and placement are critical for identifying the building. Even in porcelain form, the silhouette must match. Losing this feature would compromise the church’s identity. Hence, it is a 3-point question.
+    Question: Is the bell tower with a dome and spire visible above the church roof?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The café with white umbrellas is a key scene element indicating the public square’s function and activity. Its location to the left of the church is essential for spatial coherence. While the materials may change, the arrangement and presence of these umbrellas must be preserved to maintain the scene’s context. This is a 2-point element.
+    Question: Are white umbrellas positioned over tables to the left of the church?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The tree near the café provides environmental context and anchors the scene visually. Its presence and relative position help establish the setting. Even if made of glass, its location must remain unchanged to preserve spatial logic. This is a 2-point element.
+    Question: Is a tree located near the café on the left side of the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The steps leading up to the church are a functional and visual element that defines access to the building. Their curved form and position are part of the plaza’s layout. Altering them would disrupt the scene’s logical flow. This is a 2-point element.
+    Question: Are curved stone steps leading up to the church entrance visible on the right side of the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The azulejo-tiled building with balconies is a culturally significant detail that adds regional identity to the scene. Its blue-and-white tile pattern and balcony structure are unique and must be preserved in form, even if rendered in porcelain. This is a 2-point element.
+    Question: Is a building with blue-and-white tiled walls and black metal balconies visible to the left of the church?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q8: 
+    Thinking process: The cross atop the bell tower is a symbolic identifier of the church. Its presence confirms the building’s religious purpose. Even in miniature form, it must remain visible. This is a 1-point element due to its smaller size but still important for identity.
+    Question: Is a small cross visible at the very top of the bell tower?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q9: 
+    Thinking process: The red-tiled roof is a distinctive color and texture feature that contrasts with the white walls and helps define the building’s appearance. Its preservation ensures visual consistency with the original. This is a 1-point element.
+    Question: Is the roof of the church covered in red tiles?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

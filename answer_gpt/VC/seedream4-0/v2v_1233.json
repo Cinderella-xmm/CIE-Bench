@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1233",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the patient still visibly connected to the IV drip via tubing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the IV drip bag labeled 'Blue IV' is positioned next to the patient's bed, and there is visible tubing connecting the IV bag to the patient's arm. The presence of this tubing visually indicates that the patient is still connected to the IV drip. This conclusion is drawn from the logical observation that an IV setup typically entails tubing connecting the IV bag to the patient, providing a continuous flow of fluids.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the nurse still interacting with medical supplies on the cart near the patient?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the nurse is depicted near a medical cart, with one hand appearing to engage with the objects on the cart, suggesting interaction. This observation is made through analyzing the nurse's hand positioning towards the items on the cart, which implies interaction. The reasoning considers the typical role of nurses in a medical setting, which includes handling medical supplies as part of patient care.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the medical monitors still visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, medical monitors are still visibly present in the background, showcasing various readings such as heart rate and other vital signs. This information is derived from the visual presence of screens displaying numbers and graphs, a common depiction of medical monitors in hospitals or healthcare settings. The reasoning includes recognizing that these visual elements represent vital monitoring equipment in the medical field.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the patient still lying in a relaxed position with his eyes closed?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the patient is depicted lying down in a bed, with the body in a relaxed position, and the head resting on a pillow. Although finer details like closed eyes are not prominently depicted due to the blurred face, the relaxed body posture aligns with a resting state commonly associated with having eyes closed, especially in a hospital setting. The reasoning considers typical appearances of patients resting in beds, often inferred as having closed eyes when in a relaxed or sleeping posture.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the IV stand still positioned next to the patient's bed?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the IV stand is visible next to the patient's bed, supporting the 'Blue IV' bag. The visual positioning of the stand suggests proximity to the bed and fulfills the logical necessity of IV equipment being close to the patient for effective delivery of fluids through tubing. This conclusion is reached by recognizing standard hospital practices where IV stands are placed near patients for accessibility and functionality.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

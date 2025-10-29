@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The woman’s attire, particularly the **colorful, patterned dress with symbolic motifs**, is the core identifier of her cultural identity. The specific combination of orange, green, yellow, and red with circular and floral designs is unique to the visual style of the original image. If these patterns are removed or replaced with unrelated designs, the cultural authenticity is lost, making the subject unrecognizable within the context of the instruction. This is a key identity feature, hence weight 3.",
+      "question": "Does the edited image retain the patterned dress with circular and floral motifs in orange, green, yellow, and red?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The **layered beaded necklaces** are a signature accessory in the original image and are explicitly mentioned in the instruction (“emphasizing her beaded jewelry”). Even if abstracted, their **presence and layered structure** must be preserved to fulfill the artistic intent. Their removal would violate the core directive about highlighting jewelry. Thus, this is a critical element, assigned 3 points.",
+      "question": "Are multiple layers of colorful beaded necklaces visible around the woman’s neck?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The **turban-style headwrap** with its distinctive multicolored pattern is a defining feature of the woman’s appearance. It is not merely decorative but part of the cultural attire. Its absence or replacement with a different head covering (e.g., hat, scarf) would alter the subject’s identity. Therefore, it must be preserved, even in stylized form. Weight: 3.",
+      "question": "Is the woman wearing a turban-style headwrap with a multicolored, patterned design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The **staff** she leans on is part of her posture and contributes to the narrative of strength and tradition. While the instruction allows abstraction, the **act of leaning** implies a physical support, and the staff is essential to that pose. Its removal would change the intended gesture and undermine the scene’s logic. This is a functional element tied to posture, thus weight 2.",
+      "question": "Is the woman leaning on a wooden staff?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The **mud hut with thatched roof** is specified in the instruction for one postcard. While the background can be changed, if the hut is included, its **basic structure** — rounded mud walls and thatched roof — must be retained. Altering it into a modern building or removing it entirely would violate the directive. This is an important scene element, weight 2.",
+      "question": "Is there a hut with a thatched roof and mud walls present in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The **human form** of the woman is fundamental to the subject’s identity. Even if abstracted into silhouette or geometric shapes, the **overall shape of a standing woman** must be discernible. Replacing her with an animal or non-human figure would break the core premise. This is a core identity feature, weight 3.",
+      "question": "Is the figure clearly a human woman in a standing position?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The **color palette** of the attire — especially the dominance of warm colors like orange, red, and yellow — is a hallmark of the original image and aligns with the instruction’s call for \"vivid colors.\" If the colors are desaturated or replaced with cool tones, the visual impact and cultural representation are compromised. This is a key aesthetic feature, weight 2.",
+      "question": "Are the dominant colors in the woman’s attire warm tones such as orange, red, and yellow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

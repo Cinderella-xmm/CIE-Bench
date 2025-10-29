@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_6709",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the perfume bottle appear to be constructed from Lego bricks without any visible unnatural textures or artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, the perfume bottle has sections that appear to be made of Lego bricks, particularly around the base. These bricks are recognizable by their studs and block-like structures, common characteristics of Lego bricks. However, the top part of the bottle which is supposed to be lego does mimic geometric shapes and lacks the smooth texture of a typical perfume bottle, making it unnatural but not necessarily artifact-ridden as it could be intentionally designed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the fabric background transformed into Lego bricks maintain a natural appearance without any obvious distortions or unnatural shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the fabric background is partially transformed into sections made of Lego bricks. While these bricks have the characteristic texture and shape of Lego, when compared to the flowing and natural drape of fabric in Image A, they do show a contrasting rigid and unnatural form, which is inherent to Lego construction.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the proportions and physical rationality of the perfume bottle and the fabric background preserved, avoiding any distorted geometric shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The proportions of the perfume bottle remain consistent with Image A, indicating that its structure is well-preserved despite the introduction of Lego elements. The fabric, however, when turned into Lego, loses its expected proportionate drape and instead exhibits flat planar Lego constructs, showing a deviation from natural fabric geometry.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the overall composition and layout of the edited image, with the perfume bottle and fabric background made of Lego bricks, retain visual credibility and coherence?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B has integrated Lego elements in a way that still maintains the overall recognizable structure of the perfume bottle and the spatial arrangement of the background. Despite the less natural appearance due to Lego textures, the composition coherently conveys the conceptual transformation intended by the edit.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the fine details of the perfume bottle and the fabric background accurately represented in the Lego brick form without any loss of detail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The transformation into Lego bricks inherently affects the fine details, as Lego has a simplistic block structure that cannot capture minute intricacies. Therefore, aspects like fine woven textures in fabric or intricate glass details in the perfume bottle are not replicated in the Lego form, leading to a loss of detail.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

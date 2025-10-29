@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The robot's humanoid form is a core identity feature; even when reimagined as an Art Deco sculpture, it must retain a recognizable human-like silhouette with distinct head, torso, arms, and legs. If these parts are absent or transformed into non-human shapes (e.g., animal or abstract blobs), the subject would no longer be identifiable as a robot. This is a 3-point question because losing this would fundamentally alter the subject’s identity.",
+      "question": "Does the edited image retain a humanoid robot with a distinct head, torso, arms, and legs?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The presence of flamingos is essential to the scene's narrative and visual theme. Even if stylized into geometric patterns, their existence must be confirmed. If they are entirely removed or replaced by unrelated objects (e.g., seagulls or abstract shapes with no bird-like qualities), the scene loses its defining element. This is a 3-point question because the flamingos are central to the image’s concept.",
+      "question": "Are flamingos present in the scene, either in biological or stylized form?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The beach environment — specifically the sand and water — defines the location. Even if stylized, the presence of a shoreline with sand and a body of water must remain. Removing or replacing these would shift the setting entirely (e.g., to a desert or forest), breaking continuity. This is a 2-point question because it’s a critical environmental anchor.",
+      "question": "Is there a sandy beach and a body of water in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The robot’s position among the flamingos establishes the scene’s spatial logic. If the robot is isolated or placed far from the flock, the narrative of “among flamingos” is broken. This is a 2-point question because it affects the scene’s coherence and intended relationship between subject and environment.",
+      "question": "Is the robot positioned within or surrounded by the flock of flamingos?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The presence of palm trees and rocks in the background is implied by the original image and must be retained, even if stylized. Their removal would eliminate key landscape features, making the setting unrecognizable. This is a 1-point question because it’s a supporting detail, but still necessary for visual consistency.",
+      "question": "Are palm trees and rock formations visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The robot’s upright stance is a functional posture that reflects its role as a standing figure. If it is crouching, lying down, or floating, the intended pose is lost. This is a 1-point question because it’s a minor but meaningful detail affecting posture recognition.",
+      "question": "Is the robot standing upright on two legs?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

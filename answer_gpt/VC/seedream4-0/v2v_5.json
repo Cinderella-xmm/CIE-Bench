@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_5",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the zebra retain its black-and-white striped pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the zebra is depicted as a cartoonish, stylized version with black-and-white stripes, resembling its natural pattern. This stylization replicates the zebra's distinct striping using a simplistic, charming artistic style, maintaining the recognizable black-and-white pattern common to zebras.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the cake retain its zebra-striped design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a cake designed with a zebra-striped appearance, similar to the design seen in Image A. Image B specifically continues this theme, using alternating black-and-white patterns on the cake's exterior, consistent with the zebra-striped design retained from the original.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the zebra still leaning forward toward the cake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there isn't a realistic zebra but rather a stylized, cartoon version interacting with the cake, held up within an Instagram frame. This chibi-styled model doesn't exhibit the same natural leaning posture toward the cake as witnessed in the realistic depiction of Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a single lit candle on the cake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cake lacks a visible candle. Unlike Image A, which clearly displays a single lit candle on the cake, Image B emphasizes the playful interaction and the themed design rather than a birthday candle detail.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the cake placed on a table surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the cake held within a stylized Instagram frame, indicative of a digital social media post. This contrasts with Image A, where the cake is placed on a wooden table. The setup in Image B doesn't suggest a conventional table placement, but rather holds it in the air as part of an artistic presentation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5555555555555556
+}

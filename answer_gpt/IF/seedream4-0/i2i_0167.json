@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0167",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image include the apple's current front view as originally shown?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are two views of the apple: a full apple and a cross-section view. The view of the full apple mirrors the full view seen in Image A. Thus, Image B does include the apple's current front view as originally shown.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a cross-section view of the apple that shows its inner flesh texture and seeds?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly depicts a cross-section of the apple, revealing the inner flesh and seeds, which is not visible in Image A that shows only a whole apple.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the image contain a top view that clearly displays the apple's stem structure and calyx area?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both the cross-section and the whole apple views in Image B do not provide a top-down perspective that clearly shows the stem's structure and the calyx area, as they are shot from a straightforward angle.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the current front view of the apple remained unchanged compared to the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The view of the full apple in Image B appears unchanged compared to Image A; it is still the same perspective or angle, depicting the apple's front view.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the cross-section of the apple reveal both the flesh texture and seeds accurately?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cross-section view shows the inner details of the apple, including the flesh texture and seeds. This aligns with expectations based on common observations of apple cross-sections, providing an accurate depiction.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

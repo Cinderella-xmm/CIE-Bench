@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_125_34",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the brass gears and levers on the desk properly aligned with the desk’s structure, showing no signs of floating, misshapen geometry, or unnatural material seams?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the brass gears and levers have been added to the desk. These elements need to appear as though they belong to the original desk, demonstrating proper integration. These gears should align with the wood's design without appearing as if they are floating. There are no visible seams or indications of poor integration, suggesting they are naturally part of the desk's structure.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the modified books display consistent glowing effects without distorting their page edges or causing unnatural light bleeding into surrounding surfaces?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The glowing effect added to the books on the desk in Image B requires uniformity, meaning that the glow should enhance the books without altering their physical shape or causing strange light effects around. Observing Image B shows that while the effect enhances visual appeal, the book's edges and surfaces remain consistent and natural, without excessive overflow onto the surroundings.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the holographic globe above the monitor clearly visible with proper depth and transparency, and does it cast natural shadows or reflections on the desk surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the holographic globe is a new addition above the monitor. For a hologram to appear realistic, it needs to have depth and some level of transparency. Furthermore, it should interact with the desk's surface by casting shadows or reflections that correspond with its position. The globe in Image B appears to have adequate transparency and depth, but it doesn't seem to cast shadows or interact with the desk surface visibly, which reduces its realism.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the newly added ornate frames around the windows seamlessly integrated with the existing window structure, without overlapping glass panes or creating distorted perspective lines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The ornate frames added around the windows in Image B need to seem as though they are original parts of the window structure. Seamless integration would mean that these frames fit well without cutting into or misaligning with the glass panes and follow natural perspective lines. The ornate frames are artistically in place, enhancing without apparent overlaps or distortions in the window's alignment.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do all edited elements (gears, glowing books, hologram, window frames) share consistent lighting and shadow behavior, avoiding abrupt changes in brightness or material properties?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, consistency in lighting and shadow behavior across all added elements — like gears, glowing books, the hologram, and window frames — helps them blend with the environment. Examining these elements, the lighting on gears and window frames seems consistent with their environment. However, the hologram lacks shadow or light interactions that tie it to the scene. Overall, while most elements align well, the hologram creates a slight inconsistency.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

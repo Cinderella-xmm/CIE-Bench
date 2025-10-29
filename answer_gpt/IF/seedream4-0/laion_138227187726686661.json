@@ -1,0 +1,97 @@
+{
+  "filename": "laion_138227187726686661",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the bedspread composed of multicolored LEGO-style blocks arranged in a patchwork pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the bedspread features bright, varied colors and textures characteristic of LEGO blocks. The visual design incorporates multiple colors in a manner that mimics a patchwork pattern, typical of quilts, suggesting the use of LEGO-style blocks. Common sense helps affirm that the use of LEGO shape and structure aligns with patchwork designs typically being multicolored and varied in pattern.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the sports balls on the quilt represented by circular arrangements of LEGO-style tiles?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing Image B, the sports balls appear to be composed of circular groupings of LEGO bricks, replicating the layout of spherical objects. World knowledge about LEGO design confirms that such circular configurations can effectively represent shapes like balls, using the many smaller, flat tile pieces to convey roundedness.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Has the pillow been replaced with a cube-shaped object constructed from stacked LEGO bricks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, on the bed, a cube-shaped object made from stacked LEGO bricks occupies the place where pillows are usually found. Common understanding of LEGO constructs acknowledges the possibility for creating symmetrical, geometric objects like cubes, supporting the observation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the bed resting on a plain white surface with a visible LEGO baseplate texture (grid of raised studs)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the floor or surface upon which the bed rests has a texture typical of LEGO baseplates, specifically a uniform field of raised studs. Recognizing this texture from LEGO sets, the presence of these studs indicates that the floor is likely a large LEGO baseplate, supporting the observation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the entire background of the image a smooth, uninterrupted white surface with no visible walls, windows, or furniture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Examining Image B reveals a background void of any typical room elements like windows or furniture, comprised entirely of a white surface. Understanding that such smoothness and lack of decorative features is consistent with studio-like settings or blank canvases helps confirm this observation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the bed frame or mattress appear to be constructed from LEGO bricks or styled to resemble LEGO material?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No (unless explicitly stated; default assumption is only the baseplate is LEGO)",
+      "explanation": "Image B shows a bed frame and mattress that do not exhibit LEGO textures or configurations like studs or block forms. Instead, they resemble regular furniture, diverging from the distinct LEGO style established elsewhere in the image. This suggests those aspects are not altered to mimic LEGO material.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are there any non-LEGO objects such as a real soccer ball, lamp, or framed picture present in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Upon close observation of Image B, the scene is devoid of any objects like soccer balls, lamps, or pictures that are not rendered in LEGO style. The image is dedicated to showcasing LEGO constructs exclusively, indicating the absence of non-LEGO items.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8571428571428571
+}

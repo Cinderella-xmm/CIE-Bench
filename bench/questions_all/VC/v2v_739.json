@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The shape of the eyes is a core recognition feature of the subject. In the original image, the eyes are almond-shaped with visible eyelashes and a soft downward gaze. This specific eye shape is critical for identifying the individual, especially when transitioning to a stylized form. If the eyes are altered in shape (e.g., made rounder or larger without preserving the original contour), the identity becomes unrecognizable. Therefore, the eye shape must be preserved in the chibi version, even if simplified. This is a key identifier, making it a 3-point question.",
+      "question": "Are the eyes almond-shaped with a downward gaze, maintaining their original proportion and orientation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The nose has a defined bridge and tip, forming a distinctive profile that contributes to facial recognition. In chibi styles, noses are often minimized, but if the original nose shape is completely lost (e.g., replaced with a dot or absent), the face loses its identity. Preserving the general shape and position of the nose ensures continuity. This is a core facial feature, thus weighted at 3 points.",
+      "question": "Is the nose present with a visible bridge and tip, positioned centrally between the eyes and mouth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The mouth has a slight upward curve at the corners, indicating a gentle smile. This expression is a defining emotional cue and part of the subject's identity. Even in a stylized version, the curvature and position of the lips must be retained to preserve the original mood and recognition. Losing this would alter the emotional tone and identity. This is a key facial feature, hence 3 points.",
+      "question": "Does the mouth have a subtle upward curve at the corners, forming a gentle smile?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The seated cross-legged posture is a structural element that defines the subject’s position in space. It is not mentioned as changeable, and altering it (e.g., standing or lying down) would break the continuity of the scene. While the chibi version may simplify the limbs, the basic pose—knees bent, legs crossed, body leaning forward—must be preserved to maintain logical consistency. This is an important scene-related element, so it is weighted at 2 points.",
+      "question": "Is the subject seated cross-legged with knees bent and body leaning forward?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The small gold stud earring in the left ear is a minor but identifiable detail. It is not mentioned in the editing instructions as being removed or changed, and its presence adds authenticity to the original image. In the chibi version, while accessories may be replaced, the existence of an earring in the same ear location should be preserved to maintain visual coherence. This is a detail-level element, so it is weighted at 1 point.",
+      "question": "Is there a small gold stud earring visible in the left ear?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The skin tone is a fundamental attribute of the subject’s appearance. The original image shows a light to medium skin tone with natural undertones. Changing this significantly (e.g., to a pale or dark tone) would alter the identity. While chibi styles may use flat colors, the base skin tone should remain consistent. This is a core identity feature, so it is weighted at 3 points.",
+      "question": "Is the skin tone light to medium with natural undertones, consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The head is tilted downward with the gaze directed at the phone. This orientation is crucial for conveying the original action and focus. Even in a stylized version, the head should maintain this angle to preserve the narrative of engagement with the device. This is a key pose element, so it is weighted at 2 points.",
+      "question": "Is the head tilted downward with the gaze directed forward and slightly down?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

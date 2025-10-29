@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_30727",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the person appear naturally integrated into the scene without any obvious artifacts or unnatural textures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the person added to the scene does not appear naturally integrated. The shadows and textures around the person do not align realistically with the rest of the image. The person's outline is slightly blurred and the interaction between the figure and the ground lacks consistency with the environmental lighting and textures. These aspects suggest the person does not blend seamlessly into the scene.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the zebra's head turned in a way that looks natural and plausible for a startled reaction?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The position of the zebra's head in Image B, where it is bent down towards the water, remains consistent with how a zebra would naturally drink water. Analyzing such settings and behaviors, a startled zebra would more likely have its ears up and head raised, not lowered towards the water. Therefore, the angle does not suggest a startled reaction.",
+      "weight": 1,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the zebra's stripes clear and detailed without any unnatural blurring or distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Even with the addition of the person in Image B, the zebra's stripes remain distinct and sharp without noticeable blurring or distortion. The stripes appear consistent with the natural patterns and clarity typically seen on a zebra.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the person's foot look like it is realistically pressing down on the zebra's tail without breaking geometric shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the placement of the person’s foot over the zebra's tail does not realistically depict an interaction where the foot would deform the tail under pressure. The tail maintains its natural contour and does not show signs of pressure impression, which would be expected if the foot were realistically pressing down.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the addition of the person maintain the overall composition and layout of the scene without disrupting the natural setting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The introduction of the person into Image B disrupts the natural composition of the scene. The focus shifts from the zebra as the main subject to including human interaction, which changes the original context. The added figure results in an imbalance, drawing attention away from the tranquility of the natural setting.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

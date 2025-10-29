@@ -1,0 +1,127 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is an ornate wooden wall clock mounted on a textured, dark grayish-blue wall. The clock features a richly carved wooden frame with classical architectural detailing, including fluted columns on either side, decorative floral carvings at the top and bottom, and a central crest-like ornamentation above the clock face. The clock face is circular, with a light beige or cream-colored background, black Roman numerals from I to XII, and a detailed, dark bronze-toned central medallion with intricate scrollwork. The hour and minute hands are blue with metallic sheen and ornate designs. A pendulum hangs below the clock, suspended by two thin rods; it consists of a round wooden disc with a dark, engraved pattern and a small golden knob at its center. The overall composition is symmetrical, with strong vertical emphasis and deep shadows accentuating the three-dimensional relief of the wood carving.
+
+**Thinking process:**  
+The editing instruction explicitly states:  
+- *"Transform the ornate wooden clock into a masterpiece of translucent crystal craftsmanship."* → This indicates the **material** of the entire clock structure (frame, details, pendulum) is to be changed from wood to crystal.  
+- *"Use frosted crystal for the clock's frame and intricate detailing."* → The **texture and material** of the frame and carvings must change.  
+- *"Replace the clock face with smooth, clear crystal featuring etched roman numerals."* → The **face material and numeral style** change, but the **presence and position** of Roman numerals remain.  
+- *"Reshape the pendulum into a faceted crystal ornament."* → The **form and material** of the pendulum change, but its **function and hanging position** are preserved.  
+- *"Mount the entire piece on a minimalist white marble wall"* → The **background scene** changes entirely from dark textured wall to white marble.
+
+From this, we extract the **allowed changes**:
+
+**Allowed Changes List:**  
+- Material of the clock frame: from wood to frosted crystal  
+- Material and texture of carvings: from carved wood to frosted crystal  
+- Clock face material: from wooden/aged surface to smooth clear crystal  
+- Style of numerals: from painted black to etched into crystal  
+- Pendulum form: from wooden disc with engraving to faceted crystal ornament  
+- Background wall: from dark textured wall to minimalist white marble  
+
+These changes affect **material, texture, and color**, but **not shape, function, or spatial relationships** unless implied.
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now determine what **must be retained** based on the original image’s visual content and the logic of transformation.
+
+1. **Core recognition elements**:  
+   - The **overall shape and layout** of the clock (rectangular frame with curved top, central clock face, pendulum below) is iconic to traditional wall clocks. Even if made of crystal, the **structure must retain its silhouette** to be recognizable as the same type of object.  
+   - The **position and arrangement of Roman numerals** (I–XII in clockwise order) are essential for identifying the timepiece function. Though their **style** may change (etched vs. painted), their **placement and sequence** must remain unchanged.  
+   - The **pendulum’s location and suspension method** (hanging from the bottom center via two rods) must be preserved because it is a functional component tied to the clock’s identity. Its **shape may change**, but its **spatial relationship** must not.
+
+2. **Functional/logical association elements**:  
+   - The **clock face must remain circular** and centered within the frame — this is essential for time-telling functionality.  
+   - The **pendulum must hang directly below the clock face**, connected via rods — this is a mechanical necessity and logical consistency requirement.  
+   - The **two supporting rods** must remain present and aligned vertically beneath the clock body, even if transformed into crystal.
+
+3. **Non-modified element deduction**:  
+   - The **fluted column design** on both sides of the clock is a defining feature of its architectural style; while material changes, the **columnar form and placement** should be retained.  
+   - The **top crest ornamentation** (foliate design) is a key decorative element that contributes to the clock’s identity — its **shape and position** should be preserved even if rendered in crystal.  
+   - The **bottom shelf and feet** of the clock case must remain — they define the base structure and balance of the design.  
+   - The **central medallion** (though replaced by crystal), must still occupy the **center of the clock face** and maintain its **circular shape** and **relative size**.
+
+Thus, while **materials, textures, colors, and internal details** can change, **structural forms, positions, and functional relationships** must be preserved.
+
+**Preservation Targets List:**  
+- The rectangular clock frame with curved top and fluted columns on each side  
+- The circular clock face positioned centrally within the frame  
+- The Roman numerals arranged in standard clockwise order (I–XII) around the clock face  
+- The pendulum hanging directly below the clock face via two vertical rods  
+- The presence of a central medallion within the clock face  
+- The top crest ornamentation above the clock face  
+- The bottom shelf and supporting feet of the clock casing  
+- The two vertical rods connecting the clock body to the pendulum  
+- The relative symmetry and alignment of all components  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The circular clock face is the core functional element of any analog clock. Its presence and central positioning are essential for identification. If it were absent or misplaced, the object would no longer be recognizable as a clock. Even when transformed into crystal, its **circular shape and central location** must remain. This is a **core identity feature**, hence weight 3.
+    Question: Is the clock face circular and positioned in the center of the wooden frame?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The Roman numerals (I–XII) are the primary means of reading time and are uniquely placed in a clockwise sequence around the dial. Their **presence and correct order** are essential to the clock’s identity. While their style may change (e.g., etched instead of painted), their **positions and sequence** must be preserved. Losing them would make the clock unrecognizable. This is a **core functional and symbolic element**, hence weight 3.
+    Question: Are the Roman numerals arranged in clockwise order from I to XII around the clock face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The pendulum is a defining feature of a grandfather-style wall clock. Its **position directly below the clock face**, suspended by two rods, is critical to the object’s mechanical and visual identity. Even if reshaped into a crystal ornament, its **spatial relationship** must remain. Changing this would break the logical structure of the clock. Hence, this is a **functional and structural element**, weight 3.
+    Question: Does the pendulum hang directly below the clock face, supported by two vertical rods?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4: 
+    Thinking process: The fluted columns on either side of the clock frame are a distinctive architectural detail contributing to the clock’s ornate appearance. Their **vertical placement and symmetrical positioning** define the frame’s structure. While material may change, their **form and location** must remain to preserve the clock’s identity. This is a **key structural element**, weight 2.
+    Question: Are there two fluted columns, one on each side of the clock face, extending from the top to the bottom of the frame?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The top crest ornamentation is a unique decorative element that contributes to the clock’s aesthetic identity. It is located at the apex of the frame and has a distinct foliate design. Even if rendered in crystal, its **presence and position** must be preserved to maintain visual coherence. This is a **secondary but identifiable detail**, weight 2.
+    Question: Is there a decorative crest with leaf-like carvings located at the top center of the clock frame?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The central medallion within the clock face is a prominent design feature, serving as a focal point. Its **circular shape and placement at the center of the face** are important for maintaining the visual balance and authenticity of the clock. Even if transformed into crystal, its **position and form** must remain. This is a **detail-level element**, but crucial for visual consistency, weight 1.
+    Question: Is there a circular medallion located at the center of the clock face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q7: 
+    Thinking process: The bottom shelf and feet of the clock frame provide structural balance and are part of the clock’s architectural design. Their **presence and symmetrical placement** contribute to the overall form. While material may change, their **form and position** must remain. This is a **minor structural detail**, weight 1.
+    Question: Are there two small rounded feet extending downward from the bottom corners of the clock frame?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

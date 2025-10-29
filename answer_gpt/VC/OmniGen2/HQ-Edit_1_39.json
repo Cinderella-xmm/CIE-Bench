@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_1_39",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the rectangular wooden window frame with stone pillars on both sides present and unaltered?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no rectangular wooden window frame visible, nor are there stone pillars on either side. Instead, the image features a creature standing in a desert landscape with no indication of a window frame. This suggests the absence of such elements in the edited image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the distant mountains and multiple upright cacti visible in the background beyond the window?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background shows a desert landscape with mountains and multiple upright cacti, supporting the perception of a typical desert environment. These elements are observable without the presence of a window framing them. Thus, this observation remains accurate to Image B's depiction.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the shadow of the pot cast to the left on the wooden sill, indicating sunlight from the right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not feature a pot or a wooden windowsill with shadows indicative of sunlight direction. Instead, it shows a creature in an open desert setting, making the context of shadows on a sill inapplicable.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the sky above the desert a clear blue with scattered white clouds?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The sky in Image B is indeed a clear blue with scattered white clouds, which fits the typical depiction of a bright, sunny desert day. This environmental feature is common and observable in the edited image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the windowsill made of weathered wooden planks with visible grain and cracks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not show a windowsill at all; it depicts a creature standing in a desert. Therefore, there are no wooden planks or windowsills visible, making this description not applicable to the edited image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the transformed creature positioned centrally within the window frame, on the windowsill?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a creature standing centrally in the desert landscape and not within a window frame or on a windowsill. The absence of any window structure in the image indicates no such positioning.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the ground beyond the window a flat, arid desert terrain with sparse dry grass and shrubs?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the ground portrayal is of an arid desert terrain, which includes sparse dry grass and shrubs, typical for such environments. Although not seen through a window, the landscape corresponds with this description, matching the desert scene present in the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

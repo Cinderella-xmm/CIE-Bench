@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The marbled pattern with flowing brown and gray veins on a white base is the core identity feature of the objects in the original image. This pattern is essential for identifying the material as marble-like and distinguishes it from plain white or uniformly colored objects. If this pattern is lost or simplified to uniform coloration, the material identity is destroyed, making the edited image visually inconsistent with the original intent. Therefore, this is a key identification element with a weight of 3 points.",
+      "question": "Is the flowing brown and gray marbled pattern visible on the surfaces of the LEGO bricks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The white base color with warm brown and gray accents is explicitly required to be maintained in the editing instructions. This color combination defines the material tone and aesthetic of the original image. Changing the base to a different hue (e.g., gray or beige) or removing the brown/grey accents would fundamentally alter the visual identity of the material, making it unrecognizable as derived from the original. Thus, this is a core color fidelity requirement with a weight of 3 points.",
+      "question": "Are the LEGO bricks rendered with a white base color accented by warm brown and gray marbling?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The organic, non-geometric distribution of veins in the marbled pattern is a key detail that distinguishes natural marble from synthetic or artificial patterns. In the original image, the veins follow fluid, irregular paths rather than straight lines or repetitive motifs. Preserving this irregularity ensures the authenticity of the material representation. If the veins become regular or grid-like, the illusion of natural stone is broken. This detail supports visual coherence and is therefore assigned a weight of 2 points.",
+      "question": "Do the marbled veins follow an organic, irregular flow rather than a geometric or repetitive pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The presence of both brown and gray veining within the same material is a distinctive characteristic of the original marbles. The combination contributes to depth and realism. Removing one of these colors (e.g., only brown or only gray) would reduce the richness of the material and deviate from the original visual balance. Since both are present in the original, their coexistence must be preserved to maintain material authenticity. This is an important detail affecting visual coherence, hence a weight of 2 points.",
+      "question": "Are both warm brown and gray veins present together in the marbled pattern of the LEGO bricks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The visual continuity of the material identity—specifically, the perception that the LEGO bricks are made of a marble-like substance—is crucial. Even if the shape changes, the material appearance must remain consistent. This includes the way light interacts with the surface (though texture changes to matte, the underlying pattern must still suggest stone). If the bricks appear plastic or synthetic without any trace of marbling, the transformation fails. This is a secondary but important coherence element, hence a weight of 1 point.",
+      "question": "Do the LEGO bricks visually appear to be made of a marble-like material based on their surface pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

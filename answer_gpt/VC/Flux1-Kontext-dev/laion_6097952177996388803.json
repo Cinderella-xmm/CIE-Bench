@@ -1,0 +1,97 @@
+{
+  "filename": "laion_6097952177996388803",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the two main mountain peaks still present and positioned side by side as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual cues show two prominent mountain peaks positioned side by side. The feature of two distinct peaks aligns with common mountain formations, where peaks are usually grouped. Given that this is a persistent natural geographical setup, the presence of side-by-side mountain peaks is consistent in both images.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the summits of both peaks retain patches of snow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The visual information in Image B indicates patches of snow visible at the summits of both peaks. These are light areas on the top portions of the mountains, consistent with typical snowfall patterns at higher elevations. Comparing this with Image A, it is evident that both mountains originally had snow patches at their summits, and this feature carries over.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the horizontal and vertical rock strata visible on the mountain faces?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays mountain faces that appear to have mostly vertical striations, which are typical of weathering and geological formations due to erosion and sediment layering. However, detailed horizontal strata specific to geological formations are not evident. In comparison, Image A shows more pronounced layering and striations that might suggest distinct geological strata, which aren't as visible in Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the narrow road visible winding through the lower valley, extending toward the base of the mountains?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there's an indistinct line in the valley that could be interpreted as a natural path or road, common in mountainous valleys, aiding in navigation through such terrains. Comparing external markings and tracks in Image A further indicates a more discernible road that follows the valley towards the mountains. Image B's road is less evident.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the slopes covered in patches of brownish-orange heather and dry grass, particularly in the mid-ground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B exhibits areas within the mid-ground of the slopes that showcase patches of browns and oranges, reinforcing the presence of heather and dry grass typical in seasonal mountainous terrains. Comparing this with Image A, the color scheme and vegetation patches are consistent, signifying similar flora coverage.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the sky uniformly overcast with no direct sunlight, resulting in soft shadows across the landscape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing the sky in Image B reveals a dense cloud cover that produces a uniformly overcast atmosphere, typical of dreary, cloudy weather which diffuses light into soft shadows on the landscape. This scenario compares similarly to Image A, where no direct sunlight creates soft shading.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Do the valleys show smooth, continuous contour lines that follow the natural slope of the land?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents a valley with contour lines that visually follow the slope of the land, giving an impression of smooth, continuous terrain, which is generally how natural valleys progress in mountainous terrain. Image A reinforces these contours comparatively, depicting similar smooth slope lines.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7058823529411765
+}

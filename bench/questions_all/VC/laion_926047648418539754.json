@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The model’s facial features, particularly her dark eyes, defined cheekbones, and full lips, are core identification markers. These features distinguish her from other models and are essential for maintaining identity. If altered, the subject becomes unrecognizable. Thus, this is a core identity element with weight 3.",
+      "question": "Does the edited image retain the model’s original facial features, including dark eyes, defined cheekbones, and full lips?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The long, straight black hair parted in the center is a distinctive visual trait that defines the subject’s appearance. It is not mentioned in the editing instructions to be changed, so it must be preserved. Its absence or alteration would break continuity with the original image. This is a key identity feature, hence weight 3.",
+      "question": "Is the model’s long, straight black hair parted down the middle still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The silver crystal choker necklace is a prominent accessory in the original image, located at the base of the neck. It is not mentioned for replacement or removal in the instructions, so it must remain. Its presence adds visual contrast and elegance. Losing it would remove a key accessory element, affecting coherence. This is an important accessory detail, thus weight 2.",
+      "question": "Is the wide silver crystal choker necklace still visible around the model’s neck?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The model’s posture—standing upright with legs slightly apart and hands clasped at the waist—is a structural element that defines the composition. The instruction does not alter pose, so this spatial relationship must be preserved. Changing it would disrupt the original framing and balance. This is a key compositional element, hence weight 2.",
+      "question": "Does the model maintain the same upright stance with hands clasped at the waist and legs slightly apart?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The hand positioning—both hands gripping the bag handle at waist level—is a functional detail that connects the model to the accessory. Even if the bag changes, the hand placement should remain to preserve logical consistency. This is a minor but important detail for visual coherence, thus weight 1.",
+      "question": "Are both hands positioned together at the waist, holding the bag handle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The model’s skin tone and body proportions are foundational to her physical identity. They are not mentioned for change and are essential for maintaining realism or proportionality in the stylized version. Altering them would distort the figure unnaturally. This is a secondary but necessary detail for coherence, hence weight 1.",
+      "question": "Are the model’s natural skin tone and body proportions preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

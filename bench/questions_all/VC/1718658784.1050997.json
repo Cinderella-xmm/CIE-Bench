@@ -1,0 +1,92 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The cake’s round shape is the core identity feature—it distinguishes it from other desserts or objects. If the shape is altered to an oval or rectangular form, it would no longer be visually recognized as a typical birthday cake. This is a critical identifier, hence weight 3.",
+      "question": "Is the cake round in shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The single lit candle is essential to the birthday theme. Its presence and vertical orientation on the cake are functional and symbolic. Removing or replacing it with multiple candles would violate the original intent and scene logic. This is a key functional element, hence weight 3.",
+      "question": "Is there exactly one candle on top of the cake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The cake stand is a necessary support structure. Even if stylized, it must remain under the cake and elevated, preserving the functional relationship. Losing it would make the cake appear to float unnaturally. This is a logical structural element, hence weight 2.",
+      "question": "Is the cake placed on a raised stand?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The vase with coral-pink flowers is a unique decorative element that contributes to the scene’s aesthetic and cultural tone. Its presence to the left of the cake establishes spatial balance. Removing it would disrupt the composition. It is a key accessory, hence weight 2.",
+      "question": "Is there a vase with coral-pink fluffy flowers on the left side of the cake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The cluster of colorful balloons floating above the cake is a major visual cue for celebration. While their rendering may change, their presence and upward direction must be preserved to maintain the festive atmosphere. This is a significant scene element, hence weight 2.",
+      "question": "Are there multiple colored balloons floating above the cake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The floral decorations (purple flower and green leaf) on the cake are small but specific details that add character. Their presence helps identify the cake as decorated, not plain. While stylized, they must remain visible. This is a detail-level element, hence weight 1.",
+      "question": "Are there small floral decorations (one purple and one green) on top of the cake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The chopsticks and candy bowls on the table provide cultural context and grounding. Their presence in the foreground maintains realism and scene coherence. Though minor, removing them would reduce authenticity. This is a detail-level element, hence weight 1.",
+      "question": "Are there chopsticks and small bowls of red candies on the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q8",
+      "thinking_process": "The background temple structure provides environmental context and cultural setting. While stylized, its silhouette and position behind the table must remain to preserve spatial logic. This is a key scene element, hence weight 2.",
+      "question": "Is there a traditional East Asian-style building visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the capybara into a Victorian-era gentleman, the headwear must be replaced with a top hat. The original image shows a blue knit beanie, so this replacement involves changing both shape and material. The new top hat must maintain structural coherence (e.g., proper brim and crown proportions), avoid unnatural textures, and integrate seamlessly with the capybara’s head without distorting facial features or creating geometric inconsistencies.",
+      "question": "Does the top hat sit naturally on the capybara's head without distorting the head shape or causing visible seams or texture mismatches?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The editing instruction requires replacing the modern cocktail glass with an ornate teacup and saucer. In the original image, the capybara holds a clear plastic cup with a straw and fruit garnish. This replacement involves altering object geometry, material properties (from transparent plastic to ceramic), and hand-object interaction. The teacup must appear physically plausible in the capybara’s paws, with correct scale, shadowing, and surface reflection.",
+      "question": "Is the teacup held by the capybara’s front paws at a natural angle and scale, with no deformation or floating appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The original image features a knitted sweater and scarf, which are warm clothing items. The transformation to a Victorian gentleman requires replacing these with a tailored suit made of fabric such as wool or tweed. The suit must align with the body structure of the capybara, preserving anatomical proportions and avoiding unnatural folds or stretching. Material texture should reflect realistic fabric behavior under lighting.",
+      "question": "Does the suit worn by the capybara exhibit consistent fabric texture, natural draping, and appropriate seam lines that follow the animal’s body contours?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The monocle is a key detail in the Victorian gentleman transformation. It must be positioned correctly over one eye, aligned with the face structure, and rendered with realistic glass and frame materials. The original image has sunglasses, so removing them and adding a monocle requires careful attention to occlusion, lighting reflections, and integration with facial fur.",
+      "question": "Is the monocle positioned properly over the capybara’s eye without overlapping fur unnaturally or showing rendering artifacts like ghosting or misalignment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The background must be changed from the Sydney Opera House scene to a 19th-century London riverscape featuring the Houses of Parliament and Big Ben. This involves complete environmental replacement while maintaining depth, lighting consistency, and atmospheric perspective. The new background must not introduce visual discontinuities, such as mismatched lighting direction or incorrect scale relative to the foreground subject.",
+      "question": "Does the London riverscape background align with the lighting and time of day of the original scene, and do architectural elements like Big Ben and the Houses of Parliament appear proportionally correct and spatially coherent?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

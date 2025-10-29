@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The text \"STORY PAGES\" is a core identification feature of the original image. It is not mentioned in the editing instructions as something to be removed or altered, and it functions as a direct label for the book illustration. Its presence is essential for maintaining the original message and identity of the image. If this text were missing or changed, the image would lose its primary communicative purpose. Therefore, it is a key element with a weight of 3 points.",
+      "question": "Is the text \"STORY PAGES\" present in uppercase serif font above the book?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The open book structure, including the visible spine and cover edges, is a core recognition feature. The book is clearly depicted as open, with two covers and a central spine. This structural detail is essential for identifying the object as a book. Even if transformed into a 3D chibi model, the open form must be preserved to maintain the book’s identity. Losing this would make the object unrecognizable as a book. Thus, it is a core element with a weight of 3 points.",
+      "question": "Does the book have a visible spine and two cover edges forming an open structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The curved page lines are a distinctive visual feature of the book illustration. They represent the stacked pages and are essential for conveying the idea of a book with content. These lines are consistent across both sides of the book and contribute to the symmetry and readability of the design. Even in a 3D chibi version, the presence of multiple curved lines indicating pages must be retained to preserve the book’s identity. This is a key functional detail with a weight of 2 points.",
+      "question": "Are there multiple curved horizontal lines on both left and right sides of the book representing stacked pages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The symmetrical layout of the book and text is a critical compositional element. The book is centered, and the text is aligned directly above it, creating a balanced and harmonious design. This symmetry contributes to the image’s clarity and aesthetic appeal. While the new scene may introduce asymmetry (e.g., a lamp on one side), the original symmetry between the book and text must be preserved to maintain the original visual logic. This is an important structural element with a weight of 2 points.",
+      "question": "Is the book centered horizontally and vertically beneath the text \"STORY PAGES\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The color scheme of dark navy blue for the book and text against a light beige background is a defining visual characteristic. This contrast ensures legibility and contributes to the image’s clean, minimalist style. Although lighting effects in the snow globe may alter perceived colors, the original color pairing must be preserved to maintain visual consistency. Changing the color could disrupt the image’s identity. This is a secondary but important detail with a weight of 1 point.",
+      "question": "Is the book and text rendered in dark navy blue on a light beige background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

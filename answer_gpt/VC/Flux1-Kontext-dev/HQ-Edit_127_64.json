@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_127_64",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the Eiffel Tower’s full lattice structure, including its three-tiered arches and pointed spire, clearly visible and structurally accurate?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the Eiffel Tower is depicted as a simplified graphic representation rather than a detailed, realistic rendering like in Image A. This illustration technique often overlooks intricate structural details such as the three-tiered arches and the precise lattice structure. As a result, while the general silhouette and features like the pointed spire are present, the structural accuracy is compromised compared to the photograph. Visual cues indicate a basic interpretation rather than an accurate replica.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the hedges arranged in a straight line with consistent cubic shapes and even spacing along the left side of the pathway?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the hedges have been abstracted out entirely, as it is an infographic design that does not represent natural elements such as trees or hedges from Image A. In Image A, they are distinctly visible in a straight and evenly spaced formation along the pathway. Therefore, in Image B, the absence of these elements means the condition can't be fulfilled.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the sandy pathway extend directly from the foreground toward the Eiffel Tower, maintaining a straight trajectory without bends or interruptions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, as an infographic representation, specific details like a sandy pathway, which are clear in Image A, aren't necessarily included. The visual design focuses on symbolic representation rather than realistic details. This means the pathway's direct trajectory can't be evaluated as it isn't specifically depicted in this infographic style.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the sun located in the upper-left portion of the sky with a clear starburst effect radiating outward?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not depict the sun or sky in the same manner as Image A. Instead, it uses an abstract and symbolic design format, omitting realistic sky elements like the sun and starburst effect seen in Image A, where the sun is indeed positioned in the upper-left. Image B focuses on illustrative communication, which doesn't include these details.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are black lampposts with traditional lanterns evenly spaced along both sides of the pathway?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, typical park elements such as lampposts, which are observed in Image A, are not visually featured. The infographic employs a different illustrative approach, omitting elements like lampposts for clarity and focus on the intended message, which does not include such specific landscape or architectural features.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there multiple individuals visible in the park, positioned naturally along the path and grassy areas, interacting with the environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B employs a symbolic approach representing generic figures to depict human interaction for illustrative purposes rather than realism. While Image A shows real people in natural poses within the environment, Image B uses simple silhouettes in an informational layout. There is a suggestion of activity and engagement but not in a realistic representation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.07142857142857142
+}

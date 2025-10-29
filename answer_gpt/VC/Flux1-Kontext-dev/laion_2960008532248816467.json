@@ -1,0 +1,97 @@
+{
+  "filename": "laion_2960008532248816467",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the stylized \"P\" logo with a cart-like shape and circular wheel present on the surface of both tarts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a visible stylized 'P' logo on the tart's surface, which resembles a cart with a circular wheel. World knowledge allows us to recognize this emblematic style of branding. In Image A, analyzing the same region, the logo with similar attributes is visible. Therefore, the stylized 'P' is present in both images.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the word \"PABLO\" written in uppercase letters beneath the logo on both tarts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the word 'PABLO' appears beneath the logo in distinct uppercase letters, which is a common practice for branding to emphasize the name. In Image A, the word 'PABLO' is similarly positioned and styled. The consistent use in both images indicates the presence in uppercase letters.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the top surface of each tart display a bright yellow layer covering most of the surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tart has a bright yellow layer on the top, typically indicative of an egg-based custard or cheese topping in desserts. Image A shows a similar yellow surface covering the tart, suggesting the same style or type of tart. Therefore, the top surface is bright yellow in both images.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a visible white creamy filling beneath the yellow top layer in both tarts, especially in the sliced portion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B visually shows a white creamy filling beneath the yellow layer in the tart, common in cheesecakes or cream tarts. In Image A, the sliced portion of the tart visibly exhibits a similar white creamy filling. This suggests consistency in the composition for both images.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the crust of both tarts exhibit a golden-brown color with a flaky, uneven edge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observation in Image B shows the tart with a golden-brown crust exhibiting a flaky, uneven edge—a characteristic of baked pastry. Image A displays a similar crust profile. Based on these observations and world knowledge about pastry textures, both tarts have this crust color and texture.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the rear tart partially sliced to reveal the internal cross-section of the filling and crust?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is only one whole tart visible, making it impossible to confirm any slicing or cross-section view. In Image A, the rear tart is partially sliced, showing the internal filling and crust structure, thus contrasting with Image B’s singular tart configuration.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the whole tart positioned in front of the partially sliced tart, with the latter slightly elevated and angled toward the back?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a whimsical tart surrounded by animated characters, without any sliced tart visible in the background for comparison or spatial arrangement. Image A, however, depicts this specific arrangement where the whole tart is in front, and the rear tart is sliced, thus differing from Image B.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8125
+}

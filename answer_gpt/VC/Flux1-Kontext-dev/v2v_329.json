@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_329",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the original colors of the bicycles preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bicycles exhibit distinct colors: red, yellow, blue, and black. Analyzing Image A, the bikes are colored red, beige, blue, and black. The yellow bike in Image B appears to have changed from the beige in Image A. This change suggests the original colors have not been fully preserved.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the original designs and structural details of the bicycles preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, each bicycle maintains its distinct frame style, handlebar design, seat type, and wheel structure. Upon examining Image A, the corresponding bicycles exhibit identical designs and structures as those in Image B. This indicates that the original designs and structural details have been preserved.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the original arrangement and relative positions of the bicycles preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows an arrangement where the bicycles are aligned in a specific sequence: red, yellow, blue, black. By examining Image A, the arrangement is similar with the bicycles in the same sequence and positions as in Image B, indicating the arrangement and relative positions are preserved.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the shadows cast by the bicycles and their alignment with the window grid preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the shadows align with the grid from the window, reflecting the various angles and designs of handlebars, pedals, and wheels accurately. Image A also shows such alignment with grid shadows that mirror the bicycles' real forms. The preservation of the shadow alignment suggests that it has been maintained.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the warm, diffused lighting from the window preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a warm, sepia-toned diffuse light emanating from the window, casting a subtle glow across the scene. Image A shows similar lighting characteristics, which confirms that the warm, diffused lighting has been preserved in the edited image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7272727272727273
+}

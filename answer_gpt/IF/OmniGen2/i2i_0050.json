@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0050",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image contain three separate frames capturing the skater's motion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B exhibits a singular scene featuring a horse grazing by a body of water, without any evidence of separate frames capturing motion. Thus, the image does not depict multiple frames or motion sequences.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the three frames clearly showing the push-off, ground contact, and forward lean of the skater?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Since Image B depicts a stationary scene of a horse and landscape, there are no frames showing a skater or any actions such as push-off, ground contact, or forward lean. This question's criteria do not match the content of the image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain the real image style without any significant stylistic distortions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B maintains a realistic style with natural colors and details, including a grazing horse and a background landscape. There is no evidence of stylistic distortion, suggesting that the image retains a real-life representation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are motion trajectory lines present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are no visual indicators such as motion trajectory lines. The scene is static, with a horse and a scenic background devoid of any dynamic or motion-related elements.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the three frames combined in a cohesive manner within the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a singular, cohesive scene focused on a grazing horse by the water. There are no elements resembling separate frames combined within this image, as it presents one continuous view.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

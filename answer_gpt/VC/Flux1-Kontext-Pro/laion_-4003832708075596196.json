@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-4003832708075596196",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are all leaf-shaped elements in the image, including those used as heads, clearly five-pointed maple leaves?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the leaf-shaped elements depicted in the illustration include both tree leaves and the heads of the two characters. The leaves have a signature maple leaf look with multiple points, typically around five to seven, common to maple leaves. The heads of the characters also mimic the shape of a maple leaf with multiple points. Even though they serve a different function, they maintain the same characteristic shape as the other leaves on the tree, suggesting that all leaf elements are five-pointed maple leaves.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are all leaf elements rendered exclusively in shades of orange, yellow, and red?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows leaf elements with a color palette that is typically associated with autumn, consisting of orange, yellow, and red hues. Each leaf in the illustration, whether forming part of the tree or designed as part of the character's heads, follows this color scheme, representing the vivid and colorful foliage seen in fall. Thus, all leaf elements adhere to these shades.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a solid brown rectangular border surrounding the central illustration?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, there is a border around the central illustration; however, it is not solid brown. The border appears neutral, blending into the background rather than standing out as solid brown. Comparing with Image A, which has a solid brown border, confirms that Image B does not have this solid brown characteristic.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the background of the card uniformly white?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background of Image B appears to be off-white or beige, providing a vintage or traditional look characteristic of such festive greeting card designs. This differs from Image A, which shows a bright, uniform white background. Thus, Image B's background is not uniformly white.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the central illustration positioned centrally within the card, bounded by the rectangular frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a central illustration of a tree with leaves, accompanied by characters and text, fitting within a rectangular boundary. This design gives a balanced appearance so that the illustration aligns centrally, focusing the viewer's attention on the thematic elements without shifting to the edges improperly, similar to common greeting card designs aiming for visual harmony.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6153846153846154
+}

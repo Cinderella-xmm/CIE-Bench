@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0059",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image retain the charred and cooked appearance of the steak?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the steak appears to have a darkened, seared surface consistent with being cooked, which is typical for grilled or pan-seared meat. The texture and coloration suggest charring, especially around the edges. However, the steak has been artistically modified with a steampunk-style mechanical overlay made of copper pipes and gears, which partially covers the surface. Despite this addition, the underlying steak still exhibits the visual characteristics of a well-cooked piece of meat—dark brown crust and visible grill marks. Therefore, while the appearance is augmented with artistic elements, the base charred and cooked look remains intact.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the broccoli florets still bright green with their natural shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The broccoli florets in Image B appear vibrant and predominantly green, indicating they are fresh and likely steamed or lightly cooked, preserving their color. Their structure maintains the characteristic tree-like branching pattern typical of broccoli, suggesting that their natural shape has not been distorted. Although the lighting and shadows may slightly alter perception, there is no evidence of wilting, browning, or deformation. The florets are positioned similarly to how they would be in a standard meal presentation, reinforcing that their natural form is preserved despite the creative context of the image.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the carrot slices retain their bright orange color and circular shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The carrot slices in Image B are clearly visible and display a vivid orange hue, consistent with fresh or lightly cooked carrots. They are cut into thin, elongated pieces rather than perfectly circular rounds, but they maintain an overall cylindrical shape with flat ends, which is typical for sliced carrots. While some variation in thickness exists, this is common in manual slicing and does not indicate distortion. The color remains uniform and bright, suggesting no significant degradation. Thus, although not uniformly circular, the carrots retain their expected appearance and color.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the steak positioned alongside the vegetables in the same arrangement as the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the steak is placed on the left side of the plate, adjacent to the vegetables (carrots, broccoli, potatoes, and lemon). In Image B, the steak is still located on the left side of the plate, but it now features an elaborate mechanical design overlaid on top, including pipes and gears. The vegetables remain on the right side of the plate, maintaining their relative positions. However, the placement of the steak has been altered slightly due to the added mechanical components, which extend over part of its surface and possibly shift its perceived alignment. Additionally, the presence of goggles on the potatoes introduces a new element not present in the original. While the general layout is similar, the specific positioning and interaction between the steak and surrounding food items have changed due to the artistic modifications. Therefore, the arrangement is not identical.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the image retain the colorful striped tablecloth beneath the plate?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the plate rests on a brightly colored, multicolored striped tablecloth with distinct vertical bands of various colors such as red, blue, yellow, and green. In Image B, the plate is placed on a golden metallic tray instead of a fabric tablecloth. There is no visible striped pattern beneath the plate; instead, the background consists of a reflective, textured gold surface. This change indicates that the original tablecloth has been replaced with a different serving surface entirely. Therefore, the colorful striped tablecloth is not retained in the edited image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7
+}

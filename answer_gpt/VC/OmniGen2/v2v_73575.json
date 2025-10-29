@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_73575",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image composed of two separate panels, with one bird on the left and one on the right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows two birds placed on different chess pieces, but they are positioned within a single frame. There is no visible division such as a line separating two panels, which is typically required for two separate panels.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the bird that was originally on the left still located in the left panel, and the bird that was originally on the right still located in the right panel?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, although the birds resemble origami sculptures and digital constructs, their alignment is similar to Image A, with the left bird resembling the original left bird, now stylized, and the right bird resembling the original right bird in digital form.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the bird on the left have its head turned toward the viewer, with its beak slightly open and facing forward?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The left bird in Image B is stylized to have its head turned forward, resembling the original posture, but as an origami sculpture. While the beak is visible, it does not appear slightly open; thus, it deviates from a slight opening.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the bird on the right have its body angled such that its back is partially visible and it is facing left?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the right bird angles such that its profile is visible, and it faces the left, consistent with the original posture in Image A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the feet of both birds clearly shown gripping a surface beneath them?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both birds in Image B are shown on top of chess pieces, with no clear detail of their feet gripping the surface visible in the stylized forms compared to real feet in Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Do both birds maintain an upright, balanced silhouette with a distinct head, body, and tail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, both birds, though stylized differently, have upright postures and distinct features such as head, body, and tail, similar in silhouette to birds depicted naturally in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.46153846153846156
+}

@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_125_136",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the American flag patch present on the right shoulder of the astronaut?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the astronaut is depicted with an American flag patch on the left shoulder only, and the right shoulder is not visible because of the perspective, thus it cannot be confirmed whether the patch is on the right shoulder.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the blue NASA insignia patch visible on the left shoulder of the astronaut?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the astronaut does not have a blue NASA insignia patch visible on the left shoulder. Instead, the shoulder appears to have no visible patch other than the American flag on the opposite side.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is Earth visible in the reflection within the astronaut’s helmet visor, appearing above the lunar horizon?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the astronaut's helmet visor is shown as blank and colorless, with no reflection visible. Therefore, Earth is not seen in the reflection as described.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the International Space Station visible in the background with its solar panels and modular structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the International Space Station is depicted prominently in the background. The modular structure and solar panels are clearly visible, suggesting its presence and distinctive appearance are easily identifiable.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the ground beneath the astronaut visibly cratered and gray, consistent with the Moon’s surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the astronaut standing on a stylized and simplified surface with minimal detailing, rather than a detailed, cratered lunar surface. There are no very visible craters, just simple shapes, indicating an illustrative rather than realistic approach.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the astronaut facing forward with both side lights on the helmet illuminated?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the astronaut is depicted in a cartoonish style facing slightly sideways with only one side of the helmet lights visible and illuminated, consistent with a drawing indicating directionality rather than a realistic photographic representation.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.13333333333333333
+}

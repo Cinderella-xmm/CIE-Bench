@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0042",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the subject's arms-raised pose preserved in the chibi-style figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi-style figure has its arms raised in a similar manner to the subject's pose in Image A. This is evident from the position of the arms outward to the sides. The use of world knowledge regarding typical celebratory or welcoming arm poses aids in recognizing the similarity in arm positioning.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the multiple plates of burgers, fries, and drinks still present on the table in the same positions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a depiction of meals on the table, including burgers, fries, and drinks, drawing from world knowledge about typical servings in a restaurant setting. However, Image B simplifies and condenses the number of items, displaying three burgers instead of four, and fries are limited to one visible serving. This suggests a reduction in the count and rearrangement for the chibi-style design.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the table still circular with a blue surface and metallic edge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon analyzing Image B, it presents the table in a manner that appears circular, as visualized by the symmetric round arrangement of the food items. Although the color blue may not be as vividly depicted, world knowledge about stylistic rendition in chibi figures informs that the blue color is maintained symbolically. Image A also confirms the table's circular shape and blue surface, allowing for consistency in interpretation.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the red booth surrounding the subject still visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly indicates a red seating structure that encompasses the chibi figure, highly similar to Image A's booth arrangement, which is portrayed in a spectrum of red tones. World knowledge about booth seating in restaurant settings and the artistic representation in chibi-style figures reinforces the continuity in design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the chibi-style figure still display a cheerful facial expression?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the absence of distinct facial features due to the blur makes it challenging to ascertain a cheerful expression directly. Nevertheless, world knowledge regarding chibi figures suggests that a cheerful or playful demeanor is often implied through pose and stylized settings, despite the indiscernibility of specific facial expressions.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5454545454545454
+}

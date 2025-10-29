@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The number of individuals in the image is a core structural feature. The instruction specifies a transformation of the scene but does not mention reducing or increasing the number of figures. Retaining three women ensures the original group dynamic is preserved. This is a fundamental identity element — altering it would make the edited image unrecognizable as a reinterpretation of the original scene. Hence, it is assigned a weight of 3.",
+      "question": "Are there exactly three women in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The central figure's position is crucial for visual hierarchy and narrative focus. In both original and edited versions, she is the focal point. The instruction describes her as a regal noblewoman, implying her prominence must be maintained. If her central placement were lost, the composition would lose its intended emphasis. This positional element is essential for maintaining logical consistency and thus deserves a weight of 3.",
+      "question": "Is the central woman positioned directly between the other two women?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The act of holding bouquets is explicitly preserved in the instruction — only the bouquet content changes. The hand gesture and location (in front of the body) must remain to maintain continuity in action. Losing this would break the functional link between the figures and their props, undermining the scene's coherence. This is a key behavioral element, hence a weight of 2.",
+      "question": "Do all three women hold bouquets in front of their bodies with both hands?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The forward-facing orientation of all three women is a defining compositional choice. It establishes direct engagement with the viewer and supports the formal portrait style. The instruction does not suggest changing viewing angles, so preserving this orientation maintains visual consistency. This is an important scene element affecting overall framing and balance, warranting a weight of 2.",
+      "question": "Are all three women facing directly toward the camera?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The standing upright posture is a baseline anatomical and compositional detail. It supports the dignity and formality implied by both the original and reimagined scenes. Altering posture (e.g., bending or sitting) would contradict the intended regal or ceremonial atmosphere. Though minor compared to other elements, it is necessary for logical consistency and is therefore assigned a weight of 1.",
+      "question": "Are all three women standing upright with full body visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The facial expression of joy — particularly the open-mouthed laugh of the central figure — is a distinctive emotional marker. While the instruction allows artistic reinterpretation, the emotional tone appears to be preserved. Losing this expressive detail would shift the mood significantly, potentially misrepresenting the original's spirit. As a key affective cue, it is assigned a weight of 2.",
+      "question": "Does the central woman have a wide, open-mouthed smile showing teeth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

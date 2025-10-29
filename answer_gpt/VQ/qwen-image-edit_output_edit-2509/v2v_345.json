@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_345",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the 3D voxel-style model of the mouse retain a natural texture similar to the original mouse's fur without any obvious unnatural artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the mouse is visually represented using a 3D voxel-style, which inherently includes a blocky and pixelated appearance. This style contrasts with the realistic fur texture seen in Image A. The voxel-style does not replicate the soft, detailed fur texture but instead presents a textured surface made of square, block-like elements. Such a representation is typical of voxel models and is not meant to mimic natural textures closely.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the proportions and physical rationality of the mouse's body parts in the 3D voxel-style model consistent with its original form, avoiding any distortion or deformation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite being in a voxel style, the mouse retains consistent proportions in relation to its ears, body, and tail similar to a real mouse, as seen in Image A. There is no noticeable distortion or deformation of the mouse's body parts; they maintain the size and shape expected of a mouse, even though the texture is different.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the edges and surfaces of the 3D voxel-style mouse model appear smooth and coherent, without any jagged or broken geometric shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the voxel-style design intentionally features a blocky appearance, which inherently includes jagged edges and geometric shapes. This is a characteristic of voxel art where objects are structured from cubes or block-like units, leading to visible edges and geometric patterning. The surface does not appear smooth in the traditional sense but is coherent with voxel aesthetics.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the interaction between the 3D voxel-style mouse model and the smartphone look plausible and realistic, without any unnatural positioning or shadows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the placement of the voxel-style mouse on the smartphone is logically plausible within the context of the image. The mouse sits on top of the phone, which is where you would reasonably expect a small object (or animal) to be placed. There are no noticeable discrepancies in the shadow or positioning that suggest an unrealistic setup. The interaction between the model and its environment seems coherent and believable.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the fine details of the mouse's features, such as whiskers and eyes, preserved in the 3D voxel-style model without any loss or degradation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the final representation of the mouse in a voxel-style naturally leads to some loss of fine details due to the nature of voxel art. While the general shape of features like the eyes is preserved, the precise details, such as fine whiskers, are either lost or significantly simplified. This simplification is a common characteristic of voxel art, where detail is often sacrificed to maintain the blocky style.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

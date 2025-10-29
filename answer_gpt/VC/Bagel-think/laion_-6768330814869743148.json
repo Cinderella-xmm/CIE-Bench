@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-6768330814869743148",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly four wooden trays arranged in a 2x2 grid?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the edited image, there are four distinct sections that use bright colors to represent items in trays. The layout and consistent design of these sections, along with the 2x2 grid pattern of repeated shapes, suggest that they depict four trays. Combining world knowledge of common bakery displays and the visual structure, it can be inferred that these sections are meant to represent four trays arranged in a 2x2 grid.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the madeleines retain their distinctive shell-shaped form?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the pastries in the bottom-right section are represented as simple, yellow, round shapes without any distinctive characteristics that resemble a madeleine's shell-like texture. In world knowledge, madeleines are known for having a shell-like pattern, which is not discernible in this abstract representation.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the label reading \"Madeleine\" positioned near the tray containing shell-shaped pastries?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, blue rectangular shapes are used to represent labels near the trays. Although we don't see text, we already determined in Q2 that there is no clear representation of shell-shaped pastries. Thus, without visible shell shapes and text labels, it cannot be confirmed that a label reading 'Madeleine' is positioned appropriately for shell-shaped pastries.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the word \"craster\" visibly engraved on the front of each of the four trays?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the trays are represented by bright pink sections with no visible textual engravings. Because the image highly abstracts the original content, specific details such as text cannot be confirmed as visible or engraved.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is parchment paper visible inside each of the four trays?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, regions inside the trays are filled with various colors indicating the presence of items or backgrounds. These colors are too abstract to definitively represent real-world items like parchment paper. Given the abstraction level, we cannot discern parchment paper specifically.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Do the pastries in the top-right tray retain their oval, slightly flattened shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the top-right tray features yellow circular shapes that do not demonstrate the oval, slightly flattened nature typical of certain pastries like those in Image A. The abstraction provides no detail to discern shape characteristics beyond color.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are the pastries in the bottom-left tray clearly shaped as sliced loaf bread with visible internal texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the bottom-left section contains red shapes, but lacks detail to depict the texture or specific shape associated with sliced loaf bread. World knowledge of what sliced loaf bread looks like conflicts with this abstract representation, indicating that the shape and texture are not clearly shown.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.16666666666666666
+}

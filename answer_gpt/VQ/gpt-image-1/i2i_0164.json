@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0164",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the area on the train where people were previously sitting look natural without any obvious artifacts or gaps?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the area on the train where people were previously sitting appears well-edited. The surface of the train and surrounding elements appear consistent and there are no visible artifacts or gaps suggesting removal of individuals. The cleanliness of the lines and the absence of jagged edges indicate that the editing was done with attention to maintaining the natural look of the train.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the conductor added atop the train well-integrated with the existing lighting and shadows, giving a natural appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The conductor in Image B seems well-integrated as the lighting on the figure is consistent with the lighting seen on the train. Shadows are in the correct direction based on the light source, and the positioning of the conductor does not show any signs of detachment from the scene, such as mismatched shadows or colors.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the flag held by the conductor look natural, with proper proportions and a logical position relative to the train's motion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the flag held by the conductor appears proportionate and logically positioned. It is aligned according to the train's motion, considering the direction of the smoke and the overall perspective of the image. There are no obvious distortions in shape or size that would make the flag look unnatural.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there any distortions or misalignments in the train's structure near the area where people were removed, and the conductor was added?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The train's structure in Image B appears intact and consistent. There are no visible distortions or misalignments near the areas where edits occurred, suggesting that the editing process maintained the integrity of the train's design and lines. The continuity of the train's features suggests careful editing.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the overall composition of the image remain balanced and stable after editing, with no noticeable shifts caused by the removal and addition of people?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The overall composition of Image B remains balanced and stable. The removal of people and addition of the conductor have been executed in a way that maintains the visual weight and harmony of the scene. The train is still the focal point, and the platform with people adds a sense of scale and depth without obvious imbalance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

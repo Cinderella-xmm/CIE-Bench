@@ -1,0 +1,83 @@
+Description of reference image: The subject is a classical marble bust of Apollo, depicted in profile facing right. The bust features intricately carved curly hair with defined ringlets and a smooth, flowing texture. The figure wears a draped garment over the shoulders, resembling a chiton or himation, with folds carefully rendered to suggest soft fabric. A small circular medallion or button-like ornament is visible on the left shoulder of the drapery. The base of the bust is a simple cylindrical pedestal with a rectangular plaque inscribed with the word "APOLLO" and smaller text below it ("VOLU." or similar). The entire sculpture is monochromatic, white in color, consistent with traditional marble statuary. The background is neutral gray, evenly lit, with no distinct textures or objects, providing a clean and unobtrusive setting that emphasizes the sculpture.
+
+Thinking process:  
+First, analyze the editing instructions to determine what can be changed. The instruction explicitly states to transform the bust into a steampunk-inspired sculpture. This includes:
+- Modifying the hair into **cogwheel curls** → allows change to hairstyle form.
+- Replacing the drapery with **metallic fabrics featuring rivets and tubes** → allows change to clothing material and design.
+- Adorning the base with **vintage watch parts and gears** → allows change to base decoration.
+- Adding a **monocle mechanism** to the blurred area (i.e., the eye region) → allows modification to facial features.
+- Maintaining harmony with a **polished bronze and copper color scheme** → allows change to overall color palette.
+
+These changes indicate that the **form of the hair**, **drapery**, **base details**, and **facial elements** are all permitted to be altered. However, the instruction does **not** mention altering the **identity** of the subject (Apollo), nor does it allow for changing the **overall silhouette**, **pose**, or **proportional structure** of the bust—these remain implied as foundational. Furthermore, while the style and materials may change, the **original identity** of the figure must still be recognizable as Apollo, meaning core recognition features must persist.
+
+Allowed Changes List:  
+- Hair shape and texture (transformed into cogwheels)  
+- Drapery material and pattern (replaced with metallic fabric, rivets, tubes)  
+- Base decoration (added watch parts, gears)  
+- Facial feature (add monocle mechanism to eye area)  
+- Color scheme (changed to bronze and copper tones)  
+
+Step 2 – Determine the elements that should remain unchanged
+
+Thinking process:  
+Core recognition elements: The bust represents the Greek god Apollo, identifiable by specific iconographic traits such as the **side-profile pose**, **curly hair**, **classical drapery**, and **inscribed nameplate**. While the hair and drapery will be modified, their **position and function** (e.g., hair covering head, drapery over shoulders) must remain consistent with the original form. The **profile orientation** (facing right) is critical to recognition and must not change. Additionally, the **presence of the nameplate** inscribed with "APOLLO" is a key identifier; even if stylized, its position and content must be preserved to maintain identity.
+
+Functional/logical association elements: The **pedestal supports the bust**, so its structural role must remain. Even if decorated with gears, it must retain its **function as a support base**. The **placement of the nameplate** is fixed at the front of the base—this spatial relationship must be preserved for logical coherence.
+
+Non-modified element deduction: Elements not mentioned in the allowed changes list, such as the **overall posture**, **neck-to-head proportion**, **shoulder alignment**, and **plaque location**, must be retained due to visual coherence. These contribute to the integrity of the original sculpture’s form. The **smoothness of the skin surface** and **contour of the face**, though possibly augmented with mechanical elements, must retain enough original shape to preserve Apollo's likeness.
+
+Preservation Targets List:  
+- Side-profile orientation of the head (facing right)  
+- Position and presence of the nameplate inscribed with "APOLLO"  
+- Overall silhouette and anatomical proportions of the bust (head, neck, shoulders)  
+- Location and orientation of the drapery (over left shoulder, crossing chest)  
+- Structural form of the pedestal (cylindrical base with flat top supporting bust)  
+
+{
+    Q1: 
+    Thinking process: The side-profile view facing right is a core identity feature of this particular representation of Apollo. In classical sculpture, the direction of gaze and pose are essential for recognition and stylistic continuity. Changing the orientation would fundamentally alter the viewer's perception and break the reference to the original work. Therefore, preserving the profile direction is critical and carries a weight of 3 points.
+    Question: Is the bust oriented in a side profile facing to the right?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The inscription "APOLLO" on the base is a definitive identifier of the subject. It is a textual and positional anchor that links the sculpture to its mythological identity. Even if stylized or integrated into a steampunk aesthetic, the presence and location of this label must be maintained to preserve the work's identity. Loss of this element would render the subject ambiguous, hence its weight is 3 points.
+    Question: Is there an inscribed plaque on the base with the word "APOLLO" visible?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The anatomical proportions of the bust—specifically the length of the neck, width of the shoulders, and curvature of the chest—are essential for maintaining the realistic human form characteristic of classical sculptures. Altering these could distort the figure beyond recognition as a classical male ideal. These proportions serve as a foundational structure upon which modifications (like mechanical additions) are built, making them critical for consistency. Thus, they are assigned a weight of 2 points.
+    Question: Are the proportions of the neck, shoulders, and chest consistent with the original sculptural form?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The drapery’s placement over the left shoulder and across the chest is a key compositional feature. Although the material may be replaced with metallic fabric, its path and coverage must remain unchanged to preserve the original gesture and balance. This spatial arrangement contributes to the visual harmony and identity of the piece. Therefore, retaining the drapery’s position is important but not absolute in identity, warranting a weight of 2 points.
+    Question: Does the drapery extend from the left shoulder across the chest in a diagonal fold?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The pedestal’s cylindrical form with a flat top and rounded base provides structural support and defines the presentation format of the bust. While decorative elements like gears may be added, the basic shape and function must remain intact. Any significant deviation would disrupt the visual logic of how the bust is displayed. This is a secondary but important detail, thus assigned a weight of 1 point.
+    Question: Is the base a cylindrical pedestal with a flat top and rounded bottom?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The presence of a small circular ornament on the left shoulder of the drapery is a subtle but distinctive detail that adds to the authenticity of the classical attire. Though minor, it contributes to the historical accuracy and visual richness of the original. If removed or replaced without integration, it could reduce the fidelity of the transformation. Hence, it is a detail-level retention worth 1 point.
+    Question: Is there a small circular medallion or button-like ornament on the left shoulder of the drapery?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

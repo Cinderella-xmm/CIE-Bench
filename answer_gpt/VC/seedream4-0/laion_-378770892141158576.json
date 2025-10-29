@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-378770892141158576",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the person have short dark hair?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the person is illustrated with short dark hair. This conclusion is drawn from visual cues such as the hair color and style which appear dark in tone and are depicted as short above the collar.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the person positioned at the edge of a lake with a grassy shore?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts the person sitting on a rock at the edge of a lake with visible grass around, indicating a grassy shoreline. This conclusion is based on visual elements such as the rock, body of water, and surrounding greenery.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the lake reflect the surrounding mountains?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the illustrations suggest a scenic view of a lake surrounded by mountains, but the exact reflection of mountains on the lake's surface is not visually detailed in the artistic representation. Thus, without explicit reflection detail, world knowledge implies it's less likely to be accurately depicted.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there purple and yellow wildflowers in the foreground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B's illustration features various wildflowers in the foreground, with a mix of purple and yellow flowers discernible. This is concluded from observing the floral elements and identifying the colors represented.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there rocks visible along the shoreline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the scene includes rocks where the person is seated along the lake's edge, indicating that rocks are present along the shoreline. This conclusion is made from visual cues of the person sitting on natural rock formations near the water.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the person facing away from the viewer toward the lake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B illustrates the person facing towards the lake, away from the viewer. This judgment is based on the positioning of the figure and their orientation depicted in the artwork.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are there rocky mountains with patches of snow in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "While Image B presents mountains in the backdrop, the depiction lacks distinct detail and snow patches present in the original photo. Given this artistic simplification, the element of snow patches isn't clearly depicted.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5384615384615384
+}

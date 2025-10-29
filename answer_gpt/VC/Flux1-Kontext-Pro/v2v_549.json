@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_549",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the Funko Pop-style figure wear the same uniform and helmet as the original player?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the Funko Pop-style figure is depicted wearing a uniform consisting of a light-colored jersey, dark sleeves, and dark socks, alongside a dark helmet. In assessing the uniform in Image A, the original player is also seen wearing a similar light-colored jersey with dark sleeves and dark socks, along with a dark helmet. Given these visual similarities, we conclude that the figure does indeed wear the same uniform and helmet as the original player.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the Funko Pop-style figure holding a baseball bat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The visual cues in Image B show the Funko Pop-style figure holding a baseball bat, which is evident in its hands positioned to grip the bat. This conclusion is drawn from the distinct shape and position of the bat, which matches the common depiction of a baseball bat being held by players or figurines.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the Funko Pop-style figure maintain a similar posture to the original player while holding the bat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the Funko Pop-style figure is positioned in a batting stance with its legs apart, knees slightly bent, and its hands holding the bat ready to swing, which is indicative of a typical batting position in baseball. In comparison, Image A shows the original player in a similar batting stance. This postural similarity is consistent with baseball batting positions, leading to the conclusion that their poses are alike.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a baseball depicted near the Funko Pop-style figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not depict a baseball near the Funko Pop-style figure. The figure is placed in a stationary setting without any additional objects like a baseball around it, which would be contrary to the dynamic action setting usual in live baseball scenes.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the catcher's protective gear visible in the product box scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a Funko Pop-style toy and its packaging, neither of which includes any depiction of additional players or a catcher's gear, unlike the live-action scene of a baseball game where a catcher would be present. The focus remains solely on the baseball figure itself alongside its packaging, leading to the conclusion that the catcher's gear is not visible in this product scene.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7777777777777778
+}

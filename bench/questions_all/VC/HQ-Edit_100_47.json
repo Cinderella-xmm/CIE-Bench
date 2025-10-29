@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The latticed iron structure of the Eiffel Tower is its defining architectural feature. The specific pattern of crisscrossing beams, the four arched legs, and the tapering spire are universally recognized. If these are altered or simplified beyond recognition, the tower cannot be identified as the Eiffel Tower. This is a core identity element, making it a 3-point question.",
+      "question": "Is the Eiffel Tower depicted with its characteristic lattice iron framework, including the four arched legs and tapered spire?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The reflecting pool is a key compositional and geographical feature of the view from the Trocadéro. Its rectangular shape and direct alignment toward the tower are essential for spatial accuracy. Even if made mirror-like, its form and orientation must remain identical. This is a crucial scene element that supports recognition of the location, hence a 2-point weight.",
+      "question": "Is the rectangular reflecting pool positioned directly in front of the Eiffel Tower, aligned along the central axis of the composition?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The symmetrical layout of the park, including the straight pathways and evenly spaced spherical trees, defines the formal garden design of the Champ de Mars. This pattern is a signature of the site. Altering its geometry would disrupt the authentic representation of the location. It is a major environmental detail, so it receives a 2-point weight.",
+      "question": "Are the pathways and tree arrangements in the foreground arranged symmetrically around the central axis leading to the Eiffel Tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The distant spire to the left (likely the Sacré-Cœur or another notable Parisian landmark) provides contextual grounding for the Parisian setting. Its presence helps anchor the scene geographically. While not the main subject, it is a key background feature that supports authenticity. Removing or altering it would misrepresent the skyline, so it is important enough for a 2-point weight.",
+      "question": "Is there a distinct spire-shaped building visible in the distance to the left of the Eiffel Tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The sun's position in the upper-left quadrant creates a specific lighting direction and atmospheric effect. While its brightness may be adjusted in the diorama, its location relative to the tower affects shadows and perspective. Preserving this ensures consistency in the scene's orientation and time of day. It is a minor but coherent detail, thus assigned 1 point.",
+      "question": "Is the sun located in the upper-left portion of the sky, casting light from that direction?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

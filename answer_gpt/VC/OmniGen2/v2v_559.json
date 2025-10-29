@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_559",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is there a white cup being held by the foreground figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the foreground figure is depicted in a stylized, cartoon-like manner, holding a white cup with both hands. The visual cues are clear, as the cup is prominently displayed in the center of the figure's chest area. The detailing in the image confirms the presence of the white cup.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the cup positioned near the mouth of the foreground figure, indicating a drinking action?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cup is held in front of the figure's torso rather than close to the mouth, suggesting that while the figure is holding it, there is no immediate indication of a drinking action taking place. The style of the image accentuates certain features, but the positioning of the cup does not correlate with the action of drinking.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a lamp emitting a soft, warm glow on a table in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts a lamp on a table in the background that appears to emit a warm glow due to the choice of colors and shading, which is consistent with the warm tones typically associated with soft lighting. The warm glow gives the scene a cozy atmosphere.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the second figure positioned near the glowing lamp in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the second figure is shown in the background with no clear proximity to the lamp. While the lamp is visible, the stylized approach doesn't provide an exact positioning reference as compared to Image A. However, it is inferred from the context of their relative positions that they are not close to each other.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are both figures wearing formal suits?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both figures in Image B are depicted wearing what appears to be formal suits, as indicated by the stylized representation of suit jackets, shirts, and ties. Despite the cartoony style, the attire is clearly formal, resembling traditional men's business suits.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the lighting in the scene warm and consistent with the original image’s tone?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The lighting in Image B retains a warm and cozy tone, utilizing soft shades and warm hues that echo the original's atmosphere. The choice of colors and shading in Image B corresponds to the warm and inviting feeling that is also conveyed in the original Image A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

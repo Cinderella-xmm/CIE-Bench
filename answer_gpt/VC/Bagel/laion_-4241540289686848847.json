@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-4241540289686848847",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the character retain the golden-yellow eye color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the eye color is not visible due to the facial blur. Without this detail, it's not possible to confirm the eye color from Image A. Therefore, the question of retaining golden-yellow eye color cannot be affirmatively answered.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the character’s facial structure (jawline, cheekbones, nose shape) preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B has a blurred face, making it impossible to discern specific facial features like jawline, cheekbones, or nose shape. Therefore, those structural features cannot be confirmed as preserved based on Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the character’s skin tone and texture preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The character's skin tone and texture on visible areas apart from the face appear consistent with what is present in Image A. Image B shares the same lighting setting and general coloring as Image A, suggesting skin tone and texture conservation.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the character’s body proportions and stance preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "When comparing Image A to Image B, the clothing and stance of the character appear consistent. Both images depict the character standing with similar posture, suggesting body proportion and stance are preserved.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the camera angle and lighting direction preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The camera angle and lighting direction are similar in both images as the character appears at a similar angle with shadows and highlights reflecting consistent light sources, suggesting preservation of camera angle and lighting.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the character’s relative position to the background preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The character in Image B is in the same relative position to the background, just as in Image A. The backdrop maintains a similar arrangement and scale to the character, indicating that relative positioning is preserved.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5384615384615384
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0126",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image include a front view of the office environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, there are office desks with computers, chairs, and individuals sitting and interacting at a table. These visual elements typically depict a front view of an office setup because we can see the face of the desk and the chairs in perspective as if viewed from the front. Such cues indicate a frontal depiction.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a side view of the office environment present in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image shows individuals seated at desks, interacting with computer screens that are visible from a straightforward angle. There are no visual cues such as the sides of desks or chairs seen in profile which would indicate a side view aspect. Therefore, it doesn't depict a side view of the office environment.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the image incorporate a top view of the office environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image features a depiction of the office table and chairs seen from above, which is another representation mode typical for top-down viewing styles. Such an arrangement of visual elements indicates a top view of the office environment.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the three views (front, side, and top) depicted as distinct illustrations within one image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image includes a front view of individuals at their desks and a top view of the office layout shown above. However, it lacks a side view illustration. Hence, only two types of distinct illustrations are present within one image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the combined illustrations show the full office environment layout comprehensively, covering essential elements like desks, chairs, and equipment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image displays desks, chairs, and computers as part of the office setup. It effectively incorporates these essential elements into the layout through front and top views, aligning with typical office environment features.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

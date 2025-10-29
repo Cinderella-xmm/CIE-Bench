@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The text \"NATIONAL ZOOLOGICAL PARK, WASHINGTON, D.C.\" is a core identifying feature of the original postcard, anchoring the image to a specific institution and location. It is not mentioned in the editing instruction as something to be removed or altered, and its removal would sever the historical and contextual identity of the image. This is a key textual element that defines the image’s provenance and must be preserved. Loss of this text would make the image unrecognizable as originating from the National Zoological Park, hence it is a 3-point element.",
+      "question": "Is the text \"NATIONAL ZOOLOGICAL PARK, WASHINGTON, D.C.\" present at the top center of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The label \"WART HOG\" directly identifies the subject before transformation. Although the subject is being reimagined, the caption remains essential for contextual continuity. Removing or altering this label would mislead viewers about the original subject, even if transformed. It is a key textual anchor and therefore carries high weight.",
+      "question": "Is the text \"WART HOG\" present at the bottom center of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The straw-covered ground is a defining environmental detail in the original image, providing a naturalistic setting for the animal. It is not mentioned in the editing instruction to be changed, and maintaining it ensures visual consistency between the original and edited versions. While whimsical elements could be layered over it, its presence as a textured ground layer is crucial for grounding the scene. This is a major environmental element, hence a 2-point question.",
+      "question": "Is the ground beneath the warthog covered with dry, pale yellow straw?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The dark green-brown background serves as a neutral, shaded enclosure typical of zoo exhibits. It is not referenced in the editing instruction, and replacing it without cause would disrupt the original setting. While the whimsical creature might emit light, the background should remain consistent unless specified. This is a key scene element supporting realism and context.",
+      "question": "Is the background behind the warthog a dark green-brown gradient, resembling an indoor or shaded enclosure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The white border frames the entire image and is characteristic of vintage postcards. Its absence would change the medium and aesthetic. Though not central to subject identity, it is a structural element of the image format and must be preserved for authenticity. This is a minor but important detail.",
+      "question": "Is there a white border surrounding the image, separating the artwork from the edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The code \"5A-H618\" is a cataloging identifier common in vintage postcards. It is not mentioned for change and is part of the original design. Its retention preserves archival integrity and helps trace the image’s origin. Though minor, it is a unique identifier and should be preserved.",
+      "question": "Is the code \"5A-H618\" present in the bottom right corner of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

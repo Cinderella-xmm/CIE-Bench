@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1005",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Have the heads of the three individuals been made slightly bigger?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the proportions of the heads and bodies appear slightly disproportionate, with the heads larger relative to the body size. This may be due to editing effects or perspective, which is a common method for emphasizing certain features. By comparing Image B to Image A, it becomes evident that the heads have been altered to appear slightly larger, giving them a more pronounced appearance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the facial features and accessories of the three individuals precisely detailed?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the facial features are intentionally blurred, making it impossible to discern precise details. It's commonly used when privacy is maintained or focus is shifted to other aspects of an image. The accessories like hats and scarves lack intricate detailing, maintaining a simple design. Comparing with Image A, both maintain the same level of detail except for the blurred effect on the faces.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the bodies of the three individuals have a cartoonish appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases individuals in winter clothing which appears realistic and fitting to the environment, without exaggerated features typical of cartoonish images. The proportions, textures, and colors are consistent with real-world attire. Comparing both images, there is no indication that the bodies in Image B have been edited to appear cartoonish when compared to Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the log cabin in the background smaller in scale compared to the individuals?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the log cabin behind the individuals appears moderately sized relative to them. The perspective and scale imply that the cabin is appropriately sized as per architectural standards, not excessively large or small compared to average human proportions. By analyzing Image A, the scale of the log cabin remains consistent. Therefore, the scale of the cabin is appropriate, neither exaggerated nor reduced.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the three individuals positioned in front of the small-scale log cabin?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows three individuals standing in the foreground while a sufficiently scaled log cabin occupies the background. Their positioning suggests they are in front of the cabin, which follows typical portrait composition logic. Analyzing Image A, the positioning remains unchanged, with the individuals clearly placed in front of the cabin. This confirms they are indeed in front of the log cabin, which is not small-scale relative to them.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

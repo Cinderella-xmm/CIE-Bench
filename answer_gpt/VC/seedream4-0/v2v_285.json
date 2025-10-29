@@ -1,0 +1,97 @@
+{
+  "filename": "v2v_285",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the large tree trunk with textured bark positioned on the left side of the image, partially obscuring the rear wheel of the bicycle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is indeed a large tree trunk with textured bark positioned prominently on the left side of the image. However, the rear wheel of the bicycle is not partially obscured by the tree trunk. Instead, the bicycle is in front of the tree, entirely visible. This placement allows the entire silhouette of the bicycle to be seen without any obstruction from the tree.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the bicycle make direct contact with the tree trunk, leaning against it on its left side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The bicycle in Image B is positioned close to the tree trunk but does not appear to be directly leaning against it. The bicycle is standing on its own in front of the tree, with both wheels visible, implying that it is not making contact with the tree to support itself.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a continuous road stretching from the foreground into the background, aligned horizontally across the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is indeed a road that stretches from the foreground into the background. It is aligned horizontally, creating a pathway from the front of the image into the distance, which is typical for creating depth in an image of this type.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there exactly three motorcyclists riding in a straight line along the road in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, instead of motorcyclists, there are three cartoon-like children riding bicycles on the road in a straight line. This reinterpretation turns the serious motorcyclist theme of Image A into a playful, childlike scene. Therefore, since they are not motorcyclists, the answer is based on the context of the edited image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the bicycle located on the left side of the image, with the road and motorcyclists positioned to the right and extending into the distance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bicycle is indeed located on the left side of the image. The road is positioned to the right and extends into the distance. However, the original context of 'motorcyclists' is altered to 'children on bicycles' in Image B, so considering the placement without the specific focus on motorcyclists as per Image A, the statement holds true regarding structure.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the rear wheel of the bicycle partially obscured by the tree trunk?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the rear wheel of the bicycle is not obscured by the tree trunk. The bicycle is fully in front of the tree, with both wheels visible and not hidden by any part of the tree trunk.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is there a round headlight mounted on the front fork of the bicycle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the depiction of the bicycle is stylized and cartoon-like, and it does include a small round element near the handlebars that could be interpreted as a decorative piece rather than a functional headlight, which is vastly different from the more traditional headlight seen on a vintage-style bicycle in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2857142857142857
+}

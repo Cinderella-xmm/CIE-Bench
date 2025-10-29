@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-6071318278954354621",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the original woman’s facial features, including the shape of her eyes, nose, mouth, and jawline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman's facial features such as the shape of her eyes, nose, mouth, and jawline are not visible at all, in contrast to Image A. This is due to the application of a blur effect over the face, making the analysis of these features impossible.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the original woman’s skin tone preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the woman's skin tone is visible, allowing for analysis. However, in Image B, a blur effect has been applied, obscuring the skin tone of the face completely and making it impossible to evaluate any preservation of skin tone.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image preserve the walking posture with the left leg forward and the right arm bent?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the woman is depicted with a distinctive walking posture, where her left leg is extended forward, and her right arm is bent. To determine if this posture is preserved, we observe Image B, where the description aligns with this posture, retaining the walking motion and positions of the limbs.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the hand positions preserved, with the right hand extended forward and the left hand near the hip?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, one can detail the positions of the woman's hands: the right hand extended forward and the left hand near the hip. Observing Image B, these positions are similarly depicted, indicating the preservation of the original hand placement.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the woman continue to look directly at the camera with the same gaze direction?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the woman appears as though she is looking directly forward, which might indicate a gaze towards a camera. However, in Image B, due to the facial blur, it is impossible to ascertain the direction of the gaze or whether it remains unchanged.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the body shape and proportions of the woman preserved, including her slender frame and leg length?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image A shows the woman possessing a distinct slender frame and noticeable leg length. Image B captures a similar body posture and proportions, indicating that these characteristics are retained in the edited representation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the original volume and curl pattern of the woman’s hair preserved, even if partially obscured or styled differently?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the woman has notably voluminous and curly hair, which can serve as a characteristic feature. Image B offers a similar portrayal, despite some partial obscuring, maintaining the same volumetric and curl appearance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.42857142857142855
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0125",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the word \"Fresh\" located at the bottom left of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the word 'Fresh' is visually placed at the bottom left corner of the image. This placement can be observed directly through the composition and alignment of the text in relation to the apples and the overall layout of the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the word \"Sweet\" located at the top right of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the word 'Sweet' is positioned at the top right corner just above the apples. The position is specific and clear based on its placement on the image. The top alignment allows the visual focus to be distributed evenly between the text and the apples.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the words \"Fresh\" and \"Sweet\" presented in a minimalist style suitable for a fruit brand poster?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The words 'Fresh' and 'Sweet' are displayed with a clean, bold font that complements the minimalist and clear style often used in advertising. This style is effective for a fruit brand poster as it delivers a straightforward and impactful message, emphasizing the quality and attributes of the apples.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have the original visual elements, such as the apples and their setting, remained unchanged apart from the added text?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon comparison with Image A, it is evident that the apples and their setting have undergone a background change. In Image A, the setting includes a wooden table and a sunlit window, whereas in Image B, the setting has been changed to a solid white background. This alteration indicates that there are additional changes besides the text.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any additional changes besides the addition of the words \"Fresh\" and \"Sweet\" in the specified locations?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Image B shows a different background compared to Image A. The apples now rest against a plain white background rather than on a wooden table by a window, indicating there were additional changes aside from just adding the text 'Fresh' and 'Sweet'.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

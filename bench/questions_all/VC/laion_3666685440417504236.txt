@@ -1,0 +1,117 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+Description of reference image:  
+The subject is a historic Islamic architectural ensemble, likely the Bibi-Khanym Mosque in Samarkand, Uzbekistan. The central feature is a large turquoise dome with ribbed surface texture and a golden finial at its apex. To the left stands a tall cylindrical minaret with geometric blue and yellow tile patterns near the top. The main structure features a massive iwan (vaulted portal) on the right side, richly decorated with intricate blue mosaic tiles forming floral and arabesque patterns, framed by golden highlights. The facade includes arched niches and recessed doorways beneath the iwan. The building is constructed from light beige brickwork, contrasting with the vivid blue tilework. In front of the structure lies a spacious courtyard with terraced steps, small evergreen trees, and paved walkways. A few people are seated near the base of the iwan, providing scale. The sky is clear and bright blue, indicating daytime under strong sunlight.
+
+Thinking process:  
+The editing instruction specifies transforming the entire architectural ensemble into a **3D model displayed inside an intricately painted ceramic globe**. This means the **physical form and spatial context** of the original scene are to be fundamentally altered. However, it explicitly states that certain **visual elements must be preserved**:  
+- The **turquoise dome**  
+- The **ornate arches**  
+- **Golden highlights**  
+- **Lush miniature palm trees** (new addition)  
+- **Cobblestone path** (new addition)  
+- The **globe’s exterior adorned with Persian patterns**  
+
+Thus, the **original physical environment**, including the sky, courtyard layout, trees, people, and surrounding buildings, can be changed or removed. The **core architectural forms**—especially the dome, minaret, and iwan—are to be **retained in stylized form within the globe**, but their **scale, context, and presentation** will shift.
+
+Allowed Changes List:  
+- The overall scene (sky, open courtyard, surrounding landscape)  
+- Presence and position of people  
+- Real-world scale and proportions  
+- Lighting and shadows (due to new enclosed environment)  
+- Background buildings and distant structures  
+- Plant species (e.g., replacing existing trees with palm trees)  
+- Ground surface (replacing paved areas with cobblestone paths)  
+- The actual materiality of the architecture (now part of a model)  
+- Spatial orientation (the model may be rotated or viewed from different angles)  
+- Addition of new elements not present originally (palm trees, cobblestone path, ceramic globe)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements must be retained because they define the identity of the architectural complex. Even though the scene changes, the **iconic visual features** must remain identifiable. These include:  
+- The **turquoise color and ribbed texture of the dome** — this is a signature element of Timurid architecture and essential for identification.  
+- The **distinctive shape of the iwan with blue mosaic tiling** — especially the pointed arch and symmetrical decorative motifs.  
+- The **minaret’s height and patterned band near the top** — its verticality and design distinguish it from other towers.  
+- The **golden highlights** mentioned in the instruction — these are specified as a key aesthetic detail to preserve, so they must appear on the model.  
+- The **architectural silhouette and proportional relationships** between dome, iwan, and minaret — altering these would make the structure unrecognizable.  
+
+Functional/logical association elements:  
+- The **spatial hierarchy** of the mosque: the dome centered behind the iwan, the minaret adjacent — this layout must be preserved to maintain architectural logic.  
+- The **entryway sequence**: the iwan as the grand entrance must remain as the focal point.  
+
+Non-modified element deduction:  
+Although the scene changes, the **original textures and colors** of the key components must be retained in the model. For example, the **blue mosaic tile patterns** must still cover the iwan and dome, even if stylized. The **beige brick base** should remain visible. The **gold finial** on the dome must be included. The **geometric patterns** on the minaret must persist. These details are not explicitly allowed to change, and omitting them would violate the intent of the instruction to “showcase” the original features.
+
+Preservation Targets List:  
+- Turquoise dome with ribbed surface and gold finial  
+- Blue mosaic tilework on the iwan and dome  
+- Golden highlights on architectural edges and arches  
+- Beige brick construction of walls and base  
+- Vertical minaret with patterned upper band  
+- Central iwan with pointed arch and symmetrical design  
+- Proportional relationship between dome, iwan, and minaret  
+- Presence of ornate arches in the facade
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The turquoise dome is the most iconic element of the structure, instantly recognizable due to its vibrant color, ribbed texture, and golden finial. Its presence and specific appearance are critical for identifying the building. Any loss of the dome's turquoise color or ribbed pattern would render the model unrecognizable as the original mosque. Therefore, preserving the dome’s visual characteristics is essential.
+    Question: Is the turquoise-colored, ribbed dome with a golden finial present in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The iwan’s ornate blue mosaic tilework is a defining feature of Timurid architecture. The instruction specifically mentions "ornate arches" and "golden highlights," which directly refer to the iwan’s facade. The intricate patterns and color scheme are core to the building’s identity. Removing or altering this tilework would undermine the authenticity of the representation.
+    Question: Are the blue mosaic tiles with floral and geometric patterns covering the iwan’s facade present in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The minaret’s distinctive height and the patterned band near its top are unique identifiers. Although the instruction allows miniaturization, the minaret’s shape and decorative band must remain to preserve the architectural integrity. Losing this feature would distort the composition and reduce recognition.
+    Question: Is the tall cylindrical minaret with a patterned band near the top visible in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The golden highlights are explicitly mentioned in the instruction as a required feature. These accents enhance the visual richness and are historically accurate for such structures. Their absence would result in a less authentic and visually incomplete model.
+    Question: Are golden highlights present along the edges of the arches and dome in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The beige brick base is a consistent material feature across the structure and provides contrast to the blue tiles. It is a foundational element of the building’s appearance. While the instruction allows stylistic changes, the base color and material texture should be preserved to maintain visual coherence.
+    Question: Is the beige brick construction of the lower walls and base visible in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The proportionality between the dome, iwan, and minaret is crucial for architectural accuracy. The dome should be centered above the iwan, and the minaret should be adjacent and vertically aligned. Disrupting this layout would create a misleading representation.
+    Question: Is the dome positioned centrally behind the iwan, with the minaret to the left side of the structure?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The ornate arches, particularly the pointed arch of the iwan, are structural and decorative hallmarks. Their presence defines the entrance and contributes to the overall aesthetic. Altering their shape or removing them would compromise the architectural style.
+    Question: Are the pointed arches of the iwan and surrounding niches clearly visible in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

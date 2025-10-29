@@ -1,0 +1,131 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject consists of three women standing side by side outdoors, with lush green foliage in the background. The central figure is a bride wearing a white mermaid-style wedding gown with intricate lace detailing on the V-neckline and bodice, and a fitted silhouette that flares slightly at the bottom. She has blonde hair styled in soft waves, pulled back from her face, and is laughing openly with her mouth wide open. Her hands are clasped in front, holding a bouquet of white roses, greenery, and ferns tied with a white ribbon. On either side of her are two bridesmaids, both wearing floor-length, sleeveless dresses in white with gold abstract brushstroke patterns. Their dresses have square necklines and thin straps. The bridesmaid on the left has dark brown wavy hair, large ornate earrings, and holds a similar bouquet of white flowers and greenery. The bridesmaid on the right has shoulder-length auburn hair, also with large earrings, and holds an identical bouquet. All three women are smiling or laughing, facing forward, positioned in front of a white railing with dense green trees behind them. The lighting is natural daylight, bright and even.
+
+---
+
+**Thinking process:**  
+The editing instruction explicitly reimagines the scene as a **Renaissance portrait**, transforming:
+- The central figure into a **regal noblewoman** in a **velvet gown with lacework and pearls**, carrying **dark roses**.
+- The bridesmaids into figures in **brocade dresses with gold embroidery**, holding **vintage floral arrangements**.
+- The setting into an **elegant arched garden with classical statues and stone pathways**, evoking an **opulent, timeless ambiance**.
+
+This indicates that:
+- The **form, material, and style of clothing** are to be changed (from modern wedding attire to Renaissance-inspired garments).
+- The **bouquets** are to be transformed (from white roses and greenery to dark roses and vintage arrangements).
+- The **background environment** is to be replaced (from a natural outdoor setting with trees and railing to a classical garden with arches and statues).
+
+However, the instruction does **not** specify any changes to:
+- The **number of people** (three women remain).
+- The **relative positioning** (central figure flanked by two others).
+- The **posture and orientation** (all facing forward, standing upright).
+- The **presence of bouquets** (they are still held, but their content changes).
+- The **facial expressions** (laughing/smiling — though mood may be preserved stylistically).
+
+Thus, elements related to **identity, count, spatial arrangement, and gesture** are implicitly retained unless contradicted.
+
+---
+
+**Allowed Changes List:**
+- Gown style and fabric (modern wedding dress → velvet, lace, brocade)
+- Bouquet composition (white roses → dark roses; greenery → vintage florals)
+- Background scenery (natural foliage and railing → classical garden with arches, statues, stone paths)
+- Hair styling and accessories (can be altered for period accuracy)
+- Lighting and color palette (to match Renaissance aesthetic)
+- Texture and pattern of dresses (modern gold brushstrokes → gold embroidery on brocade)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now determine what must be **retained** based on exclusion from the "allowed changes" list and core identity logic.
+
+1. **Core recognition elements:**  
+   - The **number of individuals (three)** is essential to maintain the group structure. Changing this would fundamentally alter the scene’s meaning.
+   - The **spatial configuration (central figure flanked by two others)** is critical for visual balance and narrative structure. It defines the hierarchy and symmetry typical of portraits.
+   - The **act of holding bouquets** is a key action that remains in the instruction — only the bouquet type changes. Therefore, the **gesture of holding flowers in front** must be preserved.
+   - The **facial expressions (smiling/laughing)** are implied in the original and likely intended to be preserved in tone, even if stylized. While not strictly required, the emotional state contributes to coherence.
+
+2. **Functional/logical association elements:**  
+   - The **positional relationship between the figures** (side-by-side, aligned horizontally) must remain intact to preserve the compositional logic of a group portrait.
+   - The **hand positions** (holding bouquets) are functional — they anchor the objects in space and suggest interaction. Even if bouquet content changes, the hand pose should be consistent.
+
+3. **Non-modified element deduction:**  
+   - The **presence of all three women** is not mentioned as changeable, so it must be retained.
+   - The **overall posture (standing upright, facing forward)** is not specified to change, so it should remain.
+   - The **bouquet-holding gesture** is referenced in the instruction (they still hold flowers), so the physical act must persist.
+   - The **general body shape and proportions** of the figures are not specified to be altered, so they should be preserved for consistency with human form.
+
+Even though the clothes, flowers, and background are to be transformed, the **structural layout** of the subjects — their number, position, orientation, and basic actions — must remain unchanged to maintain visual coherence and avoid confusion about the scene’s intent.
+
+---
+
+**Preservation Targets List:**
+- Number of women (three)
+- Central positioning of the bride/noblewoman
+- Flanking positions of the two bridesmaids
+- Standing upright posture of all three
+- Forward-facing orientation
+- Hands holding bouquets in front of the body
+- Facial expressions indicating joy (smiling/laughing)
+- Relative spacing and alignment of the figures
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The number of individuals in the image is a core structural feature. The instruction specifies a transformation of the scene but does not mention reducing or increasing the number of figures. Retaining three women ensures the original group dynamic is preserved. This is a fundamental identity element — altering it would make the edited image unrecognizable as a reinterpretation of the original scene. Hence, it is assigned a weight of 3.
+    Question: Are there exactly three women in the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The central figure's position is crucial for visual hierarchy and narrative focus. In both original and edited versions, she is the focal point. The instruction describes her as a regal noblewoman, implying her prominence must be maintained. If her central placement were lost, the composition would lose its intended emphasis. This positional element is essential for maintaining logical consistency and thus deserves a weight of 3.
+    Question: Is the central woman positioned directly between the other two women?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The act of holding bouquets is explicitly preserved in the instruction — only the bouquet content changes. The hand gesture and location (in front of the body) must remain to maintain continuity in action. Losing this would break the functional link between the figures and their props, undermining the scene's coherence. This is a key behavioral element, hence a weight of 2.
+    Question: Do all three women hold bouquets in front of their bodies with both hands?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The forward-facing orientation of all three women is a defining compositional choice. It establishes direct engagement with the viewer and supports the formal portrait style. The instruction does not suggest changing viewing angles, so preserving this orientation maintains visual consistency. This is an important scene element affecting overall framing and balance, warranting a weight of 2.
+    Question: Are all three women facing directly toward the camera?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The standing upright posture is a baseline anatomical and compositional detail. It supports the dignity and formality implied by both the original and reimagined scenes. Altering posture (e.g., bending or sitting) would contradict the intended regal or ceremonial atmosphere. Though minor compared to other elements, it is necessary for logical consistency and is therefore assigned a weight of 1.
+    Question: Are all three women standing upright with full body visible?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q6: 
+    Thinking process: The facial expression of joy — particularly the open-mouthed laugh of the central figure — is a distinctive emotional marker. While the instruction allows artistic reinterpretation, the emotional tone appears to be preserved. Losing this expressive detail would shift the mood significantly, potentially misrepresenting the original's spirit. As a key affective cue, it is assigned a weight of 2.
+    Question: Does the central woman have a wide, open-mouthed smile showing teeth?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

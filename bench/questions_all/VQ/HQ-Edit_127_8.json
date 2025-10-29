@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the castle scene into a detailed 3D diorama within a glass orb, the entire composition must be restructured to fit inside a spherical boundary. This involves scaling down all elements proportionally and embedding them in a transparent, refractive medium. The question evaluates whether the structural coherence of the original scene—specifically the gate, knight, and surrounding architecture—is preserved in scale and spatial logic within the orb, avoiding distortions such as warped geometry or misaligned perspectives.",
+      "question": "Are the stone towers, archway, and knight proportionally scaled and positioned correctly within the glass orb without geometric distortion or unnatural perspective shifts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The instruction specifies minifying stone textures for authenticity. This requires that surface details like masonry patterns, weathering, and texture grain are reduced in size but remain visible and consistent with real-world miniature materials. The evaluation focuses on whether the textures appear artificially blurred or oversimplified due to downsizing, which could compromise perceived realism.",
+      "question": "Do the stone textures on the towers and gate retain fine detail and natural variation after being minified, without appearing overly smooth or pixelated?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The armor-clad knight and gates are to be rendered in an antique bronze finish. This material change affects reflectivity, color tone, and surface aging. The question assesses whether the metallic finish appears consistent across both the knight’s armor and the gate structure, maintaining plausible oxidation effects and light interaction without introducing unnatural sheen or color mismatches.",
+      "question": "Is the antique bronze finish applied uniformly to the knight’s armor and the gate, with realistic tarnish, reflections, and surface depth that match physical metal properties?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Miniature heraldic flags are to flutter atop battlements. Given their small scale, the motion of the flags must appear physically plausible—neither frozen nor unnaturally exaggerated. The question checks if the flag shapes are intact, properly attached to poles, and exhibit natural undulation consistent with wind dynamics at a small scale.",
+      "question": "Are the heraldic flags positioned correctly on the battlements, with natural folds and orientation suggesting movement in wind, and no clipping or floating artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Tiny turrets and crenellated walls are to encircle the base of the orb. These elements must align with the architectural style of the original castle and maintain consistent scale relative to the main gate and knight. The question evaluates whether these additions are structurally coherent, evenly spaced, and free from irregularities such as broken edges or mismatched proportions.",
+      "question": "Are the tiny turrets and crenellated walls around the base of the orb evenly spaced, geometrically accurate, and stylistically consistent with the main castle structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "Golden rays are to be sculpted into the glass to mimic a rising sun behind the fortress. This involves integrating light effects into the transparent material of the orb. The evaluation checks whether the rays are embedded realistically—showing refraction, depth, and interaction with internal elements—without appearing as flat overlays or digital artifacts.",
+      "question": "Are the golden rays integrated into the glass surface with proper refraction and depth, creating a seamless illusion of light emanating from within the orb without visible layering or edge artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

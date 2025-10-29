@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_100_32",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the eyes, nose, and mouth aligned symmetrically and proportionally, with no distorted shapes such as stretched eyelids or misshapen lips?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visible portion of the face is blurred, and hence evaluation of facial symmetry or potential distortions in features like eyes, nose, and mouth cannot be derived from this area. Excluding the blurred region and considering the image context, this question cannot be conclusively answered. However, in Image A, facial features appear normally aligned and proportional, suggesting that similar proportions might be intended in the edited image.",
+      "weight": 1,
+      "model_answer": "Cannot be conclusively answered due to blurred region.",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the camera proportionally enlarged but still held securely by both hands without floating or unnatural grip angles, and do the metallic accents show consistent highlights and reflections?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the way the camera is held by the subjects’ hands looks secure, with no floating or unnatural grip angles. The metallic accents on the camera indeed show highlights and reflections consistent with its form, suggesting careful detailing in the edited representation. The camera proportions appear slightly adjusted to emphasize it in the image but balanced enough to retain normal appearance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the background gradient blend seamlessly with the subject’s edges, with no visible haloing, sharp cutoffs, or color bleeding?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background gradient smoothly transitions and appears to blend well with the subject’s edges. There do not appear to be noticeable haloing, sharp cutoffs, or color bleeding around the subject. This seamless blending emphasizes the intended design within the edited artwork, maintaining visual harmony.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the decorative border composed of clean, continuous camera motifs that do not intersect with the subject’s face or clothing, and are there no pixelated or broken lines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a decorative border that contains continuous camera motifs and does not intersect with the subject’s face or clothing. The motifs appear clean with no signs of pixelation or broken lines, demonstrating coherent integration of the border within the overall image frame.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are individual hair strands, denim stitching, and fabric folds clearly visible and undistorted, with no smoothing or blurring that removes detail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the depiction of hair strands, denim stitching, and fabric folds are simplified into an illustration style. The individual hair strands and stitching are not depicted with fine detail, rather they adopt a smooth and consistent design that aligns with the artistic style of the image. The fabric folds maintain their shape but do not show intricate textural details.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

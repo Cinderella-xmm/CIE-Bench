@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0167",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the front view of the apple maintain its original texture and color without any noticeable artifacts or unnatural smoothing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the front view of the whole apple (on the right side of the split image) appears visually consistent with a real apple. The skin has a natural red hue with subtle speckling typical of many apple varieties such as Red Delicious or Gala. The surface shows fine texture details, including tiny pores and slight imperfections, which are characteristic of real apples. There is no evidence of over-smoothing or digital artifacting—such as uniformity in color gradients or unnatural sharpness—that would suggest post-processing manipulation. The lighting highlights the curvature naturally, enhancing the three-dimensional appearance without distorting the texture. Based on world knowledge, real apples have slightly uneven surfaces due to growth patterns, and this one reflects that realism. Therefore, the front view maintains natural texture and color.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the cross-section reveal a natural, detailed texture of the apple's flesh, avoiding any unnatural or overly smooth appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The cross-section of the apple on the left side of Image B shows a pale yellowish-white flesh with visible fibrous structures and graininess, consistent with the internal anatomy of a real apple. The core area includes seeds arranged in a natural pattern, and the transition from skin to flesh is gradual and realistic. There are no signs of artificial smoothing; instead, the texture appears slightly porous and moist, which aligns with how freshly cut apples look. In contrast, digitally rendered or poorly edited images often exhibit unnaturally uniform textures or lack detail in the pulp. Here, the presence of small irregularities and subtle variations in tone supports authenticity. Thus, the cross-section displays a natural, detailed texture.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the top view of the apple’s stem and calyx accurately represented with natural proportions and geometry, without any obvious distortions or artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both views of the apple in Image B—the whole apple and the half— the stem and calyx are depicted with accurate proportions. The stem is slender, slightly curved, and tapers naturally toward the tip, which is consistent with real apple stems. The calyx (the star-shaped base where the stem attaches) is subtly visible and matches expected anatomical features. There are no geometric distortions such as exaggerated angles, unnatural thickness, or floating elements. The lighting casts soft shadows around the stem, reinforcing its three-dimensionality and integration into the fruit. This level of detail suggests careful attention to botanical accuracy. Therefore, the representation of the stem and calyx is natural and free from distortion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the shapes, sizes, and textures of the apple consistent across the front view, cross-section, and top view, ensuring structural coherence without any contradictions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing the two halves of Image B, we observe that the whole apple (right) and the halved apple (left) share consistent dimensions, shape, and surface texture. The size of the stem, the curvature of the body, and the distribution of color and speckles match logically between the two representations. When an apple is sliced, the cross-sectional shape should reflect the spherical volume of the whole fruit. In this case, the half-apple shows a symmetrical cut with a central core that aligns with typical apple anatomy. The thickness of the peel and the relative position of the core suggest consistency in structure. There is no mismatch in scale or proportion that would imply editing errors. For example, the stem remains attached at the same location in both views, and the flesh thickness is plausible. Hence, the apple maintains structural coherence across all views.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the lighting and shadows in the cross-section and top view appear natural and consistent with those in the front view, contributing to a unified appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The lighting in Image B appears to come from a single direction—likely a window source to the upper right—casting soft, directional shadows. In the front view (whole apple), the light creates a bright highlight on the upper right side and a gentle gradient across the surface. Similarly, in the cross-section, the illuminated edge of the flesh and the shadow cast beneath it follow the same directional logic. The shadow under the half-apple is elongated and aligned with the angle seen in the full apple’s shadow. The tonal transitions in both views are smooth and realistic, without abrupt changes or inconsistent highlights. This continuity in lighting direction, intensity, and shadow placement ensures visual harmony across the composition. Such consistency is crucial for perceived realism, especially when combining multiple views of the same object. Therefore, the lighting and shadows are natural and unified.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

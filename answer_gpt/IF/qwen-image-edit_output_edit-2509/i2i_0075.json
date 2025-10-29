@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0075",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image combine the front and right-side views of the cat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cat is drawn in a side profile, specifically facing right. There is no indication of the front view being combined with this profile. This side view clearly depicts the cat's posture from the side without incorporating aspects of a front-facing view. Given the clear side profile without any mixture of perspectives, the edited image does not combine both views.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the cat's facial features clearly visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cat is illustrated in a side view which effectively shows the facial features like one eye, nose, mouth, and part of the whiskers, consistent with a profile depiction. While not all details (like both eyes) can be visible from a side view, the features expected in a profile are indeed clear. Thus, within the context of a side view, the facial features are visible.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the cat's body structure properly showcased in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image (Image B) illustrates the cat in a sitting position with emphasis on its profile view. The overall outline is clear, depicting the cat's head, back, legs, and tail coherently, making its body structure evident. As a representation of a side profile, the structure is suitably showcased.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the original color, size, and position of the cat been preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image (Image B) features a line drawing that abstracts the cat into simple colors and lines, focusing on white with some shading, differing from Image A's realistic and detailed depiction. There is an inherent change in style, and the position is purely a right-side profile as opposed to the more frontal and slightly angled view in Image A. Hence, the original attributes like color detailing, size realism, and positional angle are not preserved.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the overall composition free from distortion and inconsistency in integrating both views of the cat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Since Image B exclusively illustrates a right-side profile without attempting to integrate multiple views, there's no integration of multiple perspectives which could cause distortion. The composition focuses on a consistent, singular perspective, thus avoiding inconsistencies related to multiple view integration.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

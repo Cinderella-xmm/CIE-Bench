@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_0_125",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the woman’s face clearly visible with the same eye shape, nose, mouth, and short wavy black hair as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman's face is blurred which obscures the facial features including the eye shape, nose, and mouth, while her hair remains short and wavy. In Image A, her face is visible and displays distinct features. Since Image B does not provide visibility for her facial features, the answer is drawn based on this observation.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the robe maintain the red-on-right and navy-blue-on-left color division across the torso and sleeves?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the color division of the robe is clearly visible as red on the right and navy blue on the left across the torso and sleeves, consistent with the design seen in Image A. This observation is based on the visual cues of the robe’s pattern.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the rose and vine floral patterns visible along the robe’s seams, front panel, and sleeves as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the robe features rose and vine floral patterns along the seams, front panel, and sleeves, similar to Image A. The floral details are clearly visible and complement the robe's design in both images.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a high slit on the right leg of the robe, revealing part of the leg?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a high slit is visible on the right side of the robe, revealing part of the leg. This matches the design visible in Image A, based on the observation of the robe’s cut.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are red paper lanterns visible hanging in rows above the market alley, glowing warmly?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not feature a market alley or hanging rows of red paper lanterns. It shows the woman with lanterns on either side on a plain background. In contrast, Image A features lanterns hanging in a market alley setting. Therefore, the warm glow in a market alley setting isn't visible in Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there visible stalls with tomatoes, oranges, and green vegetables arranged in crates along both sides of the alley?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents a plain illustrative background with lanterns on either side and does not feature any market setting or stalls with crates of vegetables as seen in the vibrant market alley of Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the ground paved with stone tiles and the roof supported by wooden beams?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B provides a plain background, devoid of market alley details such as stone tiled pavement and wooden beams supporting a roof, both of which are present in Image A, leading to the conclusion that these elements are absent in Image B.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is there a themed box with an industrial aesthetic design present in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image displays a wooden box with bearings inside, along with a designed package beside it. The box and package have texts related to bearings and motors, which align with an industrial theme, as bearings are components used in machinery and motors. The aesthetic does not specifically emphasize an industrial design but rather a more generic, product-focused style.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the box displayed in an isometric perspective?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The box in the image is shown at an angle that provides a three-dimensional view of its shape and contents. This perspective typically resembles an isometric view, which presents multiple sides of an object without distortion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there organized compartments within the box that elegantly showcase each bearing and component?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Inside the open box, compartments are visible, each housing a different bearing. These compartments provide an organized presentation, ensuring that each bearing is individually displayed, which can be considered an elegant showcase of the components.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a highly detailed, photorealistic rendering of the primary bearing outside the box?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, all bearings appear to be contained within the box or packaging. There is no bearing outside of these containers. Hence, there is no opportunity to observe a detailed or photorealistic rendering of a primary bearing outside the box.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the primary bearing outside the box accentuate its metallic texture and intricate design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Since there is no bearing outside the box or packaging in Image B, there is no focus on highlighting or accentuating a metallic texture and intricate design of a single bearing placed externally.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

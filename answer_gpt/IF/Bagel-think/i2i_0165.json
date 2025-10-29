@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0165",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the refrigerator's brand logo been changed to \"Xu's Fresh Zone\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text on the top portion of the refrigerator visibly reads 'Xu's Fresh Zone,' indicating a brand logo modification. From this visual cue, combined with the expectation that brand logos are typically located in prominent positions on appliances, it can be concluded that the refrigerator's brand logo has been modified to this text.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a custom label with the user’s name added on the top shelf?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing Image B, there is no apparent custom label bearing a user's name specifically located on the top shelf inside the refrigerator. The shelf contains various items such as a jar and a bowl, but not a visible name label. Typically, custom labels stand out with distinct text characters or graphics, which are not present here.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Have any additional parts of the refrigerator's design or logo been altered besides changing the brand logo?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Image B shows a change to the brand logo, replaced with 'Xu's Fresh Zone.' No other alterations to the refrigerator’s design or any logos besides this change are apparent. The design elements like glass shelves and door compartments remain consistent, reflecting a sole logo change.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the new \"Xu's Fresh Zone\" text clear and legible on the refrigerator?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the text 'Xu's Fresh Zone' is prominently placed at the top of the open refrigerator door and is clear and legible, demonstrating normal font size and style, which facilitates easy reading from a typical viewing distance. The contrast between the text and its background supports its readability.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the custom label with the user’s name placed exclusively on the top shelf of the refrigerator?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "An examination of Image B does not reveal any custom label featuring a user's name on the top shelf or elsewhere within the refrigerator. Since the top shelf is the specified location for a custom label, and none is observed there or elsewhere, it confirms the absence, contradicting the premise of its presence.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the woman into a chibi character, the head and body proportions must be adjusted to fit chibi style. The original image shows a realistic human figure with balanced proportions. The edited version should maintain a consistent head-to-body ratio typical of chibi art (e.g., large head, small body) without distorting limbs or facial features. Structural consistency is key—any misalignment in limb length or joint positioning would break visual credibility.",
+      "question": "Does the chibi version of the woman have a proportionally enlarged head relative to the body, with limbs and torso scaled down appropriately without deformed joints or elongated limbs?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The gown in the original image has realistic satin folds and lace details. The instruction calls for vibrant, oversized frills with lace. The edited version must retain the impression of fabric while exaggerating volume. If the frills appear flat, lack creasing, or have sharp, non-textile edges, they will look artificial. The material must suggest softness and draping even when stylized.",
+      "question": "Are the oversized frills on the gown rendered with curved, layered shapes that suggest fabric volume, and do they avoid flat, rigid edges or unnatural stretching?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The original jewelry includes a gold necklace and bracelets with modest shine. Adding gold accents must enhance without over-saturating. The material should reflect light naturally, matching the ambient lighting in the scene. If the gold appears too bright, pixelated, or lacks shadow variation, it will seem pasted on.",
+      "question": "Do the gold accents on the jewelry show consistent metallic highlights and soft shadows that align with the lighting direction in the scene, without harsh glints or texture artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The original chair has a defined blue fabric surface with visible stitching and golden trim. The instruction specifies modifying it into a colorful, miniature form. The edited version must maintain recognizable chair structure but at a smaller scale with playful colors. Any loss of structural clarity, such as missing legs or skewed perspective, would compromise visual credibility.",
+      "question": "Is the modified chair still identifiable as a chair with four legs and backrest, scaled down proportionally and colored vividly without broken geometry or missing parts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The pearl pattern around the edge is an added decorative element. It must follow the image boundary smoothly and maintain uniform spacing and spherical shape. If the pearls vary in size, overlap incorrectly, or cast inconsistent shadows, they will appear artificial. The border must not obscure or distort the subject’s outline.",
+      "question": "Does the pearl border surround the image edge evenly, with uniformly sized spheres and consistent spacing, without overlapping the subject or showing jagged edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

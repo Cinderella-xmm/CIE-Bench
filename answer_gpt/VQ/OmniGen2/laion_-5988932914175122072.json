@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-5988932914175122072",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the surface of the model’s dress retain the same pebbled leather texture as the original handbag, with no visible smoothing, blurring, or texture repetition artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the dress depicted does not have the pebbled leather texture as seen on the handbag in Image A. The dress has a smooth finish, lacking the distinct grainy appearance of the leather in the handbag. The texture is not repeated nor does it have artifacts visible that are common in leather textures. Therefore, the dress does not retain the same texture as the handbag.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the shape of the dress consistent with the original handbag’s contours, especially around the base and shoulder area, without unnatural bulges, pinching, or loss of dimensionality?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The dress in Image B does not follow the contours of the handbag seen in Image A which has curved lines along the top that relate to its handle. The dress has a straight form and lacks any bulging or pinching seen in Image A with natural handle curves. Although both have an overall rounded base, dimensionality differs significantly.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the gold accessories positioned naturally on the model’s body, with proper alignment and scale relative to the face and limbs, and do they appear anchored without floating or clipping through skin?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows gold details on the handbag/dress accessory positioned on the model in a way that maintains their intended scale and relative placement. The MK logo charm appears properly positioned as if an accessory item, without floating or clipping, naturally anchoring above skin or fabric.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the MK logo charm clearly visible on the dress, maintaining its original circular shape and gold finish, without warping, stretching, or edge artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the MK logo charm is clearly presented as circular and has maintained its gold finish as seen in Image A. There’s no visible warping or stretching, and the borders are clean without edge artifacts.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the background elements (runway, photographers, lights) align with the model’s position in terms of perspective, shadow direction, and depth of field, without overlapping or inconsistent lighting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B includes background elements that align with the model’s position, providing consistent shadow directions and depth of field. There’s no overlap or lighting conflicts creating mismatched perspectives. Observers and lights are arrayed logically and in harmony with the runway angle and model's positioning, maintaining realistic portrayal.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the entire model, text, and background contained within the vertical frame without any cut-off limbs, text, or objects, and is the layout vertically balanced?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B demonstrates a vertically balanced layout with all elements properly contained within the frame. There are no cut-off objects or text, and the positioning of the model, runway, and text contributes to a coherent visual balance throughout the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the text “Strut the City Streets” displayed in a clear serif font at the top of the image, without blurring, aliasing, or overlap with the model or background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the text 'Strut the City Streets' at the top in a serif font, clearly displayed without any overlap with the model or background elements. The text is crisp, free from blurring or aliasing, which ensures readability and aesthetic alignment with the image's content.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7142857142857143
+}

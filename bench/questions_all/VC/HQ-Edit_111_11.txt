@@ -1,0 +1,121 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is an elderly man seated at a dimly lit bar, viewed in profile from the right side. He wears a dark beret with a small black feather-like adornment on top, a brown textured overcoat over a blue collared shirt, and has a weathered face with deep wrinkles, white hair, and a light beard. He is playing a saxophone held in his hands, with the mouthpiece near his lips. On the table before him are two glasses—one filled with a golden liquid (likely beer), one empty—and a brown glass bottle. The background features a narrow bar interior with hanging pendant lights emitting warm yellow light, a ceiling fan above, framed pictures or posters on the walls, and blurred figures of other patrons engaged in conversation. The lighting creates a moody atmosphere with strong contrast between shadows and highlights.
+
+Thinking process:  
+The editing instruction explicitly transforms the musician into a **renowned jazz artist from the 1920s**, which includes:
+- Changing attire: "vintage suit and a snazzy bowtie" → implies full outfit change.
+- Replacing headwear: "beret into a classic fedora" → headwear form changes.
+- Altering background: "lively speakeasy with art deco elements", "bold geometric patterns", "flapper attire" → entire scene environment changes.
+- Cultural context shift: "energetic cultural renaissance of that era" → suggests thematic overhaul.
+
+These instructions clearly allow modification of:
+- Subject’s clothing (suit, bowtie)
+- Headwear (beret → fedora)
+- Background architecture and decor (bar → speakeasy with art deco motifs)
+- Other patrons’ attire (modern casual → flapper/1920s style)
+- Lighting and ambiance (to match 1920s speakeasy mood)
+
+No part of the instruction states that any original visual element must be preserved. However, certain **core identity features** of the original subject and scene must still be retained unless explicitly overridden—especially those tied to recognition or function.
+
+Allowed Changes List:
+- Headwear (beret → fedora)
+- Clothing (brown coat → vintage suit with bowtie)
+- Background setting (modern bar → 1920s speakeasy)
+- Wall decorations (framed photos → geometric art deco patterns)
+- Patron appearances (modern dress → flapper/1920s fashion)
+- Lighting style (warm modern → vintage amber glow)
+- Overall atmosphere (moody bar → energetic jazz-era vibe)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Although many aspects are allowed to change, we must identify **non-modifiable core elements** based on:
+
+1. **Core Recognition Elements**:  
+   - The **subject's facial structure** (especially age-related features like deep wrinkles, prominent cheekbones, white hair, beard) defines the character as an elderly man. Even if dressed differently, these traits are essential for maintaining identity continuity. If altered beyond recognition, it becomes a different person.
+   - The **saxophone** is central to the action and identity — he is depicted *playing* it. The instrument's presence, shape, and position are critical functional elements; changing its form or removing it would break the narrative logic.
+   - The **table setup**: two glasses and a bottle are present and interact with the subject. Their physical arrangement supports the scene’s realism. While contents may vary, their existence and placement should remain consistent unless specified otherwise.
+
+2. **Functional/Logical Association Elements**:  
+   - The **action of playing the saxophone** depends on hand positioning, mouth contact with mouthpiece, and instrument orientation. These must be preserved for coherence — even if the instrument is updated to a vintage model, its use must remain valid.
+   - The **relationship between the subject and the objects on the table** (drinking while playing) is logically tied to the scene. Removing or relocating them disrupts this behavior.
+
+3. **Non-Modified Element Deduction**:  
+   After excluding allowed changes (clothing, hat, background), what remains?
+   - The **facial features** (wrinkles, eyes, nose, mouth, ears)
+   - The **saxophone** (shape, material, how it’s held)
+   - The **hand positions** (fingers on keys, left hand supporting body)
+   - The **table surface** (dark wood texture, reflective quality)
+   - The **glasses and bottle** (their presence, relative positions, transparency)
+   - The **lighting direction** (from above and behind, casting shadows on the face)
+
+These are not mentioned in the instruction as changeable and are fundamental to the original composition. They serve as anchors for visual consistency.
+
+Preservation Targets List:
+- The elderly man’s facial features including deep wrinkles, white hair, beard, and ear shape
+- The saxophone being played with correct hand posture and mouthpiece contact
+- The presence and position of the two glasses and bottle on the table
+- The dark wooden tabletop with visible reflections
+- The lighting direction creating shadow on the left side of the face
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The elderly man’s deeply wrinkled face with pronounced lines around the eyes and mouth is a core identification feature distinguishing him as the original subject. This level of aging detail is unique to the character and essential for identity retention. Loss of these specific facial textures would make the figure unrecognizable as the same individual, regardless of costume changes. Therefore, this is a key element with weight 3.
+    Question: Does the edited image retain the elderly man’s deeply wrinkled facial features, including the pronounced vertical lines on the forehead and crow’s feet around the eyes?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The saxophone is not just a prop but a functional object directly involved in the action. Its metallic appearance, curved shape, and the way it is held by both hands with fingers positioned on keys are critical to the musical performance depicted. Even if upgraded to a vintage model, its basic form and interaction with the hands must remain intact. Changing its shape or removing it would invalidate the core activity. Thus, this is a high-weight functional element.
+    Question: Is the saxophone still present and held in the same manner, with the player’s left hand on the keys and the mouthpiece touching the lips?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The table setup — two glasses and one bottle — forms a logical environment for the scene. Their placement relative to the subject supports the narrative of drinking during music. Although the contents might change (e.g., beer vs. whiskey), their presence and spatial arrangement are crucial for maintaining scene coherence. Removing or relocating them would disrupt the original composition.
+    Question: Are the two glasses and the brown bottle still placed on the table in front of the musician, with one glass partially full and the other empty?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The dark wooden table surface with visible reflection of light and objects is a key environmental detail that grounds the scene. It provides texture and depth, contributing to the realism of the setting. Even if the background changes, the table’s material and reflective properties should remain consistent unless stated otherwise. This detail helps maintain visual continuity.
+    Question: Is the dark wooden tabletop still visible with subtle reflections of the glasses and bottle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The lighting direction — coming from above and slightly behind — creates distinct shadows on the left side of the face and highlights on the right. This directional lighting is essential for preserving the dramatic mood and three-dimensionality of the subject. While the color temperature may shift to match the 1920s aesthetic, the source and angle should remain consistent to maintain the original compositional balance.
+    Question: Is the primary light source still positioned above and behind the subject, casting shadows on the left side of his face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The position of the hands — particularly the left hand gripping the saxophone body and the right hand covering the keys — is essential for conveying the act of playing. Any significant deviation would misrepresent the musical gesture. Though the sleeves may change due to new clothing, the hand placement and finger articulation must remain accurate.
+    Question: Are the musician’s hands positioned correctly on the saxophone, with the left hand supporting the lower section and the right hand pressing the keys?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

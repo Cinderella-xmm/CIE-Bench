@@ -1,0 +1,126 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+Description of reference image:  
+The subject is a portrait of a woman in Tudor-era attire, likely representing Queen Elizabeth I. She has reddish-brown curly hair styled in a tight, rounded fashion, with a jeweled headpiece featuring a central pendant. Her face is pale with rosy cheeks, and she gazes directly forward with a composed expression. She wears an elaborate ruffled lace collar (a large, fan-shaped "ruff") that extends outward from her neck, intricately patterned with geometric lace designs. The gown is dark, richly embroidered with gold thread and gem-like embellishments, particularly along the front panel and sleeves. The sleeves are long, puffed at the shoulders, and decorated with floral and geometric patterns in gold and silver thread. A double strand of pearls drapes down her chest. Her right hand rests on a decorative hilt of a ceremonial sword or staff, adorned with jewels and gold filigree, while her left hand is placed gently on her lap. The background consists of a dark, ornate tapestry with golden scrollwork and floral motifs, suggesting a regal interior. The overall composition is formal, symmetrical, and highly detailed, characteristic of late 16th-century English portraiture.
+
+Thinking process:  
+The editing instruction specifies a transformation of the **Tudor-style gown into an Ancient Greek garment**, including changes to:
+- Gown style: replaced with golden satin and geometric embroidery
+- Ruffled collar: replaced with a braided gold necklace
+- Sleeves: altered to reveal bare shoulders with Greek motifs
+- Background: changed to depict an ancient Grecian landscape with olive trees and marble columns
+
+These changes explicitly allow for modification of:
+- The **form and design of the clothing** (gown, collar, sleeves)
+- The **background scenery**
+- The **texture and color scheme** of the attire
+- The **overall aesthetic theme** (from Tudor to Classical Greek)
+
+Thus, the following elements are allowed to change:
+- Style and structure of the dress
+- Collar shape and material
+- Sleeve length and exposure
+- Embellishment patterns on garments
+- Background environment and decor
+
+Allowed Changes List:
+- The ruffled lace collar (replaced with a braided gold necklace)
+- The Tudor gown (transformed into a Greek-style robe)
+- The sleeve design (changed to bare shoulders with classical motifs)
+- The background tapestry (replaced with a Grecian landscape)
+- The texture and color of the fabric (from dark embroidered wool to golden satin)
+- The presence and form of jewelry (e.g., pearls may be removed or repositioned)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+To preserve identity and visual coherence, we must identify elements not mentioned in the instructions as changeable and thus should remain intact. These include:
+
+**Core recognition elements**:  
+- The **subject’s facial features** (especially eyes, nose, lips, skin tone) are critical for identifying the individual depicted—likely Elizabeth I. Any alteration would risk misidentification.
+- The **hair color and style** (reddish-brown, tightly curled, with a central parting) is historically significant and iconic; it is a key identifier of this particular queen.
+- The **jeweled headpiece** with a dangling pendant is a distinctive accessory associated with royal portraiture of the era and contributes to the subject’s identity.
+
+**Functional/logical association elements**:  
+- The **position and posture** of the hands: one resting on a ceremonial object (sword/hilt), the other on the lap, maintains the formal pose typical of royal portraits. This gesture conveys authority and dignity, so preserving its general placement ensures logical consistency even if the object is modified.
+- The **orientation and gaze** of the face: direct frontal view, slightly elevated chin, creates a sense of regality and command. Changing this would alter the psychological impact and symbolic meaning.
+
+**Non-modified element deduction**:  
+Even though the gown and background are to be changed, certain physical traits and accessories not specified for change must be retained:
+- The **color and texture of the skin** (pale with rosy cheeks)
+- The **shape and symmetry of the face**
+- The **presence and position of the earrings or earlobes** (though not visible, the ear area is implied by the hairstyle and headpiece)
+- The **proportions of the figure** (full-length upper body, balanced stance)
+- The **hand positioning** (right hand on object, left hand resting)
+
+Preservation Targets List:
+- Facial features (eyes, nose, mouth, cheekbones)
+- Hair color and curl pattern
+- Jeweled headpiece with pendant
+- Skin tone and complexion
+- Hand positions and their relative placement
+- Overall posture and frontal orientation
+- Proportional balance of the figure
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The facial features—specifically the shape of the eyes, the straight nose, and the thin lips—are iconic identifiers of Elizabeth I in historical portraiture. Altering these would fundamentally change the identity of the subject, making the portrait unrecognizable as the intended figure. This is a core identity feature, hence weight 3.
+    Question: Is the subject's face, including the almond-shaped eyes, straight nose, and closed mouth with red lips, preserved in the same position and form?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The hair color (reddish-brown) and tightly curled style are historically accurate and visually distinct. They are key markers of Elizabeth I’s appearance and cannot be changed without losing recognition. This is a core identification trait, thus weight 3.
+    Question: Are the subject’s hair color (reddish-brown) and tightly curled, rounded hairstyle preserved exactly as in the original?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The jeweled headpiece with a central hanging pendant is a unique accessory tied to the subject’s royal status and period-specific iconography. Its removal or redesign would disrupt the historical authenticity and visual identity. It is a core functional and symbolic element, so weight 3.
+    Question: Is the jeweled headpiece with a single dangling pendant at the center of the forehead preserved in the same location and form?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The hand positioning—right hand resting on a decorative object, left hand on the lap—is a compositional and symbolic feature of royal portraiture. While the object itself may be altered, the spatial relationship and gesture must remain consistent to maintain narrative logic and visual balance. This is an important structural element, hence weight 2.
+    Question: Is the right hand positioned on a decorative object (such as a hilt) and the left hand resting on the lap, maintaining the same relative placement and orientation?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The skin tone (pale with rosy cheeks) is a consistent trait across known depictions of Elizabeth I and contributes to the portrait’s realism and historical accuracy. Changing it would affect the subject’s likeness and age representation. Though less critical than facial features, it is still a key detail for identity preservation, so weight 2.
+    Question: Is the subject’s skin tone (pale with subtle rosy blush on the cheeks) preserved without significant alteration?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The overall frontal orientation and upright posture are essential for maintaining the dignity and authority conveyed in the original portrait. Any shift in angle or tilt would distort the intended impression. This is a key compositional element affecting visual coherence, thus weight 2.
+    Question: Is the subject facing directly forward with an upright, symmetrical posture, as in the original?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The proportions of the figure—head size relative to body, arm length, torso shape—are critical for maintaining anatomical plausibility and artistic fidelity. Distorting them would make the figure appear unnatural or cartoonish. This is a minor but necessary detail for visual consistency, so weight 1.
+    Question: Are the proportions of the figure (head-to-body ratio, arm length, torso width) preserved without exaggeration or distortion?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

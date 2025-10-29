@@ -1,0 +1,136 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a large, multi-masted sailing ship resembling a historical galleon or warship, positioned slightly off-center to the right in the frame, sailing on calm ocean waters. The ship features three main masts with fully unfurled white sails, each segmented into horizontal panels, displaying subtle creases and shadows that suggest fabric texture. The hull is dark brown wood with visible planking, portholes along its sides, and ornate carvings near the bow. The stern is elevated and detailed with decorative elements typical of 17th–18th century naval vessels. Above, the sky is a surreal blend of celestial phenomena: swirling nebulae in hues of red, pink, teal, and violet dominate the upper half, interspersed with stars and glowing cosmic dust. A bright orange sun sets on the horizon to the left, casting warm golden light across the clouds and reflecting on the water surface. Below the waterline, a translucent turquoise layer reveals an underwater glow, suggesting bioluminescence or magical depth. Several seagulls are flying around the ship at various heights and angles, rendered with natural wing positions and feather details. The overall atmosphere combines realism with fantasy elements, especially in the sky and water.
+
+---
+
+**Thinking process:**  
+First, parse the editing instructions word by word:  
+- "Transform the image into a **miniature ship diorama encased in a curved glass dome**" → This implies a complete transformation of the scene’s physical form and framing; the original environment (sky, sea, horizon) may be altered or enclosed.  
+- "Emphasize the ship's details by rendering its sails in **delicate papercraft style**, allowing the texture and shadows of each fold to add depth" → Sails are explicitly changed in material and style; this allows modification of sail appearance but not necessarily the number or arrangement.  
+- "Below, a layer of **shimmering blue resin mimics ocean waves**" → The water below the ship is replaced with artificial resin; thus, the real ocean surface can be changed.  
+- "Tiny ethereal seagulls are suspended on fine wires for a dynamic, graceful display" → Seagulls are no longer real birds in flight but are now artificial models suspended by wires; their form and motion are reinterpreted.  
+
+From this analysis:
+- The **subject (ship)** retains its structural identity but undergoes material transformation (sails become papercraft).
+- The **scene (sky, sea, horizon)** is transformed into a diorama setting, so background elements like the sunset and nebulae may be preserved as part of the backdrop but recontextualized within a dome.
+- The **seagulls** change from living birds to wire-suspended models — their presence is retained but their nature changes.
+- The **water** is replaced with resin, meaning the actual ocean surface is no longer present.
+
+Therefore, allowed changes include:
+- Material and texture of sails (papercraft instead of cloth)
+- Nature of seagulls (wire-suspended models)
+- Water surface (resin instead of real ocean)
+- Overall framing (enclosed in glass dome)
+- Scene lighting and composition may shift due to enclosure
+
+But the **core structure and form** of the ship, including its shape, number of masts, hull design, and position relative to the viewer, must remain consistent unless otherwise stated.
+
+---
+
+**Allowed Changes List:**
+- Sail material and texture (to papercraft style)
+- Seagull representation (from real birds to wire-suspended models)
+- Water surface (replaced with shimmering blue resin)
+- Scene enclosure (curved glass dome added)
+- Lighting and reflections adjusted for diorama effect
+- Background sky elements (nebulae, stars, sunset) may be preserved as painted or printed backdrop within the dome
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+Core recognition elements must be preserved because they define the identity of the original image. For a historical sailing ship, key identifiers include:
+- The **three-masted configuration** with multiple tiers of sails (foremast, mainmast, mizzenmast), which is characteristic of a full-rigged galleon.
+- The **distinctive hull shape**, including the raised stern, carved prow, and portholes — these are essential for identifying the vessel type.
+- The **position and orientation** of the ship: it faces toward the left side of the frame, with the bow angled slightly upward and forward, indicating movement through water.
+- The **number and placement of sails** on each mast — this determines the rigging style and authenticity of the ship.
+- The **presence of seagulls** in flight around the ship, though their form may change, their spatial relationship to the ship should be preserved to maintain narrative context.
+
+Functional/logical association elements:
+- The **ship’s interaction with the water** — even if the water becomes resin, the ship must still appear to float or rest above it, maintaining the illusion of being on a sea surface.
+- The **relative positioning of the ship and seagulls** — the birds should remain in flight around the ship, preserving the dynamic of a vessel navigating open waters.
+
+Non-modified element deduction:
+- After excluding allowed changes (sail texture, seagull form, water material), the following must remain unchanged:
+  - The **overall silhouette and proportions** of the ship
+  - The **number and arrangement of sails**
+  - The **hull’s structural features**: portholes, deck levels, stern decoration
+  - The **spatial layout** of the ship within the scene (not rotated or flipped)
+  - The **presence of seagulls** in the air around the ship, though their physical form may differ
+
+Thus, while materials and presentation can change, the **visual identity** of the ship and its **spatial relationships** must stay intact.
+
+---
+
+**Preservation Targets List:**
+- The three-masted structure of the ship with full sails
+- The distinct hull shape including raised stern and carved prow
+- The number and position of sails on each mast
+- The presence of seagulls flying around the ship
+- The ship’s orientation facing left with bow angled forward
+- The portholes and deck details along the hull
+- The ship’s floating position above the water surface (even if replaced with resin)
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The three-masted configuration with multiple tiers of sails is the defining architectural feature of the ship. It distinguishes it from smaller vessels or different types of ships. If the number or arrangement of masts is changed, the ship would no longer be recognizable as the same vessel. This is a core identity element, critical for visual recognition, hence assigned 3 points.
+    Question: Does the ship retain exactly three masts, with sails arranged in tiers on each mast?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The hull’s distinctive shape — particularly the raised stern and carved prow — is a key identifier of the galleon-style ship. Altering this would fundamentally change the ship’s identity. These features are not just aesthetic but functional in historical ship design, making them core to recognition. Thus, this is a 3-point element.
+    Question: Is the ship’s hull shaped with a raised stern and a decorated, upward-curving prow?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The number and placement of sails are essential to the ship’s rigging system and visual balance. Changing their count or position would disrupt the ship’s authenticity and make it unrecognizable. While the material of the sails can change (to papercraft), their number and location must remain fixed. This is a core structural detail, hence 3 points.
+    Question: Are there multiple sails on each of the three masts, with at least two tiers per mast?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The presence of seagulls flying around the ship is a key environmental element that establishes the maritime setting. Although their form may change to wire-suspended models, their spatial presence must be preserved to maintain the narrative context. Their absence would break the scene’s coherence, making this a 2-point important element.
+    Question: Are there at least five seagulls visible in flight around the ship?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The ship’s orientation — facing left with the bow angled forward — is crucial for conveying direction and movement. Reversing or rotating it would alter the viewer’s perception and break continuity with the original image. This directional posture is a key compositional element, hence 2 points.
+    Question: Is the ship oriented such that the bow points toward the left side of the image and is slightly elevated?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The portholes along the hull are small but distinctive details that confirm the ship’s function as a warship or trading vessel. They contribute to the realism and identity of the ship. While minor, their removal would reduce visual fidelity and coherence. This is a secondary but identifiable detail, hence 1 point.
+    Question: Are there visible portholes along the sides of the ship’s hull?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The ship must appear to float above the water surface, even if the water is replaced with resin. This spatial relationship is logical and necessary for maintaining the illusion of a vessel on the sea. Disrupting this would break the scene’s logic. This is a functional association element, hence 2 points.
+    Question: Is the ship positioned above the surface of the water/resin layer, appearing to float?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

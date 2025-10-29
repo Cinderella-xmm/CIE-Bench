@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The key recognition feature of each car is its color, which is explicitly stated in the instruction to be preserved (\"iconic shapes and colors remain intact\"). The color is a primary identifier that distinguishes one car from another. For example, the blue car must remain blue to maintain its identity. Losing this would make it impossible to associate the mascot with the original vehicle. This is a core identity element, hence a weight of 3 points.",
+      "question": "Is the blue car in the upper left position still rendered in blue?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The shape of the car body is another core identity feature. The instruction requires the \"iconic shapes\" to remain intact, meaning the general silhouette—such as the curved roofline, door placement, and wheel position—must be recognizable even in chibi form. If the shape were drastically altered (e.g., becoming a boxy or rounded blob), the car would no longer be identifiable. This is a core element, thus weighted at 3 points.",
+      "question": "Does the red car in the upper middle position retain the compact sedan body shape with a sloped roofline and four doors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The total number of cars is important for maintaining the reference to the original image. The instruction refers to \"the cars\" collectively and assigns each a flavor, implying all eight must be present. Removing or combining cars would break the one-to-one correspondence. While the arrangement may change, the count must be preserved. This is an important scene element, so it is weighted at 2 points.",
+      "question": "Are there exactly eight cars depicted in the final image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The color assignment per car is crucial for maintaining visual consistency. The original image has a specific pattern: blue, red, yellow, green on the top row. Changing the color of any car (e.g., making the yellow car green) would misrepresent the original. Since the instruction emphasizes preserving colors, this is a key detail. Weighted at 2 points due to its importance in identification.",
+      "question": "Is the yellow car located in the upper middle-right position still yellow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The wheel position and number are part of the car’s structural identity. The instruction does not allow changing the basic form, so the presence of four wheels per car and their placement (two front, two rear) must be preserved in the chibi version. This ensures the vehicle remains recognizable as a car. This is a minor but necessary detail for coherence, so it is weighted at 1 point.",
+      "question": "Does each car have four wheels, with two at the front and two at the rear?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The presence of the red car in the lower right position is a specific instance of the color and shape preservation. Since the instruction requires all cars to be represented, and the red car appears twice in the original image, both instances must be preserved. This ensures completeness and avoids confusion. This is a detail-level element, so it is weighted at 1 point.",
+      "question": "Is the red car in the lower right position still red and retains the compact sedan shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

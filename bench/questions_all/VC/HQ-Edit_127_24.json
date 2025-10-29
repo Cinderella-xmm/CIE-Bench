@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The presence of two distinct chalets with steep gabled roofs and multiple glowing windows is a core compositional feature of the original image. Even if transformed into ice castles, the **number and general layout** of the buildings must be preserved to maintain scene recognition. The **two-building configuration** is a defining structural element. If only one building remains or their positions are swapped, the scene becomes unrecognizable. Thus, this is a high-weight question.",
+      "question": "Are there exactly two chalet-style buildings visible in the scene, positioned side-by-side on a snowy slope?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The **chimneys emitting smoke** are a key narrative and atmospheric detail, suggesting warmth and life within the otherwise cold environment. Smoke is a dynamic visual cue tied to the functional use of the chalets. Even if transformed into icy structures, the **presence of at least one visible smoke plume** from a chimney-like feature should be retained to preserve the original scene’s emotional tone and logic. Its absence would remove a critical signifier of human presence.",
+      "question": "Is there visible smoke rising from at least one chimney on a building?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The **glowing windows** are a signature contrast in the image—warm light against cold snow. They define the interior life of the chalets and are essential to the mood. Even if the buildings become ice castles, **illuminated openings** should remain to reflect this core visual theme. The **number and pattern** of lit windows (especially the grid-like arrangement) are distinctive. Losing them would erase the emotional core of the scene.",
+      "question": "Are there multiple windows across both buildings that emit a warm yellow-orange glow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The **snow-covered pine trees** in the background are not just scenery—they form a dense, textured forest that frames the chalets and adds depth. Their **conical shape and snow-laden branches** are characteristic of alpine winter forests. Even if transformed into ice sculptures, the **presence of tall, slender evergreens** in the same location must be preserved to maintain spatial coherence. Their absence would break the environmental context.",
+      "question": "Are there tall, conical evergreen trees with snow-covered branches visible behind and around the chalets?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The **central mountain peak** with its sharp ridge and snow cap is a dominant landmark in the background. Its **silhouette and height relative to the chalets** provide scale and grandeur. Even if stylized, the **presence of a prominent, snow-covered mountain peak** in the distance must be retained to preserve the geographical setting. Without it, the alpine identity of the scene is lost.",
+      "question": "Is there a large, snow-capped mountain peak visible in the background, rising above the treeline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The **smooth, undisturbed snowdrifts** in the foreground contribute to the sense of quiet and isolation. Their **curved, soft contours** and **shadows cast by the chalets** are key to the composition’s depth. Even if the ground becomes glowing ice, the **presence of snow mounds** in the same position and shape must be preserved to maintain spatial continuity. Their absence would disrupt the foreground structure.",
+      "question": "Are there smooth, rounded snowdrifts in the foreground, casting soft shadows toward the right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The **full moon** is a strong light source in the upper-right sky, providing ambient illumination. It is a key element in establishing the time of day (night) and lighting direction. Even if auroras are added, the **presence of a bright circular light source** in the sky near the top-right corner must be preserved to maintain the original lighting setup. Its removal would alter the scene’s realism and balance.",
+      "question": "Is there a bright, circular light source (moon) visible in the upper-right portion of the sky?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

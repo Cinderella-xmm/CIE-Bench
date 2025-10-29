@@ -1,0 +1,110 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a large, ornate wooden sailing ship resembling a historical galleon, positioned centrally in the frame and facing slightly toward the right. The ship features multiple masts with fully unfurled dark blue sails, intricate carvings on the hull, and a prominent bow adorned with decorative scrollwork. The vessel floats on calm, deep blue ocean waters under a clear sky, with a massive, luminous full moon dominating the background, appearing unusually large and close to the horizon. The moonlight reflects brightly on the water surface, creating a glowing path beneath the ship. The sky transitions from pale yellow near the horizon to a deeper blue above, with soft white clouds scattered across it. The ship’s hull shows detailed wood grain textures, portholes along its sides, and a visible deck structure with railings and rigging. The sails have a slightly translucent quality, allowing light to pass through them, especially where illuminated by the moon.
+
+Thinking process:  
+First, analyze the editing instructions word by word to determine what can be changed. The instruction states:  
+- "Convert the ship and seascape into a miniature 3D nautical globe" → This implies that the **form** of the ship and sea must change into a spherical globe model. Therefore, the **overall shape and spatial configuration** of the original scene are no longer preserved; they are transformed.  
+- "Encapsulate it within a clear glass dome mounted on a polished wood base engraved with intricate compass designs" → This introduces new elements (glass dome, wooden base, compass engravings), indicating the **scene environment** is being replaced entirely.  
+- "Add miniature sea creatures swimming below the ship, with tiny, ethereal moonlit waves" → Adds new content not present in the original, so this is an allowed addition.  
+- "Enhance the sails with delicate fabric textures" → This modifies texture detail but does not alter the **presence or identity** of the sails themselves.  
+- "Integrate swirling, ethereal clouds suspended inside the dome for dynamic ambiance" → New cloud forms added inside the dome; these are not part of the original sky.
+
+Thus, the **subject (ship)** and **background (seascape and sky)** are undergoing transformation in form and context. However, the **identity of the ship as a historical galleon**, its **design features**, and **core visual characteristics** may still need to be retained unless explicitly altered.
+
+Allowed Changes List:  
+- The overall form of the ship and seascape (transformed into a globe)  
+- The surrounding environment (replaced with glass dome and wooden base)  
+- The sky and clouds (replaced with internal ethereal clouds inside the dome)  
+- The water surface (transformed into miniature waves within the globe)  
+- The addition of sea creatures below the ship  
+- The texture of the sails (enhanced with fabric details)  
+
+These changes are permitted under the instruction. However, any **core identifying features of the ship** that define its identity—such as its structure, sail arrangement, and ornamental details—must be evaluated for retention.
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements:  
+- The ship is a **historical galleon**, identifiable by its **multi-masted structure**, **three tiers of sails**, **ornate bow**, and **wooden hull with portholes**. These are key identifiers of such vessels and distinguish it from other ship types (e.g., frigates, sloops). If these structural features are lost, the ship would no longer be recognizable as a galleon.  
+- The **dark blue sails** are a defining color feature in the original image. While the instruction allows enhancing their texture, it does not permit changing their **color or number**, which could affect recognition.  
+- The **position and arrangement of sails** (three main masts, foremast, mainmast, mizzenmast, with square sails on each) is a core functional and visual trait of this type of ship. Changing this would alter its identity.
+
+Functional/logical association elements:  
+- The **relationship between the ship and the moon**: The ship is shown in front of the giant moon, which creates a dramatic scale contrast. This visual relationship is iconic in the original image. Although the moon will now be part of a globe, its **presence and relative size** should still reflect the original composition unless explicitly altered.  
+- The **orientation of the ship**: It is facing forward-right, with the bow raised slightly. This posture contributes to its dynamic presence. Even in the globe form, the orientation should be preserved to maintain continuity.
+
+Non-modified element deduction:  
+After excluding allowed changes (form, environment, additions), the following remain:  
+- The **number and placement of masts and sails**  
+- The **hull design with carved ornamentation**  
+- The **portholes along the hull**  
+- The **bow's sculptural detail**  
+- The **dark blue color of the sails**  
+- The **structural hierarchy of the rigging**  
+
+These are not mentioned as changeable in the instructions and are essential to maintaining the ship’s identity. Even if scaled down into a globe, these features must be retained to preserve the original subject’s essence.
+
+Preservation Targets List:  
+- The three-masted structure of the ship  
+- The dark blue color of the sails  
+- The ornate bow with carved detailing  
+- The portholes along the hull sides  
+- The position and number of sails on each mast  
+- The overall silhouette and profile of the galleon  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The three-masted structure (foremast, mainmast, mizzenmast) is the core architectural feature of the galleon and defines its classification. Removing or altering this would make it unrecognizable as a historical galleon. The presence of three distinct masts with sails arranged vertically is a unique identifier. Since the instruction does not specify removing or merging masts, they must be preserved even in the miniature globe form.
+    Question: Does the edited image retain the three-masted structure of the ship, with one mast at the front, one in the center, and one at the rear?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The dark blue color of the sails is a dominant visual trait in the original image, distinguishing it from typical white-sailed ships. The instruction allows enhancing texture but does not mention changing color. Retaining the blue ensures visual consistency with the original work. Loss of this color would significantly alter the image’s identity.
+    Question: Are the sails of the ship still dark blue in color?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The ornate bow with detailed carvings is a signature feature of the ship’s design, contributing to its grandeur and historical authenticity. This decorative element is unique and visually significant. Even in a miniature form, it must be preserved to maintain the ship’s identity.
+    Question: Is the bow of the ship decorated with intricate carvings and scrollwork?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The presence of portholes along the hull is a functional and visual characteristic of galleons. They are evenly spaced and contribute to the ship’s realistic appearance. Their absence would make the hull appear incomplete or stylized beyond recognition.
+    Question: Are there visible portholes along the side of the ship’s hull?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The arrangement of sails—square-rigged on all three masts—is critical to identifying the ship as a galleon. Each mast has multiple sails stacked vertically. Altering this layout (e.g., reducing sails or changing rigging) would misrepresent the vessel type. This structural detail is essential for accurate representation.
+    Question: Do all three masts have multiple square sails stacked vertically?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The silhouette of the ship—its tall, narrow hull with a raised stern and pointed bow—is a key visual cue. Even when scaled into a globe, the outline should resemble the original. Preserving this silhouette ensures the viewer recognizes the same ship.
+    Question: Does the ship maintain its original silhouette with a tall, narrow hull and a pointed bow?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

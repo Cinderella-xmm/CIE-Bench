@@ -1,0 +1,55 @@
+```
+Step 1: Disassemble Editing Instructions
+
+-Thinking process 1: The instruction requires transforming the entire canal scene into a miniature diorama within a clear sphere. This involves adding a spherical boundary around the scene, which affects the overall composition and perspective. The presence of a transparent sphere introduces new visual elements such as reflections, refraction, and curvature that must be consistent with physical laws to maintain realism. The original image shows a flat, wide-angle view of a canal flanked by half-timbered houses, so introducing a spherical enclosure changes the spatial perception and may distort geometry if not handled correctly.
+
+-Sub requirement 1: Does the addition of a transparent spherical enclosure preserve geometric consistency and avoid unnatural warping or distortion of the buildings and water surface?
+
+-Thinking process 2: Enhancing Alsatian timber-framed houses with finely detailed textures and muted autumnal colors implies modifying surface textures and color tones. The original houses have distinct wooden beams and stucco walls with bright windows and greenery. Muted autumnal colors suggest reducing saturation and shifting toward browns, oranges, and deep reds. This change must not disrupt material authenticity—wood should still appear like wood, stucco like stucco—and fine details (like individual planks or window frames) must remain sharp.
+
+-Sub requirement 2: Are the enhanced textures on the timber-framed houses consistent with real-world materials and do they retain fine detail without blurring or artificial patterns?
+
+-Thinking process 3: Encapsulating the canal with glossy resin for a reflective water surface alters the water’s appearance. Original water is calm and reflective but natural. Resin would make it more glass-like, possibly increasing reflectivity and glossiness. This modification must preserve accurate reflections of buildings and sky while avoiding unnatural sheen or light artifacts such as over-bright highlights or incorrect specular behavior.
+
+-Sub requirement 3: Is the resin-like water surface visually plausible with realistic reflections and appropriate glossiness, without exaggerated highlights or broken reflection geometry?
+
+-Thinking process 4: Integrating mini bridges and greenery adds new elements. The original image has a bridge in the background connecting both sides of the canal. Adding smaller-scale bridges or additional foliage must match the scale of the diorama and maintain structural coherence. Any added greenery should follow natural plant growth patterns and not appear pasted or floating.
+
+-Sub requirement 4: Are the newly added mini bridges and greenery proportionally correct, structurally sound, and seamlessly integrated without floating or misaligned elements?
+
+-Thinking process 5: Adding compact, hand-sculpted characters in vibrant clothes on walkways introduces human figures. These figures must be scaled appropriately to the diorama environment, positioned naturally on pathways, and anatomically correct. Their clothing should be detailed but not overly stylized, and their placement should not block key architectural features or create depth inconsistencies.
+
+-Sub requirement 5: Do the hand-sculpted characters have correct proportions, natural poses, and realistic textures, and are they placed in physically plausible positions along the walkways?
+
+Step 2: Generate Yes/No Questions
+
+Q1: 
+Thinking process: Based on the sub requirement of preserving geometric consistency when adding a transparent spherical enclosure, this question evaluates whether the curvature of the sphere causes visible distortion in the buildings, water, or sky. If the edges of the buildings appear bent or stretched near the sphere's boundary, or if reflections are warped, it indicates a failure in maintaining structural coherence.
+Question: Are the buildings and water surface inside the sphere free from unnatural bending or warping at the edges?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of enhancing textures with muted autumnal colors, this question checks whether the texture details on the timber-framed houses (especially wood beams and stucco panels) remain sharp and realistic after editing. It focuses on whether the color shift results in loss of fine detail or introduces artificial patterns like noise or tiling.
+Question: Do the wooden beams and stucco surfaces of the houses retain clear, natural textures without pixelation or repeating patterns?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of using glossy resin for the water surface, this question assesses whether the water reflects surrounding elements accurately and maintains a natural level of gloss. Overly shiny or unnaturally bright areas could indicate an unrealistic material application.
+Question: Does the water surface show smooth, continuous reflections of the buildings and sky without excessive glare or broken mirror-like effects?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of integrating mini bridges and greenery, this question evaluates whether these additions are physically plausible and properly aligned with the existing environment. For example, a bridge should connect two land masses, and plants should grow from ground or walls without floating.
+Question: Are the added mini bridges connected to both banks and do the plants grow from valid surfaces without appearing suspended in air?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of placing hand-sculpted characters in vibrant clothes, this question checks whether the figures have anatomically correct limbs, especially hands, and are positioned naturally on walkways. It ensures no missing fingers or distorted joints, and that clothing drapes realistically.
+Question: Do all visible characters have five fingers per hand, natural limb proportions, and clothing that conforms to body shape without clipping or floating?
+Choices: Yes, No  
+A: Yes
+```

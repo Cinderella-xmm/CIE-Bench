@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The instruction explicitly states retaining only the zebra on the left and removing the second zebra. Observing the presence of a single zebra will confirm this sub requirement.",
+      "question": "Is only one zebra visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Removing the grassland means erasing all grass-related details from the background. The absence of grass will verify if this step was followed correctly.",
+      "question": "Has all the grass been removed from the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Replacing the grass with a green gradient plane involves creating a smooth transition of green shades instead of natural grass textures. Confirming the presence of a gradient plane ensures compliance with the instruction.",
+      "question": "Is the grass area replaced by a green gradient plane?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Creating a calm and solitary visual atmosphere can be translated into ensuring no additional distractions (e.g., other zebras or objects) and maintaining minimalistic design elements. Observing the absence of distractions verifies the calmness.",
+      "question": "Does the edited image maintain a calm and solitary atmosphere without extra distractions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Maintaining the original zebra's position and appearance means preserving its exact location and visual characteristics, such as its stripes and orientation.",
+      "question": "Is the original zebra's position and appearance preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-3380433821817858999",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image now structured as a multi-panel infographic with at least three distinct steps?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image is structured with multiple sections, each depicting a different step in a sequence. There are at least three distinct panels showing various stages of an action, accompanied by labels and visual cues that guide the viewer through the process. This layout is characteristic of a multi-panel infographic.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a panel showing a simple figure in a kneeling position with bent arms pulled back, labeled as \"Step 1: Positioning: Kneel with bent arms back\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "There is no panel showing a simple figure in a kneeling position with bent arms pulled back labeled as 'Step 1: Positioning: Kneel with bent arms back'. The first step shown involves a standing position with arms positioned behind the head, not a kneeling stance.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a panel showing an explosive leaping motion with visual cues of propulsion (e.g., motion lines, energy burst), labeled as \"Step 2: Leap Attack: Propel using core strength\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image does include a panel showing a figure in a leaping motion, but it lacks explicit visual cues like motion lines or energy bursts typically associated with propulsion. The label for this step reads 'Leap Attack', which suggests a leap, but the depiction is more static than explosive.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a panel showing the figure mid-air with knees tucked tightly, labeled as \"Step 3: Mid-Air Adjustment: Tuck knees tightly\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "A panel shows the figure mid-air with knees tucked tightly, and it is labeled 'Mid-Air Adjustment: Tuck knees tightly'. This matches the description provided in the question, indicating that this specific step is indeed present.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the illustrations rendered with bold outlines, vibrant blues and whites as dominant colors, and captions written in energetic, stylized fonts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The illustrations in the image are rendered with bold outlines and use vibrant blues and whites as dominant colors. The captions are written in energetic, stylized fonts, contributing to a dynamic and engaging presentation style.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

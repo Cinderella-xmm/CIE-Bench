@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_287",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the person retain their original posture and clothing details?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the person maintains a similar posture to Image A, standing on the platform with the tablet. The coat and scarf have similar shapes, but the coat in Image B appears more stylized compared to Image A, with fewer distinct fabric details. The adjustment in visual style alters some finer elements of clothing, suggesting some modifications.",
+      "weight": 3,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the person still positioned on the platform as in the original image?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the individual remains in the same position on the platform next to the train tracks, similar to Image A. The individual's proximity to the train and position relative to the platform edge do not show significant alteration.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the station's architectural features, including the glass roof and metal beams, retained?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the station's distinctive architectural elements like the glass roof and metal beams are still evident, though they are rendered slightly differently, focusing more on smoothness and less on intricate details. These features provide a consistent background, just like in Image A.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are other passengers still visible in the background?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the presence of other passengers is less defined compared to Image A. While Image A distinctly shows multiple people in the station, Image B has less emphasis on these details, likely due to the altered visual style, making them appear more blurred or abstract.",
+      "weight": 1,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the person still interacting with the tablet as in the original image?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the person continues to hold and interact with the tablet much like in Image A. The positioning of the hands and the orientation of the tablet remain consistent, indicating unchanged interaction.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

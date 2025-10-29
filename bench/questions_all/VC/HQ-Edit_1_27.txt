@@ -1,0 +1,94 @@
+Description of reference image: The subject is the Eiffel Tower, standing tall and centrally positioned in a wide, snow-covered plaza. The tower’s intricate iron lattice structure is clearly visible, with its iconic three-tiered form, arched base, and pointed spire topped by a small dome-like structure. Snow lightly dusts the surface of the tower and surrounding landscape. The sky above is dramatic, featuring a gradient from deep blue at the top to turquoise and pale yellow near the horizon, with scattered clouds and falling snowflakes. On either side of the central path leading to the tower are rows of bare, snow-laden trees and dark lampposts with conical bases. People are scattered across the snow-covered ground—some standing, some sitting or kneeling—wearing dark winter coats, many appearing to take photos or gaze upward. The ground is covered in thick, undisturbed snow except for footprints and pathways. In the background, beyond the arch of the tower, faint outlines of Parisian buildings can be seen under the wintry sky.
+
+Thinking process: First, analyze the instructions that explicitly allow transformation: "Turn the snowy Eiffel Tower scene into a miniature Parisian winter diorama set inside a decorative glass dome." This indicates that the entire scene—including the scale, framing, and environment—is to be reimagined as a contained diorama. The instruction specifies changes such as "delicate, powdery snow," "tiny silhouetted figures with vintage attire," "micro-sized streetlamps emitting a subtle glow," and "fine cobblestone pathways"—all suggesting a shift in scale, material texture, and lighting conditions. However, it does **not** state that the Eiffel Tower itself should be altered in shape, structure, or identity. It also does not mention changing the core architectural features of the tower, nor does it suggest replacing the iconic landmark with another structure. The instruction implies retention of the **Eiffel Tower as the central subject**, but transformed into a miniature version within a new context.
+
+Allowed Changes List:
+- Scale of the entire scene (from full-size to miniature)
+- Addition of a decorative glass dome enclosing the scene
+- Replacement of real snow with delicate, powdery snow
+- Transformation of human figures into tiny silhouettes wearing vintage attire
+- Modification of streetlamps to micro-sized versions with a soft glow
+- Introduction of fine cobblestone pathways weaving through the scene
+- Alteration of tree textures to match miniature model aesthetics
+- Change in lighting and atmosphere to reflect a diorama setting
+
+Step 2– Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: The Eiffel Tower is an internationally recognized icon. Its structural identity—specifically the iron latticework, the triangular base with arched openings, the three-tiered ascending levels, and the spire with its crown-like cap—is essential for identification. Any alteration to these would render it unrecognizable as the Eiffel Tower. Even in miniature form, the **iconic shape and structural details must be preserved**. Therefore, the overall silhouette, tiered architecture, and open framework design must remain intact.
+
+Functional/logical association elements: The spatial relationship between the Eiffel Tower and the surrounding plaza is critical. The tower stands at the end of a long axis flanked by symmetrical rows of trees and lampposts. This alignment creates a visual corridor leading directly to the tower. Changing this layout would break the logical spatial organization and diminish the sense of perspective and grandeur. Additionally, the presence of people in the foreground engaging with the tower (e.g., photographing it) reinforces the tower’s role as a focal point; their placement relative to the tower should maintain this narrative function.
+
+Non modified element deduction: After excluding allowed changes (such as scale, figure style, lighting, and added cobblestones), the remaining elements that must be retained include:  
+- The **distinctive ironwork pattern** of the tower (its crisscross lattice structure)  
+- The **arched base** with its open central passage  
+- The **spire and crown structure** at the top  
+- The **symmetrical arrangement** of lampposts and trees along the approach  
+- The **presence of people** in the foreground, even if stylized, maintaining their orientation toward the tower  
+- The **overall composition** of the scene: wide-angle view, central axis, vanishing point at the tower  
+
+These elements are not mentioned in the allowed change list and are fundamental to the original image's identity and coherence.
+
+Preservation Targets List:  
+- The Eiffel Tower’s distinctive iron lattice structure  
+- The arched base with open central passage  
+- The spire and crown at the top of the tower  
+- The symmetrical rows of lampposts and bare trees flanking the central path  
+- The positioning of people facing the tower in the foreground  
+- The overall linear perspective leading to the tower  
+
+{
+    Q1: 
+    Thinking process: The Eiffel Tower's iron lattice structure is its defining architectural feature, recognizable globally due to its unique crisscross pattern and open framework. If this texture were replaced or simplified, the tower would no longer be identifiable as the Eiffel Tower. This structural detail is the primary identifier of the subject and thus carries the highest weight.
+    Question: Is the intricate iron lattice structure of the Eiffel Tower present, including its characteristic crisscross pattern and open framework?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The arched base of the Eiffel Tower, with its large central opening, is a key architectural feature that distinguishes it from other towers. It allows for passage underneath and contributes to the tower’s iconic silhouette. Losing this element would alter the tower’s identity and disrupt the visual continuity of the scene.
+    Question: Is the arched base of the Eiffel Tower visible, with a clear central passage beneath the structure?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The spire and crown at the top of the tower are signature elements, often used in depictions of the Eiffel Tower. They mark the vertical culmination of the structure and are essential for accurate recognition. Their absence would make the tower appear incomplete or misidentified.
+    Question: Is the spire and crown structure at the very top of the Eiffel Tower present and clearly defined?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The symmetrical rows of lampposts and bare trees on either side of the path create a formal, balanced composition that leads the eye toward the tower. This layout is integral to the scene’s depth and perspective. While the lampposts may be resized or stylized, their alignment and spacing must be preserved to maintain the original spatial logic.
+    Question: Are the rows of lampposts and bare-branched trees symmetrically arranged along both sides of the central path leading to the tower?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The presence of people in the foreground, particularly those oriented toward the tower and engaged in activities like photography, establishes the tower as a destination and reinforces its cultural significance. Their placement maintains the narrative of observation and admiration, which is central to the image’s meaning.
+    Question: Are there figures in the foreground positioned facing the Eiffel Tower, with some appearing to take photographs or observe it?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The central linear perspective, where the path converges toward the tower, is a core compositional element that emphasizes scale and grandeur. This vanishing point effect is essential to the image’s visual impact. Even in a diorama format, the directional alignment of the path must remain consistent to preserve the original spatial dynamics.
+    Question: Does the central pathway extend directly toward the Eiffel Tower, creating a strong linear perspective with convergence at the tower’s base?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The snow-covered ground is a dominant environmental feature, contributing to the winter atmosphere. While the texture of the snow may be changed to "powdery" in the diorama, the fact that the ground is covered in snow must remain. Removing snow would contradict the original scene and undermine the seasonal context.
+    Question: Is the ground fully covered in snow, with visible accumulation around the base of the tower and along the path?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

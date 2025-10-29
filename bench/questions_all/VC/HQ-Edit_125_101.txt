@@ -1,0 +1,127 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a male ballet dancer captured mid-leap in a dynamic arabesque pose, with his right leg extended high behind him and his left arm reaching upward, forming an elegant diagonal line. He wears a form-fitting turquoise leotard and pointe shoes, suggesting a fusion of classical ballet aesthetics with modern interpretation. His body is silhouetted against a warm sunset sky transitioning from soft peach to deep orange near the horizon. The Eiffel Tower stands prominently in the background, centered and illuminated by the setting sun positioned directly behind its lower arch, creating a glowing halo effect. The tower’s intricate iron latticework is clearly visible. In the distance, a faint silhouette of Parisian skyscrapers forms a modern skyline beneath the twilight sky. The foreground consists of a reflective, geometrically patterned plaza surface—dark and light rectangular tiles—mirroring the golden glow of the sun and the dancer’s silhouette. The overall composition emphasizes symmetry, balance, and dramatic lighting.
+
+**Thinking process:**  
+The editing instruction specifies transforming the entire scene into a **delicate snow globe**, which implies a complete recontextualization of the original environment and presentation. The key transformation involves encapsulating the scene within a glass sphere resting on a bronze base with French engravings. This means:
+
+- The **physical form** of the dancer and Eiffel Tower must be transformed into **stylized miniature versions**.
+- The **background cityscape** and **sky** are no longer literal but part of a **miniature diorama** inside the globe.
+- The **plaza floor** becomes part of the internal landscape or disappears entirely under the globe’s dome.
+- The **lighting** shifts from natural sunset to ambient illumination within the globe, possibly with artificial glow or swirling snowflakes.
+
+However, the instruction explicitly states:
+- “Create a stylized 3D ballerina figure reminiscent of the dancer's pose” → The **pose** of the dancer must be preserved in essence.
+- “The Eiffel Tower, surrounded by miniature Parisian landmarks” → The **Eiffel Tower remains as a central icon**, now scaled down and contextualized with other landmarks.
+- “Encapsulate the globe within a classic bronze and glass base…” → The **overall framing device (snow globe)** is new, but it does not alter the core visual content *inside* if done faithfully.
+
+Thus, **allowed changes** include:
+- Transformation of the dancer into a **3D stylized figurine**.
+- Scaling down and stylizing the Eiffel Tower and surrounding Parisian landmarks.
+- Replacement of the real-world sky and lighting with **artificially lit interior** of a snow globe.
+- Introduction of **swirling snowflakes** as a new atmospheric element.
+- Addition of a **glass dome** and **bronze base** with engravings.
+- Removal or modification of the reflective plaza floor.
+
+But crucially, **the core identity features of the dancer and Eiffel Tower must remain recognizable**, even if stylized.
+
+---
+
+**Allowed Changes List:**
+- The physical scale and material of the dancer (from human-scale to miniature figurine)
+- The rendering style of the dancer (from photorealistic to stylized 3D model)
+- The presence and form of the snow globe structure (glass dome, bronze base)
+- The addition of swirling snowflakes
+- The lighting source (sunset replaced with internal glow)
+- The background cityscape (replaced with miniaturized Parisian landmarks)
+- The reflective plaza floor (transformed or removed)
+- The texture and color of the dancer’s costume (may be simplified or altered for stylization)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now identify what **must not change** despite the transformation into a snow globe.
+
+**Core recognition elements:**
+- The **dancer’s pose** is critical: specifically, the **arabesque leap with one leg extended behind and arms forming a diagonal line**. This is the defining gesture that identifies the subject as a ballet dancer performing a specific movement. Even if stylized, this posture must be retained to maintain the identity of the action.
+- The **Eiffel Tower’s iconic lattice structure and spire shape** are essential for identification. Any distortion that alters its basic form (e.g., rounded edges, missing arches) would break recognition.
+- The **relative position** of the dancer in front of the Eiffel Tower must be preserved to maintain spatial logic — the dancer is in the foreground, the tower in the background.
+
+**Functional/logical association elements:**
+- The **spatial relationship** between the dancer and the Eiffel Tower must remain consistent: dancer in front, tower behind. Reversing or misplacing them would disrupt narrative logic.
+- The **directionality of the dancer’s gaze and movement** — looking toward the tower while leaping — should be maintained to preserve the sense of motion and focus.
+
+**Non-modified element deduction:**
+After excluding allowed changes, the following **visual details** must be preserved:
+- The **specific silhouette** of the dancer’s body: elongated limbs, pointed toes in pointe shoes, raised arm.
+- The **distinctive architectural features** of the Eiffel Tower: the four legs converging at the base, the three-tiered structure, the antenna at the top.
+- The **presence of pointe shoes** — they define the dance style and are a key accessory.
+- The **turquoise color of the leotard** may be altered slightly for stylization, but the **color tone** should remain similar enough to be recognizable as the same outfit.
+
+These elements are not mentioned as changeable in the instructions and are necessary for maintaining coherence with the original image.
+
+---
+
+**Preservation Targets List:**
+- The dancer’s arabesque pose (one leg extended behind, arms forming diagonal line)
+- The Eiffel Tower’s lattice structure and spire
+- The relative positioning of the dancer in front of the Eiffel Tower
+- The presence of pointe shoes on the dancer
+- The turquoise color of the dancer’s leotard
+- The direction of the dancer’s gaze toward the Eiffel Tower
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The arabesque pose — with one leg extended behind and arms forming a diagonal line — is the core identity feature of the dancer’s movement. It defines the artistic intent and distinguishes this moment from any other ballet pose. If this posture is lost or significantly altered (e.g., bent knee, arms lowered), the dancer cannot be recognized as performing the same action. Therefore, preserving this exact silhouette is essential for identity retention, making it a 3-point question.
+    Question: Is the dancer depicted in an arabesque leap with one leg extended behind and arms forming a diagonal line?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The Eiffel Tower’s distinctive lattice framework and tiered structure are globally recognized symbols. Altering its shape (e.g., smoothing edges, removing arches) would make it unrecognizable. Since the instruction requires the tower to be included in the globe, its fundamental form must remain intact. This is a core identification element, hence 3 points.
+    Question: Does the Eiffel Tower retain its characteristic iron lattice structure and three-tiered design with a spire at the top?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The dancer’s pointe shoes are a functional and symbolic detail indicating ballet performance. Their presence confirms the dancer’s discipline and technique. Removing or replacing them with flat shoes would fundamentally alter the character’s identity. While stylization may allow minor texture changes, their form must remain clearly identifiable.
+    Question: Are both feet of the dancer wearing pointe shoes with visible ribbons and box-like structure?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The dancer’s gaze direction toward the Eiffel Tower establishes narrative focus and spatial logic. Changing the head orientation to look elsewhere breaks the compositional harmony and implied connection between dancer and landmark. This directional alignment supports the scene’s emotional and visual coherence, making it a key relational element worth 2 points.
+    Question: Is the dancer’s head turned to face the Eiffel Tower, indicating forward gaze toward it?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The turquoise color of the leotard is a prominent visual trait distinguishing the dancer’s appearance. While the instruction allows stylization, changing it to a radically different hue (e.g., red or black) without justification would obscure the original aesthetic. The color contributes to the image’s mood and identity, so its retention ensures visual continuity.
+    Question: Is the dancer wearing a leotard that is predominantly turquoise in color?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The relative placement of the dancer in front of the Eiffel Tower maintains the scene’s depth and perspective. Moving the dancer behind or beside the tower would distort the intended spatial hierarchy and weaken the visual narrative. This positional relationship is a logical anchor, thus important but not absolute in identity — hence 2 points.
+    Question: Is the dancer positioned in the foreground, clearly in front of the Eiffel Tower?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

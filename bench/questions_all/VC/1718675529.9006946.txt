@@ -1,0 +1,91 @@
+Description of reference image: The subject is a tranquil tropical beach scene at sunset, with gentle waves rolling onto a wide expanse of golden sand. The ocean displays a gradient from deep blue to turquoise near the shore, with white foam forming on the crests of small breaking waves. The shoreline curves gently to the right, leading toward a distant coastline lined with lush green hills and dense palm trees. The sky features soft clouds tinged with warm orange and pink hues near the horizon, transitioning into a pale blue above. On the sandy foreground, several smooth, rounded rocks are partially embedded in the sand, with visible footprints and subtle ripples in the wet sand near the water’s edge. The lighting suggests late afternoon or early evening, casting long shadows and highlighting textures in the sand and water.
+
+Thinking process: First, analyze the editing instructions word by word: "Reimagine the beach scene as an Art Deco travel poster" — this indicates a full stylistic transformation, including form, composition, and color scheme. However, it does not specify altering the *existence* of key elements like the beach, ocean, or palm trees, only their representation. "Waves represented in bold geometric curves" → allows change in wave form; "palm trees as stylized vertical lines" → allows change in tree shape; "clouds transformed into symmetrical shapes" → allows change in cloud form. "Using an earthy color palette of muted greens, blues, and warm oranges" → changes color tone but does not remove elements. No instruction specifies removal of any element, only transformation in style. Therefore, all original visual components must be retained in some form, even if stylized.
+
+Allowed Changes List:
+- Wave form (to bold geometric curves)
+- Palm tree form (to stylized vertical lines)
+- Cloud form (to symmetrical shapes)
+- Color palette (to muted greens, blues, and warm oranges)
+- Overall artistic style (to Art Deco)
+
+Step 2 - Determine the elements that should remain unchanged
+
+Thinking process:
+Core recognition elements: The scene is defined by its iconic beach setting—specifically, the presence of ocean waves, sandy shore, palm trees, and distant hills. These are essential for identifying the location as a tropical beach. Even though they will be stylized, their *presence* and *basic spatial relationship* must remain. For example, the ocean must still be on the left, the shore curving rightward, and the palm trees visible along the far edge. Removing these would fundamentally alter the identity of the scene.
+
+Functional/logical association elements: The interaction between waves and shore (waves breaking on sand), the position of rocks in the foreground, and the direction of the coastline are logical spatial relationships that support realism and environmental coherence. If the waves are moved away from the shore or the rocks disappear entirely, the scene becomes illogical. Thus, the relative positions and functional roles (e.g., waves meeting sand) must be preserved.
+
+Non-modified element deduction: Elements not mentioned for transformation—such as the texture of the sand, the number and placement of rocks, the general curvature of the coastline, and the existence of footprints—are not explicitly allowed to change. Since no instruction says to remove them, and they contribute to scene authenticity, they must be retained, even if stylized.
+
+Preservation Targets List:
+- Presence and position of ocean waves
+- Presence and position of sandy shoreline
+- Presence and location of palm trees along the coast
+- Presence and placement of rocks in the foreground
+- Existence of footprints and ripples in the sand
+- Curved shape of the coastline
+- General layout of sky and horizon line
+
+{
+    Q1: 
+    Thinking process: The ocean waves are the most dynamic and defining feature of the beach scene. Their presence is critical for identifying the environment as a coastal area. While their form may be changed to geometric curves, their existence and interaction with the shore must be preserved. If waves are absent or relocated away from the shore, the core identity of the beach scene is lost. This is a key element for scene recognition.
+    Question: Are ocean waves present and breaking onto the sandy shore?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The sandy shoreline is the foundation of the beach scene. Its continuous curve from the foreground to the right side defines the composition and leads the viewer's eye. Even in an Art Deco style, the landform must retain its basic shape and continuity. Altering its path or removing it would destroy the spatial logic of the scene.
+    Question: Is the sandy beach present and curving from the foreground toward the right side of the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The palm trees along the distant coastline are iconic symbols of tropical beaches. Their presence anchors the location as a tropical region. Although they may be stylized into vertical lines, their existence and placement along the coast must remain. Removing them would misrepresent the environment.
+    Question: Are palm trees visible along the coastline on the right side of the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4: 
+    Thinking process: The rocks in the foreground are distinctive physical features that add depth and texture to the scene. They are positioned near the waterline and are clearly visible in the original. While their texture may be simplified, their presence and approximate location must be preserved to maintain visual coherence and continuity with the original image.
+    Question: Are there three distinct rock formations visible in the foreground sand, clustered together near the right side?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: Footprints and ripples in the wet sand near the water’s edge are subtle but important details that convey recent human activity and the natural motion of the tide. They provide texture and narrative context. While their exact pattern may be stylized, their presence helps preserve the realism and consistency of the beach environment.
+    Question: Are footprints and ripple patterns visible in the wet sand near the water’s edge?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The curved coastline extending into the distance, bordered by green hills, establishes the geographical context of the scene. This landscape feature is essential for maintaining the sense of place. Even if stylized, the arc of the coastline and the presence of hills behind it must remain to preserve spatial logic and environmental identity.
+    Question: Is the coastline visible as a curved line extending into the distance, with green hills rising behind it?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q7: 
+    Thinking process: The sky and horizon line define the time of day and atmospheric conditions. The presence of clouds and the gradient from warm orange near the horizon to blue above are crucial for conveying a sunset atmosphere. While the clouds may become symmetrical shapes, their overall position and color transition must remain consistent with the original scene.
+    Question: Is the sky visible above the horizon, featuring clouds with warm orange and pink tones near the horizon and transitioning to blue higher up?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1005",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Have the heads of the three individuals been made slightly bigger?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the heads of the three individuals appear disproportionately large compared to their bodies. This is a common characteristic in stylized or cartoonish representations where exaggerated features are used for visual appeal or artistic effect. The heads are rounded, simplified, and lack realistic proportions, which suggests intentional enlargement. In contrast, real human proportions typically have a head-to-body ratio that is much smaller. This visual cue, combined with world knowledge about cartoon design principles (such as exaggeration for expressiveness), supports the conclusion that the heads have been made larger than natural proportions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the facial features and accessories of the three individuals precisely detailed?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the facial features of the individuals are highly simplified. The eyes are represented by solid black circles, the noses are minimal or absent, and the mouths are simple curved lines. Accessories such as glasses and scarves are also rendered in a basic, non-realistic manner—glasses are flat and featureless, and the scarf lacks texture or folds. These characteristics indicate a lack of precise detailing, typical of cartoon or toy-like figures. Realistic human faces would include more nuanced details like skin texture, individual eyelashes, depth in eyes, and realistic rendering of accessories. Therefore, based on visual cues and world knowledge about realistic vs. stylized art, the facial features and accessories are not precisely detailed.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the bodies of the three individuals have a cartoonish appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The bodies in Image B exhibit exaggerated proportions and simplified forms, such as smooth, rounded limbs and torsos without anatomical detail. The clothing appears stiff and uniformly shaped, lacking natural folds or movement. Additionally, the overall aesthetic aligns with 3D cartoon or figurine design, where realism is sacrificed for stylization. This is consistent with common cartoon aesthetics, where characters often have blocky or simplified body shapes for visual clarity and charm. Comparing this to real-life human anatomy, the bodies lack musculature, subtle curvature, and natural variation, reinforcing the cartoonish nature. Thus, based on visual analysis and world knowledge of animation and toy design, the bodies do indeed have a cartoonish appearance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the log cabin in the background smaller in scale compared to the individuals?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the log cabin appears to be proportionally similar in size to the individuals, maintaining a realistic perspective. The cabin’s height and width relative to the figures suggest it is a standard-sized structure, consistent with real-world expectations. The individuals are positioned in front of the cabin, and their height does not exceed that of the building’s windows or roofline, indicating proper scaling. There is no visual distortion suggesting the cabin is smaller than life-size. Based on world knowledge of architectural proportions and human-scale buildings, the cabin appears appropriately sized. Therefore, the cabin is not smaller in scale compared to the individuals.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the three individuals positioned in front of the small-scale log cabin?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the three individuals are clearly standing in front of the log cabin, which occupies a significant portion of the background. The cabin is depicted as a full-sized structure with visible windows, doors, and snow-covered roof, consistent with a typical mountain lodge. Its size relative to the people indicates it is not small-scale but rather a normal-sized building. The positioning of the individuals directly in front of the cabin, with the cabin appearing behind them and extending beyond their height, confirms they are in front of a full-scale structure. Thus, based on visual cues and real-world knowledge of building proportions, the individuals are not in front of a small-scale cabin.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

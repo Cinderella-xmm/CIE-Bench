@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-6071318278954354621",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the original woman’s facial features, including the shape of her eyes, nose, mouth, and jawline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman's face is clearly visible and exhibits consistent facial features with those in Image A. The shape of her eyes—almond-shaped with defined brows—is preserved. Her nose maintains its straight bridge and refined tip, and her mouth has a similar fullness and natural curve. The jawline remains sharp and symmetrical, matching the original. These features are recognizable despite changes in attire and setting, indicating that the facial structure was retained during editing. The consistency suggests either a high-quality digital transformation or a composite that carefully preserved identity cues.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the original woman’s skin tone preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The skin tone in Image B appears to be consistent with that in Image A. Both images show a warm, medium olive complexion with natural undertones. There is no noticeable color shift, over-saturation, or artificial light filtering that would suggest alteration. Even though lighting conditions differ—Image A has natural daylight and Image B has indoor ambient lighting—the skin tone remains true to the original. This preservation indicates careful color grading during the edit to maintain realism and continuity.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image preserve the walking posture with the left leg forward and the right arm bent?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the woman is captured mid-stride with her left leg forward and her right arm slightly bent at the elbow, which is typical for a natural walking motion. In Image B, however, the posture has changed significantly. She stands upright with both legs close together and neither arm bent in the same way. Instead, she holds a fan in her right hand and a bag in her left, suggesting a posed stance rather than a walking one. Therefore, the dynamic walking posture from the original image is not preserved.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the hand positions preserved, with the right hand extended forward and the left hand near the hip?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the woman’s right hand is indeed extended forward, holding a shopping bag, while her left hand is positioned near her hip. In Image B, her right hand holds a lace fan, which is held out but not in the same forward extension as before. Her left hand is now lowered and holding a netted bag, not near the hip. While both hands are occupied, their positioning and orientation have been altered due to the new props and static pose. Thus, the specific hand positions from the original are not preserved.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the woman continue to look directly at the camera with the same gaze direction?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the woman is looking directly at the camera with a neutral yet engaging expression. In Image B, she also faces forward and makes eye contact with the viewer, maintaining a similar direct gaze. The angle of her head and the direction of her eyes align closely with the original, suggesting intentional preservation of this aspect for continuity in identity and engagement. Although the environment has changed, the gaze direction remains consistent.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the body shape and proportions of the woman preserved, including her slender frame and leg length?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The woman in Image B retains a slender frame and long legs, consistent with her appearance in Image A. Despite wearing an elaborate historical gown that covers much of her body, her silhouette still reflects the same proportional balance—narrow waist, elongated limbs, and overall height. The clothing does not distort her figure; instead, it accentuates her form in a way that aligns with the original physique. This suggests that the edit maintained anatomical accuracy and proportionality.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the original volume and curl pattern of the woman’s hair preserved, even if partially obscured or styled differently?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the woman has voluminous, tightly curled dark brown hair that falls past her shoulders. In Image B, her hair is similarly curly and full-bodied, cascading down her back and framing her face. While the styling is more formal and possibly arranged to suit the period costume, the underlying texture, curl pattern, and volume appear consistent with the original. The curls are not flattened or altered in structure, indicating that the core characteristics of her hairstyle were preserved, even if adapted for the new context.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7142857142857143
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_100_32",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the eyes, nose, and mouth aligned symmetrically and proportionally, with no distorted shapes such as stretched eyelids or misshapen lips?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the facial features are not visible due to the blurred square covering them, so any potential symmetry or proportional issues cannot be assessed. The absence of visible facial elements means there is no available information to determine alignment or distortion.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the camera proportionally enlarged but still held securely by both hands without floating or unnatural grip angles, and do the metallic accents show consistent highlights and reflections?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the camera appears proportionately larger in the context of the cartoonish style. Both hands are visibly gripping the camera, suggesting secure handling, with the hands positioned naturally based on the illustration style. Given the stylized nature, metallic highlights may be simplified and flatter rather than realistic. Comparing to Image A, where the details of the camera's metallic surface are more realistic, Image B simplifies these aspects, yet maintains cartoon consistency.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the background gradient blend seamlessly with the subject’s edges, with no visible haloing, sharp cutoffs, or color bleeding?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the gradient background is stylized, blending smoothly with the edges of the subject in a way that fits the illustrative format. There are no visible halo effects or sharp cutoffs along the edges of the subject. Compared to Image A, which features a softer, realistic gradient, Image B adopts a more graphic approach without visible color bleeding.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the decorative border composed of clean, continuous camera motifs that do not intersect with the subject’s face or clothing, and are there no pixelated or broken lines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the decorative border is distinct with unbroken camera motifs framing the illustration. These motifs do not intersect with the subject’s face or clothing, demonstrating a clear separation. The lines are clean and continuous, consistent with the graphic design. Comparing to realism, as seen in Image A, which lacks such a border, Image B’s border effectively enhances the cartoon aesthetic without pixelation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are individual hair strands, denim stitching, and fabric folds clearly visible and undistorted, with no smoothing or blurring that removes detail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, while individual details such as hair strands and stitching are stylized, they are not presented with the realism of Image A. The cartoon style uses simplified and clean shapes to represent these features without detailed texture. There is no distortion or blurring, as the illustrative approach uses clean outlines instead. Comparing to Image A, with finer details and textures visible, Image B provides an unblurred yet simplified representation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

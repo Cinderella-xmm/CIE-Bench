@@ -1,0 +1,70 @@
+### Step 1 - Description of Reference Image:
+The subject is a modern black sofa with several black cushions placed evenly along its backrest. The sofa is positioned against a neutral-colored wall, with sunlight filtering through a nearby window casting subtle shadows. Above the sofa hangs an abstract painting featuring a swirling vortex design, primarily in orange, red, and deep blue hues, framed in black. The floor beneath the sofa is covered with a textured beige rug.
+
+### Thinking Process:
+The instructions specify combining a front view with a 90-degree left-side view. This modifies the spatial perspective and layout of the sofa while retaining its essential features. Core elements such as sofa color, cushion arrangement, and the painting's appearance must remain consistent. The scene's lighting, wall color, and rug texture should also be preserved unless otherwise stated.
+
+### Allowed Changes List:
+- The perspective shift to include a 90-degree left-side view of the sofa.
+- The spatial arrangement to accommodate the new perspective.
+  
+### Step 2 - Determine Elements That Should Remain Unchanged:
+#### Thinking process:
+**Core Recognition Elements:** The black color and cushion arrangement of the sofa, the abstract painting's vortex design, and its placement above the sofa are critical for maintaining the subject's identity.
+
+**Functional/Logical Association Elements:** The relative positions of the sofa, painting, and rug maintain scene continuity and should not be altered.
+
+**Non-modified Element Retention:** Details like the wall’s neutral color, rug texture, and sunlight effects keep visual coherence intact.
+
+#### Preservation Targets List:
+- The black color and cushion arrangement of the sofa.
+- The abstract painting's design and position above the sofa.
+- The wall's neutral color and rug's texture.
+- Sunlight effects and their shadows on the wall.
+
+### Step 3 - Generate Question Answer Pairs:
+
+{
+    Q1: 
+    Thinking process: The black color and cushion arrangement define the sofa's core identity. Changing these would alter the subject significantly, hence a weight of 3 points.
+    Question: Is the sofa still black with multiple cushions evenly arranged?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The painting's vortex design is distinctive and essential for identity. Losing this design will invalidate the scene's core visual.
+    Question: Does the painting above the sofa retain its swirling orange-red vortex design?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The positioning of the painting ensures a logical connection between the sofa and art piece. Altering this would disrupt the scene's harmony, thus a weight of 2 points.
+    Question: Is the painting still hung directly above the sofa?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The neutral wall color is a subtle but significant background element contributing to the overall aesthetic. Changing it might affect visual consistency.
+    Question: Is the wall behind the sofa a neutral light color?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The sunlight and shadows add realism and coherence to the scene. Their absence would slightly affect the visual flow, warranting a weight of 1 point.
+    Question: Are there visible sunlight effects and shadows cast by a nearby window on the wall?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

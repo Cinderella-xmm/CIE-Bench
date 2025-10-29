@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_111_110",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Do the LEGO blocks forming the bookshelf and books have a uniform, smooth plastic texture throughout, with no residual wood grain or mixed material appearances?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the structure is made out of LEGO blocks, which are known for their uniform, smooth plastic texture. The image shows a consistent blocky appearance typical of LEGO bricks, which are usually uniform and smooth in texture without any wood grain pattern. There are no visual cues suggesting mixed material appearances or textures directly related to wood.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the colors of the LEGO blocks uniformly earthy-toned (e.g., browns, tans, dark reds) and consistent with the original bookshelf’s color scheme, without any unexpected or jarring color deviations?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the LEGO tower consists of blacks and tan colors, which are not uniformly earthy-toned like browns or dark reds. The color scheme in Image B does not match the original color scheme of the bookshelf, as it introduces darker black colors not present in the original. Thus, there are unexpected color deviations.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the darker LEGO bricks used for carvings clearly aligned and shaped to replicate the original decorative patterns on the spines and shelf edges without blurring or misalignment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no evidence of any intricate decorative patterns typical of the bookshelf. While darker bricks are present, there's no attempt to replicate decorative patterns from the original. The lack of distinct patterns or alignment that suggests an attempt to mimic the original carvings indicates misalignment.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the top of the LEGO tower taper smoothly and symmetrically from the base upward, without jagged edges, irregular steps, or disproportionate narrowing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the LEGO tower shows a structure that becomes more narrow towards the top but does not display a smooth tapering. Instead, it exhibits jagged edges and irregular steps that disrupt any smooth or symmetrical tapering, as is often the case with block constructions.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background behind the LEGO tower completely plain and muted, with no traces of the original textured wallpaper or lighting artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the LEGO tower against a plain background without any visible texture or lighting artifacts. There are no textured patterns or visual remnants of wallpaper such as seen in Image A, indicating a plain, muted backdrop.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are all LEGO blocks aligned perfectly in rows and columns, with no gaps, overlaps, or floating pieces that disrupt the modular structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the LEGO blocks create a recognizable modular structure but are not perfectly aligned. The structure doesn’t have gaps, but there are irregularities in block alignment that contribute to the jagged appearance at the top of the tower.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

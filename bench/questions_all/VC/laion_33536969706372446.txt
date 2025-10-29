@@ -1,0 +1,82 @@
+Description of reference image: The subject is a bedroom scene centered around a four-poster canopy bed with sheer white mosquito netting draped over it, featuring lace trim along the top edge. The bed frame is made of dark wood and has a low-profile design. It is dressed in green quilted bedding, cream-colored sheets, and multiple decorative pillows including one with a large white hibiscus flower on a black background and another with a red logo reading "EMEL" accompanied by a stylized bird motif. A folded yellow towel rests on the bed. To the right of the bed stands a wooden bedside table with a single drawer and open shelf below; atop it sits a small ornate lamp with a patterned shade and a vase of red and yellow flowers. On the left side, near the window, another similar lamp is visible. The room has pale yellow walls, tiled flooring in light beige, and a ceiling composed of square panels with a central sun-shaped light fixture emitting warm yellow illumination. A sheer curtain covers the window on the far left, allowing soft daylight to filter through. A dark rectangular rug lies beneath the bed, and part of a wooden chair or table with a tray holding a white mug and saucer is visible in the foreground.
+
+Thinking process:  
+The editing instruction specifies transforming the canopy bed into a Baroque-style grandiose structure with deep burgundy drapery, gold woodwork, and oil-painted cherubs replacing floral motifs—indicating that the **form, material, color, and decoration** of the bed are explicitly allowed to change. However, no mention is made of altering the surrounding environment, such as the placement of furniture, lighting fixtures, or wall color. Therefore, elements not directly tied to the bed’s appearance (e.g., floor tiles, rug position, bedside table, lamps, window treatment, ceiling light) are implicitly expected to remain consistent unless stated otherwise. Additionally, while the bed’s design changes, the functional layout of the room—such as the relative positions of the bed, nightstand, and window—must logically persist for spatial coherence.
+
+Allowed Changes List:  
+- The canopy bed’s structure (including posts, frame, and overall shape) can be altered to Baroque style  
+- Drapery fabric and color (currently white sheer netting) may be replaced with deep burgundy luxurious fabric  
+- Wood finish of the bed frame may be changed from dark wood to ornate gold woodwork  
+- Decorative pillows’ designs must be modified: floral patterns replaced with oil-painted cherub imagery  
+- Bedding colors and textures may be changed to match opulent aesthetic  
+
+Step 2 - Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: While the bed itself is being transformed, its **spatial role** and **functional relationship** within the room must be preserved. The bed remains the focal point, positioned centrally against the back wall, flanked by the nightstand and window. This layout is essential for maintaining scene logic and visual balance. Even though the bed's form changes, its **position relative to the nightstand and window**, and its **presence as the dominant object in the room**, must stay intact.
+
+Functional/logical association elements: The bedside table must remain in place because it supports the lamp and flower arrangement, which are part of the room’s ambient setup. Changing its location would disrupt the functional symmetry of the space. Similarly, the **ceiling light fixture** (sun-shaped) and **floor rug** serve key environmental roles—lighting and grounding the space—and their presence ensures continuity in atmosphere and spatial orientation.
+
+Non-modified element deduction: Elements not mentioned in the transformation instruction—such as the **window with sheer curtains**, **tiled floor**, **yellow walls**, **dark rug**, **wooden nightstand**, **lamp design**, and **flower arrangement**—are not permitted to change under the given directive. These define the room’s identity beyond the bed. Retaining them maintains consistency in setting and prevents confusion about the environment.
+
+Preservation Targets List:  
+- Position and orientation of the bedside table relative to the bed  
+- Presence and placement of the sun-shaped ceiling light fixture  
+- Color and texture of the tiled floor  
+- Location and shape of the dark rectangular rug beneath the bed  
+- Window with sheer white curtains on the left side  
+- Lamp on the bedside table with patterned shade and floral arrangement  
+- Overall room layout including wall color and ceiling panel grid  
+
+{
+    Q1: 
+    Thinking process: The sun-shaped ceiling light fixture is a unique and iconic feature of the original room, serving both as a functional light source and a distinctive decorative element. Its shape—a bright circular center surrounded by radiating triangular rays—forms a clear visual signature. If this element were removed or altered, the room’s identity and ambiance would fundamentally shift, making it unrecognizable from the original. Therefore, preserving its exact shape and position is critical for maintaining the room’s core visual identity.
+    Question: Is the sun-shaped ceiling light fixture present and positioned at the center of the ceiling?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The bedside table is a key functional component placed adjacent to the bed, supporting the lamp and flower arrangement. Its position relative to the bed defines the room’s asymmetrical yet balanced composition. Altering its location or removing it would break the spatial logic of the scene, affecting how the viewer interprets the room’s layout and functionality. Thus, retaining its placement and form is essential for structural coherence.
+    Question: Is the wooden bedside table located to the right of the bed and supporting a lamp and flower vase?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The dark rectangular rug under the bed serves as a grounding element, anchoring the bed visually and contributing to the room’s warmth and comfort. Its placement directly beneath the bed is intentional and consistent with standard interior design practices. Removing or relocating it would disrupt the spatial hierarchy and diminish the sense of order in the room. As a fixed environmental detail, it must be preserved.
+    Question: Is there a dark rectangular rug positioned directly beneath the bed?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The window with sheer white curtains allows natural light to enter and contributes to the room’s airy and inviting atmosphere. Its position on the left side of the image establishes depth and perspective. Any change to its location or covering would alter the lighting dynamics and visual flow of the space, undermining the original scene’s realism and balance. Hence, its presence and position must be retained.
+    Question: Is there a window with sheer white curtains visible on the left side of the room?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The tiled floor with light beige square tiles provides a neutral base for the room’s decor and reflects the ambient lighting. Its texture and color contribute to the overall warmth and cleanliness of the space. Changing the floor type or color would significantly affect the room’s mood and visual harmony. Since the instruction does not specify any modification to the flooring, it must be preserved as an essential environmental detail.
+    Question: Are the floor tiles light beige in color and arranged in a square grid pattern?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q6: 
+    Thinking process: The lamp on the bedside table features a distinctive patterned shade with metallic accents and emits a warm glow, casting shadow patterns on the wall. This specific design contributes to the room’s cozy ambiance and matches the aesthetic of the other furnishings. Replacing it would change the lighting character and visual rhythm of the space. Thus, its presence and design must be maintained.
+    Question: Is there a lamp with a patterned shade and metallic base on the bedside table?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

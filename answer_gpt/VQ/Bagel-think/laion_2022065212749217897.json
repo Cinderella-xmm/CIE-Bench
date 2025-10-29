@@ -1,0 +1,84 @@
+{
+  "filename": "laion_2022065212749217897",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the head disproportionately large compared to the body but without stretched or compressed facial features?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, which is a cartoon keychain, the head is intentionally designed to be larger than the body, a common stylistic choice in chibi-style art. This style typically emphasizes a larger head relative to the body, making it appear cute or comical. The rest of the figure maintains regular proportions, confirming that the large head is not an artifact of distortion but a deliberate design choice.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the facial features (eyes, nose, mouth) clearly visible and proportionally accurate despite the enlarged head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the facial features would be expected to follow the style of a chibi-designed keychain, where details are simplified and proportions are exaggerated for artistic effect. In this style, features may be visibly smaller or less detailed, but they appear proportionally accurate within its artistic norms.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the stripes on the shirt maintain consistent width, alignment, and color accuracy across the collar and chest area?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cartoon figure is depicted with striped clothing. The stripes appear consistent in width and alignment across the collar and chest area of the keychain figure, which is common for maintaining a clean and appealing visual in cartoon merchandise.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the surface of the figure appear smooth and reflective, with no visible texture artifacts or rough edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The chibi keychain in Image B appears to have a smooth and reflective surface, typical of enamel pins or glossy finished items. The absence of texture artifacts or rough edges suggests high-quality craftsmanship or image capture.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background a uniform pastel color with no gradients, shadows, or blending artifacts near the figure's edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background is a solid pastel pink with no visible gradients or shadows. The uniformity of the color ensures the keychain figure is well-highlighted, and there are no blending artifacts near the edges of the figure, enhancing its visual appeal.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the facial expression more animated than the original (e.g., wider eyes, open mouth) but still anatomically consistent and not distorted?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "While Image B's facial expression is not clearly visible, typically, features on such a chibi keychain would tend to be more animated. However, given its simplified and stylized form, it's less about anatomical consistency compared to traditional depictions. The style is inherently less detailed, maintaining chibi art style norms without anatomical distortion beyond what is intended.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the man into a cartoon-style figure while preserving facial features, posture, and clothing details, this question evaluates whether the stylized version retains anatomical accuracy and natural proportions. Specifically, it checks if the head, limbs, hands, and clothing maintain correct structure and avoid exaggeration or deformation typical of low-quality stylization.",
+      "question": "Does the cartoon version of the man have correctly proportioned limbs, five fingers per hand, and natural joint angles without bending or elongation errors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of adding swirling autumn leaves around the man, this question assesses the physical plausibility and visual coherence of the motion effect. It checks whether the leaves follow natural trajectories, maintain consistent shape and size, and do not float unnaturally or clip through solid objects like the bench or body.",
+      "question": "Are the swirling leaves positioned in a way that follows logical airflow paths and do not intersect or pass through the man’s body or bench?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of replacing the background with a stylized autumn scene using warm colors, this question examines whether the color transitions between trees, sky, and ground are smooth and free from abrupt changes or unnatural gradients. It also checks if tree shapes are structurally sound and do not exhibit broken branches or misplaced foliage.",
+      "question": "Do the tree canopies and foliage display consistent color distribution and intact branching structures without visible breaks or misaligned edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of integrating delicate tree branch motifs onto textured cream-colored paper, this question evaluates the realism of the paper texture and the alignment of the overlaid branch design. It checks for uniformity in texture, absence of stretching or blurring, and proper layering without overlapping errors.",
+      "question": "Is the cream-colored paper background uniformly textured and do the tree branch motifs lie flat without distortion, clipping, or unnatural shadowing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of arranging all elements within a compact collector's album layout, this question checks the spatial organization and visual balance of the composition. It ensures that the central figure, surrounding elements, and border motifs are properly scaled and spaced to simulate a real album page without overcrowding or misalignment.",
+      "question": "Are the elements (man, leaves, bench, paper border) arranged within clear margins and aligned symmetrically or logically to suggest a bounded page layout?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "Based on the sub requirement of maintaining fine detail and avoiding artifacts across all edited elements, this question evaluates whether textures such as fabric, skin, leaves, and paper show consistent detail levels and lack digital artifacts like pixelation, noise, or ghosting at edges.",
+      "question": "Are all surfaces (clothing, skin, leaves, paper) rendered with consistent sharpness and texture detail without jagged lines, smudging, or unnatural smoothing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

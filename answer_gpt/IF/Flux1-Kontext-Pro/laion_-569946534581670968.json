@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-569946534581670968",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the chicken wings replaced with plush toy replicas made of golden-brown fabric that have a slightly crunchy texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the objects on the plate resemble chicken wings in shape but appear to be made of soft, fluffy fabric. The texture visible in the image suggests a plush material rather than a crunchy exterior typical of real chicken wings. World knowledge about textiles helps discern the fluffy, fabric-like appearance compared to a food item.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the sauce replaced with a soft, textured pillow in bright orange?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the small round object resembles a bright orange pillow but in the shape and context of a sauce dish. The smooth and uniformly colored surface suggests it is not a liquid but a solid object, likely made of a fabric material. This contrasts with the expected texture of sauce in Image A, which would be liquid and potentially glossy.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the entire scene set on a smooth, light-colored wooden surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background appears to be a light-colored wooden surface, which is smooth and resembles common wooden furniture surfaces. This is different from the blueish backdrop in Image A, which resembles a darker, textured surface likely not wooden.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the plush wings and the orange pillow arranged in the same spatial configuration as the original chicken wings and sauce?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both in Image A and Image B, the configurations of the items on the rectangular plate seem to be intended to be similar. The arrangement and orientation of the objects closely mimic one another, maintaining the same general pattern as seen in the original image with real wings and sauce.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the plush wings and pillow clearly appear as fabric-based toys rather than real food items?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the items on the plate exhibit characteristics—like the uniform, soft texture and unnatural golden-brown color—indicative of plush toys rather than actual edible chicken wings. The 'pillow' where the sauce should be looks uniformly colored and solid, unlike typical food textures, making it clear these are fabric representations and not real food.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

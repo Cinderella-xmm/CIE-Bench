@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_99",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the text \"RONALOO\" and the number \"7\" visible on the player's jersey?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the jersey clearly features the text 'RONALDO' along with the number '7', which is well-known as Cristiano Ronaldo's jersey number. Based on these visual cues combined with world knowledge about famous soccer jerseys, it is evident that the text is correct.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the player depicted in the act of kicking the soccer ball?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the player is positioned with a bent leg and visible motion suggesting an imminent kick. This stance, along with the proximity of the soccer ball to the player's foot, indicates the act of kicking. Given this posture resembling a typical kicking action in soccer, the visual cue supports the conclusion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the stadium filled with spectators and equipped with bright lights visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts a stadium environment with a large crowd visible in the stands, suggesting it is filled with spectators. Additionally, the bright stadium lights are clearly visible overhead, indicating a typical well-illuminated soccer stadium, combining these elements with world knowledge of sports venues supports the analysis.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the goalkeeper dressed in green positioned near the goalpost?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a figure dressed in a green uniform is visible and stands near the goalposts. This aligns with the visual cues expected from a soccer match where goalkeepers commonly wear distinctive colors like green to stand out from other players.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the soccer ball shown in motion, heading toward the goalpost?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The position of the soccer ball in Image B is shown closely to the player, reflecting a moment immediately after a kick. Its trajectory is directed toward the goalpost, suggesting motion toward scoring. Using visual cues combined with understanding of soccer ball movements during such plays, it's reasonable to conclude that it is in motion toward the goalpost.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

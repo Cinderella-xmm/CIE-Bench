@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The golden tufted grasses are distinctive desert flora present in the original image, arranged in clusters around the base of the cactus. Their spherical, spiky form and golden-brown color are key identifiers of the specific desert ecosystem depicted. If these are removed or replaced, the environmental authenticity and ecological context of the original image are lost, undermining visual consistency. Since the instruction does not allow replacing the flora, their presence is essential for maintaining the desert setting. This is a core environmental feature tied to the scene’s identity, thus warranting a weight of 3 points.",
+      "question": "Are the golden tufted grasses clustered around the base of the cactus still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The blue-gray succulents growing near the base of the cactus are visually distinct due to their low, dense, and silvery-green appearance. They contrast with the golden grasses and contribute to the biodiversity of the scene. These plants are not mentioned in the editing instructions as being removable or transformable, and their removal would alter the ecological balance of the foreground. As an important secondary plant element contributing to scene coherence, their retention ensures fidelity to the original environment. This makes them a significant detail, worth 2 points.",
+      "question": "Are the blue-gray succulent plants visible at the base of the cactus in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The sandy terrain with embedded pebbles is a foundational element of the desert floor. The texture and color of the sand, along with the scattered stones, provide tactile realism and ground-level detail. The instruction specifies anchoring the creature \"on the sandy terrain,\" meaning this surface must remain visually consistent. Altering the texture or removing the pebbles would disrupt the physical grounding of the surreal figure and break environmental logic. This is a critical functional element for anchoring the subject, hence a weight of 3 points.",
+      "question": "Is the sandy ground with visible pebbles and soil texture still present beneath the cactus in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The rolling reddish-brown hills in the background define the topography of the desert landscape. Their shape, color, and placement establish depth and scale. Since the instruction does not mention modifying the background, and the surreal creature is described as anchored within this setting, the hills must remain unaltered. Their absence or distortion would disorient the viewer and suggest a different location entirely. This is a major environmental component affecting spatial coherence, thus assigned 2 points.",
+      "question": "Are the reddish-brown rolling hills visible in the background behind the cactus in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The sky gradient from pale blue near the horizon to deeper blue above is a key atmospheric cue indicating time of day (midday) and weather conditions (clear). This gradient is not mentioned as something to be changed, and preserving it maintains the lighting consistency required for the shadow alignment. The sky serves as a neutral backdrop that enhances the surrealism without distracting from the subject. Its retention supports visual harmony and realism, making it an important but not core element, hence 1 point.",
+      "question": "Is the sky gradient from pale blue near the horizon to deeper blue overhead still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The shadow cast directly beneath the cactus is a direct result of the midday sun angle and confirms the lighting direction. The instruction does not specify altering lighting, and the creature is described as anchored on the terrain, implying it casts a shadow consistent with the original light source. Removing or distorting this shadow would break the logical relationship between light, object, and ground, disrupting spatial realism. This is a functional element tied to environmental physics, thus worth 2 points.",
+      "question": "Is the shadow of the cactus cast directly beneath it, aligned with the direction of midday sunlight, in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The upright, multi-armed silhouette of the cactus — with one central trunk and several upward-reaching arms — is the defining structural feature that identifies the subject. Even though the arms may become flexible appendages with glowing orbs, the **overall branching pattern and orientation** must be preserved to maintain continuity with the original form. This silhouette is the core identity marker; losing it would make the transformation unrecognizable as derived from the original cactus. Thus, this is a core recognition element, deserving 3 points.",
+      "question": "Does the edited image retain the upright, multi-armed silhouette of the cactus with a central trunk and multiple upward arms?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    }
+  ]
+}

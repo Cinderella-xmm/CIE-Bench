@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_10_101",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the surface of the image rendered with a visible textured canvas effect, such as fabric-like weave or uneven surface detail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the entire image has a distinct canvas-like texture visible across the surface, which creates an effect similar to a fabric weave or tapestry. This effect suggests a textured, uneven surface typical of canvas art. Recognizing this texture without directly referring to Image A confirms the presence of this effect in the edited image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the knit patterns on the cardigan visibly exaggerated, with enhanced depth, contrast, or stitch definition compared to normal knitting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the knit patterns on the cardigan show enhanced definition, with deeper contrast and more pronounced stitching that appears more exaggerated compared to standard knitting. This suggests an artistic embellishment of the textures to enhance visual interest, independent of a comparison with Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the buttons on the cardigan exhibit metallic sheen or reflective qualities, such as highlights, shine, or a non-matte finish?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the buttons on the cardigan appear to have a matte finish without any visible highlights or reflective qualities, indicating an absence of metallic sheen or non-matte characteristics. This can be determined based on the visual analysis of the buttons in Image B alone.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the overall color palette of the image use soft, warm tones (such as muted golds, creams, or earthy browns) rather than cool or neutral colors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the color palette includes prominent cool tones such as the blue wallpaper and brown cardigan. The tones used are not predominantly soft or warm, such as muted golds or earthy browns, instead featuring cooler, more neutral colors.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there visible detailed embroidery or decorative stitching along the edges of the frame surrounding the portrait?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows clear decorative stitching along the edges of what appears to be the textile frame or border surrounding the central portrait. This enhances the texture and detail of the image, providing additional visual interest beyond a typical print photograph.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the man’s face, hair, glasses, and general posture clearly preserved and unchanged from the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based solely on Image B, the man's hair and posture seem preserved; however, due to face blurring, it is challenging to analyze the facial details. Nevertheless, his hair and attire appear consistent, provided no discernible changes in comparison to normal scenarios without referring to Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

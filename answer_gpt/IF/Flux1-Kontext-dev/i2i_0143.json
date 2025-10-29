@@ -1,0 +1,58 @@
+{
+  "filename": "i2i_0143",
+  "questions": [
+    {
+      "question_id": "Q2",
+      "question": "Is the parking meter still in the foreground, maintaining its original position relative to the new background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the parking meter is prominently positioned in the foreground, similar to Image A. It dominates the foreground and maintains a central focus. This positioning remains consistent across both images, although the background has been altered significantly from a city street to a desert landscape.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there visible effects of heat haze, such as blurring and shimmering around the parking meter and the surrounding area?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the scene depicts a desert environment with the parking meter sharply in focus. There are no visible effects of heat haze, such as blurring or shimmering, around the parking meter or the surrounding area. The image retains a clear and crisp quality despite the new desert setting.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the parking meter standing alone without any nearby objects or irrelevant elements in the new desert highway setting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the parking meter is shown standing in a desert landscape without any other objects or structures nearby. The stark simplicity of the desert setting emphasizes the parking meter as the singular object in the image, contrasting with Image A's urban environment.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the desert highway include sand and sparse vegetation in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts a desert landscape featuring smooth sandy dunes stretching into the background. There is no indication of sparse vegetation present; the scene purely consists of sand dunes characteristic of a desert without any vegetation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

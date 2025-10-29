@@ -1,0 +1,72 @@
+### Step 1 - Description of Reference Image:
+
+The subject is a blue pencil placed diagonally on a bright yellow rectangular piece of paper. The pencil is sharpened and positioned with its tip touching the surface of the paper. In the background, there is an unfocused silver laptop, suggesting an office or study environment. The yellow paper has clean edges and a uniform color. The surface appears to be a white desk or table.
+
+### Thinking process:
+
+The instructions ask for adding handwritten text "Draft" on the yellow paper while maintaining it as a design sketch cover image. This implies that the paper and pencil remain key elements. However, the laptop in the background may not hold significant importance unless specified.
+
+#### Allowed Changes List:
+- Adding the handwritten text "Draft" on the yellow paper.
+- Adjusting the appearance of the writing style and positioning of the text on the paper.
+  
+### Step 2 - Determine Elements That Should Remain Unchanged
+
+#### Thinking process:
+- **Core Recognition Elements:** The blue pencil and the yellow paper are central to the image's identity. The pencil serves as a tool symbolizing writing/drafting, and the yellow paper represents the canvas for the draft.
+- **Functional/Logical Association Elements:** The pencil's interaction with the paper (i.e., its tip touching the paper) must be preserved for logical consistency.
+- **Remaining Unmodified Elements:** The clean edges and uniform color of the yellow paper, the color and condition of the pencil, and other minor details like the slight shadow under the pencil should stay consistent.
+
+#### Preservation Targets List:
+- Blue pencil with a sharpened tip.
+- Bright yellow rectangular paper.
+- Pencil's tip touching the yellow paper.
+- Clean edges and uniform color of the yellow paper.
+- The blurred silver laptop in the background (if possible, as it adds context).
+
+### Step 3 - Generating Yes/No Questions
+
+{
+    Q1: 
+    Thinking process: The blue pencil is a crucial identifier of this image. Its color, position, and condition are key visual elements to retain. Losing the blue color would make it hard to recognize the pencil.
+    Question:Is the pencil blue in color?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The yellow paper acts as the main canvas, and its clean edges and uniform color are vital for maintaining visual consistency. Any distortion here would detract from the image’s integrity.
+    Question:Does the yellow paper have clean edges and a uniform color?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The functional relationship between the pencil and the paper—the pencil's tip touching the paper—establishes the drafting action. Losing this connection compromises the logical flow of the image.
+    Question:Is the pencil's tip visibly touching the yellow paper?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4: 
+    Thinking process: While the laptop is less critical, it contributes to setting the context of a workspace. Preserving the general presence of the laptop helps maintain scene coherence.
+    Question:Is there a blurred silver laptop in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q5: 
+    Thinking process: The sharpness of the pencil's tip is an indicator of its readiness for writing, which ties into the concept of a "draft." This detail supports the narrative and should be retained.
+    Question:Is the pencil's tip visibly sharp?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

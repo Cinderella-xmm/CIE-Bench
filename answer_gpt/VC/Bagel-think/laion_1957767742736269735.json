@@ -1,0 +1,110 @@
+{
+  "filename": "laion_1957767742736269735",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the white star with the number \"4\" visible on the turret of the tank?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tank is modified to look like it's made of colorful building blocks. The turret is now a solid blue with no visible markings like a star or numbers. This is different from Image A, where a white star and the number '4' are clearly displayed on the turret.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the markings \"31 64A\" and \"A-14\" visible on the lower sides of the tank’s hull?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, due to the edit, the tank's hull surfaces appear to be composed of block-like textures without distinct alphanumeric markings such as '31 64A' and 'A-14'. In Image A, these markings are indeed visible on the tank's lower hull.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the main gun barrel oriented straight forward from the turret?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the gun barrel of the tank is pointing directly forward. The barrel maintains this orientation even with the transformed block appearance. Similarly, Image A also has the gun barrel oriented straight forward.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the sign reading \"FUTURE HOME OF THE NATIONAL ARMOR & CAVALRY MUSEUM\" with the cavalry rider illustration and the website \"www.armorcavalrymuseum.org\" visible and legible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sign is unobscured and clearly visible. The text and imagery remain the same and are legible as in Image A, indicating that the transformation of the tank did not affect the sign's visibility.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a tiger motif present on the front hull of the tank, located within the blue-and-white checkered area?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the front hull of the tank shows a tiger motif within a blue-and-white checkered design, consistent with its appearance in Image A. The transformation into block colors preserved this motif.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the tank positioned to the left of the museum sign?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tank is situated on the left side of the landscape relative to the museum sign, mirroring its position in Image A. The position remains unchanged despite the tank's altered appearance.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the tank facing directly toward the camera (front-facing)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tank appears to be facing directly towards the camera, showing its frontal aspect. This orientation is the same as in Image A, where the tank also faces frontally.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q8",
+      "question": "Does the turret have a distinct cylindrical shape with a dome-like top and a single gun barrel protruding from the front?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the blocky appearance, the turret still maintains a roughly cylindrical form with a dome-like top and a singular gun barrel extending from the front, similar to the turret shape visible in Image A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7
+}

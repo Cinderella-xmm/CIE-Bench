@@ -1,0 +1,110 @@
+{
+  "filename": "HQ-Edit_125_103",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is there a large pink peony flower prominently displayed on the body of the teapot?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual cues show a teacup with floral designs featuring prominent yellow and white flowers. The teapot in Image B does not display a large pink peony flower as seen in Image A. Image B is more focused on yellow and white flowers, which differ from the floral design in Image A.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a white clustered flower located next to the pink peony on the teapot?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the teacup has floral designs, but the element in question, a white clustered flower next to a pink peony, is visible only in Image A, where it is a central design. Image B lacks a pink peony and consequently lacks a white clustered flower next to it.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there green leaves and stems extending from the base of the flowers on the teapot?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays a teacup with floral design motifs that include green leaves, which extend from the base of the flowers. This suggests that the floral elements incorporate leaves and stems, even though Image B does not have a teapot with extensive leaf designs like Image A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the floral elements include pink, white, green, and orange-red berry-like accents?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows floral elements on the teacup including yellow and white flowers accented with green leaves but lacks pink or orange-red berry-like accents. These accents are present in Image A but not in Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is amber-colored tea visible in all four cups?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is only one cup visible which contains amber-colored tea. Image B does not include multiple cups to display the number four. It focuses on a single teacup in the scene, unlike Image A which includes multiple cups filled with tea.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the floral elements centrally located on the body of the teapot?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no teapot present; instead, the floral elements are located on the teacup and the cylindrical container. In contrast, in Image A, the floral elements are centrally located on the body of the teapot. Given Image B's focus, it does not apply to the central floral placement of a teapot.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Does the teapot surface exhibit a fine mesh or woven-texture appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not feature a teapot at all, therefore it doesn't display any mesh or woven-texture appearance, unlike Image A's teapot, which has a distinct textured design. Image B's objects have a smooth surface without any such texture.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q8",
+      "question": "Are there exactly four cups present in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is only a single teacup visible in the scene, whereas Image A features four cups. Hence, Image B does not satisfy the condition of having exactly four cups.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.13333333333333333
+}

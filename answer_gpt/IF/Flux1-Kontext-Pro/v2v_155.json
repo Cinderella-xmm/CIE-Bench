@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_155",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the golden car depicted in a 3D chibi style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the car is a realistic model and doesn't have exaggerated features typical of a chibi style, such as an oversized head or small body. It is proportionally accurate and doesn't exhibit stylistic attributes associated with chibi art, such as increased cuteness or cartoonish exaggeration. Therefore, from a common understanding of chibi design, it is not depicted in a chibi style.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the car look like it is emerging from the photo frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the golden car is positioned on a flat surface within a photo frame, but it appears fully within the boundaries of the frame itself. The car seems to be placed on or attached to a flat shelf inside the frame, without any visual indication of emerging or coming out from the frame. The frame holds the car and toothbrush in place, giving a 3D effect to the scene rather than showing an emergence.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a human hand visible, grasping the edges of the photo frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a human hand is visible on the right lower corner, holding the left side of the frame. One can clearly see the thumb and the index finger grasping the frame, indicating that the frame is being held or supported by a human hand. The visual cues are clear with the realistic appearance of the hand and fingers.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the car retained its golden color in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the car remains in the same golden color as depicted in Image A. There is no change in the hue or tone with regard to the car's color, suggesting the gold color is preserved across the images. This consistency in the car's appearance supports the conclusion that its color has not changed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the transition from a flat 2D space to a 3D reality clearly depicted?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the frame and the hand holding it create a perception of depth, suggesting a transition from the flat appearance in Image A. The hand giving the impression of supporting or presenting the contents within the frame adds a three-dimensional reality to the scene. The objects themselves, particularly the car, are three-dimensional, enhancing the perception of a real-world spatial existence.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

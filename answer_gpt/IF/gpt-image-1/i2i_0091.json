@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0091",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the wall clock still visible after the edit?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "In the edited image, the environment shows a castle hall with stone walls and gothic arches. There is no wall clock visible, as the architectural style and interior are significantly different from the modern setting in the original image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the wooden cabinet still visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "The edited image features a hall interior typical of a castle, with stone walls and arched windows. The modern wooden cabinet seen in the original image is absent in this medieval-style setting.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image show elements typical of a castle hall interior, such as stone walls or arches?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image prominently features stone walls and gothic arches, which are common elements in castle hall interiors. This aligns with architectural design often seen in historical or medieval settings.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the lighting in the edited image match the lighting style from the original image, with similar shadows and highlights?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The original image displays a modern interior with lighting casting clear shadows on a flat wall. The edited image has a warm, diffused light coming through large arched windows, creating shadows across the stone floor and highlighting the vertical patterns. The lighting styles are markedly different due to the architectural and material differences.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any remaining objects from the original scene, such as vases or plants, in the castle hall setting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "The edited image is a castle hall that contains no objects from the original modern room, such as plants or vases. The style and context have completely changed to a historical architectural environment.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

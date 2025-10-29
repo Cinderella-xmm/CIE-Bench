@@ -1,0 +1,95 @@
+Description of reference image: The subject is a heavily armored, humanoid figure with a menacing and mechanical appearance. The armor is predominantly metallic gray, weathered and battle-scarred, featuring intricate plating and sharp protrusions. The helmet has two prominent curved horns on top, with angular, jagged edges extending from the sides and back, resembling demonic or tribal motifs. The faceplate is skull-like, with deep-set red eyes that glow faintly, giving it an eerie, sentient presence. The chest plate is segmented into layered plates with rivets and mechanical joints, suggesting advanced or industrial design. The shoulders are massive, each adorned with large spiked pauldrons that have organic-looking, horned structures and embedded red vein-like patterns. The arms are thickly armored with articulated joints and clawed gauntlets. The overall posture is upright and imposing, facing forward directly toward the viewer, conveying strength and intimidation. There is no visible background—only a neutral, light-gray gradient that isolates the figure, emphasizing its form and detail.
+
+Thinking process: First, analyze the editing instructions to determine what can be changed. The instruction specifies transforming the ornate armored figure into a "miniaturized sculpture within a steampunk-style glass dome." This indicates a complete transformation of scale and context—the original figure's physical form will be reduced and placed inside a new environment. However, the core identity of the figure must remain intact because the instruction does not say to alter its design or features; instead, it builds upon them. The addition of "rotating cogwheels at the base," "small mechanical wings on the back," "intricate copper piping accents on the armor," and "suspended brass filigree orbs" implies that these are *new* elements added to the scene and modified version of the figure. Therefore, the original visual structure of the figure—including its armor shape, horn configuration, facial features, and overall silhouette—is not being replaced but rather enhanced or contextualized. 
+
+Allowed Changes List:
+- Scale of the figure (now miniaturized)
+- Addition of mechanical wings on the back
+- Integration of copper piping onto the armor surface
+- Placement within a glass dome environment
+- Addition of rotating cogwheels at the base
+- Inclusion of suspended brass filigree orbs in the surrounding space
+- Alteration of lighting and atmospheric effects due to enclosure in a dome
+
+-----------------------------------------------------------------------------------
+
+Thinking process:
+Explain the criteria for determining the core recognition elements: The armored figure’s identity hinges on several key visual markers: the dual curved horns on the helmet, the skull-like faceplate with glowing red eyes, the massive spiked shoulder pauldrons with red vein-like markings, the segmented chest armor with riveted plating, and the clawed gauntlets. These are all unique identifiers that distinguish this figure from generic fantasy armor designs. If any of these were removed or fundamentally altered, the character would lose its distinctive identity. For example, removing the horns or changing the eye color would render it unrecognizable as the same entity.
+
+Functional/logical association elements: Although the figure is being placed in a new setting (glass dome), the internal logic of its form must remain consistent. The armor’s structural integrity—such as the articulation of limbs and joint placement—must be preserved to maintain believability in the new context. Additionally, if mechanical wings are added, they must attach logically to the back without distorting the original spine or shoulder structure. Similarly, copper piping should be overlaid rather than replacing existing armor components.
+
+Non modified element deduction: After excluding allowed changes (e.g., scale, added wings, copper pipes), the remaining elements—such as the specific shape of the horns, the texture of the metal, the pattern of scarring, the red veins on the shoulders, and the arrangement of chest plates—are not mentioned as changeable and thus must be retained. These details contribute to the visual coherence and authenticity of the original design, even when modified.
+
+Preservation Targets List:
+- The dual curved horns on the helmet
+- The skull-like faceplate with glowing red eyes
+- The massive spiked shoulder pauldrons with red vein-like patterns
+- The segmented chest armor with riveted plating
+- The clawed gauntlets on both hands
+- The overall silhouette and proportion of the armored figure
+- The weathered, battle-scarred texture of the metallic surface
+
+---------------------------------------------------------------------------------------
+
+{
+    Q1: 
+    Thinking process: The dual curved horns on the helmet are the most iconic and defining feature of the figure's headgear. Their shape—curved upward and outward—and their position atop the skull-like helmet are critical to identifying the figure. Removing or altering them would fundamentally change the character's identity, making it unrecognizable. This is a core identity element, hence weighted at 3 points.
+    Question: Are the two prominent curved horns on top of the helmet still present and retaining their original shape and position?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The skull-like faceplate with glowing red eyes is central to the figure’s menacing expression and supernatural aura. The red eyes are particularly significant—they are not just colored but emit a faint glow, distinguishing this figure from standard armored warriors. Changing the eye color or eliminating the glow would remove a key emotional and visual cue. This is a core identification feature, so it receives a weight of 3 points.
+    Question: Is the faceplate still skull-shaped with clearly visible, glowing red eyes?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The massive spiked shoulder pauldrons with red vein-like patterns are highly distinctive and serve as major visual anchors. These elements are not only decorative but also symbolic of the figure’s power and possibly biomechanical nature. The red veins suggest internal systems or energy flow, which is part of its design language. Any alteration to their shape or removal of the red patterns would compromise the figure’s unique aesthetic. This is a key accessory element, so it is assigned 2 points.
+    Question: Do the shoulder pauldrons retain their large, spiked structure and the red vein-like patterns embedded within them?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The segmented chest armor with riveted plating defines the torso’s mechanical and layered appearance. The arrangement of horizontal plates and the presence of rivets contribute to the industrial feel of the armor. If this structure were flattened or simplified, the figure would lose its complex, engineered look. This is a crucial structural element that supports the overall design logic, so it is rated at 2 points.
+    Question: Does the chest armor maintain its segmented, layered design with visible rivets and mechanical joints?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The clawed gauntlets are essential to the figure’s aggressive posture and combat-ready appearance. They are clearly defined with sharp, talon-like fingers and integrated into the arm armor. Their presence reinforces the warrior nature of the figure. While minor modifications might be acceptable (like adding mechanical details), their basic form must remain unchanged. This is a functional detail tied to the figure’s identity, so it gets 2 points.
+    Question: Are the hands still equipped with clawed gauntlets featuring sharp, pointed fingers?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The weathered, battle-scarred texture of the metallic surface is a key detail that conveys history and use. It includes scratches, dents, and discoloration across the armor, especially noticeable on the chest and shoulders. This texture adds realism and depth to the figure. Even if new elements like copper piping are added, the underlying texture must remain visible. This is a secondary but important detail for visual consistency, so it is given 1 point.
+    Question: Is the original weathered and scarred texture of the armor still visible across the chest, shoulders, and limbs?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q7: 
+    Thinking process: The overall silhouette and proportions of the figure—its broad shoulders, narrow waist, and upright stance—are fundamental to its imposing presence. Any distortion in height, width, or limb ratio would make the figure appear off-model. Since the instruction allows scaling down, the proportions must be preserved even in miniature form. This is a foundational visual trait, so it is worth 2 points.
+    Question: Does the figure maintain its original silhouette and proportional relationship between head, torso, and limbs?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

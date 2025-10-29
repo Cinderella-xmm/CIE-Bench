@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_213",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the butterfly depicted as a voxel-based 3D model?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the butterfly appears to be constructed using small, cube-like units that resemble voxels. This is indicated by the blocky, pixelated appearance common in voxel-based 3D models. The butterfly is built from discrete, uniformly-sized elements, giving it the characteristic voxel structure.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the butterfly's design and style resemble the icons shown in the left image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the butterfly depicted is a natural, realistic representation of a butterfly with smooth gradients and textures. In contrast, Image B features a voxel-based style, which is artificially pixelated and blocky. The design and style of Image B's butterfly do not align with the natural aesthetics of Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Was the butterfly rendered in Octane at 8k resolution?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not provide specific details on the rendering software or resolution used. However, the butterfly's voxel-based construction implies an artistic style rather than a high-resolution, hyper-realistic rendering typical of an 8k Octane render. The intent appears to be more stylistic rather than achieving realistic detail and clarity.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the butterfly exhibit three-dimensional characteristics such as depth and perspective?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B's butterfly features depth and perspective characteristic of 3D models. The voxel structure creates a perception of volume, and the butterfly's positioning on the table enhances the sense of depth, suggesting three-dimensional attributes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the butterfly display realistic lighting and shading effects indicative of being rendered in Octane?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "While Image B has basic shading and lighting consistent with 3D models, it lacks the complex, realistic lighting and shading effects associated with Octane renderings. Instead, the shading appears relatively straightforward and serves to emphasize the voxel art style rather than aiming for realism.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

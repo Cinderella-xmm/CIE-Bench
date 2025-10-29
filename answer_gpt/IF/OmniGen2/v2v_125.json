@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_125",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly six chibi-style stickers in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features several distinct chibi-style stickers, each outlined with a white border and containing different elements such as characters and a horse. By counting these distinct entities, we can determine if there are exactly six. Upon close examination, there appear to be more than six individual stickers visible in the edited image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the chibi characters in the stickers have oversized, expressive eyes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In chibi art, characters are often depicted with large eyes to convey expressiveness. By observing Image B, the characters indeed have this characteristic style, as their eyes are considerably large, which is typical for chibi-style representations.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the background of the stickers feature warm, earthy tones along with subtle stars or confetti?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B is clearly depicted with an earthy brow finish, accented by small star shapes or sparkles that add a decorative element to the overall design. This aligns with the description of warm tones combined with subtle decorative marks.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the aspect ratio of the edited image 9:16?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "An aspect ratio of 9:16 is usually characterized by a vertical layout that is commonly used in platforms such as Instagram Stories or TikTok. Image B, however, appears to be more square or horizontally oriented than the vertical tallness typical of a 9:16 aspect ratio.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the rider’s shirt depicted in a chibi style and retains the beige color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The character in the chibi sticker wearing the shirt is represented in a simplified, cute manner typical of chibi art. The shirt is clearly colored in beige, maintaining the consistency of the original shirt’s color from Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

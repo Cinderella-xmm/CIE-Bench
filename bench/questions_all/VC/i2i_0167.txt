@@ -1,0 +1,64 @@
+Description of reference image: The subject is a shiny red apple placed centrally on a wooden surface, with a short, dried stem attached at the top. The apple has a smooth surface with visible white specks scattered over it. The lighting creates highlights and shadows across the apple, emphasizing its glossy texture. The background is softly blurred, featuring hints of greenery and a bright window on the right, lending a natural ambiance.
+
+### Step 1 - Allowed Changes List
+Thinking process: The instructions specify creating three views of the apple—front, cross-section, and top—but do not mention altering the apple's core identity features, such as its glossy red color, dried stem structure, or speckled texture. The background is not specified for retention, suggesting it may be changed. However, the overall context of an apple remains crucial.
+
+Allowed Changes List:
+Specific element 1 that allows for changes: Angle and perspective of the apple for displaying the front, cross-section, and top views.
+(Specific element 2 that allows for changes): Background elements, as long as the apple remains the central subject.
+
+### Step 2 - Preservation Targets List
+Thinking process: The core recognition elements include the apple's red skin, glossy texture, speckling, and stem attachment. The scene does not require specific retention, but the apple's placement on the wooden surface supports logical continuity. 
+
+Preservation Targets List:
+(Element 1 that should be maintained): Smooth glossy red skin with white specks.
+(Element 2 that should be maintained): Short dried stem structure.
+(Element 3 that should be maintained): Placement on a wooden surface for logical consistency.
+(Element 4 that should be maintained): The apple's overall shape and volume.
+
+### Step 3 - Generate Questions Based on Preservation Targets
+
+{
+    Q1: 
+    Thinking process: The glossy red skin with white specks is essential for recognizing the apple as a red apple. Losing this would compromise its core identity.
+    Question: Does the apple retain its glossy red skin with visible white specks?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The dried stem is a critical structural feature of the apple that helps maintain its natural appearance even in cross-sectional views.
+    Question: Is the short dried stem still present on the apple?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The apple's placement on the wooden surface provides a relatable context and helps ground the object logically in any view.
+    Question: Is the apple displayed on a wooden surface in all views?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: Maintaining the apple's overall shape ensures the consistency of its size and volume across different perspectives.
+    Question: Does the apple keep its realistic overall shape and volume in all views?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q5: 
+    Thinking process: In the cross-section view, the apple's internal structure should display visible flesh texture, consistent with natural apple anatomy.
+    Question: In the cross-section view, is the apple's flesh texture visible and consistent?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_114_95",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the wide, straight avenue leading directly toward the base of the Eiffel Tower preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a golden bottle is prominently placed in the center, blocking the view of the avenue that was visible in Image A. This strategic placement suggests that the avenue itself is partially covered by the bottle, making it unclear whether the avenue is preserved. Without visual confirmation of the avenue due to the bottle's obstruction, it cannot be confirmed that the avenue is fully preserved in the edited image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the symmetrical rows of green trees lining both sides of the avenue preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bottle overlaps with the central part of the image, but the peripheral areas around it still appear to show rows of green trees lining the avenue. Despite their slightly obscured visibility, there is enough evidence to conclude that the rows of trees are preserved in the edited image.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the streetlights positioned along the sides of the avenue preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lower region still shows streetlights along the sides of what would be the avenue, though somewhat obscured by the inserted bottle. Since there is still visibility of these elements, they appear to be preserved.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the wet asphalt surface with visible reflections preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The inserted bottle in Image B covers much of the center region, obstructing a direct view of the asphalt that was visible in Image A. This obstruction makes it impossible to clearly verify if the wet asphalt's reflective quality is preserved.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the overcast sky with dark, layered clouds preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B appears to retain the same sky with dark, layered clouds, as these are visible in the background and are not obscured by the inserted bottle.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the distant Parisian skyline with identifiable rooftops and modern high-rises preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the large bottle being in the center, the skyline with modern high-rises and identifiable structures is still visible around it, maintaining the view of the Parisian skyline.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are the vehicles, including cars and a bus, visible on the road in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The central placement of the bottle in Image B mostly obscures the road where the vehicles were visible in Image A. Therefore, the vehicles cannot be confirmed as visible in the edited image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6153846153846154
+}

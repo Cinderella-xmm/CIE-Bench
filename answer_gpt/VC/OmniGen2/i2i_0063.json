@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0063",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the transformed subject (horse) maintain the same pose and size relative to the remote control as the original cat did?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the horse is in an upright position, being ridden by a man in a scene that resembles a movie poster, which is entirely different from the original image featuring a cat lying on a flat surface. The horse does not interact with any remote control nor does it maintain any pose or size relative to it as the cat did. Thus, the pose and size of the subject relative to the remote control differ entirely from Image A where a cat is seen alongside a remote control on a bed-like surface.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the remote control positioned in the same location and maintains the same visual appearance as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not feature any remote control, unlike Image A, which clearly displays a remote control in front of the cat. In Image B, the entire scene is a dramatic representation with a horse and rider in a cityscape. Since the remote control from Image A is absent in Image B, neither its position nor visual appearance is maintained.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the texture and design of the remote control remain unchanged from the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The original image, Image A, includes a remote control with a clear design featuring buttons and a specific texture typical of such devices. Image B does not include any remote control, thus no aspects of texture or design from Image A can be observed or maintained in Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the texture of the cream-colored surface, upon which the subject lies, preserved as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the cat rests on a cream-colored textured surface that appears to be fabric. However, in Image B, the context changes entirely to a dramatic outdoor cityscape scene showing a horse with a rider. The cream-colored surface texture is absent, replaced by an outdoor setting that conveys a different mood and environment. Therefore, the cream-colored fabric texture is not preserved in Image B.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the collar's shape and placement remain consistent with the new subject (horse)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the cat wears a collar which is visibly located on its neck. Image B presents a horse in a movie-like poster and there is no collar evident on the horse. The horse features gear typical for riding such as a bridle, but no collar like in Image A is seen on the horse. Hence, the collar's shape and placement do not remain consistent between the images.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.0
+}

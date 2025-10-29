@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_125_103",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the teapot now a cylindrical container instead of its original rounded shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a cylindrical container is present in the foreground, which appears to serve as packaging rather than a teapot. Its shape is distinctly cylindrical as opposed to the rounded, teapot-like design in Image A. Through visual analysis and world knowledge that packaging often comes in cylindrical shapes for certain products, the object in Image B can be identified as a packaging container and not a teapot.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are floral patterns embossed in golden foil on the surface of the teapot container?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows floral patterns on both the cylindrical container and the teacup. However, the patterns do not appear to be embossed in golden foil. The floral designs are printed on the surface without any metallic sheen typical of golden foil embossing. Comparatively, the teapot in Image A has floral patterns but they are not foil-embossed either.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the teacups redesigned as nested stackable units, each with a decorative lid?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a single teacup present with no lid visible on it. The main redesigned element is a lidded tea bowl rather than individual teacups. For stackable units to be identifiable, multiple units nesting within each other would be necessary, which is not the case here. Hence, these teacups were not redesigned as described.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there Japanese calligraphy displayed across the top of the packaging design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features visible Japanese calligraphy prominently displayed across the top side of the cylindrical packaging container. The presence of calligraphy in a Japanese context is a common design choice for products connected to cultural themes, assisting in the understanding of this visual cue.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is a bamboo motif visible along the side of the packaging?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a bamboo motif printed clearly on the side of the cylindrical container. Bamboo motifs are often used in packaging to denote themes of nature or purity in tea or similar products, using visual identification combined with world knowledge.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the entire tea set packaging presented on a flat white surface with no other background elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tea set packaging is indeed presented on a flat white surface without any additional background or contextual elements visible. This setup is commonly used in product photography to focus attention solely on the subject, allowing for clear identification.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

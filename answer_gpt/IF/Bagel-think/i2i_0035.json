@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0035",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image contain the exact title “Today’s Balanced Lunch” at the top?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text at the top reads 'CHTOLER UE OWTBEE DETY', which does not match the title 'Today’s Balanced Lunch'. Therefore, based on the visual cues and recognizing letters from the English alphabet, the title 'Today’s Balanced Lunch' is not present.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a placeholder for the school logo located at the bottom right corner of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon analyzing Image B, a distinctive logo or placeholder is seen at the bottom left corner, instead of the bottom right. The presence of text and symbols in that location is noted, but without confirmation of it being a school logo or placeholder distinctly at the bottom right.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Have the colors in the food and background been visibly enhanced to appear more vivid and bright?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the colors appear to be more vivid and exhibit high contrast, particularly compared to Image A. The food items show an unusual brightness and color saturation not seen in the original image, indicating enhancement has been applied to make the colors more vivid.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are white outlines visible around the edges of all items on the plate in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays noticeable white outlines around the edges of the food and carton on the plate. This is evident through the stark contrast between the white outlines and the darker colors of the items, suggesting an intentional edit to highlight edges.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the image been formatted to fit an A4 vertical layout, ensuring proper alignment of text and imagery?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B seems to be formatted squarely, with text aligned at the top in a manner inconsistent with vertical layout typical of an A4 size format. The proportions and alignment of text and imagery do not suggest it fits the vertical dimensions of an A4 layout.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-6291977903332652716",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the buildings and water surface inside the sphere free from unnatural bending or warping at the edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the buildings and water surface inside the glass sphere exhibit significant bending and perspective distortion, which is typical when viewing through a spherical object due to optical refraction. This bending is unnatural compared to a direct view without obstructions and suggests clear warping at the edges of the sphere.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the wooden beams and stucco surfaces of the houses retain clear, natural textures without pixelation or repeating patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The textures of the wooden beams and stucco on the houses in Image B remain clear and natural, showing no signs of pixelation or repeating patterns. The details are coherent and consistent with real-world textures for similar architectural elements.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the water surface show smooth, continuous reflections of the buildings and sky without excessive glare or broken mirror-like effects?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the reflections on the water surface are smooth and continuous. The reflections of the buildings and sky appear natural, without excessive glare or broken mirror-like effects, suggesting a realistic rendition of the environment.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the added mini bridges connected to both banks and do the plants grow from valid surfaces without appearing suspended in air?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the mini bridge is properly connected to both banks, and the plants appear to be rooted from valid surfaces like the ground or planters, without any indication of being suspended in the air, maintaining environmental realism.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do all visible characters have five fingers per hand, natural limb proportions, and clothing that conforms to body shape without clipping or floating?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, upon observation, the animated or doll-like characters have exaggerated proportions typical to figurines, which may not accurately reflect the natural limb proportions. Their hands may not have the expected five fingers due to their stylized design, and while the clothing conforms to the figures, it may not follow natural body shape exactly, as it is designed to fit the figurine form.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

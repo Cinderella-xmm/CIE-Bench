@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The bicycles' colors are a core recognition feature. Changing them would make the image unrecognizable compared to the original. This is a key element with a high weight.",
+      "question": "Are the original colors of the bicycles preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The structural designs of the bicycles, including the tandem bike, are essential for recognizing the image. Losing these details would significantly impact the identity.",
+      "question": "Are the original designs and structural details of the bicycles preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The arrangement and relative positions of the bicycles are crucial for maintaining the scene's logic and composition. Altering this would disrupt the visual flow.",
+      "question": "Is the original arrangement and relative positions of the bicycles preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The shadows and their alignment with the window grid contribute to the scene's realism and coherence. Losing this detail would slightly affect the visual consistency.",
+      "question": "Are the shadows cast by the bicycles and their alignment with the window grid preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The warm, diffused lighting from the window is an important environmental detail that sets the mood and enhances the vintage feel. While not a core identity feature, it contributes significantly to the overall consistency.",
+      "question": "Is the warm, diffused lighting from the window preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

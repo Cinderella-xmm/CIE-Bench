@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-6768330814869743148",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly four wooden trays arranged in a 2x2 grid?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the trays appear to be illustrated with colorful geometric patterns, but they are no longer wooden. There are four trays arranged in a 2x2 grid, matching the arrangement in Image A. Thus, even though their appearance has been altered, the count and arrangement remain the same.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the madeleines retain their distinctive shell-shaped form?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the objects in the tray labeled as 'Madeleine' do not have a shell-shaped form. Instead, the pastries are illustrated as round muffins, lacking the typical scalloped edges of traditional madeleines.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the label reading \"Madeleine\" positioned near the tray containing shell-shaped pastries?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the label reading 'Madeleine' is positioned near muffins, which do not have a shell shape. The pastries in the tray with this label are not shell-shaped, indicating that the label is not by shell-shaped pastries.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the word \"craster\" visibly engraved on the front of each of the four trays?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the trays are illustrated with a colorful, comic-style aesthetic. These trays do not feature any engraving of the word 'craster', unlike the wooden trays with the visible 'craster' engraving in Image A.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is parchment paper visible inside each of the four trays?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, instead of parchment paper, the trays are lined with vibrant, patterned paper as part of the stylized illustration. This contrasts with Image A, where each tray contains parchment paper.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Do the pastries in the top-right tray retain their oval, slightly flattened shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pastries in the top-right tray have been transformed to a more cartoonish illustration, but they still appear to maintain an oval, slightly flattened shape similar to their original form in Image A.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are the pastries in the bottom-left tray clearly shaped as sliced loaf bread with visible internal texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pastries in the bottom-left tray are drawn as sliced loaf bread with internal texture illustrated, similar to the real-life appearance in Image A where sliced loaf bread with visible internal texture is present.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4444444444444444
+}

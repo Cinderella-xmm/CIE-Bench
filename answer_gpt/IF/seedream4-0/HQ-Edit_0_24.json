@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_0_24",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the flowers in the image rendered with visibly higher color saturation compared to the original?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the colors of the flowers appear vibrant and rich. Upon comparing with Image A, there does not appear to be a change in the color saturation of the flowers, indicating that their vividness has been preserved rather than enhanced. This analysis is based on observing the consistency of hues and brightness in both images.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the gardening tools (shovel and watering can) appear to have an antique, metallic finish with signs of aging such as tarnish or patina?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the gardening tools, which include a shovel and a watering can, exhibit a sleek metallic finish without obvious signs of aging like tarnish or patina. These observations are based on the shiny appearance and clean surface of the tools as seen in the image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a faint, decorative vine pattern overlaid on the background of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B reveals a faint, decorative vine pattern overlaying the background. This is visible as light floral and vine designs in soft focus behind the central figure, which was not discernible in Image A. This pattern adds an artistic element to the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a blank rectangular header space at the top of the image intended for monthly details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a blank rectangular space prominently displayed within the upper half of the image. This space appears to have a series of numbers that suggest it is intended for listing monthly details, as indicated by its structured and lined layout.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the blank header framed by an ornate, decorative border composed of leafy or floral patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The blank rectangular header in Image B is framed by an ornate, decorative border made up of leafy patterns, which enhances its aesthetic appeal. This ornate feature provides a clear decorative frame distinct from the background, noting a deliberate artistic choice.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

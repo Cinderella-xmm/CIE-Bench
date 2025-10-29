@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The original image features a distinctive arrangement of pink peony flowers with yellow centers woven into the hair. While the instruction specifies changing the hair into vine-like tendrils and replacing the flowers with a laurel crown, the **presence of floral adornment** is a key visual theme. Although the type and color of flowers are to be changed, the **concept of floral decoration in the hair** is central to both the original and edited versions. However, since the instruction explicitly replaces the flowers, **this element is not required to be preserved**. Nevertheless, the **position of floral elements in the hair** may be retained for compositional continuity. But since the instruction allows full replacement, **this is not a core preservation target**.",
+      "question": "Are the pink peony flowers with yellow centers still present in the hair?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "No",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The original subject has a dark green high collar and a textured gray outer garment. The instruction explicitly changes the shawl into a flowing emerald green tunic, which implies **replacement of the entire clothing**. Therefore, the **original clothing colors and textures are not required to be preserved**. However, the **general shape of the upper body** and **position of the shoulders** may be retained. But since the instruction allows full transformation, **these are not required**.",
+      "question": "Is the dark green high collar still visible on the subject?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "No",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The original image shows a soft, even lighting with a warm tone, highlighting the facial features gently. The instruction calls for an \"ethereal and timeless essence,\" which may involve different lighting, but **does not specify preserving the original lighting**. Therefore, **lighting is allowed to change**. However, the **direction of light** (e.g., front-facing) may be retained for clarity. But since not mandated, **not required**.",
+      "question": "Is the lighting still soft and even, coming from the front?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "No",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The subject's eyes are dark brown with a gentle gaze, and the instruction does not mention changing them. In most mythological transformations, **eye color and gaze direction are preserved** to maintain identity. However, since not specified, **they are allowed to change**. But for consistency, they are often kept. This is a **minor detail**.",
+      "question": "Are the subject's eyes still dark brown?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The subject's face is centered in the frame with a frontal pose. The instruction does not specify changing the pose, so **this may be preserved**. However, since not required, **it is allowed to change**. But in portrait transformations, **framing is often kept**. This is a **compositional anchor**.",
+      "question": "Is the subject's face still centered in the frame with a frontal pose?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

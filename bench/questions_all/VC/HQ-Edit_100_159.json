@@ -1,0 +1,92 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The basketball is a core functional object in the image. Its presence and spherical shape are essential to identify the activity as basketball. Even if stylized, its **shape and location in the player’s hand** must remain. Losing it would make the scene unrecognizable as a basketball scene. This is a **core identity feature** with weight 3.",
+      "question": "Is the basketball present and being held in the player’s right hand?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The player’s low crouch with one leg bent and the other extended is a **key action pose** that defines the moment of dribbling. This posture is central to the dynamic nature of the image. Altering it significantly would misrepresent the action. It is a **critical functional element** and thus weighted 3.",
+      "question": "Is the player in a low crouch with the right leg bent and the left leg extended backward?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The blue jersey with black trim is a **distinctive uniform detail** that identifies the player’s attire. Even if colors shift to neon, the **silhouette and color contrast** must remain recognizable. Changing this would alter the player’s identity within the scene. This is an **important accessory element**, weighted 2.",
+      "question": "Does the player wear a sleeveless blue jersey with black trim around the neckline and armholes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The knee pads are **functional accessories** specific to basketball players and contribute to the realism and identity of the athlete. Their **placement on both knees and black color** are visually distinct. Removing or altering them would affect the authenticity of the player’s gear. This is an **important detail**, weighted 2.",
+      "question": "Are there black knee pads visible on both knees of the player?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The shoes have a **unique three-color structure** (black upper, blue midsole, orange sole). This is a **specific product-like detail** that contributes to the player’s appearance. Even if stylized, the **high-top design and color block pattern** must remain. This is a **detail-level identifier**, weighted 1.",
+      "question": "Do the player’s shoes have a black upper, blue midsole, and orange outsole?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The graffiti wall is a **thematic anchor** and defines the urban environment. Its **presence behind the player and below the hoop** is essential to maintain the street art context. Even if stylized, it must remain in the same location. This is a **scene-defining element**, weighted 2.",
+      "question": "Is there a graffiti-covered wall directly behind the player and beneath the basketball hoop?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The basketball hoop with red rim and white net is a **functional landmark** in the scene. Its **position above the graffiti wall** and **structural components** (backboard, rim, net) are necessary for the setting to be recognized as a basketball court. This is a **core environmental element**, weighted 3.",
+      "question": "Is there a basketball hoop with a red rim and white net mounted on a backboard above the graffiti wall?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q8",
+      "thinking_process": "The court surface with blue base and white lines provides **spatial context** and reinforces the basketball setting. While textures may be altered, the **layout of the lines and blue color** must remain. This is a **minor but coherent environmental detail**, weighted 1.",
+      "question": "Is the court surface blue with white boundary and marking lines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

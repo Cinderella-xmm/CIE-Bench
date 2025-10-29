@@ -1,0 +1,69 @@
+### Step 1 - Description of Reference Image and Allowed Changes
+
+**Description of reference image:** The original scene depicts a cozy living room setup featuring a beige sofa with several matching cushions arranged neatly. A framed landscape painting hangs above the sofa, displaying a serene view of mountains at sunset with evergreen trees silhouetted against an orange and gray sky. To the right of the sofa, there is a potted plant with long green leaves next to a wood-paneled wall. A woven rug lies beneath the sofa, tying the room together. The natural light from a nearby window adds warmth to the space.
+
+**Thinking process:** The instructions focus on adding text ("warm" and "freedom") while retaining the "home living" theme. Therefore, the core physical arrangement of the living room, including the sofa, rug, plant, and painting, should not be altered significantly. However, elements like the lighting condition, specific textures (except those that contribute to core identity), and fine details may be adjusted.
+
+**Allowed Changes List:**
+- Add the text "warm" in large letters at the top left corner.
+- Add the text "freedom" in small letters at the bottom right corner.
+- Adjust the lighting effects subtly while preserving the overall ambiance.
+- Minor adjustments to the positioning of pillows for enhanced aesthetic appeal.
+
+### Step 2 - Determining Elements That Should Remain Unchanged
+
+**Thinking process:** The core recognition elements include the sofa, the landscape painting, the potted plant, and their relative positions. These elements define the "home living" theme. Functional/logical association elements, such as the sofa's placement in relation to the painting and the rug under it, must also stay intact to maintain the room's coherence. Remaining elements like the texture of the sofa fabric and the specific design of the painting frame support the visual identity.
+
+**Preservation Targets List:**
+- The beige sofa with its distinct cushion arrangement.
+- The landscape painting with its specific mountain and tree silhouettes.
+- The potted plant with its long leaves and location near the wood panel.
+- The position of the sofa relative to the rug and painting.
+- The general texture and color of the room’s elements.
+
+### Step 3 - Extracting Visual Elements and Generating Questions
+
+{
+    Q1: 
+    Thinking process: The beige sofa is a core element; changing its color or removing it would alter the home living theme entirely.
+    Question: Is the beige sofa present with its original cushion arrangement?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The landscape painting is central to the room's aesthetic. Its mountain and tree silhouettes are iconic features.
+    Question: Does the painting above the sofa retain its mountain silhouettes and tree outlines?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The potted plant provides a natural touch, and its specific leaf design is a distinctive detail.
+    Question: Is the potted plant with long green leaves present to the right of the sofa?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The rug's placement under the sofa contributes to the cozy feel and ties the room together visually.
+    Question: Is the woven rug still positioned under the sofa?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The wood paneling complements the room's design and helps define the space around the plant.
+    Question: Is the wood-paneled section of the wall visible next to the potted plant?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

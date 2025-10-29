@@ -1,0 +1,123 @@
+**Step 1 – Analyze the Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a minimalist Japanese tea ceremony setup placed on a low wooden table covered with a beige fabric featuring subtle circular patterns in muted tones. On the table, there is a black cast-iron teapot (tetsubin) with a curved handle and lid knob, resting on a rectangular wooden tray engraved with bamboo leaf motifs. Adjacent to it is a dark ceramic tea bowl filled with dark liquid, also on a matching wooden tray. A pair of dark wooden chopsticks lies diagonally across the table. To the right, a matte gray ceramic vase holds delicate cherry blossom branches with soft pink flowers and scattered petals floating in mid-air. The background includes a textured tatami mat floor and a long decorative runner with intricate geometric patterns running along the edge of the table. The overall color palette is warm and neutral—beige, taupe, soft pink, and dark brown—with soft lighting enhancing the tranquil atmosphere.
+
+**Thinking process:**  
+The editing instruction explicitly states: *"Maintain the table setting but add annotated lines with minimalist icons..."* — this means the existing **table setting**, including all objects and their positions, must remain unchanged. The instruction allows for **adding** new visual elements (diagrams, annotations, calligraphy), but does not permit altering or removing any of the original components.  
+
+Key phrases indicating what can be changed:
+- *"Add annotated lines with minimalist icons"* → New diagrammatic elements are allowed.
+- *"Utilize handwritten calligraphy for captioning"* → Textual elements may be added.
+- *"Integrate soft pastel green hues"* → Color additions are permitted, but only as overlays or accents.
+- *"Flow harmoniously around existing elements"* → Implies that the original layout must be preserved.
+
+Therefore, the **core arrangement of objects** (teapot, cup, chopsticks, vase, trays) and their **relative positions** must stay intact. Only supplementary graphical content (lines, icons, text) can be added. The **texture, shape, and placement** of these items are not subject to change unless specified.
+
+Allowed Changes List:  
+- Addition of annotated lines and minimalist icons representing stages of "The Journey of Tea"  
+- Inclusion of handwritten calligraphy captions  
+- Introduction of soft pastel green hues as accent colors  
+- Placement of symbolic diagrams around the existing elements without overlapping or obscuring core objects  
+- Floating blossoms and petals may be enhanced or supplemented if they support the theme, but original motion and form should not be disrupted
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+Core recognition elements:  
+- The **black tetsubin teapot** with its distinct rounded body, curved handle, and domed lid is a key identifier of traditional Japanese tea culture. Its shape, material texture, and position are essential to maintaining authenticity.  
+- The **dark ceramic tea bowl** (chawan) with visible rim and interior depth is a functional object central to the tea ritual; its form and placement define the ritual context.  
+- The **matte gray vase** holding cherry blossoms is iconic—its silhouette and the **pink blossoms** with natural branch structure contribute to the seasonal and cultural symbolism.  
+- The **bamboo-engraved wooden trays** under the teapot and cup are specific design features that reflect craftsmanship and aesthetic intention. Their pattern and alignment matter.  
+- The **floating cherry blossom petals** in mid-air create dynamic serenity and are part of the scene’s emotional tone—they must not be removed or altered in number/trajectory.
+
+Functional/logical association elements:  
+- The **spatial relationship** between the teapot and cup indicates serving logic: the teapot is positioned to pour into the cup. This functional layout must be preserved.  
+- The **chopsticks' diagonal placement** suggests readiness for use, contributing to the narrative of a prepared tea session.  
+- The **vase’s location at the upper right corner** balances the composition and anchors the floral element—this positioning supports visual harmony and cannot be moved without disrupting balance.
+
+Non-modified element deduction:  
+All other unmentioned details—such as the **texture of the tablecloth**, **tatami mat weave**, **runner pattern**, **color scheme**, and **lighting direction**—are part of the original visual coherence. Since no instruction permits changing them, they must be retained. Even minor textures like the grain of the wood tray or the shadow beneath the vase are critical for realism and continuity.
+
+Preservation Targets List:  
+- The black cast-iron teapot with curved handle and domed lid  
+- The dark ceramic tea bowl with visible contents and base  
+- The matte gray vase with cherry blossom branches and pink flowers  
+- The two wooden trays with engraved bamboo patterns  
+- The floating cherry blossom petals in mid-air  
+- The diagonal placement of the chopsticks  
+- The relative spatial arrangement of all objects on the table  
+- The textured tablecloth with circular patterns  
+- The tatami mat flooring and patterned runner  
+- The soft ambient lighting and warm color palette  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The black cast-iron teapot with its curved handle and domed lid is a defining object in the scene, symbolizing traditional Japanese tea culture. Its shape, material appearance (matte black), and position on the left side of the table are crucial for identifying the tea set. Any alteration would disrupt the authenticity of the setting. This is a core identity feature, hence weight 3.
+    Question: Is the black cast-iron teapot with a curved handle and domed lid present in the same position on the left side of the table?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The dark ceramic tea bowl is functionally paired with the teapot and visually completes the tea-serving gesture. Its presence, shape, and placement directly opposite the teapot are essential for maintaining the ritualistic logic of the scene. Removing or relocating it would break the intended interaction. This is a key functional element, so weight 3.
+    Question: Is the dark ceramic tea bowl filled with dark liquid located on a wooden tray to the right of the teapot?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The matte gray vase holding cherry blossom branches is an iconic cultural symbol in this context. Its shape, color, and contents (pink blossoms and bare branches) are unique identifiers of the springtime tranquility theme. Altering it would misrepresent the mood and cultural intent. This is a core visual and symbolic element, thus weight 3.
+    Question: Is the matte gray ceramic vase containing cherry blossom branches with pink flowers located at the upper right corner of the table?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The two wooden trays with engraved bamboo leaf patterns serve both aesthetic and functional purposes. They distinguish the placement of the teapot and cup and reflect traditional craftsmanship. Their presence and engraving detail are important for maintaining authenticity and visual consistency. This is a significant accessory, so weight 2.
+    Question: Are the two rectangular wooden trays with engraved bamboo leaf patterns present beneath the teapot and tea bowl respectively?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The floating cherry blossom petals in mid-air contribute to the dynamic sense of serenity and seasonal beauty. These are not just decoration—they are integral to the atmospheric quality of the image. Their presence and trajectory must be preserved to maintain the intended mood. This is a key environmental detail, hence weight 2.
+    Question: Are multiple soft pink cherry blossom petals visibly suspended in the air above and around the vase?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The diagonal placement of the chopsticks adds compositional balance and suggests human presence. While not central to the tea ritual itself, their position contributes to the narrative of a ready-to-use setting. Changing their orientation would affect visual flow. This is a minor but coherent detail, so weight 1.
+    Question: Are the two dark wooden chopsticks placed diagonally across the lower right portion of the table?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The textured tablecloth with repeating circular patterns provides the surface context for the tea set. Its color and pattern contribute to the serene, neutral backdrop. Altering it would shift the aesthetic tone. This is a background detail critical for cohesion, so weight 2.
+    Question: Is the table covered with a beige fabric featuring a repeating pattern of faint circular motifs?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q8: 
+    Thinking process: The tatami mat flooring and the long patterned runner along the edge of the table ground the scene in a traditional Japanese interior. These elements establish cultural context and spatial depth. Their texture and placement must remain unchanged to preserve authenticity. This is a foundational environmental element, so weight 2.
+    Question: Is the floor composed of woven tatami mats with a green border, and is a long patterned runner visible along the edge of the table?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

@@ -1,0 +1,100 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a woman standing under a cherry blossom tree in full bloom, playing a violin. She wears a traditional Japanese kimono with a pale pink base adorned with floral patterns resembling cherry blossoms, featuring wide sleeves and a long trailing hem. The kimono has a deep red obi tied at the waist. Her long dark hair flows freely over her shoulders, and she holds the violin with her left hand while drawing the bow across it with her right. The background consists of a serene park-like setting filled with blooming cherry trees, soft diffused sunlight filtering through the branches, and falling pink petals. A faint silhouette of another figure is visible in the distant background near a tree. The ground is covered with fallen petals, and the overall atmosphere is tranquil and ethereal, evoking springtime in Japan.
+
+Thinking process:  
+The editing instruction specifies transforming the image into a Victorian-era painting, which implies a complete stylistic and thematic overhaul. Key elements explicitly mentioned for change include:
+- The woman’s attire: from a kimono to a "lavish, brocade gown with puffy sleeves"
+- The flora: replacing cherry blossoms with "elegant roses"
+- The background: changing from a Japanese cherry blossom grove to an "ornate English garden with wrought-iron gazebos and marble statues"
+
+These are all clear directives for transformation. However, the instruction does **not** mention changing the action of playing the violin, nor does it specify altering the posture or position of the woman (e.g., standing, holding the violin). It also does not state that the presence of the violin should be removed—only that the context around it changes. Therefore, the act of playing the violin and the object itself must remain.
+
+Additionally, while the scene is to be reimagined, no specific element of the original environment (such as the shape of the tree trunk, the direction of light, or the falling petals) is required to be preserved. Thus, environmental details like the exact tree form, petal color, or background figures can be altered.
+
+Allowed Changes List:  
+- The style and design of the woman's clothing (kimono → Victorian brocade gown)  
+- The type of flowers (cherry blossoms → roses)  
+- The background landscape (Japanese cherry grove → English garden with gazebos and statues)  
+- The color palette and lighting to match Victorian opulence  
+- The texture and pattern of the garment (floral kimono → brocade fabric)  
+- The presence and appearance of the tree trunk and surrounding flora  
+- The distant figure and its positioning  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements:  
+- The **violin** is central to the subject’s action and identity in the image. Even though the style changes, the instruction says she “plays a violin,” not a different instrument. Therefore, the **presence and function** of the violin must be retained. Its role as a musical instrument being played by the woman is essential to the narrative.
+- The **act of playing the violin** involves a specific posture: the violin held under the chin, the bow drawn across the strings, and the hands positioned correctly. This functional relationship between the player and the instrument must be preserved to maintain logical coherence.
+
+Functional/logical association elements:  
+- The **position of the violin relative to the body** (held under the jaw, supported by the left hand, bow in the right) is critical for the realism of the performance. Changing this would make the action non-functional or misleading.
+- The **woman’s stance**—standing upright, slightly angled toward the viewer—must remain consistent enough to preserve the compositional balance and visual focus on the musical act.
+
+Non-modified element deduction:  
+- While the clothing, flowers, and background are explicitly changed, the **original pose of the woman**, including her head tilt, facial expression (closed eyes, serene look), and arm positions, are not mentioned for alteration. These contribute to the emotional tone and must be preserved unless overridden.
+- The **direction of light** (soft, warm glow from behind, creating backlighting effect) is implied in the original but not specified in the instruction. Since it contributes to mood and visibility, and no alternative lighting is prescribed, it may be adjusted but not necessarily preserved. However, since the instruction emphasizes “opulence and tranquility,” ambient lighting could be adapted accordingly, so it is not a core retention requirement.
+
+Preservation Targets List:  
+- The presence and use of the violin  
+- The woman’s posture while playing the violin (left hand supporting violin, right hand drawing bow)  
+- The woman’s facial expression (eyes closed, serene)  
+- The overall standing position and orientation of the body  
+- The interaction between the hands and the violin (correct grip and motion)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Visual Consistency**
+
+{
+    Q1: 
+    Thinking process: The violin is the central object defining the subject’s action. Its presence and correct orientation are essential for identifying the scene as one of musical performance. If replaced or misaligned, the core narrative collapses. The violin must retain its shape, placement under the chin, and string contact with the bow. This is a core identity element because without it, the scene loses its primary purpose.
+    Question: Is the violin clearly present under the woman’s chin, held by her left hand, with the bow drawn across the strings by her right hand?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The woman’s posture—specifically the angle of her body and the alignment of her arms—is critical for conveying the act of playing the violin. Altering the arm positions (e.g., swapping hands or removing the bow) would break the functional logic of the scene. This is a key functional element that supports the action.
+    Question: Are both arms positioned correctly to support violin playing—left arm holding the instrument, right arm moving the bow?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The woman’s facial expression—eyes closed, lips gently parted, serene demeanor—is a key emotional identifier in the original image. It conveys tranquility and immersion in music. While the style may change, this expression is part of the original character’s identity and must be preserved to maintain continuity in mood and intent.
+    Question: Does the woman have her eyes closed and a calm, focused facial expression?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The standing posture of the woman—upright, slightly turned toward the viewer—is a compositional anchor. It ensures the viewer’s focus remains on her and the violin. While the clothing may change, the spatial orientation of the body must remain consistent to preserve the original framing and balance.
+    Question: Is the woman standing upright with her body slightly angled toward the viewer?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The interaction between the bow and the violin strings is a detail-level but necessary functional element. The bow must be shown in contact with the strings, suggesting motion. Losing this detail would imply the violin is not being played, undermining the scene’s purpose.
+    Question: Is the bow visibly in contact with the strings of the violin?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The woman’s long dark hair flowing over her shoulders is a distinctive visual feature contributing to her identity and aesthetic. Though not central to function, it is a recognizable detail that helps distinguish her from other figures and maintains continuity in appearance.
+    Question: Does the woman have long, dark hair flowing down her back and over her shoulders?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

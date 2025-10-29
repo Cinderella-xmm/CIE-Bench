@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0091",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the original lighting style, including the placement and intensity of shadows, preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting style showcases visually distinct and natural shadows that fall diagonally across the columns and floor, indicating strong directional light from the side. By analyzing Image A, there is natural light casting shadows on the wall and furniture, but their orientation and direction may differ from those in Image B. The edited image has a more intense play of shadows, particularly due to the architectural features. Using world knowledge, the lighting in architectural scenes often tends to vary significantly from indoor furniture setups and reflects different shadow patterns due to differing structural elements.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the items on the chest of drawers arranged in a similar fashion to the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual cues display a corridor with no chest of drawers; instead, it showcases an architectural space without any furniture. In Image A, there is a chest of drawers with vases, books, and decorative items neatly arranged, which suggests a different spatial and functional setup. Recognizing the disparate nature of these scenes from world knowledge, the items' arrangement cannot be assessed as similar across such distinctly different environments.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the wooden parquet flooring texture still present?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual cues indicate stonework on the floor with a pattern typical for corridors in historical architecture, defining a departure from wooden textures. Image A showcases parquet flooring commonly found in domestic settings. From a design perspective informed by world knowledge, architectural corridors seldom feature parquet flooring; thus, the flooring texture in the edited image is different.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a large piece of furniture serving as the primary storage unit in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays a corridor scene, devoid of any large furniture pieces for storage purposes. Image A includes a chest of drawers which serves as a storage unit. World knowledge indicates that corridors typically are functional spaces without substantial furniture units meant for storage, maintaining an open, accessible passageway, unlike domestic interior settings.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is natural light still illuminating the scene from the same direction as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is natural light illuminating the corridor from one side, casting shadows longitudinally along the walkway. Image A indicates side illumination onto the room's wall, contributing to shadows around the furniture. Although both images portray side illumination, the differing structures and features necessitate varied light interactions. Architectural corridors, informed by world knowledge, often have light entering from windows or arches along one side, which can create different visual effects than a setup with indoor furniture.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.18181818181818182
+}

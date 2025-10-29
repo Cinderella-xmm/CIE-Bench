@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_345",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the 3D voxel-style model of the mouse retain a natural texture similar to the original mouse's fur without any obvious unnatural artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the mouse is rendered as a 3D voxel-style model. Voxel models consist of small cubes or blocks, which inherently produce a non-natural texture that resembles pixelation rather than fur. This is a common characteristic of voxel art, which trades realism for a blocky aesthetic. Therefore, the texture does not retain similarity to the original mouse's fur found in Image A, which is smooth and organically textured. The reasoning is based on the nature of voxel representation and viewing Image B, where the mouse features distinct structural cubic elements that do not replicate natural fur.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the proportions and physical rationality of the mouse's body parts in the 3D voxel-style model consistent with its original form, avoiding any distortion or deformation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays a 3D voxel-style mouse model, which retains proportions similar to the original mouse in Image A. Despite the stylization, the key features such as the head, ears, and body dimensions appear proportionately correct relative to each other, aligning with typical mouse anatomy. This is based on comparing visually distinct blocks that imitate the mouse’s key features with the usual proportions seen in a real mouse as in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the edges and surfaces of the 3D voxel-style mouse model appear smooth and coherent, without any jagged or broken geometric shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases a voxel-style model representing the mouse. Voxel art typically features geometric, blocky shapes, which naturally result in noticeable edges between each cube. Despite the angular appearance, these shapes are consistently arranged, ensuring coherence without jagged or broken forms. The aesthetic choice of voxel art deliberately contrasts with smoothness but maintains coherence in edge structure.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the interaction between the 3D voxel-style mouse model and the smartphone look plausible and realistic, without any unnatural positioning or shadows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the voxel-style mouse is positioned correctly relative to the smartphone, similar to the positioning seen in Image A. The shadows, lighting, and placement appear natural and plausible, adhering to a realistic set-up where the object maintains relative proximity and orientation, as would be expected in reality. Observation of shadows and spatial relationship confirms plausibility and realism in the depiction.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the fine details of the mouse's features, such as whiskers and eyes, preserved in the 3D voxel-style model without any loss or degradation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B represents the mouse using a voxel art style, which inherently simplifies detail due to its cubic nature. The eyes are represented with clear black cubes, maintaining visibility but losing subtle details like reflections. The whiskers are depicted using linear elements, preserving their presence but altering their delicacy. While these features are re-created in the voxel style without being missing, they inherently face simplification and loss of natural detail through this art form.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

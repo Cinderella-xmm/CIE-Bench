@@ -1,0 +1,131 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a small, round birthday cake placed on a ceramic cake stand with a floral pattern, positioned centrally on a wooden table. The cake is covered in pink frosting with a textured surface resembling tiny beads or pearls, and it has a single lit yellow candle with a flickering flame. On top of the cake are small decorative elements: a purple flower and a green leaf-like shape. To the left of the cake, there is a ceramic vase with blue and white patterns containing a bouquet of fluffy, coral-pink flowers resembling *Buddleja* or *Mimosa*. Scattered across the table are small red spherical candies in shallow bowls and loose, along with two chopsticks lying near the bottom right corner. Behind the cake, several colorful balloons (red, green, blue, yellow, and purple) float upward, tethered by thin strings. The background features a blurred traditional East Asian architectural structure—possibly a temple—with tiled roofs, wooden beams, and hanging red lanterns, surrounded by greenery and soft bokeh lights suggesting a festive outdoor setting.
+
+**Thinking process:**  
+The editing instruction explicitly states:  
+- "Reimagine this image as a vibrant pop art piece" → indicates a full stylistic transformation to pop art aesthetic.  
+- "Stylize the cake with bold, graphic icing patterns" → changes the texture and design of the cake’s frosting; allowed change.  
+- "Render the balloons in vivid monochrome dots" → transforms the balloons’ appearance into dot-patterned style; allowed change.  
+- "Convert the table and vase into contrasting color blocks" → alters the textures and forms of these objects into flat, blocky colors; allowed change.  
+- "Emphasize the candle flame with exaggerated sharp lines and bright hues" → modifies the flame's shape and color; allowed change.  
+
+These instructions indicate that **all visual elements are subject to stylization**, but they do **not specify removal or replacement of core subjects or their functional relationships**. Therefore, while form, texture, and color can be altered, **the presence and identity of key objects must remain identifiable**—especially those tied to function or narrative logic.
+
+**Allowed Changes List:**  
+- Cake frosting texture and pattern (can be replaced with graphic designs)  
+- Balloons' visual representation (can be rendered as monochrome dots)  
+- Table surface and vase material/textures (can be converted into solid color blocks)  
+- Candle flame shape and color (can be exaggerated and stylized)  
+- Overall lighting and color scheme (can shift toward pop art vibrancy)  
+- Background details (e.g., lanterns, architecture) may be abstracted but not necessarily removed unless specified  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+Core recognition elements:  
+- The **cake** is central to the scene and must retain its identity as a **birthday cake**—its **round shape**, **single candle**, and **position on a cake stand** are essential for recognition. Even if stylized, the cake must remain a cake.  
+- The **vase with coral-pink flowers** is a distinctive object—its **presence and position** relative to the cake are important for spatial coherence. Although its texture may be changed, its **form and placement** must be preserved.  
+- The **balloons** are key to the celebratory context—they must remain present and floating above the cake, even if rendered as dots. Their **number and general arrangement** should be retained for consistency.  
+- The **chopsticks and candy bowls** are minor but contribute to cultural context (East Asian setting); their **presence and layout** should be preserved to maintain logical consistency.  
+- The **background temple structure** is implied as part of the scene’s identity; although it may be abstracted, its **silhouette and location** behind the table must remain recognizable to preserve environmental logic.  
+
+Functional/logical association elements:  
+- The **cake stand supports the cake**—this structural relationship must remain intact. Changing the stand’s form is allowed, but it must still serve the same purpose.  
+- The **candle is lit**—this functional state (a burning candle) must be preserved, even if the flame is exaggerated.  
+- The **strings attached to balloons** must connect them to the table area, maintaining physical plausibility.  
+
+Non-modified element deduction:  
+- The **floral decoration on the cake** (purple flower and green leaf) is small but adds detail—must remain present to preserve cake decoration identity.  
+- The **wooden table surface** must remain a horizontal plane beneath all objects, even if rendered as a color block.  
+- The **relative positions** of objects (cake center, vase left, chopsticks right) must be preserved for scene coherence.  
+
+**Preservation Targets List:**  
+- The presence and round shape of the cake  
+- The single lit candle on the cake  
+- The cake stand supporting the cake  
+- The vase with coral-pink flowers to the left of the cake  
+- The cluster of balloons floating above the cake  
+- The chopsticks and candy bowls on the table  
+- The background temple silhouette  
+- The floral decorations on top of the cake  
+- The overall spatial layout of objects on the table  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The cake’s round shape is the core identity feature—it distinguishes it from other desserts or objects. If the shape is altered to an oval or rectangular form, it would no longer be visually recognized as a typical birthday cake. This is a critical identifier, hence weight 3.
+    Question: Is the cake round in shape?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The single lit candle is essential to the birthday theme. Its presence and vertical orientation on the cake are functional and symbolic. Removing or replacing it with multiple candles would violate the original intent and scene logic. This is a key functional element, hence weight 3.
+    Question: Is there exactly one candle on top of the cake?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The cake stand is a necessary support structure. Even if stylized, it must remain under the cake and elevated, preserving the functional relationship. Losing it would make the cake appear to float unnaturally. This is a logical structural element, hence weight 2.
+    Question: Is the cake placed on a raised stand?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The vase with coral-pink flowers is a unique decorative element that contributes to the scene’s aesthetic and cultural tone. Its presence to the left of the cake establishes spatial balance. Removing it would disrupt the composition. It is a key accessory, hence weight 2.
+    Question: Is there a vase with coral-pink fluffy flowers on the left side of the cake?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The cluster of colorful balloons floating above the cake is a major visual cue for celebration. While their rendering may change, their presence and upward direction must be preserved to maintain the festive atmosphere. This is a significant scene element, hence weight 2.
+    Question: Are there multiple colored balloons floating above the cake?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The floral decorations (purple flower and green leaf) on the cake are small but specific details that add character. Their presence helps identify the cake as decorated, not plain. While stylized, they must remain visible. This is a detail-level element, hence weight 1.
+    Question: Are there small floral decorations (one purple and one green) on top of the cake?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q7: 
+    Thinking process: The chopsticks and candy bowls on the table provide cultural context and grounding. Their presence in the foreground maintains realism and scene coherence. Though minor, removing them would reduce authenticity. This is a detail-level element, hence weight 1.
+    Question: Are there chopsticks and small bowls of red candies on the table?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q8: 
+    Thinking process: The background temple structure provides environmental context and cultural setting. While stylized, its silhouette and position behind the table must remain to preserve spatial logic. This is a key scene element, hence weight 2.
+    Question: Is there a traditional East Asian-style building visible in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

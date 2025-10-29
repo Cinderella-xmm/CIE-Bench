@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0049",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is only one zebra visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on Image B, the individual who could be mistaken for a zebra due to ski clothing is noticeable, but due to no actual zebra features, common sense suggests that no zebra is identifiable here. Hence, zero zebras visible.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Has all the grass been removed from the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the entire background is uniformly green, likely achieved by digitally removing any original background elements. This supports the conclusion that all original background elements, including grass, have been removed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the grass area replaced by a green gradient plane?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a solid green background with no color variation, indicating that it is not a gradient but a solid color. Therefore, the green plane does not have a gradient effect.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image maintain a calm and solitary atmosphere without extra distractions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background is now a solid green, which minimizes visual complexity and distractions. The removal of environmental details contributes to a calm and undisturbed atmosphere.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the original zebra's position and appearance preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Although no zebras are present, the ski participant (mistaken identity) maintains the same position and appearance from Image A to Image B, indicating preservation of the subject's characteristics.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

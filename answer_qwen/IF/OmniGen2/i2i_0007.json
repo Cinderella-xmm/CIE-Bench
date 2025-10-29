@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0007",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the character created as a Q-style 3D C4D-rendered figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The character in Image B exhibits characteristics typical of 3D C4D-rendered figures, such as smooth shading, clean lines, and a polished appearance. The style is consistent with Q-style characters, which are often designed to be cute and appealing. The visual cues suggest that this is indeed a 3D rendered figure created using C4D software.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the character retain the original facial features and character pose from the input image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The character in Image B retains the original facial features like the pearl earring and headscarf from the input image. However, the pose has been altered to a full-body stance facing forward, which differs from the original painting's three-quarter view. The analysis combines visual cues from both images to compare the consistency of features while noting changes in pose.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Has the character been stylized with a cute, long-legged chibi proportion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The character in Image B does not exhibit chibi proportions, particularly long legs. Instead, the proportions appear more standard for a 3D-rendered human figure. The analysis relies on comparing the character's body proportions against common chibi design elements, concluding that the character lacks those specific stylistic traits.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the outfit include trendy designer wear, glasses, a sketchbook or tablet, and stylish shoes appropriate for a fashion designer?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The outfit includes trendy designer wear such as a stylish coat and glasses, but there is no sketchbook or tablet present. The shoes also appear appropriate for a fashion designer. The analysis involves identifying each item in the outfit and assessing its relevance to the question, leading to the conclusion that not all specified items are included.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the composition in a 9:16 aspect ratio with top text \"OOTD,\" the left side showing the full-body character, and the right side displaying individual clothing items and accessories separately?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The composition in Image B follows a 9:16 aspect ratio, with the top text \"OOTD\" clearly visible. The left side shows the full-body character, and the right side displays individual clothing items and accessories separately. This layout matches the description provided in the question, confirming the composition details.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

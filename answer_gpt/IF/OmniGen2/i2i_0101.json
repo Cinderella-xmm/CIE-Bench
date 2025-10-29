@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0101",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the text \"flyaway\" been added to the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is prominent text visible on the lower half of the image, which reads 'flyaway'. This text is not present in Image A, indicating it has been added to Image B. The addition of this text is evident because it overlays the design of the sideboard in a distinct manner that was not seen in the original version.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the text “flyaway” written in a handwritten font?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text 'flyaway' in Image B appears to be styled in a cursive and fluid manner, consistent with typical characteristics of handwritten fonts. Handwritten fonts often have natural variations and flowing connections between letters, which are evident in the visual presentation of the word 'flyaway' in this image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the text \"flyaway\" located directly below the painting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the position of the text 'flyaway' is analyzed in relation to the central painting. The text is placed over the sideboard, which is directly beneath the painting, making the text's placement immediately below the artwork itself.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the text \"flyaway\" complement the scene and contribute to a romantic postcard-style appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "To determine if the text complements the scene, consider its font, positioning, and the overall aesthetic of the room. The handwritten style can evoke a personal or quaint touch, contributing to a romantic or travel-themed appearance, akin to a postcard. This style often conveys emotion and personal expression, which can be associated with the romantic notion of 'flying away'. The simplicity and elegance of the text combined with the picturesque landscape in the painting enhance this impression.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any additional elements or changes apart from the handwritten text “flyaway” below the painting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No\n```",
+      "explanation": "In Image B, aside from the inclusion of the 'flyaway' text, no other changes or additions are visibly noticeable when compared to Image A. The composition of the environment, such as the plants, books, and other decorative elements, remains unaltered. The only discernible edit is the addition of the text.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

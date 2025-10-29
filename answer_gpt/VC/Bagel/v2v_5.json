@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_5",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the zebra retain its black-and-white striped pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on Image B, the zebra features a black-and-white striped pattern. This is a characteristic feature of zebras, so the depiction aligns with common knowledge of zebra appearances. The stripes in Image B are designed in a chibi, cartoon style which is common in stylized or animated representations.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the cake retain its zebra-striped design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cake has a zebra-striped design similar to the animal itself, with alternating black and white stripes. This is visually consistent with representing objects in a stylized manner associated with zebras.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the zebra still leaning forward toward the cake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a chibi-style zebra is depicted sitting next to the cake and directly looking at it rather than leaning toward it. This style change reflects a playful, static pose rather than an engaged, dynamic gesture present in Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a single lit candle on the cake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, we can observe a single lit candle on the cake. This detail is consistent with a birthday theme and corresponds with the single candle depicted.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the cake placed on a table surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cake is shown within a frame and not placed on a traditional tabletop surface as seen in Image A. The context and background in Image B are more abstract and stylized, typical of chibi representations and keychain designs.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

@@ -1,0 +1,101 @@
+**Step 1 – Analyze the editing instructions and determine allowed changes**
+
+Description of reference image:  
+The subject is an ornate, metallic teapot with a reflective silver surface, positioned centrally on a weathered wooden table. The teapot has a rounded body with intricate engraved floral and scrollwork patterns, particularly prominent on the front and sides. It features a domed lid topped with a small finial, two curved handles (one for pouring, one for holding), and a spout that curves outward. The base is slightly flared with a decorative band. The wooden surface beneath the teapot is dark brown, aged, with visible grain, cracks, and patches of blue paint residue. The background is a gradient from dark to light gray, softly lit, creating a moody atmosphere with subtle shadows around the object.
+
+Thinking process:  
+The editing instruction explicitly states the following modifications:
+- Transform the teapot into **luxury tea brand packaging design** → implies reimagining the form or context but not necessarily altering the core identity of the teapot as a vessel.
+- Replace the **wooden surface** with an **elegant marble texture** → scene/environment change permitted.
+- Overlay a **transparent label** on the pot with flavor details like "Earl Grey Elegance" → adds new graphic element; does not alter original structure.
+- Add a **finely embossed gold monogram logo on the lid** → modifies the lid’s surface detail.
+- Create a **box with similar engravings** → introduces a new object not present in the original image.
+
+From this, we can deduce:
+- The **teapot's form and structure** are being repurposed but not destroyed — it remains central.
+- The **wooden surface** is explicitly replaced → no longer part of final image.
+- The **background** is not mentioned → likely acceptable to modify or keep neutral.
+- The **engraved patterns**, **lid shape**, **handles**, and **spout** are not stated to be changed — so they may be preserved unless altered by added elements.
+- The **material appearance** (metallic sheen) may be retained as part of luxury branding.
+
+Allowed Changes List:
+- Wooden surface → replaced with marble texture
+- Background → can be modified (not specified)
+- Addition of transparent label on teapot
+- Addition of gold monogram on lid
+- Introduction of a branded box with matching engravings
+- Transformation of teapot into packaging design context
+
+---
+
+**Step 2 – Determine the elements that should remain unchanged**
+
+Thinking process:  
+Core recognition elements:  
+- The **ornate engraved patterns** on the teapot body are highly distinctive and define its visual identity. These include the symmetrical floral motifs, swirling vines, and central foliate design. They are key to identifying the teapot as a piece of decorative craftsmanship. Even if stylized, their presence must be preserved to maintain authenticity and continuity with the original.
+- The **overall silhouette** of the teapot — rounded body, curved spout, dual handles, domed lid with finial — is essential for recognition. This shape is iconic for traditional teapots and distinguishes it from other vessels.
+- The **reflective metallic surface** contributes to the sense of luxury and material quality; while lighting might shift, the sheen and mirror-like qualities should remain consistent unless overridden by branding.
+
+Functional/logical association elements:  
+- The **positioning of the handles** relative to the body is functional: one handle for grip, one for pouring. Their placement must remain logical for usability even in a stylized version.
+- The **lid’s attachment point** and finial must remain structurally coherent — otherwise, the object loses functionality logic.
+
+Non-modified element deduction:  
+After excluding allowed changes (wooden surface, labels, monogram, box), the remaining unmentioned parts of the teapot — such as the **base ring**, **spout curve**, **lid edge detailing**, and **engraving depth and style** — must be retained for visual coherence. These contribute to the object’s aesthetic integrity and prevent it from becoming unrecognizable.
+
+Preservation Targets List:  
+- The intricate engraved floral and scrollwork pattern on the teapot body  
+- The rounded body shape with flared base and domed lid  
+- The reflective silver-metallic finish of the teapot surface  
+- The position and curvature of the spout and both handles  
+- The detailed edge banding and decorative ridge around the lid and base  
+
+---
+
+**Step 3 – Generate yes/no questions based on key identifying visual elements**
+
+{
+    Q1: 
+    Thinking process: The intricate engraved floral and scrollwork pattern on the teapot body is the most defining artistic feature. Its presence and specific layout (symmetrical central motif with radiating swirls) are critical to identifying the teapot as a historically inspired, ornamental object. If these engravings are removed or simplified beyond recognition, the object loses its core visual identity. This makes it a core identification element, hence weighted at 3 points.
+    Question: Is the intricate engraved floral and scrollwork pattern on the teapot body still visible and intact?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The rounded body shape with flared base and domed lid is the structural signature of the teapot. Altering this silhouette would fundamentally change the object’s identity from a classic teapot to something else entirely. Even with added branding, the basic form must remain recognizable. This is a core structural element, thus assigned 3 points.
+    Question: Does the teapot retain its rounded body, flared base, and domed lid with finial?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The reflective silver-metallic finish is crucial to conveying the material quality and luxurious feel of the object. While lighting may vary, the surface must still reflect light and show highlights consistent with polished metal. Loss of this finish would make the object appear dull or non-metallic, undermining its original character. This is a key material attribute, therefore worth 3 points.
+    Question: Is the reflective silver-metallic surface of the teapot preserved, showing clear highlights and reflections?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4: 
+    Thinking process: The position and curvature of the spout and both handles are functionally significant. The spout curves outward for pouring, and the handles are placed for ergonomic use. Changing their positions or shapes would disrupt the logical design of the teapot, making it appear malformed or unusable. These are important functional elements, so they are weighted at 2 points.
+    Question: Are the spout and both handles positioned and shaped as in the original image, maintaining their curved forms?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The decorative ridge and edge banding around the lid and base are fine details that enhance the ornamental quality. Though secondary, they contribute to the overall craftsmanship and visual harmony. Removing them would simplify the design too much, affecting coherence. These are minor but meaningful details, thus assigned 1 point.
+    Question: Are the decorative ridges and edge banding around the lid and base still present?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+}

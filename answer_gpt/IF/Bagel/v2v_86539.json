@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_86539",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Do the characters in the edited image have bold ink outlines and vibrant flat colors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the characters exhibit bold black outlines typical of a comic or cartoon style. The use of vibrant flat colors like a bright blue background and distinct coloring for the characters' clothes and accessories further emphasizes a striking cartoon aesthetic. This observation matches the description of bold ink outlines and flat, vivid colors in the editing.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the characters situated in distinct zones within the panel that hint at their respective activities?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, each panel occupies its own quadrant with a clear background color separation and visibility into the character's activity. The panels are arranged in a grid, suggesting separation of activities: top-left depicts a character exercising, top-right suggests a figure posing, bottom-left shows a character sitting with a different posture and expression, and bottom-right someone dining. This layout creates distinct zones linked to particular activities.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a miniature gym corner present for the exercising figure with a green headband?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The top-left panel of Image B shows a character with green elements that are possibly a headband. However, the focus remains on the figure alone with no evident gym equipment or environment that would unmistakably suggest a gym setting. The activity resembles stretching or exercising, but lacks specific gym corner cues.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a cozy cardboard box nook for the figure sleeping in a cardboard box?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the bottom-left panel of Image B, a character is seated inside what appears to be a large cardboard box. However, the scene lacks additional elements such as blankets or other comfort objects to denote a 'cozy nook' specifically designed for sleeping, which seems like a relaxed or cramped posture instead.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a tiny dining space for the figure eating at a table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The bottom-right panel of Image B displays a figure seated at a table with food items, creating the impression of dining. This setup qualifies as a tiny dining space as the table and eating action is evident and specifically defines the panel's activity, matching the description of a distinct dining scenario.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

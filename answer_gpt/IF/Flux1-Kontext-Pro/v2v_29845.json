@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_29845",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image show a single humanoid figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image B, there is a single entity visible which combines human and animal features. The body is humanoid in shape, wearing a white coat and pants typically worn by humans, suggesting the presence of one humanoid figure.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the cow's horns visible on the humanoid figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In image B, the entity has a head with visible features of a cow, including a pair of prominent horns. These horns are integrated into the humanoid figure’s appearance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the humanoid figure have fur resembling that of a cow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The head of the humanoid figure in image B is covered with thick fur characteristic of a cow, particularly the highland breed, with shaggy reddish fur. This fur only appears around the head, which resembles a cow.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the humanoid figure wearing the man's original clothing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the humanoid figure dressed in a white coat and brown pants, matching the attire of the man in the original Image A, indicating that the humanoid figure in the edited image is wearing the man's original clothing.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the humanoid figure maintain the man's original posture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In image A, the man is walking alongside the cow, while in image B, the humanoid figure stands still holding the rope. This indicates a change in posture from movement to a stationary stance.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

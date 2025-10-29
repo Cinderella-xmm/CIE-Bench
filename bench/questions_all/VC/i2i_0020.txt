@@ -1,0 +1,69 @@
+Description of reference image: The image shows a red-and-gray train labeled "Südostbahn" parked on railway tracks. A "STOP" sign with multilingual text about not crossing before the train arrives is prominently displayed on the right. The train is positioned parallel to the platform, with multiple windows visible along its side. The background features green mountains, overhead power lines, and a cloudy sky. Tracks and ballast stones are also visible.
+
+### Step 1 - Allowed Changes List:
+
+Thinking process:
+The editing instructions specify converting the scene into a minimalist illustration. This implies removing intricate details and transforming the train and STOP sign into simplified geometric color blocks. The background can be reduced to basic green mountain outlines and simplified track lines. The color palette should lean towards a cool, traffic-safety-inspired scheme.
+
+Allowed Changes List:
+- Simplify the train's design to geometric color blocks while retaining its red and gray color scheme.
+- Reduce the background to green mountain outlines and simplified track lines, eliminating detailed elements like trees and clouds.
+- Adjust the overall color palette to a cool tone suitable for traffic safety signage.
+
+### Step 2 - Determine Elements That Should Remain Unchanged:
+
+Thinking process:
+Core recognition elements include the train’s red-and-gray color scheme, the "STOP" sign’s shape and message, and the position of the train relative to the tracks. Functional/logical associations involve the positioning of the sign near the tracks, as this dictates the safety message. Visual coherence retains the train’s elongated shape and the essential STOP sign text.
+
+Preservation Targets List:
+- The train’s red-and-gray color scheme and general elongated rectangular shape.
+- The circular stop sign with the word "STOP" and multilingual warning text.
+- Positioning of the train on the tracks and the stop sign alongside the platform.
+- Green mountain outlines and track lines for minimal background context.
+
+### Step 3 - Generate Question Answer Pairs:
+
+{
+    Q1: 
+    Thinking process: The train's red-and-gray color scheme is a core identity feature. Losing this would make it unrecognizable as the specified train.
+    Question: Is the train represented in a red-and-gray color block scheme?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The circular shape and "STOP" text on the sign are crucial for conveying the safety message.
+    Question: Is the sign circular with the text "STOP" clearly displayed?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The positioning of the train on the tracks is necessary for maintaining logical consistency with the safety message.
+    Question: Is the train positioned parallel to the tracks?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The mountain outlines provide essential background context, even in a minimalist design.
+    Question: Are there green mountain outlines in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The track lines are necessary for indicating the setting and aligning with the train's position.
+    Question: Are simplified track lines present beneath the train?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

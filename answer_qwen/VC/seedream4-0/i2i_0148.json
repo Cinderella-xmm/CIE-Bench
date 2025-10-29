@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0148",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the two cars in the image identifiable as the same models shown in the original, with the same body shapes and design features?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, both cars are clearly visible from the rear, showing distinct design elements such as taillights, exhausts, trunk lines, and badges. The white car on the left has a sleek, modern design consistent with a Toyota Camry, featuring a horizontal taillight bar and dual exhausts. The black car on the right has a more angular design with separate taillights and a prominent badge, resembling a Hyundai Sonata or similar mid-size sedan. These design cues match those seen in Image A. Comparing both images, the body shapes, proportions, and key design features (e.g., tail light shape, emblem placement, bumper contours) remain identical. There is no distortion or change in vehicle model, indicating that they are the same cars. World knowledge about common sedan designs supports this identification, as these vehicles exhibit standard features of their respective makes and models.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the red traffic lights still visible above the cars, maintaining their original function as stop signals?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, two red traffic lights are clearly visible above the cars, positioned symmetrically on either side of the road. Their red illumination is consistent with a stop signal, which is standard for traffic control. The lights are mounted on poles extending across the road, typical of urban intersections. The red color indicates that vehicles should stop, fulfilling their intended function. In comparison to Image A, the position, color, and structure of the traffic lights remain unchanged. Both images show the same lighting conditions and signal status, reinforcing that the traffic lights are functioning correctly and consistently. Based on world knowledge, red traffic lights universally indicate 'stop,' and their visual appearance here aligns with that purpose.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the lane markings on the road clearly visible and consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lane markings are clearly visible as dashed white lines running down the center of the road, separating the lanes. These markings are sharp and well-defined, even under wet conditions, where reflections are present but do not obscure the lines. The spacing and alignment of the dashes appear consistent with standard road markings. When compared to Image A, the lane markings are in the same positions and maintain the same pattern and clarity. The wet surface enhances reflectivity, making the lines more noticeable, but does not alter their form or consistency. World knowledge about road safety standards confirms that such dashed lines are used to separate lanes and allow lane changes, which matches the context of this scene. Therefore, the lane markings are both visible and consistent.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the urban environment around the cars intact, including trees and roadside features?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the urban environment includes trees lining both sides of the road, with bare branches suggesting a late autumn or winter season. The trees are evenly spaced and extend into the distance, creating a symmetrical perspective. Roadside features such as traffic light poles, street signs (partially visible), and other vehicles in the background are also present. The wet pavement reflects the surroundings, adding depth to the scene. Compared to Image A, the trees and roadside infrastructure appear identical in placement and condition. There is no evidence of missing or altered environmental elements. World knowledge about urban planning supports the idea that such tree-lined avenues are common in city streets, especially near intersections. The continuity of the environment suggests it remains intact and unaltered.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are both cars still positioned parallel to each other, maintaining their original placement on the road?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, both cars are aligned side by side, occupying adjacent lanes. Their relative positions are symmetrical, with equal spacing between them and the centerline of the road. The angle of the vehicles suggests they are traveling straight and parallel to each other, as indicated by the alignment of their rear bumpers and taillights. This positioning matches the original image (Image A), where the cars were similarly placed. The symmetry and spacing are preserved, and there is no indication of drifting or misalignment. World knowledge about driving behavior and road rules supports that vehicles at a stoplight typically remain in their lanes and parallel to one another. Thus, the cars maintain their original placement and orientation.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

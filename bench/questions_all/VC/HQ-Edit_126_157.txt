@@ -1,0 +1,125 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is an elderly man with a long, white beard and mustache, wearing a wide-brimmed conical straw hat typical of East Asian rural or fishing communities. He is seated cross-legged in the center of a narrow wooden boat, holding a single oar horizontally across his lap. His attire consists of a dark brown, loose-fitting robe with visible folds and texture, layered over lighter inner garments. The boat is constructed from weathered wooden planks, showing natural grain and signs of age, with a simple carved frame structure and a central wooden bar secured by rope. The background features a calm lake reflecting the soft light, surrounded by misty, distant mountains with gentle slopes and faint outlines. The overall atmosphere is tranquil, with muted tones of blue-gray in the sky and water, creating a serene, almost ethereal mood.
+
+Thinking process:  
+The editing instruction explicitly transforms the scene into a **miniature shadow box diorama**, which implies a complete reformatting of the visual presentation—changing the medium from a realistic photograph to a stylized, layered 3D cutout display. Key elements mentioned for modification include:
+- Encapsulating the scene in a **hand-carved wooden frame** (new element).
+- Using **aged wood textures** for the boat (texture change allowed).
+- Applying **soft pastel blue gradients** for the hills (color and style change).
+- Adding **etched droplets on clear glass** to simulate ripples (new visual layer).
+- Creating **layered 3D cutouts** (form transformation).
+
+This means the **physical form** of the image will be altered significantly, including perspective, depth, materiality, and framing. However, the instruction does not state that the **subject’s identity, posture, clothing, facial features, or core composition** should be changed—it only specifies how the scene is *presented*.
+
+Therefore, while the **presentation style** and **background rendering** are permitted to change, the **core visual content** of the original subject and key objects must remain recognizable.
+
+Allowed Changes List:  
+- The **overall format** of the image (from photo to diorama)  
+- The **texture of the boat** (to aged wood)  
+- The **color and gradient treatment** of the distant hills (to soft pastel blue)  
+- The **addition of etched droplets on glass** to mimic water ripples  
+- The **use of layered 3D cutouts** for depth  
+- The **inclusion of a hand-carved wooden frame** around the scene  
+- The **medium and lighting style** (shift from photographic realism to diorama aesthetic)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements must be preserved because they define the identity of the subject and scene. In this case:
+- The **elderly man with white beard and conical hat** is the central figure; altering his appearance would misrepresent the original subject.
+- His **posture** (seated cross-legged, hands on oar) is functional and logical—changing it would disrupt the narrative of rowing or stillness.
+- The **oar** is essential to the action and context of being in a boat; removing or distorting it undermines logic.
+- The **boat’s basic shape and position** must remain consistent to preserve spatial coherence.
+- The **relative placement** of the man in the boat and the boat on the water must be maintained to retain scene logic.
+- Although the background hills can be rendered in pastel gradients, their **presence and silhouette** as distant mountain ranges must be retained to preserve the setting.
+
+Functional/logical association elements:
+- The **man’s grip on the oar** indicates control and presence in the boat; changing this would make the action implausible.
+- The **boat floating on water** is a logical relationship; even if stylized, the water must remain beneath the boat.
+
+Non-modified element deduction:
+- All other details not mentioned in the allowed changes list—such as the **texture of the robe**, **shape of the hat**, **facial features**, **beard length**, **wooden planks of the boat**, and **general composition**—must be preserved unless explicitly transformed. Since the instruction only modifies presentation, not content, these details remain part of the original identity.
+
+Preservation Targets List:  
+- The **elderly man’s face**, including his **white beard and mustache**, **wrinkled skin**, and **expression**  
+- The **conical straw hat** worn on his head  
+- The **dark brown robe** with visible folds and sleeves  
+- The **cross-legged seating posture** in the boat  
+- The **oar held horizontally across his lap**  
+- The **narrow wooden boat** with visible plank construction and central support bar  
+- The **calm water surface** beneath the boat  
+- The **distant mountain range** in the background, forming a horizon line  
+- The **relative positioning** of the man, boat, and environment  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The long white beard and mustache are the most distinctive facial features of the elderly man, serving as a core identifier of his character and age. Their absence or alteration would fundamentally change the subject's identity, making him unrecognizable from the original image. This is a key identity feature, hence weighted at 3 points.
+    Question: Is the elderly man’s long white beard and mustache clearly visible and present?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The conical straw hat is a culturally iconic and visually defining accessory in the image. It is directly tied to the subject’s identity and setting. Removing or replacing it would break the cultural and visual continuity of the scene. Its presence is critical for recognition.
+    Question: Is the wide-brimmed conical straw hat positioned on the man’s head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The man’s cross-legged seated posture is essential to the composition and narrative of the scene. It defines his interaction with the boat and the oar. Changing this posture would alter the functional logic of the scene and disrupt the visual balance.
+    Question: Is the man seated cross-legged in the center of the boat?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The oar is a functional object integral to the boat’s operation and the man’s role as a rower. Its horizontal position across the lap is a specific detail that supports the scene’s realism. Altering its position or removing it would break the logical consistency of the action.
+    Question: Is the oar held horizontally across the man’s lap?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The wooden boat’s structure, particularly the visible planks and central support bar, is a key environmental detail that anchors the scene. Even if textured differently in the diorama, its form and layout must remain consistent to preserve the original object’s identity.
+    Question: Are the wooden planks of the boat clearly visible and arranged in a linear fashion along the hull?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The calm water surface beneath the boat is a critical environmental element that establishes the setting. Its presence is necessary for the scene’s logic—without water, the boat would not float. Even if stylized, it must remain under the boat.
+    Question: Is the boat floating on a calm water surface?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The distant mountain range forms the backdrop and defines the landscape. While its color may be changed to pastel blue, its silhouette and presence as a horizon line are essential for maintaining the original scene’s spatial context.
+    Question: Are there misty mountains visible in the background behind the water?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q8: 
+    Thinking process: The dark brown robe with visible folds and sleeves is a key part of the man’s attire and contributes to his identity. While texture may be adjusted, the color and general shape must remain to maintain visual consistency.
+    Question: Is the man wearing a dark brown, loose-fitting robe with visible sleeve folds?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

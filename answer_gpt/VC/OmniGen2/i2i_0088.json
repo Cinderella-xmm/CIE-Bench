@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0088",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the napkin still dark blue?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the napkin clearly retains its dark blue color, which is consistent with common napkin color schemes that are typically used to present elegance or contrast. The visual cue of the strong blue hue present indicates the color of the napkin has not changed.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the napkin's fabric creases and texture preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing Image B, the napkin displays visible creases and texture indicative of a fabric that has been folded or arranged on a surface. These characteristics are typical of cloth napkins, which exhibit wrinkles due to their material properties. Therefore, the texture and fabric creases are preserved as in a real-world scenario.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the new spoon occupy the same position on the napkin as the original fork?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the spoon is positioned centrally along the length of the napkin. By comparing this to Image A, where the fork similarly lies along the center of the napkin, it can be concluded that both utensils occupy the same central arrangement, which reflects a typical dining setup.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the background still a solid dark blue tone?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background beneath and around the napkin displays a wooden texture and a lighter brown tone which differs significantly from the bluish background observed in Image A. This indicates that the background has been altered from a solid dark blue to a warm wooden finish.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the shadows and lighting on the spoon and napkin consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The spoon in Image B shows lighting and shadows that match the soft illumination observed on the fork in Image A, implying a consistency in light source direction and intensity. Furthermore, the napkin's shadows and highlights maintain the same style, suggesting the lighting setup has been preserved.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

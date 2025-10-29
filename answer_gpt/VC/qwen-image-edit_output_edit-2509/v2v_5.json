@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_5",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the zebra retain its black-and-white striped pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the zebra is depicted with the characteristic black-and-white striped pattern, similar to its representation in Image A. Zebras are known for their distinct stripes, and this feature is accurately preserved in the edited image, reinforcing the visual identity of a zebra.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the cake retain its zebra-striped design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents a cake with a zebra-striped design. This is consistent with Image A, where the cake also features the zebra stripe pattern. This design is intentionally matched with the appearance of the zebra, serving as a thematic visual element within both images.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the zebra still leaning forward toward the cake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the zebra is not shown in a position suggesting leaning forward toward the cake. Instead, the zebra is presented in a stylized and cartoonish manner, seated within a digital frame overlay. In Image A, the zebra is depicted leaning toward the cake on a table, showcasing an interactive moment.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a single lit candle on the cake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both Image B and Image A feature a cake with a single lit candle on top. This element is consistent across both images, with the candle symbolizing celebration or acknowledgment, commonly associated with birthday cakes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the cake placed on a table surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cake is not placed on a table surface but is held by the zebra, integrated within a digital social media-like frame overlay. In contrast, Image A clearly shows the cake placed on a table surface, suggesting a real-life setting.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

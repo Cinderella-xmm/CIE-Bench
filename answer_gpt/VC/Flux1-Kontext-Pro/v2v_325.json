@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_325",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the blue car in the upper left position still rendered in blue?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the area of focus is the upper left position where we expect to see a blue car. Based on the visual information, the car remains blue and appears consistent with Image A, where the blue vehicle occupies the same position, displaying the same color and design. My analysis involved identifying the position and matching it to the known color scheme from world knowledge.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the red car in the upper middle position retain the compact sedan body shape with a sloped roofline and four doors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the red car in the upper middle position is analyzed based on its shape and visual appearance, which aligns with the typical features of a compact sedan like a sloped roofline and four doors. Comparing this with Image A, the car remains unchanged, retaining the same body shape and features described.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there exactly eight cars depicted in the final image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, we observe a transportation car trailer with vehicles loaded on two levels. We count the cars, noting four on each level, resulting in a total of eight cars. Comparison with Image A, which also features eight cars positioned similarly, confirms this count.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the yellow car located in the upper middle-right position still yellow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Examining Image B, the car in the upper middle-right position is color-consistent with its appearance in Image A. The car maintains its yellow color in both versions, confirmed through color recognition and logical association between matching positions.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does each car have four wheels, with two at the front and two at the rear?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, inspection of the vehicles shows they continue possessing four wheels—two at the front and two at the rear, matching the standard configuration seen in Image A as well. Observation and standard knowledge of vehicle construction principles support this conclusion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the red car in the lower right position still red and retains the compact sedan shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B’s lower right corner houses a red vehicle. Visual confirmation shows it preserves the color red and maintains a compact sedan shape. Comparing with Image A, the car’s color and design remain unchanged, emphasizing consistency.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

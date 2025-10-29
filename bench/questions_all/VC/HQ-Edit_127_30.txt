@@ -1,0 +1,84 @@
+Description of reference image: The subject is a classical violin resting horizontally on a plush, circular red velvet ottoman. The violin has a polished, warm amber-brown wooden body with visible grain patterns and a glossy finish. Its f-holes are elegantly shaped, symmetrically placed on either side of the central bridge. The black chinrest and tailpiece contrast sharply with the wood, and the strings run taut from the scroll at the top to the tailpiece at the bottom. The scroll features intricately carved tuning pegs with dark knobs. The instrument lies diagonally across the ottoman, with the scroll pointing toward the upper right corner of the frame. The ottoman has deep tufting, rich red velvet upholstery with vertical pleats, and ornate dark wooden legs with curved cabriole design, reminiscent of vintage furniture. The background is a muted, gradient brown tone, softly lit from above, creating a spotlight effect that emphasizes the violin and ottoman while casting subtle shadows beneath them. The lighting enhances the texture of both the violin’s varnish and the ottoman’s fabric.
+
+Thinking process:  
+First, analyze the editing instructions word by word:  
+- "Transform the violin into luxury branding for a bespoke music instrument series" → implies complete transformation of the violin’s form and function; it is no longer a playable instrument but a branded object.  
+- "Convert the body into a sleek, logo-engraved case with a velvet lining" → changes the violin’s physical structure entirely; the body becomes a case, so the original wooden body shape is replaced.  
+- "Add gold accents to the chinrest and tailpiece" → modifies these parts, but their positions and functions may be preserved in form.  
+- "Introduce an elegant, scripted font along the strings" → alters the strings’ appearance, implying they are no longer functional strings but decorative elements bearing text.  
+- "Design a sophisticated pedestal stand with ornate wooden details reminiscent of vintage furniture for exhibition" → replaces the ottoman with a new stand; thus, the ottoman is not required to remain.  
+
+Allowed Changes List:  
+- The violin’s body (wooden form) → changed to a case  
+- The chinrest and tailpiece → modified with gold accents  
+- Strings → transformed into a script-bearing surface  
+- Ottoman → replaced with a new pedestal stand  
+- Overall lighting and composition → can be adjusted for exhibition context  
+- Material textures (e.g., velvet lining inside case) → allowed change  
+
+Step 2 – Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: The original violin is a specific musical instrument with iconic visual traits. However, since the instruction explicitly states to transform it into a branded case, the *functional* violin is being replaced. Therefore, the **core identity** of the violin as a musical instrument is being altered. But certain **iconic visual markers** must still be retained to ensure the edited version is recognizable as derived from the original violin. These include:  
+- The general silhouette of the violin (f-hole placement, scroll shape, overall contour) — even if converted into a case, the shape must resemble a violin to maintain identity.  
+- The position and curvature of the f-holes — these are defining features of violins and cannot be removed or drastically altered without losing recognition.  
+- The scroll and tuning pegs — though possibly stylized, their presence and location must be preserved as key identifiers.  
+- The orientation of the instrument on the surface — diagonal placement is visually dominant and part of the composition.  
+
+Functional/logical association elements:  
+- The relationship between the violin and its support surface (original ottoman) is logical: the instrument rests on it. However, the instruction specifies replacing the ottoman with a new pedestal, so this scene element is allowed to change. Thus, no functional logic needs to be preserved regarding the support.  
+
+Non-modified element deduction:  
+After excluding all elements explicitly allowed to change (body material, strings, chinrest/tailpiece materials, ottoman), the following **visual features** must remain because they are essential to identifying the subject as a violin, even in transformed state:  
+- The f-hole shapes and symmetry  
+- The scroll and pegbox configuration  
+- The overall outline of the violin body (including waist and bouts)  
+- The position of the bridge area (where strings would pass)  
+- The diagonal orientation of the instrument  
+
+Preservation Targets List:  
+- The symmetrical f-hole shapes and their placement on the body  
+- The scroll with tuning pegs at the top end  
+- The overall violin-shaped silhouette including the upper and lower bouts  
+- The position of the bridge area between the f-holes  
+- The diagonal orientation of the instrument relative to the support surface  
+
+{
+    Q1: 
+    Thinking process: The f-holes are the most distinctive and universally recognized feature of a violin. Their shape—two mirrored "f"-like curves—is essential to the instrument's identity. Even when transformed into a luxury case, retaining the f-hole shape ensures the object is identifiable as a violin derivative. Losing this feature would make the object unrecognizable as related to a violin, thus undermining the core identity. This is a key identifier, hence a weight of 3 points.
+    Question: Are the two symmetrical f-hole shapes present on the body of the object?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The scroll and tuning pegs are critical components of a violin’s headstock and are immediately recognizable. Their presence defines the instrument’s top end. Even if stylized with gold accents, their form and position must be preserved to maintain visual continuity with the original violin. Removing or altering them would break the link to the source object. This is a core structural element, so it receives a weight of 3 points.
+    Question: Is the scroll with four tuning pegs located at the top end of the object?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The overall silhouette of the violin—its rounded upper and lower bouts connected by a narrow waist—is the primary visual cue for identification. Even if the body is now a case, the outline must match the classic violin shape. Altering this would make the object appear unrelated to a violin. This is a core identity feature, thus weighted at 3 points.
+    Question: Does the object retain the classic violin silhouette with distinct upper and lower bouts and a central waist?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The bridge area is where the strings cross over the body and is positioned centrally between the f-holes. It is a functional and visual anchor point. While the strings themselves may be replaced with script, the space and implied location of the bridge must remain to preserve spatial logic and recognition. This is an important structural detail, hence a weight of 2 points.
+    Question: Is there a clearly defined bridge area located between the two f-holes?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The diagonal orientation of the violin on the support surface is a key compositional choice in the original image. It creates visual dynamism and balance. Although the support surface will change, the diagonal placement must be maintained to preserve the original framing and aesthetic intent. This is an important scene-related element affecting visual coherence, so it receives a weight of 2 points.
+    Question: Is the object positioned diagonally across the support surface, with the scroll pointing toward the upper right?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

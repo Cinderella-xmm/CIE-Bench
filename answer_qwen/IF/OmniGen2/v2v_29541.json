@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_29541",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly three skiers in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on the visual cues in Image B, there are five individuals wearing ski gear and standing in a row. Each person is clearly visible with distinct clothing colors and positions. Therefore, it is evident that there are not exactly three skiers.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there more than three skiers in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "In Image B, there are five individuals dressed in ski gear, which is more than three. This conclusion is drawn from observing the distinct figures, their attire, and their positioning in the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the remaining skiers appear naturally positioned without any visible gaps or distortions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The skiers in Image B are positioned closely together in a natural manner, with no apparent gaps or distortions between them. Their alignment and spacing seem consistent with typical group photography of skiers.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have two skiers been completely removed from the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing Image A and Image B, both images show five skiers in the same formation and attire. There is no evidence of any skier being removed from Image B. The number of skiers remains unchanged.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the spacing and alignment of the remaining skiers appear balanced and natural?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The skiers in Image B are evenly spaced and aligned in a way that appears natural for a group photo. Their positioning suggests a deliberate arrangement for the photograph, with no signs of imbalance or unnatural spacing.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

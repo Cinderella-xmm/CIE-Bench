@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of converting the lion into a stylized, high-contrast silhouette against an abstract gradient backdrop, evaluate whether the lion's form retains structural coherence and visual plausibility after transformation. The original image shows a detailed, anatomically accurate lion with natural fur texture and proportion. The editing instruction calls for a silhouette, which may affect perceived realism if edges are jagged, proportions are distorted, or internal details are lost in an unnatural way.",
+      "question": "Does the lion’s silhouette maintain correct anatomical proportions and smooth edge definition without visible pixelation or geometric distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of replacing the original savannah background with an abstract gradient backdrop, assess whether the new background introduces artifacts such as unnatural color transitions, banding, or mismatched lighting. The original image features a warm sunset sky with soft clouds and realistic gradients. Replacing this with an abstract gradient must not introduce abrupt color shifts or loss of atmospheric depth.",
+      "question": "Are the color transitions in the abstract gradient backdrop smooth and free from visible banding or unnatural color boundaries?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of adding detailed grass textures to the foreground, evaluate whether the grass appears consistent with the original scene’s lighting and depth. The original image includes tall, golden grass swaying naturally. Adding enhanced textures should not result in over-sharpening, repetitive patterns, or inconsistent lighting direction that breaks realism.",
+      "question": "Do the grass textures in the foreground appear naturally lit and spatially coherent with the rest of the scene, without repeating patterns or artificial sharpness?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of incorporating angular acacia tree silhouettes, assess whether these trees retain plausible shapes and structural integrity. The original image features rounded, organic acacia canopies. Replacing them with angular versions could introduce unnatural geometry or break visual harmony if they appear flat or lack depth.",
+      "question": "Are the angular acacia tree silhouettes structurally plausible and visually balanced within the composition, without broken branches or unnatural angles?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of adding a dramatic typeface for the title \"King of the Wild\" across the upper section, evaluate whether the text integrates seamlessly into the image without obscuring key elements or disrupting visual balance. The lion is central and dominant; the title must not overlap it in a way that distorts perception or introduces visual clutter.",
+      "question": "Is the title text positioned above the lion without overlapping its head or body, and does it maintain legible contrast without introducing visual noise or distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

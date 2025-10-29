@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0081",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image feature a gradient background with pastel colors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the predominant colors are vibrant and high in contrast, with strong purples and blues rather than a soft gradient with pastel tones. The background does not exhibit a gentle transition typically associated with pastel gradients. Given world knowledge of pastel colors being soft and muted, the high intensity and saturation of colors in Image B do not fit that category.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there visible neon lighting effects around the mirror or sink area?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly displays bright neon lights encircling the mirror, which emit a strong glow in pink and purple hues. This is a typical neon effect, characterized by its bright luminescence and distinct coloring, commonly seen in neon signs and lighting. The neon effect would not typically be present in standard bathroom lighting settings, aligning with the visual appearance in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Has the overall bathroom scene been transformed into a retro-futuristic style characteristic of vaporwave?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B has been altered to include vibrant neon lights and intense coloration which is commonly associated with vaporwave aesthetics—a style that blends retro elements with futuristic and surreal visuals. The neon light framing and pink-purple hues transform the bathroom scene from a typical design seen in modern settings to a vaporwave-inspired environment, characterized by its nostalgic and surreal nature.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the gradient background consistently applied throughout the bathroom scene without disrupting the visual coherence?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image background does not feature a gradient application. Instead, it is dominated by strong neon pink lighting, which uniformly and intensely covers the scene rather than presenting any subtle transitions, indicating a lack of gradient application across the entire image, which affects the visual coherence intrinsic to gradual color transitions.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the original objects like the mirror, sink, and cabinet retain their form but now reflect a vaporwave design influence?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B maintains the physical form of the mirror, sink, and cabinet as seen in Image A; their shapes and function are unchanged. However, the added neon lighting and color scheme impart a vaporwave design influence upon these objects due to their integration into the retro-futuristic setting. Such an influence is characterized by vibrant, neon colors, which transform conventional designs into stylistically unique vaporwave themes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

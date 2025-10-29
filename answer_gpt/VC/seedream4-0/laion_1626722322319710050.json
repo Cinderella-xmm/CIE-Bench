@@ -1,0 +1,84 @@
+{
+  "filename": "laion_1626722322319710050",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the statue’s right hand raised in a gesture with fingers extended upward?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the edited image shows the statue inside a glass casing with its right hand raised and the fingers extended upward in a gesture, resembling a common pose seen in statues of notable figures, where one hand often extends upward or outward.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the statue have a visible beard and long hair on the head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the face being blurred, the hairstyle and beard silhouette can be discerned. There are visual cues indicating long hair, as it extends past the back of the head and drapes downward, typical for historical or religious statues.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there clearly visible folds and drapes in the robe covering the statue’s body?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases the statue with meticulously detailed robe drapery. The folds and flow of the garment are clearly defined, crafted to convey a sense of movement and elegance, typical for many classical statues.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the year “1882” visibly inscribed on the front face of the pedestal?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pedestal is remodeled with a marble finish and features multiple plaques. However, none of them visibly contain the inscription '1882', suggesting that this specific detail is absent in the edited version.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a dark rectangular plaque affixed to the lower front section of the base?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the base of the statue is completely transformed into a marble-like pedestal with different metallic plaques situated centrally around it. However, a dark plaque specifically on the lower front section, as seen originally, is missing.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the statue positioned directly on top of the pedestal, aligned vertically?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the statue encased within a glass dome atop a new marble pedestal, suggesting that it remains vertically aligned, directly on top of this constructed base, consistent with typical statue positioning for stability and display purposes.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6875
+}

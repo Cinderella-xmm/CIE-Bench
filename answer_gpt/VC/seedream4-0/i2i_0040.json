@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0040",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the bike frame still red in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bike frame appears to be red in color. This is evident from the bright, vibrant color of the frame, which is clearly visible against the backdrop. The use of bold colors is common in illustrations and edited images to create a visually appealing and clear image. Given these visual cues and using my world knowledge that bike frames often can be red, I conclude the frame in the edited image is indeed red.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the bike still have a rear rack attached to it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a distinct structure that is visible above the rear wheel, resembling a bike rack. In my knowledge, these racks are used to carry items, and this type of attachment is common for bicycles that are designed for commuting or carrying items. The presence of such a structure matches the typical appearance of a bike rack.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the bike still leaning against a wooden log?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bicycle appears to be positioned next to a long, brown structure that resembles a wooden log in shape and placement. This type of resting position is logical for a parked bicycle as it provides stability, which correlates with real-world scenarios where objects like logs or benches are used for support.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there grass and scattered leaves visible in the foreground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays a green-colored area in the foreground, which implies the presence of grass. However, there are no specific shapes or outlines that indicate scattered leaves, which typically have distinct shapes and colors that contrast with grass. Hence, only grass is visually affirmed in the foreground.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a tree trunk visible on the left side of the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the left side features a large, brown vertical object which resembles a tree trunk. This object has markings and texture commonly associated with tree bark, and it fits the typical portrayal of tree trunks in stylized illustrations. Therefore, a tree trunk is visible on the left side.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.9
+}

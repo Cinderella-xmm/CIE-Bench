@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The bald head of the second boy is a key distinguishing feature in the original image. If the cartoon version gives him hair, it fundamentally alters his identity and breaks continuity with the original subject. This is a core recognition element because baldness is a rare and specific trait in children, making it a strong identifier. Losing it would make the character unrecognizable in comparison to the original. Therefore, it is assigned a weight of 3.",
+      "question": "Is the second boy depicted as bald?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The boy with glasses is visually distinct due to the black-framed eyewear. Removing or altering the glasses would change his identity significantly, especially since they are a prominent feature in the original photo. Glasses are not common among children and serve as a clear marker of individuality. Thus, their presence is crucial for identity retention and is assigned a weight of 3.",
+      "question": "Does the first boy wear black-framed glasses?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The act of holding the tablet upright with both hands is a functional gesture that defines the interaction between the two boys. It shows active engagement and shared viewing. If the tablet is held differently (e.g., one hand, tilted), the dynamic changes. This action is central to the scene’s narrative and must be preserved to maintain logical consistency. Hence, it is assigned a weight of 2.",
+      "question": "Is the bald boy holding the tablet with both hands in an upright position?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The boy with glasses is leaning in toward the tablet, indicating interest and participation. This posture is essential to the emotional connection between the two children and reflects their shared experience. Changing this to a neutral or distant stance would break the intimacy of the moment. While not as critical as identity markers, it is a key behavioral element affecting scene coherence. Assigned a weight of 2.",
+      "question": "Is the boy with glasses leaning forward toward the tablet?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The tablet screen displays a colorful indoor scene, likely a room with decorations. While the content can be animated or stylized, the fact that it shows a **scene being viewed** is important for maintaining the narrative of digital exploration. If the screen becomes blank or unrelated, the purpose of the device is lost. The screen's function as a window into another world is key to the \"adventure\" theme. This is a functional element tied to the interaction, so it is assigned a weight of 2.",
+      "question": "Does the tablet screen display a colorful indoor scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The two boys are seated at a table, facing each other with the tablet between them. This spatial arrangement is essential to the interaction and classroom setting. If they were standing or separated, the social dynamic would change. Though stylized, the seating position must be preserved to maintain logical consistency. This is a secondary structural element, so it is assigned a weight of 1.",
+      "question": "Are both boys seated at a table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The backpack near the boy with glasses is a contextual detail that reinforces the classroom environment. While not critical to identity, its presence adds realism and helps ground the scene. If removed entirely without replacement, the school context weakens. However, since it’s a minor object, its absence would only slightly affect coherence. Assigned a weight of 1.",
+      "question": "Is there a backpack visible next to the boy with glasses?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

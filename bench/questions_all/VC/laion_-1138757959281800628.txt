@@ -1,0 +1,133 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a multi-story hotel building with a distinctive architectural design: a light blue lower section supported by white columns, and an upper section composed of stacked balconies with orange structural supports forming vertical beams along the edges. The building has a rectangular prism shape with rounded corners and multiple levels of outdoor terraces. In front of the building is a large, kidney-shaped swimming pool filled with clear blue water, surrounded by rows of blue sun loungers and green-and-white striped umbrellas. Several people are sunbathing or swimming in the pool. Trees and palm-like vegetation frame the scene on both sides, under a bright blue sky with scattered white clouds. The overall atmosphere is sunny and recreational, typical of a resort setting.
+
+**Thinking process:**  
+The editing instruction explicitly transforms the scene into a **miniature 3D diorama inside a glass terrarium**, which means:
+- The **form and scale** of the entire scene will be altered to appear smaller and contained.
+- **Layered water effects** for the pool suggest modification of the water’s appearance (e.g., depth layers, transparency).
+- **Miniaturization** of sunbathers and trees indicates reduction in size but not necessarily change in identity.
+- **Cascading greenery from the rooftop** implies new elements added to the roof, not present originally.
+- **Whimsical beach accessories** near the edge are new additions.
+- **Floating 3D clouds above** indicate artificial enhancement of the sky element.
+
+Thus, the following can be changed:
+- Scale and containment (terrarium effect)
+- Water texture and layering
+- Size of human figures and trees
+- Addition of rooftop greenery
+- Introduction of decorative accessories
+- Sky elements (clouds made 3D/floating)
+
+However, the instructions do **not** say to alter or remove any core structural features of the hotel, nor do they mention changing the fundamental layout or color scheme of the building, pool, or surrounding environment—only to **stylize** them within a diorama context.
+
+**Allowed Changes List:**
+- Scale of the entire scene (to fit inside a terrarium)
+- Water surface texture and layering (to simulate depth)
+- Size and proportion of sunbathers and trees (miniaturized)
+- Rooftop elements (add cascading greenery)
+- Edge decorations (add whimsical beach accessories)
+- Sky and cloud representation (floating 3D clouds)
+- Overall lighting and perspective (to enhance diorama feel)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+To preserve visual consistency and identity, we must retain:
+
+**Core recognition elements:**  
+The hotel's **distinctive architecture**—specifically its **orange vertical support beams**, **stacked balcony structure**, **light blue base**, and **white columned ground floor**—are essential identifiers. These define the building’s unique form and make it recognizable as this specific location. Changing their **shape, position, or color** would fundamentally alter the identity of the structure.
+
+Similarly, the **pool’s kidney-shaped outline** and **position relative to the building** are key spatial markers. Its **blue color** and **presence** must remain, even if stylized with layered water effects.
+
+**Functional/logical association elements:**  
+The **relationship between the pool and the building**—the pool being directly adjacent and accessible via steps—is functionally important. This spatial logic must be preserved; otherwise, the scene loses coherence. The **loungers arranged around the pool** also maintain logical placement for sunbathing.
+
+**Non-modified element deduction:**  
+Although the instruction allows miniaturization, it does **not** allow replacement or removal of the **sunbathers**, **umbrellas**, or **trees**—only scaling down. Thus, their **presence**, **positions**, and **types** (e.g., green-and-white umbrellas) should be retained, even if reduced in size.
+
+Additionally, the **color palette** of the building—especially the **blue lower section**, **white upper floors**, and **orange supports**—is iconic and must be preserved to maintain identity.
+
+**Preservation Targets List:**
+- The orange vertical structural beams along the building’s edges
+- The light blue lower portion of the building
+- The white columns supporting the ground floor
+- The stacked balcony design across multiple floors
+- The kidney-shaped swimming pool
+- The blue sun loungers arranged around the pool
+- The green-and-white striped umbrellas
+- The presence and general positioning of sunbathers and swimmers
+- The relative spatial arrangement of the pool to the building
+- The original color scheme of the building (blue, white, orange)
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The orange vertical structural beams are a defining architectural feature of the hotel, clearly visible along each corner and side of the building. Their presence and placement are critical for identifying the building’s unique design. If removed or altered in color or form, the structure would no longer be recognizable as the original. This is a core identity element, hence weight 3.
+    Question: Are the orange vertical support beams still present along the edges of the hotel building?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The light blue lower section of the hotel is a signature color feature that distinguishes it from other buildings. It forms the base of the structure and is visually prominent. Altering its color or removing it would change the building’s identity. This is a core recognition element, thus weight 3.
+    Question: Is the lower part of the hotel building still painted in light blue?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The white columns supporting the ground floor are structurally and aesthetically significant, forming a covered entrance area. They are integral to the building’s architectural style and must remain to preserve functional and visual logic. Removing or altering them would disrupt the building’s appearance and spatial coherence. This is a key structural element, hence weight 3.
+    Question: Are the white columns supporting the ground floor of the hotel still visible?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The kidney-shaped swimming pool is a central feature of the scene and its distinct outline is crucial for spatial recognition. Even if stylized with layered water effects, its shape must remain unchanged to maintain scene consistency. This is a major environmental feature, so weight 2.
+    Question: Is the swimming pool still kidney-shaped in outline?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The blue sun loungers are uniformly placed around the pool and are a key component of the resort atmosphere. Their presence and arrangement help identify the leisure function of the space. Although they may be scaled down, their color and position must be preserved. This is an important scene detail, hence weight 2.
+    Question: Are the blue sun loungers still arranged around the perimeter of the pool?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The green-and-white striped umbrellas are distinctive due to their pattern and brand visibility ("San Marino" logo). Their presence contributes to the authentic resort feel and branding. Even if miniaturized, they must remain identifiable. This is a minor but recognizable detail, hence weight 1.
+    Question: Are the green-and-white striped umbrellas still visible near the poolside?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The presence of people sunbathing and swimming is essential to convey the resort activity. While they may be miniaturized, their existence and general positions (e.g., lying on loungers, floating in the pool) must be retained to maintain narrative logic. This is a functional scene element, hence weight 2.
+    Question: Are there still people visible sunbathing on loungers or swimming in the pool?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q8: 
+    Thinking process: The relative position of the pool directly in front of the hotel building establishes spatial logic. If the pool were moved or reoriented, the scene would lose coherence. This spatial relationship is foundational, hence weight 3.
+    Question: Is the swimming pool still positioned directly in front of the hotel building?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}

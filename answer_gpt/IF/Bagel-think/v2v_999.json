@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_999",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Have the cabinet and sink been converted into five chibi-style Russian nesting dolls?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the objects being referred to are five Russian nesting dolls positioned on the edge of the bathtub and the sink region. The cabinet remains unchanged, so it has not been transformed into nesting dolls. The analysis involves recognizing the visual elements that are consistent with the appearance of Russian nesting dolls and understanding that the cabinet's structure remains the same as in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the nesting dolls organized from biggest to smallest?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the nesting dolls are not organized in a sequence from biggest to smallest. The arrangement on the bathtub is from larger to smaller dolls but without a cohesive sequence from the edge of the bathtub to the sink.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the nesting dolls positioned along the edge of the bathtub?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, four nesting dolls are positioned at the edge of the bathtub, while one is placed on the sink. Analyzing the arrangement shows that they are primarily arranged on the bathtub's edge with one exception.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the aspect ratio of the edited image maintained at 3:2 horizontally?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both Image A and Image B maintain the same composition and aspect ratio. This involves analyzing the proportional dimensions of the images, which remain unchanged from the original to the edited version.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the nesting dolls exhibit a chibi-style design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The nesting dolls in Image B feature exaggerated heads and cute features typical of chibi-style art. This analysis involves recognizing artistic styles, and the chibi-style characteristics are prominently displayed in the edited image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

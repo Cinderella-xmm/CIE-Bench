@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The text \"SEARCH FOR A STAR\" is a core identity element of the original image. It is the primary name of one of the featured programs and serves as a key identifier. Even though the instruction allows transformation into a golden statuette, the actual text content must remain unchanged to preserve the identity of the program. If the text were altered or omitted, the reference would be lost. Therefore, this is a core recognition feature with a weight of 3 points.",
+      "question": "Is the text \"SEARCH FOR A STAR\" present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The text \"RISING STAR\" is another core identity element, directly tied to the second program. Its presence is essential for maintaining the identity of the event. While the visual form may change, the exact wording must remain to ensure correct identification. Loss of this text would result in misidentification of the program. Thus, it is a core recognition feature with a weight of 3 points.",
+      "question": "Is the text \"RISING STAR\" present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The \"SUMO DIGITAL\" branding is a functional element indicating the company behind the event. It is part of the original composition and must be preserved in content, even if its form changes to an embossed seal. Removing or altering the text would break the brand association. This is a core identity element for the organization involved, hence a weight of 3 points.",
+      "question": "Is the text \"SUMO DIGITAL\" present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The phrase \"Character Art Directory 2018\" is the main title of the publication and is central to the image's purpose. It identifies the document type and year. The instruction specifies changing its style but not its content. Therefore, the exact text must remain to preserve the document's identity. This is a core recognition feature with a weight of 3 points.",
+      "question": "Is the text \"Character Art Directory 2018\" present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The central horizontal alignment of the \"Character Art Directory 2018\" text is a key compositional element that maintains visual balance and hierarchy. The instruction does not mention changing the alignment, and preserving this ensures the layout remains coherent. While not a core identity feature, it is a critical scene element affecting overall consistency. Therefore, it is assigned a weight of 2 points.",
+      "question": "Is the text \"Character Art Directory 2018\" horizontally centered in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The relative vertical positioning of the logos above the directory title establishes the visual hierarchy. The instruction uses the original image as a structural guide, implying that the top-to-bottom order must be preserved. Changing this would disrupt the intended layout and logical flow. This is an important scene element, thus a weight of 2 points.",
+      "question": "Are the \"Search for a Star\" and \"Rising Star\" logos positioned above the \"Character Art Directory 2018\" text?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The spatial relationship between the \"Sumo Digital\" logo and the \"Rising Star\" logo is functionally significant—it indicates brand ownership. The instruction specifies placing the Sumo Digital logo beneath the Rising Star logo, even in its new form. This relative placement must be preserved to maintain logical association. This is an important functional element, hence a weight of 2 points.",
+      "question": "Is the \"Sumo Digital\" logo positioned beneath the \"Rising Star\" logo in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

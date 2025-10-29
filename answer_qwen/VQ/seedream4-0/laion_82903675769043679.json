@@ -1,0 +1,71 @@
+{
+  "filename": "laion_82903675769043679",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the transformed house maintain consistent geometric shapes without jagged edges, overlapping planes, or unnatural fragmentation that disrupts structural integrity?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the house is depicted with a variety of geometric shapes that appear to be fragmented and overlapping. The shapes do not maintain consistent edges or planes; instead, they seem to break apart and overlap in a way that disrupts the structural integrity of the building. This fragmentation is evident through the jagged edges and the lack of a cohesive form that would typically represent a solid structure.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the abstract representations of the crowd evenly distributed across their original positions without clustering or floating elements that violate spatial logic?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The crowd in Image B is represented by abstract figures that are evenly distributed across their original positions on the grass. These figures do not cluster unnaturally or float in mid-air, maintaining a logical spatial arrangement. The distribution appears intentional and follows the general layout seen in typical crowd scenes, suggesting adherence to spatial logic.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the checkered pattern applied uniformly across the entire grass surface without visible seams, inconsistent spacing, or distortion at edges near sand traps and water?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The checkered pattern applied to the grass surface in Image B is mostly uniform but shows some distortion near the edges close to sand traps and water. While the majority of the grass area has consistent spacing and no visible seams, the edges exhibit slight irregularities where the pattern meets other elements, indicating a lack of perfect uniformity.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the prismatic shards in the water reflect the house and sky in fragmented but coherent angular segments without ghosting, blurring, or unnatural color separation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The prismatic shards in the water of Image B reflect the house and sky in fragmented angular segments. These reflections are coherent in terms of maintaining the angular nature of the fragments without significant ghosting or blurring. However, there might be minor unnatural color separations due to the complexity of the reflections, but overall, they remain relatively coherent.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the vibrant geometric planes on the house’s facade consistently lit and shaded to match the ambient light direction, avoiding unnatural highlights or shadow mismatches?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The vibrant geometric planes on the house’s facade in Image B are lit and shaded in a manner that does not consistently match the ambient light direction. The lighting appears uneven, with some planes having unnatural highlights and shadow mismatches. This inconsistency suggests that the lighting was not uniformly applied across all geometric shapes.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

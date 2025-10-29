@@ -1,0 +1,108 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is Aquaman (Arthur Curry), portrayed in a full-body, monochrome cinematic poster from *Zack Snyder’s Justice League*. He stands in a powerful, slightly angled pose, facing forward with his head turned to the left, gazing upward. His long, wavy dark hair flows over his shoulders, and he has a full beard. He wears intricately detailed armor composed of interlocking metallic plates with geometric patterns, including triangular and diamond-shaped textures across the chest, arms, and legs. The armor features layered segments that suggest flexibility and strength. In his right hand, he holds a large trident with three prongs, each ending in sharp points; the trident is held upright, extending vertically from his hand. The background consists of abstract, angular white and gray shapes forming a stylized "JL" logo behind him, overlaid on a cloudy sky. Text elements include “MAX ORIGINAL” at the top, “ZACK SNYDER’S JUSTICE LEAGUE” in bold lettering near the bottom center, the JL shield logo, and “STREAMING MARCH 18 | HBO MAX” at the bottom.
+
+Thinking process:  
+The editing instruction specifies transforming the **striking image** of the aquatic warrior into a **compact 3D model encased in a decorative marine-themed dome**, which implies a complete transformation of the **form and presentation** of the subject. This indicates that:
+- The **2D poster format** can be changed.
+- The **scale and dimensionality** of the subject (from flat image to 3D model) are allowed to change.
+- The **environmental context** (from abstract poster background to marine-themed dome) is explicitly permitted to be altered.
+- The **color scheme** is mentioned as being transformed into “metallic blue tones,” indicating color modification is allowed.
+- The **positioning** of the figure (on a faux coral reef base) is new and not required to be preserved.
+- The **addition of swirling ocean currents** around the figure introduces dynamic visual effects not present originally — these are allowed changes.
+
+However, the instruction **explicitly preserves**:
+- The **intricate armor** — must remain detailed and recognizable.
+- The **trident’s imposing stature** — its size and form should be retained in relative importance.
+- The **core identity** of the character (Aquaman) — implied through the retention of key visual markers.
+
+Thus, while the **presentation, scale, environment, and color** are allowed to change, the **iconic design elements** of the character — especially those tied to recognition — must remain intact.
+
+Allowed Changes List:
+- Form of the subject (from 2D image to 3D model)
+- Background environment (from abstract poster to marine dome)
+- Color palette (from black-and-white to metallic blue)
+- Scale and positioning (from full-body poster to compact model)
+- Addition of dynamic elements (swirling currents)
+- Base surface (from none to faux coral reef)
+- Lighting and texture rendering (to suit 3D model aesthetics)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements are essential for identifying Aquaman as the character from the *Justice League* universe. These include:
+- The **distinctive armor pattern** — particularly the interlocking geometric designs, which are signature to Aquaman’s costume in this version.
+- The **trident’s shape and structure** — a three-pronged weapon with pointed tips and a central shaft, serving as a key symbol of his authority and identity.
+- The **overall silhouette and posture** — though the pose may shift slightly in 3D, the stance (standing tall, holding trident) must remain consistent enough to preserve identity.
+- The **facial features**: long hair, beard, and facial structure — critical for actor recognition (Jason Momoa).
+
+Functional/logical association elements:
+- The **relationship between Aquaman and the trident** — it is held firmly in the right hand, and this action is essential to convey his role as a warrior-king. Changing how he holds or interacts with the trident would disrupt functional logic.
+- The **armor's structural integrity** — if the interlocking plates are simplified or removed, the character becomes unrecognizable.
+
+Non-modified element deduction:
+After excluding allowed changes (like background, color, scale), the remaining visual details — such as the **texture of the armor**, **number and shape of the trident prongs**, **hair length and style**, and **beard** — must be preserved because they are not mentioned as changeable and are fundamental to visual identity.
+
+Preservation Targets List:
+- The intricate geometric pattern of the armor (triangular and diamond-shaped plates)
+- The three-pronged trident with sharp tips
+- The long, wavy hair flowing over the shoulders
+- The full beard and facial structure
+- The right-hand grip on the trident
+- The overall silhouette and heroic stance
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The three-pronged trident is a core iconographic element of Aquaman, directly tied to his identity as King of Atlantis. Its specific shape — three sharply pointed prongs arranged symmetrically — is unique and non-negotiable for recognition. Any deviation (e.g., fewer prongs, rounded tips) would compromise identity. This is a 3-point element because it is both functionally significant and visually iconic.
+    Question: Does the edited image retain the trident with exactly three sharp, symmetrical prongs?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The armor's distinctive interlocking plate design — particularly the repeating triangular and diamond patterns — is a defining feature of Aquaman’s costume in this film. Altering or simplifying this pattern would make the character unrecognizable. It is a core identity marker and must be preserved even when recolored or rendered in 3D.
+    Question: Are the geometric patterns (triangular and diamond-shaped plates) clearly visible and intact across the chest, arms, and legs of the armor?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The long, wavy hair flowing over the shoulders is a key visual identifier of Jason Momoa’s portrayal of Aquaman. While hairstyle might be adjusted slightly in 3D modeling, its length, flow, and placement are essential for maintaining character continuity. Removing or shortening it significantly would break recognition.
+    Question: Is the hair long, wavy, and flowing over the shoulders, matching the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The full beard is a prominent facial feature that contributes to Aquaman’s appearance in this version. It is part of the character’s distinct look and helps differentiate him from other characters. Even in a stylized 3D model, its presence and shape must be preserved to maintain authenticity.
+    Question: Is the full beard present and clearly visible on the face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The right-hand grip on the trident is a functional and symbolic gesture. It shows control and readiness, reinforcing Aquaman’s role as a warrior. Changing the hand position or grip could alter the narrative meaning and weaken the character’s presence. Thus, the hand’s position on the trident shaft must remain consistent.
+    Question: Is the right hand positioned firmly on the shaft of the trident, gripping it in a dominant stance?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The overall silhouette — standing tall, facing forward with head turned — is crucial for conveying the character’s heroic posture. While minor adjustments in angle may occur in 3D, the basic orientation and stance must remain intact to preserve the dramatic impact and recognition.
+    Question: Does the figure maintain an upright, heroic stance with the head turned to the left side?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

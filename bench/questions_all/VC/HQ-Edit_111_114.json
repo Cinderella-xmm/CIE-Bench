@@ -1,0 +1,103 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The straw hat is a core identifier of the man’s appearance and cultural context. Its presence and shape (wide brim, natural color) distinguish him from other characters and contribute to the Mediterranean aesthetic. If missing or replaced, the character becomes unrecognizable. This is a key identity feature, hence weight 3.",
+      "question": "Is the man wearing a wide-brimmed straw hat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The white beard is a defining facial feature that contributes to the man’s age and personality. It is a primary identifier in the original image. Removing or altering it significantly would change the character’s identity. This is a core recognition element, so weight 3.",
+      "question": "Does the man have a full white beard and mustache?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The front round headlight is a signature feature of the scooter model. Its presence defines the vehicle’s identity and distinguishes it from other types of scooters or motorcycles. Even in cartoon form, this element must be retained to preserve the vehicle’s recognition. This is a core functional/visual element, hence weight 3.",
+      "question": "Does the scooter have a circular headlight at the front?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The chrome front grille is a distinctive structural detail unique to certain vintage scooters. It contributes to the vehicle’s mechanical identity and visual symmetry. Its absence would make the scooter look generic or inaccurate. This is a key accessory feature, so weight 2.",
+      "question": "Is there a chrome grille located below the headlight on the scooter’s front?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The side luggage rack is a functional and stylistic detail that identifies the scooter as a utility vehicle. It adds realism and context to the scene. Even if exaggerated, its presence helps confirm the scooter’s model and purpose. This is an important accessory, so weight 2.",
+      "question": "Does the scooter have a metal luggage rack mounted on the front side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The two-wheeled structure with visible tires and spokes is fundamental to the scooter’s functionality. Altering wheel count or removing tires would destroy the vehicle’s logic. This is a critical structural element, hence weight 3.",
+      "question": "Does the scooter have two wheels, each with a visible tire and spoke pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The man’s seated position on the scooter, with both legs over it, establishes the action of riding. Changing this (e.g., standing, floating) would break the narrative. This is a core functional pose, so weight 2.",
+      "question": "Is the man seated on the scooter with both legs extended forward over the footrest?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q8",
+      "thinking_process": "The cobblestone pavement is a key environmental feature that defines the setting. Its texture and pattern provide historical and geographical context. Replacing it with smooth stone or asphalt would misrepresent the location. This is an important scene element, so weight 2.",
+      "question": "Is the ground paved with irregularly shaped cobblestones arranged in a herringbone pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q9",
+      "thinking_process": "At least one arched doorway with green shutters is essential to maintaining the Mediterranean architectural style. Their presence anchors the scene in a specific cultural context. Removing all such features would alter the environment beyond recognition. This is a key background element, so weight 2.",
+      "question": "Is there at least one arched doorway with green shutters visible in the background buildings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

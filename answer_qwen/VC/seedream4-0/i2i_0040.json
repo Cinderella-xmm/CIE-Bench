@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0040",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the bike frame still red in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bike frame is clearly visible and retains a bright red color, consistent with the original image. The red hue is uniform across the frame, including the top tube, down tube, and seat tube, which are all distinctively red. This matches common knowledge about bicycle design, where the frame color is typically preserved unless intentionally altered for stylistic or thematic reasons. In this case, the red color appears to be maintained as part of the visual identity of the bike, even though the overall image has been stylized into a cartoon-like format. The transformation does not affect the fundamental color attribute of the frame.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the bike still have a rear rack attached to it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a black structure is visible above the rear wheel, extending from the seat post area and supporting what appears to be a bag or cargo holder. This structure matches the typical design of a rear rack, which is commonly used on bicycles for carrying items. The presence of this component aligns with real-world bicycle features, especially on touring or hybrid bikes. Comparing this to Image A, the rear rack is also present there, confirming that the feature has been preserved in the edited version. Although the style is more simplified and cartoonish in Image B, the functional elements like the rear rack remain intact.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the bike still leaning against a wooden log?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bike is positioned such that its front wheel is near a horizontal wooden object, which resembles a bench or a low wooden platform rather than a natural log. While the object is made of wood and serves as a support, it lacks the irregular shape and bark texture typical of a tree log. Instead, it has clean edges and a flat surface, suggesting it is a man-made structure like a park bench. In contrast, Image A shows the bike leaning against a natural wooden log, which is rough and organic in appearance. Therefore, while both images show the bike resting against a wooden object, the nature of the object differs significantly. In Image B, it is not a log but a stylized representation of a bench.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there grass and scattered leaves visible in the foreground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the ground is depicted with large, smooth green areas representing grass, but the texture is highly stylized and lacks detail. There are no visible scattered leaves in the foreground. The rendering uses solid blocks of color and minimal shading, which simplifies the environment and removes fine details like individual blades of grass or fallen leaves. In comparison, Image A shows realistic grass with texture and small brown leaves scattered around, indicating a natural setting. The edited image (Image B) abstracts these details, focusing instead on clarity and simplicity, which results in the absence of scattered leaves. Thus, while grass is present, the scattered leaves are not.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a tree trunk visible on the left side of the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a dark, vertical structure is visible on the left side of the frame, resembling a tree trunk. It has a rough texture and a branching pattern at the top, consistent with how trees are typically illustrated in cartoon or animated styles. While it is stylized, the form and placement match the general appearance of a tree trunk. In Image A, a similar tree trunk is visible in the same location, confirming that this element has been preserved in the edited version, albeit with artistic simplification. The continuity of this feature supports the idea that the scene's layout has been maintained, even if the details are less realistic.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0126",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there two individuals seated at a desk working on computers?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, there are two visible seating areas at desks where individuals are engaged in activities that involve computers. One scene depicts two people at a single desk working on desktop computers. Therefore, based on the visual cues, the conclusion is drawn that there are indeed two individuals seated at desks working on computers.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the desk supported by chairs on both sides, and are both individuals seated?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image shows two individuals seated at a desk, each in an office chair on opposite sides of the desk. The seating arrangement and presence of chairs are clearly visible, supporting both individuals as they work on computers.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there two framed portraits hanging on the wall behind the individual on the left?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The visual detail of the image indicates that there are no framed portraits hanging on the wall behind the individuals seated at the desk. The individuals are depicted in different office settings with no visible portraits in the background of the edited image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there potted plants placed on either side of the desk?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, there are potted plants visible next to the desks in both bottom-left and top-left panels, indicating a consistent placement of potted plants beside seating areas, suggesting an aesthetic or decorative design feature.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are both individuals wearing orange sweaters over collared shirts and black pants?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining the attire of individuals in the image, one person is wearing an orange sweater over a collared shirt while another is wearing a white outfit, deviating from the description. Therefore, the attire is inconsistent as not both individuals are wearing orange sweaters or black pants.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

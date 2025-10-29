@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_114_124",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the unfurled scroll form of the map maintain smooth, continuous curvature without jagged edges or distorted grid lines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the map appears as an unfurled scroll. The edges of the scroll itself are mostly smooth, but there is a crafty graphical style suggesting that the grid lines of the map are drawn with a paper texture effect, allowing some artistic imperfections to show the theme of exploration, rather than strict adherence to precision. This implies an intentional artistic choice, deviating from strict geometric accuracy.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the spokes of the ship's wheel evenly spaced, structurally intact, and consistent in thickness and metallic texture with the original compass material?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the ship's wheel is prominently displayed in the center of the design. The spokes are present and attempt to maintain even spacing; however, they exhibit more of a stylized, artistic rendition, losing the strict metallic texture and material consistency seen in the more realistic compass of Image A. The spokes are thicker in places and lack the metallic sheen of a realistic compass material.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the silhouettes of the explorers clearly distinguishable, proportionally small relative to the map scale, and placed along plausible travel paths without overlapping key geographical labels?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, silhouettes of explorers are scattered around the map design. They are distinct as silhouettes and are indeed small compared to the whole map. They are depicted in exploratory poses along a red line simulating a path, which is plausible. However, the emphasis is more on artistic placement rather than maintaining geographic correctness and can overlap with decorative elements rather than specific map labels.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the typography aligned with the vintage aesthetic, free from pixelation or blurring, and positioned so that it does not obscure major elements such as the compass or continental outlines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The typography in Image B uses a bold, decorative style that fits the vintage and exploratory theme, aiming for high visibility. The title is clear and prominent without pixelation or blurring. It is positioned at the top part of the map but does not cover major elements such as the wheel (central figure in this image) or any other core geographic outlines, which ensures a balance between visibility and non-interference with key map elements.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the red dotted lines form continuous, non-overlapping paths across the map that align with known historical exploration routes and avoid cutting through landmasses or key symbols?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the red dotted lines are designed in a serpentine path across the map. While they are intended to mimic exploration routes, they show an artistic stylization, freely flowing across the depicted map without strict adherence to avoid landmasses or specific symbols, instead prioritizing a visually dynamic path. This creates occasional overlaps and intersection with map design elements without interruption.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

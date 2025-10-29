@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_27",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the bear's snout and ears?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, which features a set of six different poses and expressions, the bear consistently retains distinct features such as a rounded snout and small ears atop its head. These are essential elements defining the bear's character, and their presence across various poses suggests these traits are crucial to its identity. In Image A, the bear also has a rounded snout and small ears. The retention of these features in Image B helps maintain visual continuity and character recognition between the images.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image retain the green Hawaiian shirt with orange polka dots and the straw hat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the bear consistently wearing a green Hawaiian shirt with orange flower patterns similar to those in Image A, although the specifics of coloring may vary slightly (for example, Image B shows some floral patterns instead of polka dots in particular illustrations). In addition, the bear is depicted wearing a straw hat in both images. These clothing items contribute to the bear's relaxed and cheerful vibe.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain tropical background elements such as hibiscus flowers and palm fronds?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background lacks extensive decorative elements, focusing more on the bear's different expressions and actions. There is a single hibiscus flower visible in one of the poses; however, palm fronds or other distinct tropical elements present in Image A are largely absent. This signifies a shift from a detailed background approach to a simpler, character-focused layout without substantial tropical theme elements.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image retain the bear's interaction with objects like the drink and chair where applicable?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bear does not interact with physical objects like drinks or chairs. The focus is on expressing emotions and actions through different poses that stand alone without external objects. In contrast, Image A shows the bear sitting in a chair and holding a tropical drink. This shift in Image B removes object interactions, emphasizing the bear's expressiveness instead.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image retain the vibrant color palette seen in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B maintains a similar color palette of earthy browns, vibrant greens, and oranges akin to those in Image A, which includes a tropical theme. While the vibrancy might appear slightly less due to different contextual and background representations, the general colors are consistent with the original design. This retention helps uphold the cheerful and lively atmosphere.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

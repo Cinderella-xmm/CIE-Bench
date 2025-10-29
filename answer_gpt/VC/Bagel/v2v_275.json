@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_275",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the creature retain the distinctive shape and texture of the original rock formation?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the creature is designed with features resembling the rocky textures and shape found in Image A's rock formation. The creature's torso mimics the vertical, rugged appearance of the rock formation seen in Image A, with similar grooves and surface textures that match the original. This suggests that the edited image maintains the essence of the rock formation's shape and texture.",
+      "weight": 3,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the rolling green hills and mountainous background still present in the image?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "Image B has an isolated creature against a plain, neutral backdrop, without the landscape seen in Image A, which prominently features rolling green hills and mountains. This indicates a significant change in the overall scene context, focusing purely on the creature without any trace of landscape elements.",
+      "weight": 2,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the lighting and shadow effects on the landscape retained?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, there are no visible landscape elements such as hills or mountains, and therefore, the intricate lighting and shadows observed in Image A's landscape are absent. Image B has a flat, illustration-style design that doesn't incorporate realistic lighting and shadows that would affect a landscape type setting.",
+      "weight": 2,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the contours and coloration of the hills and mountains remain consistent with the original image?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "Image A exhibits detailed contours and varying shades of greens and blues indicative of natural hills and mountains, while Image B lacks these natural landscape details, opting instead for a stylized cartoon character against a plain background. There is no continuity in the landscape's visual elements between the two images.",
+      "weight": 1,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the position of the creature (original rock formation) relative to the landscape maintained?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image A, the rock formation is situated among expansive hills and mountains, while Image B presents the creature without a landscape context, focusing solely on the character against a plain backdrop. This means the relationship or positioning of the original rock formation within a natural environment is not upheld in the edited image.",
+      "weight": 2,
+      "model_answer": "no",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.3
+}

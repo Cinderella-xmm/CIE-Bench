@@ -1,0 +1,134 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a Black woman with dark brown skin, depicted in a frontal three-quarter pose, facing slightly to the right. Her hair is styled in tightly coiled, upward-spiraling twists arranged in a fan-like crown, each twist adorned with colorful beads in red, yellow, blue, green, and orange. A multicolored beaded headband encircles her forehead, featuring intricate patterns of small beads in rainbow hues. She wears large, circular, multicolored beaded earrings with concentric designs. Her attire consists of a richly patterned garment with horizontal bands of embroidery and beadwork around the neckline, and vertical panels of woven fabric displaying complex geometric and linear motifs in red, gold, blue, and black. The sleeves are long, with one side showing a deep blue fabric with golden leaf-like embroidery. The background depicts a lush tropical forest with soft-focus greenery, palm fronds, and warm ambient lighting, suggesting a natural, sunlit environment.
+
+**Thinking process:**  
+The editing instruction explicitly transforms the image into an **ancient African sculpture crafted from dark wood**, meaning the **subject’s physical form** (i.e., human anatomy) will be reinterpreted as **sculptural** rather than realistic. However, it specifies that **certain elements must remain visually identifiable** despite transformation:  
+- The **vibrant attire** must be preserved as **intricately carved patterns** — so the **designs and layout** of clothing must remain consistent.  
+- The **beaded crown and earrings** must be highlighted in **painted colorful detail** — indicating their **presence, shape, and color arrangement** must persist even if rendered in paint on wood.  
+- The **lush, textured backdrop** must be interpreted as **low-relief carvings** — meaning the **overall composition and spatial relationship** between subject and background should be maintained, though transformed in medium.  
+- The instruction emphasizes **traditional African art style**, with **deeply incised motifs** and **polished finish**, but does not specify altering core identity features like facial structure or symbolic adornments unless implied by transformation.
+
+From this, we extract what **can change**:  
+- Material and texture of the subject (from skin/fabric to wood).  
+- Rendering style (from photorealistic to sculptural relief).  
+- Surface finish (to polished, aged wood).  
+- Medium-specific details (e.g., shadows, light reflection) adjusted for sculpture.  
+
+But **cannot change**:  
+- The **identity-defining features** of the subject: hairstyle structure, bead placement, earring design, clothing patterns.  
+- The **spatial relationship** between subject and background.  
+- The **color scheme and symbolic layout** of beads and garments, as they are to be **painted in detail**.
+
+**Allowed Changes List:**  
+- Subject’s material: changed from flesh/fabric to dark wood sculpture.  
+- Texture of surface: transformed from smooth skin/fabric to deeply incised wood carving.  
+- Lighting and shading: adapted to simulate wooden relief under ambient light.  
+- Background rendering: converted from painted jungle to low-relief carving.  
+- Overall artistic medium: shifted from digital painting to sculptural representation.  
+- Facial expression and posture: may be stylized but must retain orientation and gaze direction.  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now identify **what must stay unchanged** based on exclusion from the allowed changes list and logical necessity:
+
+1. **Core recognition elements**:  
+   - The **beaded crown** and **earrings** are central to cultural identity and visual recognition. Their **shape, placement, and color sequence** must be preserved because they are specified to be **highlighted in painted detail** — implying they are key identifiers.  
+   - The **hairstyle structure** — the **fan-shaped arrangement of twisted braids** — is iconic and culturally significant. Even as a sculpture, its **form and symmetry** must be retained.  
+   - The **clothing’s pattern layout** — especially the **horizontal beadwork at the neckline** and **vertical panel designs** — must remain intact because they are described as being **carved as intricate patterns**, meaning their **structure and positioning** are essential.  
+
+2. **Functional/logical association elements**:  
+   - The **positioning of the earrings** relative to the ears must be preserved to maintain anatomical logic.  
+   - The **placement of the headband** across the forehead must remain correct for symbolic and aesthetic coherence.  
+   - The **orientation of the figure** (three-quarter turn to the right) and **gaze direction** must be retained to preserve compositional balance and narrative focus.  
+
+3. **Non-modified element deduction**:  
+   - Any **specific bead colors** in the crown and earrings must be retained because they are to be **painted in colorful detail** — thus their **sequence and hue** are critical.  
+   - The **geometric motifs** on the clothing must remain in the same **location and orientation** to ensure the **pattern integrity** is preserved.  
+   - The **background's lushness and depth** must be represented as **low-relief carving**, so the **relative density and distribution of foliage** must be maintained.  
+
+Thus, **only those elements explicitly mentioned for transformation** (like material or texture) are allowed to change; all others must be preserved in their original visual configuration.
+
+**Preservation Targets List:**  
+- The fan-shaped arrangement of tightly coiled braids forming the crown hairstyle  
+- The multicolored beaded headband encircling the forehead with rainbow-colored beads  
+- The large circular beaded earrings with concentric patterns  
+- The horizontal band of multicolored beadwork around the neckline  
+- The vertical geometric patterns on the front of the garment  
+- The position and color sequence of beads in the crown and earrings  
+- The left sleeve’s blue fabric with golden leaf-like embroidery  
+- The overall pose and gaze direction of the subject  
+- The lush tropical background with dense foliage and warm lighting  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The fan-shaped crown of tightly coiled braids is the defining hairstyle feature, symbolizing cultural identity and structural complexity. Its unique radial arrangement is a core visual identifier; if lost or altered in shape, the subject would no longer reflect the original’s distinctiveness. Since the instruction specifies transforming it into carved patterns, its **form and symmetry** must be preserved. This is a 3-point element due to its role in identity recognition.
+    Question: Is the fan-shaped arrangement of tightly coiled braids forming the crown hairstyle preserved in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The multicolored beaded headband is a key accessory, positioned across the forehead with a specific rainbow bead pattern. It is explicitly stated to be highlighted in painted detail, meaning its **presence, location, and color sequence** must remain unchanged. Altering it would break the intended cultural and visual emphasis. This is a 3-point element due to its symbolic and decorative significance.
+    Question: Is the multicolored beaded headband encircling the forehead, with its distinct rainbow-colored bead pattern, present in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The large circular beaded earrings with concentric designs are prominent accessories and are specified to be rendered in painted detail. Their **shape, size, and color pattern** are essential to maintaining the subject’s appearance. Losing them or changing their design would undermine the authenticity of the transformation. This is a 3-point element due to its high visibility and cultural symbolism.
+    Question: Are the large circular beaded earrings with concentric patterns visible and correctly positioned on both ears in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The horizontal band of multicolored beadwork around the neckline is a distinctive garment feature, part of the vibrant attire that must be translated into carved patterns. Its **position and color sequence** are critical to preserving the clothing’s identity. Changing it would alter the garment’s cultural representation. This is a 2-point element as it is a major design feature but less central than facial adornments.
+    Question: Is the horizontal band of multicolored beadwork around the neckline preserved in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The vertical geometric patterns on the front of the garment are part of the traditional textile design, which must be rendered as intricately carved patterns. Their **layout and alignment** are crucial to maintaining the visual integrity of the attire. Displacing or distorting them would affect the garment’s recognizability. This is a 2-point element due to its importance in clothing identity.
+    Question: Are the vertical geometric patterns on the front of the garment preserved in their original positions and orientations?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The left sleeve’s blue fabric with golden leaf-like embroidery is a unique detail distinguishing the garment’s asymmetry and craftsmanship. Though secondary, it contributes to the overall visual balance and cultural richness. Its presence and pattern must be retained to maintain fidelity. This is a 1-point element as it is a minor but identifiable detail.
+    Question: Is the left sleeve’s blue fabric with golden leaf-like embroidery visible and accurately rendered in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The subject’s pose and gaze direction (three-quarter view, looking slightly to the right) establish the composition and emotional tone. The instruction does not suggest altering posture, so this must remain. Changing it would disrupt the viewer’s engagement and narrative focus. This is a 2-point element due to its impact on scene coherence.
+    Question: Is the subject’s pose and gaze direction (facing slightly to the right) preserved in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q8: 
+    Thinking process: The lush tropical background with dense foliage and warm lighting provides context and enhances the subject’s cultural setting. Although transformed into low-relief carving, its **density, composition, and general layout** must be preserved to maintain environmental consistency. This is a 2-point element as it supports the scene’s authenticity.
+    Question: Is the lush tropical background with dense foliage and warm lighting preserved in the edited image, albeit interpreted as low-relief carving?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

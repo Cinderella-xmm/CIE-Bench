@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image retain the metallic texture and finish of the bearings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a display of bearings with a metallic sheen and reflective surface, consistent with the typical appearance of metal bearings. The lighting highlights their reflective nature, indicating that the metallic texture and finish are maintained. The visual cues of shine and reflections are crucial for identifying the metallic textures typically associated with bearings.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the shape and structural details (rings, grooves) of the bearings accurately represented?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bearings display distinct rings and grooves, which are fundamental structural features for such objects. These details are clear and appropriately depicted, providing an authentic representation of typical bearing design. The visual recognition of these parts ensures that the structural integrity of the bearings is preserved in the edited image.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the bearings maintain their relative positions and orientations as shown in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents the bearings inside a box, and they appear arrayed in a considered layout within compartments, contrasting with Image A where the bearings are simply laid out on a flat surface without the presence of a box or specific arrangement. This indicates a change in position and orientation in Image B compared to Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the text \"Facts You Need to Know about Bearings and Final Drive Motors\" still present on the chalkboard?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text 'Facts You Need to Know about Bearings and Final Drive Motors' is retained, but instead of being on a chalkboard as in Image A, it is placed inside a box lid. This relocation still preserves the textual element, although its background context has changed.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the background remain clean and uncluttered, focusing attention on the bearings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B introduces additional elements such as a box containing the bearings and extra packaging materials, unlike the minimal background and simple focus on the bearings in Image A. This results in a more cluttered appearance, as the newly added elements could distract from the bearings themselves.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7272727272727273
+}

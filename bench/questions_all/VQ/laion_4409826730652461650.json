@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of modifying the facial expression of the plush horse (from neutral to determined or smiling), this question evaluates whether the eyes, mouth, and overall face retain anatomical correctness and proportionality after editing. The original image shows distinct eye placement, a defined muzzle, and soft fur texture around the face. Any distortion in these areas could reduce natural appearance.",
+      "question": "Are the eyes and mouth of the horse in both panels correctly positioned and proportionally consistent with the original plush design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of adding a lasso above the horse's head in Panel 2, this question checks whether the lasso is physically plausible—its shape, curvature, and position relative to the horse suggest motion without breaking geometry or appearing flat or disconnected.",
+      "question": "Is the lasso above the horse's head shaped naturally and positioned so that it appears to be twirling in mid-air without intersecting or clipping through the horse's body?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of changing the background to include cacti and wooden saloons, this question assesses whether the new environmental elements are seamlessly integrated with proper perspective, lighting, and depth, avoiding abrupt edges or color mismatches that would indicate poor compositing.",
+      "question": "Do the cacti and wooden saloon buildings in the background align with the horizon line and cast shadows consistent with the light source direction?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of applying a bold cartoon style with vibrant colors and outlines, this question examines whether the texture of the horse’s fur and mechanical parts remains distinguishable and free from pixelation, smudging, or unnatural smoothing that would compromise detail fidelity.",
+      "question": "Are the fur texture of the horse and the plastic details of the rocking base clearly visible and not blurred or oversimplified due to stylization?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of adding animated text at the top of the image, this question ensures the text does not overlap critical elements like the horse’s head or background structures, and that its font and color contrast allow readability without visual clutter.",
+      "question": "Is the text “Wild, Wild Horse Adventures!” positioned at the top of the image without overlapping any part of the horse or background elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "Based on the sub requirement of maintaining structural consistency during style transformation, this question checks whether the horse’s body proportions, especially the legs and rocking base, remain consistent with the original object and do not appear stretched, compressed, or misaligned due to cartoon styling.",
+      "question": "Are the legs and rocking base of the horse proportionally accurate and aligned with the original mechanical structure, even after stylization?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

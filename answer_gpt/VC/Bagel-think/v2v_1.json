@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image retain the metallic texture and finish of the bearings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the metallic texture and finish of the bearings are apparent. The bearings show reflective characteristics, a typical visual cue for metallic objects. These cues indicate a polished, metallic finish. This analysis is based solely on the shiny surface and reflective qualities seen in Image B.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the shape and structural details (rings, grooves) of the bearings accurately represented?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The bearings in Image B display the typical structural features found in mechanical bearings, such as circular shapes and grooves. These elements are essential for the function of bearings, allowing them to rotate and fit within machinery. This understanding is based on general knowledge about bearings and the observable characteristics in Image B.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the bearings maintain their relative positions and orientations as shown in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the bearings are positioned in front of a chalkboard. However, in Image B, they are organized in a box with dividers separating them. This indicates a change in relative positions and orientations, reflecting a different arrangement. The comparison of arrangements between the two images reveals this variance.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the text \"Facts You Need to Know about Bearings and Final Drive Motors\" still present on the chalkboard?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not feature a chalkboard with text as seen in Image A. Instead, the arrangement focuses solely on the bearings without any textual elements. Comparing the main visual elements confirms the absence of this text in Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the background remain clean and uncluttered, focusing attention on the bearings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B has a plain background with a focus on the box holding the bearings, providing a clear, uncluttered view. This setup ensures that the emphasis remains on the bearings themselves. When comparing the backgrounds of both images, Image B maintains a similar clarity and lack of distraction.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6363636363636364
+}

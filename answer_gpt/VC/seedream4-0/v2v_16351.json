@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_16351",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the individuals' facial features, hairstyles, and body types retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the individuals' faces are blurred, making it impossible to identify specific facial features. However, body types and hairstyles are visible and seem unchanged from Image A based on the outlines and general body proportions. Their clothing and overall positions suggest the same individuals are present, so aside from blurred faces, the features are implied to be retained.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the man in the suit still gesturing with his hands in the same manner as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the man's hand gestures remain the same as in Image A. He is still using both hands in a similar fashion, indicating a consistency in his body language and gesture compared to the original image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the relative positions of the characters (e.g., who is standing next to whom) retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the characters' positions appear to be unchanged as compared to Image A. The man in the suit is still flanked by two individuals in jerseys, maintaining the same arrangement and relative standing positions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the individuals still wearing the same type of clothing (e.g., jerseys, suit) as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the clothing remains consistent with that in Image A. The individuals are still in their respective attire, with the players wearing jerseys and the man sporting a suit, demonstrating continuity in their clothing styles.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a clear focal point in the new setting that replaces the jersey's position in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the setting has changed from a locker room to a more formal environment without the jersey in the foreground, eliminating a primary focal point. The absence of an object like the jersey in the edited environment shifts the focus to the people and their dialogue, as no substitute focal element has been introduced.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

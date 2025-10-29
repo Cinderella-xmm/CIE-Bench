@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1005",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Do the facial features and accessories of the individuals appear detailed and clear despite the enlarged heads?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, although the heads are enlarged, they are specifically blurred and thus obscure any possible detailed assessment of facial features or accessories such as hats or scarves. Since we cannot discern clarity or detail due to the blur applied, common sense indicates the apparent absence of detail in these areas.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the transition between the enlarged heads and the cartoonish bodies smooth and free from noticeable artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the heads are intentionally blurred, which masks any detailed transition assessment between the head and body. The seamless blending of colors and textures between the body and outerwear appears smooth, which suggests the transition is free from artifacts. Thus, common sense infers a visually cohesive merge of these elements.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the proportions of the individuals' bodies in relation to the log cabin realistic and consistent with the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the proportions of the individuals appear slightly exaggerated and cartoon-like, while the log cabin retains realistic dimensions. When compared with Image A, the log cabin is larger, matching real-world expectations. However, in Image B, the individuals appear smaller relative to their surroundings, challenging realistic proportions.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the clothing and equipment retain their natural textures and details without any loss or distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the clothing appears simplified compared to Image A, exhibiting a lack of intricate detail or texture due to the stylistic shift toward a more cartoon-like representation. The visual cues suggest this loss in clothing texture detail is consistent with animations or toy-like depictions.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the geometric shapes of the individuals' bodies and the log cabin intact and undistorted?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B maintains clean geometric shapes for the log cabin, while the body shapes of the individuals are simplified into cartoon-like representations with rounded features that diverge from realistic contours seen in Image A. While they appear intentionally altered and stylized, the shapes themselves are preserved without distortion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

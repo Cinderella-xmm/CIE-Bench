@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0038",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the person's pose and expression been simplified into a cartoon line-art style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the entire scene is transformed into a cartoon line-art style, which is characterized by simplified lines and monochrome color. The person's pose, which includes raised hand and body posture, is depicted using straightforward black contours, typical of such illustrations. This contrasts with a more detailed, realistic depiction seen in typical photographs. The cartoon style involves reducing details and using outlines, which is evident in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the raised hand still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The raised hand can be clearly seen in Image B, depicted as part of the cartoon line-art style. The hand is outlined with bold black lines, matching the pose in Image A but in a simplified, monochrome form. This retention of the raised hand indicates consistency in the pose between the two images.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the cartoon-style person retain an open mouth expression?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, while the face is not detailed due to the cartoon and line-art transformation, there is no evident characteristic to suggest an open mouth expression. The focus in the transformation is on outlines rather than facial expressiveness, implying that a specific mouth expression may not be clearly depicted.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the cartoon-style image include a camera covering part of the person's face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a camera partially obscuring the person's face, similar to Image A. This is represented in a simplified, line-art form but retains the key element of the camera being held up to partially cover the face, indicative of a consistent pose with Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a speech bubble with the text “Take a photo” in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B lacks any text elements or speech bubbles. The transformation to a line-art style focuses on depicting existing objects and outlines, without additions such as speech bubbles or text, which are typically used to convey dialogue in cartoons.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

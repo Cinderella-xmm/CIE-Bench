@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_459",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the left tie retain its diagonal striped pattern in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the left tie has a diagonal striped pattern with multiple colors such as red, orange, turquoise, and blue. This pattern and color scheme is consistent with the typical design of a striped tie. By analyzing Image A, the left tie also features a diagonal striped pattern. Thus, the diagonal striped pattern of the left tie is retained. The visual information in Image B confirms this understanding.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the right tie retain its white polka dot pattern in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the right tie has a blue base with white polka dots evenly spaced. This is a classic polka dot pattern frequently used in tie designs. In Image A, a tie with the same blue and white polka dot pattern can be seen to the right. Thus, the polka dot pattern has been retained in the edited image, confirmed by the visual observation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the original colors (red, orange, turquoise, blue for the left tie and blue with white dots for the right tie) retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the left tie shows the same color pattern of red, orange, turquoise, and blue diagonal stripes, and the right tie shows a blue base with white polka dots, exactly like in Image A. Therefore, the original colors of both ties are maintained in the edited image. The recognition of colors and patterns is crucial in this analysis.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the ties arranged next to each other in the edited image, maintaining their relative positioning?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, three ties are seen arranged in a horizontal line inside a drawer. Comparing this with Image A, where there are only two ties upright and directly adjacent to each other on a flat wooden surface, it is clear that the ties are not maintaining the exact same layout or positioning relative to each other as in Image A. The analysis shows a change from having two ties to three ties, and differences in vertical vs. horizontal presentation, indicating a lack of maintenance in relative positioning.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a realistic surface texture in the background of the edited image, even if it is not the original wooden texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the ties are placed inside a drawer, which gives the appearance of a wooden surface and is a realistic background context for storing items like ties. Although the surface texture does not exactly match the original wooden table texture from Image A, it remains a realistic representation of a storage surface. The visual information in Image B, combined with world knowledge of usual storage for ties, supports this observation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

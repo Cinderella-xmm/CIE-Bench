@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_631",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the vibrant purple color of the subject's hair?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the hair is vividly purple, matching A's hair color. Purple hair is clear in both images, using color recognition knowledge. The process involves recognizing that purple hair stays prominent in both images, indicating no change.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the gold hoop earrings still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The gold hoop earring is visible in Image B, much like in Image A. Using object recognition, the earring's distinct gold color and circular form are evident. The process entails observing the hoop's presence and color consistency, confirming their retention.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the subject wearing a black sleeveless top in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The sleeveless black top worn by the subject continues in Image B as seen in Image A. By noting the attire's color and style, which remain unchanged, the analysis verifies the top's presence through direct observation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the subject maintain a neutral expression and direct gaze in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Assessing the subject's expression is hindered by the blurred face, thus preventing assessment. A neutral expression and direct gaze can't be judged from Image B due to the obstruction, thus can't parallel Image A in this respect.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image preserve the subject's natural skin tone and general proportions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B retains the subject's skin tone and proportions, much like Image A. Despite face blurring, clothing and exposed shoulders show consistent skin tone and body contour. Recognizing natural skin tone from neck area in both images confirms retention.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8333333333333334
+}

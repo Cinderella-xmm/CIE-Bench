@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0022",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the cat depicted in a curled-up position with one paw visibly stretched out?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cat is illustrated in a cartoon style, lying on its side with its body curled up. The visual cues show that the cat's front paws are tucked under its body, while one of the hind legs is extended outward, creating a visible stretch. This posture aligns with a typical relaxed or sleeping pose for cats, where one leg may be slightly stretched out even when curled. Based on this observation and common knowledge about cat postures, it can be concluded that the cat is indeed curled up with one paw (specifically a hind paw) visibly stretched out.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the cat shown lying on a curved surface representing the car's hood?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts a stylized car with a smooth, curved surface beneath the cat, which corresponds to the shape of a car's hood. The curvature of the surface is consistent with the design of a vehicle's front end, especially as seen from a top-down or angled perspective. The cat is positioned centrally on this surface, reinforcing the idea that it is resting on the hood. In real-world contexts, car hoods are typically curved for aerodynamic and structural reasons, and the depiction here matches this expectation. Therefore, the surface under the cat is clearly intended to represent a car's hood.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there reflection lines present on the curved surface under the cat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining the surface beneath the cat in Image B, there are subtle light gradients and shading that suggest a reflective quality, but no distinct reflection lines—such as those caused by light bouncing off a glossy surface—are visible. Reflection lines would typically appear as thin, linear highlights or mirrored distortions, especially on metallic or polished surfaces like a car hood. While the surface has some shading to imply depth and curvature, it lacks the sharp or clear linear reflections that would indicate actual reflections. Thus, based on the visual evidence and understanding of how light interacts with reflective materials, there are no reflection lines present.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the entire sticker image surrounded by a thick white outline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image in Image B is designed as a sticker, evident from its clean, rounded edges and the presence of a consistent white border around the entire illustration. This white outline is uniform in thickness and separates the content from the transparent background, which is typical for digital stickers. The outline is clearly visible and serves both an aesthetic and functional purpose, making the sticker stand out when applied to surfaces. Given this visual characteristic and common design practices for stickers, the entire image is indeed surrounded by a thick white outline.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the sticker have a transparent background behind the outlined image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background of Image B consists of a checkerboard pattern, which is a standard visual indicator used in digital graphics to represent transparency. This pattern is commonly seen in image editing software when a background is removed or made transparent. Since the area outside the white outline shows this checkerboard pattern rather than a solid color, it confirms that the background is transparent. This allows the sticker to be placed on various surfaces without a visible background. Therefore, based on the visual cue of the checkerboard pattern and standard graphic design conventions, the sticker does have a transparent background.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

@@ -1,0 +1,79 @@
+Description of reference image: The subject is a World War II-era U.S. Navy twin-engine bomber aircraft, viewed from directly below as it flies through a partly cloudy sky. The aircraft features two large radial engines with three-bladed propellers on each wing, both spinning in motion. The fuselage is dark gray or black with visible panel lines and rivets, indicating metallic construction. The cockpit canopy is clear and rounded, revealing internal structure and pilot silhouette. The wings are straight and broad, marked with the U.S. national insignia: a white star within a blue circle, flanked by red and white bars. This insignia appears on both wings and the rear fuselage. The tail section includes a vertical stabilizer and horizontal stabilizers with small fins at the ends. The landing gear is retracted. The sky background is light blue with scattered cumulus clouds, giving depth and atmosphere to the scene.
+
+Thinking process: First, analyze the editing instructions that clearly state what can be changed. The instruction says to "transform the aircraft into a stylized 3D model encased in a vintage aviator's glass display case," which implies the **form and physical context** of the aircraft will be altered — it is no longer flying freely but displayed inside a case. The instruction also specifies changes to the environment: adding a glass case with leather accents, brass corners, engraved emblem, miniature clouds, and tiny spinning propellers. These modifications indicate that the **original flight setting**, **sky background**, and **realistic scale/positioning** are not required to be preserved. Therefore, the **scene environment (sky, clouds)**, **flight dynamics**, and **overall spatial context** are allowed to change.
+
+The instruction does **not** specify changing the aircraft’s design identity — it refers to transforming it into a *stylized 3D model* of the same aircraft. This suggests that while form may be abstracted, the **core visual identity** of the aircraft must remain recognizable. Thus, elements such as **engine placement**, **wing shape**, **star insignia**, **propeller configuration**, and **fuselage silhouette** are likely to be retained in form even if stylized.
+
+Allowed Changes List:
+- The overall scene (sky and clouds) can be replaced or modified
+- The aircraft’s position and orientation (e.g., diagonal upward angle) can be adjusted
+- The aircraft can be enclosed in a glass display case
+- Materials like leather, brass, and engraving can be added to the casing
+- Miniature clouds can be inserted inside the case
+- Propellers can be depicted as tiny spinning models
+- The aircraft can be rendered as a 3D stylized model rather than photorealistic
+
+Step 2 - Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: The aircraft is identifiable as a specific type of WWII U.S. military bomber, most likely a Grumman TBF Avenger based on its twin-engine layout, long fuselage, and distinctive wing insignia. The **U.S. national insignia (white star in blue circle with red-white bars)** is a critical identifier for American military aircraft of that era. Its presence on the wings and fuselage is essential for recognition. Additionally, the **twin-engine configuration**, **three-bladed propellers**, **rounded cockpit canopy**, and **distinctive wing shape with dihedral** are core structural features that define the aircraft’s identity. Changing these would result in an unrecognizable or incorrect model.
+
+Functional/logical association elements: The **propellers** are functional components; even if stylized, their presence and positioning (on each engine nacelle) must be preserved to maintain logical consistency with the aircraft’s operation. Similarly, the **engines themselves** must remain attached to the wings, as this is a structural requirement. The **wings must extend symmetrically** from the fuselage, maintaining the correct aerodynamic form.
+
+Non-modified element deduction: After excluding allowed changes (such as background, lighting, scale, and enclosure), the remaining structural and symbolic features of the aircraft must be preserved. Even though the aircraft will be stylized, its **iconic markings**, **engine layout**, **wing insignia**, **cockpit shape**, and **tail configuration** must remain consistent with the original image. These elements are necessary for visual coherence and identification.
+
+Preservation Targets List:  
+- The U.S. national insignia (white star in blue circle with red and white bars) on the wings and fuselage  
+- The twin-engine configuration with radial engines mounted on the wings  
+- The three-bladed propellers on each engine  
+- The rounded cockpit canopy with visible internal structure  
+- The straight wing shape with dihedral and symmetrical extension from the fuselage  
+- The tail assembly including vertical and horizontal stabilizers with end fins  
+
+{
+    Q1: 
+    Thinking process: The U.S. national insignia (white star in blue circle with red and white bars) is the primary identifier of the aircraft’s nationality and military affiliation. It is a key visual feature that distinguishes this aircraft from others and is crucial for historical and symbolic recognition. Its absence or alteration would fundamentally misrepresent the aircraft’s identity. This element is located on both wings and the fuselage, and its specific color scheme and geometry must be preserved.
+    Question: Is the U.S. national insignia (white star within a blue circle, flanked by red and white bars) present on the wings and fuselage of the aircraft?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The twin-engine configuration is a defining structural characteristic of this aircraft type. Each engine is mounted under the wing and has a distinct radial shape. The presence of two engines is essential to identifying the aircraft as a twin-engine bomber. Removing or altering the number or placement of engines would make the aircraft unrecognizable.
+    Question: Are there two radial engines mounted beneath the wings of the aircraft, one on each side?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The three-bladed propellers are a functional and visual hallmark of this aircraft’s propulsion system. They are attached to the front of each engine and are visibly rotating in the original image. Their presence and blade count are critical to the aircraft’s operational appearance. Stylizing them as tiny spinning models in the display case must still preserve the three-blade configuration.
+    Question: Does each engine have a three-bladed propeller attached to its front?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The cockpit canopy is a distinctive rounded transparent structure located at the top front of the fuselage. It houses the pilot and provides visibility. Its shape and position are unique to this aircraft model. Altering its form or removing it would compromise the aircraft’s recognizability.
+    Question: Is there a rounded, transparent cockpit canopy located at the front of the fuselage?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The wings are straight and extend symmetrically from the fuselage, with a slight upward angle (dihedral). Their shape and attachment point are essential for aerodynamic identity. Even in a stylized model, the wing shape must be preserved to maintain visual accuracy.
+    Question: Do the wings extend straight and symmetrically from the fuselage, forming a dihedral angle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The tail assembly includes a vertical stabilizer and horizontal stabilizers with small fins at the tips. This configuration is standard for this aircraft type and contributes to its balance and control. It must be preserved to maintain structural authenticity.
+    Question: Is the tail section composed of a vertical stabilizer and two horizontal stabilizers with small fins at the ends?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

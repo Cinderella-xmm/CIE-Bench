@@ -1,0 +1,97 @@
+{
+  "filename": "laion_6097952177996388803",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the two main mountain peaks still present and positioned side by side as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the two main mountain peaks are still positioned side by side, similar to their arrangement in Image A. The visual identifier for mountainous peaks involves their prominent elevation and presence of a peak-like structure, which is observable in both images despite the altered appearance in Image B with the addition of abstract elements on the peaks.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the summits of both peaks retain patches of snow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the summits of the peaks are covered by abstract, tentacle-like shapes that seem to replace the patches of snow seen in Image A. While these additions obscure any potential snow detail that may exist underneath, visually the lack of white snow patches indicates an absence when combined with these covering shapes.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the horizontal and vertical rock strata visible on the mountain faces?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the mountain faces have been altered with editing effects and abstract shapes that disrupt the clarity of the rock strata, thus making it difficult to discern any strata. In comparison, Image A distinctly displays horizontal and vertical rock strata, which are characteristics of mountain geology. The absence of these in Image B leads to the conclusion.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the narrow road visible winding through the lower valley, extending toward the base of the mountains?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lower valley area is significantly distorted with artistic enhancements that obscure detailed features like a road. In contrast, Image A distinctly shows a narrow road in the valley. Since such detail is not detectable in Image B, it leads to concluding the road is not visible.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the slopes covered in patches of brownish-orange heather and dry grass, particularly in the mid-ground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases a similar color palette to Image A for the mid-ground slope areas with hues reminiscent of brownish-orange; however, the clarity regarding vegetation like heather and dry grass is hindered by the editing effects. Despite the disruption, the color remains noticeable.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the sky uniformly overcast with no direct sunlight, resulting in soft shadows across the landscape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sky does retain an overcast appearance similar to that in Image A. The resultant soft shadows are characteristics of such lighting conditions, and they can be observed cast across the altered landscape, aligning with the overcast interpretation.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Do the valleys show smooth, continuous contour lines that follow the natural slope of the land?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the valleys are transformed with alterations that introduce non-natural shapes and blur smooth, continuous contours that would typically follow natural land slopes. In contrast, Image A clearly outlines these natural contours. Hence, the disrupted and abstract depiction in Image B leads to the conclusion that they do not retain smooth continuity.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4117647058823529
+}

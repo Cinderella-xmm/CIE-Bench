@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_345",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the mouse been converted into a 3D voxel-style model?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The mouse in Image B appears to have smooth, continuous fur and realistic textures, which are not characteristic of a 3D voxel-style model. Voxel models typically have a blocky, pixelated appearance due to their cubic structure. The mouse here maintains naturalistic details like fine whiskers and soft fur, indicating it has not been converted into a voxel style.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the voxel-style mouse model resemble the icons shown on the left?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "There are no icons present on the left side of Image B for comparison. Additionally, as previously established, the mouse is not in a voxel style. Therefore, there is no basis for resemblance between the mouse and non-existent icons.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Was the scene rendered using Octane?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Determining the specific rendering engine used (such as Octane) from an image alone is challenging without metadata or distinct visual signatures unique to that engine. However, the image quality, lighting, and shadows appear consistent with high-quality 3D renders that could be produced by various engines, including Octane. There's no definitive evidence in the image to conclusively attribute it to Octane specifically.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the scene rendered in 8k resolution?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Assessing the exact resolution of an image from its content alone is not possible. While the image appears sharp and detailed, suggesting a high resolution, confirming it as 8k requires technical data about the image file. Based solely on visual inspection, we cannot definitively state it is 8k.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the rest of the scene, excluding the mouse, unchanged from the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing Image A and Image B, the background color has changed from a wooden texture to a solid yellow gradient. This indicates that the scene has been altered beyond just the mouse. The phone remains similar in both images, but the background change means the scene is not entirely unchanged.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.0
+}

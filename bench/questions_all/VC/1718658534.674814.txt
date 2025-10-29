@@ -1,0 +1,86 @@
+Description of reference image: The subject is a hand-knitted plush toy resembling a pig, held gently in a human hand. The toy is crafted from beige or light taupe-colored yarn using a consistent knit stitch pattern, giving it a textured, three-dimensional surface. Its body is oval and compact, with short stubby legs positioned beneath the body, a small rounded snout, and a black bead eye that provides contrast. The back features a row of raised, braided loops forming a spiky ridge along the spine, mimicking quills or dorsal ridges. A knotted tail extends from the rear end, ending in a fluffy pom-pom-like tip. The ears are small, upright, and also knitted from the same yarn. The hand holding the toy appears natural, with visible skin tone and subtle shadows indicating soft lighting. The background is a neutral, uniform gray, providing no distractions and emphasizing the toy as the focal point.
+
+Thinking process: First, analyze the editing instructions to determine what elements are explicitly changed:
+- Subject transformation: "Transform the plush toy pig into a ceramic figurine" → the material, texture, and form of the subject change.
+- Color change: "Change its color to a vibrant terracotta tone" → original beige color is replaced.
+- Surface detail: "Add intricate floral engravings on its surface" → new decorative elements added; original knit texture removed.
+- Eyes: "Remodel its eyes to resemble small polished amber stones" → original black bead eyes replaced.
+- Scene change: "Place it on a simple wooden tabletop for a minimalist presentation" → original hand-held pose and background are replaced.
+
+From this, we deduce that **all physical attributes of the subject (material, color, texture, eye type) and scene (hand, background)** are allowed to be modified unless otherwise implied by logic or identity preservation.
+
+Allowed Changes List:
+- Material of the subject (from knitted yarn to ceramic)
+- Color of the subject (from beige to terracotta)
+- Texture of the surface (from knit stitches to glossy engraved ceramic)
+- Eye material and appearance (from black bead to amber stone)
+- Tail structure (pom-pom may be altered or preserved only if part of core shape)
+- Spine ridge (braided loops may be transformed into engravings)
+- Background (gray backdrop → wooden table)
+- Hand (no longer present in final scene)
+
+Step 2 – Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: The subject is a stylized pig, but not a real animal or famous artwork. However, its **iconic shape**—an oval body with a snout, small legs, a spiky back ridge, and a curled tail—is essential for recognizing it as a *pig-shaped knitted toy*. Even though the material changes, the **form and silhouette** must be retained to preserve the identity of the object. The **spiky dorsal ridge** is particularly distinctive—it is not typical of all pigs but is a defining feature of this specific toy design, possibly inspired by a peccary or armored pig. This ridge's **presence and position** are critical to maintaining visual identity.
+
+Functional/logical association elements: The **hand holding the toy** was part of the original composition, but since the instruction specifies placing the figurine on a wooden table, the hand is not required to be preserved. Thus, it is not a functional element that must remain. Similarly, the **background** is not tied to function or identity and can be fully replaced.
+
+Non-modified element deduction: After removing all allowed changes, the following visual features remain unmentioned in the modification list and thus must be retained:
+- The **overall shape and proportions** of the pig (oval body, snout, leg placement)
+- The **position and structure of the dorsal ridge** (a series of raised loops along the spine)
+- The **tail’s attachment point and general direction**
+- The **relative size and positioning of the legs and head**
+
+These features are not directly mentioned in the edit instructions, so they must be preserved to maintain coherence with the original object’s identity.
+
+Preservation Targets List:  
+- The overall pig-like silhouette (oval body, snout, four legs)
+- The presence and location of the spiky dorsal ridge (raised loops along the back)
+- The tail's position and direction (curved backward with a pom-pom end)
+- The relative placement of limbs and head
+- The general orientation of the figure (facing right, slightly angled)
+
+{
+    Q1: 
+    Thinking process: The spiky dorsal ridge formed by braided yarn loops is a unique structural feature that distinguishes this toy from generic pig plushies. It is a key identifier of the object’s design and serves as a core visual signature. If this ridge is removed or altered beyond recognition (e.g., replaced with smooth ceramic), the edited object would lose its identity as the original knitted toy, even if shaped like a pig. Therefore, the **presence and form** of the ridge must be preserved in the ceramic version, albeit potentially translated into engraved lines. This is a 3-point element because it is central to recognition.
+    Question: Is the dorsal ridge composed of a series of raised, looped structures running along the back of the pig?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The tail is a distinct appendage with a specific form—a thin strand ending in a pom-pom knot. While the material may change, the **shape and attachment point** of the tail are essential for preserving the toy’s identity. In the ceramic version, the tail must retain its curved path and terminal fluffiness, even if rendered differently. Losing this would alter the silhouette significantly. This is a 2-point element because it contributes strongly to the object’s recognizable form but is secondary to the ridge.
+    Question: Does the tail extend from the rear of the pig and terminate in a fluffy pom-pom?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The pig has four short legs positioned symmetrically under the body. Their placement and relative size are crucial to maintaining the correct posture and balance of the figure. Changing their number, length, or position would distort the form. Although the instruction allows material change, the **leg count and spatial arrangement** must remain intact. This is a 2-point element because it affects structural integrity and identification.
+    Question: Are there four short legs attached beneath the body, two on each side?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The snout is a prominent feature at the front of the pig, defined by a rounded protrusion with a slight indentation for the nose. Its shape is key to identifying the animal as a pig rather than another creature. Even if made of ceramic, the **snout’s convex shape and forward projection** must be preserved. This is a 3-point element because it is a core facial feature essential for species recognition.
+    Question: Is there a rounded snout extending forward from the face of the pig?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q5: 
+    Thinking process: The ears are small, upright, and located on top of the head. They are part of the pig’s facial anatomy and contribute to its cartoonish, stylized appearance. Though small, their **position and shape** are important for maintaining consistency with the original design. If omitted or moved, the face would appear incomplete. This is a 1-point element because it is a minor detail but still aids in visual fidelity.
+    Question: Are there two small, upright ears positioned on the top of the head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

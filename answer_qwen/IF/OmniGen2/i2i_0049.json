@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0049",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is only one zebra visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image does not contain any zebras. Instead, it shows a person skiing against a green gradient background. Therefore, there is no basis for analyzing or describing a zebra in this context.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Has all the grass been removed from the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "There is no grass present in the background of the edited image. The background consists entirely of a green gradient plane. This conclusion is drawn directly from observing the visual content of the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the grass area replaced by a green gradient plane?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background of the edited image is indeed a uniform green gradient plane. There are no signs of grass or other natural elements, indicating that whatever was previously in the background has been replaced with this gradient.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image maintain a calm and solitary atmosphere without extra distractions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image features a single individual skiing against a plain green gradient background. The simplicity of the background and the absence of additional elements contribute to a calm and undistracted atmosphere. Comparing this with Image A, which had a snowy landscape with trees and a 'START' banner, the edited image removes these distractions, enhancing the sense of solitude.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the original zebra's position and appearance preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "There is no zebra present in either the original or the edited image. The subject in both images is a person skiing. Thus, the question about a zebra's position and appearance is irrelevant to the content of the images provided.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

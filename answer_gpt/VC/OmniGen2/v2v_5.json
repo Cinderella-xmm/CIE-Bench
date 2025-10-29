@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_5",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the zebra retain its black-and-white striped pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the object in question resembles a cartoonish representation of a zebra, which retains the characteristic black-and-white striped pattern that defines zebras. This is evident from the visually distinct alternating dark and light stripes on its body that are typical of zebra patterns. World knowledge supports that zebras are known for this specific pattern, and the illustration, despite being a stylized version, maintains this recognizable feature.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the cake retain its zebra-striped design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a cartoonish depiction of a cake, which features a zebra-striped design. This is evident from the cake's surface, which displays black-and-white stripes. Like the zebra, the pattern is reimagined in a stylized manner but retains the foundational visual elements of zebra stripes, thereby aligning with the commonly known zebra pattern.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the zebra still leaning forward toward the cake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the zebra is depicted in a cartoon style that stands upright next to the cake, unlike Image A, where the real zebra leans forward toward it. Given the artistic representation and posture within an illustrative frame, it does not appear to be leaning forward towards the cake as a natural zebra might. Instead, its positioning suggests a different illustrative approach, common in stylized art.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a single lit candle on the cake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cake clearly has one lit candle placed at the top center, as depicted by the small flame visible at the center of the candle. Understanding from common birthday cake designs, a single candle is often used, and this visual cue aligns with that tradition.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the cake placed on a table surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cake appears to rest on a white plate, but unlike Image A, there is no visual depiction of a table surface. The background is consistent with a bright yellow color, which serves as a simple backdrop for the cartoonish setting rather than an actual tabletop. This suggests the absence of a table surface in the illustration.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

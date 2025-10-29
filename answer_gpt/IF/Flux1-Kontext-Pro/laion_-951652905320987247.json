@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-951652905320987247",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the entire scene enclosed within a visible glass terrarium structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a clear, box-like structure with glass walls and edges visible around the entire scene that suggests it is enclosed in a terrarium. The reflections and refractions along the edges of the box confirm the presence of glass. This visual cue, combined with world knowledge about terrariums and cases, supports the conclusion that the scene is inside a visible glass terrarium.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the snow-capped peaks made of visibly textured and glittering materials?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The snow-capped peaks in Image B have a uniform white appearance typical of synthetic or crafted materials. There is no indication of glitter or excessive texture that would give the appearance of glittering materials. Instead, the appearance is consistent with a simulated model of snow, often used in miniature models or dioramas.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the landscape feature intricately detailed, fine-brushed foliage instead of natural-looking vegetation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the foliage is portrayed with high precision and detail, resembling intricately detailed model vegetation often seen in miniature dioramas or train set environments. This contrasts with natural vegetation which would appear more varied and less uniform. The fine detail and uniformity of the foliage suggest it is crafted, likely using methods like fine-brushing to achieve the intricate appearance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the lake represented by a reflective, translucent resin-like surface with a synthetic sheen?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the surface of the lake appears smooth, reflective, and somewhat glossy, which are characteristics commonly associated with resin or similar synthetic materials used in model-making. The resemblance to an artificial feature is evident from the uniformity and sheen of the surface, indicating it is not a natural water body but rather a crafted representation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there small, detailed chalet figurines placed along the shoreline of the lake?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows detailed miniature buildings that resemble chalets placed strategically along the perimeter of the lake. These small structures are detailed enough to identify as model chalets, typical of miniature scenic displays. Their presence and scale relative to the rest of the scene confirm that they are indeed chalet figurines.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

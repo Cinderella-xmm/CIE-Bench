@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_1_100",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the character’s face retain natural proportions and smooth contours despite the half-cartoon style transformation, without visible distortion in facial structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The analysis begins by noting that the face in Image B is blurred, but structurally it appears to follow the cartoon-style norm which typically simplifies and smooths contours while maintaining facial proportions. In cartoon transformations, it is common for exaggerated features, but the blurring prevents any detailed comparison, and the rest of the face seems to keep natural proportions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the elongated book's shape geometrically consistent with a real book, maintaining uniform page thickness and aligned edges without warping or stretching artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the book's shape retains a rectangle form, consistent with how a book should appear in the real world. The pages seem uniform in thickness, and the edges aligned, maintaining consistency with what is expected of real books. Although the half-cartoon style simplifies some details, the basic geometry of the book hasn't changed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the sleeves exhibit natural fabric draping with consistent lighting, shadow depth, and fold patterns that align with gravity and textile behavior?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The half-cartoon style on Image B translates natural fabric draping into simplified outlines. The sleeves retain the pattern of fabric folds common in textiles due to gravity, and the shadows are consistent with the lighting source. Despite the stylistic simplification, these elements align with the common understanding of how fabric behaves.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the golden filigree details on the buttons clearly rendered and integrated into the button surface without visible artifacts, such as jagged edges or mismatched reflections?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts buttons with a uniform color more than intricate filigree, aligning with typical cartoon style which simplifies and often omits detail. Despite this, the buttons avoid jagged edges or mismatched reflections typical in poorly-rendered images, showing clean integration into the design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the library shelves transformed into a wooden frame background with consistent wood grain, edge alignment, and depth cues that maintain spatial logic and avoid broken geometry?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B maintains a wooden frame effect that incorporates the library shelves' concept. The wood grain pattern and edge alignment are consistent, giving an impression of depth suitable for a frame. The transformation keeps spatial logic intact without broken geometry, reflecting well-arranged composition.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

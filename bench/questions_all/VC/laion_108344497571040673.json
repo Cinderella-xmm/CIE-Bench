@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The presence of two kittens is the core identity of the scene. One is standing upright, the other is seated. Even when transformed into plush toys, the number and roles (pusher vs. passenger) must be preserved to maintain narrative and visual logic. Losing either kitten or swapping their positions would fundamentally alter the scene’s meaning. This is a core identity feature.",
+      "question": "Are there exactly two kittens in the image, one standing and one seated inside the cart?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The red shopping cart is a central object that defines the action. Its color (red) and wire mesh structure are distinctive and necessary for recognition. Changing its color or material would make it unrecognizable as a shopping cart. This is a key functional and iconic element.",
+      "question": "Is the cart red and made of wire mesh?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The standing kitten’s front paws are placed on the handle of the cart, indicating active pushing. This interaction is essential to the scene’s logic. If the paws are not on the handle, the action of “pushing” is lost, breaking the narrative. This is a functional relationship that must be preserved.",
+      "question": "Are the front paws of the standing kitten resting on the handle of the cart?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The seated kitten is positioned inside the cart, which is a key spatial relationship. If it were outside or above the cart, the scene’s logic collapses. This placement is essential for the narrative of transport and companionship. It is a core functional element.",
+      "question": "Is the second kitten fully contained within the basket of the cart?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The cart has four wheels, which are necessary for it to function as a rolling trolley. Removing or reducing the number of wheels would compromise its identity as a shopping cart. While the wheels may be stylized, their number and position must remain. This is a functional detail critical to the object’s identity.",
+      "question": "Does the cart have four black wheels?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The pink blanket inside the cart provides context and comfort, enhancing the nurturing tone of the scene. While not essential for core identity, it contributes to visual coherence and emotional appeal. Its presence helps distinguish the cart as a carrier for a baby animal. This is a minor but meaningful detail.",
+      "question": "Is there a pink blanket visible inside the cart beneath the seated kitten?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The background consists of green foliage, indicating an outdoor natural setting. While the instruction allows enhancement to “vivid, lush greenery,” the type of background (greenery) must remain. Changing it to urban or indoor scenery would violate the scene’s environmental logic. This is an important scene element.",
+      "question": "Is the background composed of green foliage or natural vegetation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

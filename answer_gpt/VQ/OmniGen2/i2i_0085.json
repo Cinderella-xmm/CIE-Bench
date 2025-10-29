@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0085",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the transition area between the painting and the wall maintain the natural texture of the wall material without introducing obvious artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the transition area between the painting and the wall appears seamless, with no visible artifacts. The wall retains its smooth, matte finish typical of interior walls. Using world knowledge, if there were any artifacts or inconsistencies, they would likely disrupt the uniform surface of the wall, but here, the transition is clean and natural.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the proportions of the trees and water in the painting maintained realistically without appearing stretched or distorted?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The painting in Image B depicts a natural scene with trees and water. The trees are vertically aligned, and the water body runs horizontally without any signs of unnatural stretching or distortion. The heights and shapes are consistent with how such elements appear in natural landscapes, suggesting attention to realistic proportions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the shadows and lighting in the painting align consistently with the room's light source, avoiding unnatural contrasts or disruptions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The room in Image B shows a light source from the side, casting light mostly across the couch and wall. The painting itself depicts a landscape with a sunset or sunrise, where the source of light is internal to the painting. While the internal painting light scenario does not directly relate to the room's lighting, there are no stark contrasts or disruptions between the painting and the room, suggesting a harmonious integration.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the painting preserve its depth and layering, creating a believable 3D effect without disrupting its visual coherence?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The painting in Image B effectively uses depth cues such as the water leading into the distance and the gradual scaling of trees to simulate 3D depth. These elements are rendered coherently without abrupt changes that would disrupt the depth perception, maintaining a believable layered effect within the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the frame around the painting retain its structural integrity and material appearance without visible damage or unnatural textures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Examining the frame in Image B, it appears consistent and intact, with a smooth texture typical of wooden or metallic frames. The frame's structure is regular, with no visible damage, warps, or distortions that would suggest any unnatural modifications or deterioration.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

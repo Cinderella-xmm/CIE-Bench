@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0087",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the clock appear to protrude from the wall surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the clock appears to be protruding from the wall as it is at an angle, showing depth. This is inferred from the visible side of the clock that wasn't visible when the clock was flush against the wall, indicating that it is not entirely flat against the surface.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the clock cast a realistic shadow on the wall behind it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a shadow is present that corresponds to how light would typically interact with a three-dimensional object, emphasizing the depth. This shadow extends along the wall and varies in intensity, suggesting a realistic interaction with the light source.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Have the edges of the clock been modified to indicate it is not flush against the wall?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edges of the clock in Image B are visible on its side, indicating it has been positioned to show its thickness. This contrasts with a flush-mounted clock where such details remain hidden.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there evidence of lighting changes around the clock to enhance its three-dimensional look?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "There is a noticeable gradient and shadowing around the clock in Image B, which are evidence of strategic lighting changes to emphasize its three-dimensional form and protrusion from the wall.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the clock maintained a completely flat appearance, or does it now show signs of depth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No\n```",
+      "explanation": "In Image B, the clock no longer has a flat appearance as indicated by the visible sides and the shadow it casts, which are typical signs of depth and three-dimensionality.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

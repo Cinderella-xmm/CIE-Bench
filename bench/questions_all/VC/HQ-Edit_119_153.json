@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The pointed gables with spire-like finials are the most iconic architectural feature of the original birdhouse, defining its Gothic Revival style and verticality. Their removal would fundamentally alter the identity of the structure, making it unrecognizable as a derivation of the original. Since the instruction transforms it into a \"fairy tale castle,\" but does not specify removing these features, their preservation ensures continuity. This is a core identity element, hence weight 3.",
+      "question": "Are the pointed gables with spire-like finials at the roof peaks present?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The central balcony with carved wooden railing is a key structural and aesthetic feature, distinguishing the birdhouse from simpler designs. It serves as a focal point and contributes to the whimsical, ornate character. The instruction mentions adding a \"balcony\" in the new design, implying its retention. Its absence would break the visual logic of the transformation. Thus, it is a critical scene element, warranting weight 2.",
+      "question": "Is there a central balcony with intricately carved wooden railing located below the uppermost gable?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The arched windows with decorative tracery are essential to the Gothic Revival style and are consistently positioned in the original. They contribute to the symmetrical design and visual rhythm. The instruction does not mention changing them, and their inclusion in the \"fairy tale castle\" suggests preservation. Losing them would remove a key identifying trait. Hence, weight 2.",
+      "question": "Are there arched windows with decorative tracery visible on the front facade?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The blue roofing shingles are explicitly referenced in the instruction as \"vibrant sapphire shingles,\" confirming that the blue color must be preserved. Although material may change, the color remains a core identifier. Changing it to another hue would violate the instruction and disrupt visual continuity. This is a critical color-based identity element, thus weight 3.",
+      "question": "Is the roof covered in blue shingles (or sapphire-colored material)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The wooden texture and natural finish of the exterior are fundamental to the birdhouse’s appearance. The instruction describes a \"miniature fairy tale castle\" but uses terms like \"ornate\" and \"wooden,\" suggesting the material should remain consistent. Altering it to stone or metal would contradict the original medium and weaken coherence. This is a detail-level but important material attribute, hence weight 2.",
+      "question": "Does the exterior of the structure retain a visible natural wood texture and finish?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The main door at the base is a functional and compositional element, providing access and grounding the structure. Its position and form are consistent in both original and edited descriptions. Removing or relocating it would disrupt logical spatial organization. Though not the most prominent feature, it supports structural integrity and recognition, so weight 1.",
+      "question": "Is there a single wooden door located at the center of the base level?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The symmetrical layout of the facade, with balanced windows, columns, and architectural elements, defines the design’s harmony. This balance is crucial for maintaining the fairy-tale aesthetic and continuity with the original. Asymmetry would make it visually inconsistent. This is a structural detail affecting overall coherence, thus weight 2.",
+      "question": "Is the facade of the structure symmetrically arranged around a central vertical axis?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

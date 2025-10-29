@@ -1,0 +1,110 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a full-length female model standing front-facing against a plain, neutral light gray background. She has long, straight black hair parted in the center, falling over her shoulders. Her facial features are sharp and symmetrical, with defined cheekbones and a neutral expression. She wears a form-fitting black mini dress with exaggerated, puffy sleeves made of black faux fur, extending from the shoulder to mid-forearm. The dress has a high neckline and a snug silhouette that ends above the knees. Around her neck is a wide, silver crystal choker necklace with a grid-like pattern. In her hands, she holds a small crossbody bag featuring a leopard print fabric body with a chain strap and long, dangling white pearl fringe at the bottom. She wears black platform heels with ankle straps and open toes; the heels are thick and blocky, with a glossy finish. The lighting is even and studio-quality, emphasizing clean lines and textures.
+
+**Thinking process:**  
+The editing instruction explicitly transforms the image into a **1920s Art Deco fashion illustration**, which indicates a complete stylistic overhaul. Key components specified for change include:  
+- The **dress** → transformed into a **flapper-style fringed piece with geometric patterns**  
+- The **bag** → changed into a **beaded clutch fitting the era**  
+- The **heels** → reimagined as **elegant T-strap shoes**  
+- The **background** → stylized with **bold, linear Deco designs in gold and black**
+
+These changes directly target the **form, texture, structure, and style** of the clothing, accessories, and environment. However, the instruction does **not** mention altering the **subject’s identity, posture, facial features, or hair**, nor does it suggest changing the **model’s pose or orientation**. Therefore, these aspects remain unmentioned and thus **should be retained** unless contradicted by logic or visual coherence.
+
+Additionally, the instruction does not specify any modification to the **necklace**, though it may be implied to fit the era—however, since it is not explicitly stated, we must treat it as **non-modified unless proven otherwise**.
+
+**Allowed Changes List:**  
+- Dress form (shape, length, sleeve style)  
+- Dress material and pattern (from solid black to geometric flapper design)  
+- Bag type and design (from leopard-print fringe bag to beaded clutch)  
+- Shoe style (from chunky platform heels to T-strap heels)  
+- Background (from plain gray to Art Deco linear patterns in gold and black)  
+- Overall artistic style (from photographic realism to illustrative Art Deco rendering)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now identify elements **not listed in the allowed changes list** and evaluate whether they are core to identity or functional logic.
+
+**Core recognition elements:**  
+- The **subject’s face** (specifically her facial structure, dark eyes, full lips, and centered parting of hair) is central to identifying the model. Even in a stylized version, retaining her **facial features** ensures continuity of identity. Changing them would make her unrecognizable.
+- The **long, straight black hair** is a defining trait visible in the original and should remain consistent unless instructed otherwise. Altering its length or texture could disrupt identity.
+- The **posture and stance** (standing upright, hands clasped at waist, legs slightly apart) define the composition and balance. This spatial arrangement is critical for maintaining the original pose’s integrity.
+
+**Functional/logical association elements:**  
+- The **necklace** is worn around the neck and functions as a key accessory. While the instruction doesn’t mention it, its presence contributes to the overall elegance and could be adapted to Deco style without losing its role. However, since it is **not mentioned for removal or transformation**, it must be preserved in some form, especially if it’s an iconic element of the outfit.
+- The **hand position** (holding the bag with both hands at waist level) implies a functional interaction. Even if the bag changes, the hand placement should logically remain to maintain coherence.
+
+**Non-modified element deduction:**  
+After excluding all explicitly altered items (dress, bag, shoes, background), the remaining elements are:
+- Facial features
+- Hair (length, color, style)
+- Neckline/choker (unless replaced)
+- Body posture and stance
+- Hand positioning
+
+These are **not specified for change** and are essential to preserving the model's identity and the scene’s structural logic.
+
+**Preservation Targets List:**  
+- The model’s facial features (eyes, nose, lips, jawline)  
+- The long, straight black hair parted down the middle  
+- The upright standing posture with slight leg separation  
+- The hands positioned together at the waist, holding the bag  
+- The silver crystal choker necklace  
+- The natural skin tone and body proportions  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The model’s facial features, particularly her dark eyes, defined cheekbones, and full lips, are core identification markers. These features distinguish her from other models and are essential for maintaining identity. If altered, the subject becomes unrecognizable. Thus, this is a core identity element with weight 3.
+    Question: Does the edited image retain the model’s original facial features, including dark eyes, defined cheekbones, and full lips?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The long, straight black hair parted in the center is a distinctive visual trait that defines the subject’s appearance. It is not mentioned in the editing instructions to be changed, so it must be preserved. Its absence or alteration would break continuity with the original image. This is a key identity feature, hence weight 3.
+    Question: Is the model’s long, straight black hair parted down the middle still present in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The silver crystal choker necklace is a prominent accessory in the original image, located at the base of the neck. It is not mentioned for replacement or removal in the instructions, so it must remain. Its presence adds visual contrast and elegance. Losing it would remove a key accessory element, affecting coherence. This is an important accessory detail, thus weight 2.
+    Question: Is the wide silver crystal choker necklace still visible around the model’s neck?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The model’s posture—standing upright with legs slightly apart and hands clasped at the waist—is a structural element that defines the composition. The instruction does not alter pose, so this spatial relationship must be preserved. Changing it would disrupt the original framing and balance. This is a key compositional element, hence weight 2.
+    Question: Does the model maintain the same upright stance with hands clasped at the waist and legs slightly apart?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The hand positioning—both hands gripping the bag handle at waist level—is a functional detail that connects the model to the accessory. Even if the bag changes, the hand placement should remain to preserve logical consistency. This is a minor but important detail for visual coherence, thus weight 1.
+    Question: Are both hands positioned together at the waist, holding the bag handle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The model’s skin tone and body proportions are foundational to her physical identity. They are not mentioned for change and are essential for maintaining realism or proportionality in the stylized version. Altering them would distort the figure unnaturally. This is a secondary but necessary detail for coherence, hence weight 1.
+    Question: Are the model’s natural skin tone and body proportions preserved in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

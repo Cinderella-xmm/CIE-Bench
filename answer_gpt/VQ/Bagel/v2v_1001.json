@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1001",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the ketchup bottle in the lower-right corner appear naturally integrated into the scene without any visible artifacts or unnatural textures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, the ketchup bottle is a distinct object that introduces a modern element into the prehistoric scene depicted by the dinosaur and forest background. The bottle, due to its smooth, bright surface, contrasts with the misty and earthy tones of the forest and dinosaur, making it look artificially placed. The lighting and texture of the bottle do not match its surroundings, leading to an unnatural appearance.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the text \"The king of flavors\" appear to float naturally in the air and blend seamlessly with the mist, without any distortion or unnatural appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text 'The king of flavors' in Image B stands out starkly against the misty backdrop. Its vibrant color and glossy texture contrast heavily with the subdued, natural colors of the forest, disrupting the harmony. The text does not blend with the mist, nor does it appear to physically belong in such an environment, resulting in an unnatural appearance.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the streams of ketchup linking back to the opened bottle physically plausible and free from any unnatural distortions or artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are visible streams of ketchup linking the text to the bottle. The streams have a glossy, thick appearance, indicative of ketchup, but their path and behavior—floating in the air without a supporting surface—are unrealistic. The unnatural behavior of these streams relative to their environment presents a disruption in physical plausibility.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the dinosaur retain its natural appearance and structural consistency without any distortion or unnatural changes due to the added elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing the dinosaur in Image B to Image A, the dinosaur itself remains consistent and unchanged amidst the editing. The added elements such as the text and ketchup bottle do not affect the dinosaur's structure or visual integrity, preserving its natural appearance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the forest background remain authentic and detailed, without any noticeable loss of details or introduction of artifacts due to the editing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the forest background maintains its original details and authenticity, as seen in Image A. The editing involving the addition of text and ketchup bottle largely affects the foreground elements, leaving the detailed misty forest scene untouched and free of artifacts or distortions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

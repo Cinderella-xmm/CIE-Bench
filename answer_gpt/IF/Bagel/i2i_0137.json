@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0137",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the black vase replaced with a teapot?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the object on the small round side table between the two armchairs is a teapot. This is evident from its shape, which features a spout, handle, and lid – characteristics typical of a teapot. By contrasting this with Image A, where a black vase is present, it is clear that a replacement has occurred. The comparison reveals a substitution of a vase with a teapot.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there two porcelain cups placed on the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, only a teapot is visible on the table, with no indication of additional objects such as porcelain cups. This suggests the absence of any cups. Image A shows a black vase, reinforcing the observation that no cups are present in either image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the arrangement of the teapot and cups imply a conversation scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a teapot on the table, indicating that a tea or coffee setup might be implied, typical for hosting conversation scenarios. However, the absence of cups weakens this implication, as cups are essential for facilitating a tea conversation setting. Therefore, the scene does not fully suggest a conversational moment.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have the original background and furniture positions remained unchanged?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "A comparison of both images shows that the layout of the room, including chairs, rugs, curtains, and window features, remains consistent in terms of positioning and orientation. Only the vase has been altered. This observation confirms that the background and furniture arrangement have not been modified.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the teapot and porcelain cups match the lighting and environmental conditions in the room?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the teapot seems to harmonize well with the room's lighting, as it reflects the ambient light appropriately, maintaining the natural color tones consistent with the surroundings. However, due to no cups present, further matching conditions cannot be assessed. The teapot alone matches the room's lighting conditions effectively.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

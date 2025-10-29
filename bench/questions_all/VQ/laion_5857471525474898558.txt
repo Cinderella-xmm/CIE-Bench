@@ -1,0 +1,57 @@
+```
+Step 1: Disassemble Editing Instructions
+-Thinking process 1: The instruction requires transforming the entire building facade into an oversized LEGO structure, which involves a complete style conversion from realistic brickwork to blocky LEGO elements. This transformation affects all visible surfaces of the building, including walls, windows, balconies, climbing plants, and structural details. The original image shows a traditional Dutch-style brick building with detailed textures, arched window frames, ornate metal railings, and natural greenery growing vertically along the facade. The editing task must preserve the overall shape and layout of the building while replacing materials and textures with LEGO-like blocks. Key perceptual quality concerns include whether the transition maintains structural coherence, avoids unnatural textures or distortions, preserves correct proportions, and ensures that added elements (like LEGO vines and railings) do not appear physically implausible or misaligned.
+
+-Sub requirement 1: Replace the red brick facade with LEGO-style bricks in muted reds and blues; evaluate whether the new texture appears uniform, blocky, and consistent with LEGO material properties without introducing pixelation, blurring, or mismatched edges.
+-Sub requirement 2: Transform the white window frames into LEGO-style structures using muted blue tones; assess whether the window shapes remain geometrically accurate and proportionally consistent with the original design.
+-Sub requirement 3: Replace the climbing green plants with green LEGO vines; check if the vines follow the same growth pattern as the original ivy but maintain blocky, segmented geometry typical of LEGO pieces.
+-Sub requirement 4: Modify the balconies to feature gray LEGO railings; verify that the railings are uniformly structured, aligned with balcony depth, and visually distinct from original wrought iron designs without distortion.
+-Sub requirement 5: Place the entire LEGO building on a simple platform to emphasize its blocky aesthetic; confirm that the platform is flat, level, and extends beneath the building without altering ground-level elements like parked cars or street features.
+-Sub requirement 6: Ensure that all edited elements (bricks, windows, vines, railings, platform) maintain visual credibility by avoiding floating components, inconsistent lighting, or abrupt transitions between real and generated parts.
+-Sub requirement 7: Maintain structural consistency—ensure that the number of floors, window positions, door placements, and architectural symmetry match the original image despite the material change.
+-Sub requirement 8: Avoid artifacts such as jagged edges, color bleeding, or ghosting at boundaries between LEGO elements and unedited areas (e.g., sky, trees, vehicles).
+```
+
+```
+Q1: 
+Thinking process: Based on the sub requirement of replacing the red brick facade with LEGO-style bricks in muted reds and blues, this question evaluates whether the new brick texture maintains a consistent, blocky appearance across the entire building surface. The original image has a smooth, continuous brick pattern with subtle variations in tone. In the edited version, the LEGO bricks should appear as uniform rectangular blocks with slight shading to simulate depth, but not show signs of blurring, repetition errors, or unnatural seams.
+Question: Are the LEGO-style bricks on the building facade uniformly sized, aligned in rows, and free from visible texture repetition or blurring?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of transforming window frames into LEGO-style structures using muted blue tones, this question checks whether the windows retain their original positions and proportions while adopting a blocky, modular appearance. The original windows have white frames with clear panes; in the edited version, they should appear as solid LEGO panels with defined edges and no warping or misalignment.
+Question: Do the window frames appear as solid, blocky LEGO elements with consistent thickness and alignment, matching the original window positions and sizes?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of replacing the climbing green plants with green LEGO vines, this question examines whether the vines follow the same vertical path as the original ivy but consist of segmented, blocky LEGO pieces. The original plant grows along the wall between two balconies and near the corner of the building. The edited vines must mimic this path without appearing stretched, disconnected, or unnaturally rigid.
+Question: Do the green LEGO vines grow along the same vertical paths as the original plants, maintaining segmented, blocky forms without stretching or breaking continuity?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of modifying balconies to feature gray LEGO railings, this question evaluates whether the railings are structurally sound, properly attached to the balcony platforms, and consistent in style with LEGO construction. Original railings are ornate metalwork; the edited version should replace them with simple, horizontal bar patterns typical of LEGO sets, without floating or misaligned components.
+Question: Are the gray LEGO railings on each balcony evenly spaced, horizontally aligned, and securely connected to the balcony base without floating or overlapping incorrectly?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of placing the LEGO building on a simple platform, this question checks whether the platform is visible beneath the building, flat, and level with the sidewalk. It should not interfere with parked cars or alter the ground plane. The platform must be clearly distinguishable as a separate element but integrated smoothly under the building’s foundation.
+Question: Is there a flat, level platform extending beneath the entire building base, positioned consistently with the sidewalk and not overlapping with parked vehicles?
+Choices: Yes, No  
+A: Yes
+
+Q6: 
+Thinking process: Based on the sub requirement of maintaining structural consistency and visual credibility, this question assesses whether the number of floors, window placements, and architectural features (like dormer windows and rooflines) remain unchanged and correctly aligned after editing. Any shift in position or missing element would break spatial logic.
+Question: Do all architectural elements—including windows, doors, balconies, and rooflines—remain in their original positions and maintain proper alignment and spacing relative to one another?
+Choices: Yes, No  
+A: Yes
+
+Q7: 
+Thinking process: Based on the sub requirement of avoiding artifacts such as jagged edges or color bleeding, this question evaluates the boundary between the edited LEGO building and surrounding elements like the sky, trees, and vehicles. The transition should be clean, with no visible seams, glow effects, or clipping issues.
+Question: Are there any visible seams, color bleeding, or sharp edges at the borders between the LEGO building and the sky, trees, or parked cars?
+Choices: Yes, No  
+A: Yes
+```

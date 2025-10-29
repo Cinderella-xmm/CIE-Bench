@@ -1,0 +1,105 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a man wearing traditional Middle Eastern attire, including a white *kandura* (long robe) and a white *ghutra* (headscarf) secured with an *agal*. He has a neatly trimmed beard and mustache, and his facial expression shows focused attention. He holds a small black-and-clear vape device in both hands, examining it closely. The device features a transparent tank section revealing liquid inside, a black mouthpiece, and a visible coil structure near the base. A lanyard around his neck displays text reading "TURKISH SHEEH" and "3 MED," along with a badge identifying him as "Mohd Wael Al-Abd." In the background, another man sits slightly out of focus, wearing a white shirt and also wearing a badge. The setting appears to be an indoor exhibition or conference hall with overhead lighting, dark structural beams, and blurred booths in the distance.
+
+Thinking process:  
+The editing instruction explicitly transforms the original photograph into a **two-panel scientific comic strip**, which means the **entire composition and context** will change significantly. The original photo's realistic, photographic style will be replaced by illustrated panels. The instruction specifies:
+
+- Panel 1: Realistic rendering of the **vape device in use**, but in a **simplified laboratory setting**.
+- Panel 2: A **cross-section diagram** showing internal components (coil, liquid, battery, airflow).
+- Text bubbles and labels are added for educational purposes.
+- Handwritten font is used for dynamic feel.
+
+This implies that:
+- The **subject’s identity (man in traditional clothing)** is not required to remain — he may be replaced or abstracted.
+- The **original scene (exhibition hall)** is to be replaced with a **laboratory environment** in Panel 1 and a **diagrammatic cross-section** in Panel 2.
+- The **vape device itself** is central and must be preserved in form and function, but its depiction can be stylized or diagrammed.
+- The **internal components** (coil, liquid, battery, airflow) must be accurately represented in Panel 2, so their **functional relationships** must be retained even if visual style changes.
+
+Thus, the **only core element that must survive** is the **vaping device**, particularly its **structure and functionality**, because the entire comic is built around explaining it.
+
+Allowed Changes List:
+- Subject’s appearance (clothing, face, posture)
+- Background environment (exhibition hall → lab or diagram)
+- Lighting and color tone
+- Presence of secondary person
+- Badge details and lanyard text
+- Overall composition and framing
+- Style of illustration (realistic vs. diagrammatic)
+- Positioning and orientation of the device (as long as functional elements are correct)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements:  
+While the man is prominent, he is **not the core subject** of the editing task. The **vaping device** is the central object being explained. Its **physical form**—specifically the **transparent tank**, **black cap/mouthpiece**, **visible coil**, and **liquid level**—must be preserved because these define the device’s identity and function. Any loss of these would make the device unrecognizable or misrepresentative.
+
+Functional/logical association elements:  
+The **internal structure** (coil, liquid, battery, airflow) is critical for understanding how the device works. These are **functionally interdependent**: the coil heats the liquid, the battery powers it, and airflow controls vaporization. The **relative positions and connections** between these parts must be preserved in the cross-section to maintain logical coherence. If the coil is misplaced or airflow direction is reversed, the explanation fails.
+
+Non-modified element deduction:  
+Although the **man’s clothing**, **badge**, and **background** are allowed to change, the **device’s key visual attributes** are not mentioned as changeable. Since the instruction requires a **detailed rendering** and **cross-section diagram**, it assumes fidelity to the actual object. Therefore, the **visual signature of the device**—its shape, transparency, component layout—must be retained.
+
+Preservation Targets List:
+- Transparent tank with visible liquid level
+- Black mouthpiece and cap
+- Visible coil structure at the base
+- Internal battery compartment (implied by design)
+- Airflow path (inferred from device geometry)
+- Relative spatial arrangement of components
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The transparent tank is the most distinctive feature of the vape device in the original image. It allows visibility of the liquid inside, distinguishing it from opaque devices. This is essential for identifying the device type and demonstrating liquid level in the comic. Loss of this feature would make the device unidentifiable and undermine the educational purpose of the comic. Thus, it is a core identity element.
+    Question: Is the transparent tank section of the vape device clearly visible, allowing the internal liquid to be seen?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The black mouthpiece and cap are iconic components that define the top portion of the device. Their presence confirms the device’s inhalation mechanism. Changing or omitting them would alter the device’s functional appearance and make it visually inconsistent with real-world vaping devices. This is a key functional element.
+    Question: Is the black mouthpiece and cap at the top of the vape device present and correctly positioned?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The visible coil structure at the base is critical for illustrating the heating mechanism. It is a defining technical feature of modern vape devices. In the cross-section panel, this must be shown to explain vaporization. Removing or distorting it would misrepresent the device’s function.
+    Question: Is the coil component located at the base of the device, visible through the transparent tank?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The liquid inside the tank is essential for demonstrating the device’s operation. The presence and level of liquid indicate how much e-liquid remains and how it interacts with the coil. Omitting it would make the device appear empty or non-functional, breaking the educational narrative.
+    Question: Is the liquid inside the transparent tank clearly visible and present at a measurable level?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The relative positioning of the coil, liquid, and battery (implied by device shape) defines the internal logic. Even in a diagram, the coil must be below the liquid and above the battery to show proper flow. Misalignment would violate physical principles and reduce credibility.
+    Question: Are the internal components (coil, liquid, battery) arranged in a logically consistent vertical alignment within the device?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The airflow path is inferred from the device’s design, especially the inlet holes near the base. While not always visible, its presence is necessary for explaining how air flows through the device. In the cross-section, it must be indicated to show vapor generation.
+    Question: Is an airflow pathway indicated or implied in the device’s structure, such as an inlet near the base?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_129",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the stickers arranged in a neat 3x3 grid?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the stickers are organized in a fashion that initially seems like a grid; however, there are four stickers in the top row and five stickers in the bottom row, which deviates from a neat 3x3 arrangement. The formation does not resemble a typical grid pattern such as a 3x3 setup, where rows and columns have equal numbers.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the background of the stickers transparent?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background for each sticker in Image B is not transparent as they are surrounded by a distinct white border or outline. This indicates there is a specific design choice to have a colored or outlined background instead of transparent, which wouldn't have such a visible white border.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do all stickers maintain a square, 1:1 aspect ratio?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon observing Image B, each sticker adheres to a chibi character design with a white outline, but none of the stickers possess a square or 1:1 aspect ratio. The designs are character-based and have individual contours and shapes, which do not conform to the uniform characteristics required for a precise square aspect ratio.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does each sticker showcase a distinct action, emotion, and theme related to artistic moods?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the stickers depict chibi characters engaged in various activities with different expressions, colors, and props, suggesting different emotions and themes of art-related actions such as painting, drawing, and mixing colors. Each character showcases distinct poses and facial expressions indicative of artistic moods.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a uniform white outline around each sticker?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly features each sticker with a consistent, uniform white outline. This visual element sets them apart from the beige background, creating a cohesive look that suggests that they are indeed intended to be stickers with outlined edges.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

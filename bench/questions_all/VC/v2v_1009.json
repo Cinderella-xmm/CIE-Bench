@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The circular cross-section of the carrot slices with visible concentric rings is a core biological feature that defines the vegetable. This pattern is unique to carrot anatomy and is essential for identification. If the slices lose their circular shape or the rings are absent, the object would no longer be recognizable as a carrot. This is a key identity feature, making it a 3-point question.",
+      "question": "Are the carrot slices clearly circular in shape with visible concentric rings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The cauliflower florets have a distinctive clustered, tree-like structure with branching stems and dense buds. This morphology is the primary identifier of cauliflower. Altering this structure—such as smoothing the florets or removing the branches—would make them unrecognizable. This is a core recognition feature, hence a 3-point weight.",
+      "question": "Do the cauliflower florets retain their natural branching structure and clustered bud formation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The vegetables must remain inside the bowl to preserve functional logic. The bowl acts as a container, and removing or relocating the vegetables would disrupt the scene’s coherence. Even if the bowl’s material changes, its role must remain. This is an important logical element, so it is assigned 2 points.",
+      "question": "Are all the carrots and cauliflower florets contained within the bowl?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The relative quantity and arrangement of the vegetables contribute to the scene’s authenticity. While minor shifts may occur due to rendering, the overall balance—approximately equal numbers of carrots and cauliflower, with some overlap—must be preserved. This affects visual consistency and realism. It is not a core identity feature but an important compositional detail, hence 2 points.",
+      "question": "Is the arrangement of vegetables in the bowl natural and non-symmetrical, with both carrots and cauliflower present in similar quantities?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The base color of the vegetables—orange for carrots and white for cauliflower—is fundamental to their identification. Although the instruction allows slight vibrancy boost, the core hues must remain. Changing the color (e.g., making carrots yellow or cauliflower green) would misrepresent the subject. This is a key visual attribute, so it is weighted at 2 points.",
+      "question": "Are the carrots distinctly orange and the cauliflower distinctly white in color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The presence of multiple individual carrot slices and cauliflower florets is necessary to reflect the original content. Reducing the count or merging them into a single mass would distort the scene. This is a detail-level preservation requirement, affecting coherence but not identity directly. Hence, it is a 1-point question.",
+      "question": "Are there multiple distinct carrot slices and cauliflower florets visible in the bowl?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

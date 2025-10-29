@@ -1,0 +1,117 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a wooden cabin structure with a traditional overhanging roof supported by thick, dark wooden beams. The cabin features large glass windows and sliding doors that emit a warm, golden interior light, suggesting an occupied and cozy space. A wooden bench sits on the porch to the left, partially visible. The scene is set at night under a clear sky, with a full moon glowing brightly in the upper right portion of the frame. The moon is detailed with visible craters and surface texture, appearing realistic and natural. In the background, rolling hills or low mountains are silhouetted against the twilight sky. Lush greenery and flowering plants grow near the foreground, including small white blossoms on shrubs to the right. The lighting emphasizes contrast between the illuminated interior and the darkened exterior, creating a tranquil, contemplative atmosphere.
+
+Thinking process:  
+The editing instruction explicitly states a transformation into an **Art Deco poster**, which implies a complete stylistic overhaul involving:
+- Flattening structural lines into geometric shapes
+- Stylizing the moon as a radiant circle (not realistic)
+- Converting plants into symmetric patterns
+- Applying metallic tones with gold and silver accents
+- Adding stylized clouds and window details with bold dynamics
+
+This means that **form, texture, color palette, and composition** are all subject to change. However, the instruction does not specify removing or altering any **core elements** such as the **cabin’s presence**, the **moon**, or the **general layout**—only how they are represented. Therefore, while their **appearance** can be transformed, their **existence and spatial relationship** may still need to be preserved for coherence.
+
+Allowed Changes List:  
+- Structural form of the cabin (can be flattened into geometric shapes)  
+- Moon’s appearance (can be stylized as a radiant circle)  
+- Plants (can be converted into symmetric patterns)  
+- Color scheme (can shift to metallic gold/silver tones)  
+- Sky elements (clouds can be added and stylized)  
+- Window details (can be made dynamic and bold)  
+- Overall texture and depth (can be simplified or abstracted)  
+
+These changes are allowed because the instruction explicitly calls for stylization and artistic reinterpretation.
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements must be retained if they are essential to identifying the original scene or subject. Here, the **cabin** is not a famous artwork but a specific architectural composition with identifiable components. Its **spatial arrangement**—such as the **position of the porch**, **placement of the bench**, **orientation of the glass wall**, and **relation to the moon**—is crucial for maintaining scene logic. Even if stylized, these relationships should remain intact to preserve visual consistency.
+
+Functional/logical association elements:  
+- The **porch structure** supports the bench and connects the interior to the exterior. If this spatial relationship is broken, the function of the porch is lost.
+- The **moon's position in the sky relative to the cabin** is critical. It appears in the upper right, above the hillside, and aligned with the cabin’s right edge. This alignment creates a balanced composition; changing it would disrupt the scene’s logic.
+- The **interior light source** from within the cabin must remain present to maintain the contrast between warmth and night, which defines the mood.
+
+Non-modified element deduction:  
+Although the instruction allows for stylization, it does not say to remove the **bench**, **window**, **plants**, or **moon**—only to transform them. Thus, their **presence and location** should be retained even if their form changes. For example, the bench may become a geometric shape, but it must still occupy the same area on the left side of the porch.
+
+Preservation Targets List:  
+- Presence and position of the wooden bench on the left side of the porch  
+- Location and orientation of the glass wall and sliding door on the cabin’s front face  
+- Position of the full moon in the upper right quadrant of the sky  
+- Relative placement of the cabin in front of the hills and vegetation  
+- Existence of the porch structure with supporting columns  
+- Interior light source visible through the glass wall  
+
+These elements define the scene’s identity and spatial logic. Even after Art Deco transformation, they must remain recognizable in position and function.
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The wooden bench is a key functional and compositional element located on the left side of the porch. Its presence anchors the viewer’s eye and provides scale. While its form may be stylized into geometric shapes, its position and role as a seating object must remain unchanged to preserve the scene’s logic. Removing or relocating it would disrupt the spatial narrative. This is a core functional element tied to the original image’s structure.
+    Question: Is there a bench positioned on the left side of the porch, facing inward toward the cabin?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The glass wall with sliding doors is central to the image’s composition, allowing the interior light to spill outward and creating contrast. Its position on the front face of the cabin is essential for the scene’s balance. Even if stylized into angular lines, it must remain in the same location to maintain the relationship between interior and exterior. This is a core structural element.
+    Question: Is there a large vertical glass panel or sliding door on the front face of the cabin, emitting warm light?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The full moon is a defining feature of the night scene and appears in the upper right quadrant. Its position relative to the cabin and hills establishes the composition’s depth and mood. Even if stylized as a radiant circle, its location must remain consistent to preserve the scene’s spatial logic. This is a core environmental identifier.
+    Question: Is there a bright circular moon located in the upper right portion of the sky, above the distant hills?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4: 
+    Thinking process: The porch structure with supporting wooden columns defines the foreground and frames the view. Its existence is necessary to support the bench and create a covered outdoor space. Even if the wood is rendered in metallic tones, the columnar supports must remain in place to maintain structural integrity. This is a core architectural feature.
+    Question: Are there vertical wooden support beams forming the porch structure directly in front of the cabin?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The interior light source is critical for the emotional tone of the image—creating warmth and contrast against the cool night. Its visibility through the glass wall indicates occupancy and comfort. Even if the light is stylized, its presence must remain to preserve the scene’s atmosphere. This is a key atmospheric element.
+    Question: Is there visible warm interior lighting emanating from within the cabin through the glass wall?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The flowering plants in the foreground, particularly the white blooms on the right, add texture and life to the scene. While they may be transformed into symmetric patterns, their presence in the lower right area helps ground the composition. Their location is important for visual balance.
+    Question: Are there flowering plants with small white blossoms located in the lower right foreground?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q7: 
+    Thinking process: The silhouette of the hills in the background provides depth and context. While stylized, their presence behind the cabin and beneath the moon is essential for establishing the landscape setting. Their relative position must remain unchanged.
+    Question: Are there dark silhouetted hills or mountains visible in the background, below the moon?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

@@ -1,0 +1,111 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+Description of reference image:  
+The subject is a middle-aged man with graying hair, a full beard and mustache, wearing rectangular-framed glasses. He is standing in an indoor hallway or corridor, facing the camera directly with both hands placed on his hips. His posture is upright and confident. He wears a long-sleeved, olive-green athletic shirt with thin gold stitching along the shoulder seams and side panels. The shirt has a mock turtleneck collar. On his left wrist, he wears a silver-toned watch with a gold-colored face. A ring is visible on the ring finger of his left hand. The background consists of plain beige walls, a closed door to the left with a dark panel and a round doorknob, and a white thermostat or sensor mounted high on the wall near the ceiling. The lighting is warm and slightly dim, casting soft shadows.
+
+Thinking process:  
+The editing instruction explicitly transforms the image into a Renaissance-era portrait, depicting the person as a nobleman in luxurious garments with ornate details. This includes changing clothing (to velvet and brocade), adding a ruffled collar and gold embroidery, altering the pose (one hand on a sword hilt), and replacing the background with a classical study featuring books and drapery. These changes indicate that:
+
+- The **subject’s appearance** (clothing, accessories, hairstyle) is allowed to be changed.
+- The **pose** is to be modified (from hands-on-hips to one hand on a sword).
+- The **background** is to be replaced entirely.
+- The **style** and **setting** are to be transformed from modern indoor to historical Renaissance.
+
+Thus, any elements not specifically tied to identity or structure of the original subject that are not mentioned for retention can be altered.
+
+Allowed Changes List:  
+(Specific element 1 that allows for changes): Clothing style and material (e.g., athletic shirt → velvet and brocade)  
+(Specific element 2 that allows for changes): Hairstyle and facial hair (can be stylized or repositioned)  
+(Specific element 3 that allows for changes): Pose and hand positioning (hands on hips → one hand on sword hilt)  
+(Specific element 4 that allows for changes): Background environment (modern hallway → Renaissance study)  
+(Specific element 5 that allows for changes): Accessories such as watch and ring (can be removed or replaced)  
+(Specific element 6 that allows for changes): Lighting and color tone (warm indoor light → muted earth tones typical of Renaissance paintings)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements: The subject is a specific individual whose identity depends on certain biometric features. Although the clothing and setting will change, the **facial structure**, **eye shape**, **glasses**, **beard pattern**, and **overall head shape** are essential to maintaining identity. Even in a stylized portrait, these features must remain recognizable to preserve the subject's identity. For example, the presence of the glasses with rectangular frames and the grayish-white beard are key identifiers.
+
+Functional/logical association elements: The **ring on the left ring finger** and the **watch on the left wrist** are personal accessories that, while potentially removable, serve as functional markers of identity and lifestyle. If the transformation retains them, they may be reimagined in Renaissance style (e.g., a golden ring, a jeweled timepiece), but their *presence* and *position* should ideally be preserved unless explicitly stated otherwise. However, since the instruction does not require retaining accessories, they fall under allowed change—but if retained, their placement and significance must align with logic.
+
+Non-modified element deduction: After excluding all elements listed as allowed to change, the following core visual traits remain:
+- The **face**, including eye shape, nose, mouth, and jawline
+- The **glasses**, especially their frame shape and position
+- The **beard and mustache**, including their color and distribution
+- The **hair**, particularly its graying texture and length around the ears
+- The **hand positions**—though the pose will change, the fact that both hands are on the hips in the original implies a stance that could be adapted, but the *placement of hands relative to body* may need to be preserved in form if not overridden
+
+However, since the instruction specifies a new pose (one hand on a sword), the hand placement is explicitly changed, so it is no longer required to retain the original hand position. But the **identity of the hands themselves**—their skin tone, size, and proportions—should still reflect the original subject.
+
+Important reminder: All "elements that should remain unchanged" must be grounded in the original image and derived by exclusion.
+
+Preservation Targets List:  
+(Facial structure, including eyes, nose, and mouth)  
+(Glasses with rectangular frames)  
+(Beard and mustache with gray and white mix)  
+(Hair color and texture, particularly graying at temples and sides)  
+(Hand shape and skin tone, especially visible on the left hand with ring)  
+(Ring on left ring finger)  
+
+Note: While the ring and watch are accessories, their presence is a known feature of the subject; if they are not removed in the edit, they should be preserved in some form. However, since the instruction does not specify retaining them, they are optional. But because they are unique identifiers in the original image, they are included as preservation targets unless explicitly removed.
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The glasses with rectangular frames are a core identification feature of the subject. They are clearly visible in the original image and distinguish him from others. In any artistic transformation, even into a Renaissance portrait, the presence and general shape of the glasses would be critical to maintain identity recognition. If the glasses are absent or significantly altered (e.g., round lenses, no frame), the subject becomes unrecognizable. Thus, this is a weight-3 element.
+    Question: Are the rectangular-framed glasses present on the subject's face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The beard and mustache, with their distinct gray and white mixture, are central to the subject’s facial identity. Their shape and coverage are consistent across the original image and would be essential to recognize the individual in any edited version. Altering the color or removing them entirely would fundamentally change the subject’s appearance. Therefore, this is a key recognition element.
+    Question: Is the gray and white beard and mustache present on the subject's face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The hair, particularly its graying texture and length around the temples and ears, contributes to the subject’s identity. While the hairstyle may be stylized in a Renaissance portrait, the natural coloration and volume should remain consistent. Removing or drastically altering the hair color or texture would make the subject unidentifiable.
+    Question: Is the graying hair visible on the top and sides of the subject's head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4: 
+    Thinking process: The ring on the left ring finger is a minor but identifiable detail. It is a personal accessory that, while not essential for identity, adds specificity to the subject. Its presence helps confirm the continuity of the individual across edits. Although the instruction does not require its retention, its absence without replacement could break visual coherence if the intent is to preserve the subject’s identity.
+    Question: Is a ring visible on the ring finger of the subject's left hand?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The hand shape and skin tone, particularly the left hand resting on the hip, are part of the subject’s physical characteristics. Even if the pose changes, the underlying anatomy and skin texture should remain consistent. The hand's position in the original image is significant, and while it may be repositioned, its visual attributes should not be distorted beyond recognition.
+    Question: Are the hands of the subject visible with natural skin tone and proportion?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The facial structure, including the nose shape, jawline, and eye spacing, is the foundational identity marker. These features define the subject’s likeness and cannot be altered without losing identity. Even in a painted style, these proportions must be preserved to ensure recognition.
+    Question: Is the facial structure, including the nose, jawline, and eye spacing, consistent with the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+}

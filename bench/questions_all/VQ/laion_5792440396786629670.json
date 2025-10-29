@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of replacing the \"HOMEPAGE\" node with a castle icon, this question evaluates whether the icon’s shape, size, and position preserve structural coherence with the original layout. The castle must be centered and properly scaled relative to adjacent elements like the Log-In, Search, and Blog buttons to maintain visual balance and avoid distortion.",
+      "question": "Is the castle icon used for the HOMEPAGE positioned centrally and sized proportionally to fit within the original white rounded rectangle area without overlapping nearby elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of converting straight lines into winding journey trails, this question assesses whether the new path lines follow natural curves, avoid sharp angles or breaks, and maintain consistent stroke width. Any abrupt turns or uneven thickness would suggest artificiality or poor rendering.",
+      "question": "Are the connection lines between the HOMEPAGE and main sections (e.g., PRODUCTS & SOLUTIONS, ABOUT US) transformed into smooth, winding trails with no broken segments or irregular widths?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of replacing text labels with icons (e.g., \"PRODUCTS & SOLUTIONS\" → treasure chest), this question checks if the replacement icon is clearly identifiable, correctly oriented, and proportionally sized relative to the original box. Misplaced or oversized icons could disrupt readability and visual harmony.",
+      "question": "Is the icon replacing \"PRODUCTS & SOLUTIONS\" clearly visible, properly aligned within the orange rounded rectangle, and appropriately scaled so it doesn't extend beyond the border?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of adding decorative elements like trees and creatures along the paths, this question examines whether these elements are placed in open spaces between nodes, do not block access to any text or icons, and have natural-looking shapes and colors without pixelation or blurring.",
+      "question": "Are the decorative elements (e.g., trees, creatures) placed along the winding trails in gaps between nodes and do they have smooth outlines and consistent coloring without jagged edges or noise?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of using storybook-style fonts for text, this question evaluates whether the font applied to labels like \"News\", \"Events\", or \"Links\" is legible, uniformly styled, and fits within the blue rounded rectangles without spilling over or being cut off.",
+      "question": "Does the text in the blue rounded rectangles (e.g., \"News\", \"Events\") use a consistent, bold, child-friendly font that remains fully contained within the bounds of each shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "Based on the sub requirement of maintaining structural coherence during style transformation, this question checks whether the hierarchical levels (as indicated by the Site Map Key) are still distinguishable through visual cues such as color, size, or spacing, even after replacing text with icons and lines with trails.",
+      "question": "Are the different levels of the site map (1st, 2nd, 3rd, 4th) still visually separable based on color coding or size differences, despite the change in style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

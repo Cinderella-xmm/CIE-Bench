@@ -1,0 +1,148 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a military tank, specifically an M4 Sherman variant, painted in olive drab green. It is positioned front-facing on a gravel platform bordered by wooden planks. The tank’s hull features a large blue-and-white checkered pattern with a central orange tiger decal displaying sharp teeth and red eyes. On the turret, a white star with the number "4" is visible. The tank has dual tracks with textured treads, a prominent main gun barrel pointing forward, and various mechanical details such as headlights, hatches, and a small machine gun mount. To the right of the tank stands a rectangular sign with black frame and white background, reading “FUTURE HOME OF THE NATIONAL ARMOR & CAVALRY MUSEUM” in black and red text, accompanied by a black-and-white illustration of a cavalryman on horseback and the website URL: www.armorcavalrymuseum.org. The scene is set outdoors, with green trees and grass forming the background under bright daylight.
+
+---
+
+**Thinking process:**  
+The editing instruction specifies a transformation of the tank into a giant LEGO structure using olive and dark green bricks. This explicitly changes the **form**, **material**, and **texture** of the tank. It also instructs replacing the tiger decal with colorful LEGO plates forming a whimsical tiger pattern—this alters the **design and composition** of the decal but not necessarily its **position or symbolic function**. The tread details are to be made from textured LEGO bricks—changing **texture** but not **shape or position**. The platform is to become smooth wood, and a back panel of green LEGO bricks mimicking foliage is added—this modifies the **platform surface** and introduces a new **background element**.
+
+From this, we can extract:
+
+- **Allowed changes (explicitly stated):**
+  - Tank body → constructed from olive and dark green LEGO bricks
+  - Tiger decal → replaced with colorful LEGO plates forming a whimsical tiger pattern
+  - Tread details → made from textured LEGO bricks
+  - Platform → changed to smooth wooden surface
+  - Background → addition of green LEGO brick panel mimicking foliage
+
+These elements are **allowed to change**, so they are **not required to be preserved**.
+
+However, the instruction does **not mention changing**:
+- The **overall shape and silhouette** of the tank (e.g., turret, gun barrel, track width)
+- The **position** of the tank relative to the sign
+- The **presence and content** of the sign (text, illustration, URL)
+- The **orientation** of the tank (front-facing)
+- The **numbering** (e.g., "A-14", "31 64A") on the hull
+- The **white star with "4"** on the turret
+- The **general layout** of the scene (tank on left, sign on right)
+
+Therefore, any elements not listed for modification must be retained unless logically implied to be altered.
+
+---
+
+**Allowed Changes List:**  
+- Tank body material and texture → changed to LEGO bricks  
+- Tiger decal design → replaced with LEGO-based whimsical version  
+- Track texture → replaced with LEGO-style textured bricks  
+- Platform surface → changed to smooth wood  
+- Background behind tank → enhanced with green LEGO brick panel  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now identify what **must remain unchanged** based on exclusion from the allowed changes list and core recognition logic.
+
+**Core recognition elements:**  
+- The **tiger decal** is iconic and serves as a unit identifier. Although its **design** will be replaced, the **fact that it is present** and located on the front hull is critical for identification. However, since the instruction says to replace it with a *whimsical tiger pattern*, the **concept** of the tiger remains, but its **visual form** changes. Therefore, **the presence and location** of the tiger motif must be preserved, even if stylized.
+- The **white star with "4"** on the turret is a standard U.S. military marking; it is a key identity feature of this specific vehicle type and configuration. Its **position and presence** should be retained.
+- The **numbering** ("31 64A" and "A-14") on the hull identifies the tank's unit and model. These are functional identifiers and must remain in place.
+- The **gun barrel orientation** (forward-pointing) and **turret shape** define the tank’s identity. Changing these would make it unrecognizable as a Sherman tank.
+- The **sign** is explicitly mentioned as part of the scene. While the instruction adds a LEGO backdrop, it does **not say to remove or alter the sign**, so the **text, illustration, and URL** must be preserved.
+- The **relative positioning** of the tank and sign (tank on left, sign on right) must be maintained for scene coherence.
+- The **overall shape and proportions** of the tank (including turret, hull, tracks, and gun) must remain consistent to preserve its identity as a Sherman tank.
+
+**Functional/logical association elements:**  
+- The **relationship between the tank and the museum sign** implies that the tank is displayed as part of the future museum exhibit. This spatial relationship must be preserved to maintain narrative logic.
+- The **tracks’ placement** and **track width** must remain consistent to reflect real-world tank mechanics and prevent visual distortion.
+
+**Non-modified element deduction:**  
+Any detail not mentioned for change—such as the **gravel base**, **wooden border**, **tree line**, **sky**, **lighting direction**, **shadows**—should be considered **retained unless modified**. However, since the instruction specifies changing the platform and adding a LEGO backdrop, the **original gravel and wooden border** may be replaced, so they are **not required** to be preserved.
+
+But the **position and framing** of the tank and sign within the scene must remain consistent to preserve visual context.
+
+---
+
+**Preservation Targets List:**  
+- The **white star with "4"** on the turret  
+- The **number "31 64A"** on the lower left side of the hull  
+- The **number "A-14"** on the lower right side of the hull  
+- The **main gun barrel** pointing forward  
+- The **turret shape and position**  
+- The **tank’s overall silhouette and proportions**  
+- The **position and content of the museum sign** (text, illustration, URL)  
+- The **relative position of the tank to the sign** (tank on left, sign on right)  
+- The **presence of the tiger motif** on the front hull (though design may change)  
+- The **front-facing orientation** of the tank  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The white star with "4" is a distinctive U.S. military insignia used for identification and unit designation. It is a core recognition feature of this specific tank variant. If removed or altered beyond recognition, the tank loses its historical and operational identity. This is a fixed marker, and its presence and position are essential for authenticity.
+    Question: Is the white star with the number "4" visible on the turret of the tank?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The numbers "31 64A" and "A-14" are unit and model identifiers painted on the hull. They are functional markings that provide historical context and distinguish this tank from others. Their removal or alteration would compromise the authenticity of the vehicle representation.
+    Question: Are the markings "31 64A" and "A-14" visible on the lower sides of the tank’s hull?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The main gun barrel pointing forward is a defining structural feature of the tank. Its orientation determines the tank’s combat role and directionality. Any deviation would misrepresent the vehicle’s functionality and appearance.
+    Question: Is the main gun barrel oriented straight forward from the turret?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The museum sign contains critical information about the site’s purpose and branding. The text, illustration, and URL are essential for identifying the location and intent of the display. Altering or removing any of these elements would break the informational integrity of the scene.
+    Question: Is the sign reading "FUTURE HOME OF THE NATIONAL ARMOR & CAVALRY MUSEUM" with the cavalry rider illustration and the website "www.armorcavalrymuseum.org" visible and legible?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q5: 
+    Thinking process: The tiger decal, though to be redesigned in LEGO form, is a key visual symbol associated with the tank’s unit identity. Its presence on the front hull is essential for continuity, even if stylized. The location and concept must be preserved, even if the artistic execution changes.
+    Question: Is there a tiger motif present on the front hull of the tank, located within the blue-and-white checkered area?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The tank is positioned on the left side of the image, with the sign on the right. This spatial arrangement is crucial for scene comprehension and visual balance. Reversing or altering this layout would disrupt the intended presentation.
+    Question: Is the tank positioned to the left of the museum sign?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The tank is front-facing, which is standard for display purposes and allows full visibility of its features. A change in orientation (e.g., side view) would fundamentally alter the viewer’s perception and the display’s intent.
+    Question: Is the tank facing directly toward the camera (front-facing)?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q8: 
+    Thinking process: The turret shape and size are characteristic of the M4 Sherman tank. Altering its form (e.g., making it blocky or rounded) would make it unrecognizable as a Sherman. The silhouette must be preserved for accurate representation.
+    Question: Does the turret have a distinct cylindrical shape with a dome-like top and a single gun barrel protruding from the front?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

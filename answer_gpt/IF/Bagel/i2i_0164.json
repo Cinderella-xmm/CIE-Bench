@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0164",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there still people on top of the train?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "In Image B, there is only one individual on top of the train, who appears to be dressed as a conductor, standing upright rather than multiple casual individuals, hence the transformation. Thus, there are no longer multiple casual people on top of the train.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a conductor standing on the train?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a person in a conductor's uniform with a hat, which is typically associated with train conductors. This indicates that the person standing on the train is likely intended to represent a conductor.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the conductor holding a flag?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, next to the conductor, there is a flag positioned. While the flag is not physically being 'held' by the conductor in the traditional sense (in hands), it is associated with his presence on the train.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the flag have a visible logo on it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, the flag next to the conductor does have a distinct symbol or logo prominently featured on it, which is a visible element of the flag.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Have the original people from the top of the train been removed and replaced by a conductor holding a flag with a logo?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing the two images, Image B shows the replacement of multiple individuals with a singular person in a conductor uniform. A flag with a logo is now present. However, the conductor is not physically holding the flag, meaning it is positioned nearby.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

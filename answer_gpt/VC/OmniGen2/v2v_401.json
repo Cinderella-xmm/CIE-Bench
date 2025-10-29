@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_401",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image retain the golden-brown color and flaky texture of the croissants?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a croissant depicted on a stylized scroll that is meant to resemble a treasure map. The croissant retains a golden-brown color and appears visibly flaky, which are typical characteristics of a well-baked croissant that are also present in Image A. Croissants as baked goods are generally known for their flaky texture and golden-brown hue, and these visual cues are clear in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the image retain the swirl pattern of the cupcake frosting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a cupcake with frosting, and it maintains the swirl pattern of the frosting, consistent with the cupcakes shown in Image A. Based on common design patterns for cupcake frosting, the swirls are a prominent feature to make the cupcake visually appealing, which is effectively retained in the edited image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the image retain the pink, blue, and yellow colors of the cupcake frosting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cupcakes are decorated with frosting in pink, blue, and yellow, which mirrors the color scheme seen in Image A. These are common frosting colors that add vibrant visual appeal to the cupcakes, suggesting a range of flavors and variety. Image B effectively retains these colors.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the image retain the red and blue berries in the tartlets?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, while there are raspberries depicted alongside the other desserts, there is no tartlet visible, and hence the red and blue berries observed in the tartlets of Image A are not retained. Image B seems focused on individual items rather than the complete placement as seen in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the image retain the relative positions and groupings of the desserts as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the desserts are scattered across what appears to be a map. They are mapped as individual items on a stylized piece of paper rather than grouped together as in Image A, where the desserts are arranged close together on a wooden table. Image B's layout suggests a more whimsical and scattered arrangement compared to the orderly grouping seen in Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0171",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the figurine maintain the skier's exact pose from the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figurine's pose is analyzed, showing it has bent legs and arms spread, similar to a crouching skiing position. In Image A, the skier's pose has legs bent and arms out, indicating a matching skiing posture. Both images depict an active skiing stance, suggesting the figurine's pose mimics that of the original image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the skis designed to be detachable from the figurine?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The figurine in Image B appears to have its skis attached firmly to its feet, with no visible mechanisms or distinguishing features indicating they are detachable. Common sense suggests that if there were detachable components in such designs, there would be visible connections or separation points.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a magnetic snow powder base attached to the figurine?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figurine is placed on a circular white base that resembles snow, likely to enhance the skiing theme. However, there's no visible indication or labeling in the image that specifies this base is magnetic or contains snow powder.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have packaging illustrations been added alongside the figurine design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a box standing next to the figurine, featuring illustrations that match the figurine's skiing theme. This indicates that packaging illustrations have indeed been added, giving context and theme to the product.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the figurine include details like ski poles and a backpack if they were part of the skier's original pose?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image A shows the skier holding ski poles and wearing a backpack. Image B's figurine also holds ski poles and has a backpack, mirroring these details from the original image and indicating they have been included in the design of the figurine.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

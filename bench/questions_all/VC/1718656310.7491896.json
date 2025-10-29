@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The facial features — particularly the shape of the eyes, the curve of the lips, and the contour of the nose — are unique identifiers of the subject in the original image. Even though she is being transformed into a nymph, her face remains the anchor of identity. Altering these would fundamentally change who the subject is, making the edited image inconsistent with the original person. This is a core identification feature, so losing it would make the image unrecognizable as derived from the original. Therefore, this element carries high weight.",
+      "question": "Does the edited image retain the original woman's facial structure, including the shape of her eyes, nose, and mouth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The hairstyle — specifically its auburn color, curly texture, and short length — is a distinct visual trait. While the instruction allows transformation, it does not specify changing the hair. Since no alternative hair type is described (e.g., long flowing locks), and given that the original hair is clearly defined, retaining it ensures continuity. Changing it arbitrarily would introduce inconsistency. It is a key identifier of the subject’s appearance and thus critical for visual coherence.",
+      "question": "Is the woman's hair still auburn in color, curly in texture, and short in length?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The seated posture — cross-legged with arms resting on knees — defines the subject’s pose and spatial relationship to the environment. This is a structural element that contributes to the composition. Although the background and wings may change, the body position is not mentioned in the editing instructions as something to alter. Preserving it maintains the original framing and balance. It is not a core identity feature but a significant compositional one, so it deserves medium weight.",
+      "question": "Is the woman still seated in a cross-legged position with her arms resting on her knees?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The small pendant necklace is a visible accessory that adds detail to the subject’s appearance. Though minor, it is present and specific. Its removal without replacement would create a noticeable gap in the visual narrative. Since it is not mentioned in the editing instructions, it should be preserved as part of the original identity. Losing it would reduce fidelity to the source image.",
+      "question": "Is the small pendant necklace still visible at the subject’s collarbone?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The moss-covered surface she sits on is a grounding element in the original image, anchoring her in the environment. While the background will change, the immediate surface beneath her is not mentioned for alteration. Retaining this detail helps preserve spatial consistency and prevents floating or dislocated figures. It is a minor environmental detail but contributes to realism and coherence.",
+      "question": "Is the subject still sitting on a moss-covered surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

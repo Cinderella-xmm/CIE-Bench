@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0142",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is there a top view of the baseball and glove included in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the top left section shows a view looking directly down into the glove with the baseball inside. This viewpoint is considered a top view because it captures the layout and design of the glove's interior, which can only be seen from above.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a side view of the baseball and glove included in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bottom right section of the image shows the baseball glove from the side, capturing its width and the shape of its opening. This view, focused on the glove's side profile, is a classic side view.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a sectional view of the baseball and glove included in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no indication of a sectional view that would typically show an internal cut-away to reveal the internal structure of the objects. All views are external, showing distinct parts but not any cross-sectional cuts.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the views of the baseball and glove clear and detailed enough for product catalogs or sports equipment manuals?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The views in Image B provide clear details of the glove's construction and the baseball's surface, using well-defined visuals that are typical for product presentations. However, the text is not legible, which is a common requirement for catalogs to provide product details.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the colors and textures of the baseball and glove accurately preserved in all views?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the colors and textures of both the baseball and the glove are consistently presented across different views, showcasing realistic texture and color consistency. This reflects an accurate and cohesive portrayal of the materials used.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

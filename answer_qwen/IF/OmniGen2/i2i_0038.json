@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0038",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the person's pose and expression been simplified into a cartoon line-art style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the person's pose and expression are depicted using simple lines and shapes typical of cartoon art. The features such as the hair, clothing, and accessories are stylized with minimal detail, which is characteristic of a cartoon line-art style. This simplification is evident when observing the smooth outlines and lack of detailed textures.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the raised hand still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The raised hand is not present in Image B. Instead, the person is holding a phone with both hands, and there is no indication of a waving gesture. Comparing this to Image A, where the raised hand is clearly visible, it can be concluded that the raised hand has been removed or replaced in the edited image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the cartoon-style person retain an open mouth expression?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the person is depicted with an open mouth, which is consistent with the expression of excitement or speaking. This is indicated by the visible teeth and the shape of the mouth. This matches the open-mouthed expression seen in Image A, suggesting that the cartoon retains this aspect of the original image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the cartoon-style image include a camera covering part of the person's face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the person holding a phone, which covers part of their face similarly to how a camera would in Image A. The phone's position and size suggest it is being used like a camera, aligning with the action implied in the original image. Therefore, the function of covering part of the face is preserved, even though the object has changed from a camera to a phone.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a speech bubble with the text “Take a photo” in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a speech bubble containing the text “Take a photo,” which is clearly visible next to the person. This element is not present in Image A, indicating that it has been added in the edited image to convey the action being performed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

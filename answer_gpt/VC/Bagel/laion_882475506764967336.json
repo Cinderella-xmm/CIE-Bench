@@ -1,0 +1,84 @@
+{
+  "filename": "laion_882475506764967336",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly six chairs surrounding the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, it shows a structure made from LEGO blocks that evidently represents a table and its surrounding seating arrangement. From the visual cues, there appear to be six distinct structures resembling chairs or seating areas encircling the central table-like structure. By recognizing the LEGO arrangements and correlating them to a real-world seating setup, it's feasible to summarize that there are six chairs that encircle the table structure.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the table square in shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image (Image B) shows a LEGO construction where the central table-like formation is composed of square or rectangular patterns inferred from the uniformity in shape and arrangement. The observed length and width of the table structure seem equal, reinforcing the idea that the table is square based on visual symmetry and evident geometry.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there two chairs on each long side of the table and one chair on each short side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the seating structures around the table appear evenly spaced and symmetrical, resembling a rectangular configuration where the longer sides have more seating arrangements. The common real-world seating logic would suggest that two chairs are placed on the longer sides, but upon close examination, there are uniform structures around all sides of the square table setup, indicating one seating structure per side instead of differentiating longer versus shorter sides.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the chairs on the long sides of the table have armrests?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Every block-like chair around the table in Image B does not display distinct features indicative of armrests. In the LEGO arrangement, features like armrests would typically be constructed with additional blocks at a higher level than the seating surface. Given the uniform height and appearance of these LEGO chairs, there is no indication of armrests on any side.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a centerpiece located in the center of the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "On examining Image B, the central area of the square table is characterized by a collection of differently colored blocks. These form a shape distinct from the surrounding brown blocks, suggesting the presence of a centerpiece. In everyday scenarios, such arrangements on a table often represent decorative or focal elements.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the furniture set placed on a flat, level surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The base structure of Image B is composed of LEGO platform pieces that appear evenly arranged. The foundational gray LEGO pieces used for constructing the scene suggest a stable and level foundation, comparable to a flat surface in real-life conditions.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The elaborate hairstyle with multiple hairpins and floral ornaments is a core identity feature of the geisha. Its presence and arrangement define her cultural role and distinguish her from other figures. Even if rendered in stained glass, the **structure of the updo**, **number and placement of hairpins**, and **ornamental flowers** must remain to preserve recognition. Losing these would make her unrecognizable as a geisha. Hence, this is a key identification element with weight 3.",
+      "question": "Is the geisha’s hair styled in an elaborate updo with multiple golden hairpins, floral ornaments, and dangling tassels?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The white face makeup with red lips and darkened eyes is a signature feature of traditional geisha portrayal. This is a core visual identifier that defines her identity. Even in stained glass, the **color contrast** and **specific facial markings** must remain. Altering or removing them would destroy the character’s authenticity. This is a critical recognition element, hence weight 3.",
+      "question": "Does the geisha have a white-painted face with red lips and darkened eye makeup?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The fan is a functional object held in her left hand. Its **position** and **function** are essential to the pose. Although its form changes to a peacock fan, it must still be **held in the left hand** to maintain logical consistency. Changing its hand or removing it would break the action logic. This is a functional/logical element, thus weight 2.",
+      "question": "Is the fan held in the geisha’s left hand?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The cherry blossoms form a framing arc above and below the geisha, creating a balanced composition. Their **spatial arrangement** is crucial to the scene’s harmony. Even if transformed into glass, their **placement** must remain to preserve the visual structure. This is an important scene element affecting overall consistency, hence weight 2.",
+      "question": "Are the cherry blossoms arranged in an arching pattern above and below the geisha?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The large red obi bow tied at the back is a distinctive detail of the kimono. It contributes to the visual balance and cultural accuracy. Though the kimono’s design changes, this **specific feature** is not mentioned for modification, so it must be preserved. It is a secondary but identifiable detail, hence weight 1.",
+      "question": "Is there a large red bow tied at the back of the kimono?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The geisha’s pose—profile view with head turned down and body facing right—is central to the image’s mood and composition. This **body orientation** defines the scene’s narrative and must remain unchanged even in stylized form. Altering it would disrupt the intended emotional tone and visual flow. This is a key postural element, hence weight 2.",
+      "question": "Is the geisha shown in profile with her head turned downward and body facing to the right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

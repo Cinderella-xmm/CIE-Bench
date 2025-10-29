@@ -1,0 +1,70 @@
+### Step 1: Analyze the Original Image and Allowed Changes
+
+#### Description of Reference Image:
+The subject is a parking meter prominently placed in the foreground, with a distinct design including a "PARKING" label, a coin slot, and a sticker/logo reading "ComsiAcara." The parking meter stands upright on a pole. In the background, there is an urban street scene with buildings, parked cars, pedestrians, lampposts, and road markings. The lighting suggests a sunny day with shadows cast on the sidewalk.
+
+#### Thinking process:
+The editing instructions aim to replace the city street background with a desert highway while keeping the parking meter as the central focus. This means that the parking meter's physical attributes and immediate surroundings must stay intact, while the broader contextual environment is subject to change.
+
+#### Allowed Changes List:
+1. The urban street background can be replaced with a desert highway backdrop.
+2. Elements such as the building facades, vehicles, street lamps, and pedestrians can be removed or altered to fit the new setting.
+3. The atmosphere and lighting may be adjusted to match the heat haze effect typical of a desert environment.
+
+### Step 2: Determine the Elements That Should Remain Unchanged
+
+#### Thinking process:
+Core recognition elements include the parking meter's design, labels, stickers, and position on the pole. Functional/logical elements encompass the placement of the parking meter on the ground, ensuring it appears logically positioned even in a desert setting. Remaining visual details, such as the sticker text and general meter structure, should also be preserved for coherence.
+
+#### Preservation Targets List:
+1. The parking meter's design, labels ("PARKING"), and sticker/logo ("ComsiAcara").
+2. The parking meter's vertical position and attachment to the pole.
+3. The parking meter's structural integrity and proportions.
+4. The shadow cast by the parking meter.
+
+### Step 3: Generate Yes/No Questions
+
+{
+    Q1: 
+    Thinking process: The "PARKING" label is a core identity feature for the parking meter. Its presence ensures this object is still recognizable as a parking meter.
+    Question: Is the "PARKING" label clearly visible on the parking meter?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The "ComsiAcara" logo/sticker serves as a unique identifier and should remain consistent for proper recognition.
+    Question: Does the sticker on the parking meter display the text "ComsiAcara"?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The parking meter’s vertical alignment on the pole is essential to maintain the logical placement of the object.
+    Question: Is the parking meter securely attached and standing upright on a pole?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The structural proportions of the parking meter keep it identifiable and functional in appearance.
+    Question: Does the parking meter retain its original size and structural proportions?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: Shadows aid in the visual coherence of the scene and ensure the parking meter appears grounded in its environment.
+    Question: Is the shadow of the parking meter visible on the ground beneath it?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

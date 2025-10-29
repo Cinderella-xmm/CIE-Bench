@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0101",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the text \"flyaway\" been added to the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a cursive-style text reading 'flyaway' is clearly visible on the wall directly beneath the framed painting. This text is not present in the original image (Image A), which has no such inscription. The presence of this text in Image B indicates it was added during editing. The placement and style suggest intentional design, likely for aesthetic or thematic purposes. Based on visual inspection and comparison with Image A, the addition of this text is evident.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the text “flyaway” written in a handwritten font?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text 'flyaway' in Image B exhibits characteristics typical of a handwritten script—fluid, flowing strokes with varying thickness and natural irregularities in letterform spacing and curvature. It mimics the appearance of calligraphy or hand-lettering rather than a standard digital typeface. While it may be digitally rendered to look like handwriting, its visual style aligns closely with handwritten fonts commonly used in artistic or romantic contexts. Therefore, based on visual cues and common typographic classifications, it can be classified as a handwritten-style font.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the text \"flyaway\" located directly below the painting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing Image B, the word 'flyaway' is positioned centrally on the wall, immediately beneath the bottom edge of the framed painting. It is horizontally aligned with the center of the artwork and appears to be placed at a consistent distance from the frame's lower border. This positioning suggests deliberate placement to create visual harmony between the artwork and the text. In contrast, Image A lacks any text, confirming that this element is newly added and precisely located under the painting.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the text \"flyaway\" complement the scene and contribute to a romantic postcard-style appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The overall aesthetic of Image B includes soft lighting, natural wood tones, minimalist decor, and a serene landscape painting—elements commonly associated with calm, nostalgic, or romantic environments. The addition of the word 'flyaway' in a delicate, cursive script enhances this mood by evoking themes of escape, freedom, and wanderlust, which are often found in romantic or travel-themed imagery. The combination of nature-inspired elements and poetic language contributes to a dreamy, postcard-like quality reminiscent of curated lifestyle photography. Thus, the text complements the scene and supports a romantic, aspirational tone.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any additional elements or changes apart from the handwritten text “flyaway” below the painting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No\n```",
+      "explanation": "Comparing Image B to Image A, the most noticeable difference is the addition of the word 'flyaway'. However, upon closer inspection, other subtle changes are apparent: the floor in Image B now includes a light-colored rug partially visible at the bottom edge, which was not present in Image A. Additionally, the lighting appears slightly softer and more diffused in Image B, possibly due to post-processing adjustments. These minor additions—especially the rug—indicate that more than just the text was altered. Therefore, while the text is the primary new feature, other elements have also been introduced or modified.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

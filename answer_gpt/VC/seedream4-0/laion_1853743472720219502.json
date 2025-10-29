@@ -1,0 +1,84 @@
+{
+  "filename": "laion_1853743472720219502",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the wooden surface with visible grain patterns and warm brown tones present and unaltered in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the wooden surface is visible with grain patterns, but it appears altered due to color changes and possibly digital manipulation that imparts a more vibrant appearance than a natural finish would. Given the presence of vibrant gold and fiery elements on the pendants, the natural warm brown tones and grain details may be obscured. These alterations suggest the wooden surface has been modified from its original state.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the two feather pendants positioned such that one is in the foreground and the other is partially overlapped behind it, maintaining the original diagonal alignment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pendants are positioned similarly to Image A, maintaining the diagonal alignment with one in the foreground and the other partially overlapped behind. Despite the noticeable color change and added elements, the spatial positioning appears consistent with the original image.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the pendants cast soft, consistent shadows beneath them on the wooden surface, indicating overhead lighting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pendants display vibrant lighting effects that override any realistic shadow casting. The fiery glow likely disrupts any soft, consistent shadows that would indicate overhead lighting. Therefore, shadows are either absent or significantly altered in the edited image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the pendants aligned diagonally across the frame, extending from the lower-left toward the upper-right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the alignment of the pendants is consistent with Image A, preserving the diagonal placement from the lower-left corner to the upper-right. Despite color and effect changes, the positioning remains unchanged across both images.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the wooden surface retain its natural grain texture, including variations in tone and minor imperfections, without digital smoothing or enhancement?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, while the wooden surface is visible, it seems to be subject to digital alterations due to the vibrant edits on the pendants. Such modifications are likely to affect the surface grain's genuine appearance, altering its detailed tone and imperfections, thus lacking its original natural texture.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the edge of the leather feather clearly defined against the wooden surface, showing a slight separation and shadow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the edges of the feather are less visibly defined against the wooden surface due to the intensive fiery glow effects. These alterations overwhelm any subtle shadowing and separation that could define the edge distinctly in a natural context.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4166666666666667
+}

@@ -1,0 +1,110 @@
+{
+  "filename": "HQ-Edit_122_145",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is there a pink floral hair ornament with dangling tassels positioned at the top-right of the figure’s head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the first and second figures show pink floral hair ornaments with visible dangling tassels positioned on the right side of the figures' hair. The top-right corner is where such ornaments are typically positioned for aesthetic balance in Japanese hairstyles.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a wide obi tied at the waist with a red-and-yellow patterned bow visible from the back?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the four figures wear kimonos with brightly colored obis tied around their waists, but unlike Image A, none of the bows are patterned, nor is the bow's back visible due to the front-facing poses.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the kimono have a dark blue base color with floral patterns overlaid?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows kimonos in a bright blue color base with floral patterns. This differs significantly from Image A's dark blue base, which suggests no dark blue in the edited image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the floral patterns on the kimono composed of pink, red, and white blossoms resembling cherry blossoms?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the floral patterns on the kimonos primarily feature pink blossoms, consistent with cherry blossoms, but the presence of red and white is not visually identified. The patterns emphasize pink notably, linking to cherry blossoms traditionally associated with Japan.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the figure depicted as a woman wearing a traditional Japanese kimono?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features figures depicted in kimonos, which resemble traditional Japanese attire. However, the chibi style shows young girls based on their depiction. Using world knowledge, chibi characters are not typically categorized as adult women despite the attire.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are cherry blossoms present either in the kimono pattern or as props (e.g., branch, falling petals) in the figure’s immediate vicinity?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, cherry blossoms are prominently featured in the background as falling petals and props. Such elements are visually identifiable as part of the kimono's intricate design and surroundings, consistent with cherry blossom imagery.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the obi positioned at the waist and tied in a bow at the back?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the obi is positioned at the waist of each figure, visible in the rear and side-facing poses, confirming its traditional placement despite varying angles. This confirms the presence of the bow at the back.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q8",
+      "question": "Is the figure shown in a side profile, facing right, in at least one of the four poses?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features four poses of the character. The second top-right character shows a side profile facing right, as evidenced by the body orientation relative to its stance and direction of gaze.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4117647058823529
+}

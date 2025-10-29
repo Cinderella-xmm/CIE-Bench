@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0101",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the text 'flyaway' added below the painting seamlessly integrated into the image without disrupting its authentic appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text 'flyaway' is prominently displayed below the painting. The integration seems slightly off due to differences in sharpness and texture, making it look like an overlay rather than a part of the image. Typically, seamless integration would mean that the text would blend naturally without being a distraction, which is not the case here.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the handwriting of 'flyaway' appear natural and consistent with what one would expect on a postcard-style image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text 'flyaway' in Image B is styled in a cursive script, which is typically associated with handwritten notes or artistic touches on personal items like postcards. The style matches what is usually seen in artistic or casual contexts and seems fitting for a postcard-style image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Has the addition of 'flyaway' caused any visible artifacts or unnatural textures around the painting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "When observing Image B, the text 'flyaway' is surrounded by a slight blur and mismatch in clarity compared to the rest of the image. This suggests the presence of digital manipulation artifacts, particularly around the edges of the text, which appear less defined than the other elements of the scene.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the text 'flyaway' maintain proper proportion and not cover any significant part of the painting or adjacent objects?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text 'flyaway' is placed below the painting and does not obstruct significant visual elements like the painting itself, the vase, or the plant. It occupies its own space on the wooden surface and maintains a proportion that does not overwhelm the other objects.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the overall composition of the image still visually coherent and balanced after adding the text 'flyaway'?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Although the text has been added in Image B, the overall composition remains balanced. The central position of the painting continues to be the focal point, with the text placed in an area that doesn't throw the visual weight off-balance. Decorative elements like plants and the vase still provide symmetry around the text.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

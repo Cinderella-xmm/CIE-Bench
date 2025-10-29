@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The number and vertical clustering of the brushes is a core compositional feature. In the original image, there are approximately eight brushes of varying sizes arranged closely together. Even after transformation into crystal wands, preserving the same number and clustered vertical layout ensures continuity in visual structure. Losing this would fundamentally alter the scene’s composition and make it unrecognizable as a derived version of the original. Hence, this is a high-weight element.",
+      "question": "Are there exactly eight upright objects arranged in a tight vertical cluster within the container?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The presence of a filler material beneath the brushes is essential to the original setup. The white pearls provide volume and stability. The instruction does not specify replacing the filler, so it must be retained in function. Even if the material changes (e.g., to clear crystals), the **presence of a bed of small spherical objects** below the wands must remain. This is critical for maintaining the visual logic of the arrangement.",
+      "question": "Is there a bed of small, uniformly shaped spherical objects filling the lower portion of the container?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The decorative band around the upper rim of the container is a distinctive visual element. It serves as an aesthetic border. The instruction specifies replacing it with a carved crystal ribbon, but the **position and function** (a decorative ring around the top edge) must remain. Therefore, the **presence of a decorative band at the top rim** must be preserved, even if its material changes.",
+      "question": "Is there a decorative band located precisely at the upper rim of the container?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The container itself is transparent in both original and edited versions. The instruction replaces the glass jar with a crystal vase, but transparency is a shared attribute. Preserving transparency ensures visual continuity and allows the viewer to see the filler material and internal structure. Changing it to opaque would break the core visual logic of the original.",
+      "question": "Is the container transparent, allowing full visibility of the contents inside?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The overall vertical arrangement of the objects is crucial. They are all standing upright, with tips pointing upward. This orientation supports the idea of a tool set or display. The instruction does not suggest horizontal placement or random scattering, so the **upright posture** of each object must be maintained. This is a key functional and visual trait.",
+      "question": "Are all the objects positioned vertically, with their tips pointing upward?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The original image includes a variety of brush sizes — from large powder brushes to smaller detail brushes. This variation in size creates visual interest. Even when transformed into crystal wands, preserving the **size variation among the objects** maintains the original compositional diversity. This detail contributes to the realism and aesthetic balance.",
+      "question": "Are there at least three distinct sizes of objects visible in the cluster (large, medium, small)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The container is placed on a flat surface, which is essential for stability. While the surface changes from glass/metal to mirror, the **flatness and horizontal orientation** of the supporting surface must remain. This ensures the arrangement remains grounded and visually coherent. This is a minor but necessary functional detail.",
+      "question": "Is the container resting on a flat, horizontal surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

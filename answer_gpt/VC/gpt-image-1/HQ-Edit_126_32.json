@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_126_32",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the two small human figures visible beneath the tree in the same relative position as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, no human figures are visible beneath the tree. The significant visual element under the tree is the graphic design of the tree roots and trunk. In Image A, the two human figures are discernibly under the tree. Given that Image B lacks these figures, the answer is based on the disappearance of human figures in Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the horizon line present and continuous across the entire width of the image, separating the field from the sky?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the horizon line can be seen, separating the field from the sky. The horizon is a distinct line spanning across the image, consistent and uninterrupted, visually dividing the grassy field and the sky above it. Image A also features a similar horizon line. The continuity of the horizon line in Image B is apparent and matches the query.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the sky retain the gradient transition from pale blue near the horizon to deeper teal at the top?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sky exhibits a color gradient, transitioning from a lighter tone near the horizon to a deeper teal as it ascends towards the top of the image. This gradient effect gives a sense of depth and atmospheric layering, consistent with what the question describes. Image A exhibits a similar gradient sky. This confirms the presence of such a gradient in Image B.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the foreground composed of tall grass with a mix of green and golden-yellow hues, extending toward the tree?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the foreground consists of tall grass, but it primarily appears in green hues without much visible golden-yellow color. The hues describe a less diverse color variation compared to the potential mixing mentioned. Image A did feature a more mixed color scheme in the grass. Given Image B's focus is more on uniform green tones, this does not match the described mix of colors.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the tree located in the center-right portion of the image, dominating the right half of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tree is centrally placed, taking a significant portion of the frame and cannot be said to solely dominate the right half since it spans a balanced position. In Image A, the tree is also centrally located but leans more to the right. Thus, the central placement of the tree in Image B indicates that it does not dominate only the right half as described.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is there a subtle shadow cast beneath the tree, indicating directional lighting from the upper left?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual design emphasizes the glowing and illuminated roots and trunk rather than casting a discernible shadow in the grass beneath the tree. Any shadow effects are less evident due to this glow. In Image A, a shadow is visible beneath the tree. Therefore, given the illuminative style in Image B, such a shadow as described by directional lighting is not apparent.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.38461538461538464
+}

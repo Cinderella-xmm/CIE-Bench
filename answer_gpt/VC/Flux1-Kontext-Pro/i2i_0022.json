@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0022",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the cat depicted in a curled-up position with one paw visibly stretched out?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cat is shown in a curled-up position with its body arranged such that the paws are tucked in towards the body. There is no clear distinction of a paw being visibly stretched out. This positioning is common for cats that are resting or sleeping to conserve warmth and feel secure.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the cat shown lying on a curved surface representing the car's hood?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents a sticker showcasing the cat, which is depicted without any background details such as a car's hood or any surface. The image isolates the cat from its original context, focusing solely on the cat itself. There's no visual indication of a car's curved surface under the cat.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there reflection lines present on the curved surface under the cat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, since the background has been removed to create a sticker, there are no surfaces like a car hood present, hence no reflection lines can be seen. This edited image focuses entirely on the cat without any external surface details.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the entire sticker image surrounded by a thick white outline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts the cat as a sticker, and it is indeed surrounded by a thick white outline. This is a common style for stickers to help them stand out against various surfaces when applied.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the sticker have a transparent background behind the outlined image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cat sticker is surrounded by a white outline, and the rest of the background is a uniform gray, which suggests that the display method does not indicate transparency. However, stickers often are designed with backgrounds that appear gray but are intended to be transparent when used.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.3
+}

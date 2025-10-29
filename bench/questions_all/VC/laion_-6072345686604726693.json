@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The **presence of the four minarets** is a defining feature of the Hagia Sophia. Even though they are to be transformed into legs, their **original number and bilateral symmetry** (two on each side) are critical for architectural recognition. Losing this configuration would make the structure unrecognizable as the Hagia Sophia. The instruction does not suggest removing them, only transforming them, so their **positional layout** must be preserved. This is a core identity element, hence weight 3.",
+      "question": "Are the four minarets positioned symmetrically—two on the left and two on the right—relative to the central dome?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The **bridge spanning the water in the background** is a key geographical identifier of Istanbul and provides contextual grounding. It is not mentioned in the instruction to be altered, so it must remain visible. Its presence confirms the location and scale. Removing or altering it would disrupt the scene’s realism and geographic accuracy. This is an important scene element, hence weight 2.",
+      "question": "Is the 15 July Martyrs Bridge clearly visible in the background, crossing the water behind the Hagia Sophia?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The **body of water (Bosphorus Strait)** is essential for identifying the location and providing environmental context. The instruction does not mention replacing or obscuring it. Its presence is necessary for the scene to remain coherent and geographically accurate. This is a major scene element, hence weight 2.",
+      "question": "Is a large body of water visible behind the Hagia Sophia, extending toward the horizon with boats on its surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The **foreground tree line** frames the lower portion of the Hagia Sophia and contributes to depth and natural setting. Though minor, its retention helps maintain visual balance and real-world plausibility. If removed, the structure appears floating. This is a detail-level element, hence weight 1.",
+      "question": "Are green trees visible in the foreground, partially obscuring the base of the building?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The **arched windows on the main façade** are distinctive architectural features of the Hagia Sophia. Their shape and placement contribute to the building’s identity. Although the instruction allows for glowing patterns, it does not specify replacing the windows. Thus, their **existence and configuration** must be preserved. This is a secondary but identifiable detail, hence weight 1.",
+      "question": "Are multiple arched windows visible on the front-facing wall beneath the central dome?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The **layered roof structure with smaller domes** around the central dome is a hallmark of the Hagia Sophia’s design. The instruction mentions transforming the central dome but not the surrounding ones. Their **arrangement and curvature** must remain consistent to preserve architectural authenticity. This is a key structural feature, hence weight 2.",
+      "question": "Are several smaller domes visible around the base of the central dome, forming a tiered roofline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The **clear blue sky and daylight lighting** establish the time of day and atmosphere. The instruction does not mention altering the lighting or sky. Preserving this ensures the scene remains visually coherent and realistic. This is a minor environmental detail, hence weight 1.",
+      "question": "Is the sky uniformly clear and light blue, indicating daytime conditions without clouds?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

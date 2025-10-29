@@ -1,0 +1,88 @@
+Description of reference image: The subject is a woman in traditional Japanese attire, wearing a red and white kimono with a floral pattern featuring soft pink and white blossoms. Her long black hair is styled in an elegant updo adorned with cherry blossom branches and orange-red decorative elements resembling petals or leaves. A dark metallic mask, shaped like a stylized animal face (possibly a fox or dragon), covers the upper half of her face, extending from beneath her eyes to the bridge of her nose, with textured surface details and horn-like protrusions at the temples. Her lips are painted a deep red, and her skin tone is fair. The background is softly blurred, suggesting an outdoor setting with neutral tones, possibly a garden or courtyard, enhancing focus on the subject. The overall composition emphasizes symmetry, cultural symbolism, and delicate textures.
+
+Thinking process: First, analyze the editing instructions word by word:  
+- "Convert the kimono's floral pattern and delicate fabric into a vibrant anime-style illustration" → This explicitly allows changing the **kimono’s pattern**, **fabric texture**, and **style** to an anime aesthetic. Thus, these aspects are changeable.  
+- "Elevate the cherry blossoms into oversized, colorful props with exaggerated petals" → This permits altering the **size**, **color**, and **shape** of the cherry blossoms, including their **petal structure** and **branch form**. Therefore, these are allowed to be changed.  
+- "Render the branch shapes as sharply defined ink lines" → This modifies the **visual style** of the branches, allowing transformation from naturalistic to graphic/ink-line representation.  
+- No mention is made of changing the **mask**, **face**, **hair**, **skin tone**, **lip color**, or **overall posture** — implying these should remain unchanged unless implied by context.  
+
+Allowed Changes List:  
+- Kimono’s floral pattern (design and motif)  
+- Kimono’s fabric texture and visual style (e.g., satin-like sheen, weave)  
+- Cherry blossom size, petal shape, color saturation  
+- Branch shape and line quality (to become sharp ink lines)  
+- Overall artistic rendering style (from realistic to anime-style)
+
+---------------------------------------------------------------------------------------  
+Thinking process:  
+Core recognition elements: The **metallic mask** with its **distinctive animal-like form**, **horned temple extensions**, and **textured surface** is a central identity feature of the subject. It is not mentioned for modification, so it must be retained. Similarly, the **woman’s facial features**—especially the **visible lower face** (lips, chin, jawline), **eye shape**, and **skin tone**—are critical for maintaining the identity of the person depicted. These are not subject to stylistic change per instructions.  
+
+Functional/logical association elements: The **position of the mask relative to the face** (covering upper half, leaving mouth exposed) is functionally significant—it defines how the mask interacts with facial expression. Changing this would alter the intended symbolic meaning or visual balance. Also, the **placement of the cherry blossom branches in the hair** is spatially tied to the hairstyle; removing or repositioning them without regard to original placement could break logical continuity.  
+
+Non-modified element deduction: After excluding all allowed changes (kimono pattern, fabric, blossom size/color, branch lines), the remaining unmentioned elements—such as **the woman’s facial structure**, **the mask’s shape and texture**, **her hair color and style**, **the red lip color**, and **the original spatial arrangement of the floral adornments in the hair**—must be preserved. These contribute to visual coherence and prevent misidentification.  
+
+Preservation Targets List:  
+- The presence and shape of the metallic mask covering the upper face  
+- The visible lower face including lips and chin  
+- The black hair styled in an updo with specific floral adornments  
+- The position and orientation of the cherry blossom branches within the hair  
+- The red lip color and facial skin tone  
+- The general pose and frontal orientation of the subject  
+
+---------------------------------------------------------------------------------------  
+{
+    Q1: 
+    Thinking process: The metallic mask with its distinct animal-like shape and horned temples is a core identity element. Its unique form, especially the upward-curving horns and textured surface, distinguishes it from other masks. If lost or altered beyond recognition, the subject’s identity and symbolic intent would be compromised. This is a key identifier, hence weight 3.
+    Question: Is the metallic mask with horn-like protrusions at the temples present and retaining its original shape?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The visible lower face, particularly the red lips and clear jawline, is essential for identifying the human subject. The lip color and facial contours are consistent with the original image and not mentioned for change. Their retention ensures continuity of character identity.
+    Question: Are the red lips and visible lower face (including chin and jawline) clearly present and unchanged?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The black hair styled in an updo with floral adornments is a defining feature of the subject’s appearance. While the flowers themselves may be modified, the **structure of the hairstyle** and **placement of the branches** in the hair are not specified for change. Retaining the hair’s position and volume maintains the original composition.
+    Question: Is the black hair styled in an updo with floral branches positioned symmetrically on both sides of the head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The cherry blossom branches are part of the hair ornamentation. Although their size and style can be changed, their **presence in the hair** and **symmetrical placement** around the head are critical for visual balance and cultural authenticity. Removing or relocating them disrupts the original design logic.
+    Question: Are cherry blossom branches visibly integrated into the hair on both sides of the head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The skin tone and facial symmetry are foundational to the subject’s realism and identity. The fair complexion and balanced facial features are not mentioned for alteration, so they must remain intact. Any deviation would affect recognition and consistency.
+    Question: Is the subject’s facial skin tone fair and uniformly lit, matching the original?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The original positioning of the subject—front-facing, centered, with symmetrical framing—is crucial for composition. While the background may be altered, the subject’s orientation and posture are not mentioned for change. Preserving this ensures the edited image remains visually coherent.
+    Question: Is the subject facing directly forward with a symmetrical pose and centered composition?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The texture of the mask, including its matte finish and subtle surface details, contributes to its realism and identity. Even if the style shifts, the **material impression** (metallic, textured) should remain recognizable. This detail supports the mask’s role as a symbolic object.
+    Question: Does the mask retain a textured, metallic surface appearance rather than becoming smooth or cartoonish?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

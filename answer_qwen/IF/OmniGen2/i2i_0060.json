@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0060",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the food been rearranged into a Michelin-style plating?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image shows a plate with neatly arranged slices of steak, baby carrots, and garnish. The presentation is clean and aesthetically pleasing, which aligns with high-end culinary standards often seen in Michelin-starred restaurants. The use of sauce dots and careful placement of ingredients further suggests an attention to detail typical of fine dining.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the steak spiral-rolled?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The steak in the image appears as neatly sliced pieces laid out on the plate. There are no visible signs of rolling or spiraling; instead, it looks like standard cuts of meat. Spiral-rolling would typically show a coiled shape, which is not present here.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the carrots cut into a fan-shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The carrots in the image are whole baby carrots placed next to each other. They do not exhibit any cutting patterns that resemble a fan shape. A fan-shaped cut would involve slicing the carrot lengthwise and then spreading the slices out, which is not observed here.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have sauce dots been added to each vegetable?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "There are small yellow sauce dots scattered around the plate near the vegetables. These dots enhance the visual appeal and suggest a deliberate plating style. However, they are not directly on top of each vegetable but rather around them, adding to the overall presentation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the food served on a large white ceramic plate?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The food is presented on a white plate that appears to be made of ceramic material. The size of the plate seems appropriate for the amount of food served, suggesting it is indeed a large plate suitable for such a meal. The smooth surface and glossy finish are characteristic of ceramic plates used in fine dining.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

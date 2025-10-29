@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_81535",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image retain the white porcelain bowl with a blue floral design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the white porcelain bowl with a blue floral design is clearly visible as the base container for the new elements—dragon eggs and dragons. This observation is based on the continuity in the design and color of the bowl, confirming that the bowl itself has not changed despite the transformation within its contents.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the orange curry sauce still visible, coating the transformed elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the transformed elements (dragon eggs) are surrounded by a remaining orange substance, which suggests that the orange curry sauce might still be present. However, it does not appear to be coating the transformed elements (dragon eggs and dragons) as it did with the original dish (chicken curry). Thus, while some sauce might still be in the bowl, there is no evident coating on the new elements.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the transformed elements (dragon eggs and dragons) arranged within the bowl in a manner consistent with the original dish's placement?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the chicken curry is placed centrally within the bowl, surrounded by cilantro garnish. In Image B, the dragon eggs and dragons are also centrally placed, suggesting an attempt at similar arrangement. However, due to the different shapes and types of elements, the arrangement inherently becomes different, with distinct dragons placed around the eggs which differs from how the curry was organised. Therefore, while both are centered, the specific arrangement logic has changed.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the kitchen countertop background still present in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the kitchen countertop background, including various kitchen items such as bottles, is still visible, similar to the backdrop seen in Image A. This indicates that the background setting remains unchanged in the edited image, maintaining the scene's context outside the bowl.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the orange curry sauce retain its glossy texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the orange curry sauce appears glossy as it coats the chicken pieces. In Image B, while the orange sauce is present at the base of the elements, the glossy texture appears less pronounced or significantly reduced due to the focus being shifted largely to non-food items. Thus, the sauce itself does not display as much glossiness when viewed around the new objects.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.36363636363636365
+}

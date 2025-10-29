@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The number of chairs is a core functional and identity feature of the furniture set. The original image clearly shows six chairs—four side chairs and two end chairs. Reducing or increasing this number would fundamentally alter the set’s intended use and recognition. Since the instruction specifies transforming the furniture into LEGO blocks but does not mention changing the quantity, the count must remain consistent. This is a key identifier with high weight.",
+      "question": "Are there exactly six chairs surrounding the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The table is square in the original image, which is a defining geometric feature distinguishing it from rectangular or round tables. Even though the material will change to LEGO bricks, the square shape must be preserved to maintain the original layout and functionality. Losing this shape would make the furniture unrecognizable as the same type of set. This is a core structural element.",
+      "question": "Is the table square in shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The arrangement of the chairs—specifically having two chairs at each long side and one at each short end—is a key spatial configuration that defines how the set is used. This layout must be preserved to ensure the LEGO version maintains the same functional setup. Altering this would disrupt the logical seating arrangement and reduce coherence.",
+      "question": "Are there two chairs on each long side of the table and one chair on each short side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The presence of armrests on the side chairs is a distinctive design feature in the original image. While not critical for function, it contributes to the visual identity of the chairs. Removing armrests would change the chair style and reduce visual consistency. Although the instruction allows transformation, it does not specify removing armrests, so their presence should be retained.",
+      "question": "Do the chairs on the long sides of the table have armrests?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The centerpiece is located in the center of the table in the original image. Its position is crucial for maintaining the visual balance and functional layout. Even though it will be replaced with LEGO plants, its central location must be preserved to reflect the original composition. This is an important scene element affecting symmetry and coherence.",
+      "question": "Is there a centerpiece located in the center of the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The furniture set is placed on a flat, level surface in the original image. This spatial context is necessary for the set to be functional and visually coherent. The instruction specifies placing it on a LEGO baseplate, which preserves the flatness and levelness. Thus, the flat surface condition must be maintained, even if the material changes.",
+      "question": "Is the furniture set placed on a flat, level surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

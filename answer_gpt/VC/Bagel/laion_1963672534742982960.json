@@ -1,0 +1,84 @@
+{
+  "filename": "laion_1963672534742982960",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the eyes of the figure still bright blue with clearly visible irises?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figure is enclosed within a glass globe, and such a setup likely means that the eyes have been stylized but are not visible in the provided detail as the face is blurred. Therefore, it cannot be determined if the eyes are bright blue with clearly visible irises.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the facial texture still characterized by deep, horizontal and vertical wrinkles and a cracked, stone-like pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the surface texture of the face cannot be detailed due to the blur and style transformation into a chibi figurine. The figure's face appears smoother and lacks the intricately detailed features, like the deep wrinkles and stone-like texture, seen in typical realistic 3D models.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the figure still shown with long, white hair extending past the shoulders?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the hair of the figure is stylized in a smooth, chibi-figurine fashion with long strands extending down. Although it hints at being 'long', it is a stylized version that may not extend past the shoulders clearly due to the dimensions of the figurine style.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the figure still have a full, white beard covering the lower face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, due to the blurred section, it is not possible to identify any distinct beard features, unlike in the original Image A where the beard is prominent. In chibi figurine designs, such features are often minimal and may not be represented.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the facial contours, including the jawline and cheekbones, still clearly defined and consistent with the original?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the nature of the chibi art style means facial features are typically simplified and rounded. Therefore, the facial contours such as jawline and cheekbones would not be clearly defined compared to the detailed contours observed in the original Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the neck still visibly defined and structured, showing a clear transition from head to torso?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the transition is simplified due to the chibi art style, where proportions are exaggerated or minimized, making the neck less defined. Thus, the distinct neck seen in original images is usually absent or greatly simplified here.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

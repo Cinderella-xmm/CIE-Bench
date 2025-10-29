@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_287",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the person retain their original posture and clothing details?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, despite the transformation into a stylized, cartoon-like illustration, the person's posture remains similar to that in Image A. They are standing and holding a tablet, just as in the original image. However, the clothing is altered significantly, with original clothing details simplified and color changed to bright blue. The bag also becomes simplified in design and color.",
+      "weight": 3,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the person still positioned on the platform as in the original image?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the person continues to stand on the platform, albeit with changed stylistic representation compared to Image A. The overall composition and the scene depicted, including the presence on the right side of the image next to the train tracks, remains consistent with the original.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the station's architectural features, including the glass roof and metal beams, retained?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, while the station setting remains, the architectural details are rendered in a stylized manner. The glass roof and metal beams are replaced by simplified design elements, focusing on the illumination aspect rather than actual structural details like in Image A, where these features are more detailed and realistic.",
+      "weight": 2,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are other passengers still visible in the background?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, unlike Image A, the background does not prominently feature other passengers. The focus is more on stylized color elements and simplified forms, resulting in the removal or obscuring of distinct passenger figures that were clearly depicted in Image A.",
+      "weight": 1,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the person still interacting with the tablet as in the original image?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the person maintains their interaction with the tablet, reflected in a similar posture and engagement with the device as seen in Image A—holding and gazing at the tablet. Despite the stylization, the action being performed by the person remains consistent.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

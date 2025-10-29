@@ -1,0 +1,71 @@
+{
+  "filename": "laion_925065014931953737",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the head of the character significantly larger than the body, with smooth, consistent scaling across facial features and neck, avoiding jagged edges or inconsistent proportions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on the visual information from Image B, the head of the character appears proportionate to the body, maintaining a realistic, human-like anatomy. This suggests that the scaling is consistent and there are no apparent distortions or jagged edges that would indicate disproportion. The neck also transitions smoothly between the head and body.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the black outlines around the character's body and costume elements consistently thick, clean, and free of smudging or irregularities that suggest poor rendering?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Examining Image B, there are no apparent thick black outlines around the character's body or costume elements commonly seen in animated styles. Instead, the image reflects a realistic rendering style typical of live-action depictions. Therefore, black outlines being consistent and clean is not applicable as this image lacks such features.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the \"S\" symbol on the chest clearly visible, using bright red and yellow colors with no blurring, color distortion, or loss of definition at the edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The 'S' symbol on the chest in Image B is clearly visible and distinct with rich red and gold-like colors. The edges of the symbol maintain definition, and there is no blurring or distortion present. The colors are vibrant and correspond to how this symbol typically appears in Superman's costume, indicating clarity without loss of detail.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the blue and red colors in the suit and cape uniformly vibrant and saturated, with no visible color banding, halos, or unnatural transitions between hues?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the suit with a deep blue and the cape with a rich red, both fitting Superman's typical color scheme. The colors are consistently vibrant across the suit and cape, with seamless transitions and no visible halos or color banding. The shading and lighting appear to be naturally rendered, suggesting high-quality color uniformity.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the hands of the character have exactly five fingers each, with natural-looking shapes and spacing, and are the arms and legs proportionally shortened without broken joints or unnatural bending?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character's hands are clearly depicted with five fingers each. The fingers and hands appear naturally shaped and are appropriately spaced without any visual distortion. The arms and legs also maintain realistic human proportions with no signs of unnatural bends or shortening, aligning with the character's typical superhero build.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

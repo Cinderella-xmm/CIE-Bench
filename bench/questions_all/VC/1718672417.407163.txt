@@ -1,0 +1,109 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a llama standing in a forested environment, facing slightly to the left with its head turned toward the camera. The llama has long, fluffy white fur, prominent upright ears, and a calm expression. It wears large, dark-framed glasses with thick brown rims that sit over its eyes. A red patterned bandana is wrapped around its forehead, just above the glasses. Its neck and chest are adorned with numerous braided strands made from its own fur, intricately woven and decorated with beads, small charms, and fabric strips in earthy tones—pink, brown, white, and beige. These braids hang down like dreadlocks, forming a dense, textured display. The background consists of tall pine trees with soft sunlight filtering through, creating a warm, golden glow and a shallow depth of field that blurs the surroundings into a natural, serene woodland setting.
+
+Thinking process:  
+The editing instruction explicitly states transformations:  
+- "Transform the subject into a Norse mythological figure" → implies complete reimagining of the subject’s identity, including appearance, attire, and symbolic elements.  
+- "Weaving long braids with ornate, Viking-style metalwork and amulets" → allows modification of braid content (materials, ornaments), but not necessarily the presence of braids themselves.  
+- "Turn the fur-lined apparel into intricately patterned Norse attire, with runic engravings visible" → indicates replacement of clothing style and material, but does not specify removal of existing textures or structures.  
+- "Reimagine the forest background as an ancient, misty Scandinavian landscape, dotted with standing stones inscribed with old runes" → clearly permits full transformation of the background scene.
+
+Thus, the **allowed changes** include:
+- Subject’s form and identity (from llama to Norse figure)
+- Style and material of braids (adding metalwork, amulets)
+- Clothing design (replacing current fur/texture with Norse patterns and runes)
+- Background environment (forest → misty Scandinavian landscape with standing stones)
+
+**Allowed Changes List:**  
+(Specific element 1 that allows for changes): The subject’s species and cultural identity (llama → Norse mythological figure)  
+(Specific element 2 that allows for changes): The materials and decorative elements within the braids (e.g., addition of metalwork and amulets)  
+(Specific element 3 that allows for changes): The clothing worn by the subject (fur-lined → Norse-patterned garments with runes)  
+(Specific element 4 that allows for changes): The entire background environment (woodland forest → misty Scandinavian landscape with standing stones)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Despite extensive transformation instructions, certain visual elements must be preserved based on their role in maintaining identity coherence and logical consistency:
+
+1. **Core recognition elements**: While the subject is being transformed into a Norse figure, the original image features unique visual markers that define the subject as a *llama*—specifically, its facial structure, ear shape, and overall head morphology. Even if it becomes mythological, the underlying animal form should retain key anatomical traits to preserve continuity. For example, the **shape of the ears**, **position and size of the eyes**, and **nose structure** are essential for identifying the creature as derived from a llama. If these are altered beyond recognition (e.g., human-like face), the transformation loses its basis in the original subject.
+
+2. **Functional/logical association elements**: The braids are not merely decorative—they are physically formed from the llama’s own fur and extend downward from the neck. Even if embellished with metalwork, they must remain *attached to the same anatomical location* (neck area) and maintain their *origin as extensions of the fur*. This ensures continuity between the original and edited versions. Additionally, the glasses must remain on the face, positioned over the eyes, because they are a key accessory defining the character's personality and style.
+
+3. **Non-modified element deduction**: After excluding allowed changes, the following unmentioned elements must be retained:
+   - The **presence of the glasses** (including their shape, color, and placement)
+   - The **red bandana** on the forehead
+   - The **white fur texture** of the body and head (though possibly layered under new attire, it should still be visible or implied)
+   - The **direction of gaze and head orientation** (slightly turned to the left, looking at viewer)
+   - The **general posture** (standing upright, facing forward)
+
+These elements are not mentioned for change, and altering them would break visual coherence with the original.
+
+**Preservation Targets List:**  
+(The shape and position of the ears)  
+(The placement and form of the glasses)  
+(The presence and position of the red bandana)  
+(The white fur texture of the head and body)  
+(The direction of the head turn and gaze)  
+(The origin and attachment point of the braids from the neck)
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The shape and position of the ears are critical anatomical features that distinguish a llama from other animals. In this image, the ears are upright, pointed, and located symmetrically on top of the head. They are a core identifier of the species. Even if the subject is transformed into a mythological figure, losing this feature would make it unrecognizable as originating from a llama. Therefore, preserving the ear shape and position is essential for identity retention.
+    Question: Are the ears upright and positioned symmetrically on top of the head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The glasses are a defining accessory in the original image, contributing significantly to the character's persona. Their dark brown frames, thick rims, and placement directly over the eyes are distinctive. Removing or relocating them would fundamentally alter the visual identity of the subject. Since no instruction specifies changing their form or position, they must be preserved.
+    Question: Are the dark-framed glasses positioned directly over the eyes?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The red bandana is a specific accessory placed across the forehead, just above the glasses. It is a unique detail that adds to the character’s stylized appearance. Although the instruction allows for ornamental additions, it does not mention removing or replacing the bandana. Thus, its presence and location must be maintained to ensure continuity.
+    Question: Is there a red patterned bandana wrapped around the forehead, above the glasses?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The white fur texture is a fundamental characteristic of the llama, especially visible on the head and neck. While the instruction allows for overlaying Norse attire, the underlying fur should remain visible or implied to maintain biological plausibility. Losing the white fur would erase the animal’s base identity.
+    Question: Is the white fur texture visible on the head and upper neck?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The braids originate from the neck and hang downward, forming a distinct visual structure. They are made from the llama’s own fur and serve as both decoration and identity marker. Although the instruction allows adding metalwork and amulets, the braids’ origin and attachment point must remain unchanged to preserve their connection to the original subject.
+    Question: Do the braids extend downward from the neck area and appear to be made from the subject’s own fur?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The head is turned slightly to the left, with the gaze directed toward the viewer. This pose is central to the composition and emotional tone of the image. Altering the head angle or gaze direction would disrupt the viewer’s engagement and break continuity with the original.
+    Question: Is the head turned slightly to the left, with the gaze facing forward toward the viewer?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_287",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the person retain their original posture and clothing details?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the person maintains a similar posture to Image A with arms bent, holding a tablet. However, while the overall shape and position are consistent, the details of the coat, scarf, and shoulder bag are stylized and simplified, featuring exaggerated colors and lacking texture. The posture is retained, but clothing details are altered.",
+      "weight": 3,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the person still positioned on the platform as in the original image?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the person appears to be standing next to a train on what seems to be a platform, similar to Image A. Both images show the train at a station with the person positioned close by, indicating that the station setting is consistent.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the station's architectural features, including the glass roof and metal beams, retained?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "Image B depicts stylized representations of architectural elements like the station roof with elements suggesting glass panels, but these features are abstracted compared to Image A's realistic depiction. The general form is retained, but the specific details are stylized.",
+      "weight": 2,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are other passengers still visible in the background?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "Image B does not clearly depict distinct figures representing other passengers in the background as seen in Image A. The area behind has been abstracted and does not contain recognizable human figures.",
+      "weight": 1,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the person still interacting with the tablet as in the original image?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "The individual in Image B is depicted in a similar pose interacting with the tablet, mirroring Image A. Both images show the person holding and seemingly interacting with the device in a comparable manner.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

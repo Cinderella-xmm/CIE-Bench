@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of enhancing facial features to be more expressive and cartoon-like, this question evaluates whether the facial proportions of the adult character (on the left) remain consistent and natural after editing. Specifically, it checks if the eyes, mouth, and cheeks are enlarged or distorted in a way that breaks realism or causes asymmetry.",
+      "question": "Does the adult character’s face retain symmetrical and proportionate features with clearly defined eyes, mouth, and cheeks without distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of modifying clothing with added details like patterns or layers, this question assesses whether the clothing of the topmost child (wearing a blue hat and blue outfit) maintains consistent color and texture without unnatural blending or jagged edges.",
+      "question": "Are the clothing details of the top child, including the blue hat and jacket, smoothly rendered with no visible pixelation, color bleeding, or texture gaps?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of adding a glowing effect to the book held by the adult, this question checks whether the glow around the book is subtle and does not cause adjacent areas (like hands or background) to become overexposed or discolored.",
+      "question": "Is the glow effect on the book limited to a soft halo without affecting the color or clarity of the surrounding hands or background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of inserting a forest background with whimsical flora, this question evaluates whether the background elements (trees, flowers, etc.) are properly scaled and positioned to appear behind the characters without overlapping or clipping through them.",
+      "question": "Are the background elements placed behind the characters and do they respect depth, avoiding any clipping through arms, legs, or heads?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of adding a wooden signpost with handwritten text, this question checks whether the signpost is positioned logically (e.g., near the edge of the frame) and whether its texture and lettering appear coherent and integrated into the scene.",
+      "question": "Is the wooden signpost located in a plausible position within the scene and does it have visible wood grain and legible handwritten text without distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "Based on the sub requirement of maintaining anatomical plausibility, especially for the stacked children, this question examines whether the hands and limbs of the middle child (climbing) show correct number of fingers and natural joint angles without floating or overlapping.",
+      "question": "Does the middle child’s hand have exactly five fingers with natural curvature and alignment, and are the limbs positioned in a physically possible climbing pose?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "Based on the sub requirement of avoiding visual artifacts, this question checks whether the entire image has clean outlines, uniform stroke weight, and no missing fill areas or smudges that suggest poor rendering.",
+      "question": "Are all character outlines and color fills complete, with no broken lines, gaps, or smudged edges visible across the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

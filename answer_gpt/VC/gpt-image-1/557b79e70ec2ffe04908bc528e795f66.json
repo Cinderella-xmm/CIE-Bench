@@ -1,0 +1,84 @@
+{
+  "filename": "557b79e70ec2ffe04908bc528e795f66",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the mustache present and shaped in a way that matches the original image, with a curved, thick form extending from both sides of the upper lip?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the detail needed to assess the presence and shape of a mustache on the face is not visible due to the blurred area. However, in Image A, the mustache is a distinct feature, matching the original depiction. The observer cannot conclude the presence or matching of the mustache in Image B based solely on the visible information.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the hair retain its wild, voluminous, and unevenly distributed white appearance, particularly with strands extending outward from the sides and top of the head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays white hair that has a voluminous, wild appearance, with strands extending outward at various angles from the sides and top of the head, similar to the original image in Image A. The characteristic disarray of strands is noticeable, indicating a consistent portrayal.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there vertical black stripes running down the front of the sweater, matching the pattern seen in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a sweater with vertical black stripes running down its front, however these stripes are not present in the original image. Image A displays a plain sweater, and the stripes appear to be an addition in Image B, suggesting a change.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is a portion of a light-colored shirt collar visible beneath the sweater’s neckline, aligned with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image A shows a shirt collar beneath the sweater’s neckline, while Image B depicts the sweater without any visible shirt collar. This suggests that Image B lacks this feature compared to the original.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the eyes, nose, and forehead lines maintain their original relative positions and shapes, such as the horizontal creases on the forehead and the oval shape of the eyes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B has a blurred region that conceals the facial features, making it impossible to observe the configuration and relative positions of the eyes, nose, and forehead lines. In Image A, these features are distinctly visible. Due to the lack of visible data in Image B, their maintenance or alignment with the original cannot be confirmed.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the sweater’s neckline and shoulder area textured with ribbed patterns consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a sweater with distinct ribbed patterns near the neckline and shoulder area, providing texture detail. Image A has no such detailed texture, appearing smooth around the neckline and shoulder. The texturing in Image B marks a deviation from the original.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.21428571428571427
+}

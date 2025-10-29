@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_275",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the creature retain the distinctive shape and texture of the original rock formation?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the edited image turns the original rock formation into a cartoon-style creature named 'Cretower,' characterized by having a body with a similar rugged texture and tower-like shape. This preserves the distinctive shape and texture of the original tower-like rock formation seen in Image A. This transformation from a natural rock into a character maintains the essence of the original structure, evidenced by the vertical stature and rugged surface. Hence, the creature effectively retains the appearance of the rock formation while anthropomorphizing it.",
+      "weight": 3,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the rolling green hills and mountainous background still present in the image?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the background has been completely removed and replaced with a plain, light-colored background focused solely on the cartoon creature 'Cretower,' omitting any depiction of the landscape elements presented in Image A, where rolling green hills and a mountainous backdrop are prominently featured. Therefore, these landscape components are absent in the second image.",
+      "weight": 2,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the lighting and shadow effects on the landscape retained?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "Image B shows a cartoon-style drawing where there is no detailed landscape, just the character 'Cretower.' It lacks any context of lighting and shadow effects on a landscape as present in Image A. Image A has natural lighting casting shadows, while Image B does not offer such elements because it focuses on the animated rock character on a plain background. As such, lighting and shadow effects specific to landscapes are not present in Image B.",
+      "weight": 2,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the contours and coloration of the hills and mountains remain consistent with the original image?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the focus is solely on the character 'Cretower' against a plain background, with no representation of the environmental features such as hills and mountains present in Image A. Hence, there’s no way to assess or compare the contours and coloration of the hills and mountains as there are no corresponding features present in Image B.",
+      "weight": 1,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the position of the creature (original rock formation) relative to the landscape maintained?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "Image B does not depict any landscape; it presents the cartoon character 'Cretower' on a plain background with no other spatial elements or environment depicted. Image A, however, includes the rock formation positioned among rolling hills and mountains. The lack of background in Image B means there's no reference to maintaining positionality relative to any landscape, as it completely lacks those components.",
+      "weight": 2,
+      "model_answer": "no",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.3
+}

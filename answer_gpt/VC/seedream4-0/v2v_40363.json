@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_40363",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the child's original shape and position?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the image of the child appears to be composed of colorful tiles depicted in a mosaic style, which suggests a reshaped and potentially repositioned version compared to any hand-painted original appearance of the child. The position of the child in relation to the balloons might have been maintained, but the shape is clearly modified due to the artistic style of the mosaic.",
+      "weight": 3,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the round red balloon retained in its original shape and position?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the round red balloon appears very similarly positioned and shaped as in Image A, still depicted as a 3D object unlike the 2D tiles in the rest of the image, suggesting that its shape and position remain unchanged.",
+      "weight": 3,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the heart-shaped balloon retained in its original shape and position?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the heart-shaped balloon has been visually altered, appearing as a mosaic rendering that differs from Image A's painted surface. However, its position relative to other objects remains equivalent. Hence, while the shape differs, the position does not.",
+      "weight": 3,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the child still appear to be reaching toward the heart-shaped balloon?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, despite the mosaic representation, the child's gesture and arm position remain directed towards the heart-shaped balloon, similar to what is usually perceived in such scenes. Hence, the intended action and directionality remain consistent.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the relative positions of the child, the round red balloon, and the heart-shaped balloon maintained?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the relative positions among the child, the round red balloon, and the heart-shaped balloon appear to be maintained. The objects are aligned in the same spatial configuration as generally perceived, reiterating the originally implied connections among them.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5384615384615384
+}

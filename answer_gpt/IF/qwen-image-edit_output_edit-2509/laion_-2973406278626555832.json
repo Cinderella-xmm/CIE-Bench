@@ -1,0 +1,110 @@
+{
+  "filename": "laion_-2973406278626555832",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the edited image divided into two distinct panels?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the layout is clearly divided into two separate sections, referred to as panels, with each presenting distinct content: one side depicting the external view of a device and the other showing an internal schematic.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the vape device in Panel 1 rendered in a detailed and realistic manner, showing it in use?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Panel 1 of Image B illustrates a vape device sitting on a counter, but it is not depicted in use. The illustration style suggests a comic or schematic representation rather than a realistic depiction.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does Panel 1 include a text bubble with the exact phrase “This device vaporizes liquid at low temperatures.”?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the text bubble within Panel 1, the phrase contains 'This device vaporizes liquid to low temperatures.' The key difference is the use of 'to' instead of 'at.'",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does Panel 1 have a background depicting a simplified laboratory setting that suggests innovation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Panel 1 of Image B includes elements like lab equipment such as flasks and beakers, which are indicative of a laboratory setting often associated with scientific innovation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does Panel 2 display a cross-section diagram of the vape device with clear labels for coil, liquid, battery, and airflow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Panel 2 contains a cross-section diagram with labels. However, the labels are not written correctly as 'title case'. Instead, they seem misspelled or artistically distorted, so clear labels for 'coil,' 'liquid,' and other technical terms are not present in a traditional sense.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does Panel 2 include a text box with the exact phrase “Understanding its internal magic!”?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "At the top of Panel 2, there is a text box that contains the phrase 'Understanding its internal magic!' which matches the given text, making it an exact match.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is all text in the comic strip rendered in a handwritten-style font?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text in both panels appears to be in a handwritten-style font, which is typical in comic strips for speech bubbles and informal labels.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q8",
+      "question": "Is the vape device in the comic strip visually consistent with the one shown in the original image (black cap, transparent body, etc.)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The vape device in both Image A and the comic strip of Image B has a visual consistency in terms of its structure, such as having a black cap and a transparent section that resembles the liquid container. This consistency suggests the comic's representation aligns with the original device.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.625
+}

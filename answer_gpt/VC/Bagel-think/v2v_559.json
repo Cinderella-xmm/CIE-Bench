@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_559",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is there a white cup being held by the foreground figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the foreground figure is depicted as a chibi-style character. The character is holding a white cup in both hands. This visual information, combined with common knowledge about chibi figures (which often depict cute and simplified versions of real-life people or objects), clearly shows that the character is holding a white cup in front of their body.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the cup positioned near the mouth of the foreground figure, indicating a drinking action?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi character is holding the cup at chest height in front of the body, not near the mouth. The character's posture does not suggest a drinking action, as they are not lifting the cup toward their mouth.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a lamp emitting a soft, warm glow on a table in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B portrays a lamp on a table in the background of the diorama-style setup depicted within the frame. The warm color tone of the setting is similar to that of a soft, glowing lamp found in cozy environments. This is consistent with depictions of warm indoor lighting.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the second figure positioned near the glowing lamp in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, within the framed scene, there is a second chibi figure that appears to be positioned relatively close to the lamp. The proximity is similar to the common arrangement of such figures placed as a compositional element in small dioramas.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are both figures wearing formal suits?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, both the foreground and background chibi figures are dressed in small, simplified versions of formal suits, complete with ties and structured appearances. This matches the common traits of formal business attire.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the lighting in the scene warm and consistent with the original image’s tone?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B reflects a warm, ambient lighting similar to Image A, indicated by the presence of the lamp with a warm glow effect, and the entire composition uses color tones that suggest an evening or indoor setting. This consistent tone helps in maintaining the original atmosphere.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

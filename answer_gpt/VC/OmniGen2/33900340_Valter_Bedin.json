@@ -1,0 +1,97 @@
+{
+  "filename": "33900340_Valter_Bedin",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the central archway positioned at the center of the main structure, forming a passageway between the two vertical pillars?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the edited image introduces a large humanoid figure. This addition alters the perception of the architecture, making the original structure less distinct. However, by examining the regions visible behind the figure, the central archway is still visible; it is positioned between two sections of the wall but not clearly forming a passageway between two vertical pillars when considering the edited image perspective.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the two vertical pillars standing symmetrically on either side of the central archway, forming a tall, narrow gateway?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the presence of the giant humanoid figure obscures the clarity of the architectural elements. The structure does not appear to feature two symmetrical vertical pillars framing a central archway. Instead, the humanoid figure overshadows much of the wall, including the archway.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the battlements along the top of the structure composed of repeating rectangular merlons and gaps (crenels)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the battlements in the edited image retain the traditional crenellation pattern that is characterized by alternating merlons (solid upright sections) and crenels (gaps). Despite the presence of the large humanoid figure, parts of the battlements are still visible and consistent with this pattern.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a long, low brick wall running parallel to the main structure on the left side of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B retains the architectural layout of Image A, including the long, low brick wall running parallel to the main structure on the left side. This wall is a significant feature in both images, anchoring the other elements spatially.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a paved pathway extending from the foreground toward the central archway, running between the low wall and the main structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the overwhelming presence of the large humanoid, the paved pathway is still observable. It extends from the foreground toward the main structure, running between the low wall and the remaining visible sections of the main structure, although the view of the path is impacted by the edits.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there additional arched openings visible to the right of the main central archway, integrated into the same wall structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows no additional arched openings visible to the right of the central area that the humanoid figure occupies. The figure obscures this part of the wall, unlike Image A where multiple arches are visible.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the small human figure located on the pathway, positioned behind the viewer and moving toward the central archway?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the large humanoid figure dominates the scene, and any smaller figures are replaced or hidden, including the human presence seen in Image A. Therefore, no small human figure is perceptible on the pathway moving towards the central archway.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4666666666666667
+}

@@ -1,0 +1,76 @@
+Description of reference image: The subject is a black-and-white cat lying on a cream-colored surface, with a remote control placed in front of it. The cat has a distinctive black-and-white fur pattern, a white chest, and a collar with small beads. The cat’s green eyes are prominently visible. In the background, there are parts of books on a shelf and possibly some household items. The setting is indoors, in a home-like environment.
+
+### Step 1 - Carefully Read and Analyze Editing Instructions
+
+Thinking process: The instructions specify transforming this image into an adventure-themed movie poster with the following key changes:
+- Subject transformation: Change the cat into a horse while keeping the pose unchanged.
+- Scene replacement: Replace the background with a post-apocalyptic ruined city.
+- Text addition: Include the title “LAST RIDE” at the top and a film rating label.
+- Filter application: Apply a cool-tone filter to the image.
+
+### Allowed Changes List:
+- Change the black-and-white cat into a horse while preserving its pose and size relative to the remote control.
+- Replace the indoor background with a post-apocalyptic cityscape.
+- Add text elements (title and film rating) as specified.
+- Apply a cool-tone filter.
+
+### Step 2 - Determine Unchanged Elements
+
+Thinking process:
+- Core recognition elements: The pose and size of the subject relative to the remote control must remain because instructions demand "pose unchanged."
+- Functional/logical association elements: The position and appearance of the remote control should stay intact as it serves as a reference for scale and the interaction between the subject and the object.
+- Remaining elements: The texture and design of the remote control, the fabric texture of the surface the cat lies on, and the general shape of the collar.
+
+Preservation Targets List:
+- Pose and size of the subject relative to the remote control.
+- Position and appearance of the remote control.
+- Texture and design of the remote control.
+- Surface texture where the subject lies.
+- Shape of the collar (though the subject changes to a horse, the collar's presence should align logically).
+
+### Step 3 - Generate Yes/No Questions
+
+{
+    Q1: 
+    Thinking process: The pose and size of the subject relative to the remote control are critical for maintaining the visual identity in the new context. This ensures the subject still appears proportional and positioned correctly, which is a core element.
+    Question: Does the transformed subject (horse) maintain the same pose and size relative to the remote control as the original cat did?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The remote control's position and appearance are essential for scene continuity and as a reference point for the subject's scale. Its details directly influence the realism of the image post-edit.
+    Question: Is the remote control positioned in the same location and maintains the same visual appearance as in the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The texture and design of the remote control are important in maintaining the coherence of the scene. Altering these would break the visual link between the subject and the object.
+    Question: Does the texture and design of the remote control remain unchanged from the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The surface texture provides contextual grounding for the subject. Keeping it consistent helps maintain the believability of the scene despite the dramatic background change.
+    Question: Is the texture of the cream-colored surface, upon which the subject lies, preserved as in the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q5: 
+    Thinking process: The collar, although a minor detail, helps in maintaining the overall logical consistency of the subject transitioning from a cat to a horse. Its presence should be coherent with the new subject.
+    Question: Does the collar's shape and placement remain consistent with the new subject (horse)?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

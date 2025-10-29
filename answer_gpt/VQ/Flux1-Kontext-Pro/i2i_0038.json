@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0038",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the line-art transformation of the person's pose retain the natural positioning of the raised hand, open mouth, and camera without introducing unnatural textures or distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the line-art conversion has been applied to the person's pose, which appears consistent with the original positioning in Image A. The hand is raised naturally, and the camera partially covers the face without introducing significant distortion. Using world knowledge of body postures and how they typically appear in simplified art forms, the conversion to line-art maintains the natural pose without introducing any awkward textures.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the raised hand, open mouth, and camera covering part of the face preserved in a way that maintains their structural consistency and visual credibility?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited Image B, the raised hand, open mouth, and camera are transformed into line art but keep their basic structural features intact. The line-art representation of these elements still resembles a hand, open mouth, and camera, consistent with the original Image A and credible within the typical graphic style of line-art. This indicates a successful preservation of these features without compromising their structural integrity.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the added speech bubble with the text “Take a photo” integrate naturally into the image without introducing any obvious artifacts or disrupting the scene's realism?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image incorporates a speech bubble in a typical line-art style. Speech bubbles are common elements in illustrated and cartoon images meant to suggest dialogue. In Image B, the speech bubble with 'Take a photo' does not introduce any artifacts or distortions. It fits well within the composition of the line-art style, lending a cartoonish effect while maintaining coherence and the playful nature of the scene.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have the fine details, such as the texture of the bathroom and the person’s clothing, been preserved without loss or introduction of unnatural artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the transformation to line-art simplifies textures like the bathroom tiles and clothes into clear, outlined shapes. The edited image shifts away from the detailed textures seen in Image A but successfully maintains the representation of these elements. The simplified style is typical for cartoon art and does not introduce unnatural artifacts, thus preserving the essence of these details effectively as outlined components.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the cartoon line-art transformation maintain the realistic proportions and shapes of the person and objects, avoiding any distorted geometric shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The line-art style in Image B retains the proportionate shapes of the person and objects as observed in Image A. The transformation to a cartoonish line-art does not distort the realistic proportions of objects like the sink and mirror, nor does it warp the person's limbs or body shape. The visual cues indicate a careful conversion process that maintains the realistic proportion and structure in line with typical line-art characteristics.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

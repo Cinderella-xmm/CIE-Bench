@@ -1,0 +1,47 @@
+```
+Step 1: Disassemble Editing Instructions
+-Thinking process 1: The editing instruction involves transforming the warthog into a whimsical forest elemental creature, which includes multiple modifications to its physical features. These changes affect key anatomical areas such as the tusks, body patterns, mane, back, eyes, and hooves. Each modification must be evaluated for perceptual quality, including realism, material consistency, structural coherence, and absence of artifacts. The original image shows a realistic warthog with natural textures, proportions, and lighting, so any edits must maintain visual plausibility while introducing fantastical elements. The challenge lies in balancing fantasy with biological and environmental logic—e.g., mossy textures on tusks should resemble real moss, leaf patterns should follow natural growth logic, waterfall-like mane should flow naturally from the head, fungi should appear organically placed, glowing eyes should not disrupt facial structure, and branch-like hooves should retain structural integrity. Therefore, the following sub requirements are derived:
+-Sub requirement 1: Adding mossy textures to the tusks—evaluate whether the texture appears natural, adheres to the tusk surface without floating or breaking geometry, and maintains consistent lighting and shadow.
+-Sub requirement 2: Replacing the mane with cascading waterfall-like textures—assess whether the new texture flows realistically from the head, follows gravity and fluid dynamics, and does not distort the underlying skull structure.
+-Sub requirement 3: Adding intricate leaf-styled patterns across the body—check if the patterns integrate seamlessly with the skin, avoid unnatural edges or overlapping, and maintain consistent scale and color harmony.
+-Sub requirement 4: Placing fungi along the back—determine if the fungi grow in plausible locations (e.g., near spine, not through limbs), have natural shapes and colors, and do not obstruct anatomical features.
+-Sub requirement 5: Modifying eyes to glow like woodland pools—verify that the glow effect is contained within the eye socket, does not distort surrounding facial features, and matches ambient lighting.
+-Sub requirement 6: Designing hooves to resemble twisting branches—ensure the branch-like structures preserve the original hoof’s functional shape, do not introduce impossible angles or break symmetry, and maintain continuity with leg anatomy.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of adding mossy textures to the tusks, this evaluates whether the texture application respects the original tusk geometry and integrates naturally with the surrounding surfaces. Moss should adhere to the curved surface without peeling or floating, and shadows should align with the light source in the scene.
+Question: Do the moss textures on the tusks follow the curvature of the tusks and cast consistent shadows matching the lighting direction?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of replacing the mane with waterfall-like textures, this checks whether the new texture maintains fluid dynamics and anatomical feasibility. Waterfall textures should emerge from the head region, flow downward, and not intersect with the snout or ears in an unnatural way.
+Question: Does the waterfall-like mane flow continuously from the top of the head downward without intersecting or distorting the snout or ear regions?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of adding leaf-styled patterns across the body, this assesses whether the patterns are integrated into the skin without disrupting the animal's natural contours or creating sharp, artificial edges. Patterns should follow muscle lines and not appear pasted on.
+Question: Are the leaf-styled patterns aligned with the natural folds and contours of the warthog’s body, avoiding abrupt edges or misaligned segments?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of placing fungi along the back, this evaluates whether the fungi are positioned in biologically plausible locations (e.g., near spine, between shoulder blades) and exhibit natural shapes and shading. Fungi should not overlap limbs or appear suspended in air.
+Question: Are the fungi positioned along the spine and upper back without overlapping legs or protruding unnaturally into the air?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of modifying the eyes to glow like woodland pools, this checks whether the glow is confined within the eye sockets and does not cause deformation of the surrounding facial structure. The glow should not create unnatural highlights or distort the eyelid shape.
+Question: Do the glowing eyes remain within the eye sockets, preserving the shape of the eyelids and surrounding facial features without distortion?
+Choices: Yes, No  
+A: Yes
+
+Q6: 
+Thinking process: Based on the sub requirement of designing hooves to resemble twisting branches, this evaluates whether the branch-like structures maintain the original hoof’s attachment point and orientation. Branches should not twist at impossible angles or detach from the leg anatomy.
+Question: Do the branch-shaped hooves connect naturally to the lower legs and maintain consistent joint alignment without breaking the leg structure?
+Choices: Yes, No  
+A: Yes
+```

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0070",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the train labeled \"BB 3017\" still visible and legible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train is facing the viewer directly on the railway track, revealing the front part of the locomotive. Closer inspection shows that the train is labeled 'BB 30117' on its front, with each character clear and easy to read. This process involves recognizing the positioning and size of the label in relation to the observer's perspective, which is central and unobstructed.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the railway tracks, including the parallel tracks beside the main line, still intact and correctly laid out?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the railway track upon which the train is positioned is clearly visible. However, there are no additional parallel tracks visible beside the main line, suggesting a simplified scene with singular track focus. This observation involves interpreting the environment for additional track elements which are absent in this edited landscape.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the train still positioned centrally on the railway tracks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train continues to occupy a central position on the railway track, aligned perfectly with the rails as it progresses down its path. This scene marks consistent placement within the edited image, highlighting the perspective captured by looking directly down the track at the train's front, emphasizing central alignment.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the train retain its structural integrity, including the white locomotive and the loaded freight car?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon analyzing Image B, the train maintains its structural integrity, consistent in retaining both the locomotive and an attached freight car. These components are visually distinguishable and structurally sound within the edited scene, indicating no alterations to body composition.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the railroad signal on the left, marked with the number \"3\", still present in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no evidence of a railroad signal on the left, marked with any number, including '3'. The edited scene has transitioned from the original setting, eliminating all manmade structures like signals, thus focusing on a natural landscape instead.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7
+}

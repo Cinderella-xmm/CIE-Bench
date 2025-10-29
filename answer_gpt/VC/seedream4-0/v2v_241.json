@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_241",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the horse depicted standing on the elephant's back?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the scene features a stylized and cartoonish rendering. The horse is indeed positioned standing on the elephant's back. This setup mirrors the unusual composition in the original image where a horse balances on an elephant. The use of lines, shapes, and the overall position of the figures confirms the horse's position atop the elephant.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the elephant shown in a posture that supports the horse on its back?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cartoonish elephant is posed in a very simplistic, rounded form that includes a flat top, designed to visually support the horse. While in reality, such a scenario is improbable, the stylized depiction in Image B mirrors a state meant to suggest stability for balancing the horse.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the background retain a photorealistic appearance with a grassy field and sky?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B is rendered with a cartoon-like style, including the elements in the background. The field and sky are simplified, yet they echo the components seen in Image A, suggesting a grassy field and blue sky. However, they lack photorealistic detail, opting for a more stylized, animated appearance.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the spatial relationship between the horse and elephant preserved, with the horse positioned above the elephant?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B maintains the spatial dynamic between the horse and the elephant as seen in the original. The positioning indicates that the horse is situated directly above the elephant, resting on its back, which reflects the composition found in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the scene displayed within an ornate photo frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the entire scene is encapsulated within a decorative, ornate frame. This addition distinguishes it from Image A, providing a thematic boundary that emphasizes the content presented in a stylized, framed manner.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

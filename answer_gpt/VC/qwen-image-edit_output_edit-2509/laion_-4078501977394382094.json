@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-4078501977394382094",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the van’s body primarily green with a cream-colored roof and beige trim along the lower edge and windows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on the visual cues in Image B, the van's body appears predominantly green in color. The roof is cream-colored, and there are beige accents along the lower parts and around the windows. The integration of these specific colors corresponds with the description provided in the question. This analysis aligns with common knowledge of colored vehicles where specific regions are painted distinctively.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a wooden luggage rack mounted on the roof of the van?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, there is no wooden luggage rack visible on the van's roof. World knowledge about luggage racks typically features metal or wooden structures distinctly attached on top of vans for additional storage, but this characteristic is missing from Image B's depiction.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the van have a rounded front with two large windshield windows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the van is depicted with a rounded front. It features two large windshield windows which are characteristic of certain models of vans. This design is common in vehicles meant for road trips, providing wide viewing angles. The visual information aligns with the question’s description.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there round headlights and a chrome bumper visible on the front of the van?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the van with round headlights and a chrome bumper at the front, which are typical elements found in vehicle designs, especially classic models. These features are noticeable upon inspection and they relate to a common understanding of van designs.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the van depicted in an isometric (angled top-down) perspective?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing the perspective in Image B, the van is shown in a straightforward view from the side and front rather than an angled top-down isometric view. This presentation contrasts with the concept of an isometric depiction which involves a specific angle that reveals a three-dimensional aspect, usually at 30 degrees.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the dominant colors in the image warm tones such as yellow, green, and brown?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The analysis of Image B reveals dominant colors such as green for the van, and the desert scene incorporates colors like brown and light green in the background vegetation, signaling warm tones. Such colors are consistent with the hues typically found in desert or adventurous scenes.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are there at least three stylized brown cacti visible in the desert scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B visually depicts a desert scene with multiple cacti. However, these are green in color rather than stylized brown cacti. These represent common desert vegetation rather than stylized elements, hence not matching the description in the question.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.625
+}

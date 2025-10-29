@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0091",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the wall clock still visible after the edit?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "In Image B, the setting is a castle hall with stone walls and a wooden door. A large wall clock would usually be positioned on an interior wall in a modern setting, not typically found in a castle hall. Examining Image B reveals no presence of a wall clock, as the image focuses primarily on architectural details like stone arches and a door. Thus, based on the visual cues of Image B, the wall clock is not visible.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the wooden cabinet still visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Image B showcases a stone hall with an arched entrance, typical for a castle-type setting. A wooden cabinet, like the one depicted in the original image, fits a modern or home environment rather than a historical or castle space. The absence of such a cabinet in Image B, which focuses on stone architecture, indicates it is not visible.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image show elements typical of a castle hall interior, such as stone walls or arches?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays a stone archway and walls constructed from large stone blocks, with a wooden door at the center. These features are characteristic of a castle or medieval architectural style. The presentation of stone walls and an arched entrance are definitive indicators of a castle hall interior. Therefore, it aligns with typical castle hall elements.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the lighting in the edited image match the lighting style from the original image, with similar shadows and highlights?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the lighting creates distinct shadows and highlights on the cabinet and wall clock, suggesting a single light source from one side. Image B also demonstrates direct sunlight casting shadows and highlights on the stone floor and entrance, emulating a similar strong directional light source as seen in Image A. Both images exhibit pronounced shadows and highlights, indicating similar lighting styles.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any remaining objects from the original scene, such as vases or plants, in the castle hall setting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Image A includes objects like vases and plants on a wooden cabinet, contributing to a home-like environment. Image B, however, showcases a stark stone architecture typical of a castle hall without any modern or decorative objects. The visual cues indicate no objects like vases or plants from Image A are present in the castle setting of Image B.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

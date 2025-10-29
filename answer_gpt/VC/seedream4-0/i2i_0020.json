@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0020",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the train represented in a red-and-gray color block scheme?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the depiction of the train uses clearly defined color block schemes where the predominant colors are red on the lower part of the train and gray on the upper part. The styling mimics a simplified, abstract representation using large color areas without details. Based on these visual cues, the train is indeed in a red-and-gray color block scheme.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the sign circular with the text \"STOP\" clearly displayed?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sign to the right is portrayed with a red octagonal shape resembling a stop sign, which is standard for 'STOP' signals. The geometric shape is clearly not circular. The word 'STOP' is prominently displayed on this octagonal sign, reinforcing the common association with the stop command. Using world knowledge about signage shapes, the sign is not circular.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the train positioned parallel to the tracks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the train aligned with horizontal linear elements which represent the tracks beneath it. The train’s orientation follows the same horizontal direction as these lines, which suggests it is parallel to the tracks. This is consistent with expected train positioning in relation to railway tracks.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there green mountain outlines in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, behind the train, there are abstract shapes colored in green, resembling triangular and sloped forms that represent mountains. These outlines convey the common portrayal of mountains in simplified art. There is a clear depiction of mountain shapes in green, indicating presence in the background.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are simplified track lines present beneath the train?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The depiction of the tracks in Image B beneath the train uses simple, straight lines with colors largely red, likely symbolizing simplified railway tracks. This aligns with common artistic decisions to represent complex objects in simplified formats. Given the visual cues, track lines are simplified in this representation.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.75
+}

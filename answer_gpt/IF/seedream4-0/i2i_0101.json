@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0101",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the text \"flyaway\" been added to the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is visible text reading 'flyaway' positioned below the painting. This text is not present in Image A, where the space below the painting is empty. Thus, text has been added to Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the text “flyaway” written in a handwritten font?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text 'flyaway' appears in a script that simulates the appearance of handwriting, characterized by cursive and connected letters, which is typical of a handwritten style.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the text \"flyaway\" located directly below the painting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text 'flyaway' is positioned directly below the bottom edge of the painting, clearly aligned in the central lower space relative to the painting.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the text \"flyaway\" complement the scene and contribute to a romantic postcard-style appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The handwritten style of the text 'flyaway' adds a personal touch to the image, evoking a sense of nostalgia and romance. This complements the serene landscape painting above, creating a cohesive look reminiscent of a romantic or artistic postcard.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any additional elements or changes apart from the handwritten text “flyaway” below the painting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No\n```",
+      "explanation": "Upon close examination of Image B, apart from the addition of the 'flyaway' text, no other changes or elements appear to have been introduced below the painting as compared to Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

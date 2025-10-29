@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-4640309812135307815",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the woman’s hairstyle still platinum blonde with shoulder-length soft waves?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the object being evaluated is a fragrance bottle, which does not have hair. The question mistakenly assumes an element present in Image A (a woman's hairstyle). Therefore, unrelated details about hairstyle cannot apply to the fragrance bottle.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the woman still have bright red lipstick applied to her lips?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the focus is on a fragrance bottle and it does not have lips or makeup. The question refers to an unrelated aspect of the woman in Image A, making it inapplicable to the analysis of Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the black vertical slats with copper horizontal lines still present in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background is a solid light color suitable for showcasing a product, specifically the fragrance bottle. The black vertical slats and copper lines seen in Image A are not present in Image B, as the focus is on a product display.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the small red clutch still visible in the woman’s right hand?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not contain a woman holding a clutch; it features a fragrance bottle that does not hold objects. The question is inapplicable to Image B because the elements and context have shifted entirely from Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the woman still holding hands with the man on the right side of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The context of Image B is a product display of a fragrance bottle, which does not include people or interactions such as holding hands captured in Image A. Therefore, the interplay between individuals in Image A is not relevant to Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the fragrance bottle retain the elongated, flowing silhouette of the original dress?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents a fragrance bottle whose design mimics the flowing red petal design of the dress in Image A. The bottle has an elongated and fluid silhouette with leaf-like patterns reminiscent of elements from the fabric design.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the fragrance bottle still predominantly red in color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases a fragrance bottle that is predominantly red, consistent with the red color theme seen in the dress from Image A. This connection maintains the aesthetic continuity from the dress to the design of the bottle.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

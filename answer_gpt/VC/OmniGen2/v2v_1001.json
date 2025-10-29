@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1001",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the dinosaur depicted with its long neck extended and standing in the water?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, unlike Image A, the dinosaur itself is absent. It has been replaced by text 'The king of flavors' and part of a red condiment bottle, indicating a significant alteration. The visual cues in Image A showed a dinosaur with a long neck extended standing in the water, but these cues are missing in the edited image, thus leading to the conclusion that the dinosaur is not depicted as such in Image B.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the background still show a misty forest with tall trees?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B retains a detailed, misty forest scene with tall trees, similar to Image A. The foremost visual change is the absence of the dinosaur, replaced by text and a ketchup bottle, but the forest backdrop remains unchanged. Thus, the misty forest with tall trees continues to be evident in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the water surface still reflective, showing the dinosaur and trees faintly?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image (Image B), the water surface remains reflective but the reflection of the dinosaur is lost due to its removal from the scene. However, the reflection of the trees is still faintly visible. Comparing with Image A, the water still maintains its reflective nature but does not show the dinosaur anymore, confirming that while the trees are faintly mirrored, the dinosaur is missing.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the lighting still natural, with a soft haze permeating the forest?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B preserves the atmospheric qualities of Image A; it presents a natural lighting condition in the misty forest, complete with a soft haze permeating throughout. The background lighting and environmental mood are consistent between both images, suggesting that the natural soft haze effect in the forest is still intact in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the dinosaur retain its textured, grayish-brown skin?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the dinosaur is no longer present, which means there is no skin texture or color observable. Image A showed the dinosaur with its textured, grayish-brown skin, but these features cannot be analyzed in Image B due to the dinosaur's removal.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

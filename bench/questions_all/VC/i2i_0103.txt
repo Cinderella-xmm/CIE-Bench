@@ -1,0 +1,69 @@
+Description of reference image: The subject is a modern living room scene featuring a light blue sofa with matching cushions placed centrally against a plain dark blue wall. On the wall above the sofa hangs a framed landscape painting depicting mountains, water, and an orange-yellow sky, creating a serene setting. To the left of the sofa stands a tall green plant in a light blue pot. On the right side, a small wooden side table supports a lamp with a blue base and white shade.
+
+### Step 1 - Allowed Changes List:
+
+Thinking process: The instructions specify converting the image into a Van Gogh-style repainting while emphasizing brushstrokes and light-shadow contrast. Therefore, the textures, lighting effects, and artistic styles can be altered significantly. However, the core forms and placement of objects should remain intact as the instruction doesn't specify altering them.
+
+Allowed Changes List:
+1. Artistic style transformation to Van Gogh's brushstroke technique
+2. Enhancement of light and shadow contrast
+3. Adjustment of colors to match Van Gogh's palette 
+4. Brushwork texture overlay 
+
+### Step 2 - Determination of Elements That Should Remain Unchanged:
+
+Thinking process: The key recognition elements include the arrangement and forms of furniture and objects, such as the sofa, the painting, and their positions. Functional/logical elements, like the sofa serving as a central seating piece aligned with the wall-mounted art, need preservation. Remaining details, like the plant's vibrant green leaves and the lamp's recognizable shape, support visual coherence.
+
+Preservation Targets List:
+1. The sofa's location and general shape  
+2. The framed painting's placement and overall composition 
+3. The tall plant's position and leaf structure  
+4. The lamp's position relative to the sofa and its recognizable shape  
+5. The alignment of the rug beneath the sofa  
+
+### Step 3 - Generation of Yes/No Questions:
+
+{
+    Q1:  
+    Thinking process: The sofa's shape and position are critical as they anchor the scene. Any significant deviation would alter the living room's central element, impacting recognition.
+    Question: Is the central positioning and rectangular shape of the light blue sofa retained in the image?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 3  
+}
+
+{
+    Q2:  
+    Thinking process: The painting's placement and composition are essential for maintaining the scene's focus and aesthetic appeal.
+    Question: Is the framed landscape painting above the sofa still present in its original rectangular proportions and central alignment?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 3  
+}
+
+{
+    Q3:  
+    Thinking process: The tall plant adds a natural element to the scene, and its distinctive structure contributes to the room's decor balance.
+    Question: Are the large green leaves of the plant on the left side of the sofa preserved in terms of shape and location?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2  
+}
+
+{
+    Q4:  
+    Thinking process: The lamp's design is a distinctive feature, and its location in relation to the sofa maintains the scene's practical layout.
+    Question: Is the blue-based lamp with the white shade positioned on the table to the right of the sofa preserved in terms of shape and position?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2  
+}
+
+{
+    Q5:  
+    Thinking process: The rug under the sofa plays a subtle yet integral role in grounding the furniture and enhancing the room's cohesion.
+    Question: Is the presence of the light-colored rug beneath the sofa retained in the image?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 1  
+}

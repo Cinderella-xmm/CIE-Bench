@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-3380433821817858999",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image now structured as a multi-panel infographic with at least three distinct steps?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features several panels with distinct visual elements representing different actions or poses. These panels are separated and described by captions close to each pose or character illustration, indicative of steps or phases in a process. The arrangement of these panels suggests the depiction of a sequence of actions or steps, commonly seen in infographics meant to convey step-by-step instructions or information.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a panel showing a simple figure in a kneeling position with bent arms pulled back, labeled as \"Step 1: Positioning: Kneel with bent arms back\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Though Image B includes various illustrations of figures in dynamic poses, none of the panels explicitly depict a figure in a kneeling position with the arms pulled back or include the caption 'Step 1: Positioning: Kneel with bent arms back.' The available panels instead show figures in jumping and mid-air poses throughout the infographic.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a panel showing an explosive leaping motion with visual cues of propulsion (e.g., motion lines, energy burst), labeled as \"Step 2: Leap Attack: Propel using core strength\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "While Image B shows figures in leaping poses and uses vibrant colors and bold lines to emphasize motion, none of the panels explicitly feature the descriptive caption 'Step 2: Leap Attack: Propel using core strength,' nor are there visual cues typically associated with propulsion such as motion lines or explosive energy effects focused on the motion.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a panel showing the figure mid-air with knees tucked tightly, labeled as \"Step 3: Mid-Air Adjustment: Tuck knees tightly\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts multiple figures in mid-air with varying leg positions, including one panel showing the main figure with bent knees in a jumping pose. However, there isn't a corresponding caption like 'Step 3: Mid-Air Adjustment: Tuck knees tightly' associated with any of these panels, which would specify this step or adjustment process.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the illustrations rendered with bold outlines, vibrant blues and whites as dominant colors, and captions written in energetic, stylized fonts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The illustrations in Image B are indeed characterized by bold outlines and the prominent use of vibrant colors, mainly blues and whites, with additional contrasting colors such as pinks and yellows for text and details. The captions are presented in an energetic, stylized font that matches the dynamic style of the characters and poses shown across the panels.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

@@ -1,0 +1,97 @@
+{
+  "filename": "v2v_89559",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the text \"SEARCH FOR A STAR\" present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, I can clearly see a statue on the left side that reads \"SEARCH FOR A STAR\". The text is part of the design of the award's statue. Combining common knowledge with visual cues, an award typically has the title prominently displayed as part of its design. Therefore, the analysis leads to the conclusion that the text \"SEARCH FOR A STAR\" is present.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the text \"RISING STAR\" present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the award on the right side of the image has the inscription \"RISING STAR\". This text is integrated into the design of the award statue. Using common knowledge, awards often display the name prominently as part of their design, confirming that the text \"RISING STAR\" is present.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the text \"SUMO DIGITAL\" present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, beneath the \"RISING STAR\" award there is a circular symbol, but the text \"SUMO DIGITAL\" is not visible. Based on world knowledge, sponsors or companies usually place their name as text in association with events, so its visual absence suggests that \"SUMO DIGITAL\" is not present.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the text \"Character Art Directory 2018\" present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B prominently features the text \"Character Art Directory 2018\" at the bottom of the image. In general, marketing and presentation materials often state the purpose or title of the product or document clearly, and it is visually confirmed. Thus, the text is present.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the text \"Character Art Directory 2018\" horizontally centered in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, \"Character Art Directory 2018\" is positioned centrally at the bottom. It is symmetrically aligned beneath the two awards, suggesting horizontal centering based on symmetry in visual design, which commonly aims for balance in alignment.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the \"Search for a Star\" and \"Rising Star\" logos positioned above the \"Character Art Directory 2018\" text?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the awards representing the \"Search for a Star\" and \"Rising Star\" logos are positioned directly above the text \"Character Art Directory 2018\". Combining knowledge of design composition, which often arranges major icons or logos above supporting text, verifies the positioning.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the \"Sumo Digital\" logo positioned beneath the \"Rising Star\" logo in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a circular design element beneath the \"Rising Star\" logo, but the text \"Sumo Digital\" is absent. Since typical logos include both the graphic and text components, the lack of text indicates that the \"Sumo Digital\" logo, in text form, is not positioned beneath the \"Rising Star\" logo.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7222222222222222
+}

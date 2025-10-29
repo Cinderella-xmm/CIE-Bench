@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0071",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the white and red color scheme of the train retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train features a predominantly white body with red accents along its side. This color combination is typical for many high-speed trains and presents a clean and modern look. Without reviewing Image A yet, we can determine from our world knowledge that such a color scheme is often used to indicate speed and efficiency. To confirm any changes, we briefly analyze Image A, finding that the original train also has a white and red scheme. This confirms that the color scheme has been retained in Image B.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the train remain on a suitable track or elevated system, consistent with the maglev design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train appears on a standard flat track. World knowledge tells us maglev trains typically operate on special tracks that aren't visible in detailed close-ups since they're part of an advanced technology that uses magnetic levitation. Without specific maglev characteristics visible from this image alone, it is difficult to confirm it as such purely based on this setup. By contrasting it with Image A, which also shows the train on flat tracks but might include specific visual elements indicating maglev technology (like elevation above the track or indications of a trackless path), it's apparent there's no visible maglev feature in B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the background environment, including the horizon and setting, largely consistent with the original scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the train against a clear blue sky, with the horizon visible, depicting a spacious environment that matches many typical settings for high-speed trains. This setting appears typical for showcasing train aspects or impressing travelers with open landscapes. Reviewing Image A, the horizon part displays a similar clear atmosphere with blue skies, consistent with Image B. The background including fields and the horizon setting in B aligns with the original scene details from A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the lighting and shadows consistent with those in the original image, preserving the realistic look of the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting is bright and natural, casting definite shadows, suggesting a daytime setting. The surface beneath the train and its reflections support a realistic depiction in terms of lighting and shadows. When looking at Image A, it similarly presents strong lighting and distinct shadows correlating with a bright, sunny environment, keeping it consistent with B. Both images indicate a similar time of day and lighting conditions.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the train maintain realistic proportions and scale in relation to its surroundings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The train in Image B appears proportionate relative to typical high-speed trains and its surrounding environment (e.g., flat land, sky). Its size looks appropriate given the perspective. Common sense tells us trains are large relative to smaller elements like power lines or trees in the distance, which appear absent here. For comparison, Image A displays similar proportions, confirming the train retains its realistic scale concerning its general surroundings in both images.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_22251",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the subject's face, including their facial features, unchanged?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject's face appears to retain the same facial structure, eye shape, nose, lips, and overall symmetry as seen in Image A. The skin tone, eyebrow shape, and facial contours are consistent with the original image. There is no visible distortion or alteration in the facial features such as eyes, nose, or mouth. Additionally, the lighting and shadows on the face suggest a similar pose and angle, reinforcing that the facial features have not been modified. Based on visual analysis and common knowledge of facial recognition, subtle changes in expression or lighting can occur without altering the underlying facial structure. In this case, no such alterations are evident. Therefore, the facial features remain unchanged.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the subject still have long black hair?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject’s hair is visibly long and black, extending past the shoulders, similar to Image A. The texture and flow of the hair appear consistent with the original, maintaining its straightness and dark coloration. While the styling may have been slightly adjusted due to the change in clothing and background (suggesting a different context), the fundamental characteristics—length and color—remain the same. This conclusion is supported by visual continuity in hair appearance across both images. No signs of shortening, coloring, or textural changes are observed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the green earrings still present on the subject's ears?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject is wearing dangling earrings that are green in color, matching the style and hue of the earrings seen in Image A. These earrings are positioned symmetrically on both ears and appear to be the same design—teardrop-shaped stones with metallic settings. Despite the change in attire and background, the earrings remain clearly visible and consistent in appearance. There is no indication of removal or replacement. Therefore, based on visual confirmation and continuity of accessory details, the green earrings are still present.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the subject still facing forward with a neutral expression?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject is positioned directly facing the camera, with their head centered and aligned with the frame, indicating a forward-facing orientation. Their facial expression remains composed, with relaxed facial muscles, closed lips, and steady gaze—consistent with a neutral expression. Comparing this to Image A, the posture and expression are nearly identical, suggesting no significant change in demeanor or pose. The lighting and framing support this assessment, as there is no tilt, turn, or emotional shift evident in the facial features. Thus, the subject maintains a forward-facing position with a neutral expression.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there still a graphic design visible on the subject's clothing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject is wearing an ornate historical-style garment with intricate embroidery, floral patterns, and gold detailing. Unlike Image A, where a graphic t-shirt with bold blue lettering ('ATTT') and a skeletal figure against a fiery background was visible, Image B shows no such modern graphic design. Instead, the clothing is elaborate and traditional, resembling Renaissance-era fashion. Therefore, while the clothing has changed significantly, there is no modern graphic design present. The absence of any printed imagery or text confirms that the graphic design from Image A is no longer visible.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

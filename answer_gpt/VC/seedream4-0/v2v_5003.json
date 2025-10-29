@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_5003",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the curved shape of the bow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bow appears to be made with an origami technique, giving it a more angular form. Observing the visual cues, the bow's curve from Image A has been replaced with folded straight edges, which are characteristic of origami designs. This transformation results in an angular rather than a smoothly curved shape.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image retain the cylindrical shape of the quiver?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the quiver has been altered with an origami design, as shown by the visible lines and folds that create facets typical of paper folding techniques. Despite these modifications, the quiver maintains a vertical shape similar to a cylinder's general outline, as evidenced by the circular top and elongated body.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain the arrangement and general form of the arrows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the arrows in the quiver have been transformed into origami, exhibiting folded paper characteristics. However, they remain parallel, upright, and bundled together just like in Image A. While the material and surface details have changed, the arrows maintain their spatial arrangement and general form.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image retain the position of the bow and quiver on the forest floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both Image A and Image B show the bow and quiver placed in a similar position, with the quiver standing upright and the bow resting on the ground next to it. The consistency in position is evident from their relative placements on the mossy ground in both images.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image retain the natural woodland backdrop?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B maintains the same woodland background as Image A. The setting is distinctly outdoors with a forest scene that includes trees and a mossy floor, indicating a natural habitat. Although the bow and arrows have been edited to appear origami-like, the background itself remains unchanged, suggesting continuity from the original image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7
+}

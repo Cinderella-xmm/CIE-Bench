@@ -1,0 +1,84 @@
+{
+  "filename": "laion_1853743472720219502",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the wooden surface with visible grain patterns and warm brown tones present and unaltered in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the wooden surface has undergone significant changes. The grain patterns are still visible, but the tones are no longer warm brown; instead, they appear more saturated and altered to a different color tone, which does not match the typical warm brown of natural wood.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the two feather pendants positioned such that one is in the foreground and the other is partially overlapped behind it, maintaining the original diagonal alignment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the alignment remains similar to Image A, with one feather pendant in the foreground and the other slightly overlapped behind it. The diagonal positioning from one corner to another is preserved, indicating that the original alignment is maintained.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the pendants cast soft, consistent shadows beneath them on the wooden surface, indicating overhead lighting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the shadows beneath the pendants have become less defined and consistent compared to what an overhead lighting setup would typically create. The editing might have altered these shadows, making them appear harsher or inconsistent.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the pendants aligned diagonally across the frame, extending from the lower-left toward the upper-right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the pendants still maintain the same diagonal alignment as in Image A, extending from the lower-left to the upper-right. Despite color and lighting changes, the orientation remains the same.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the wooden surface retain its natural grain texture, including variations in tone and minor imperfections, without digital smoothing or enhancement?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the wooden texture appears heavily edited. The texture, while still somewhat visible, does not retain its natural look due to increased saturation and changes in tones. This indicates enhancement that suppresses some natural imperfections.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the edge of the leather feather clearly defined against the wooden surface, showing a slight separation and shadow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, due to the editing and color changes, the edge of the leather feather loses clarity. The separation and shadow effect become less prominent due to the changes in contrast and saturation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4166666666666667
+}

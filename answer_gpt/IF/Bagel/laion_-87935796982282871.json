@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-87935796982282871",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the surface of the bed covered in patchwork fur made from the colors red, gray, navy, and white, resembling animal fur?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the surface of the bed is not covered in patchwork fur of just the colors red, gray, navy, and white. Instead, it features a multicolored patchwork design with various colors such as orange, green, blue, yellow, and others. The texture resembles fur, which suggests an animal-like appearance. Therefore, the colors do not match the specified palette of red, gray, navy, and white.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the pillows reshaped into pointed or rounded ears and trimmed with soft-looking leaves along their edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pillows appear to be modified to form pointed shapes resembling animal-like ears. They are not traditional pillow shapes as seen in Image A but instead have a distinct pointed and ear-like appearance, along with what seems to be leaf-patterned textures. This indicates that they are indeed reshaped and given a leafy trim.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Has the black bed frame been replaced with thin, branch-like legs that resemble natural tree limbs?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, what can be seen as the support of the bed appears as thin, branched structures that closely resemble natural tree limbs replacing the conventionally solid legs seen in Image A. These branch-like legs give an organic look to the bed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a bushy, plush red tail extending from the bottom edge of the comforter?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited Image B, there is an additional feature at the bottom edge of the comforter which resembles a large, bushy, plush red tail. This is not present in the original Image A, where the comforter simply ends with no such tail-like extension.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the patchwork fur on the bed use only the colors red, gray, navy, and white as seen in the original blanket?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the comforter is in a solid pattern comprised of red, gray, navy, and white colors. However, Image B displays a patchwork fur that involves additional colors such as orange, blue, green, yellow, etc., far beyond the four colors specified. Thus, the edited bed does not use only the original colors.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

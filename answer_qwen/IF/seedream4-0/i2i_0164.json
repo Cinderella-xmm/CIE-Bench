@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0164",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there still people on top of the train?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "In Image B, the top of the train is occupied by a single individual dressed in a formal conductor's uniform, standing upright and holding a flag. This person is positioned where multiple people were previously seen in Image A. The visual evidence shows only one person on top of the train, not a group. Based on this observation and common sense regarding train operations, it is plausible that this individual is a conductor or official representative rather than passengers. Therefore, while there are people on top of the train, they are not the same group as before.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a conductor standing on the train?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a man wearing a dark blue uniform with gold buttons and a peaked cap is standing on the front of the locomotive. His attire is consistent with that of a train conductor or ceremonial railway officer. He is positioned prominently on the engine, which is typical for conductors during special events or parades. The presence of such formal attire and positioning strongly indicates he is a conductor. This conclusion aligns with world knowledge about historical steam train operations and ceremonial appearances.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the conductor holding a flag?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The individual on the train in Image B is clearly holding a long pole with a flag attached to it. The flag is waving in the air, indicating motion, and the pole is held vertically upward. The flag has distinct colors (blue with white and red elements) and appears to be a formal emblem. This action—holding a flag—is typical during ceremonial departures or special train events. Given the visual cues and context, it is evident that the conductor is indeed holding a flag.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the flag have a visible logo on it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon close inspection of the flag in Image B, there is a circular emblem centered on the blue field. The emblem contains a design that includes a stylized figure or symbol, possibly a bird or crest, along with text or insignia around it. Although the details are somewhat small, the presence of a structured, symmetrical design within the circle confirms that it is a logo or official insignia. This is consistent with flags used by rail companies or organizations for ceremonial purposes. Therefore, the flag does have a visible logo.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Have the original people from the top of the train been removed and replaced by a conductor holding a flag with a logo?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, multiple individuals are seen sitting or standing on the front of the locomotive, appearing to be passengers or tourists enjoying the ride. In contrast, Image B shows only one person—a formally dressed conductor—standing on the same area, holding a flag with a visible logo. This change suggests a deliberate edit where the casual group was replaced by a single ceremonial figure. The transformation aligns with common practices in promotional or historical reenactment imagery, where authenticity or symbolism is emphasized. By comparing both images, it is clear that the original group has been removed and replaced with a conductor in a symbolic role. This substitution enhances the narrative of formality and tradition associated with the train.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

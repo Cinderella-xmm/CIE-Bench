@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_741",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the notebook depicted as a kawaii, moe-inspired anthropomorphic anime girl wearing purple and white attire?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, an anime-style character is shown with exaggeratedly large eyes, a small mouth, and a cheerful expression, typical of 'kawaii' or 'moe' art styles. She is dressed in purple and white attire, aligning with the purple theme of the notebook in Image A. Image A features a plain notebook with text, so this anthropomorphism is an addition in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the character in Panel 1 have a slightly annoyed, pouting expression while holding a mouse in one hand?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character has a cheerful and excited expression, which is not annoyed or pouting. She holds a mouse in one hand. In Image A, there is no human character, only a notebook and mouse presented together, which is unrelated to expressions.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does Panel 1 include a text box with the message “Why won’t you connect?! I followed the documentation! (；´д｀)” written in a playful, casual handwritten font?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B includes a speech bubble with hand-drawn style text, but the content of the message is different: it reads 'OEY HA HA WANCAMOUC HAW!!' rather than the provided text. Image A does not contain this speech bubble, as it focuses on the notebook only.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the setting in Panel 1 a chaotic workspace with computer screens, stray coffee cups, and tangled wires?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a simple depiction of a girl with a desk, but the workspace lacks elements like computer screens, coffee cups, or tangled wires. Image A focuses solely on a notebook and a mouse, further lacking these chaotic workspace elements.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does Panel 2 show the same desk but cleaner, with glowing code cascading across the screens?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not have a separate panel depicting a cleaner desk or any screens with code. It maintains the same scene with the girl at the desk. Image A shows a notebook and mouse without any panels or screens to portray such details.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

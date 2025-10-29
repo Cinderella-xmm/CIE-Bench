@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-2600357125328590508",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the vertical white \"Under Armour\" logo clearly visible on the outer side of the calf, maintaining its original font, spacing, and orientation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the outer side of the sock does feature text that is intended to resemble a logo or branding. However, the legible and recognizable text 'Under Armour', which is prominent in branded products, is not present. The spacing and orientation of such a logo are also unclear, as the existing elements do not match the expected branding style. Without viewing Image A, the visible text in Image B does not resemble the 'Under Armour' logo or its expected presentation in terms of font and orientation.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there an orange tag with a black Under Armour logo located at the top edge of the sock cuff?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays an orange tag on the top edge of the sock cuff, but it does not contain a recognizable 'Under Armour' logo. The logo on the tag appears different. Known branding logos typically prominently display recognizable symbols or fonts that are associated with a brand. The visible symbol does not correspond with known Under Armour branding.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the stylized \"UA\" logo present on the ankle section of the sock?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the ankle section of the sock includes various patterns and designs, but a distinct 'UA' logo that might be associated with Under Armour is not discernible. Stylized logos often have a specific appearance or aesthetic that makes them recognizable, and Image B does not contain such recognizable elements on the ankle section.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the gray and white geometric patterns on the foot and shin area preserved in their original positions and color scheme?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both Image A and Image B display extensive geometric patterns in gray, black, and white across the foot and shin. In Image B, these patterns appear to be largely unchanged, maintaining their positions and color variations throughout the sock as would be expected from Image A. Without consulting Image A initially, the patterns in Image B itself appear consistent throughout the sock without noticeable color or position alterations.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the gray reinforced sections on the heel and toe maintained in their original shape and location?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The gray sections on the heel and toe in Image B appear to be reinforced and maintain their location and shape consistently compared to typical sock designs, where reinforcement is common. Observing these sections suggests they serve a similar function of reinforcement, consequently matching the standard expectations of placement and styling seen in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the small text printed vertically along the lower leg of the sock still visible and in its original position?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no evident small vertical text along the lower leg of the sock. Logos or small text branding often reside to enhance visibility, and checking Image A, such text was present originally, yet Image B lacks similar visual elements, confirming the absence.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.25
+}

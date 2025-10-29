@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1005",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the facial features and accessories (hats, glasses) precisely detailed and recognizable?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the individuals are stylized as cartoon-like figures with simplified facial features. Their faces have large, round eyes, small mouths, and rosy cheeks, which are characteristic of animated or toy-like representations rather than realistic human features. The hats are present and recognizable—such as the gray beanie on the left figure and the red beanie in the center—but they lack fine textural details. Notably, the glasses worn by the individual on the right in Image A are absent in Image B; instead, this character has a scarf and no eyewear. This indicates a loss of detail in accessories. The overall style is exaggerated and not anatomically accurate, suggesting that while some accessories are preserved, their precision and realism are significantly reduced. Therefore, based on visual cues and common knowledge about realistic vs. stylized depictions, the facial features and accessories are not precisely detailed or fully recognizable.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the distinct colors and styles of the winter jackets (blue, yellow, green) retained?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the three individuals still wear jackets in blue, yellow, and green, matching the original color scheme from Image A. The blue jacket on the left, the yellow one in the center, and the green one on the right are clearly distinguishable. While the textures and fabric details are simplified due to the cartoonish rendering, the primary colors and general shapes of the jackets remain consistent with the original. The design elements such as zippers and collars are also visible, though stylized. Given that color retention is a key aspect of visual consistency, and these colors are accurately preserved despite stylistic changes, the answer is affirmative.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the individuals positioned in front of the log cabin, maintaining the original spatial relationship?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the three figures are standing in front of the same log cabin seen in Image A. The relative positions of the individuals—left, center, and right—are preserved. The cabin remains in the background, with snow-covered roof and wooden logs visible. Although the perspective and scale may be slightly altered due to the artistic style, the spatial arrangement of the people in relation to the cabin is consistent with the original image. There is no indication of repositioning or rearrangement in terms of depth or alignment. Thus, the spatial relationship is maintained even if the rendering is more stylized.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the ski poles still present and held by the individuals?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, each of the three figures is holding two black ski poles, just as in Image A. The poles are clearly visible, extending downward from their hands, and appear to be part of the skiing setup. The way they are gripped and angled suggests an intentional representation of skiing gear. Even though the figures are stylized, the presence and use of ski poles are consistent with the original scene. No pole is missing or replaced. Therefore, based on visual evidence and typical skiing equipment depiction, the ski poles are indeed still present and held.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the rustic texture of the log cabin retained, even though its scale may be reduced?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the log cabin in the background retains its wooden structure and log construction, which are indicative of a rustic design. The horizontal logs, dark wood tones, and snow-covered roof are visible and consistent with the original image. Although the overall image is stylized and the details are less sharp due to the cartoon aesthetic, the fundamental texture and architectural style of the cabin—such as the rounded logs and window placement—are preserved. While the texture might not be as finely rendered as in a photograph, it is still recognizable as a rustic log cabin. Therefore, the essential characteristics of the cabin's texture are maintained despite potential simplification.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0076",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the word \"warm\" placed at the top left corner in large letters?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the word 'warm' is indeed positioned at the top left corner of the image. The size of the letters is large, making it one of the prominent elements of the image. This conclusion is drawn from observing the orientation and size of 'warm' relative to the corner placement.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the word \"freedom\" placed at the bottom right corner in small letters?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the word 'freedom' is located at the bottom right corner. Although the letters are smaller compared to 'warm', they are appropriately sized to fit within the overall design of the image. This can be concluded by visually analyzing the placement relative to the lower corner.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are all original elements, such as the sofa, cushions, rug, plant, and wall art, still present without alteration except for additions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, elements such as the sofa, cushions, rug, plant, and wall art are clearly visible. In Image B, none of these elements are present but the image features a graphic design with text addition instead. This suggests substantial alteration from the original. Therefore, a comparison indicates a replacement of original elements rather than additions.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the image convey a \"home living\" feel with warm tones, soft lighting, and cozy arrangement of furniture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B demonstrates a graphic design element with a mountainous sunset view, paired with text. While the colors are warm, the absence of tangible furniture or room arrangements distances the visual from conveying a typical 'home living' feel associated with a physical setting and cozy arrangement found in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the text placement well-balanced so that it complements the rest of the image without disrupting the visual flow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text 'warm living' at the top and 'freedom' at the bottom are positioned around the central image of the mountains. The balance between text and visual does not disrupt the flow, with the text framing the image within a large border, maintaining harmony in design components.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

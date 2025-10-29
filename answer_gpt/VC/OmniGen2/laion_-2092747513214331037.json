@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-2092747513214331037",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the cyclist in a forward-leaning position with hands on aerobars?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cyclist is depicted in a position that appears aerodynamically efficient, common in cycling where a forward lean helps reduce drag. The cyclist is shown holding the bicycle’s handlebars, which are positioned at the front, suggestive of a racing stance typically seen with aerobars. This conclusion is drawn from the posture and equipment depicted.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are two bicycles mounted vertically on the roof rack of the black car?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a black car with what appear to be objects on the roof, resembling aerodynamically designed attachments or equipment, but they do not distinctly appear as vertically mounted bicycles. The design does not explicitly match the typical vertical bicycle mount. Imagery suggests equipment, but not specifically two bicycles. Analyzing Image A, two bicycles are clearly visible, but based on Image B alone, this is not evident.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there white lane markings and a yellow center line on the road?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the road is represented more abstractly with luminous blue lines instead of traditional road markings, creating a futuristic, stylized effect. Observing the typical features of roadways, the depiction diverges from real-world markings, which commonly include white lane markings and yellow center lines for traffic direction. Therefore, in this stylized rendering, these elements are absent.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there an orange traffic cone visible in the background near the cyclist?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not depict traditional traffic elements such as orange cones. The scene is stylized, focusing on a graphical representation with glowing lines. Unlike Image A, which shows an orange cone near the cyclist, Image B’s design does not include such elements, focusing on a clean and futuristic scene.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the car have a license plate reading \"BOC-480\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, while the car’s license plate area is depicted, it is difficult to discern the text clearly due to the graphics stylization. The focus is more on the technology-infused design rather than specific details like license plate numbers. In Image A, the plate reads 'BOC-480', but Image B does not clearly show this.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the cyclist riding parallel to the car on the same road?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cyclist and the black car appear on the same visually depicted path, a setting that suggests parallel movement, accentuated by the glowing blue lines that give the appearance of a single shared route. This positioning aligns with typical race dynamics involving a pace car and cyclist.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the background composed of dry hills with sparse vegetation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the background is simplified and subdued, not focusing on realistic renderings of dry hills or sparse vegetation. Instead, it projects a digital or futuristic aesthetic without typical terrain details. Unlike Image A, which shows realistic environmental elements, Image B does not emphasize such geographical features.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.38461538461538464
+}

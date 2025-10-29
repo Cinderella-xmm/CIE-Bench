@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_61685",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the girl depicted in a posture that suggests she is interacting with the skateboard?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the girl is standing on the skateboard, indicating interaction. Her position on the skateboard suggests she is engaged with it and likely adjusting her balance, which is a typical behavior when interacting with a skateboard.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the man depicted in a posture that suggests he is interacting with the skateboard?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the man is standing next to the girl who is standing on the skateboard, but the man himself is not touching or directly engaging with the skateboard. His posture, with his hands on his hips and leaning slightly towards the girl, indicates he is likely speaking with her rather than interacting with the skateboard.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the girl and the man positioned next to each other, leaning against the railing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the girl and the man are close to each other, but the man's posture is leaning towards the girl rather than against a railing. The girl is standing on the skateboard, and there is no visual indication of them leaning against a railing, suggesting they are simply positioned nearby each other.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are both skateboards visible in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is only one skateboard visible on which the girl is standing. While Image A has two skateboards, Image B shows a stylized depiction matching the visual elements and constraints of a graphic image, displaying only one skateboard with her.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the general shape and placement of the tent preserved in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tent is present in the background with a similar shape and placement as in Image A. The graphical representation merges the components of the tent, maintaining its general shape and location within the scene as shown in the original image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.36363636363636365
+}

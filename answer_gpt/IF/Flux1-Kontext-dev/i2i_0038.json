@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0038",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the person's pose and expression been simplified into a cartoon line-art style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual elements show a distinct cartoon line-art style, which simplifies the detailed features of the original image into basic outlines and shapes. This is a common method in cartoon art to convey shapes and forms without extensive detail. By converting realistic images into cartoons, they often retain the major features and actions but emphasize them with bold lines and simplistic detail.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the raised hand still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both Image A and Image B, there is a person with a raised hand on the right side of the image (from the viewer’s perspective). This raised hand gesture is a key component of the pose and remains in the cartoon style of Image B as an outline. The cartoon conversion has left this gesturing pose unchanged in form, maintaining its presence.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the cartoon-style person retain an open mouth expression?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B, depicted in cartoon style, does not display any clear mouth feature, as the cartoon simplification process can occasionally omit smaller and less defined details like the open mouth. In this line-art style, expressive details like facial expressions are often minimalistic, and in this case, the clear lack of a visible mouth implies that the mouth expression is not retained.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the cartoon-style image include a camera covering part of the person's face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the person is depicted holding a camera that obscures part of their face. This visual detail is crucial to maintaining the context of the original scene from Image A, where the camera is used to capture an image. The cartoon retains this component, showing the camera in front of the face, simplified into line art, thus illustrating the same action.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a speech bubble with the text “Take a photo” in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a clear speech bubble placed above the person’s head on the right side, featuring the text “Take a photo.” This feature is typical in cartoons to add dialogue or thought, providing context to the action depicted in the image. The presence of the speech bubble supports the theme of the image, which is about taking a photograph, adding a narrative element to the visual scene.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

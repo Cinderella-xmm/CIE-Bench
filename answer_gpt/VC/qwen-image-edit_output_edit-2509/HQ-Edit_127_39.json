@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_127_39",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the four-legged base of the Eiffel Tower with a central archway present and clearly visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image (Image B), the Eiffel Tower has been transformed into a futuristic humanoid figure with technological elements and designs. The traditional four-legged base with a central archway, as seen in Image A, is no longer present. Instead, the figure's structure features futuristic and digital aesthetics. Therefore, the classical Eiffel Tower base is absent.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the classical-style building visible through the central arch of the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the traditional structure of the Eiffel Tower and its central arch is replaced by a futuristic human-like figure, eliminating any view of a classical-style building through an archway. In contrast, Image A shows such a building visible through the tower's arch. Given these observations, the classical building view is absent in the edited image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the symmetrical rows of trimmed green hedges present along both sides of the foreground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the futuristic humanoid structure does not interfere with the existing environmental elements, such as trimmed green hedges along both sides that are clearly visible, much like those in Image A. Therefore, these symmetrical rows are present in the edited image.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there people visible sitting or walking on the grassy field in front of the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the grassy field in front of the reimagined Eiffel Tower is largely occupied by the futuristic transformation, leaving no visible depiction of people sitting or walking there, unlike in Image A where people are clearly present. Given this transformation, no people are visible on the grassy field.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the sky gradient transitioning from deep blue at the top to orange near the horizon present?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sky exhibits a gradient that smoothly transitions from a deep blue at the top to a more orange hue near the horizon, closely mirroring the gradient seen in Image A. This gradient remains unaffected by the alterations and is clearly visible in both images.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the embedded lights illuminating the hedges visible as glowing spots?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Despite the significant transformation seen in Image B, the glowing lights embedded within the hedges remain visible as in Image A. These lights help in maintaining the ambiance of the scene and are consistently observable in both images.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

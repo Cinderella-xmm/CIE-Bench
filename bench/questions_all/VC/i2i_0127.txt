@@ -1,0 +1,64 @@
+Description of reference image: The subject is a white toilet situated in a corner against walls tiled with large gray square tiles. The toilet lid is open, revealing the inside of the bowl. The flush tank is attached to the wall behind the toilet. The floor also has matching gray square tiles. There are no other significant objects visible in the frame.
+
+### Step 1 - Allowed Changes List:
+- Specific element 1 that allows for changes: Adding text "Clean First" in the top left and "Comfort Always" in the bottom right.
+- Specific element 2 that allows for changes: Design adjustments to match the style of a public health promotion poster.
+
+### Step 2 - Determine Elements That Should Remain Unchanged:
+#### Thinking Process:
+- **Core Recognition Elements:** The white toilet, its open lid, and the flush tank are the core elements of this image. These features define it as a toilet scene and should be retained.
+- **Functional/Logical Association Elements:** The position of the toilet in the corner with the flush tank attached to the wall logically supports its function and should be maintained for visual coherence.
+- **Retaining Remaining Elements:** The gray tile background and floor contribute to the setting's simplicity. These aspects should be kept to avoid disrupting the scene’s context and visual consistency.
+
+#### Preservation Targets List:
+- The white color and structure of the toilet.
+- The open toilet lid and visibility of the bowl interior.
+- The flush tank placement and its connection to the wall.
+- The gray tiled walls and floor design.
+
+### Step 3 - Generate Yes/No Questions:
+
+{
+    Q1: 
+    Thinking process: The white toilet is the primary object, and its color is a core identifier. Changing the color would compromise the object's recognition.
+    Question: Is the toilet still predominantly white in color?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The open lid is crucial for identifying the toilet as usable and in its functional state. Closing it would alter the intended perception.
+    Question: Is the toilet lid still open?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The flush tank is an integral component of the toilet assembly. Its presence and location support the functional logic of the scene.
+    Question: Is the flush tank still attached to the wall above the toilet?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The gray tile surroundings establish the bathroom setting. Retaining this detail preserves the appropriate context for the promotional message.
+    Question: Are the walls and floor still covered with gray square tiles?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The corner positioning of the toilet provides spatial orientation and supports realism in the scene. Altering this could disrupt the logical layout.
+    Question: Is the toilet still positioned in the corner of the room?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

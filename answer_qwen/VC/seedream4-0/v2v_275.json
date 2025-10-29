@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_275",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the creature retain the distinctive shape and texture of the original rock formation?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the central object is stylized as a creature with legs and claws, resembling a bear-like figure. While it retains the general vertical, columnar shape of the original rock formation seen in Image A, the texture has been simplified into bold, vertical lines mimicking wood grain or layered rock, rather than the natural, rugged surface of the real stone. The transformation introduces anthropomorphic features such as legs and paws, which are not present in the original rock. Therefore, although the overall silhouette is preserved, the texture and structural details have been significantly altered to serve an artistic or illustrative purpose. This change reflects a shift from realism to cartoonish representation, where form is prioritized over fidelity to natural texture.",
+      "weight": 3,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the rolling green hills and mountainous background still present in the image?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "Yes, the rolling green hills and distant mountainous background are clearly visible in Image B. These elements are rendered in a stylized manner consistent with the cartoon aesthetic, using simplified gradients and outlines to depict undulating terrain and layered mountain ranges. Despite the artistic simplification, the visual structure—undulating hills in the foreground and elevated peaks in the distance—is preserved, maintaining spatial depth and continuity with the landscape in Image A. The presence of these features suggests that the artist intentionally kept the environmental context intact while transforming the central subject.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the lighting and shadow effects on the landscape retained?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "The lighting and shadow effects in Image B are simplified compared to those in Image A. In the original image, lighting appears natural, with soft shadows indicating directional sunlight, likely during golden hour, creating depth and volume across the hills and rock face. In Image B, shadows are used more schematically—flat areas of darker green suggest shading but lack the subtle gradations and realistic fall-off seen in the photograph. The light source seems consistent (top-left), but the shadows are less nuanced and more illustrative. Thus, while the general directionality of light is maintained, the realistic rendering of lighting and shadow effects is not preserved.",
+      "weight": 2,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the contours and coloration of the hills and mountains remain consistent with the original image?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "The contours of the hills and mountains in Image B follow a similar pattern to those in Image A, with gentle undulations and layered ridges extending into the distance. However, the coloration is more uniform and stylized—using flat or gradient greens and blues without the natural variation in tone and hue found in the photograph. In Image A, the grassland shows variations in shade due to sunlight and elevation, while in Image B, colors are applied in broad strokes for clarity and aesthetic appeal. The overall shape and layout are consistent, but the naturalistic coloration and tonal complexity are reduced. This indicates a deliberate artistic choice to simplify the environment while preserving its recognizable form.",
+      "weight": 1,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the position of the creature (original rock formation) relative to the landscape maintained?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "Yes, the central figure (originally a rock spire) remains positioned on the same elevated hillside, dominating the foreground and facing toward the viewer, just as in Image A. Its placement within the landscape—centered and slightly off to the left—mirrors the composition of the original photo. Even though the rock has been transformed into a creature with legs, its base is still anchored on the same slope, and the surrounding terrain curves around it in a similar way. The relative spatial relationship between the rock/creature and the hills behind it is preserved, suggesting that the artist intended to maintain compositional continuity despite the stylistic transformation.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

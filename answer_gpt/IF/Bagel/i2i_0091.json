@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0091",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the wall clock still visible after the edit?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "In the edited image, what is visible is a hallway or corridor with architectural features typical of a medieval or Gothic style castle, such as stone arches and wooden beams. There is no indication of any modern interior design elements like a wall clock, which would typically appear as a circular object with clock hands and numbers. The absence of such a feature in the edited image indicates the wall clock is not present.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the wooden cabinet still visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "The edited image shows a stone corridor with arches and a vaulted ceiling, commonly found in historic buildings like castles. There are no elements of modern furniture like a wooden cabinet. A wooden cabinet typically appears as a rectangular piece of furniture with drawers, which is not visible here, suggesting the removal or absence of such furniture.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image show elements typical of a castle hall interior, such as stone walls or arches?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The architectural features in the edited image include stone arches, a vaulted ceiling, and pillars, all of which are characteristic of castle halls or medieval architecture. These elements imply a historical or old-world setting, typically found in castles. This suggests that the image now incorporates elements typical of a castle hall.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the lighting in the edited image match the lighting style from the original image, with similar shadows and highlights?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The original image features modern interior lighting with shadows cast by the sun through the window, evident on the wall and furniture. The edited image has a softer and more diffused lighting typical of natural light in a stone corridor, creating a different atmosphere with light patterns through arches. The shadows and highlights don’t match in style or intensity with the original image, reflecting a distinct lighting approach.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any remaining objects from the original scene, such as vases or plants, in the castle hall setting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "The original image contained modern decor items like vases, books, and plants placed on a contemporary cabinet. The edited image depicts a medieval-style stone corridor free from such modern decorative items. The absence of these objects suggests that none of the original scene items are present in the current setting.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

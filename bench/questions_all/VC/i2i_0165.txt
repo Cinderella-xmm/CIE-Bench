@@ -1,0 +1,74 @@
+Description of reference image: The image showcases a modern kitchen scene with a refrigerator as the central subject. The refrigerator is open, revealing organized shelves containing various food items, beverages, and condiments. The surrounding area includes a countertop with a vase of greenery, a bowl of fruit, and a cabinet with subtle lighting. The background is a clean, minimalist kitchen interior with light-colored walls and cabinetry, complemented by natural light coming from a nearby window.
+
+---
+
+### Step 1 - Allowed Changes List:
+
+Thinking process: Analyzing the given instructions, the following changes are explicitly allowed:
+- Replacement of the refrigerator's brand logo with “Xu's Fresh Zone.”
+- Addition of a custom label with the user’s name on the top shelf.
+
+Allowed Changes List:
+- Specific element 1: Brand logo replacement on the refrigerator.
+- Specific element 2: Custom label addition on the top shelf.
+
+---
+
+### Step 2 - Preservation Targets List:
+
+Thinking process: The core recognition elements include the refrigerator's structure, its contents, the kitchen setting, and the spatial relations between objects. Functional/logical association elements are the organization of items inside the refrigerator and their alignment with the shelves. Remaining elements concern the overall aesthetic, such as lighting and placement of surrounding objects.
+
+Preservation Targets List:
+- The arrangement and structure of the refrigerator's shelves.
+- The types and positions of the food items and drinks within the refrigerator.
+- The surrounding kitchen elements and their positioning relative to the refrigerator.
+- The lighting and cleanliness of the scene.
+
+---
+
+### Step 3 - Question Generation:
+
+{
+    Q1: 
+    Thinking process: The fridge's distinct shelving layout and glassware configuration are critical for recognizing the appliance and maintaining visual consistency. Losing this layout would significantly impact the scene's identity and functionality.
+    Question: Does the refrigerator retain its clear glass shelves with the same arrangement as the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The food items are key identifiers of the refrigerator's function. Their positions and types provide context and realism. Disrupting this would alter the scene's purpose and visual integrity.
+    Question: Are the specific food items (like fruits, bottles, and jars) present in their original positions within the refrigerator?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The surrounding kitchen elements establish the scene's setting and provide a logical backdrop. Changing them would disconnect the subject from its environment.
+    Question: Is the countertop with the fruit bowl and plant placed adjacent to the refrigerator, as seen in the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The clean, well-lit kitchen contributes to the scene's overall atmosphere and realism. Altering this visual tone could disrupt the cohesive feel.
+    Question: Does the background maintain the same clean, light-colored kitchen design, including the wall tiles and window?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The brand logo and label additions are permissible changes. This question ensures other visual branding aspects remain consistent.
+    Question: Apart from the specified logo replacement and custom label, are there no additional alterations to the appearance of the refrigerator?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0004",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the head been slightly enlarged compared to the original body proportion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the body appears more compact, with a very small stature compared to the head size, which is typical for caricature or chibi styles where the head is relatively large to emphasize features. The body is significantly smaller than what you'd expect proportionately in Image A, suggesting the head was enlarged.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Has the body been cartoonified with flattened colors and simple shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a body with more simplified shapes and flat color blocks typical of toy figurines, without variations or texture details found in realistic images, which indicates a cartoonified design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the edited subject placed against a background resembling a bookshelf?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B contains objects that appear to be books stacked on shelves, resembling the setting of a bookshelf, consistent with the similar setting in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the facial features such as the eyes, smile, and proportions accurately maintained after enlarging the head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The facial features being blurred prevents an assessment of accuracy or maintenance of proportions related to the image editing, making it impossible to answer based on the visible information.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the cartoonified body appear separate from and non-intrusive to the realistic face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Ignoring the blurred face, the body in Image B is in the style of a cartoon figurine, which visually contrasts with realistic features, suggesting separation in style which is typical in designs intending to create artful juxtapositions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0148",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the reflections on the cars’ surfaces clear and consistent with their surroundings without introducing unnatural artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents a stylized, high-contrast version with strong saturation. This may affect the realism of reflections on the car surfaces. Objects such as trees and traffic lights in the background, which typically contribute to reflections on the cars, appear blurred or altered through editing. The reflections seem less natural due to this increased contrast and color alteration, which can introduce artifacts that deviate from expected reflections based on Image A's more natural look.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the enhanced environmental haze create a realistic atmospheric depth without blurring or distorting the structural elements of the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B has elevated contrast levels, resulting in reduced atmospheric haze and altering depth perception. Some elements like trees naturally contribute to atmospheric depth but are visually oversaturated, leading to a less realistic depiction of scenes where atmospheric conditions like haze are usually softer and more diffused. The scene loses some structural clarity due to these effects.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Has the increased contrast enhanced the visual impact without producing unnatural colors or excessive glare?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited Image B shows heightened contrast, significantly altering color saturation. This results in an unnatural intensity, especially visible in the sky and road color, which deviate from the expected spectrum, introducing excessive glare. These changes can overwhelm natural color tones, leading to colors and lighting levels that are less realistic.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the movie poster style conversion maintain visual credibility with the traffic lights and road markings appearing undistorted and logically intact?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, while traffic lights and road markings retain their shapes, the enhanced color saturation distorts realistic perception. The intensity could imply a stylistic modification to suit a 'movie poster' look, standing out rather than staying true to real-life credibilities, although structurally they appear intact.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Have the fine details of the cars, such as paint texture and taillight designs, been preserved without introducing unnatural artifacts or degradation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B retains structural details of the cars, but the elevated saturation and contrast obscure textures and designs. While basic forms and lights are visible, details such as paint texture and nuanced designs are altered, suggesting artifact introduction through editing, diminishing their accurate representation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

@@ -1,0 +1,131 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is an ornate, highly detailed silver teapot with baroque-style embellishments, featuring a domed lid topped with a finial, a curved spout with scrollwork, a C-shaped handle with intricate flourishes, and a base supported by four decorative feet. The body of the teapot is rounded and reflective, adorned with embossed floral and foliate patterns, including a central medallion motif. The teapot sits centrally on a round pedestal draped in a white lace tablecloth that cascades to the floor, displaying delicate floral and geometric lace patterns with scalloped edges. The background is a minimalist studio setting with soft diagonal lighting casting shadows across a neutral gray wall and floor, emphasizing the contrast between light and shadow.
+
+Thinking process:  
+The editing instruction explicitly states transformations to both the **subject (teapot)** and the **scene (tablecloth/base)**. It specifies:
+- Transforming the **teapot into a luxury scented candle holder**, meaning its **form and function** are to be changed.
+- Converting the **body into a glass container** with embossed patterns — this changes material and structure but retains design inspiration.
+- Modifying the **lid into a decorative finial-style candle snuffer** — alters function and form.
+- Changing the **tablecloth into a sleek marble base with reflective surface** — replaces the entire support element.
+- Adding a **nameplate reading "Elegance Aroma"** — introduces new text/element not present originally.
+
+Thus, the following elements are **allowed to change**:
+- The **material** of the teapot (from metal to glass).
+- The **function** of the teapot (from tea vessel to candle holder).
+- The **form** of the lid (into a candle snuffer).
+- The **structure** of the body (to accommodate a glass container).
+- The **supporting surface** (from lace-draped pedestal to marble base).
+- The **addition of a nameplate**.
+
+However, the instruction does **not** specify changing or removing any **core visual features** of the original teapot’s **design language**, such as the **ornamental style**, **symmetry**, **scrollwork**, or **placement of decorative motifs**. These are implied to be preserved in transformed form (e.g., embossed patterns on glass). Additionally, the **overall silhouette** and **proportional balance** may be retained for aesthetic continuity unless altered by the transformation.
+
+Allowed Changes List:
+- The material of the teapot body (metal → glass)
+- The function of the object (teapot → candle holder)
+- The form of the lid (domed lid → finial-style snuffer)
+- The support surface (lace-draped pedestal → marble base)
+- The addition of a nameplate ("Elegance Aroma")
+- The internal structure of the teapot (hollow interior → candle chamber)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+To determine what must remain unchanged, we apply exclusion based on the allowed changes and consider:
+
+**Core recognition elements:**  
+Although the teapot is being transformed, it is still derived from a specific **visual archetype**: a **Baroque-style ornate silver teapot**. Its identity hinges on key **iconic design features** such as:
+- The **central medallion** with symmetrical floral relief
+- The **curved spout** with scroll-like terminal
+- The **C-shaped handle** with volute details
+- The **finial-topped lid**
+- The **four-footed base** with decorative supports
+
+These are **not mentioned as changed** in the instruction, only reinterpreted (e.g., lid becomes snuffer, but likely retains finial shape). Thus, **the overall sculptural language and symbolic forms** should be preserved in the new candle holder version—especially since the instruction says “convert” rather than “replace entirely.”
+
+**Functional/logical association elements:**  
+The original teapot has a **functional relationship** between parts: spout for pouring, handle for grip, lid for sealing. While these functions change, their **spatial roles** may be preserved: e.g., the spout area might become a wick access point, the handle a grip for lifting. However, since no functional logic is required to be preserved beyond aesthetics, this category is less critical here.
+
+**Non-modified element deduction:**  
+After excluding all allowed changes, the **remaining visual details**—those not specified for modification—are presumed to be retained **in spirit**, even if materially altered. For example:
+- The **floral and foliate motifs** across the surface
+- The **symmetrical layout** of ornamentation
+- The **position of the central medallion**
+- The **flow of scrollwork** along the spout and handle
+- The **footed base structure**
+
+These are **not replaced** by the instruction; instead, they are **reused** in the new design. Therefore, **their presence, position, and stylistic essence** must be preserved.
+
+Preservation Targets List:
+- The central medallion with floral relief pattern
+- The curved spout with scroll-like terminal
+- The C-shaped handle with volute detailing
+- The finial-topped lid (even if converted to snuffer)
+- The four-footed base with decorative supports
+- The symmetrical arrangement of floral and foliate motifs
+- The overall silhouette and proportion of the teapot
+- The placement of the central medallion on the front face
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The central medallion is a core identification feature of the teapot's Baroque design. Its presence, location, and ornamental style define the piece’s aesthetic identity. If removed or relocated, the transformed object would lose its visual lineage to the original. This is a key visual anchor, hence weighted at 3 points.
+    Question: Is the central floral medallion located on the front center of the body, surrounded by symmetrical scrollwork?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The curved spout with its distinctive scroll-like terminal is a unique structural feature that contributes to the teapot’s iconic profile. Even if repurposed as part of a candle holder, its shape and position must be retained to maintain visual consistency with the original. This is a major design element, thus weighted at 2 points.
+    Question: Does the spout extend from the left side of the body with a curled, scroll-like tip?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q3: 
+    Thinking process: The C-shaped handle with volute detailing is another defining characteristic of the teapot’s ornate design. Its curvature and decorative flourishes are essential to the object’s identity. Altering its shape would break the visual connection to the original. This is a key accessory feature, so weighted at 2 points.
+    Question: Is the handle on the right side of the body shaped like a C with ornate volute ends?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The finial on top of the lid is a small but significant detail that completes the teapot’s vertical symmetry and decorative hierarchy. Although the lid becomes a snuffer, the finial’s presence and form should persist as a nod to the original. This is a minor but identifiable detail, thus weighted at 1 point.
+    Question: Is there a small decorative finial atop the lid?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q5: 
+    Thinking process: The four-footed base with decorative supports is a structural element that grounds the teapot visually and physically. Even if the base is now part of a marble stand, the number and style of feet should reflect the original. This maintains spatial integrity and is a secondary but important detail, hence weighted at 1 point.
+    Question: Are there four ornate feet supporting the base of the object?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The symmetrical arrangement of floral and foliate motifs across the body is a hallmark of the Baroque style in this teapot. While the material may change (metal to glass), the pattern layout must remain consistent to preserve the design language. This is a key visual coherence element, so weighted at 2 points.
+    Question: Are the floral and foliate patterns arranged symmetrically around the body?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The overall silhouette of the teapot—rounded body, elevated lid, balanced spout and handle—is fundamental to its recognition. Even when transformed, the proportions and outline should mirror the original to maintain visual continuity. This is a core identity feature, hence weighted at 3 points.
+    Question: Does the object retain the same overall rounded silhouette with a domed lid and balanced spout and handle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}

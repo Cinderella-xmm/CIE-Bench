@@ -1,0 +1,87 @@
+Description of reference image: The subject is a white rectangular plate placed on a dark blue textured surface, containing approximately ten golden-brown fried chicken wings arranged in a slightly overlapping cluster. The wings have a crispy, seasoned exterior with visible charred spots and a glossy sheen from oil or sauce. A small round white bowl filled with orange-colored sauce (likely a spicy or sweet chili-based dip) sits at the bottom right corner of the plate. Surrounding the plate are scattered elements: a halved orange habanero pepper to the upper right, a few green celery sticks on the right edge, a wooden bowl with white dipping sauce (possibly mayonnaise or yogurt-based) in the top left, and another plate with more wings partially visible in the top right. The background is a consistent dark blue-gray stone-like surface with subtle texture.
+
+Thinking process:  
+First, analyze the editing instructions word by word:  
+- "Transform the chicken wings into plush toy replicas featuring a golden-brown fabric with a slightly crunchy texture" → This indicates the **form** and **material** of the chicken wings must change; they are no longer real food but soft toys. However, the **shape**, **arrangement**, and **number** of wings should logically remain similar for visual continuity unless otherwise stated.  
+- "Replace the sauce with a soft, textured pillow in bright orange to mimic its appearance" → The **function** of the sauce (dip) is preserved, but the **form** changes from liquid to solid pillow. The **color** (bright orange) and **position** (in the small white bowl) should be retained to maintain spatial logic.  
+- "Set everything on a smooth, light-colored wooden surface to contrast the plush details" → The **background surface** changes entirely from dark blue stone to light wood. Therefore, the original background is not required to be preserved.  
+
+Allowed Changes List:  
+- Form and material of chicken wings (real food → plush toy)  
+- Form and texture of sauce (liquid → soft pillow)  
+- Background surface (dark blue stone → light-colored wood)  
+- Texture of the sauce container (if implied by "soft pillow")  
+- Any surrounding props like peppers, celery, or extra plates can be removed or replaced as long as the core layout is maintained
+
+Step 2 – Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements:  
+- The **golden-brown color** of the chicken wings is essential for identity — even though they become plush, the instruction specifies "golden-brown fabric," so the **color** must remain.  
+- The **shape and arrangement** of the wings must be preserved because the instruction says “replicas” — implying fidelity in form despite material change.  
+- The **presence and position** of the small white bowl must remain because it's explicitly mentioned as holding the sauce replacement.  
+- The **orange color** of the sauce/pillow must be preserved, as the instruction specifies "bright orange" to mimic the sauce.  
+
+Functional/logical association elements:  
+- The **relationship between the wings and the sauce bowl** must remain: the bowl must still be positioned near the wings, likely in the same corner, to preserve serving logic.  
+- The **number of wings** (approximately ten) should be retained to maintain the scale and intent of the dish.  
+
+Non-modified element deduction:  
+- The **texture of the plush wings** is allowed to change (to "slightly crunchy" fabric), so actual crispiness is not preserved — but the **visual impression of golden-brownness** must be retained.  
+- The **original background** is not required, so it can be changed.  
+- Side elements like peppers, celery, and extra plates are not referenced in the new scene and thus can be omitted.  
+
+Preservation Targets List:  
+- The shape and number of chicken wings (10)  
+- The golden-brown color of the wings  
+- The presence and position of the small white bowl  
+- The bright orange color of the sauce/pillow  
+- The relative placement of the bowl near the bottom right of the plate  
+
+{
+    Q1: 
+    Thinking process: The golden-brown color is the key visual identifier of the chicken wings in the original image. Even when transformed into plush toys, the instruction specifies "golden-brown fabric," meaning this color is a required attribute for recognition. Losing this would make the object unidentifiable as a chicken wing replica.
+    Question: Is the golden-brown color present on the plush chicken wings?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The shape of the chicken wings — including drumettes and flats — is essential for identifying them as chicken wings. The instruction calls for "replicas," which implies preservation of form. Changing their silhouette would break the identity of the subject.
+    Question: Are the plush chicken wings shaped like real chicken wings, including distinct drumettes and flats?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The small white bowl is a functional element that holds the sauce. It is clearly visible in the original image and is directly referenced in the editing instruction. Its presence and position are necessary for maintaining the logical structure of the scene — even if the contents change.
+    Question: Is there a small white bowl located at the bottom right corner of the plate?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The bright orange color of the sauce is specified in the instruction as the target for the pillow. In the original image, this color is distinctive and identifies the sauce as spicy or sweet chili-based. Preserving this color ensures the visual consistency of the replacement.
+    Question: Is the object inside the small white bowl bright orange in color?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The number of chicken wings (approximately ten) is a key detail in the composition. The instruction does not mention reducing or increasing quantity, and transforming them into replicas implies maintaining the same count for visual coherence.
+    Question: Are there approximately ten plush chicken wings on the plate?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The relative positioning of the bowl near the bottom right of the plate establishes spatial logic in the original image. The instruction does not alter this placement, so retaining it ensures continuity in the scene’s layout.
+    Question: Is the small white bowl positioned near the bottom right corner of the plate?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

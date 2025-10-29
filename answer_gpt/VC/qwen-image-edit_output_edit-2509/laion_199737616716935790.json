@@ -1,0 +1,97 @@
+{
+  "filename": "laion_199737616716935790",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the skull face with grinning teeth and hollow eyes located on the rear fender of the motorcycle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, which shows the edited image, I observe the rear part of the motorcycle. The fender appears to be clean and doesn't feature any distinct graphics or designs such as a skull face. Using world knowledge, motorcycle rear fenders typically have space for mudguards or additional design elements, but here the region appears plain, suggesting there is no skull face. Comparatively, Image A does show a skull face in this region, which is not visible in Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a skull face with grinning teeth and hollow eyes positioned on the front headlight cowl?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the analysis of Image B, considering world knowledge of motorcycle designs, the front headlight cowl usually has branding or decorations. Image B shows a design on this cowl which resembles a skull face, specifically near the handlebar area above the headlight. By combining visual cues and common motorcycle design knowledge, I conclude that the skull face is present in this location. Image A confirms this presence on the front headlight cowl.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the blue angular stripes present along the fuel tank, side panels, and front fairing in the same geometric configuration as in the original?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, blue angular stripes are visible along the various parts of the motorcycle. The arrangement offers a lot of sharp zigzag patterns. Image A also showcases blue angular stripes, but the geometric configuration is noticeably different with more organized and straight-line patterns. Thus, the design configurations in both images don't match precisely.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the “V-SDI” and “VFORCE3” decal visible on the lower side panel near the foot peg area?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing Image B, various decals are indeed visible on the lower side panel near the foot peg area. Checking these details against world knowledge of common motorcycle modifications and branding, the terms “V-SDI” and “VFORCE3” are identifiable among the decals. Comparing this observation with Image A, these decals are present in both images.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the motorcycle shown in a side profile view facing toward the right side of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the motorcycle is depicted in a typical side profile view facing right. World knowledge states that motorcycles can often be depicted in profile views for better showcasing design details, which aligns with what is seen in Image B. Image A also presents a side profile view facing the right, confirming consistency between the images.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the exhaust pipe located beneath the seat and curving downward toward the rear wheel?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The observation of Image B shows the exhaust pipe positioned beneath the side panel near the engine rather than beneath the seat. It appears more forward along the bike's architecture and curves towards that rear, typical in some motorcycle designs. Image A indicates an exhaust pipe more correctly aligned with common motorcycle exhaust standards placed closer to the rear wheel.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Does the seat have a smooth, slightly curved surface with a raised backrest?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing Image B, the seat design does seem smooth, with a continuous surface typical for streamlined motorcycle seats. It appears slightly elevated at the back end, meeting the criteria for having a raised backrest. Comparatively, Image A also depicts the seat with these characteristics.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5333333333333333
+}

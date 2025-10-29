@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The horse’s dark mane and tail are core identification features distinguishing it from other equines or stylized versions. In the original image, the mane is long and flowing along the neck, and the tail is bushy and black. These are consistent with typical depictions of a bay horse. Losing these would make the animal unrecognizable as a horse, especially if replaced with a different color or texture. Since the instruction allows stylistic changes but not species replacement, the presence and basic appearance of the mane and tail must be preserved. This is a key identity feature, hence weight 3.",
+      "question": "Is the horse depicted with a dark mane running along its neck and a long, dark tail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The elephant’s tusks are a defining anatomical feature. In the original image, two prominent, curved white tusks extend from the upper jaw. These are essential for identifying the animal as an elephant, particularly an African elephant. Removing or altering them would fundamentally change the animal’s identity. The instruction does not permit replacing the elephant, so its key features like tusks must remain. This is a core recognition element, thus weight 3.",
+      "question": "Does the elephant have two visible, curved white tusks extending from its mouth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The wooden platform is a structural element that defines the relationship between the horse and the elephant. It is a flat, rectangular object supporting the horse and resting on the elephant’s back. Its presence is crucial to the scene’s logic. The instruction does not mention removing or replacing it, only reimagining the composition. Therefore, the platform must remain as a physical intermediary. This is a functional/logical element, so weight 2.",
+      "question": "Is there a flat wooden platform positioned between the horse and the elephant, supporting the horse and resting on the elephant’s back?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The profile orientation of both animals (facing left) is a key compositional choice in the original image. It ensures symmetry and clarity in the layered structure. The instruction does not specify changing the angle, and altering it would disrupt the established visual flow. While pose can be modified, the directionality (left-facing) is part of the original layout and should be preserved for consistency. This is an important scene element, hence weight 2.",
+      "question": "Are both the horse and the elephant depicted in profile view, facing toward the left side of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The elephant’s trunk is a unique identifier. In the original image, it is long, segmented, and curls slightly at the end. This shape is characteristic of elephants and distinguishes them from other animals. Even if stylized, the trunk must retain its basic form. The instruction allows anatomical detail enhancement but not morphological replacement. Thus, the presence and general shape of the trunk are critical for identity. This is a core recognition feature, so weight 3.",
+      "question": "Does the elephant have a long, segmented trunk that curls upward at the tip?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The background is a plain, textured beige surface resembling aged paper. It lacks any scenery, sky, or objects. This minimalism is a key aspect of the original image’s aesthetic. The instruction does not require adding a new environment, so the background should remain simple and uncluttered. While lighting may change, the absence of additional elements must be preserved. This is a minor but important detail for visual coherence, so weight 1.",
+      "question": "Is the background a uniform beige color with a subtle paper-like texture and no additional scenery or objects?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The horse’s coat color is a distinct visual trait—rich brown with darker extremities (legs, mane, tail). This coloration is typical of a bay horse and helps identify the animal. While the instruction allows lighting changes, the base color should remain consistent unless explicitly altered. Since no color change is specified, the original color scheme must be preserved. This is a secondary but identifiable detail, so weight 1.",
+      "question": "Is the horse’s body primarily a rich brown color with black lower legs, mane, and tail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

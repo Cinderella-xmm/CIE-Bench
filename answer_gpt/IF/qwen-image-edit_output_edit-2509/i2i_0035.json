@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0035",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image contain the exact title “Today’s Balanced Lunch” at the top?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, at the top of the image, there is a bold and large text which reads 'Today’s Balanced Lunch'. This indicates that the edited image does indeed contain the specified title.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a placeholder for the school logo located at the bottom right corner of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a rectangular area at the bottom right corner contains a graphic resembling a logo box, with the text 'SCHOOL' and some generic or placeholder elements. This signifies the presence of a placeholder for a school logo.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Have the colors in the food and background been visibly enhanced to appear more vivid and bright?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the colors on the food and background appear more saturated and vivid compared to usual natural tones. The background is a bright blue-green, and the oranges are more vibrant, suggesting color enhancement has been applied.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are white outlines visible around the edges of all items on the plate in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows that the items on the plate, such as the milk carton, the salad, the orange slices, and the cheesy bread, do not have distinct white outlines around them. The edges are natural without added outlines.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the image been formatted to fit an A4 vertical layout, ensuring proper alignment of text and imagery?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B is square or possibly slightly rectangular due to the shape of the tray, and it includes additional text and graphics above and below the meal. Despite fitting a frame, it does not exhibit the proportions typical of an A4 vertical layout where text and imagery would be vertically aligned as such.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

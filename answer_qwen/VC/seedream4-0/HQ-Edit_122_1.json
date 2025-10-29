@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_122_1",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the vertical cluster of lavender-like flowers with fuzzy purple petals present in the same structural arrangement as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the vertical cluster of lavender-like flowers is clearly visible, composed of multiple small purple blooms arranged along a central stem. The structure consists of densely packed, fuzzy-textured purple petals forming a spike-like shape, which is characteristic of certain flowering plants such as lavender or salvia. The arrangement appears to be linear and ascending, with individual florets clustered tightly together. Based on visual inspection, this floral structure matches the general morphology seen in Image A — a similar vertical flower spike with purple, fuzzy petals. However, while the overall structure is preserved, subtle differences in bloom density and spacing may exist due to artistic enhancement in Image B. Nevertheless, the core structural arrangement remains consistent with the original. Therefore, using world knowledge about plant morphology and comparing visual cues, we conclude that the arrangement is largely the same.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a single blue flower with a yellow center located at the top of the flower cluster?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, at the uppermost part of the vertical flower cluster, there is indeed a distinct blue flower with a bright yellow center. This flower stands out from the surrounding purple blooms due to its color contrast and more defined petal structure. It resembles a typical five-petaled flower, possibly inspired by forget-me-nots or similar species, which often have blue petals and yellow centers. The positioning of this flower at the apex of the cluster is prominent and intentional, likely serving as a focal point. Comparing this to Image A, the same feature is present — a blue flower with a yellow center at the top. Given that both images share this detail, and considering botanical plausibility (such flowers can appear atop clusters), the presence of this specific bloom is consistent across both versions. Thus, based on visual evidence and biological realism, the answer is confirmed.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the butterfly positioned with its legs touching the flower stem, maintaining physical contact?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the creature resembling a butterfly has delicate, slender legs extending toward the flower stem. Upon close examination, two of its legs are visibly in contact with the stem of the flower cluster, suggesting it is perched or clinging to it. The positioning appears natural for an insect interacting with flora, as real butterflies often rest with their legs gripping stems or leaves. While the creature is fantastical — featuring iridescent wings and a body adorned with flowers — its posture mimics realistic insect behavior. In comparison to Image A, where the butterfly also appears to be resting on the stem, the leg placement is similarly accurate. Both images depict physical contact between the insect's legs and the plant stem, indicating stability and interaction. Therefore, combining visual cues with biological knowledge of insect locomotion and resting behavior, we confirm that physical contact is maintained.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the wings of the butterfly fully spread in a side profile view, showing both left and right wings symmetrically?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the wings of the butterfly-like creature are not fully spread in a symmetrical side profile. Instead, the wings are angled upward and slightly forward, giving a three-quarter view rather than a strict lateral perspective. The left wing is partially obscured by the body, while the right wing is more visible but not fully extended. Furthermore, the wings are translucent with shimmering patterns, and their orientation suggests a dynamic pose, possibly mid-hover or gentle landing. This contrasts with a full side profile, which would show both wings equally exposed and parallel to the viewer’s plane. In Image A, the butterfly is shown in a more traditional side profile with wings fully spread and symmetrically displayed. Therefore, by analyzing the wing angle, visibility, and symmetry, and comparing it to the expected anatomical presentation in a side view, we conclude that Image B does not present a fully symmetric side profile.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the lighting in the image coming from above, casting a warm golden glow over the butterfly and flowers?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting appears soft and diffused, with highlights concentrated on the upper surfaces of the wings and the top of the flower cluster. There is a gentle gradient from light to shadow, suggesting a primary light source from above. However, the overall tone is cooler and more ethereal compared to the warm golden glow seen in Image A. In Image B, the background includes floating orbs and sparkles, contributing to a magical ambiance with pastel hues and a bluish-white sky, indicating daylight with possible morning or late afternoon softness. While there is illumination from above, it lacks the intense warmth and golden tint present in the original image. The lighting here leans more toward a dreamy, fairy-tale aesthetic rather than a naturalistic warm glow. Therefore, although the directionality is consistent (from above), the quality and color temperature differ significantly. Using knowledge of lighting effects in photography and digital art, we determine that the lighting is not warm golden.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0160",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the background been changed from a sunset to a starry night sky?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background is clearly a starry night sky with visible stars, suggesting a night-time setting. This is a stark contrast to the typical colors and lighting of a sunset, which features warm and vibrant hues from the setting sun. As Image A shows a bright, warm background typical of a sunset, the background in Image B has indeed been changed from a sunset to a starry night sky.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a faint new moon visible in the new background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a visible crescent moon in the background, which is consistent with the presence of a new moon. This indicates the depiction of a nighttime sky with celestial bodies such as the moon.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the image include subtle dreamy effects such as soft lighting or faint clouds to create a dreamy atmosphere?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting appears soft and there are stars creating a serene and otherworldly atmosphere. However, there are no visible faint clouds or other specific dreamy effects beyond the changed lighting conducive to a night setting. The dreaminess is primarily derived from the celestial elements and the shift to a night sky.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have the birds remained in their original positions and retained their detailed appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the birds are in the same positions as seen in Image A, with no noticeable changes in their stance or details. They maintain their natural detailed look, which was present in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any additional changes to the image apart from the background, new moon, and dreamy effects?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No\n```",
+      "explanation": "The primary changes in Image B are the introduction of a starry night sky background and a crescent moon. There is no evidence of any other alterations to the image. The birds, foliage, and overall composition remain unchanged.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

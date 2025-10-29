@@ -1,0 +1,71 @@
+{
+  "filename": "laion_311203492496455872",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the hairstyle been transformed into a swirling, fluffy cotton candy form with pastel pink and blue hues?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the hairstyle is clearly depicted as a swirling, fluffy form with pastel pink and blue hues. This can be identified by the smooth, rounded shapes and vibrant colors that resemble cotton candy. The visual cues of softness and color gradient support this conclusion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Has the suit been replaced with a stylized 3D paper doll version featuring a glossy surface and bold geometric patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The suit in Image B appears to have a glossy surface and bold geometric patterns, which are characteristic of a stylized 3D paper doll version. The sharp lines and reflective surfaces suggest a non-realistic, artistic rendering rather than a real fabric texture.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Has the tie been replaced with an oversized, cartoon-style element featuring bright, contrasting colors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The tie in Image B is indeed oversized and features bright, contrasting colors, resembling a cartoon-style element. Its exaggerated size and vivid coloration stand out against the more subdued background and other elements, indicating a deliberate stylistic choice.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have the facial features and expression of the person remained unchanged from the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing the facial features and expression in Image A and Image B, there are noticeable differences. In Image B, the face has been smoothed out with less detail, and the expression appears more idealized and less natural, suggesting changes from the original image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are all modified elements (hair, clothing, tie) visually consistent with their respective stylized forms (cotton candy, paper doll, cartoon) and not mixed with realistic details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "All modified elements in Image B (hair, clothing, tie) maintain their respective stylized forms without mixing realistic details. The hair retains its cotton candy appearance, the suit its glossy paper doll look, and the tie its cartoon style, ensuring consistency within each element's artistic theme.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

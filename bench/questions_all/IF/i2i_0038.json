@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The requirement specifies transforming the person’s pose and expression into a cartoon line-art style. This involves checking whether the figure is simplified with clean lines and minimalistic details characteristic of cartoon art.",
+      "question": "Has the person's pose and expression been simplified into a cartoon line-art style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The edit instruction explicitly asks to maintain the raised hand gesture. This needs verification to ensure the hand remains in the same position.",
+      "question": "Is the raised hand still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The instruction mandates keeping the open mouth expression in the cartoon-like drawing. We must check if this detail was preserved during the simplification.",
+      "question": "Does the cartoon-style person retain an open mouth expression?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The camera is an essential part of the original image. Ensuring it covers part of the face after the transformation confirms fidelity to the instructions.",
+      "question": "Does the cartoon-style image include a camera covering part of the person's face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Adding a speech bubble with specific text is a clear and straightforward instruction. We must verify the presence and content of the speech bubble.",
+      "question": "Is there a speech bubble with the text “Take a photo” in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

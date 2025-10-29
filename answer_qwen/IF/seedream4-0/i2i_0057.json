@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0057",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the central figure in the edited image now a robot horse rather than a biological horse?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The central figure in the edited image is clearly not a biological horse. Instead, it resembles a cow with mechanical features such as articulated joints, visible internal components, and metallic surfaces. The animal has a silver-white shell, exposed mechanical parts, and glowing red eyes, which are characteristic of a robotic or biomechanical design. Additionally, the structure of its limbs and body shows clear signs of engineering, such as joint actuators and segmented legs. These visual cues strongly indicate that the figure is a robotic animal, but specifically a robot cow, not a robot horse. Therefore, the statement that it is a robot horse is incorrect.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the biomechanical horse in the edited image maintain the same posture as the original horse, with its head lowered as if grazing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "First, analyzing Image B: the central figure is a biomechanical animal resembling a cow, not a horse. Its head is raised, not lowered, and it appears to be walking forward with its head up, suggesting alertness or movement rather than grazing behavior. In contrast, in Image A, the original animal (a black cow) is also walking on the path, but its head is slightly lowered, consistent with natural locomotion or mild grazing. However, the edited version in Image B does not show the head lowered; instead, it is elevated, indicating a different posture. Therefore, the posture is not the same, and the claim that the head is lowered as if grazing is false.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the biomechanical horse in the edited image have a silver-white metallic shell?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the central figure is covered in a reflective, silvery-white material that gives it a metallic appearance. This shell covers most of its body, including the torso and limbs, and reflects light in a way typical of polished metal. The surface texture and sheen are consistent with a metallic coating used in robotic designs. There are no organic textures or skin-like materials present. Thus, based on visual evidence, the biomechanical animal indeed has a silver-white metallic shell.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are exposed joint mechanisms visible on the biomechanical horse in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon close inspection of Image B, the joints of the biomechanical animal—particularly at the shoulders, elbows, hips, and knees—are visibly articulated with exposed mechanical components. These include gears, actuators, and cylindrical joints that resemble those found in robotic limbs. The design reveals internal mechanics, especially around the leg joints and neck area, where structural elements are not fully enclosed. This level of exposure is typical in advanced robotic models for functionality and aesthetic effect. Hence, exposed joint mechanisms are clearly visible.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the biomechanical horse in the edited image have glowing red sensor eyes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the eyes of the biomechanical animal emit a bright red glow, which is characteristic of sensors or optical systems in robotic entities. These red lights are positioned symmetrically in the eye sockets and stand out against the metallic face. Such glowing eyes are commonly used in robotic designs to simulate awareness or indicate active sensors. Given their luminosity and placement, they function as artificial eyes, likely serving as sensors. Therefore, the presence of glowing red sensor eyes is confirmed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

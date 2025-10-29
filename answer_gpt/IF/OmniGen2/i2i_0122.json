@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0122",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the original desk been replaced with an outdoor café table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the table is a wooden outdoor café table with snow accumulation, suggesting it is set outdoors. The original image depicted an indoor table in a warm setting, consistent with a coffee shop or cozy interior. Considering this visual information and typical knowledge of outdoor café furniture, it's evident the desk has been replaced with an outdoor setup.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a snowy cabin visible in the background of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a cabin covered in snow, suggesting winter conditions in an outdoor setting. This is consistent with typical snowy mountain cabins or winter vacation lodges. Comparing this to Image A, which depicted an indoor setting, it's clear the background has changed to feature a cabin surrounded by snow.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the image display elements contributing to a warm winter atmosphere, such as warm lighting or steam from the drinks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B illustrates a cabin with outdoor snow, which suggests a cold winter environment rather than warmth. Although the cabin's warm lighting is visible, it lacks elements such as steaming drinks that would convey a warm atmosphere. Thus, the overall image suggests a cold outdoor setting rather than a warm winter ambiance.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the outdoor café table correctly positioned in front of the snowy cabin?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The visual alignment in Image B shows the outdoor café table positioned neatly in front of the snowy cabin, indicating an intentional placement to suggest an outdoor seating area possibly associated with the cabin. This positioning seems deliberate and correctly aligned from a visual design standpoint.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any elements from the original background still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Image A contained an indoor background with sunlight filtering through a window, which was entirely transformed into an outdoor snowy cabin scene in Image B. The transition from an indoor setup to a complete outdoor snowy cabin suggests that there are no remaining elements from the original image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

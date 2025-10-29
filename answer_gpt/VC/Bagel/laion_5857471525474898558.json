@@ -1,0 +1,84 @@
+{
+  "filename": "laion_5857471525474898558",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the windows aligned vertically in the same columns across all floors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the second image, the windows appear to be aligned within the same columns vertically across all floors. This is inferred by observing the uniform placement and stacking of the windows directly above one another in each column, which is a typical architectural feature in many building designs.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a red door located on the left side of the ground floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the door on the left side of the ground floor is painted red, consistent with standard door appearances where a single bold color is often used for emphasis. The red color stands out against the otherwise colorful facade of the building, confirming its presence.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a dark-colored door located on the right side of the ground floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the door on the right side of the ground floor appears to be a darker shade, contrasting with the more vibrant overall building color scheme. Typically, a door that stands out less due to its darker hue is identified as a dark-colored door.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the climbing plant cover the central vertical strip of the building, spanning from near the ground floor up to the third floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual features of the climbing plant indicate it extends along the central vertical strip, from near the ground floor up to the third floor. Despite the building having a colorful, LEGO-like appearance, the plant feature is still visible and spans the specified height, common for aesthetic or environmental reasons.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a red rectangular outline enclosing a section of the building that includes three stacked windows and a balcony?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B, with its vibrant and unified color theme, does not exhibit any red rectangular outline noticeable on the building facade. The structure and vibrant color alterations make the detection of any additional outlines unlikely in this setting.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the balconies located directly outside specific windows on the second, third, and fourth floors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The second image shows balconies positioned outside specific windows on the second, third, and fourth floors, as evident from the distinct protrusions and alignments that extend from the building facade.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8666666666666667
+}

@@ -1,0 +1,84 @@
+{
+  "filename": "laion_1853743472720219502",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the wooden surface with visible grain patterns and warm brown tones present and unaltered in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a phoenix emblem with a bright, fiery appearance is depicted against a wooden background. The wood has visible grain patterns and a warm brown tone, similar in color to the first image. Although the object on this surface has changed from pendants to an illustrated phoenix, the wood itself retains a similar appearance, implying it is unaltered.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the two feather pendants positioned such that one is in the foreground and the other is partially overlapped behind it, maintaining the original diagonal alignment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are no pendants present. Instead, there is a single elaborate graphic of a phoenix. This represents a significant change from two pendants in the original image to a single phoenix graphic in the edited image. Therefore, the original positioning and overlapping of feather pendants are not maintained.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the pendants cast soft, consistent shadows beneath them on the wooden surface, indicating overhead lighting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays a vibrant, digitally illustrated phoenix with intrinsic glow effects rather than physical objects casting shadows. Since the pendants from the original image are absent and no equivalent shadows are visible, the original lighting effect related to pendants' shadows on a wooden surface does not exist here.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the pendants aligned diagonally across the frame, extending from the lower-left toward the upper-right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a single, central phoenix graphic, not diagonally aligned pendants. This design is centered and vertically oriented, differing significantly from a diagonal alignment of the pendants.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the wooden surface retain its natural grain texture, including variations in tone and minor imperfections, without digital smoothing or enhancement?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the presence of a vibrant graphic altering the central focus, the wooden background maintains its grain texture and rich tone, indicating that the background’s natural characteristics have not been smoothed or digitally altered significantly.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the edge of the leather feather clearly defined against the wooden surface, showing a slight separation and shadow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no leather feather present. Instead, a digital illustration of a phoenix is prominent on the background, making it impossible for there to be a clearly defined leather feather edge or any related separation/shadow against the surface.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

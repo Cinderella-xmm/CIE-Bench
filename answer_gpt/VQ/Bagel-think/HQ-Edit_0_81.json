@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_0_81",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the geometric patterns on the elderly man’s robe evenly distributed, continuous across folds and seams, and free from jagged edges or texture repetition artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the man's robe features stripes and patterns on a colorful fabric. To assess the continuity and evenness of these patterns, observe whether the design maintains a regular flow over the contours of the robe and folds, without disjointed segments or strange texture artifacts. The robe's patterns must align smoothly across any creases and seams, appearing as a continuous design. They should not exhibit irregular or jagged edges that could indicate poor editing techniques.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the ornate wooden staff maintain a natural wood appearance with coherent grain direction, proper thickness, and no floating or detached decorative elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The staff in Image B has ornate elements that should align with physical realism. The wood grain should have a consistent direction and match a naturally carved piece. Observe if its thickness is proportional and feels sturdy. Check for any flaws such as floating parts or inconsistently attached decorative sections which might detract from a natural look or imply editing errors.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the colors of the spice piles in the background visibly intensified but still physically plausible, without color bleed, haloing, or loss of individual grain texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Evaluating Image B involves examining the spice piles' colors, which seem bright and vivid. To determine plausibility, these colors should not bleed into adjacent objects or spaces, causing unnatural halos. Additionally, the grain texture must remain intact and detailed, without appearing as a blurred mass.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the decorative border motif clearly defined, properly aligned with the image’s edge, and positioned without intersecting or distorting any existing elements such as people, stalls, or ground tiles?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The border in Image B should have a sharp and defined pattern. It must be well-aligned with the picture's edges without cutting through or interfering with central elements like people, merchandise, or the background architecture. Check if it seamlessly fits without causing any distortions or overlaps with the main composition.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the wooden box held by the man show consistent wood grain, proper shadowing under ambient light, and natural flower arrangement without distorted petals or unnatural color shifts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the wooden box is assessed by observing its grain consistency and how shadows fall across its surface. Shadowing should correlate with the ambient light, giving depth and realism. Additionally, the flowers should exhibit a natural arrangement, with petals maintaining their structure and color without shifting to hues or patterns uncharacteristic of natural flowers.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

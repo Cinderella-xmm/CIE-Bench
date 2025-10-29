@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-49021040764424474",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the entire body of the truck constructed from visible LEGO bricks in orange, black, and silver colors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the truck is constructed from visible LEGO bricks. The main colors visible include red, yellow, black, and silver. LEGO bricks mimic the shape of a real pickup truck through blocky construction, focusing on the primary colors they use for a dramatic look. There is no sign of orange or a predominantly single color scheme. In Image A, the truck has a smooth metallic orange surface with black and silver details, reflecting the actual car design. Thus, part comparison shows color differences and material differences between LEGO and the real truck.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the wheels composed entirely of circular gray LEGO pieces, replacing the original tire and rim design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the wheels are indeed composed of circular LEGO pieces featuring a gray color with a simulated rim and tire design. These elements indicate the use of standard LEGO wheel pieces often employed in vehicle builds. In Image A, the truck features realistic rubber tires and rims common in real vehicles. By comparison, the LEGO bricks emulate the tire and rim design, but through uniform plastic construction rather than rubber and metal materials.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the truck bed fully covered with smooth black LEGO tiles, replacing the original textured surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the truck bed is visibly constructed from LEGO pieces, and while it uses flat black bricks, it does not appear uniformly smooth, showing some studs typical of LEGO bricks. In Image A, the truck bed is engineered with intricate textural details typical of actual pickup surfaces to secure loading cargo. Comparison indicates LEGO construction is unable to perfectly mimic these fine textures but aims for a simplified representation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the LEGO truck placed on a plain white shelf that elevates it above the ground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the LEGO truck model is indeed situated on a white shelf or ledge, which clearly elevates it off any floor surface. This positioning is typical in displaying models or collections to enhance visibility and accessibility. In Image A, the real truck is situated on natural ground, where vehicles would typically be operated or parked. This contrast indicates the LEGO model's dual purpose as a display item, hence its placement on a shelf.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the LEGO model retain the correct shape and proportions of the original pickup truck, including the cab, bed, and wheelbase?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a LEGO truck model designed to resemble a standard pickup truck with recognizable elements like a cab, flatbed, and wheels. However, due to the inherent nature of LEGO bricks, which are blocky, this leads to some limitations in achieving precise proportions and shapes. Image A displays an accurately proportioned real truck. The LEGO model approximates the general form well enough to be identifiable as a replica, yet it is inherently less faithful to the true vehicle's proportions due to its construction medium.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

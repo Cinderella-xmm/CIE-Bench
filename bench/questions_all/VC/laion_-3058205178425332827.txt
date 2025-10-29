@@ -1,0 +1,131 @@
+**Step 1 – Analyze the editing instructions and determine allowed changes**
+
+---
+
+**Description of reference image:**  
+The subject is a painted cityscape viewed from an elevated vantage point, depicting a coastal town with warm-toned rooftops in the foreground, a prominent church or bell tower with arched windows and a domed top centered slightly to the right, and a wide blue bay extending into the distance. The background features dark silhouetted mountains under a vibrant twilight sky dominated by soft pinks, purples, and oranges. The painting style is expressive and impressionistic, using visible brushstrokes and bold color contrasts. The composition includes layered urban buildings with red-tiled roofs, some with light-colored facades, and a harbor area with docks extending into the water. A small boat is visible on the water. The overall mood is serene and romantic, evoking a Mediterranean coastal city at dusk.
+
+---
+
+**Thinking process:**  
+The editing instructions specify several transformations:  
+- **Landscape Transformation**: Simplify the cityscape in watercolor style, keeping warm pink and blue tones dominant → this allows modification of texture, brushwork, and detail level but retains the core color palette.  
+- **Character Addition**: Add an anthropomorphic cat wearing a striped sailor shirt and beret, gazing across the coastline from one of the rooftops → introduces a new character not present in the original, so no constraint on existing elements related to the cat.  
+- **Narrative Details**: Include text: *"Pepper the Cat's Neapolitan Adventure: Searching for the Legendary Vesuvian Treasure"* → adds textual content, which is not part of the original image.  
+- **Design**: Add decorative borders resembling Italian tile patterns along the page edges → modifies the frame/edge design; does not affect internal content unless it overlaps with scene elements.
+
+From this, we identify that:
+- The **style** of the cityscape can be changed (from oil-like impasto to watercolor).
+- The **texture and rendering** of buildings, sky, and water may be altered.
+- A **new character (cat)** will be inserted into the scene.
+- **Text and border decorations** are added externally.
+- However, **the core visual structure and key identifiable features** of the original scene must remain intact unless explicitly overridden.
+
+Thus, **allowed changes** include:
+- Artistic style transformation (oil → watercolor)
+- Texture and brushwork simplification
+- Addition of a character (anthropomorphic cat)
+- Insertion of narrative text
+- Addition of decorative tile-style borders
+- Color tone adjustment within warm pink and blue range
+
+---
+
+**Allowed Changes List:**
+(Specific element 1 that allows for changes): Artistic rendering style (e.g., from thick impasto to watercolor washes)  
+(Specific element 2 that allows for changes): Brushstroke texture and surface detail of buildings and sky  
+(Specific element 3 that allows for changes): Inclusion of a new anthropomorphic cat character on a rooftop  
+(Specific element 4 that allows for changes): Addition of text overlay describing the story  
+(Specific element 5 that allows for changes): Border design with Italian tile motifs  
+(Specific element 6 that allows for changes): Color intensity and blending within pink and blue tonal ranges  
+
+---
+
+**Step 2 – Determine the elements that should remain unchanged**
+
+---
+
+**Thinking process:**  
+We now apply exclusion logic based on the allowed changes above to determine what **must remain unchanged** in the original image:
+
+1. **Core recognition elements**:
+   - The **iconic silhouette of the bell tower** with its central dome and twin arched windows is a key architectural feature that defines the viewpoint and likely identifies the location as a Mediterranean coastal city (possibly Naples). Its shape and position are critical for scene recognition.
+   - The **mountain range in the background**, especially the large central peak resembling Mount Vesuvius, is a major geographical landmark and essential for identifying the setting as Naples.
+   - The **harbor and dock structures** extending into the sea provide spatial context and reinforce the coastal city layout.
+   - The **red-tiled rooftops** and clustered urban form are characteristic of Southern Italian towns and contribute to authenticity.
+
+2. **Functional/logical association elements**:
+   - The **relative positioning** of the bell tower in the foreground, the city below, and the mountain behind must be preserved to maintain spatial logic and viewpoint consistency.
+   - The **presence of the sea and its connection to the harbor** supports the narrative of a coastal journey and cannot be removed or repositioned without breaking environmental coherence.
+
+3. **Non-modified element deduction**:
+   - While artistic style can change, the **overall composition**—including the diagonal flow from foreground rooftops to distant mountains—must be preserved.
+   - The **color scheme** (pink-purple sky, deep blue sea, warm orange-red roofs) is specified to be retained, so these hues must remain dominant even if rendered differently.
+   - The **structure of the bell tower**, including its windows, dome, and architectural details, must stay recognizable despite stylistic changes.
+
+Therefore, even though the style and additions are permitted, the **core visual identity** of the landscape—its landmarks, layout, and colors—must remain intact.
+
+---
+
+**Preservation Targets List:**
+(Element 1 that should be maintained): The central bell tower with a domed roof and two arched windows  
+(Element 2 that should be maintained): The large mountain in the background resembling Mount Vesuvius  
+(Element 3 that should be maintained): The presence and layout of the harbor and docks extending into the sea  
+(Element 4 that should be maintained): The red-tiled rooftops of the foreground buildings  
+(Element 5 that should be maintained): The pink and purple sky gradient transitioning to blue over the sea  
+(Element 6 that should be maintained): The relative spatial arrangement of city, sea, and mountain from a high vantage point  
+
+---
+
+**Step 3 – Generate yes/no questions targeting key visual elements**
+
+---
+
+{
+    Q1: 
+    Thinking process: The central bell tower with its domed roof and two arched windows is a defining architectural feature of the scene, serving as a focal point and likely landmark. Its unique shape and placement make it a core identifier of the view; removing or altering it would fundamentally change the identity of the depicted location. This is a 3-point element because it is essential for recognizing the specific viewpoint and architectural style.
+    Question: Is the bell tower with a domed roof and two arched windows clearly visible and structurally intact in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The large mountain in the background, particularly its conical shape resembling Mount Vesuvius, is a key geographical identifier anchoring the scene to Naples. Its presence and silhouette are crucial for establishing the correct setting. Without it, the location becomes ambiguous, undermining the narrative premise. Thus, this is a 3-point core recognition element.
+    Question: Is the large, dark mountain with a distinct peak visible in the background behind the city?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The harbor and docks extending into the blue sea are critical functional elements that define the coastal nature of the city. Their presence supports the maritime theme and narrative of a seafaring adventure. Altering or removing them would break the logical connection between the city and the sea, making the scene inconsistent with the intended story. This is a 2-point important scene element.
+    Question: Are the docks and harbor structures clearly visible extending into the blue body of water?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The red-tiled rooftops in the foreground are a signature visual trait of Southern Italian architecture and contribute significantly to the authentic atmosphere of the scene. Their color and pattern help distinguish the city from other coastal towns. While the style may change, their presence and color must be preserved to maintain visual fidelity. This is a 2-point important element.
+    Question: Are the red-tiled rooftops of the foreground buildings still present and clearly colored in warm reddish-brown tones?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The sky’s color gradient—from pink and purple near the horizon to lighter hues above—is a defining atmospheric feature that sets the time of day and mood. The instruction specifies retaining warm pink and blue tones, so this color scheme must remain dominant. Any significant deviation would alter the emotional tone and visual harmony of the scene. This is a 2-point key environmental element.
+    Question: Does the sky retain a dominant pink and purple gradient transitioning toward the horizon, with blue tones over the sea?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The overall spatial relationship—city in the midground, sea to the right, mountain in the far background—establishes the viewer’s perspective and depth. This compositional structure is vital for maintaining realism and narrative continuity. Even with stylistic changes, the relative positions must not be reversed or distorted. This is a 1-point structural detail that supports coherence.
+    Question: Is the city positioned between the foreground rooftops and the distant mountain, with the sea to the right side of the scene?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

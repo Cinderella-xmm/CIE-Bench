@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0063",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the transformed subject (horse) maintain the same pose and size relative to the remote control as the original cat did?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The horse in Image B is riding through a post-apocalyptic cityscape, which is dramatically different from the domestic setting in Image A. The horse is much larger than the cat and is positioned centrally in the frame on a significantly larger scale. There is no remote control visible, making it impossible for the horse to maintain the same pose or size relative to it as the cat did.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the remote control positioned in the same location and maintains the same visual appearance as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no remote control visible, as the scene has been completely transformed into a cinematic poster setting with a horse riding through a cityscape. Therefore, it does not maintain the same location or visual appearance.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the texture and design of the remote control remain unchanged from the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Since Image B does not feature a remote control at all, the texture and design cannot be unchanged because it does not exist in the edited image due to the transformation into a horse-riding scene.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the texture of the cream-colored surface, upon which the subject lies, preserved as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B is set in a dark, ruined city environment with no visible surface similar to the cream-colored surface in Image A where the cat lies. This new setting completely changes the scene and does not preserve any texture from Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the collar's shape and placement remain consistent with the new subject (horse)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the cat wears a collar, whereas in Image B, the horse is depicted without any collar or equivalent accessory. The elements regarding attire have transformed as per the thematic change in the image, thus not preserving consistency.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.0
+}

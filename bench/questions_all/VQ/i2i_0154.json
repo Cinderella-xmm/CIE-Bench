@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Given the requirement to combine front, side, and top views, ensure there are no unnatural artifacts where these views intersect, especially around the car's edges and bodywork. This ensures structural coherence and visual plausibility of the generated image.",
+      "question": "Are there any noticeable artifacts or breaks in the car's bodywork where the different views meet?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "No",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The instruction to create multiple views requires maintaining the car's material and lighting consistency across angles. This consistency is crucial for the image to appear natural and authentic.",
+      "question": "Do all views of the car maintain consistent material properties and lighting, avoiding unnatural differences?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Combining various views means that the proportions and geometry of the car should remain true and coherent, without any aspect appearing stretched or compressed unnaturally.",
+      "question": "Does the car's geometry appear proportionally correct and undistorted across all views, particularly in the wheels and body panels?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The top view introduces new challenges, like ensuring the car's roofline and windows look natural. Any loss of detail here would detract from the overall realism.",
+      "question": "In the top view, are the car's roofline and window outlines clear and detailed, without any loss of fine details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The final composite image should present a realistic scene, including the background elements like the house and driveway, which should not clash with the newly added car views.",
+      "question": "Do the newly added views of the car integrate seamlessly with the background, without introducing any disruptive discontinuities or inconsistencies?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

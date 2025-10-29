@@ -1,0 +1,113 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+Description of reference image:  
+The subject is a vintage-style green and white van, viewed from an isometric perspective, driving across a flat desert landscape. The van has a rounded front with two large windshield windows, a cream-colored roof, and a wooden luggage rack on top. Its body is painted in a vibrant green with beige trim along the lower edge and around the windows. It features multiple rectangular side windows, round headlights, and a chrome bumper. The van is positioned diagonally, moving toward the bottom-left corner of the frame, leaving faint tire tracks behind it. The background consists of a pale yellow desert terrain dotted with stylized brown cacti of varying heights and simple silhouettes. Each cactus casts a soft shadow to the right, indicating a light source from the left. The sky is not depicted; the entire scene is rendered in a warm, minimalist style with smooth gradients and subtle shading. At the top center, the word "Road" is written in elegant cursive script, with "TRIP" in uppercase sans-serif font beneath it, flanked by two short horizontal lines. The overall aesthetic is retro, whimsical, and illustrative, with a consistent color palette dominated by earthy tones.
+
+Thinking process:  
+The editing instruction explicitly transforms the original static image into a **comic strip titled "Desert Adventure Chronicles"**, featuring the **van as an anthropomorphic character**. This implies that the van’s form can be modified to express emotion (e.g., tipping its roof like a hat), which alters its posture and function. Additionally, the **scene changes across three panels**:  
+- Panel 1: Empty desert stretching far  
+- Panel 2: Cactus morphs into a whimsical spout (water fountain)  
+- Panel 3: Lush vegetation appears around an oasis  
+
+These transformations indicate that the **background environment is not fixed**—it evolves dynamically. However, the **core identity of the van** must remain recognizable despite anthropomorphism. The instruction specifies **retaining the vibrant hues and style** of the original image, meaning color scheme, art style (isometric, flat illustration), and visual tone must persist.  
+
+Allowed Changes List:  
+- Van’s posture and expression (e.g., tipping roof like a hat)  
+- Van’s facial features (anthropomorphic eyes/headlights, expressive behavior)  
+- Background scenery per panel (desert → mirage → oasis)  
+- Presence and transformation of cacti (into water spout)  
+- Addition of text bubbles and speech content  
+- Layout structure (3-panel comic format, aspect ratio 3:1)  
+- Environmental elements such as vegetation, water, and shadows in later panels  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements:  
+The **van's distinctive shape and color scheme** are essential for identity retention. Despite being anthropomorphized, it must still be identifiable as the same vehicle from the original image. Key identifiers include:  
+- The **rounded front end** with dual windshield windows  
+- The **green body with cream roof** and beige trim  
+- The **wooden luggage rack** on top  
+- The **multiple side windows** in a row  
+- The **chrome bumper and round headlights**  
+
+These features define the van’s iconic retro design, especially reminiscent of classic VW buses. If these are altered beyond recognition (e.g., changed to a sedan or different proportions), the subject loses its identity.  
+
+Functional/logical association elements:  
+The **relationship between the van and the desert setting** is foundational. Although the environment changes, the **van remains the central actor**, and its interaction with the desert (driving through it) must be preserved logically. Even if the desert becomes lush, the van must still appear to be traversing it, maintaining continuity of motion and purpose.  
+
+Non-modified element deduction:  
+Although the cacti change form (e.g., one becomes a spout), their **original presence and silhouette** must be retained in at least one panel. The **color palette**—warm yellows, greens, browns—is specified to be preserved. The **isometric perspective** and **flat illustration style** are also required to maintain consistency with the original. Therefore, even if scenes evolve, the **visual language** must remain unchanged.  
+
+Preservation Targets List:  
+- The van’s green body with cream roof and beige trim  
+- The wooden luggage rack on top  
+- The rounded front with dual windshield windows  
+- The chrome bumper and round headlights  
+- The isometric perspective and flat illustration style  
+- The warm color palette (greens, yellows, browns)  
+- The presence of cacti in the desert (even if transformed)  
+- The van’s role as the main character in motion  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Retained Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The green body with cream roof and beige trim is the core visual identifier of the van. This specific color combination and distribution distinguish it from other vehicles and align with the retro aesthetic. If this color scheme is changed (e.g., to red or blue), the van would no longer be recognizable as the original subject. This is a key identity feature, hence weight 3.
+    Question: Is the van’s body primarily green with a cream-colored roof and beige trim along the lower edge and windows?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The wooden luggage rack on top is a unique structural detail that adds authenticity to the van’s retro design. Its presence is critical for identifying the vehicle as a classic travel van. Removing or replacing it with another object would alter the van’s identity significantly. Thus, it is a high-priority retention element, assigned weight 3.
+    Question: Is there a wooden luggage rack mounted on the roof of the van?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The rounded front with dual windshield windows is a defining shape characteristic of the van. This feature is essential for recognizing the vehicle type (e.g., VW Bus). Altering the front shape (e.g., making it square) would destroy its iconic identity. Hence, this is a core recognition element with weight 3.
+    Question: Does the van have a rounded front with two large windshield windows?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The chrome bumper and round headlights are functional and stylistic details that contribute to the van’s retro charm. While minor compared to color and shape, they are distinctive enough to aid recognition. Their absence or replacement would reduce visual fidelity. These are important but not irreplaceable, so assigned weight 2.
+    Question: Are there round headlights and a chrome bumper visible on the front of the van?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The isometric perspective is a key stylistic choice that defines the visual composition. Changing to a frontal or bird’s-eye view would disrupt the original aesthetic. Since the instruction requires retaining the "style" of the original image, this perspective must be preserved. It is a major structural element affecting coherence, hence weight 2.
+    Question: Is the van depicted in an isometric (angled top-down) perspective?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The warm color palette—dominated by yellows, greens, and browns—is central to the image’s mood and style. The instruction explicitly states to retain "vibrant hues," meaning the original tonal range must be maintained. Shifting to cool tones or monochrome would violate the stylistic requirement. This is a key environmental and emotional element, thus weight 2.
+    Question: Are the dominant colors in the image warm tones such as yellow, green, and brown?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The presence of cacti in the desert is a recurring environmental feature. Although one may transform into a spout, the original cacti must still be present in at least one panel to maintain continuity. Their silhouettes and positions are part of the original scene logic. Removing all cacti would break the desert context. This is a secondary but necessary detail, hence weight 1.
+    Question: Are there at least three stylized brown cacti visible in the desert scene?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

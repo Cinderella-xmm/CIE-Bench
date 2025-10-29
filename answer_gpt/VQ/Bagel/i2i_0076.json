@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0076",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the word \"warm\" blend seamlessly into the top left corner without disrupting the natural appearance and introducing any unnatural textures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the word 'warm' is not present. Instead, the words 'HOME LIVING' appear at the top left corner. Analyzing these words, they have been added with bold typography that contrasts starkly with the natural and soft decor of the room. The bold black letters introduce a digital texture over the organic and soothing tones of the image, disrupting the natural appearance and introducing unnatural textures. The process of determining this involves observing how the text overlays interactions with light and shadow, indicating it is a separate digital addition, unlike any physical object in the scene.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Has the addition of the word \"warm\" at the top left corner maintained the structural consistency of surrounding elements like the sofa and cushions, avoiding any distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Since Image B does not have the word 'warm' but instead 'HOME LIVING' in the corner, we analyze this text addition. The words are added outside the objects, specifically in the region that holds a painting, and do not overlap into the sofa or cushions, which indicates no direct structural distortion. However, their presence does visually shift focus from the cohesive room decor, affecting the ambience and focus of the scene surrounding the sofa. This determination comes from observing the area's interaction and potential distraction caused by bold text.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the size and font of the word \"warm\" maintain visual plausibility and authentic integration with the rest of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the size and font used are for 'HOME LIVING'. The text is large and bold, standing out starkly against the serene interior decor. Its integration doesn't appear authentic due to its significant contrast with the room's aesthetic, showcasing a digital layer over a physical space. This conclusion is drawn from comparing the impact of the text size and style against the overall visual style of the image, which emphasizes warmth and elegance.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the word \"freedom\" at the bottom right corner added in a manner that preserves the fine details of the floor and plant, avoiding any loss of detail or introduction of artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the word 'FREEDOM' is positioned at the bottom right corner. Its addition is on top of the carpet, the lower edge of the sofa, and near the plant. The text overlays without blocking significant details or causing clear artifacts in these areas. The plant's detail and the edge of the carpet remain visually uninterrupted, corroborating that the addition didn’t degrade detail in these aspects. This insight derives from analyzing how text overlay interacts with underlying visual elements without obscuring or distorting them.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the placement of the word \"freedom\" at the bottom right corner respect the structural integrity of nearby elements, such as the corner of the rug and plant pot base, without causing any visible distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Examining Image B, 'FREEDOM' is placed in a location where it does not overlap any structural elements, such as the rug's corner or plant pot base directly. The placement is visually considerate as these nearby elements remain unchanged in appearance and structural form. This assessment stems from verifying that no portions of the text overlap to create distortions in these surrounding parts.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

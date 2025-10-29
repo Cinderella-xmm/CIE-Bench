@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_329",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the bicycles depicted in a 3D chibi style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bicycles exhibit exaggerated and stylized features typical of toy or chibi-style designs, such as thick and rounded parts, simplified shapes, and minimal intricate details, giving them a cartoonish and playful appearance. This indicates a 3D chibi style.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Have the bicycles retained their original arrangement?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both images share a similar alignment regarding the bicycles, with each being side by side in a row. This implies that Image B has maintained the arrangement of the bicycles as seen in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the colors of the bicycles identical to those in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the bicycles are painted in red, blue, beige, and black. In Image B, the bicycles are colored red, yellow, and black. Thus, some colors differ between the two images, especially noting the absence of blue in the second image and the yellow color present.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the bicycles retain their original design details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the bicycles include realistic design details such as chains, gears, and realistic tire profiles. In contrast, Image B's bicycles have simplified designs without such detailed features, presented with basic shapes and smooth surfaces. Therefore, Image B does not retain the original design details.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the overall scene composition and lighting consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both images depict the same background with a large window casting soft light onto the scene, maintaining similar composition and lighting conditions. The reflections and shadows on the floor are also similarly managed, keeping a consistent tonal atmosphere.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

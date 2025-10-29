@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the image into a semi-cartoon style while maintaining structural coherence and visual plausibility, evaluate whether the facial features of the scientist (particularly around the eyes, nose, and lips) retain natural proportions and anatomical accuracy after stylization. The original image shows a highly detailed face with realistic skin texture and lighting; any cartoon-style editing must avoid distorting facial geometry or introducing unnatural contours.",
+      "question": "Are the facial features of the scientist proportionally accurate and free from exaggerated or distorted shapes such as elongated eyes, misaligned nose, or uneven lip contours?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of preserving realism in materials and textures during style conversion, assess the lab coat’s fabric texture and folds. The original image displays soft, realistic creases and light reflection on the white lab coat. In a semi-cartoon version, this material should not appear flat, overly smooth, or unnaturally rigid, which could break visual credibility.",
+      "question": "Does the lab coat exhibit natural fabric folds and subtle shading consistent with real-world draping, without appearing uniformly flat or lacking depth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of maintaining physical rationality in posture and object interaction, examine the hand holding the pipette. The original image shows a right hand gripping a thin tool with five fingers properly aligned. Any stylization must preserve correct finger count, ergonomic positioning, and natural joint angles to avoid deformation.",
+      "question": "Does the hand holding the pipette have exactly five fingers with natural curvature and spacing, and are the joints and knuckles positioned realistically?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of avoiding unnatural textures and artifacts when rendering laboratory apparatus, evaluate the test tubes in the foreground. These contain teal-colored liquid and are arranged in metal racks. After editing, their transparency, liquid level consistency, and reflections must remain physically plausible and free from pixelation, jagged edges, or inconsistent refraction.",
+      "question": "Do the test tubes display uniform liquid levels and clear glass surfaces with coherent reflections and refractions, without visible texture distortions or broken geometric outlines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of ensuring structural consistency in scientific equipment, examine the microscope and surrounding control panels. These devices have complex mechanical parts and digital interfaces. A semi-cartoon style must preserve functional layout and component alignment—e.g., knobs, lenses, and screen placements—without floating elements or mismatched proportions.",
+      "question": "Are the components of the microscope and adjacent control panel correctly aligned and proportionally scaled, with no misplaced parts or floating elements that violate physical logic?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

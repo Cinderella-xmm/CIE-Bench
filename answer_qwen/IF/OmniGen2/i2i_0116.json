@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0116",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the figurine match the character’s appearance and pose from the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The figurine in Image B is dressed in a green and black outfit with gold accents, matching the attire of the character in Image A. The pose of the figurine, with arms crossed, also mirrors the stance of the character in Image A. By comparing the visual cues such as clothing details and posture, it can be concluded that the figurine accurately represents the character's appearance and pose.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the figurine enclosed within a transparent display box?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figurine is clearly visible inside a rectangular structure made of a transparent material, which appears to be a display box designed to protect collectible items. This conclusion is drawn from observing the edges and corners of the box, which are characteristic of display cases used for figurines.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the transparent display box placed on top of a desk?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the transparent display box resting on a flat surface that resembles a desk or table. The surface is smooth and horizontal, typical of a desk where collectibles might be displayed. There are no other objects or features suggesting it is anything other than a desk.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the background behind the desk a plain white wall?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B is uniformly white without any discernible features, patterns, or textures. This suggests that the desk is positioned against a plain white wall, which is a common setup for displaying collectibles to avoid distractions and highlight the item.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any additional elements, aside from the figurine, the transparent display box, the desk, and the white wall background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No\n```",
+      "explanation": "Upon examining Image B, there are no other objects, decorations, or elements present besides the figurine, its display box, the desk, and the white wall. The scene is minimalistic, focusing solely on these components, which confirms the absence of additional elements.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

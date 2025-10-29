@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The ovate shape with a pointed tip and serrated edges is the primary morphological identifier of the leaf. This shape distinguishes it from other types of leaves and is critical for recognition. If this shape is altered significantly (e.g., rounded, smooth edges), the leaf would no longer be identifiable as the same species or object. Since the instruction requires transforming the leaf into a snow globe scene but does not specify changing its form, the original shape must be preserved. This is a core identity feature, hence weighted at 3 points.",
+      "question": "Is the leaf in the edited image still ovate with a pointed tip and serrated edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The venation pattern—specifically the prominent central vein with branching secondary veins—is a key diagnostic feature of the leaf. This network is unique to certain plant species and provides structural detail that aids in identification. Altering this pattern would fundamentally change the leaf’s identity. The instruction does not allow for modification of the leaf’s internal structure, so this feature must be retained. It is a core recognition element, thus assigned 3 points.",
+      "question": "Does the leaf retain the prominent central vein with branching secondary veins forming a network across its surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The golden-yellow coloration with brown speckles is a distinctive visual trait of the leaf, indicating its age and natural condition. This color scheme is essential for recognizing the leaf as a dried autumn leaf. While lighting may shift in the snow globe scene, the base color and speckling must remain to preserve authenticity. Changing these would make the leaf appear artificial or different in origin. This is a core identity feature, so it receives 3 points.",
+      "question": "Is the leaf still golden-yellow with visible brown speckles and natural discolorations?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The papery texture and minor imperfections (such as small blemishes or spots) contribute to the leaf’s realism and distinguish it from a synthetic or idealized representation. These details are part of the leaf’s unique character and help confirm its natural origin. The instruction does not permit altering the leaf’s material appearance, so these textures must be preserved. Though less critical than shape or color, they are important for visual fidelity and are therefore assigned 2 points.",
+      "question": "Does the leaf retain its papery texture and minor surface imperfections such as blemishes or spots?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The orientation of the leaf—stem pointing toward the upper left and blade extending diagonally—is a compositional and spatial feature that defines its placement in the original image. While the overall composition may change in the snow globe scene, the relative positioning of the leaf’s parts (stem direction, blade angle) should remain consistent to maintain continuity. This is a secondary but meaningful detail that supports visual coherence. It is not a core identity feature but contributes to recognition, so it is assigned 2 points.",
+      "question": "Is the leaf oriented with the stem pointing toward the upper left and the blade extending diagonally across the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The presence of the leaf as the sole central object in the scene is implied by the original image and reinforced by the instruction to transform it into a snow globe. While the environment changes, the leaf must remain the focal point. Its isolation and prominence are key to the image’s narrative. If additional objects were introduced or the leaf was obscured, it would lose its significance. This is a functional element related to composition and focus, so it is assigned 2 points.",
+      "question": "Is the leaf the sole central object in the edited image, without any other competing elements in the foreground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

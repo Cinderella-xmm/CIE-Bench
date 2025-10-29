@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of preserving geometric consistency when adding a transparent spherical enclosure, this question evaluates whether the curvature of the sphere causes visible distortion in the buildings, water, or sky. If the edges of the buildings appear bent or stretched near the sphere's boundary, or if reflections are warped, it indicates a failure in maintaining structural coherence.",
+      "question": "Are the buildings and water surface inside the sphere free from unnatural bending or warping at the edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of enhancing textures with muted autumnal colors, this question checks whether the texture details on the timber-framed houses (especially wood beams and stucco panels) remain sharp and realistic after editing. It focuses on whether the color shift results in loss of fine detail or introduces artificial patterns like noise or tiling.",
+      "question": "Do the wooden beams and stucco surfaces of the houses retain clear, natural textures without pixelation or repeating patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of using glossy resin for the water surface, this question assesses whether the water reflects surrounding elements accurately and maintains a natural level of gloss. Overly shiny or unnaturally bright areas could indicate an unrealistic material application.",
+      "question": "Does the water surface show smooth, continuous reflections of the buildings and sky without excessive glare or broken mirror-like effects?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of integrating mini bridges and greenery, this question evaluates whether these additions are physically plausible and properly aligned with the existing environment. For example, a bridge should connect two land masses, and plants should grow from ground or walls without floating.",
+      "question": "Are the added mini bridges connected to both banks and do the plants grow from valid surfaces without appearing suspended in air?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of placing hand-sculpted characters in vibrant clothes, this question checks whether the figures have anatomically correct limbs, especially hands, and are positioned naturally on walkways. It ensures no missing fingers or distorted joints, and that clothing drapes realistically.",
+      "question": "Do all visible characters have five fingers per hand, natural limb proportions, and clothing that conforms to body shape without clipping or floating?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

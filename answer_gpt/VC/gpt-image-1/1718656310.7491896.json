@@ -1,0 +1,71 @@
+{
+  "filename": "1718656310.7491896",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the original woman's facial structure, including the shape of her eyes, nose, and mouth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the facial features are obscured, which means it is impossible to determine if the original facial structure is retained. Therefore, without visible features to compare, one cannot ascertain if the shape of the eyes, nose, and mouth is retained.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the woman's hair still auburn in color, curly in texture, and short in length?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman's hair appears to maintain a similar curly texture and remains short in length, though the color seems less distinguishable due to lighting. Given that Image B shows curly and short hair, and assuming the lighting might alter the perceived color slightly, it's reasonable to conclude the hair retains its characteristics.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the woman still seated in a cross-legged position with her arms resting on her knees?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the woman sitting with her knees bent and her feet together, and her arms resting on the surface beside her, but not on her knees. This position differs from a cross-legged stance, which involves folding the legs across each other.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the small pendant necklace still visible at the subject’s collarbone?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no small pendant necklace visible at the subject’s collarbone. The absence of a necklace in the closely observed region of the collarbone indicates it is no longer present.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the subject still sitting on a moss-covered surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject is indeed seated on a surface that visually resembles moss, suggesting it is organic and akin to the moss-covered surface in Image A. This consistency in texture and apparent material indicates the subject continues to sit on a moss-covered surface.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

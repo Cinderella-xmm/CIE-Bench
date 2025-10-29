@@ -1,0 +1,104 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a large-scale nuclear explosion occurring on a small island in the middle of a calm tropical sea. The explosion forms a classic mushroom cloud with a dense, billowing gray top composed of thick smoke and ash, rising above a fiery orange and yellow stem that connects to the ground. The base of the explosion emits intense light and heat, illuminating the surrounding clouds and water. The island is low-lying, dark brown, and covered in sparse vegetation. In the foreground, there is a lush green tropical coastline with numerous palm trees, including tall coconut palms with fronds extending outward. The sea is clear blue with gentle waves near the shore, reflecting the sky’s light. The sky is partly cloudy with dramatic contrasts between dark stormy clouds and lighter areas, suggesting an overcast yet dynamic atmosphere.
+
+Thinking process:  
+The editing instruction explicitly states:  
+- Transform the **explosion** into a **vivid pop art style mural** on a beach wall.  
+- Use **bright neon colors**, **thick black outlines**, and **stylized palm trees**.  
+- Integrate **geometric patterns into the cloud formations**.  
+- Convert the **island landscape into simplified abstract shapes**.  
+
+This means:
+- The **form and location of the explosion** are being reimagined as a **mural**, not a real event.
+- The **visual style** (color palette, line work, abstraction) will change dramatically.
+- The **scene context** shifts from a natural disaster to a **man-made artwork**.
+- The **island and landscape** are to be **abstracted** into simplified shapes, meaning their realistic form can be altered.
+- However, **no mention is made of removing or altering the core identity of the explosion itself**—only its representation.
+- The **palm trees** are mentioned as part of the mural's design, but they are **stylized**, so their original form may not need to be preserved.
+
+Allowed Changes List:  
+- The **explosion's appearance** (from realistic fire/smoke to pop art mural).  
+- The **color scheme** of the explosion (from natural grays/oranges to neon colors).  
+- The **texture and structure** of the mushroom cloud (to include geometric patterns).  
+- The **island’s shape and terrain** (to become simplified abstract forms).  
+- The **style of palm trees** (to be stylized within the mural).  
+- The **overall scene** (from natural landscape to artistic rendering on a wall).  
+- The **positioning of elements** (e.g., explosion now on a wall instead of an island).  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements:  
+- The **mushroom cloud shape** is iconic and central to identifying the event as a nuclear explosion. Even if stylized, the **basic silhouette** of a mushroom cloud (stem and cap) must remain recognizable to preserve the identity of the event.  
+- The **explosion’s location relative to the island and sea** is logically tied to the original scene—though it will be transformed into a mural, the **spatial relationship** between explosion, island, and ocean should be retained in the mural’s composition to maintain coherence.  
+- The **presence of palm trees** in the environment is a key identifier of the tropical setting, which is essential for contextual grounding. Though stylized, they must still appear in the mural.  
+
+Functional/logical association elements:  
+- The **explosion must still occur on or near the island**, even if depicted as a mural. The logic of “explosion on island” must be preserved in the mural’s narrative.  
+- The **relationship between the explosion and the sea** (i.e., the island being surrounded by water) must be maintained to retain spatial logic.  
+
+Non-modified element deduction:  
+- Although the island becomes abstract, the **existence of landmass** must remain.  
+- Although the explosion changes style, the **core form** (mushroom cloud) must remain identifiable.  
+- Although colors change, the **presence of fire-like glow at the base** and **smoke plume above** must persist.  
+- The **tropical setting** must be implied through **palm trees** and **coastal environment**, even if stylized.  
+
+Preservation Targets List:  
+- The **mushroom cloud shape** (stem and cap) must be preserved.  
+- The **island must exist as a landmass** in the scene.  
+- The **sea must surround the island**.  
+- The **presence of palm trees** must be included.  
+- The **explosion must be positioned over the island**.  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The mushroom cloud shape is the defining visual feature of a nuclear explosion. Its presence and structure (a vertical stem with a rounded, billowing cap) are essential for identifying the event. Even in pop art form, this silhouette must be preserved to maintain the core identity of the explosion. Loss of this shape would make the image unrecognizable as a nuclear blast, undermining the entire reference. Thus, this is a 3-point element.
+    Question: Is the mushroom cloud shape (with a distinct stem and cap) present in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The island is the physical location of the explosion in the original image. While it may be simplified into abstract shapes, its existence as a landmass must be retained to preserve the logical setting of the event. Removing or replacing it entirely would break the spatial context. Therefore, the presence of a landmass beneath the explosion is critical and must be retained.
+    Question: Is there a landmass beneath the explosion in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The sea surrounds the island in the original image, establishing a coastal tropical environment. This spatial relationship is essential for context. Even if stylized, the sea must still appear around the island to maintain environmental logic. Its absence would misrepresent the original scene.
+    Question: Does the sea surround the island in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: Palm trees are a key identifier of the tropical setting and appear prominently in the foreground. While they may be stylized in the pop art mural, their presence is necessary to preserve the environmental context. Their removal would eliminate a major visual cue of the original scene.
+    Question: Are palm trees visible in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The explosion must be located over the island to maintain the original spatial logic. If the explosion is placed elsewhere (e.g., in the sky without connection to land), the narrative breaks down. Even in mural form, the explosion must appear to originate from or be centered over the island.
+    Question: Is the explosion positioned directly over the island in the edited image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

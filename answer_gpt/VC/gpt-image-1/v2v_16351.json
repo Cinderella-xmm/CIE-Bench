@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_16351",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the individuals' facial features, hairstyles, and body types retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the individuals' facial features are blurred. However, by observing their hairstyles and body types, we can determine that they are consistent with those in Image A. The hairstyles, such as the length and style, remain the same, and body types, including posture and builds, appear unchanged.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the man in the suit still gesturing with his hands in the same manner as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both Image A and Image B, the man in the suit is using his hands to make a gesture similar to presenting or explaining something. The positioning of his hands remains consistent between the two images, indicating his gesture is retained.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the relative positions of the characters (e.g., who is standing next to whom) retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "By examining Image B, the arrangement of the characters (e.g., their proximity and positioning in relation to one another) is the same as in Image A. The same individual stands in the same sequence when compared to Image A, demonstrating that their relative positions are consistent.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the individuals still wearing the same type of clothing (e.g., jerseys, suit) as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the man in the suit still wears the same formal attire, and the other individuals retain their casual attire, although the specific design and color of clothing have changed. However, since attention is given to the type of clothing (casual vs. formal), it's consistent.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a clear focal point in the new setting that replaces the jersey's position in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the jersey on display serves as the focal point. In Image B, the setting has changed to an interior room with a couch, indicating that the focus has shifted from the jersey to the room setting setup. However, there is no specific clear focal point akin to the jersey's standout presence, as the room setting offers a broader context rather than an isolated focal instance.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

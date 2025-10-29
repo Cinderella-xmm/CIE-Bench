@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_993",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the chibi character maintain the same pose and clothing details as the original image without introducing unnatural distortions or artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi character attempts to mimic the pose from Image A. However, due to the chibi style, which often involves exaggerated features and proportions, there is a noticeable difference in the pose. The character in Image B shows a seated posture while the character in Image A is in a standing pose. Both characters wear black clothing, but the chibi's attire is more simplified. These modifications create a distinct interpretation rather than an exact replica, thus altering the pose and clothing details.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the textures and fine details of the chibi character's clothing and skin natural and consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents a stylized depiction in a chibi format, which inherently lacks the realistic textures of Image A. The chibi character's clothing and skin are intentionally smoothed and simplified, typical of such art style. Image A showcases realistic clothing textures and natural skin, which are not mirrored in the chibi interpretation. Therefore, the textures and details are not consistent with the original image's realism.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the proportions and physical rationality of the chibi character's hands and legs match the original image without distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi art style results in exaggerated and differently proportioned hands and legs compared to the realistic anatomy of Image A. Chibi characters typically have larger heads, smaller bodies, and exaggerated extremities, diverging from the natural human proportions seen in Image A. This results in intentional distortions typical of the chibi form.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the placement of the chibi character sitting on the edge of the Instagram frame look natural and visually plausible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B's chibi character is depicted sitting on the edge of an Instagram frame. The positioning and integration into the frame create a playful and visually cohesive scene, fitting well within the decorative elements commonly seen in stylized art. Despite the fantastical setting, the character appears well-balanced and appropriately placed given the fictional context.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the social media icons and the username \"Graceful\" integrated seamlessly into the scene without disrupting the natural appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The social media icons and the username 'Graceful' in Image B are part of the stylized Instagram frame. These elements are integrated in a manner consistent with social media interfaces, providing context and enhancing the frame's overall theme. Their presence complements the scene without causing visual distraction, aligning with common visual conventions in digital art.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

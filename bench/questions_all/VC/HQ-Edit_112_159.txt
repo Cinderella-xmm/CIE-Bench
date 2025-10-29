@@ -1,0 +1,86 @@
+Description of reference image: The subject is a red sports car, specifically resembling a McLaren 720S, positioned centrally on a winding coastal road during sunset. The car faces forward with its sleek aerodynamic design clearly visible: sharp angular headlights, a prominent front splitter, a carbon fiber hood with air intakes, and a low-slung body with sculpted curves. The interior features red racing seats with black accents, visible through the transparent windshield. The road is a two-lane asphalt highway marked with double yellow lines, curving along a cliffside coastline. On the left, steep reddish-brown hillsides covered in autumnal vegetation descend toward the sea. On the right, a concrete guardrail separates the road from the ocean, where waves crash against rocky outcrops. In the distance, the horizon glows with warm orange and pink hues, transitioning into a soft blue sky above. The lighting emphasizes the reflective surface of the car and creates motion blur beneath it, suggesting high speed. The overall composition balances symmetry and depth, with the car as the focal point leading the viewer’s eye toward the distant sea.
+
+Thinking process: First, analyze the editing instructions that explicitly state transformations to be applied: “Transform the car and coastal road into a miniature diorama within a sleek, modern glass display case.” This indicates the **form** and **context** of the scene are to be changed—specifically, the entire original environment is to be reinterpreted as a contained, scaled-down model. The instruction specifies new materials: “metallic red and gradient hues for the car's 3D model,” meaning color and material finish can change; “layered resin for the road and cliffs” implies the texture and structure of terrain can be altered; “micro gravel for texture” allows modification of surface detail; “sunset sky panel atop” means the sky is replaced with a flat panel rather than being an open natural vista. These changes confirm that the **physical form**, **materiality**, and **spatial context** of the original elements are permitted to shift. However, no instruction states that the **identity**, **shape**, or **iconic design** of the car should be lost—only how it is represented (e.g., as a 3D model). Similarly, the **road layout**, **coastal cliff shape**, and **relative positioning** of the car and landscape are implied to remain conceptually consistent but rendered differently.
+
+Allowed Changes List:
+- The physical form of the car (from real vehicle to 3D model)
+- The material and finish of the car (metallic red with gradients)
+- The texture and construction of the road and cliffs (resin layers, micro gravel)
+- The sky (replaced by a sunset sky panel)
+- The surrounding environment (transformed into a glass display case)
+- The scale (miniature diorama)
+- The lighting and reflection effects (adjusted for display context)
+
+Step 2– Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: The car must remain identifiable as a McLaren 720S due to its iconic design language. Key identifiers include the distinctive front grille shape, the position and curvature of the headlights, the butterfly door hinges (implied by silhouette), and the central engine bay intake. These features are essential for brand and model recognition. Even if rendered in a different medium (e.g., 3D model), their **proportional relationships**, **silhouette**, and **design cues** must be preserved. For example, the split nose and wide stance are signature traits. The **road’s winding path** and **cliffside coastline** must retain their **topographical relationship**—the road must still curve along the coast, descending toward the sea, maintaining spatial logic. The **position of the car on the road**—centered, facing forward, on the right side of the lane—must be preserved to maintain narrative coherence and perspective consistency.
+
+Functional/logical association elements: The car must remain on the road, not floating or displaced. Its orientation must reflect forward motion along the roadway. The relative placement of the guardrail on the right and the hillside on the left must be maintained to preserve environmental logic. If the car were placed off-road or reversed, it would disrupt the scene’s realism and intended journey narrative.
+
+Non modified element deduction: After excluding allowed changes (materials, textures, scale, container), the remaining visual content that defines identity and spatial integrity must be retained. These include: the **overall shape and proportions of the car**, the **curved trajectory of the road**, the **coastline’s jagged profile**, the **placement of rocks in the sea**, and the **car’s position relative to the road markings**. These are not mentioned as changeable, so they must be preserved under visual coherence principles.
+
+Preservation Targets List:  
+- The silhouette and front-end design of the McLaren 720S (including headlight shape, grille, and splitter)  
+- The curved two-lane road with double yellow lines  
+- The left-side hillside with autumnal vegetation and erosion patterns  
+- The right-side guardrail and ocean edge  
+- The car’s centered position on the road facing forward  
+- The distant coastline with rocky outcrops and sea spray  
+- The relative spatial arrangement of car, road, and cliffs  
+
+{
+    Q1: 
+    Thinking process: The key recognition feature of the McLaren 720S is its unique front-end design, particularly the sharp, angular LED headlights and the wide, low-profile grille with a central air intake. These elements define the car’s identity and distinguish it from other supercars. Even when rendered as a 3D model, these design features must remain intact to ensure the car is still recognizable as a McLaren 720S. Their absence or distortion would make identification impossible, making this a core identity element.
+    Question: Does the car retain the distinctive angular LED headlights and central grille intake characteristic of the McLaren 720S?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The curved two-lane road with double yellow lines is a critical spatial guide in the image, defining the direction of travel and reinforcing the sense of motion. Its shape and lane markings establish the context of a coastal highway. Changing the road’s curvature or removing the lane markings would alter the scene’s logic and disrupt the viewer’s understanding of the car’s path. This is an important structural element that supports the narrative of movement along the coast.
+    Question: Is the road still a curved two-lane highway with continuous double yellow lines running down its center?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q3: 
+    Thinking process: The left-side hillside with its reddish-brown slopes and patches of autumn-colored vegetation is a defining environmental feature that contrasts with the ocean and contributes to the scenic composition. Its presence and general topography must be preserved to maintain the coastal setting. While texture may change (e.g., to resin), the overall slope shape and vegetation distribution must remain consistent to retain visual continuity.
+    Question: Is the left-hand hillside still present with its reddish-brown slopes and scattered autumnal vegetation?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The right-side guardrail is a functional safety feature that separates the road from the ocean. Its presence maintains logical consistency—without it, the road would appear unsafe or improperly constructed. It also provides a visual boundary that anchors the road’s edge. Removing or altering its position would break the spatial logic of the scene.
+    Question: Is there a concrete guardrail along the right side of the road, separating it from the ocean?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The car’s position directly on the road, centered in the lane and facing forward, establishes the primary viewpoint and direction of travel. This alignment is crucial for perspective and storytelling. If the car were shifted off-center or rotated, it would disrupt the intended composition and sense of motion. This is a foundational positional element that must remain unchanged.
+    Question: Is the car positioned centrally on the right side of the road, facing forward toward the horizon?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The distant coastline with rocky outcrops and sea spray is a key background element that completes the coastal scene. These geological features provide depth and reinforce the natural setting. Their removal or replacement with artificial structures would fundamentally alter the environment’s authenticity. While the rendering may change (e.g., to a resin layer), their presence and spatial arrangement must be preserved.
+    Question: Are rocky outcrops visible in the distant sea, with mist or spray rising near the shore?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The car’s interior, particularly the red racing seats with black trim, is a secondary but identifiable detail that adds to the sporty character of the vehicle. While less critical than the exterior, it contributes to the overall identity of the car as a high-performance model. Its retention helps maintain visual consistency with the original image.
+    Question: Are the red racing seats with black accents visible through the windshield inside the car?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

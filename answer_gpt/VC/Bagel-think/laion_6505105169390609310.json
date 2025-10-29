@@ -1,0 +1,84 @@
+{
+  "filename": "laion_6505105169390609310",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the gold crown present on the head of each of the three figures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, all three figures inside the snow globe are wearing crowns, which can be discerned due to the reflective gold material they appear to be made of. This detail matches common representations in nativity scenes where figures like kings or wise men are typically adorned with crowns.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do all three figures have prominent dark beards?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, each of the three figures within the globe is depicted with dark facial hair, suggesting beards. This can be inferred from the presence of dark shading under the assumed chin area of each figure, conforming to traditional depictions of older, wise men.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the robes of the figures colored in purple/green, red/white/gold, and green/blue respectively, with gold trim?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figures' robes are indeed colored as described: purple and green with gold trim on the left figure, red with white/gold trim on the central figure, and green and blue with gold trim on the right figure. This indicates consistency in the coloring scheme associated with royal or ornate attire.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does each figure hold a golden object (vessel, box, or orb)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, both the left and right figures are holding golden objects, which can be interpreted as gifts. The central figure, however, does not hold such an object; rather, his hands are clasped over his chest. Therefore, not all figures hold a golden object.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the hands of the central figure clasped over the chest, and do the other two figures hold their gifts with both hands?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the central figure's hands are noticeably clasped over his chest, and the two other figures each hold their gifts prominently—though not necessarily with both hands. The right figure seems to hold the gift with one hand, indicating the variation in hand positioning.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the central figure noticeably smaller than the other two, and is he standing upright with hands clasped?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the central figure is indeed smaller and positioned lower than the other two figures, suggesting he is kneeling rather than standing upright as stated. His hands are clasped, but the combination of these attributes contradicts the scenario of an upright stance.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5714285714285714
+}

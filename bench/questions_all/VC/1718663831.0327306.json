@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The white fur with sandy-colored spots is explicitly instructed to be maintained during transformation. These color patterns are essential for identifying the dog’s appearance and distinguishing it from other breeds or variations. The sandy spots on the ears and face are unique visual markers that define its look in the original image. If these are altered or removed, the edited version would lose its direct visual link to the original subject. Therefore, this is a core identity feature with high weight.",
+      "question": "Is the dog's fur primarily white with distinct sandy-colored spots on the ears and face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The Pomeranian’s distinctive head shape—specifically the rounded skull, short muzzle, and erect triangular ears—is a core recognition feature. Even when transformed into a plush, the breed’s iconic silhouette must be preserved to maintain identity. Altering ear shape or head proportion would make it unrecognizable as the same dog. This is a key structural trait that defines the subject’s species and breed.",
+      "question": "Does the dog have a rounded head with pointed ears and a short muzzle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The black rectangular sunglasses with dark lenses are a prominent accessory that contributes to the dog’s recognizable style in the original image. Since the instruction does not mention removing them, and given their visual dominance, they are assumed to be preserved. Their presence adds to the character’s personality and must be retained for consistency. Losing them would significantly alter the visual identity of the subject.",
+      "question": "Are the dog wearing black rectangular sunglasses with dark lenses?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The dog’s upright seated posture is a defining pose in the original image. While the instruction allows for slight modification (paws dangling), the overall seated orientation must remain consistent. Changing to a lying or standing pose would disrupt the continuity of the subject’s positioning. This is an important compositional element affecting how the subject is perceived.",
+      "question": "Is the dog seated upright with its body facing forward?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The dog’s body proportions—specifically the compact torso, short legs, and fluffy tail—are characteristic of the Pomeranian breed. Even as a plush, these proportions must be preserved to ensure accurate representation. Altering leg length or body size would distort the breed identity. This is a secondary but important detail for maintaining visual coherence.",
+      "question": "Does the dog have a compact body with short legs and a fluffy tail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "laion_9084600256631033263",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the glass bottle form retain the original car’s side profile and curvature without visible warping or disproportionate scaling?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the edited image has transformed the car into a reflective glass bottle structure. The side profile seems to have expanded in certain areas, resulting in substantial warping compared to the original vehicle's dimensions. The alterations suggest disproportionate scaling, particularly around the hood and fenders, where the reflective distortions are most noticeable.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the faceted glass stoppers aligned with the original headlight positions and do they show consistent lighting and reflection patterns with the surrounding glass?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the faceted glass stoppers are observed where the headlights would typically be located. However, the lighting and reflection patterns on these stoppers appear inconsistent with the surrounding reflective surfaces. The constraints of light physics suggest that such a level of inconsistency and disparity in lighting would be unlikely in a seamless glass structure.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the gear-shaped lid positioned centrally on the roof and securely connected to the glass body without visible seams or floating edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Inspecting Image B, the gear-shaped lid is positioned closer to the front of the roof, rather than centrally. Furthermore, the visual integration isn't seamless; it appears as if the lid is an add-on without proper mounting, giving an impression of floating edges around its base.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the embossed Datsun emblem clearly visible on the front of the glass bottle and does it maintain proper depth and clarity without surface distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the transformed Image B, the original Datsun emblem present on the vehicle's front in Image A is not visible. The glass surface and reflective nature contribute to the absence of any such distinguishing marks, indicating a loss of the original emblem’s detail and clarity post-transformation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the glass body display natural reflections and highlights across its surface without abrupt transitions or artificial sheen?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining the glass body in Image B, the reflections and highlights appear exaggerated and lack the natural progression of light and shadows found on a typical glass surface. The reflections do not transition smoothly, resulting in a somewhat artificial appearance, especially noticeable around the broader surfaces.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.0
+}

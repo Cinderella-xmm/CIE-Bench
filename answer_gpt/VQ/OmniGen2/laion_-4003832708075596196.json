@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-4003832708075596196",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Do the transformed trunk sections into arms and legs follow natural joint-like curves and avoid sharp, unnatural bends?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon observing Image B, no transformation of the trunk into arms or legs is visible. The trunk remains intact without any indication of anthropomorphism. The text bubbles added have no impact on the trunk structure itself. This suggests a lack of any limb-like transformation that could follow natural curves.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the leaf-shaped heads composed of intact maple leaves with visible veins and gradient coloring, and do the facial features (eyes, mouth) sit naturally on the surface without distorting the leaf shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the leaves are indeed intact and have gradient coloring typical of maple leaves seen in autumn. However, facial features such as eyes or mouths are not visibly added to distort the leaf shape, thus simple graphic design is maintained without alteration of the leaf form.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the hats and scarves rendered with the same flat, vector-style design as the rest of the image, and do they have consistent edge lines and no visible texture artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are no hats or scarves present. The design maintains a flat, vector-style look without any additional elements such as texture artifacts. The graphic elements present maintain consistency with the original vector style.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are all added elements (limbs, faces, accessories) colored exclusively within the original orange, yellow, red, and brown spectrum, with no unexpected or contrasting hues?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B retains colors within the spectrum of orange, yellow, red, and brown. However, no additional limbs, faces, or accessories are visible that would require assessing additional color spectrum usage.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do all anthropomorphized tree characters and their accessories lie completely within the brown rectangular border without extending outside its edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the contents, including fall leaves and added text bubbles, lie within the brown border without any elements extending beyond it. The design maintains a strict adherence to the rectangular confines.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the text bubbles placed near the characters without overlapping leaves or limbs, and do they have consistent line thickness and transparent fill matching the illustration’s style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, text bubbles are placed surrounding the tree design indicating speech, with line thickness consistent with the illustration’s style. They do not overlap significantly with any leaves or limbs, maintaining clarity of the design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0142",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is there a top view of the baseball and glove included in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a baseball and glove with multiple perspectives. The top view can be identified by examining the glove positioned in the upper horizontal manner where stitches and overall structure are visible, which indicates that one view depicted is a top view of the glove. The baseball, positioned next to it, also indicating visibility from a top-like perspective.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a side view of the baseball and glove included in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B provides various orientations of the glove and baseball, and one can identify a side view based on the illustration where the glove is depicted longitudinally showing side stitches and profile, indicating a side perspective. Additionally, the baseball's representation primarily as a circle does not clearly define it, but given the illustrations around the glove, it suggests possible side profiling.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a sectional view of the baseball and glove included in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a sectional view would typically involve seeing the interior layers or cut-away sections of the objects. However, all presented drawings involve exterior perspectives without any cut-through or layering views indicative of sectional views. Thus, based on visual information, no sectional view is present.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the views of the baseball and glove clear and detailed enough for product catalogs or sports equipment manuals?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The illustrations in Image B are stylized and provide enough details regarding shape, stitching, and contours of a typical glove and baseball. While the style is more artistic compared to a photograph, the emphasis on stitching, shape, and structure makes it suitable for an informative purpose such as a manual or catalog, where basic features and form are necessary.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the colors and textures of the baseball and glove accurately preserved in all views?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the glove and baseball are illustrated with attention to color consistency. The glove showcases typical tan leather colors with dark stitches, while the baseball shows a cream color with red stitches. However, due to the illustrative style, while the colors are presented accurately to common perceptions, the textures are not precisely detailed like a photograph would show, focusing more on simplified representations.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

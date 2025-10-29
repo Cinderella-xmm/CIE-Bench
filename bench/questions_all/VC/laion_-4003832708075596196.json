@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The five-pointed maple leaf is the defining botanical feature of the original tree and must be preserved even when repurposed as character heads. If the leaf shape is altered to a different form (e.g., oval or lobed differently), it would no longer be recognizable as part of the original image. This is a core identity element because the tree's visual signature depends on this specific shape. Loss of this feature would make the edited version unrecognizable as derived from the original.",
+      "question": "Are all leaf-shaped elements in the image, including those used as heads, clearly five-pointed maple leaves?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The autumn color palette (orange, yellow, red) is essential to the seasonal theme and visual identity of the original image. The instruction explicitly requires maintaining this palette, so any deviation (e.g., introducing green or purple) would violate the directive and destroy the thematic consistency. These colors are not just decorative—they are functional in conveying Thanksgiving and fall imagery. Their retention ensures visual coherence with the original.",
+      "question": "Are all leaf elements rendered exclusively in shades of orange, yellow, and red?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The rectangular brown border is a key structural component that frames the illustration and defines the composition. The instruction specifies keeping the \"current bordered layout,\" meaning the border’s shape, color, and position must remain unchanged. Altering its thickness, color, or removing it entirely would break the intended design framework and compromise the image’s visual hierarchy. It serves as a fixed container for the content.",
+      "question": "Is there a solid brown rectangular border surrounding the central illustration?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The white background of the card provides contrast and clarity to the colored elements. While not as visually dominant as the tree or border, it is a foundational element of the original image’s aesthetic. Changing it to another color or adding texture would alter the clean, minimalist look. Its preservation ensures the visual balance and legibility of the design.",
+      "question": "Is the background of the card uniformly white?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The illustration is centered within the card and contained within the border, forming a balanced composition. The instruction requires framing the characters within the \"current bordered layout,\" implying that the spatial relationship between the illustration and the card must remain consistent. Moving the frame or shifting the content off-center would disrupt the original layout and affect visual harmony.",
+      "question": "Is the central illustration positioned centrally within the card, bounded by the rectangular frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

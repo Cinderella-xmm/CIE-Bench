@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-4546993270690670635",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the subject seated upright with the back supported by a chair?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject is seated in a large, ornate chair, suggesting support for the back. The posture appears upright due to the straight alignment of the back visible above the arms of the chair, indicating an upright seating position typical for someone engaged in work or writing.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the hands positioned together on the lap?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject's hands are visible, holding a pen and placed on a writing desk, rather than on the lap. This indicates active engagement with the writing process, focusing the attention on the work at the desk rather than a resting position.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the head positioned directly above the torso and centered in the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the head is inline directly above the torso, centered with respect to the body. The composition of the image with its symmetrical background helps enforce this visual alignment.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a visible armrest beneath the subject’s right hand?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the subject actively writing at a desk. The ornate chair has visible armrests, but the subject's right hand is engaged in writing, making the armrest not the primary support, thus not directly beneath the right hand.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the arms bent at the elbows and resting along the sides of the body?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the arms are bent at the elbows as they are actively engaged in writing, with the elbows likely positioned above the desk rather than resting alongside the body. This positioning supports the action being performed, rather than a resting position.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the legs positioned symmetrically beneath the torso?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B has no clear view of the legs because the focus is on the upper body and seated position. However, given the structured and centered nature of the scene, it's reasonable to infer the legs are symmetrically aligned beneath the torso in a manner typical for a seated posture at a desk.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5
+}

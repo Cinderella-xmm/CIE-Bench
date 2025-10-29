@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of evaluating the style conversion to an oil painting on wooden panel, this question checks whether the texture and brushwork simulate a real oil painting without introducing digital artifacts such as jagged edges, uniform noise, or unnatural color gradients. The goal is to assess perceptual authenticity in material representation.",
+      "question": "Does the surface of the painted figure show consistent brushstroke patterns and subtle texture variations typical of oil paint on wood, without blocky or repetitive digital artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of modifying the beard and mustache to flow like water, this question evaluates whether the elongated hair maintains a plausible form for hair, even when exaggerated. It checks for continuity of strands, absence of liquid-like blobs, and adherence to hair physics.",
+      "question": "Do the strands of the elongated beard and mustache maintain continuous, fiber-like structure without forming unnatural loops, droplets, or fluid-like surfaces?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of adding a velvet cloak with golden embroidery, this question examines whether the texture of the fabric appears soft and rich, with proper light interaction, and whether the embroidery follows logical patterns and scale relative to the garment.",
+      "question": "Is the velvet texture of the cloak smooth and reflective with depth, and are the golden embroidery lines evenly spaced and aligned with the fabric folds?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of replacing the cap with a wide-brimmed hat and peacock feathers, this question checks whether the new hat fits the head shape naturally and whether the feathers are attached at a plausible angle and position without overlapping the face or appearing detached.",
+      "question": "Is the wide-brimmed hat positioned correctly on the head without distorting the skull shape, and are the peacock feathers attached along the brim with natural curvature and no clipping into the face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of adding a gem-encrusted brooch, this question evaluates whether the brooch is physically integrated into the cloak, with correct shadows, highlights, and spatial relationship to surrounding fabric.",
+      "question": "Does the brooch cast a soft shadow onto the cloak and reflect light consistently with its surroundings, indicating proper placement and integration?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "Based on the sub requirement of replacing the background with a swirling starry night scene, this question checks whether the new background blends smoothly with the subject’s edges and does not create visible seams or ghosting around the figure.",
+      "question": "Are the edges of the figure cleanly separated from the background without haloing, double outlines, or partial transparency that suggests poor compositing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "Based on the sub requirement of preserving facial structure and proportion, this question ensures that key facial features remain anatomically coherent despite changes to the beard and hat.",
+      "question": "Are the eyes, nose, and mouth aligned symmetrically and proportionally consistent with the original face, with no stretching or warping caused by adjacent edits?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

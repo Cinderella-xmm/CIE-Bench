@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-6291977903332652716",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the buildings and water surface inside the sphere free from unnatural bending or warping at the edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the scene is encapsulated within a spherical shape, which inherently involves some level of distortion, especially around the edges, due to the curvature of the sphere. This bending effect is expected as it represents a form of fisheye lens effect. World knowledge of how spherical reflections work tells us that bending or warping is a normal occurrence near the edges of objects within a sphere.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the wooden beams and stucco surfaces of the houses retain clear, natural textures without pixelation or repeating patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Examining Image B closely, we notice that the wooden beams and stucco surfaces retain their textures prominently without visible pixelation or artificial repeating patterns. This suggests that the surface textures are rendered with sufficient detail and resolution, appearing natural and consistent with architectural features in a small-scale model.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the water surface show smooth, continuous reflections of the buildings and sky without excessive glare or broken mirror-like effects?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the water surface within the sphere exhibits smooth reflections of the buildings and sky. There are no visible excessive glares or broken mirror-like effects, suggesting a successful simulation of how light and reflections behave on a calm water surface. This can be inferred from understanding how water reflects its surroundings naturally when undisturbed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the added mini bridges connected to both banks and do the plants grow from valid surfaces without appearing suspended in air?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bridges appear to be connected to the banks on either side, indicating a continuous structure. Moreover, the plants seem to grow from logical surfaces, such as planters or windowsills, rather than being suspended. This is based on an analysis of the connections and points where these elements meet the ground or architectural features.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do all visible characters have five fingers per hand, natural limb proportions, and clothing that conforms to body shape without clipping or floating?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the characters visible in the sphere appear simplified and stylized, consistent with the depiction of miniaturized figures. Examining their hands and overall look suggests that there are fewer than five fingers visible, and the overall proportions might not reflect natural human anatomy. The clothing appears stylized too, which might not conform to the body shape accurately. This suggests that due to scale and design choices, realism might be intentionally compromised.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

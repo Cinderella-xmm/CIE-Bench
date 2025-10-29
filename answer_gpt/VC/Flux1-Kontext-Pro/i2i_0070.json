@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0070",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the train labeled \"BB 3017\" still visible and legible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train clearly shows 'BB 3017' on its front. The labeling is large enough to be readable despite the darker lighting conditions. The visibility and legibility are ensured by the bright color contrast on the train's surface.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the railway tracks, including the parallel tracks beside the main line, still intact and correctly laid out?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the primary track underneath the train is clearly visible, but additional parallel tracks seen in Image A are not present in Image B. The scene in Image B seems to focus on a single track, and the layout is altered to suit the new environment.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the train still positioned centrally on the railway tracks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train is shown directly on the track, central to the visible railway line. The symmetry of the train's position on the track is maintained, ensuring it appears centrally placed.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the train retain its structural integrity, including the white locomotive and the loaded freight car?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The basic structure of the train remains intact in Image B, showing the white locomotive followed by the loaded freight car. There are no apparent visual changes to the train’s components indicating a loss of structural integrity.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the railroad signal on the left, marked with the number \"3\", still present in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The railroad signal marked '3' is not visible in Image B. The scene has been altered to create a night setting with a starry sky, and the signal structure on the left present in Image A has been removed or obscured.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7
+}

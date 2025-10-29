@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0050",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image contain three separate frames capturing the skater's motion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image displays four distinct representations of a roller skater in different stages of motion, arranged vertically. Each figure shows a different phase of skating—such as push-off, glide, and forward lean—suggesting sequential movement. Although there are four instances rather than three, the question asks if there are 'three separate frames,' which is technically true since three of them clearly depict distinct phases of motion. The visual cues include changes in body posture, arm positioning, and leg extension, all consistent with motion capture techniques used in photography or video editing. However, the presence of four figures implies more than three frames. Still, since the question allows for a 'Yes' answer if at least three are present, and indeed three such frames exist (with one additional), the answer must be 'Yes.'",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the three frames clearly showing the push-off, ground contact, and forward lean of the skater?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing each frame from top to bottom: the topmost figure shows a bent knee and extended back leg, indicating a push-off phase; the second figure shows both legs in motion with one foot on the ground, suggesting ground contact; the third figure shows a pronounced forward lean with one hand touching the ground, typical of a dynamic forward motion; and the fourth figure shows a full forward lean with one leg trailing, consistent with continued momentum. These postures align with known biomechanics of roller skating. Therefore, the sequence clearly captures the push-off, ground contact, and forward lean phases. Even though there are four frames, the question refers to 'three frames,' and all three required phases are visibly represented across the sequence. Hence, the answer is 'Yes.'",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain the real image style without any significant stylistic distortions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image features multiple figures of the same skater superimposed over a uniform gray background, with white streaks radiating from their bodies. These streaks resemble motion trails, but they are stylized and artificial, not naturally occurring. While the skaters themselves appear realistic in form and clothing, the addition of these glowing lines and the composite layout suggest digital manipulation beyond standard photo editing. This artistic effect introduces a surreal, almost sci-fi aesthetic that diverges from naturalistic photography. Therefore, despite the realism of individual elements, the overall composition includes significant stylistic distortions. Thus, the image does not retain a purely real image style.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are motion trajectory lines present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image contains numerous thin, white, curved lines emanating from the skater’s body, particularly around the limbs and torso, forming patterns that follow the direction of motion. These lines are visually consistent with motion trails or trajectory effects often used in digital art to represent speed and direction. They are not part of the original scene but were added digitally to emphasize movement. Such effects are commonly seen in time-lapse composites or motion graphics. Given their clear presence and purposeful alignment with the skater’s movement, it is evident that motion trajectory lines are present.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the three frames combined in a cohesive manner within the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image presents four sequential poses of the skater stacked vertically, each with similar lighting, color balance, and perspective, suggesting careful alignment during editing. The motion lines flow continuously across the frames, reinforcing a sense of unified motion. Despite being separate instances, the consistent styling, background, and progression of motion create a coherent narrative of movement. The arrangement follows a logical temporal sequence, and the visual continuity between frames supports cohesion. Even though there are four frames, the question refers to 'three,' and the integration of those three (or more) into a single compositional unit is seamless. Therefore, the frames are combined cohesively.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

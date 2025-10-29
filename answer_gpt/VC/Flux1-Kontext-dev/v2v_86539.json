@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_86539",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Do the characters retain their potato-like shape and texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the characters originally depicted as potato-like in shape and texture appear as cartoon-styled humans with distinct facial features, clothing, and props. This significant change indicates that they have lost the potato-like morphology, and are now clearly human characters. Therefore, visual cues from Image B combined with world knowledge about art styles indicate a shift from potato-like to human-like representations.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the potato character in the first panel still depicted as exercising with dumbbells and wearing a green headband?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a character wearing a green headband, but instead of exercising with dumbbells like the potato character in Image A, he is shown in a standing pose, possibly indicating a new action. This suggests a change in activity from the original potato-like character's exercise action depicted in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the potato character in the second panel remain inside a cardboard box, indicating sleep?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character is depicted sitting upright in front of a table with a tea cup, suggesting wakefulness and engaging in another activity rather than sleeping inside a cardboard box. This indicates a change from the original activity in Image A, where the potato character was inside a box, ostensibly sleeping.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the potato character in the third panel still seated at a table with food items, indicating eating?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a character seated at a table with food items in front, similar to Image A. The posture and surrounding items suggest that the character is indeed participating in eating. Thus, despite the change from potato to a human-like character, the activity itself remains similar.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are all three panels distinctly showing the activities of exercising, sleeping, and eating respectively?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the three panels show varied activities: the first panel has a standing character instead of exercising, the second panel shows a character sitting beside a tea cup instead of sleeping in a box, and the third depicts eating. Therefore, Image B does not distinctly represent the activities of exercising, sleeping, and eating as in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

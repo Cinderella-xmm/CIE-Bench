@@ -1,0 +1,71 @@
+{
+  "filename": "1718663125.6801877",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the facial features (eyes, nose, mouth) proportionally accurate and anatomically consistent with the original child's face, without any unnatural stretching or warping?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The assessment of facial features without referencing Image A results in a neutral assessment due to the blurred face in Image B. Therefore, without the facial context, the question cannot be answered affirmatively given the blurred region.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the gown exhibit natural fabric folds and shadows that follow the body’s contours, with no abrupt edges or inconsistent textures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the gown displays detailed embroidery and follows the body's contours smoothly. The fabric appears rich in texture, consistent with how natural fabric folds and shadows should behave on a body. Comparatively, Image A shows a simple white shirt without intricate fabric details, confirming Image B's gown attributes as accurate.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the hair rendered with a smooth, reflective surface that maintains natural volume and strand separation, without excessive gloss or artificial sheen?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the hair appears smooth with a natural shine, indicating a healthy texture. Comparing to Image A, the straight hair and natural volume are preserved. There is no excessive gloss or artificial sheen, confirming the natural appearance of the hair in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the velvet curtain backdrop have uniform texture and lighting that harmonizes with the subject’s illumination, without visible seams or abrupt transitions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B portrays a velvet curtain backdrop with consistent texture and lighting, complementing the lighting on the subject. The backdrop is well integrated, with no visible seams or abrupt transitions, suggesting careful attention to harmonious composition.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the burgundy and gold colors applied uniformly and smoothly across the gown and backdrop, without harsh edges or color bleeding?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the gown's burgundy and gold colors are applied evenly, enhancing the visual appeal with elegant detailing that avoids harsh edges or color bleeding. The backdrop matches this color scheme, supporting a cohesive visual presentation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

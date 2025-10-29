@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0035",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image contain the exact title “Today’s Balanced Lunch” at the top?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the title reads 'Today's Balndned Lunch' instead of 'Today's Balanced Lunch'. The letters in 'Balanced' are jumbled, making the title incorrect. This visual cue indicates that the title is not exactly 'Today's Balanced Lunch'.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a placeholder for the school logo located at the bottom right corner of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a small graphic located at the bottom right corner which resembles a logo. It does not look like a typical placeholder with a generic pattern or text indicating that a logo should be placed there. It appears more like an actual logo rather than a placeholder.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Have the colors in the food and background been visibly enhanced to appear more vivid and bright?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the colors do not appear to be enhanced. The salad appears less fresh, and the overall color palette seems consistent with the natural tones found in typical school lunch presentations, which tend to be less vivid than artificially enhanced images.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are white outlines visible around the edges of all items on the plate in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, white outlines can be observed around the food items depicted on the plate. These outlines make the food stand out more prominently against the plate, and their presence suggests that some editing or effect has been applied to the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the image been formatted to fit an A4 vertical layout, ensuring proper alignment of text and imagery?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B is framed as a poster with the title and meal image vertically aligned on a blue background with borders, resembling a layout typically seen with A4 formatted vertical posters. The alignment of the title, image, and other elements suggests fitting for such a vertically oriented design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

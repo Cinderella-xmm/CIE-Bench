@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_57",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the art piece oriented vertically?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the art piece, which consists of a red book and a golden pitcher, is placed within a glass display case, which has a standard vertical orientation with its base on the horizontal surface of the table. This indicates that the overall arrangement is predominantly vertical.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a Classic LEGO minifigure positioned at the center of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a Classic LEGO minifigure present, but it is positioned to the right of the composition, adjacent to the golden pitcher and book, and not in the center. The center of the image is occupied by the pitcher.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the animal in the image incorporate warm colors and textures from the photo and merge surreal and mythical design elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not contain an animal. The image shows a red book, a golden pitcher, and a LEGO minifigure within a glass display. There are no elements or creatures in the image that incorporate mythical design elements, which indicates that this question does not apply to the content of the image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the scene enclosed within a transparent glass cube featuring a sleek and minimalist interior layout?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the scene is indeed enclosed within a transparent glass cube. The interior layout inside the glass cube includes a red book, a golden pitcher, and a LEGO minifigure on a simple brown base. The absence of additional elements and the clean, clear lines of the cube structure contribute to a sleek and minimalist design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the background feature a gradient that transitions from deep amber to soft cream tones?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background behind the glass case has a consistent warm brown tone rather than a gradient. This consistent tone lacks any visible transition from deep amber to soft cream, making the background appear as a singular color without gradient effects.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

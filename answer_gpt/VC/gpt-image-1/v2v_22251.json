@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_22251",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the subject's face, including their facial features, unchanged?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject's face is blurred, making it impossible to determine any changes to facial features. Therefore, based on common sense, we conclude that the answer is not applicable to the facial features in this image.",
+      "weight": 1,
+      "model_answer": "Not applicable",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the subject still have long black hair?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject's hair appears to be long and black, similar to typical representations of long hair. This is deduced from the length and visible color of the hair on the sides. No visible changes to the hair color or length are apparent comparing it to common representations.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the green earrings still present on the subject's ears?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject has visible green earrings on both ears. This matches the common appearance of earrings in a portrait setting, suggesting they have not been changed or removed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the subject still facing forward with a neutral expression?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, although the face is blurred, the positioning of the body and the visible features suggest that the subject is facing forward. Based on common portrait positioning and the body's orientation, we logically deduce the subject remains facing forward.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there still a graphic design visible on the subject's clothing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject is wearing clothing that features intricate patterns characteristic of traditional or classical attire rather than modern graphic designs, indicating that the graphic design seen in Image A is no longer visible.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

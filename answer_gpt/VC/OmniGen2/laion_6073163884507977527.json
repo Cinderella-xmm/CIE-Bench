@@ -1,0 +1,110 @@
+{
+  "filename": "laion_6073163884507977527",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the two-tiered roof structure with a reddish-brown lower section and a dark, rough-textured upper section still present?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the house retains a similar roof structure to Image A, featuring a reddish-brown lower section that appears to be made of shingles or tiles, and a darker upper section possibly meant to represent a stone. The visual cues suggest that the roof design remains consistent in both images.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the arched green door located at the front center of the house?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the house with a green door positioned at the front center, consistent with this description and placement as indicated in Image A. The visual information clearly shows the door's location, supporting an affirmative answer.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the oval-shaped window above the door and the rectangular window to its left still present in their original positions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the oval-shaped window above the door is visible, as well as a rectangular window positioned to its left, similar to Image A. The windows maintain their respective positions, as visually indicated, supporting the conclusion that both windows are present.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the partially ruined right wall with exposed brickwork still visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "While Image A features a right wall with visible damage and exposed brickwork, Image B presents a more polished structure where these elements are not noticeable. The absence of visual cues associated with ruin or exposed brickwork suggests changes in the wall's appearance.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the rust-colored tree with dense foliage located on the left side of the house still present?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both Image A and Image B depict a rust-colored tree situated on the left side of the house. Its distinctive color and positioning are clearly visible, confirming its presence in the edited scene.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the low red brick wall adjacent to the rust-colored tree still present?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "While Image A has a red brick wall next to the rust-colored tree, Image B incorporates the tree without this wall. The absence of visual evidence of the wall in Image B indicates it is no longer present.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are the steps leading up to the entrance still present?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the design of the scene has changed, and the depiction of the steps from Image A is replaced by a bridge over a pond leading to the house. This suggests the original steps are not present in the edited image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q8",
+      "question": "Are patches of green moss-like vegetation visible near the base of the house and along the steps?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image A features patches of moss-like vegetation around the house base and steps, while Image B shows managed grass surfaces without distinct moss patches near the base, due to the layout redesign. Therefore, visual cues suggest these vegetation patches are absent.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

@@ -1,0 +1,98 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a wooden patio furniture set consisting of a square slatted table and six matching chairs, all made from rich brown hardwood with visible grain patterns. The table features a central circular black base holding a glass bowl filled with decorative stones or pebbles. The chairs have vertical slats on the backrests and horizontal slats on the seats, with armrests on the side chairs. The furniture is arranged on a smooth gray concrete patio surface. In the background, there is a dark brown wooden fence enclosing a backyard area with green grass, mulched planting beds, potted plants (including one with white flowers), three tall black outdoor torches, and a small wrought iron side table with a plant in a white pot. A colorful children’s play structure is partially visible behind the fence. The overall lighting is bright daylight, suggesting an outdoor residential setting.
+
+---
+
+**Thinking process:**  
+The editing instruction explicitly states:  
+- "Transform the wooden patio furniture into large LEGO block structures using various brown and amber bricks" → This means the **form and material** of the furniture are to be changed; the original wood texture and natural appearance must be replaced with LEGO-like modular brick construction.  
+- "Create interlocking surfaces for the tabletop and seatings" → Indicates that the **surface design** of the table and chairs should now show LEGO-style interlocking patterns, not real wood planks.  
+- "Add character by incorporating LEGO plant elements in the center" → The **center decoration** (glass bowl with stones) must be replaced with LEGO-built plant elements.  
+- "Place the set on a simplified gray LEGO baseplate leaving the surrounding environment uncluttered" → The **ground surface** must become a flat gray LEGO baseplate, and the **background environment** (fence, grass, plants, torches, play structure) must be removed or simplified significantly.  
+
+Thus, only the **spatial arrangement** of the furniture (six chairs around a square table) and the **general layout** of the scene (patio setting) are implied as preserved, but **all visual details** related to the **material**, **texture**, **color**, **structure**, and **background elements** are subject to change unless explicitly required to remain.
+
+Allowed Changes List:  
+- The material and texture of the furniture (wood → LEGO bricks)  
+- The surface pattern of the table and chair seats (slatted wood → interlocking LEGO bricks)  
+- The central decoration (glass bowl with stones → LEGO plant elements)  
+- The ground surface (concrete patio → gray LEGO baseplate)  
+- The background environment (fence, grass, plants, torches, play structure → simplified or removed)  
+- The color scheme of the furniture (natural brown → LEGO brown/amber tones)  
+- The structural form of the furniture (solid wood → modular LEGO blocks)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now apply exclusion based on the allowed changes list and analyze what **must remain unchanged** due to core identity, functional logic, or visual coherence.
+
+- **Core recognition elements**: The original image’s subject is a patio furniture set. While its **form** can be transformed into LEGO blocks, the **functionality** (table with six chairs, square shape, seating configuration) must be preserved to maintain identity. If it becomes a completely different object (e.g., a sculpture or abstract art), it would lose its identity as a dining set. Thus, the **number of chairs (6)**, **square table**, and **arrangement (chairs around table)** are essential for recognition.  
+- **Functional/logical association elements**: The **spatial relationship** between the table and chairs must be retained—each chair must be positioned adjacent to the table as in the original. Changing this would disrupt the logical function of a dining set. Additionally, the **central placement of the centerpiece** must remain, even if replaced with LEGO plants.  
+- **Non-modified element deduction**: Despite transformation, certain **geometric attributes** like the **square shape of the table**, **rectangular shape of chairs**, and **armrest presence on side chairs** must be preserved to retain the original furniture's silhouette and purpose. These are not explicitly mentioned in the instructions but are critical for visual coherence and identity. The **presence of six chairs** is also critical—reducing or increasing them would alter the intended use and scale.
+
+Preservation Targets List:  
+- The number of chairs (six)  
+- The square shape of the table  
+- The arrangement of chairs around the table (one per side, two at ends)  
+- The presence of armrests on the side chairs  
+- The central positioning of the centerpiece/decoration  
+- The overall layout (furniture set placed centrally on a flat surface)  
+
+Note: The **original materials, textures, colors, and background** are not required to be retained, as they are explicitly allowed to be changed.
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The number of chairs is a core functional and identity feature of the furniture set. The original image clearly shows six chairs—four side chairs and two end chairs. Reducing or increasing this number would fundamentally alter the set’s intended use and recognition. Since the instruction specifies transforming the furniture into LEGO blocks but does not mention changing the quantity, the count must remain consistent. This is a key identifier with high weight.
+    Question: Are there exactly six chairs surrounding the table?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The table is square in the original image, which is a defining geometric feature distinguishing it from rectangular or round tables. Even though the material will change to LEGO bricks, the square shape must be preserved to maintain the original layout and functionality. Losing this shape would make the furniture unrecognizable as the same type of set. This is a core structural element.
+    Question: Is the table square in shape?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The arrangement of the chairs—specifically having two chairs at each long side and one at each short end—is a key spatial configuration that defines how the set is used. This layout must be preserved to ensure the LEGO version maintains the same functional setup. Altering this would disrupt the logical seating arrangement and reduce coherence.
+    Question: Are there two chairs on each long side of the table and one chair on each short side?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The presence of armrests on the side chairs is a distinctive design feature in the original image. While not critical for function, it contributes to the visual identity of the chairs. Removing armrests would change the chair style and reduce visual consistency. Although the instruction allows transformation, it does not specify removing armrests, so their presence should be retained.
+    Question: Do the chairs on the long sides of the table have armrests?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The centerpiece is located in the center of the table in the original image. Its position is crucial for maintaining the visual balance and functional layout. Even though it will be replaced with LEGO plants, its central location must be preserved to reflect the original composition. This is an important scene element affecting symmetry and coherence.
+    Question: Is there a centerpiece located in the center of the table?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The furniture set is placed on a flat, level surface in the original image. This spatial context is necessary for the set to be functional and visually coherent. The instruction specifies placing it on a LEGO baseplate, which preserves the flatness and levelness. Thus, the flat surface condition must be maintained, even if the material changes.
+    Question: Is the furniture set placed on a flat, level surface?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

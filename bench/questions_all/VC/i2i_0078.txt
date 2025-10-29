@@ -1,0 +1,73 @@
+Description of reference image: The subject is a wristwatch placed on a white surface, likely a bedside table. The watch has a black and silver design, featuring a white face with black markings for hours and minutes, a date window, and a metallic bracelet. The background includes a blurred couch with pillows, a small potted plant on a windowsill, and soft natural light coming through. The watch casts subtle shadows on the white surface.
+
+---
+
+### Step 1: Allowed Changes List  
+Thinking process:  
+The instruction explicitly states replacing the background with a steampunk-style train station waiting room. Therefore, the current background elements like the couch, pillows, plant, and window can be changed. However, the original lighting and shadows of the watch need to be preserved.
+
+Allowed Changes List:  
+Specific element 1 that allows for changes - Couch and pillows in the background  
+Specific element 2 that allows for changes - Potted plant on the windowsill  
+Specific element 3 that allows for changes - Window and natural light  
+
+---
+
+### Step 2: Determination of Elements That Should Remain Unchanged  
+Thinking process:  
+Core recognition elements include the wristwatch’s design, position, and lighting/shadows. Functional/logical association elements involve maintaining the watch on the white surface. Non-modified elements include the watch's bracelet, dial, and positioning on the table for visual coherence.
+
+Preservation Targets List:  
+(Element 1 that should be maintained) - The wristwatch's black and silver design  
+(Element 2 that should be maintained) - White watch face with black markings  
+(Element 3 that should be maintained) - Metallic bracelet  
+(Element 4 that should be maintained) - Position of the watch on the white surface  
+(Element 5 that should be maintained) - Original lighting and shadows of the watch  
+
+---
+
+### Extract Key Identifying Visual Elements and Generate Questions  
+{
+    Q1:  
+    Thinking process: The wristwatch's black and silver design is a core identity feature. Losing this would alter its recognizability, hence it carries a high weight.
+    Question: Is the wristwatch's design still black and silver post-editing?
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 3  
+}
+
+{
+    Q2:  
+    Thinking process: The white watch face with black hour markers is a distinctive feature for identifying the watch. It is crucial for maintaining the watch's identity and visibility.
+    Question: Does the watch still have a white face with black hour markers?
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 3  
+}
+
+{
+    Q3:  
+    Thinking process: The metallic bracelet is an important detail that complements the watch’s design. It adds to the overall aesthetic and functional integrity.
+    Question: Is the watch still equipped with a metallic bracelet?
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2  
+}
+
+{
+    Q4:  
+    Thinking process: The position of the watch on the white surface is necessary to maintain visual coherence and functionality. Changing this would break the logical association.
+    Question: Is the wristwatch still placed on the same white surface in its original position?
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2  
+}
+
+{
+    Q5:  
+    Thinking process: Retaining the original lighting and shadows ensures authenticity and prevents the watch from appearing out of place in the new background.
+    Question: Are the original lighting and shadows of the watch preserved?
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2  
+}

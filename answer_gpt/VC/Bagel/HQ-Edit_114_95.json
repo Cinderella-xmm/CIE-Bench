@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_114_95",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the wide, straight avenue leading directly toward the base of the Eiffel Tower preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the foreground shows a clear avenue with visible lane markings and crosswalk, similar to Image A, suggesting a direct connection toward the Eiffel Tower position. However, Image B has inserted a bottle containing the Eiffel Tower and parts of the skyline, obscuring some of the avenue, but the road-layout aspect can be inferred. Based on the preservation of layout features, the answer is 'Yes'.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the symmetrical rows of green trees lining both sides of the avenue preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the overlay of the bottle, the surrounding landscape including patches of green on both sides suggests the presence of trees, consistent with the symmetrical rows visible in Image A. Once observing these background elements and alignment, the answer is 'Yes'.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the streetlights positioned along the sides of the avenue preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Streetlights along the avenue are visible in Image B, similar to those in Image A, suggesting they are preserved despite the bottle overlay. Because of this observation, the answer is 'Yes'.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the wet asphalt surface with visible reflections preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the appearance of the pavement suggests reflections similar to that in Image A, indicative of wet asphalt. Going by this visual semblance, the answer is 'Yes'.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the overcast sky with dark, layered clouds preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited Image B clearly retains the overcast sky with dark clouds as seen in Image A; indicated by the consistent cloudy texture visible beyond the glass bottle. Both images show similar atmospheric conditions, therefore the answer is 'Yes'.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the distant Parisian skyline with identifiable rooftops and modern high-rises preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, through the transparent sections of the bottle, the Parisian skyline remains visible, including identifiable rooftops and high-rises, similar to Image A. Despite distortions, core attributes are sufficiently preserved for identification. Therefore the answer is 'Yes'.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are the vehicles, including cars and a bus, visible on the road in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows parts of the road outside the bottle overlay, where the presence of vehicles, including a bus can be discerned. This is similar to Image A, confirming that vehicles remain visible despite the alteration. Based on observation, the answer is 'Yes'.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

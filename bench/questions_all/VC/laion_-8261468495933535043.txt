@@ -1,0 +1,94 @@
+Description of reference image: The subject is a breakfast plate composed of two golden-brown sausages, a fried egg with a bright orange yolk and slightly crispy white edges, and a fresh mixed green salad containing leafy lettuce (including green and purple-tinged varieties) and halved cherry tomatoes. The sausages are positioned on the left side of the gray ceramic plate, garnished with small sprigs of rosemary. The fried egg is placed in the lower right quadrant, partially overlapping the salad. The salad occupies the upper right section of the plate, with varied textures from crisp leaves and glossy red tomato halves. The plate rests on a wooden surface with visible grain patterns, and the lighting is natural and soft, casting subtle shadows. The composition is balanced, with a focus on color contrast—warm terracotta tones of the sausages, vibrant greens and reds of the salad, and the sunny yellow-orange of the egg yolk.
+
+Thinking process:  
+The editing instruction explicitly states to “transform the breakfast plate into a mosaic masterpiece” by replacing the sausages, salad, and egg with tessellated glass tiles in specific colors and shapes. This means the **form** of the food items is to be replaced entirely, but their **positions**, **shapes**, and **relative arrangement** may still need to be preserved to maintain visual coherence as a reimagined version of the original meal. The instruction specifies using larger tiles for sausage shapes, smaller ones for lettuce, and round tiles for the egg—indicating that the **overall silhouette and layout** of each food item must remain consistent, even if material changes.
+
+The background is described as “plain ceramic backdrop,” which suggests that the **gray ceramic plate** should be retained, though possibly simplified or stylized. However, since the instruction says "arrange them symmetrically on a plain ceramic backdrop," the **plate's function as a container and its flat circular shape** are essential to preserve the context of a breakfast plate.
+
+Allowed Changes List:  
+- The physical form of sausages → replaced with warm terracotta-colored tessellated glass tiles  
+- The physical form of salad → replaced with leafy green glass tiles in intricate patterns  
+- The physical form of egg → replaced with sunny yellow round glass tiles  
+- The texture and material of all food items → changed from organic to glass mosaic  
+- The background environment → simplified to plain ceramic (but plate shape and position preserved)  
+- The overall artistic style → transformed into mosaic art  
+
+Step 2 – Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: The original image is not a famous artwork but a realistic photograph of a breakfast dish. Its identity depends on the **iconic arrangement** of common breakfast components: two sausages, one fried egg, and a side salad. These are recognizable by their **distinct shapes**, **colors**, and **spatial relationships**. Even when transformed into mosaics, the **shape and placement** of these elements must be preserved to retain the identity of the meal. For example, the **two elongated sausage forms** must remain parallel and on the left; the **round egg** must be in the bottom-right; the **salad cluster** must occupy the top-right. Losing these spatial arrangements would make it unrecognizable as a breakfast plate.
+
+Functional/logical association elements: The **plate’s role as a container** and the **relative positioning of food items** are functionally logical. The sausages are served alongside the egg and salad, forming a balanced meal. Changing their positions would disrupt this logic. Additionally, the **garnish of rosemary** appears to be part of the presentation, and while it might be omitted due to scale, its presence adds authenticity. However, since it’s a minor detail, it may be allowed to be removed unless specified.
+
+Non-modified element deduction: After excluding the allowed changes (material, texture, color palette), the following must remain:  
+- The **position and shape** of the sausages (two elongated cylinders)  
+- The **position and shape** of the egg (circular, with central yolk)  
+- The **position and general form** of the salad (clustered greens and red dots)  
+- The **shape and color** of the plate (gray, circular)  
+- The **overall composition layout** (left: sausages; right: egg and salad)
+
+Preservation Targets List:  
+- The two elongated sausage shapes on the left side of the plate  
+- The circular fried egg in the lower right quadrant  
+- The clustered salad occupying the upper right portion of the plate  
+- The relative positioning of sausages, egg, and salad  
+- The gray circular ceramic plate as the base container  
+- The presence of cherry tomato halves within the salad cluster  
+- The central orange yolk within the egg white  
+- The overall spatial balance of the meal on the plate
+
+{
+    Q1: 
+    Thinking process: The two sausages are key identifiers of the breakfast meal. Their elongated cylindrical shape and parallel placement on the left side of the plate are essential for recognizing the dish. Even when transformed into mosaic tiles, the shape and position must remain to preserve the core identity of the meal. Loss of this form would render the dish unrecognizable.
+    Question: Are the two elongated sausage-shaped forms positioned on the left side of the plate?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The fried egg is a defining component of the breakfast plate, particularly due to its circular shape and central orange yolk. The presence of a distinct yolk within a white ring is a core visual feature that identifies it as an egg. Replacing it with mosaic tiles must preserve this circular form and central coloration to maintain recognition.
+    Question: Is there a circular form with a central orange-yellow disc representing the egg yolk located in the lower right quadrant of the plate?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The salad is composed of leafy greens and red cherry tomatoes, forming a distinct cluster in the upper right. The presence of both green and red elements is critical for identifying the salad. Even in mosaic form, the cluster must retain this dual-color composition and spatial grouping to be recognizable.
+    Question: Is there a cluster of green and red elements in the upper right portion of the plate representing the salad?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The gray ceramic plate serves as the foundational container for the meal. Its circular shape and neutral color provide contrast and context. While the instruction allows transformation into a "plain ceramic backdrop," the plate’s shape and function as a circular base must be preserved to maintain the scene’s coherence.
+    Question: Is the meal arranged on a circular gray plate?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The relative positions of the sausages, egg, and salad create a balanced composition. The sausages on the left, egg on the lower right, and salad on the upper right form a triangular layout that is visually stable and recognizable. Altering this arrangement would disrupt the intended meal structure.
+    Question: Are the sausages on the left, the egg in the lower right, and the salad in the upper right of the plate?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The presence of small red tomato halves within the salad is a detail that distinguishes it from other greens. Even in mosaic form, these red elements must be present and grouped with the greens to represent the salad accurately.
+    Question: Are there distinct red circular elements interspersed among the green elements in the salad cluster?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The rosemary sprigs are minor garnishes but contribute to the authenticity of the dish. While they may be omitted due to scale in mosaic form, their presence adds detail. If preserved, they should appear as thin green lines near the sausages. Their absence is acceptable, but if included, they must be accurate.
+    Question: Are there thin green linear elements (rosemary) placed along the sausages?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

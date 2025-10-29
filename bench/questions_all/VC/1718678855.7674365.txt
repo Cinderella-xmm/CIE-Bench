@@ -1,0 +1,124 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a capybara standing upright in a frontal pose, facing the viewer directly. It wears a bright blue knitted beanie with two pom-poms on the sides, dark aviator-style sunglasses with silver frames, and a matching blue knitted scarf wrapped around its neck. The capybara is dressed in a knitted sweater featuring horizontal stripes in blue, yellow, and orange, with visible knit texture. Its fur is light brown with darker shading around the muzzle and ears. The capybara holds a tall glass of orange-colored cocktail in both hands, garnished with a lime wedge and a red straw. The background features the Sydney Opera House at sunset, with warm golden lighting casting reflections on the water surface. The sky transitions from pale yellow near the horizon to soft blue above, and the silhouette of the iconic white sail-like structures of the Opera House is clearly visible across the water.
+
+**Thinking process:**  
+The editing instruction explicitly states:  
+- "Transform the capybara into a Victorian-era gentleman" → implies full transformation of the subject’s appearance, including clothing, accessories, posture, and style.  
+- "Donning an impeccably tailored suit, top hat, and monocle" → replaces current clothing and headwear.  
+- "Replace the modern drink with an ornate teacup and saucer" → removes the cocktail and substitutes it with a different object.  
+- "Transform the background to a 19th-century London riverscape with the skyline of the Houses of Parliament and Big Ben" → changes the entire environmental context.  
+
+These instructions indicate that **all elements of the subject's current attire, held object, and background are to be replaced**. There is no mention of preserving any original visual feature of the capybara or environment. Therefore, **no part of the original subject or scene is required to remain unchanged**, unless such elements are logically necessary for identity preservation (e.g., species recognition).
+
+However, since the instruction mandates a complete transformation, only **core biological identity markers** of the capybara—those essential to recognizing it as a capybara—are implicitly retained, even if stylized. This includes its **distinct facial structure, body shape, and animal form**.
+
+**Allowed Changes List:**  
+- The blue knitted beanie → can be replaced  
+- The aviator sunglasses → can be replaced  
+- The blue scarf → can be replaced  
+- The striped knitted sweater → can be replaced  
+- The cocktail with lime and straw → can be replaced  
+- The Sydney Opera House background → can be replaced  
+- The sunset lighting and water reflection → can be replaced  
+- The wooden railing in the foreground → can be replaced  
+- The overall color palette and atmosphere → can be changed  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+Despite the comprehensive transformation requested, certain **core recognition elements** must remain intact to preserve the subject’s identity as a capybara. These are not aesthetic choices but biological identifiers critical to distinguishing the animal from other species.
+
+- **Core recognition elements**:  
+  - The capybara’s **distinct facial structure**—specifically the broad snout, rounded muzzle, small eyes, and prominent nostrils—is essential for identification. Even when dressed in Victorian attire, the underlying animal form must retain these traits to remain recognizable as a capybara.  
+  - The **overall body shape**—large, stocky build with short legs and thick torso—is unique among rodents and must be preserved to maintain species identity.  
+  - The **ear shape and position**—small, rounded ears set high on the head—are distinctive features of capybaras and should not be altered in a way that transforms them into human-like or fantastical forms.  
+  - The **fur texture and coloration pattern**—light brown fur with subtle gradations and darker areas around the muzzle—should remain consistent in tone and distribution, though the texture may be stylized under Victorian dress.
+
+- **Functional/logical association elements**:  
+  - The **act of holding an object** (previously a drink) remains functionally relevant. While the object changes, the posture of the hands gripping something must be preserved to maintain logical consistency. The hands must still be positioned in front of the chest, with fingers curled around an object.  
+  - The **frontal, upright stance** of the capybara is central to the composition and should be maintained to preserve the intended perspective and narrative positioning.
+
+- **Non-modified element deduction**:  
+  After excluding all allowed changes (clothing, accessories, drink, background), the remaining unmentioned **biological features**—such as the **shape of the nose, the placement of the eyes, the fur pattern, and the general proportions**—must be retained to ensure the subject remains identifiable as a capybara rather than being replaced by another animal or humanoid figure.
+
+Thus, while the **appearance** is transformed, the **underlying anatomical identity** of the capybara must be preserved.
+
+**Preservation Targets List:**  
+- The capybara’s facial structure, including the broad snout and rounded muzzle  
+- The shape and position of the ears  
+- The overall body shape and proportion (stocky build, short limbs)  
+- The hand posture holding an object in front of the chest  
+- The upright, frontal stance  
+- The natural fur coloration (light brown with darker muzzle)  
+- The presence of four limbs and tail (implied by anatomy)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The broad, flat snout with a wide, rounded muzzle is the most defining facial feature of a capybara. This morphology distinguishes it from other animals like bears or pigs. If this feature is altered (e.g., elongated, narrowed, or replaced with a human-like face), the subject would no longer be recognizable as a capybara. Thus, preserving the snout shape is a core identity requirement and carries the highest weight.
+    Question: Is the capybara’s snout broad and flat with a rounded muzzle, consistent with its real-world anatomy?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The capybara’s ears are small, rounded, and positioned high on the head. These are key morphological markers. Changing their shape or position (e.g., making them pointed or earless) would compromise species recognition. Since they are not mentioned in the editing instruction as being replaced, they must remain in their original form.
+    Question: Are the capybara’s ears small, rounded, and located high on the head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The upright, frontal stance is crucial for maintaining the visual logic of the scene. Even if the capybara is now dressed as a gentleman, it must still stand in the same orientation to preserve continuity with the original composition. Altering the posture (e.g., side profile, crouching) would disrupt the intended framing and coherence.
+    Question: Is the capybara standing upright and facing directly toward the viewer?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The hand posture—gripping an object in front of the chest—is functionally tied to the original action of holding a drink. Although the object changes, the gesture must remain to maintain logical consistency. The hands must still be positioned forward, with fingers curved around a vessel. Removing or altering this pose would break the continuity of the subject’s interaction with an object.
+    Question: Are both hands positioned in front of the chest, gripping an object?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The fur coloration—light brown with darker shading around the muzzle—is a key identifier. While the texture may be stylized, the base color and contrast must remain to preserve the capybara’s realistic appearance. Changing the fur to black, white, or patterned would misrepresent the species.
+    Question: Is the capybara’s fur primarily light brown with darker tones around the muzzle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The body shape—stocky, large, with short legs and thick torso—is a distinguishing trait of capybaras. Even in Victorian attire, the underlying form must reflect this robust build. Altering it to appear slender or humanoid would violate biological accuracy and reduce recognition.
+    Question: Does the capybara have a stocky, large body with short legs and a thick torso?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q7: 
+    Thinking process: The presence of four limbs is fundamental to mammalian anatomy and must be preserved. While the legs may be obscured by clothing, their number and general placement must remain consistent. Losing one limb or adding extra limbs would distort the subject’s identity.
+    Question: Does the capybara have four limbs visible or implied by posture?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

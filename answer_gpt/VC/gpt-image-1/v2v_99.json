@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_99",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the text \"RONALOO\" and the number \"7\" visible on the player's jersey?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on Image B, the text on the jersey appears to be 'RONALDO' and the number is '7'. The letters and numbers are clear and follow recognizable soccer jersey style patterns, suitable for identifying a player's name and number. Therefore, the answer is based on visual information that matches the expected format for such a jersey.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the player depicted in the act of kicking the soccer ball?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the player is in a pose consistent with performing a kicking action towards the soccer ball, which is close to the player's moving leg. This posture is typical in soccer scenarios where the player is executing a shot or pass, and the positioning of the limbs and proximity to the ball corroborates this.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the stadium filled with spectators and equipped with bright lights visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a crowded stadium with tiers of spectators visible in the stands. Above, there are bright lights typically used in sports stadiums for illumination during events. The visual cues such as tiered seating filled with people and stadium lighting are identifiable, supporting the conclusion that the stadium is indeed filled and bright.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the goalkeeper dressed in green positioned near the goalpost?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a figure resembling a goalkeeper, dressed in green, is situated close to the goalpost. This is typical for a soccer game setup where the goalkeeper guards the goal area, and the outfit and positioning are consistent with this role.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the soccer ball shown in motion, heading toward the goalpost?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The soccer ball in Image B appears to be near the goal line, close to the post, giving the impression of motion as if heading towards the goalpost. The positioning of the ball suggests it's en route to scoring a goal, which is a common scenario in soccer imagery.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8333333333333334
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_5003",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the curved shape of the bow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image (Image B), the bow is represented with polygonal facets but retains a curved structure, similar to the natural curve found in Image A's traditional bow design. The use of origami or polygonal designs does not alter the essential curved shape indicating that while the bow is visually transformed into an origami piece, its curvature, a significant feature of a bow, is maintained.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image retain the cylindrical shape of the quiver?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The quiver in the edited image (Image B) is depicted with straight edges and facets, which gives it a polygonal look in contrast to the smooth cylindrical form seen in Image A. The transformation to a faceted origami style alters the quiver's appearance, moving away from the cylindrical shape of the original, although it maintains a roughly cylindrical volume.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain the arrangement and general form of the arrows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the arrows are preserved with a general arrangement, standing upright within the quiver, and their feathered ends retain a similar configuration to their real-life counterparts, despite the origami transformation. This retention of placement and basic arrow form means the edited image keeps the functional and visual essence of arrows.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image retain the position of the bow and quiver on the forest floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The position of the bow and quiver in Image B remains on the ground, similar to Image A. They are located on a grassy surface in what appears to be the same relative placement and spatial orientation in the woodland setting. Despite the stylistic change, the positional layout on the forest floor is unchanged.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image retain the natural woodland backdrop?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The backdrop in Image B continues to display a natural woodland environment with a focus that blurs into tree forms and soft lighting. This maintains the core atmosphere and setting established in Image A, even if the bow and quiver objects are transformed, the surrounding environment remains distinctly a woodland locale.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

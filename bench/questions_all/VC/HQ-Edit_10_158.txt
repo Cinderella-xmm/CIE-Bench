@@ -1,0 +1,131 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a high-top hiking boot, positioned prominently on a large gray rock in a mountainous alpine landscape. The boot features a combination of brown leather panels with visible stitching, dark gray synthetic overlays, and reinforced black rubber toe cap and outsole. It has a robust lacing system with metallic silver eyelets and brown laces threaded through them. The midsole is thick and layered, with textured treads for grip, and the heel counter appears to be padded with olive-green fabric. The boot is angled slightly forward, showing its side profile with clear depth and shadowing, suggesting a three-dimensional form. The background consists of rugged, jagged mountain peaks under a soft morning or evening sky, with misty valleys stretching into the distance. Sparse grasses and dry vegetation grow between rocks, enhancing the natural, remote setting.
+
+**Thinking process:**  
+The editing instruction explicitly states:  
+- "Convert the hiking boot to a finely carved wooden sculpture" → **Subject form changes entirely**, so the original material (leather, rubber, metal) is replaced with wood.  
+- "Preserving its detailed panels and lacing" → **Structure and layout of panels and lacing must remain identical in shape and arrangement**, even though material changes.  
+- "Use light and dark wood tones to replicate the original leather texture and sole" → **Color scheme and surface texture are reinterpreted using wood grain**, but the visual pattern (e.g., panel shapes, tread design) must match.  
+- "Position it on a minimalist wooden shelf" → **Scene changes completely**: original rocky terrain and mountain backdrop are replaced.  
+- "Introduce subtle grain patterns for added realism" → **New textural detail added**, but only as enhancement of the wood version; does not alter original form.  
+- "Emphasizing the shoe's robust form" → **Overall silhouette and structural integrity must be preserved**.
+
+Thus, the following elements are allowed to change:
+- Material of the boot (from leather/rubber/metal to wood)
+- Background environment (from mountain scene to wooden shelf)
+- Surface finish (from smooth leather to wood grain)
+- Color palette (to wood tones, while preserving contrast and segmentation)
+
+**Allowed Changes List:**  
+- Material of the boot (leather → wood)  
+- Background scenery (mountain landscape → wooden shelf)  
+- Texture details (smooth surfaces → wood grain)  
+- Color scheme (brown/black/gray → light/dark wood tones)  
+- Environmental lighting (natural outdoor light → indoor studio-like lighting implied by shelf setting)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now identify what **must not change**, based on exclusion from the allowed changes list and core identity logic:
+
+**Core recognition elements:**  
+- The **shape and structure of the boot** — including the high-top design, toe box, heel counter, and overall silhouette — are essential for identifying it as a hiking boot. Even when transformed into wood, the **form must remain faithful**.
+- The **panel configuration** — the distinct segmented leather sections (especially the curved side panels with elongated cutouts) — are unique design features that define this specific model. These must be preserved in shape and spatial relationship.
+- The **lacing system** — the placement and curvature of the laces, along with the alignment of the eyelets — must remain structurally accurate, even if rendered in wood.
+- The **outsole tread pattern** — the deep grooves and ridges on the bottom — are functional and distinctive; they must retain their shape and spacing.
+
+**Functional/logical association elements:**  
+- The **relative positioning of components** (e.g., laces over eyelets, tongue beneath laces, heel counter behind ankle) must stay consistent to preserve logical construction. A misaligned lace or misplaced panel would break the illusion of a real boot.
+- The **overall orientation and angle** of the boot (side profile, slight forward tilt) must remain unchanged to maintain visual continuity with the original.
+
+**Non-modified element deduction:**  
+Although the background changes, the **boot’s internal structure** (such as the curve of the instep, the thickness of the midsole, the height of the shaft) must be retained because these are not mentioned for modification and are critical to recognition.
+
+Additionally, **specific design cues** such as:
+- The **metallic silver color of the eyelets** → although possibly changed to wood tone, their **placement and number** must remain.
+- The **presence of the padded collar** at the top of the boot → must still exist in shape, even if made of carved wood.
+- The **black rubber toe cap** → must be replicated in wood but retain its **position and shape**.
+
+Even though material changes, **the form and topology of every component** must be preserved.
+
+**Preservation Targets List:**  
+- The overall silhouette and volume of the hiking boot  
+- The shape and arrangement of the side panels (including elongated oval cutouts)  
+- The position and curvature of the laces and eyelets  
+- The tread pattern and depth of the outsole  
+- The location and shape of the toe cap and heel counter  
+- The placement of the padded collar and tongue  
+- The relative proportions and angles of the boot (side view, forward tilt)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The side panel with elongated oval cutouts is a key design feature that distinguishes this hiking boot model. Its presence and shape are essential for identification. If altered or removed, the boot would no longer resemble the original. This is a core structural element, making it a 3-point question.
+    Question: Does the boot retain the same shape and arrangement of the elongated oval cutouts on the side panels?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The lacing system, including the number and alignment of eyelets, is a functional and visual identifier. The original has six visible eyelets arranged vertically with consistent spacing. Changing their count or position would disrupt the boot’s identity. This is a core structural element tied to function and form, hence weight 3.
+    Question: Are the eyelets positioned in the same vertical alignment and spacing as in the original boot?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The tread pattern on the outsole is a defining functional feature. The original has deep grooves and ridges forming a specific geometric pattern. Altering this would affect both the boot’s recognizability and its perceived purpose. This is a critical detail for structural authenticity, thus weighted 3.
+    Question: Does the outsole retain the exact tread pattern and groove depth as in the original?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The toe cap is a prominent feature, both visually and functionally. In the original, it is a black, rounded, reinforced section at the front. Even when converted to wood, its shape and position must be preserved. Losing this would distort the boot’s identity. This is a key structural component, so it receives a weight of 3.
+    Question: Is the toe cap present and shaped identically to the original, including its rounded front and position?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q5: 
+    Thinking process: The padded collar at the top of the boot is a distinctive ergonomic feature. Its shape and placement above the laces help define the boot’s high-top profile. Removing or altering it would make the boot look like a different model. This is an important design detail, but less central than the panels or sole, so it gets 2 points.
+    Question: Is the padded collar at the top of the boot preserved in shape and position?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The overall orientation of the boot — side profile with a slight forward tilt — is crucial for maintaining visual consistency with the original. Changing this angle would alter perception and reduce fidelity. While not a core identity element, it affects coherence and should be preserved. Thus, it is a 2-point question.
+    Question: Is the boot positioned in the same side profile with the same forward tilt as in the original?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The tongue of the boot is located beneath the laces and has a defined shape. Its presence ensures the boot’s internal structure remains recognizable. Although small, it contributes to the boot’s authenticity. This is a minor but identifiable detail, so it receives 1 point.
+    Question: Is the tongue of the boot visible and shaped similarly to the original?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q8: 
+    Thinking process: The heel counter is a raised, supportive structure at the back of the boot. Its shape and position are key to the boot’s stability and design. Even in wood, it must retain its form. This is a functional and structural detail, but not as iconic as the panels or sole, so it gets 2 points.
+    Question: Is the heel counter present and shaped identically to the original?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

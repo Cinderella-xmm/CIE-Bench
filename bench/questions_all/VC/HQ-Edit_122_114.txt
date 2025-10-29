@@ -1,0 +1,101 @@
+Description of reference image: The subject is a white stork with black wingtips, red legs, and a long red beak, standing inside a large nest made of intertwined twigs. The nest is positioned in the central opening of a small wooden house with a steep A-frame roof, weathered gray wood planks, and a single window near the peak. The house has a chimney on the left side, constructed from light-colored stone or brick, topped with a small metal cap. The background features soft green trees and a pale sky with subtle texture resembling pointillism. The ground beneath the house is grassy with scattered yellow flowers and a faint path leading toward the structure. The overall composition is symmetrical, with the stork centered within the nest, which occupies most of the lower half of the frame. The textures are highly detailed—wood grain, individual twigs, feathers, and foliage—all rendered with fine precision.
+
+Thinking process: First, analyze the editing instructions that explicitly state transformations: "Transform the stork and its wooden house into a Steampunk-themed sculpture," indicating that both the stork and the house are to be reimagined in a mechanical style. Specific changes include replacing nest twigs with cogs and gears, adding copper pipes along the roof, converting feathers into metallic plates, and integrating mechanical joints. These instructions clearly define what elements are allowed to change:  
+- Nest material (twigs → cogs/gears)  
+- Stork’s body (feathers → metallic plates; limbs → mechanical joints)  
+- House structure (wooden walls → possibly metalized, but form preserved)  
+- Roof additions (copper pipes)  
+
+However, the instruction does **not** mention changing the position, orientation, or overall layout of the scene, nor does it specify altering the background environment, the chimney, the window, or the presence of the path and flowers. Therefore, these elements fall outside the scope of modification unless indirectly affected by structural changes. Additionally, while the stork’s appearance is transformed, its **position within the nest**, the **nest’s location in the house**, and the **house’s placement in the landscape** must logically remain consistent for spatial coherence. The **chimney**, **window**, **roof shape**, and **background elements** are not mentioned as being altered, so they should be retained unless their transformation is implied by the steampunk theme.
+
+Allowed Changes List:
+- Nest twigs → replaced with cogs and gears
+- Stork’s feathers → replaced with metallic plates
+- Stork’s legs and beak → modified with mechanical joints and materials
+- Stork’s posture and position → may be adjusted slightly to fit mechanical form, but core pose (standing upright in nest) likely preserved
+- Wooden house exterior → converted to steampunk aesthetic with copper piping and possibly metal plating
+- Roof → added copper pipes along edges
+- Overall color palette → may shift toward brass, copper, and steel tones
+
+---------------------------------------------------------------------------------------
+
+Thinking process:
+Core recognition elements: The identity of the subject hinges on the **presence of a stork in a nest within a house**, a well-known symbolic motif in European folklore. Even though the stork is being transformed, its **core identity as a bird with specific anatomical traits** (long neck, red beak, white body with black wings) must be preserved in some form—though now mechanized. However, since the instruction specifies transforming feathers into metallic plates and adding joints, the **form and function** of the bird are being altered, but the **iconic silhouette** and **placement** must still reflect the original subject. Similarly, the **A-frame wooden house with a chimney and window** is a key environmental identifier. While materials may change, the **structure's shape, window position, and chimney location** must remain unchanged to preserve spatial logic and recognizability.
+
+Functional/logical association elements: The **nest is located in the center of the house**, forming a circular opening where the stork stands. This spatial relationship is critical—changing the house’s structure without preserving this central cavity would break the narrative and visual logic. The **stork is inside the nest**, which is **within the house**, and this containment hierarchy must be maintained even if all components are remade in metal. The **chimney remains on the left side**, and the **window stays at the apex**, ensuring continuity of architectural layout.
+
+Non-modified element deduction: After excluding the allowed changes (nest material, stork’s body, roof pipes), the remaining unmentioned elements must be preserved for coherence:  
+- The **window’s position and size**  
+- The **chimney’s height and placement**  
+- The **overall A-frame roof shape**  
+- The **ground-level path and yellow flowers**  
+- The **background trees and sky texture**  
+These are not specified for change and serve as grounding elements for the scene. Changing them would disrupt the viewer’s sense of place and context.
+
+Preservation Targets List:
+- The window's position at the top center of the house
+- The chimney’s location on the left side of the roof
+- The A-frame roof shape of the house
+- The central circular opening of the house housing the nest
+- The stork’s position inside the nest
+- The presence of the path and yellow flowers in the foreground
+- The background trees and sky texture
+
+---------------------------------------------------------------------------------------
+
+{
+    Q1: 
+    Thinking process: The window’s position at the top center of the house is a core architectural feature that defines the house’s symmetry and visual balance. It is a fixed element in the original image and not mentioned in the editing instructions as being removed or relocated. Its retention ensures the house remains recognizable and maintains its original design logic. Loss of this window or its relocation would fundamentally alter the house’s identity.
+    Question: Is the window located at the top center of the house?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The chimney’s placement on the left side of the roof is a distinctive landmark that anchors the house’s spatial orientation. It is not mentioned in the instructions as being removed or moved, so it must remain. Its preservation is essential for maintaining the original scene’s integrity and preventing confusion about the house’s structure.
+    Question: Is the chimney positioned on the left side of the roof?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The A-frame roof shape is a defining characteristic of the house’s silhouette. Although the roof may gain copper pipes, its overall triangular form must remain unchanged to preserve the house’s identity. Altering the roof’s angle or removing the peak would make the structure unrecognizable.
+    Question: Does the house have an A-frame roof with a pointed peak?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The central circular opening in the house, where the nest is placed, is a critical spatial feature that allows the stork to be visible. This opening is not mentioned for removal or modification, and its presence is necessary for the stork to be housed within the structure. Its retention ensures the logical relationship between the stork, nest, and house remains intact.
+    Question: Is there a large circular opening in the front of the house where the nest is located?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The stork’s position inside the nest is a functional and compositional centerpiece. Even if transformed into a mechanical form, it must remain within the nest to maintain the original narrative. Moving the stork outside or altering its containment would break the symbolic meaning of the scene.
+    Question: Is the stork located inside the nest?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The presence of the path and yellow flowers in the foreground provides environmental context and visual grounding. Though minor, they contribute to the scene’s realism and continuity. Their absence would create a gap in the setting, making the image feel incomplete or inconsistent with the original.
+    Question: Are there yellow flowers and a path visible in the foreground?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The background trees and sky texture establish the natural setting of the image. They are not mentioned for alteration, and their retention ensures the scene remains cohesive. Removing or drastically changing them would disconnect the house from its environment.
+    Question: Are green trees and a textured sky visible in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

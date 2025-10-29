@@ -1,0 +1,41 @@
+```
+Step 1: Disassemble Editing Instructions
+-<Thinking Process 1>: The editing instruction requires transforming the robot into a futuristic tech gadget advertisement, which involves significant material and surface property changes. The original image features a mechanical robot with matte and semi-gloss plastic-like textures in white, red, orange, and black. Applying a glossy metallic finish across its entire surface will alter the perceived material properties. This change must maintain visual coherence with the original geometric structure while avoiding unnatural reflections or inconsistent sheen. Therefore, the sub requirements focus on whether the new material application preserves structural integrity, avoids texture artifacts, and maintains realistic light interaction.
+-Sub requirement 1: Apply a glossy metallic finish to the robot’s surface—evaluate whether this modification introduces unnatural reflections, inconsistent gloss levels, or distorted highlights that break the sense of physical plausibility.
+-Sub requirement 2: Incorporate holographic display elements on the chest—assess whether these elements are seamlessly integrated without disrupting the geometry of the chest armor or introducing floating, misaligned, or pixelated graphics.
+-Sub requirement 3: Add a digital interface overlay featuring control icons—check if the overlay appears layered correctly, does not obscure critical structural details, and maintains legibility without blurring or distortion.
+-Sub requirement 4: Integrate sleek branding and a detachable magnetic smartwatch accessory on the arm—verify that the smartwatch is proportionally accurate, physically plausible (e.g., magnetically attached), and does not distort the arm’s joint or hand structure.
+-Sub requirement 5: Change the background to a sleek black with floating tech interface symbols—ensure that the background elements do not interfere with the robot's silhouette, appear depth-consistent, and lack jagged edges or ghosting artifacts.
+-Sub requirement 6: Ensure all edits preserve the original robot’s structural coherence—confirm no broken edges, missing parts, or geometric deformations occur due to added elements or material changes.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of applying a glossy metallic finish to the robot’s surface, evaluate whether the material transformation affects the realism by introducing unnatural reflections or inconsistent specular highlights. The original model has a matte-to-semi-gloss finish; changing this globally requires consistent lighting behavior across all panels and joints.
+Question: Are the reflections on the robot’s body uniform and physically consistent with a metallic surface, without streaks, over-saturation, or mismatched highlight areas?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of adding holographic display elements on the chest, assess whether these elements are integrated without distorting the underlying geometry or appearing as flat, untextured overlays. The chest area includes angular panels and a central red section where the hologram would logically appear.
+Question: Is the holographic display on the chest transparent and layered above the surface without warping or clipping into the surrounding armor plates?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of adding a digital interface overlay with control icons, determine whether the overlay is clearly visible, properly aligned, and does not obscure essential structural features like joints or panel lines. The overlay should appear as a semi-transparent UI element.
+Question: Are the control icons in the digital interface overlay sharp, readable, and positioned without overlapping key mechanical components such as the shoulders or torso joints?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of attaching a magnetic smartwatch to the robot’s arm, verify that the accessory is proportionally correct, attached at a logical location (e.g., forearm), and does not cause deformation of the arm or hand. The original robot has articulated arms with defined wrist segments.
+Question: Is the smartwatch accessory attached to the forearm without bending or deforming the arm’s structure, and does it have a clean, seamless connection point consistent with magnetic attachment?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of changing the background to a sleek black with floating tech interface symbols, evaluate whether the background elements are rendered with smooth edges, proper depth, and no aliasing or transparency artifacts. These symbols should appear suspended in space behind the robot.
+Question: Are the floating tech interface symbols in the background evenly spaced, sharp-edged, and free from jagged outlines or ghosting effects?
+Choices: Yes, No  
+A: Yes
+```

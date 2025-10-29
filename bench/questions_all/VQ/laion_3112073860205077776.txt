@@ -1,0 +1,48 @@
+```
+Step 1: Disassemble Editing Instructions
+-<Thinking Process 1>: The editing instruction involves adding vibrant blueberry illustrations on the pie slice, each labeled with nutritional information. This requires modifying the surface of the existing pie slice (located in the foreground on a white plate) by introducing new graphical elements. The addition of labels and illustrated berries must not disrupt the original texture or color gradient of the pie crust and filling. The placement must maintain spatial coherence with the real pie’s shape and avoid unnatural layering or transparency issues. Therefore, this operation affects realism, material consistency, and structural integrity.
+-Sub requirement 1: Add illustrated blueberries and text labels onto the pie slice surface; evaluate whether these additions appear integrated into the existing texture without visible artifacts, unnatural edges, or inconsistent lighting.
+
+-<Thinking Process 2>: The instruction specifies creating an anthropomorphic version of the tea mug as a friendly character offering healthy eating tips. The mug is located to the right of the pie slice and contains tea with a visible teabag string. Transforming it into a character implies adding facial features, limbs, or expressive elements. This transformation must preserve the original cylindrical geometry and handle structure while introducing non-physical elements like eyes or arms. The risk lies in distorting the mug’s proportions or introducing impossible shapes that violate physical logic.
+-Sub requirement 2: Modify the mug into an anthropomorphic character; assess whether the geometric shape remains consistent, no parts are stretched or broken, and added features (e.g., limbs, face) are proportionally plausible and do not introduce unnatural textures or distortions.
+
+-<Thinking Process 3>: A minimalistic chart showing benefits of pairing berries and tea must be integrated into the scene. This chart would likely appear near the center or background, possibly overlaying part of the table or adjacent to the cup and plate. Its integration must not obscure key elements like the pie or mug, and its style should match the warm pastel hues mentioned. The chart must have clean lines, readable text, and proper alignment without visual clutter or occlusion.
+-Sub requirement 3: Insert a chart into the image space; evaluate whether it is visually coherent, properly scaled, aligned, and does not interfere with existing objects or create depth confusion.
+
+-<Thinking Process 4>: Warm pastel hues are to be used throughout to draw attention to information. This involves adjusting the overall color tone, especially around the pie, mug, and chart areas. The change must not alter the natural colors of materials such as ceramic, glass, or baked goods, but instead enhance contrast subtly. Over-saturation or hue shifts could make surfaces look artificial or painted.
+-Sub requirement 4: Apply warm pastel tones across the image; check if color adjustments preserve material authenticity and avoid unnatural color casts on food, ceramics, or glass.
+
+-<Thinking Process 5>: The core elements—the pie slice, mug, plate, and table—are to remain structurally intact. Any edits must not break the continuity of these objects. For example, the pie’s crust should not appear fragmented due to added illustrations, and the mug’s handle must not be altered in shape when anthropomorphized.
+-Sub requirement 5: Retain structural coherence of all core objects; ensure no deformation, missing parts, or misalignment occurs during editing.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of adding illustrated blueberries and nutritional labels onto the pie slice, this evaluates whether the added elements blend naturally with the existing surface. The blueberries must match the size and shading of real berries, and the labels must not float unnaturally or cause distortion in the pie’s texture. The focus is on material consistency and absence of digital artifacts.
+Question: Are the illustrated blueberries and text labels seamlessly integrated into the pie surface without visible pixelation, jagged edges, or inconsistent shadows?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of transforming the mug into an anthropomorphic character, this checks whether the mug’s original geometry—especially its cylindrical body and handle—is preserved. Added features like limbs or facial expressions must not distort the mug’s volume or create impossible angles. The character must still resemble a functional mug.
+Question: Does the anthropomorphic version of the mug retain the original cylindrical shape and handle position without stretching, warping, or breaking the object's form?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of inserting a minimalistic chart into the scene, this assesses whether the chart is placed in a way that does not overlap critical elements like the pie or mug, and whether its design follows standard layout rules (aligned edges, readable text). It also checks for visual noise or depth inconsistency.
+Question: Is the chart positioned clearly within the frame without overlapping or obscuring the pie slice, mug, or plate, and does it have clean lines and legible text?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of applying warm pastel hues to enhance visibility, this evaluates whether the color grading alters the natural appearance of materials. For instance, the ceramic mug should not appear glowing or overly tinted, and the glass should not lose its transparency. The goal is to detect unnatural color shifts.
+Question: Are the warm pastel tones applied evenly across the scene without causing unnatural discoloration of the ceramic, glass, or baked pie surface?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of maintaining structural coherence of core elements, this checks whether the pie slice retains its original triangular shape and crust integrity after adding illustrations. Similarly, the mug’s handle and body should not be distorted even if stylized. The plate and table should remain flat and undistorted.
+Question: Do the pie slice, mug, plate, and table maintain their original geometric forms and spatial relationships without any visible warping, fragmentation, or misalignment?
+Choices: Yes, No  
+A: Yes
+```

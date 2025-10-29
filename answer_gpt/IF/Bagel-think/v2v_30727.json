@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_30727",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has a person been added to the image near the zebra's tail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a person's figure is visible to the right behind the zebra, suggesting they are walking toward the zebra. Given the positioning in Image B, the person is near the zebra, more to the side than directly by the zebra's tail.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the zebra have its head partially turned toward the person?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "From visual observation in Image B, the zebra maintains a downward stance, seemingly drinking or grazing, and does not seem to have its head turned toward the person who is positioned behind and to the right. Thus, the zebra's attention does not appear directed at the person.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the person's foot positioned near or on the zebra's tail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image depicts the person walking behind the zebra but not directly on or near its tail. The setup and perspective show no overlap between the person's feet and the zebra's tail.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the original elements of the watering hole and surrounding environment maintained?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing the environment in Images A and B, both show the same arrangement of rocks and the watering hole. The addition of the person does not impact these elements, indicating they are preserved.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the zebra's expression and posture indicate it is startled?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The zebra's posture in Image B remains consistent, showing a peaceful position with its head down, engaged with the ground or water. There is no indication of altered body language such as raised ears, lifted head, or sudden movement that typically signify a startle response in animals.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

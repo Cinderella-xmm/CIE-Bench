@@ -1,0 +1,118 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject consists of three figurines representing a nativity scene: Mary kneeling on the left, Joseph standing on the right leaning against a rock, and the infant Jesus lying in the center on a white fluffy surface. Mary wears a pale pink robe with a gray-blue shawl draped over her shoulders and head, a white veil covering her hair, and a golden halo above her head. Her hands are clasped in prayer. Joseph is dressed in layered robes—light brown undergarment with a darker brown outer cloak—and has a beard, long hair, and a golden halo; he holds a staff topped with a white lily flower. The infant Jesus lies on his back, bare except for a small white diaper, with golden wing-like rays behind his head symbolizing divinity. All figures rest on rocky bases resembling natural stone. The background is plain white, emphasizing the figurines.
+
+Thinking process:  
+The editing instruction explicitly states to “transform the nativity scene figures into an intricate Renaissance fresco,” indicating that the **form, medium, and artistic style** of the figures can be changed. It further specifies changes to materials: “gilded brocade” for Mary’s robe, “richly draped velvet” for Joseph’s cloak, and “ornate silver swaddling” for the infant. These describe material transformations, not structural or symbolic alterations. The instruction also mandates placing them in a “detailed architectural setting with classical columns and divine motifs,” meaning the **background environment** must be changed from plain white to a complex frescoed mural.
+
+However, the instruction does **not** mention changing the **identity**, **posture**, **relative positions**, or **core symbolic elements** (such as halos, lily staff, infant’s halo wings, or kneeling/standing poses). Therefore, these elements are implicitly required to remain recognizable despite stylistic transformation.
+
+Allowed Changes List:  
+- Material of clothing (e.g., fabric type: brocade, velvet, silver swaddling)  
+- Artistic medium (from figurine to fresco)  
+- Background setting (from plain white to detailed architectural fresco with columns and divine motifs)  
+- Color palette of garments (as long as they align with new materials like gilded or silver)  
+- Texture and rendering style (to match Renaissance fresco technique)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements must be preserved because they define the identities of the figures. For example:
+- The **golden halo** around each figure is a universal Christian iconographic symbol identifying sanctity. Its presence is essential for recognizing Mary, Joseph, and Jesus.
+- The **staff with a white lily** held by Joseph is a traditional attribute symbolizing purity and is uniquely associated with him in nativity scenes.
+- The **infant Jesus’ golden radiant halo** (wing-like rays) is a distinctive sign of divine nature and must remain even if stylized.
+- The **kneeling posture of Mary** and **standing posture of Joseph** are key narrative gestures that convey their roles and emotional states—these spatial relationships are critical to the scene's meaning.
+- The **positioning of the infant between the two adults**, centered and elevated slightly, maintains the sacred triangle composition typical of nativity depictions.
+
+Functional/logical association elements:
+- The **staff held by Joseph** must remain attached to him and oriented appropriately (upward with lily tip), as it serves both symbolic and compositional functions.
+- The **rocky bases** beneath the figures may be reimagined in fresco style but should still support the figures in the same relative positions to maintain stability and narrative grounding.
+
+Non-modified element deduction:
+- Although fabrics and colors can change per instructions, **the shape and structure of garments** (e.g., Mary’s draped shawl, Joseph’s layered robes) must remain consistent enough to preserve character identity.
+- The **infant’s pose** (arms crossed over chest, legs bent, lying on back) is a classic representation and should be retained for recognition.
+- The **white fluffy surface under the infant** may be replaced by a frescoed version (e.g., painted clouds or straw), but its function as a soft resting place must be preserved visually.
+
+Preservation Targets List:  
+- Golden halo around Mary  
+- Golden halo around Joseph  
+- Golden halo (radiant wings) behind infant Jesus  
+- Staff with white lily held by Joseph  
+- Kneeling posture of Mary  
+- Standing posture of Joseph leaning on rock  
+- Infant Jesus lying on back with arms crossed  
+- Relative positioning: Mary left, Joseph right, infant center  
+- Rock base under Mary and Joseph  
+- White fluffy surface under infant (functionally equivalent)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The golden halo around Mary is a core iconographic feature distinguishing her as a holy figure in Christian art. It is a universally recognized symbol of divinity and must remain present regardless of artistic style. In the original image, it is a simple circular gold ring above her head. Even in a Renaissance fresco, this halo must be preserved in form and position to maintain identification. Losing it would make her indistinguishable from other figures.
+    Question: Is there a golden circular halo positioned directly above Mary's head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: Joseph’s staff with a white lily at the top is a defining attribute tied to his role as a righteous and pure guardian. This specific object is not just decorative but symbolic. In the original image, it extends upward from his hand. Any transformation must retain this object in his grasp, even if rendered in fresco style. Removing or altering it would misrepresent his identity.
+    Question: Does Joseph hold a staff with a white lily flower at its tip?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The infant Jesus is depicted with a radiant golden halo composed of fan-shaped rays behind his head, symbolizing divine light. This is a unique visual marker distinguishing him from ordinary infants. Even when transformed into a fresco, this halo must remain visible and structured similarly to ensure recognition. Its absence would undermine the theological significance of the scene.
+    Question: Is there a golden radiating halo (fan-shaped rays) behind the infant Jesus' head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: Mary’s kneeling posture is central to the narrative of reverence and humility. She is on one knee, hands clasped, facing the infant. This pose is iconic in nativity representations. Changing it would alter the emotional tone and deviate from traditional depictions. Thus, her body orientation and gesture must be preserved.
+    Question: Is Mary depicted in a kneeling position with her hands clasped in front of her?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The infant Jesus lies on his back with arms crossed over his chest and legs bent, a common pose in religious statuary to suggest innocence and peace. This posture is distinct and must be retained to maintain authenticity. Altering it could lead to misidentification or loss of symbolic meaning.
+    Question: Is the infant Jesus lying on his back with arms crossed over his chest?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The relative spatial arrangement—Mary on the left, Joseph on the right, infant centered between them—is a fundamental compositional rule in nativity scenes. This triangular balance supports narrative clarity. Even in a fresco, the layout must remain unchanged to preserve the scene’s coherence and viewer understanding.
+    Question: Are the figures arranged such that Mary is on the left, Joseph on the right, and the infant Jesus is centrally located between them?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The rocky bases under Mary and Joseph provide physical grounding and contextual realism. Though they may be stylized in a fresco, their presence as supporting structures must be retained. Their location and function as platforms for the figures are important for maintaining spatial logic and stability in the scene.
+    Question: Do Mary and Joseph stand on separate rocky bases beneath their feet?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q8: 
+    Thinking process: The white fluffy surface beneath the infant serves as a visual contrast and symbolizes purity or manger bedding. While it may be reinterpreted in a fresco (e.g., painted wool or clouds), its function as a soft, white layer under the infant must remain. Its presence ensures continuity with the original depiction.
+    Question: Is there a white, fluffy surface beneath the infant Jesus?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

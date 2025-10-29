@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0030",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are all the original fruit types (pineapple, kiwi, pear, watermelon, orange, banana, and blueberries) retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, which appears to be an edited version intended to resemble a vitamin supplement package, the visual focus is on a plate of mixed fruits. We can see a recognizable representation of the fruits mentioned: pineapple (yellow), kiwi (green), pear (greenish), watermelon (red), orange (orange), banana (yellow), and blueberries (dark-colored). The representation of these fruits suggests they are retained, as they are part of the visual appeal and information conveyance on the packaging related to vitamin content.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the original colors of the fruits (yellow, green, red, orange, and purple) preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing the second image, the color representation of the fruits is in line with typical fruit colors: pineapple (yellow), kiwi and pear (green), watermelon (red), orange (orange), banana (yellow), and blueberries (purple or dark). This color consistency is likely maintained to communicate freshness and naturalness in the packaging's promotional context.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the cross-section texture of the kiwi and the seed pattern of the watermelon retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The representation of the fruits on the packaging in Image B maintains realistic depictions of fruit textures as seen in cut fruits: the kiwi shows its typical cross-section with visible seeds and a distinctive fuzzy pattern, while the watermelon displays its red flesh with black seeds. This preservation of textural details aids in consumer recognition and visual appeal.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the original relative positioning and arrangement of the fruits preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "An analysis of Image B, used as part of a packaging design, shows that the fruits are arranged in a similar style to Image A: a circular layout with a mix of differently shaped fruit slices layered over each other. This suggests the relative positioning and arrangement have been preserved to maintain aesthetic balance and visual allure, critical for packaging design.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the white plate and golden tray still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited Image B, which focuses on displaying a well-arranged plate of fruits, there is a representation of a white plate on which the fruits are placed. However, the golden tray is not visible, as the design of the image aligns with a simplified depiction typical of packaging, which likely emphasizes only essential elements for clarity.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.9
+}

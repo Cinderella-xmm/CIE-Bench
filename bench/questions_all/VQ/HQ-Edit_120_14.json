@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the bicycle frame into an exoskeleton with cogwheel joints, this edit affects the central structural element of the image. The new joints must appear mechanically sound and physically connected to adjacent components like the seat post and wheel axles. The material should show consistent metallic texture, wear patterns, and lighting across the frame. Any distortion in shape, misalignment, or lack of depth cues would compromise realism.",
+      "question": "Are the cogwheel joints clearly defined, aligned with the frame's geometry, and rendered with consistent metallic texture and shading?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The seat is being replaced with an ornate carapace, which alters both shape and material. It must remain proportionally sized relative to the rider area and connect smoothly to the seat post. The surface should show detailed embossing or etching typical of steampunk design but not appear flat, blurry, or artificially generated.",
+      "question": "Does the carapace-shaped seat have detailed surface textures, proper curvature, and seamless attachment to the seat post without visible seams or warping?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The conversion of wheels into hinged mechanical legs involves major geometric restructuring. Each leg must resemble a functional limb with articulated joints, appropriate length for balance, and consistent material (e.g., copper/brass). They should not float or intersect incorrectly with other parts, and their movement logic (hinge placement) must be visually coherent.",
+      "question": "Do the mechanical legs have realistic hinge mechanisms, correct proportions, and no overlapping or misplaced segments that break spatial logic?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Copper-tinted wingtips are added along the top bar. Their placement must follow the contour of the frame without distorting it. The material should reflect light consistently with the rest of the metallic surfaces, and the tips should not appear clipped, stretched, or unnaturally sharp.",
+      "question": "Are the wingtips smoothly attached to the top tube, showing consistent copper coloring, reflective properties, and no jagged edges or texture repetition?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Clock faces with runes are to be integrated at the handlebars. These elements must be correctly scaled, positioned within the handlebar grips, and display readable details (runes, hands, dials) without blurring or aliasing. Lighting should match the environment, and shadows should fall naturally.",
+      "question": "Are the clock faces clearly visible, properly embedded in the handlebars, and free from texture artifacts, incorrect lighting, or distorted numerals/runes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "All modified parts—exoskeleton, legs, wings, clocks—must share a unified material style (steampunk metal) with realistic aging effects like rust, scratches, and patina. Inconsistent rendering (e.g., one part shiny and another dull) or unnatural transitions between materials would reduce perceived authenticity.",
+      "question": "Do all newly added mechanical elements (legs, joints, wings, clocks) share consistent material properties, such as metallic sheen, color tone, and surface imperfections, without abrupt visual breaks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

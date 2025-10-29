@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0035",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image contain the exact title “Today’s Balanced Lunch” at the top?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the top of the image clearly displays the text “Today’s Balanced Lunch” in red. This is visually confirmed by the straightforward presence of the text, which aligns with world knowledge that titles are often placed prominently at the top for better visibility.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a placeholder for the school logo located at the bottom right corner of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a small logo at the bottom right corner that resembles school-related branding, depicted in red. The presence of such a logo is indicative of placeholders that mark institutional identity, common in branded images or promotions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Have the colors in the food and background been visibly enhanced to appear more vivid and bright?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In examining Image B, the salad appears more green, the milk carton more vibrant, and the orange slices more saturated. This suggests color enhancement to make elements in pictures stand out, a technique often employed in marketing or editorial images.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are white outlines visible around the edges of all items on the plate in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B reveals no white outlines around the food items or the edges of the plate. The absence of such outlines suggests the image was not highly manipulated concerning border exaggeration, which is typically added for strong separation or emphasis.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the image been formatted to fit an A4 vertical layout, ensuring proper alignment of text and imagery?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays a large header and footer, typically indicative of horizontal formatting for presentation on screens or digital content rather than a standard A4 vertical layout. An A4 format would require more vertical space and a different aspect ratio than seen here, focusing on equal text and imagery alignment.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0056",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the chibi-style 3D cartoon character stand naturally at the center of the image without visible distortions in its proportions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The chibi-style 3D character is positioned centrally in the frame, with symmetrical placement relative to the background elements. The character's proportions are consistent with typical chibi design—large head, small body, and simplified limbs—which is a deliberate stylistic choice in cartoon art. There are no visible distortions such as stretching, warping, or unnatural scaling. The character’s limbs and torso align correctly with the perspective, and the symmetry suggests careful modeling. The overall posture is upright and balanced, indicating natural positioning within the scene. Based on visual cues and common knowledge of 3D character modeling, especially in stylized formats like chibi, this representation is proportionally accurate for its intended style.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the colors and materials of the chibi character's hard hat, shirt, and vest consistent with the original image’s description and appear natural in the 3D environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The chibi character wears a bright yellow hard hat, a yellow shirt, and an orange safety vest with reflective silver stripes. These colors are standard for construction worker attire and are consistent with real-world safety gear. The materials appear smooth and slightly matte, appropriate for a 3D-rendered cartoon character. The lighting in the scene casts soft shadows and highlights that suggest a uniform surface texture, which is typical for stylized 3D models. While the original image (Image A) features a horse and beach scenery, it does not contain any construction-related elements or clothing; therefore, there is no direct comparison for color/material consistency from Image A. However, the current rendering uses realistic construction safety colors in a way that aligns with world knowledge of occupational attire, making them appear natural within the context of a construction-themed 3D environment.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the transition between the chibi character and the low-poly construction scene lack noticeable artifacts and unnatural textures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The transition between the chibi character and the surrounding environment appears seamless. The character is rendered in a low-poly style that matches the aesthetic of the background elements—such as the crane, blocks, and ground plane—all of which share a similar geometric simplification. There are no visible seams, pixelation, or texture mismatches around the character’s edges. The lighting is consistent across the scene, with soft shadows that integrate the character into the environment without abrupt contrasts. This suggests a cohesive rendering pipeline where the character was likely modeled and lit within the same 3D space. Given that both the character and environment use a stylized, low-poly approach, the visual continuity is maintained, and no artifacts are evident.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the background in the edited image a simplified light gray plane with a small crane model, and is it devoid of elements from the original beach scenery?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background of Image B consists of a flat, light gray plane with scattered low-poly concrete blocks, a yellow crane in the distance, and no natural elements such as water, sand, grass, or buildings seen in Image A. The setting is clearly a stylized construction site, not a beach. The absence of the ocean, horse, or distant house confirms that the original beach scenery has been completely replaced. The crane and building blocks are symbolic representations rather than photorealistic ones, fitting the low-poly, cartoonish theme. Thus, the background is entirely different from the original image and lacks any trace of the beach environment.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image maintain a 1:1 composition ratio with the chibi character properly centered and proportionate within the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image appears to be square in format, suggesting a 1:1 aspect ratio. The chibi character is positioned directly in the center of the frame, both horizontally and vertically, with equal negative space on all sides. The character's size is proportionate to the surrounding elements—neither oversized nor undersized—allowing it to dominate the scene while still allowing visibility of background objects like the crane and blocks. This central alignment and balanced framing indicate intentional composition, typical of promotional or illustrative 3D renders. The uniformity of the background further supports the idea of a square canvas. Therefore, the composition adheres to a 1:1 ratio with proper centering and proportion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

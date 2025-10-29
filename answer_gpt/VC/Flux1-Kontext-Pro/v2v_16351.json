@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_16351",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the individuals' facial features, hairstyles, and body types retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, although faces are blurred, the hairstyles and body types are consistent with the characteristics seen in Image A. The man's hair is styled in a similar manner, and the body types of the individuals are maintained in both images.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the man in the suit still gesturing with his hands in the same manner as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the man in the suit continues to gesture with his hands in the same manner as in Image A, indicating he is engaged in a similar action or discussion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the relative positions of the characters (e.g., who is standing next to whom) retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the positioning of the characters relative to each other remains the same as in Image A. The man in the suit is on the right, the person in green is on the left, and another individual is still present between them.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the individuals still wearing the same type of clothing (e.g., jerseys, suit) as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the man in the suit continues to wear a suit as in Image A. The individual in green and the other character seem to have retained similar attire, suggesting similar clothing types are maintained even though specific details aren't visible due to style differences.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a clear focal point in the new setting that replaces the jersey's position in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the previous focal point of the jersey from Image A is replaced by a setting with orange chairs and artwork, but no single focal point clearly draws attention as the jersey did. The setup is more generalized, with no distinct item analogous to the jersey in a similar position.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

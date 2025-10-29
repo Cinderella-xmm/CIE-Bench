@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The key recognition feature of the palm tree is its tall, segmented brown trunk, which is a defining characteristic distinguishing it from other trees. The texture of the trunk — with visible horizontal ridges and rough surface — is essential for identifying it as a palm. If this texture is lost or smoothed over, the tree may appear artificial or misidentified. Since the instruction does not allow transformation of the palm tree, this texture must be preserved. It is a core identity element, hence weighted at 3 points.",
+      "question": "Is the brown, segmented, textured trunk of the palm tree present with visible horizontal ridges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The crown of the palm tree, composed of long, feathery green fronds radiating outward, is another core identifier. The specific arrangement and shape of the fronds contribute to the iconic silhouette of a palm tree. Even if the lighting changes, the presence and structure of the fronds must remain intact. This is a core recognition feature, critical for identification, thus assigned 3 points.",
+      "question": "Are the long, feathery green fronds forming a radial crown at the top of the palm tree present?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Some fronds show browning at the tips, which is a natural detail indicating age or environmental conditions. While minor, this detail adds authenticity and distinguishes the palm from an idealized version. Since it is part of the original visual content and not mentioned for alteration, it should be preserved. It is a secondary detail but contributes to visual coherence, hence 1 point.",
+      "question": "Are some of the palm frond tips visibly browned or dried?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The relative position of the palm tree to the cactus is important for maintaining the original spatial logic. In the original image, the palm is to the left and taller than the cactus. This layout establishes depth and balance. Even though the cactus is transformed, the palm’s position relative to it should remain consistent within the new frame. This is a functional spatial relationship, so it must be preserved. Weighted at 2 points.",
+      "question": "Is the palm tree positioned to the left of the cactus and taller than it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The color of the palm fronds is predominantly green, with some yellowing or browning. This coloration is a key visual attribute that helps distinguish the plant from others. Since the instruction does not mention changing colors, the original green hue must be retained. This is an important visual trait affecting identification, so it is assigned 2 points.",
+      "question": "Are the palm fronds primarily green in color, with some yellowing or browning at the edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The overall silhouette of the palm tree — tall, narrow trunk with a broad, rounded crown — is a core visual identifier. This shape is essential for recognizing the tree as a palm rather than another species. Any significant distortion would compromise identity. As this is not mentioned for change, it must be preserved. This is a core identity feature, so it receives 3 points.",
+      "question": "Does the palm tree maintain a tall, narrow trunk with a broad, rounded crown of fronds?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    }
+  ]
+}

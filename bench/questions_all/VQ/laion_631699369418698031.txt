@@ -1,0 +1,48 @@
+```
+Step 1: Disassemble Editing Instructions
+-Thinking process 1: The editing instruction involves transforming the wooden totem pole into a miniature 3D diorama inside a cylindrical glass dome. This requires adding a transparent dome structure around the totem, which must be visually coherent with the original object and not introduce distortions in shape or transparency. The dome should appear physically plausible, with proper reflections and refractions if visible, and not interfere with the perception of the totem’s texture or form. The addition of a dome alters the spatial context and introduces new material (glass), so attention must be paid to whether the dome integrates naturally without artifacts such as jagged edges, unnatural transparency, or inconsistent lighting.
+-Sub requirement 1: Add a cylindrical glass dome enclosing the totem pole; evaluate whether the dome maintains structural coherence, realistic transparency, and natural integration with the totem without introducing visual artifacts.
+
+-Thinking process 2: The instruction specifies encasing the totem in a lush forest-themed setting with tiny ferns and moss at the base. These elements must be added at the bottom of the totem, replacing or augmenting the original flat base. The size and scale of these plants must be proportionally accurate relative to the totem, avoiding oversized or undersized foliage. Their textures should match an earthy, natural palette and appear grounded in the scene without floating or misaligned shadows.
+-Sub requirement 2: Add ferns and moss at the base of the totem; assess whether they are proportionally scaled, properly textured, and integrated into the base without floating or unnatural placement.
+
+-Thinking process 3: A whimsical animated butterfly is to be perched on top of the totem. This element must be positioned at the highest point of the totem, likely resting on the crown or horns of the uppermost face. The butterfly must be small enough to maintain scale consistency with the totem and should have natural wing patterns and posture. It should not appear distorted or clipped, and its presence should not disrupt the geometry of the totem's top.
+-Sub requirement 3: Place a butterfly on the top of the totem; evaluate whether it is correctly scaled, anatomically plausible, and positioned without distorting the underlying structure.
+
+-Thinking process 4: The color palette is specified as earthy with rich wood textures and green accents. This means the original wood tones should be preserved, while new elements (moss, ferns, butterfly) should use complementary greens and natural hues. Any color shifts in the original totem due to lighting changes from the dome or added elements must remain consistent with real-world lighting behavior.
+-Sub requirement 4: Maintain earthy color palette with green accents; verify that colors across all elements (totem, plants, butterfly) are harmonious and free from unnatural color shifts or oversaturation.
+
+-Thinking process 5: The overall transformation must preserve the structural integrity of the original totem pole. The core shape, facial features, and carved details must remain intact and undistorted despite the addition of new elements. No part of the totem should appear stretched, compressed, or partially erased due to the editing process.
+-Sub requirement 5: Retain the original totem’s structure and fine details; ensure no distortion, loss of texture, or geometric breakage occurs during editing.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of adding a cylindrical glass dome around the totem pole, this question evaluates whether the dome appears structurally coherent and visually plausible. The dome must enclose the entire totem without clipping or overlapping incorrectly, and its transparency should allow clear visibility of the totem while showing realistic light interaction (e.g., subtle reflections or refractions). The presence of any jagged edges, ghosting, or unnatural transparency would indicate artifacts.
+Question: Is the cylindrical glass dome fully enclosing the totem pole without visible clipping, jagged edges, or unnatural transparency?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of adding ferns and moss at the base of the totem, this question checks the physical plausibility and integration of these elements. They must be placed directly on the base, not floating above it, and their size and texture should match typical miniature plant dimensions. Shadows and lighting should suggest they are grounded within the scene.
+Question: Are the ferns and moss at the base of the totem grounded and proportionally sized, with no floating or misaligned elements?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of placing a butterfly on top of the totem, this question evaluates whether the butterfly is correctly scaled and anatomically consistent. It should rest naturally on the uppermost part of the totem, such as the crown or horns, without deforming the structure beneath. Its wings should show natural patterns and not appear pixelated or stretched.
+Question: Is the butterfly perched on the top of the totem with correct scale, natural wing shape, and no deformation of the totem’s structure?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of maintaining an earthy color palette with green accents, this question assesses whether the added elements (plants, butterfly) use naturalistic colors that complement the wood tones. There should be no abrupt color mismatches, unnatural saturation, or color bleeding between materials.
+Question: Do the ferns, moss, and butterfly use natural green tones that harmonize with the wood color of the totem without unnatural color shifts?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of preserving the original totem’s structure and fine details, this question checks whether the carving details—such as facial features, grooves, and textures—are intact and unaltered by the editing process. No parts of the totem should appear blurred, stretched, or missing due to the addition of new elements.
+Question: Are all carved facial features and wood grain details on the totem clearly visible and undistorted after editing?
+Choices: Yes, No  
+A: Yes
+```

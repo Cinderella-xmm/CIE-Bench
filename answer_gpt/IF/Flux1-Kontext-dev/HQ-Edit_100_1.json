@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_100_1",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the scene enclosed within a visible wooden shadow box frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the scene is clearly enclosed within a visible wooden box frame. The edges of the frame are distinct, suggesting the contents are inside a box or framed setting. This setup is often used in shadow boxes to create a three-dimensional display effect.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Has the tree been scaled down in size and rendered with enhanced 3D surface texture (e.g., visible bark details, depth, shading)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tree does not appear to have enhanced 3D surface texture such as visible bark details or increased depth and shading compared to a more two-dimensional depiction typical in artistic representations. While it is included in the framed scene, there is no evidence of significant scaling or additional texturing.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there visible, distinct patches of multi-colored flowers (e.g., pink, yellow, blue, red) beneath the tree?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, beneath the tree, there are distinct patches of multi-colored flowers, including colors like pink, red, and white. These patches are prominent and clearly visible in the scene, contributing to the vivid and colorful foreground of the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the background consist of multiple layered painted surfaces that create a sense of depth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, although the scene appears layered due to the shadow box effect, there is no evidence of multiple painted surfaces that specifically create a sense of depth. The background appears as one continuous surface, displaying a natural landscape.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there small, detailed cloud shapes visibly suspended by thin wires above or within the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are small cloud shapes that appear to be suspended by thin wires within the wooden frame, indicating a crafted aspect to the scene. This gives an element of three-dimensionality as typically seen in dioramas.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the image include surreal or stylized elements (e.g., floating clouds, soft glow, pastel hues) that contribute to a whimsical and dreamlike atmosphere?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the presence of suspended clouds and the overall softness of the colors combined with the framed presentation suggests surreal or stylized elements. These contribute to a whimsical, dreamlike atmosphere, as is common in artistic or imaginative representations.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

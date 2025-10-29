@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0111",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the swirling vortex texture in the night sky?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the night sky features swirling patterns and vortex-like spirals that are similar to what would be expected in a depiction of Van Gogh's 'Starry Night.' These patterns are evident through the visual texture and composition, indicating a stylistic attempt to preserve this element. The swirling elements include bright circular motions that emulate turbulent cosmic forms, characteristic of the original artwork's dynamic expression.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the prominent crescent moon still visible in the upper right corner of the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, while analyzing the upper right region, a bright, circular element is visible, but it does not resemble a crescent moon. Instead, it seems more abstract and less defined compared to a crescent shape. In contrast, Image A has a clearly defined crescent moon. The absence of this crescent shape in Image B indicates that this feature was altered or not retained in the edited version.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Has the large cypress tree on the left side been preserved in the same elongated shape and relative position?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B maintains the presence of a large dark structure on the left side which appears consistent with the cypress tree seen in Image A. Both images feature a similar elongated shape and positioning within the composition. This indicates that this aspect of the scene has been preserved in the edited version.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the village and the tall church spire retained in their original positions under the night sky?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lower portion where a village and church spire would be present in Image A is significantly simplified or omitted, being replaced possibly by an abstract depiction or simply a lower focus on these details. The absence of such explicit architectural details in this region signifies a departure from the original image's composition.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image maintain the thick impasto texture and dynamic brushstrokes characteristic of Van Gogh's style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B seems to lack the impasto texture characteristic of Van Gogh’s work. While it captures the structural essence through swirling patterns, these patterns appear smooth and digitally rendered rather than showing the visible brushstrokes and textural depth that are central to Van Gogh's technique. Thus, the typical expressive texture is not maintained.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.45454545454545453
+}

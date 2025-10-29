@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the tree trunk into arms and legs, this question evaluates whether the new limb shapes maintain structural coherence with the original tree’s silhouette. The original trunk has a smooth, curved form that branches upward; the edited version should preserve this flow without introducing abrupt angles or unnatural bends. The limbs must also appear physically plausible as human-like appendages without breaking geometric continuity.",
+      "question": "Do the transformed trunk sections into arms and legs follow natural joint-like curves and avoid sharp, unnatural bends?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of adding leaf-faced heads, this question examines whether the leaf shapes used as heads retain their original form and texture. The leaves in the original image have distinct veins and gradients; any modification to turn them into faces must preserve these details while integrating facial features without warping the leaf structure.",
+      "question": "Are the leaf-shaped heads composed of intact maple leaves with visible veins and gradient coloring, and do the facial features (eyes, mouth) sit naturally on the surface without distorting the leaf shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of adding accessories such as hats and scarves, this question checks whether these elements are stylistically consistent with the illustration. The original image uses flat, clean vector-style rendering; any added accessories must match this style in line thickness, shading, and texture. They should not appear pixelated, overly detailed, or inconsistent in lighting.",
+      "question": "Are the hats and scarves rendered with the same flat, vector-style design as the rest of the image, and do they have consistent edge lines and no visible texture artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of maintaining the autumn palette, this question ensures that all new elements (faces, accessories, limbs) use only the existing color range (orange, yellow, red, brown). Any deviation, such as blue or green accents, would break visual harmony and suggest poor color management during editing.",
+      "question": "Are all added elements (limbs, faces, accessories) colored exclusively within the original orange, yellow, red, and brown spectrum, with no unexpected or contrasting hues?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of framing each character within the current bordered layout, this question evaluates whether the new anthropomorphic figures remain fully contained within the rectangular border. The original image has a thin brown frame; any extension beyond this boundary would disrupt the composition and suggest misalignment.",
+      "question": "Do all anthropomorphized tree characters and their accessories lie completely within the brown rectangular border without extending outside its edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "Based on the sub requirement of integrating text bubbles, this question checks whether the speech bubbles are positioned logically around the characters and do not overlap with key visual elements like leaves or limbs. They should also match the illustration’s style in terms of line weight and fill.",
+      "question": "Are the text bubbles placed near the characters without overlapping leaves or limbs, and do they have consistent line thickness and transparent fill matching the illustration’s style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

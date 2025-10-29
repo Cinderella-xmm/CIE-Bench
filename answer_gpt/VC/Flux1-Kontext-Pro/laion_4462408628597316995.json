@@ -1,0 +1,97 @@
+{
+  "filename": "laion_4462408628597316995",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the adult character holding an open book?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the adult character is holding an open book, as observed from the visual cues where the pages of the book are spread apart. This is consistent with a person holding a book open, ready to read from it. The glow emitting from the book further suggests it is open.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there exactly three children in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are two clear and unobscured children visible. The visual cues do not conclusively show a third child, just a total of two visible children kneeling on the ground.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do all three children wear blue uniforms with yellow trim and blue hats with yellow ribbons?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the two visible children are wearing blue uniforms with yellow accents and blue hats with yellow ribbons. However, since only two children are visible, it is not possible to confirm this for a third child.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the adult character positioned on the left side of the image, facing the children?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the adult character is seen on the left side, facing the right side toward the children who are positioned on the right. This aligns with the typical left-to-right orientation for reading, indicating that the adult character is indeed on the left, facing the children.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is one of the children pointing toward the book held by the adult?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, none of the visible children are pointing directly at the book. The observable child is clasping their hands, rather than pointing toward the book the adult holds.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the bottom child seated with legs crossed and hands clasped?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visible child at the bottom appears to be kneeling with their hands clasped in front of them. There's no indication of crossed legs, just the child engaged in a kneeling posture.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the background a solid green color with no additional elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background consists of a forest scene with trees, leaves, and a pathway, against a backdrop of various shades of green, rather than a solid uniform color. The presence of these elements provides depth and context to the scene beyond a flat color.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

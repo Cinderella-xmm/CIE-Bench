@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0065",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image now presented in the context of a museum exhibit corner?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The second image (Image B) shows a museum-like setting. This is inferred from the presence of a glass display case placed on a pedestal or display surface. Additionally, the label beneath the display case is typical in museum exhibits to provide information about the item displayed. The background includes what seems to be other exhibits or explanatory panels, which all contribute to the context being that of a museum exhibit corner.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the dog shown inside a glass display case?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a clear glass case enclosing a statue or bust of a dog. This setup is a conventional display method used in museums to protect and showcase items. The presence of reflections and the structure of the enclosure confirm it is a glass display case.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the light focused on the dog's face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the dog's face within the display case is well-lit, suggesting focused lighting. The ceiling lights appear in the image as directed toward the exhibit. This technique is often used in museums to highlight important details of an exhibit, drawing attention to certain features.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a label present that describes the breed and includes a story title?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a label placed in front of the display case, on which the text 'American Staffordshire Terrier' and 'Loyal Companion: The Story' is visible. This indicates that the label includes the breed descriptor and the title of a story, typical of what a museum exhibit would present to provide context and additional information.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the dog maintain its original posture and appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing Image A and Image B, Image A features a live dog with a natural posture, showing emotions through its pose and eyes. Image B, however, features a bust or sculpture of a dog's head, not an actual dog. This signifies a change in both posture and appearance, as the sculpture cannot convey the same life or emotional expression as the live dog from Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

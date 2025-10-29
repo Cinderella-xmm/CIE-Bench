@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The parking meter's general shape and color are key visual elements for recognizing it as a parking meter. Removing or altering these features would make the object unrecognizable.",
+      "question": "Does the parking meter maintain its black cylindrical shape and color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The coin slot and payment mechanism are essential for the parking meter's functionality. Their presence ensures that the billing function is retained as per the instructions.",
+      "question": "Is the coin slot visible on both parking meters?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The right parking meter has not been instructed to change, so its digital display and label should remain intact. This is crucial for maintaining scene consistency.",
+      "question": "Is the digital display on the right parking meter unchanged and labeled \"1995\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The street and sidewalk provide the necessary context for the parking meters. Their consistency helps maintain visual coherence.",
+      "question": "Is the scene background, including the sidewalk, street, cars, and buildings, consistent with the original?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The numbers and labels on the parking meters contribute to their identity. While the timer on the left is changed, its corresponding numbers should logically adjust to accommodate the new form while retaining its meaning.",
+      "question": "Are the numbers on the left meter (\"20487\") still present in some form, like being part of the robotic dog's design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

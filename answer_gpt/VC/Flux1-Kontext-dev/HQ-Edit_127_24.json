@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_127_24",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly two chalet-style buildings visible in the scene, positioned side-by-side on a snowy slope?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, two distinct chalet-style buildings are clearly visible, positioned side-by-side on a snowy slope. The angle of the buildings and their proximity match commonly depicted alpine chalet structures. Therefore, according to this analysis, Image B does feature exactly two chalet-style buildings in the described arrangement.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there visible smoke rising from at least one chimney on a building?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, although the depiction incorporates stylized elements like glowing light outlines, smoke can be seen rising from at least one chimney, suggesting it is functional. This aligns with typical chalet imagery where chimneys emit smoke, indicating warmth and habitation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there multiple windows across both buildings that emit a warm yellow-orange glow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, windows emit a vibrant blue glow, highlighting the edited style of the image. This is a deviation from Image A, where windows had a natural warm yellow-orange glow, typical of inhabited structures at night. The artistic glow in Image B does not resemble the warm hue described in the question.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there tall, conical evergreen trees with snow-covered branches visible behind and around the chalets?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the trees visible behind and around the chalets are depicted as tall and conical, fitting the evergreen style. However, instead of snow-covered branches, they are outlined with blue light. Despite the stylistic change, the fundamental structure of the trees aligns with coniferous shapes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a large, snow-capped mountain peak visible in the background, rising above the treeline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows clear delineation of a large mountain peak rising above the treeline, capped with snow. This provides continuity in the landscape as a defining background feature, similar to alpine scenes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there smooth, rounded snowdrifts in the foreground, casting soft shadows toward the right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, rounded forms in the foreground can be identified as snowdrifts. The effects of light and shadow create a smooth appearance, extending toward the right, coherent with natural snow formations.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is there a bright, circular light source (moon) visible in the upper-right portion of the sky?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no bright, circular light source resembling the moon in the upper-right portion of the sky. Instead, the sky is dominated by aurora-like lights. Comparing this to Image A, where a clear moon is visible in the upper-right corner, reveals that Image B's night sky omits this feature.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7142857142857143
+}

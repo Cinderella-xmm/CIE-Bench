@@ -1,0 +1,45 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The \"Gibson\" logo is the primary brand identifier of the guitar and a key visual element that anchors the object’s identity. If removed or obscured, the edited image loses its reference to the original product. Since the instruction does not state to remove it, and because transformations often preserve source identifiers (e.g., logos in product art), it must be retained. This is a core identity feature—without it, the image cannot be recognized as a Gibson-based transformation.",
+      "question": "Is the \"Gibson\" logo in gold script visible on the headstock?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The number of strings is fundamental to the guitar’s identity and directly referenced in the transformation (\"convert the strings into fiery tendrils\"). If there are fewer or more than six tendrils, the edit fails to preserve the original instrument’s structure. Six is the standard for a six-string guitar, and the instruction implies a one-to-one conversion. Thus, the count must be preserved.",
+      "question": "Are there exactly six fiery tendrils extending from the bridge to the headstock area?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The vertical orientation of the guitar is essential for the transformation to make sense. The neck becomes the dragon’s neck, which must extend upward from the body. If the guitar were rotated horizontally or inverted, the metaphor breaks down. The instruction assumes the original upright posture, so it must be preserved.",
+      "question": "Is the guitar oriented vertically with the neck pointing upward?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The headstock must remain at the top of the neck to maintain anatomical logic in the transformation. If the headstock were moved or omitted, the dragon’s head would lack a proper origin point. Even if transformed into horns or a dragon’s skull, its position must align with the original headstock location.",
+      "question": "",
+      "choices": [],
+      "answer": "",
+      "weight": 1
+    }
+  ]
+}

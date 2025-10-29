@@ -1,0 +1,60 @@
+### Step 1 - Analyze the Modification Requirements and Allowed Changes
+
+**Description of Reference Image:**  
+The image is Vincent van Gogh's famous painting *The Starry Night*. The painting features a swirling night sky filled with stars and a crescent moon, a prominent cypress tree on the left, a small village with a church steeple in the center, and rolling hills in the background. The colors are predominantly shades of blue and yellow, with thick, expressive brushstrokes giving the painting its distinctive texture.
+
+**Thinking Process:**  
+The editing instruction specifies incorporating a squirrel into the foreground while ensuring seamless integration. This means the squirrel should fit the painting's style and not disrupt the composition. The instruction does not mention altering other elements, so the rest of the painting should remain consistent with the original.
+
+**Allowed Changes List:**  
+- The addition of a squirrel in the foreground.
+- Adjustments to the squirrel's size, position, and appearance to match the painting's style.
+
+### Step 2 - Determine Elements That Should Remain Unchanged
+
+**Thinking Process:**  
+Core recognition elements include the swirling starry sky, the cypress tree, the village with the church steeple, and the rolling hills. These elements define the painting and must remain intact. Functional/logical associations, such as the positioning of the village beneath the sky and the cypress tree's prominence, should also be preserved. Remaining elements like the texture and color palette contribute to the painting's identity and should be retained.
+
+**Preservation Targets List:**  
+- The swirling vortex texture in the sky.
+- The prominent cypress tree on the left.
+- The village with the church steeple.
+- The rolling hills in the background.
+- The overall color palette and brushstroke texture.
+
+### Step 3 - Generate Yes/No Questions
+
+**Q1:**  
+Thinking process: The swirling vortex texture is a core recognition feature of *The Starry Night*. Losing this would make the painting unrecognizable.  
+Question: Does the edited image retain the swirling vortex texture in the sky?  
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+**Q2:**  
+Thinking process: The cypress tree is an iconic element that anchors the composition. Its presence is crucial for maintaining the painting's identity.  
+Question: Is the prominent cypress tree on the left side of the image still present?  
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+**Q3:**  
+Thinking process: The village with the church steeple is a key scene element that provides context and balance to the painting.  
+Question: Does the village with the church steeple remain in the center of the image?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+**Q4:**  
+Thinking process: The rolling hills provide depth and structure to the background. Their presence helps maintain the painting's spatial coherence.  
+Question: Are the rolling hills visible in the background of the image?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+**Q5:**  
+Thinking process: The color palette and brushstroke texture are essential for preserving the painting's style and mood.  
+Question: Does the image retain the original blue and yellow color palette and thick brushstroke texture?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  

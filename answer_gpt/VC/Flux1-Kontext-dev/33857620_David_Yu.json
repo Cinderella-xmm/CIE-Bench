@@ -1,0 +1,97 @@
+{
+  "filename": "33857620_David_Yu",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the white-framed window visible on the front face of the transformed structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, instead of any recognizable structure with architectural elements like a window, there's a creature with a large dome-like helmet and wings, so no white-framed window is visible on a structure. In Image A, the structure visible has a triangular facade with a white-framed window. However, the transformation in Image B replaces this with the creature, resulting in the absence of any such white-framed window.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the small red structure located to the left of the main chalet still present in the transformed scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not depict any buildings or structures resembling a small red building; instead, it shows a large creature with no other man-made structures around it. In Image A, the small red structure is visible to the left of the main chalet. Since Image B lacks any recognizable buildings, the red structure is no longer present.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the waterway flow from the bottom-right corner toward the center-left of the image, maintaining its original course?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the waterway does appear to flow from a similar direction, maintaining a flow pathway from a lower corner toward a center-left trajectory. In Image A, the stream also flows in a similar manner, suggesting that the course of the waterway remains consistent between the two images.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the large patch of snow located directly in front of the chalet still visible and positioned in the same place?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no evidence of a large patch of snow located directly in front of any structure, as the scene has been entirely changed to a fantastical setting. In Image A, a noticeable patch of snow is visible near the chalet. Since Image B does not have this structure or snow patch, the answer is negatively indicating a transformation.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are moss-covered rocks visible along the edges of the stream in the transformed scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, along the stream, there are rocks covered with what appears to be moss, which indicates the presence of moss-covered rocks along the stream's edge. Similarly, in Image A, moss-covered rocks are present, so this element remains consistent in the transformed scene.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the transformed structure located in the mid-ground, slightly to the right of the center of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the dominant figure is a large creature occupying a considerable portion of the scene. It appears to be situated mid-ground and somewhat centralized. Image A shows the chalet slightly right of center, but the creature in Image B fits more centrally/mid-ground than to one side, contrasting with the chalet's original placement.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are the mountain peaks visible in the background, with snow patches and mist covering their upper portions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background does not clearly show mountain peaks; instead, it sets a mystical ambiance with fog and darkness, making it hard to discern any mountains or snow patches. Image A shows mist-covered peaks and patches of snow in the background, which aren't apparent in the fantasy-themed environment of Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4375
+}

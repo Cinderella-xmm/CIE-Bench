@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_118_149",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the pastel-colored areas of the dancer's leotard and tights smoothly blended without visible color artifacts or unnatural transitions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a stylized representation of a dancer, resembling geometric art rather than a realistic photograph. The dancer's leotard and tights are depicted with angular shapes and segments. These segments show a distinct separation, characteristic of this artistic style. Therefore, the expectation of smooth blending is inconsistent with the artistic theme used here, which intentionally includes visible angular transitions.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the detachable sections around the dancer’s leg maintain consistent thickness and alignment with the leg’s natural curvature, avoiding floating or misaligned edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, sections are represented as angular and polygon-like, adhering to a geometric art style, which inherently contrasts with a realistic curvature approach. The alignment is consistent within the artistic theme, maintaining alignment without extra floating artifacts.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the angular transformations applied to the dancer’s limbs physically plausible, with joints and limbs maintaining correct anatomical relationships and no exaggerated bends?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The geometry depicted in Image B, representing limbs through angular, stylized shapes, follows the artistic styling rather than anatomical realism. The depiction does conform to the plausible joint and limb relationships within this artistic framework. There are no exaggerated bends when considering the artistic design intent.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the edges of the dancer’s sticker figures cleanly integrated onto the journal surface, with shadows and lighting matching the surrounding environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The sticker in Image B is placed on a journal cover and is intended to be a flat, standalone object. The edges are clean, and it appears securely placed, matching the environment's lighting style. Shadows align naturally based on the presumed light source orientation, reinforcing integration with the cover.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the dancer’s hands retain five fingers each, with natural spacing and proportions, and no fused or extra digits?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Due to the angular artistic representation of Image B, the hands do not show individual fingers in conventional forms. Instead, they are depicted as simplified shapes in line with the stylization. Consequently, distinct finger identification within such an abstract form is not possible or applicable.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the head into a large, plush-like structure while preserving facial feature alignment, this question evaluates whether the facial geometry remains coherent after enlargement. Specifically, it checks if the eyes, nose, and mouth retain their relative positions and proportions, avoiding stretching or warping that would break structural consistency.",
+      "question": "Are the facial features (eyes, nose, mouth) aligned and proportionally consistent with each other, without any visible stretching or distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of rendering the hair as wild, fluffy white fur, this question assesses the texture quality of the hair in the edited image. It checks for natural volume, softness, and flow, ensuring that the fur does not appear flat, clumped, or artificially layered, which could indicate poor texture synthesis.",
+      "question": "Does the hair appear voluminous and fluffy with natural strands and flow, without flat patches or artificial layering?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of replacing the sweater with a plush version featuring soft, stitched black vertical stripes, this question evaluates whether the stitching appears continuous and physically plausible. It checks for consistent spacing, smooth lines, and absence of jagged edges or abrupt breaks in the pattern.",
+      "question": "Are the black vertical stripes on the sweater rendered as continuous, evenly spaced stitches without jagged edges or gaps?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of exaggerating the body into a rotund, soft form, this question evaluates whether the body shape is plump and rounded in a way consistent with a plush toy, without unnatural bulges, sharp angles, or structural breaks that would suggest poor modeling.",
+      "question": "Is the body shape uniformly rounded and soft, without sharp edges or irregular protrusions that would disrupt the plush appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of maintaining material consistency across the doll, this question checks whether the transition between materials (e.g., fur on the head, fabric on the sweater) is seamless and free of artifacts such as mismatched textures, sharp boundaries, or digital noise that would compromise tactile realism.",
+      "question": "Are the transitions between the fur of the hair and the fabric of the sweater smooth and consistent, without visible seams or texture mismatches?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

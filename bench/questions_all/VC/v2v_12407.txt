@@ -1,0 +1,88 @@
+Description of reference image: The subject is a single ripe mango placed centrally on a wooden table. The mango has a smooth, oval shape with a slightly flattened base and a small stem at the top. Its skin is a vibrant yellow with subtle orange undertones and fine speckles across the surface, indicating natural texture. The mango rests on a folded white paper towel that forms a cradle-like structure beneath it, with visible creases and a diamond-patterned texture typical of disposable paper towels. The paper towel is arranged in a symmetrical, flower-like fold, with four distinct flaps extending outward. The table is made of light-colored wood with a clear grain pattern running horizontally, and sunlight casts diagonal shadows across its surface, suggesting a natural lighting source from the upper left. In the background, a wooden chair with a simple backrest is partially visible, positioned behind the table. The wall behind is neutral-toned and softly lit, contributing to a calm, domestic atmosphere.
+
+Thinking process: First, analyze the editing instructions: "Convert the image of the mango and table setting into an 8-bit pixel art style." This instruction specifies a transformation of visual style—specifically, rendering the entire scene in a low-resolution, blocky, pixelated aesthetic reminiscent of early video games. The key phrase is “convert...into an 8-bit pixel art style,” which implies that the **form and composition** of the original elements (mango, paper towel, table, chair) must be preserved, but their **visual representation** is to be altered through pixelation. The instruction does not mention changing or removing any object, nor does it suggest altering the arrangement or identity of the objects. Therefore, the **identity and spatial relationships** of the core elements must remain intact, even if rendered in a stylized format.
+
+Allowed Changes List:
+- Visual texture of the mango (e.g., smoothness, gradient shading)
+- Color gradients and lighting effects (e.g., soft shadows, highlights)
+- Surface detail resolution (e.g., fine speckles on mango skin)
+- Texture of the paper towel (e.g., diamond pattern, soft folds)
+- Wood grain detail on the table
+- Lighting direction and shadow softness
+- Background blur and depth of field
+- Overall color tone and contrast (within the constraints of 8-bit palette)
+
+Step 2- Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: The mango is the central subject and must retain its **oval shape**, **yellow-orange color**, and **presence of a stem at the top**. These are essential for identifying the fruit as a mango. The **paper towel’s folded structure** and **cradle-like positioning under the mango** are critical for maintaining the scene's narrative—how the mango is presented. The **wooden table** and **chair** provide context and grounding; their **basic shapes and relative positions** must be preserved to maintain scene coherence. Even in pixel art, these forms must be recognizable.
+
+Functional/logical association elements: The mango sits **on the paper towel**, which sits **on the table**. This physical hierarchy must be preserved to maintain logical consistency. The **positioning of the chair behind the table** supports the domestic setting and should not be moved or removed. The **light source direction** (upper left) creates consistent shadows and should be retained in terms of shadow placement, even if simplified.
+
+Non modified element deduction: After excluding allowed changes (texture, lighting, detail), the remaining **structural and positional features** must be preserved. For example, the **four-folded flaps of the paper towel**, the **oval silhouette of the mango**, and the **horizontal grain of the table** are not mentioned as changeable and thus must remain. These contribute to visual fidelity and prevent misidentification.
+
+Preservation Targets List:  
+- The oval shape of the mango  
+- The presence of the stem at the top of the mango  
+- The cradle-like folded structure of the paper towel beneath the mango  
+- The four distinct flaps of the paper towel  
+- The position of the mango centered on the table  
+- The wooden table with horizontal grain pattern  
+- The partial wooden chair behind the table  
+- The diagonal shadow cast by the mango on the table  
+- The overall layout: mango → paper towel → table → chair  
+
+Q1:  
+Thinking process: The oval shape of the mango is its most fundamental identifier. A mango is distinguished from other fruits (like lemons or peaches) by its elongated, asymmetrical oval form. If this shape is distorted or replaced with a round or square form in the pixel art version, the object would no longer be recognizable as a mango. Thus, preserving the oval silhouette is a core identity feature, making it a 3-point question.  
+Question: Is the mango depicted with an oval shape?  
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+Q2:  
+Thinking process: The stem at the top of the mango is a distinctive anatomical feature that confirms it is a whole, uncut mango. Its absence would make the fruit appear artificial or altered. In pixel art, even if simplified, the stem must still be present at the apex of the mango to maintain authenticity. This is a key identification point, hence a 3-point weight.  
+Question: Is there a small stem visible at the top of the mango?  
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+Q3:  
+Thinking process: The paper towel is folded into a cradle-like structure that supports the mango. This specific arrangement is crucial to the scene’s composition and function—it prevents the mango from rolling and adds visual interest. The folded form must be preserved in the pixel art version to maintain the intended presentation. While texture may be lost, the structural fold must remain. This is a key functional and compositional element, so it receives a 2-point weight.  
+Question: Is the paper towel folded into a cradle-like shape beneath the mango?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+Q4:  
+Thinking process: The four distinct flaps of the paper towel are a unique detail that contributes to the symmetry and artistic framing of the mango. They are not just decorative but define how the paper towel interacts with the mango. Losing them would alter the visual balance and reduce the scene’s clarity. This is a secondary but important detail, so it is assigned 2 points.  
+Question: Are there four clearly defined flaps extending from the paper towel?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+Q5:  
+Thinking process: The mango is centered on the table, which is a key compositional choice in the original image. Moving it off-center would disrupt the visual harmony and focus. Even in pixel art, the central placement must be maintained to preserve the original intent. This is a critical layout element, so it is weighted at 2 points.  
+Question: Is the mango positioned in the center of the table?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+Q6:  
+Thinking process: The wooden table has a visible horizontal grain pattern that defines its material and texture. While the pixel art style will simplify this, the grain direction and linear pattern must be preserved to maintain the table’s identity as wood. Changing it to vertical or random lines would misrepresent the original. This is a detail-level but important visual cue, so it is given 1 point.  
+Question: Does the table show a horizontal wood grain pattern?  
+Choices: Yes, No  
+A: Yes  
+Weight: 1  
+
+Q7:  
+Thinking process: The partial wooden chair behind the table provides environmental context and depth. Its presence and basic shape (rectangular backrest, vertical supports) must be retained to preserve the domestic setting. Removing or distorting it would break the scene’s realism. This is a supporting scene element, so it is worth 2 points.  
+Question: Is a wooden chair partially visible behind the table?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+Q8:  
+Thinking process: The diagonal shadow cast by the mango on the table indicates the direction of the light source and adds depth. It is a key part of the lighting logic in the original image. Even in pixel art, the shadow must be present and aligned with the mango’s position to maintain spatial coherence. This is a functional lighting element, so it is assigned 2 points.  
+Question: Is there a diagonal shadow cast by the mango onto the table?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2

@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the dog into a plush stuffed animal while maintaining its white fur and sandy-colored spots, this involves a style conversion from a realistic living animal to a soft toy. The key perceptual quality dimensions include whether the texture of the fur appears soft and fabric-like, whether the color transitions between white and sandy spots are smooth and consistent with plush material properties, and whether the overall shape retains structural coherence without deformation. The original image shows a fluffy Pomeranian with defined facial features and fur volume; thus, the transformation must preserve these proportions while converting them into a stylized plush form.",
+      "question": "Does the fur of the plush dog appear uniformly soft and textile-like with no visible pixelation or unnatural texture artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The instruction specifies replacing the harness with a crystal-studded corset. This introduces a new object with reflective materials and intricate details. In the original image, the harness is a simple patterned fabric item worn around the torso. The replacement requires evaluating whether the new corset has geometrically plausible contours that match the dog’s body shape, whether the crystals are evenly distributed and realistically rendered with light reflections, and whether the material contrast between the plush body and shiny corset is visually coherent. Any misalignment or unnatural shine would compromise authenticity.",
+      "question": "Is the crystal-studded corset properly aligned with the dog's torso and does it display consistent, physically plausible reflections and sparkle without distorted shapes or misplaced elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The editing instruction requires positioning the plush figure on a smooth, minimalist wooden shelf with slightly dangling paws. This changes the environment from a beach setting to an indoor-style display. The original image shows the dog sitting upright on sand, so the transition involves removing the background and placing the subject on a new surface. Key evaluation points include whether the shelf surface appears flat and uniform in texture, whether the lighting matches the expected indoor illumination, and whether the dog’s paws hang naturally over the edge without floating or clipping through the shelf.",
+      "question": "Are the dog’s paws positioned correctly so that they slightly dangle over the edge of the shelf without intersecting or floating above it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The instruction specifies maintaining the dog’s white fur and sandy-colored spots during the transformation into a plush toy. This means the color distribution must remain consistent with the original image but adapted to a textile medium. The original dog has distinct areas of white and tan fur, particularly on the ears and face. The edited version must retain these color zones in a way that mimics fabric dye patterns rather than photographic realism. Any mismatch in color boundaries or unnatural blending could indicate poor material simulation.",
+      "question": "Do the sandy-colored spots on the plush dog’s ears and face maintain their original placement and shape as seen in the original image, without bleeding or distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The instruction calls for highlighting the cute demeanor of the plush figure. While subjective, this implies preserving facial features such as the eyes, nose, and mouth in a proportionally balanced and expressive manner. In the original image, the dog wears sunglasses which obscure the eyes, but the overall facial structure remains intact. After transformation, the plush version should retain recognizable facial proportions—especially the snout and mouth—without exaggeration or warping. The expression should not appear strained or anatomically incorrect due to material or style change.",
+      "question": "Are the facial features of the plush dog, including the snout, mouth, and nose, proportionally accurate and structurally coherent with the rest of the head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

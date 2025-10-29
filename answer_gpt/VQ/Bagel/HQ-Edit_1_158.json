@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_1_158",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the silhouette of the woman maintain correct anatomical proportions and avoid geometric distortions such as misaligned limbs, unnatural bends, or missing body parts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the silhouette of the woman is a representation that uses solid color to define the outline of her form. The anatomical proportions, such as the alignment of the woman's limbs and her seated posture, appear natural. There are no visible distortions in the limbs or the body, and the silhouette gives a cohesive representation of a seated woman with a book. Common sense tells us that a silhouette should accurately depict the human form within its style constraints, and here the silhouette lacks errors like misaligned or missing body parts.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the enlarged book proportionally consistent with the woman’s hands and arms, and does it not appear to float or clip through the chair or body?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the focus is on the silhouette, which naturally merges the details into a unified shape. The book is part of this silhouette, maintained as expected – solid and proportionate to the woman's size, since it forms a single shape along with her hands and arms. Since silhouettes avoid depth and detail, there’s no indication from this style that the book is out of proportion or floating.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the lace details on the sweater seamlessly integrated with the original knit texture, showing no signs of unnatural edges, repeating patterns, or material inconsistencies?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the silhouette style does not retain texture or details beyond its outlined form. While Image A showcases detailed lace knitting, Image B translates this into an ornamental pattern detected within the silhouette's clothing. There are no abrupt changes or discrepancies as the texture is rendered as a uniform design without the implications of real-world knitting inconsistencies.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the simplified bookshelves maintain coherent shelf structure with aligned edges and realistic spacing between books, avoiding floating or misaligned elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B utilizes a paper-cut silhouette style that abstracts details like the bookshelf seen in Image A. Therefore, the question doesn't directly translate to Image B, as this representation doesn't depict bookshelves or other environment details explicitly; it focuses on the subject.",
+      "weight": 1,
+      "model_answer": "N/A",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the antique-gold cardstock background uniformly textured and lit, with no abrupt edges or lighting mismatches that separate it from the central figure and other elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background uses a textured appearance with a consistent antique-gold color. The framing is delicately incorporated with artistic elements, which enhance the background without creating any mismatch with the central silhouette. The lighting and texture appear smooth, and the integration with the main silhouette does not show any hard transitions or disconnected segments.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

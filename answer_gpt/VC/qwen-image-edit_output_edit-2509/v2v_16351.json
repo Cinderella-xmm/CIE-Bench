@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_16351",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the individuals' facial features, hairstyles, and body types retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on Image B's analysis, the blurred region prevents the assessment of facial features, but the hairstyles and body types appear similar. Without comparing to Image A, the blurred faces do not affect the observation of hairstyles and general body shape, which implies these aspects are retained.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the man in the suit still gesturing with his hands in the same manner as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the man in the suit is gesturing with an open-hand posture, indicating explanation or offering. In Image A, the suit-clad individual demonstrates the same gesture, signifying no change in hand movements.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the relative positions of the characters (e.g., who is standing next to whom) retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the characters positioned in the same arrangement as visible in terms of who stands next to whom. By observing the clothing and body orientations, it is evident that their positions are consistently maintained from Image A, confirming the original arrangement is intact.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the individuals still wearing the same type of clothing (e.g., jerseys, suit) as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays a blue sports jersey and a suit, similar to the attire seen in Image A for the corresponding individuals, proving the clothing type remains unchanged. The consistency in clothing color and type indicates no wardrobe alteration.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a clear focal point in the new setting that replaces the jersey's position in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the new background displays a living space with no single dominant feature replacing the jersey on display in Image A. Thus, the visual focal emphasis, which was prominent in the jersey, is absent in the edited background.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

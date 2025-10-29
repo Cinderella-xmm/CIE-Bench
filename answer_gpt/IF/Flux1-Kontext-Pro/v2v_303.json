@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_303",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image appear as a 3D render with smooth surfaces and soft lighting characteristic of Pixar animations?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the coat and scarf have slightly enhanced smoothness, and the lighting appears soft, which might suggest a 3D render influence. However, the textures still have a natural feel rather than excessive smoothness typical of Pixar animations. Furthermore, Pixar animations often have exaggerated, expressive elements not present here.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the background still vibrant and wavy, matching the original image's pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background maintains a vibrant and wavy pattern similar to Image A. The lights in both images have bright and dynamic colors, resembling a bokeh effect with a wavy pattern.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the textures of the coat and scarf detailed and preserved in the 3D render?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the textures of the coat and scarf remain detailed, retaining a realistic appearance. The materials and stitching details are still visible, suggesting careful preservation rather than a transformation into a typical 3D render.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the overall style of the image align with Pixar's aesthetic, including appropriate shading and material properties?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "While Image B shows a degree of smoothness and soft lighting, Pixar's aesthetic usually includes more whimsical and exaggerated elements, including hyper-realistic textures and distinctive stylization that are not present here. The image retains a more photorealistic look despite slight enhancements.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the subject's pose and expression remained consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both images, the pose of the subject, with the collar popped and scarf neatly arranged, remains consistent. Although the face is blurred, the overall position and attire suggest no change in the subject's stance or expression.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

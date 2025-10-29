@@ -1,0 +1,84 @@
+{
+  "filename": "laion_882475506764967336",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly six chairs surrounding the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the furniture set appears to be constructed from LEGO bricks, mimicking a wooden patio set. Observing the arrangement around the table, there are four chairs with armrests placed on the sides of the table — two on one long side and two on the opposite long side. Additionally, there is a bench on each of the short sides of the table, which functions as seating for multiple people but is not counted as individual chairs. Therefore, there are only four individual chairs, not six. The benches do not count as chairs in this context. This conclusion is based on visual identification of distinct chair units versus continuous bench structures.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the table square in shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The table in Image B is composed of LEGO bricks arranged in a grid pattern. Visually, the table has four equal sides, and the corners form right angles, indicating a square shape. The symmetry and uniformity of the brick layout support this conclusion. Even though the table is made of LEGO, its overall structure maintains the geometric properties of a square. This assessment is consistent with common knowledge about how square tables are constructed, even when replicated using modular building blocks.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there two chairs on each long side of the table and one chair on each short side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the long sides of the table have two chairs each, both featuring armrests and backrests. However, the short sides of the table are occupied by benches rather than individual chairs. Each bench spans the entire length of the short side and is designed to seat multiple people. Since benches are not individual chairs, the condition of having 'one chair on each short side' does not hold. Thus, while the long sides meet the description, the short sides do not. This analysis combines visual observation with the understanding that benches are distinct from single chairs.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the chairs on the long sides of the table have armrests?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing the chairs on the long sides of the table in Image B, each chair clearly features armrests on both sides. These armrests are constructed from LEGO bricks and are integrated into the design of the chairs. The presence of armrests is consistent across all four chairs positioned along the long sides. This conclusion is drawn from direct visual inspection of the chair structures and aligns with typical design features of outdoor patio chairs, which often include armrests for comfort.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a centerpiece located in the center of the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the center of the table features a small LEGO-built structure resembling a plant or decorative element. It is placed on a base and sits directly in the middle of the table. The structure includes green pieces that resemble leaves or foliage, suggesting it is intended to serve as a centerpiece. This is consistent with common practices of placing decorative items at the center of dining tables, especially in outdoor settings. The placement and design indicate it is meant to be a focal point.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the furniture set placed on a flat, level surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The furniture set in Image B is placed on a large gray LEGO baseplate that covers the ground beneath the table and chairs. The baseplate is uniformly flat and level, providing a stable foundation for the LEGO construction. There are no visible inclines, gaps, or irregularities in the baseplate's surface. This suggests that the entire setup rests on a flat, level surface, which is essential for structural stability in LEGO builds. The use of a baseplate also implies intentional leveling, as such plates are commonly used in LEGO constructions to ensure evenness.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

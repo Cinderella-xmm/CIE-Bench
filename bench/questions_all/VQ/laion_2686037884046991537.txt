@@ -1,0 +1,53 @@
+```
+Step 1: Disassemble Editing Instructions
+-<Thinking Process 1>: The editing instruction involves transforming the whoopie pies in the original image into cartoon characters with expressive features, retaining their chocolate tops and creamy centers as heads and bodies. This transformation includes adding facial expressions, limbs, and accessories (like a spatula), while placing them in a playful kitchen setting. The original image shows six whoopie pies stacked on a white plate, with clear textures on the chocolate cookies and smooth cream filling. The editing will involve significant changes to these elements—adding non-existent parts (eyes, mouths, arms) and modifying their structure to fit a whimsical comic style. This process risks introducing unnatural textures, distorted proportions, or inconsistent material properties if not carefully executed.
+
+-Sub requirement 1: Adding cartoon features (e.g., eyes, mouths, limbs) to the whoopie pies must preserve structural coherence and avoid distorting the original shapes of the cookies and cream filling, ensuring that the added elements do not break geometric continuity or appear floating without attachment.
+
+-Sub requirement 2: The conversion from realistic food items to stylized cartoon characters using bold outlines and flat colors must maintain visual plausibility—outlines should be clean and consistent, and color transitions should not introduce artifacts such as jagged edges or pixelation.
+
+-Sub requirement 3: Retaining the chocolate texture and cream center as core components of the characters' design must ensure that the material appearance remains recognizable despite stylization, avoiding unnatural smoothing or over-saturation that could degrade fine details.
+
+-Sub requirement 4: Introducing new elements like a kitchen spatula as a sword must be physically plausible within the scene—its size, orientation, and interaction with the character should align with common object proportions and spatial logic.
+
+-Sub requirement 5: The placement of characters in a kitchen setting (implied by background elements) must maintain compositional balance and depth, with no overlapping or clipping that would compromise visual credibility.
+
+-Sub requirement 6: Text bubbles with handwritten font must be legible and positioned naturally relative to the characters, without intersecting or obscuring key features, and must not introduce blurring or distortion in the text area.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of preserving structural coherence when adding cartoon features to the whoopie pies, this question evaluates whether the facial features (eyes, mouth) are seamlessly integrated into the cookie surface without disrupting the original shape or creating unnatural bulges or gaps.
+Question: Are the eyes and mouth drawn on the whoopie pie surfaces aligned with the curvature of the cookie and free from visible distortions or floating elements?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of maintaining natural material appearance during stylization, this question checks whether the chocolate texture of the cookie is preserved in a recognizable way despite the addition of bold outlines and flat colors.
+Question: Does the chocolate cookie surface retain its original texture pattern (such as cracks and dimples) beneath the cartoon-style coloring, or is it completely smoothed out in an unnatural way?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of avoiding distortion in newly added elements, this question assesses whether the limbs (arms, legs) attached to the whoopie pies are proportionally consistent with the body and do not extend beyond the physical boundaries of the cookie in a way that breaks geometric logic.
+Question: Are the limbs of the whoopie pie characters proportionally scaled to the cookie body and connected at logical points (e.g., sides or top), without appearing detached or misaligned?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of physical plausibility for introduced objects, this question evaluates whether the spatula used as a sword is appropriately sized and positioned relative to the character, maintaining realistic proportions and interaction.
+Question: Is the spatula held by the leading whoopie pie character proportionally sized compared to the cookie body and oriented in a way that suggests natural grip and movement?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of maintaining visual credibility in composition, this question checks whether the placement of the whoopie pie characters on the plate and their positioning relative to each other follows spatial logic and does not result in overlapping or clipping that contradicts depth perception.
+Question: Are the two whoopie pie characters peering over the edge of the plate positioned so that their lower halves remain below the plate’s edge, with no unnatural floating or cut-off limbs?
+Choices: Yes, No  
+A: Yes
+
+Q6: 
+Thinking process: Based on the sub requirement of legible and properly placed text, this question evaluates whether the dialogue bubble is clearly readable, positioned near the correct character, and does not interfere with the character's form or background elements.
+Question: Is the text bubble containing “I heard today’s flavor is mint! Let’s find it!” placed adjacent to the speaking character without overlapping critical features like eyes or limbs, and is the handwritten font clear and unblurred?
+Choices: Yes, No  
+A: Yes
+```

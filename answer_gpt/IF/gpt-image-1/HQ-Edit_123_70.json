@@ -1,0 +1,123 @@
+{
+  "filename": "HQ-Edit_123_70",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image split into two distinct panels, one on the left and one on the right (or top and bottom), forming a comic layout?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image (Image B), there are two distinct panels arranged vertically. The first panel features a speech bubble and part of a bear, while the second panel contains a visual chart and the completion of the scene presented in the first panel. Together, these panels form a comic layout commonly used in educational or storytelling contexts.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does Panel 1 show the bear wearing spectacles and displaying a wise or thoughtful facial expression?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Panel 1 of Image B does not provide enough visual information about the bear's face to determine whether it is wearing spectacles or displaying any specific expression due to the face being blurred.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a speech bubble in Panel 1 containing the text: “Ever wondered how a salmon ends up in a bear's mouth?”",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Panel 1 of Image B includes a speech bubble with the text “Ever wondered how a salmon ends up in a bear's mouth?”, which is visible and clearly rendered as part of the educational component of the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does Panel 2 show a salmon emerging from bubbling water into a visual chart with labeled stages: 'egg', 'fry', 'smolt', 'adult'?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Panel 2 of Image B displays a visual chart with the life stages of a salmon labeled as 'egg', 'fry', and 'adult.' However, the stage labeled 'smolt' is absent, as only these three stages are depicted in the chart.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a fact box in Panel 2 containing the text: “Journey's end in the river gives life to the forest.”?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Panel 2 of Image B, there is a fact box with the text “Journey's end in the river gives life to the forest.” This text is part of the educational message conveyed within the comic layout.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are all text elements (speech bubble, labels, fact box) rendered in a clear, modern sans-serif font?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents text elements in a clear, legible font. While the specific font type isn't definitively identified as ‘modern sans-serif,’ it does appear to be clear and suitable for educational purposes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are the water elements in Panel 2 depicted in blue hues and the forest background in Panel 1 shown in brown-green tones?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The water in Panel 2 of Image B is depicted in blue hues, associating it with common depictions of water. Similarly, the forest background of Panel 1 is rendered in brown and green tones typical of woodland scenes. Together, these colors support the natural theme of the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q8",
+      "question": "Does the overall image have an aspect ratio of 16:9?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The overall image aspect ratio can be determined by assessing its proportions relative to standard ratios. While the exact aspect ratio isn't specified visually, the layout does not match the dimensions traditionally associated with 16:9 widescreen formatting.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q9",
+      "question": "Is the visual content of both panels clear, logically connected, and suitable for educational purposes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B is designed to convey an educational narrative about the journey of a salmon and its ecological significance. Both panels utilize clear visuals and text to create a logically connected story suitable for educating viewers about natural processes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

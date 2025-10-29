@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0012",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are Mona Lisa's facial features, such as her eyes, nose, mouth, and smile, rendered naturally without introducing obvious artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the entire face area of Mona Lisa is blurred, which obscures her facial features. Therefore, it is not possible to evaluate whether the facial features are rendered naturally without artifacts.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the color adaptation around Mona Lisa preserve structural coherence and avoid unnatural color blending or edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the color adaptation around Mona Lisa's body and the background adopts a Studio Ghibli style. This style maintains structural coherence, avoiding unnatural color blending or edges by using soft and harmonious colors and smooth transitions. The adaptation aligns with the visual coherence inherent to the artwork's stylistic intent.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited background in Studio Ghibli style retain its visual plausibility and avoid breaking the geometric shapes seen in the original painting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the landscape background is adapted to a Studio Ghibli style while maintaining the basic geometric shapes and layout found in the original painting. Similar elements like hills and pathways are preserved. Despite a stylistic change to resemble an animated environment, its plausibility remains intact.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the textures and folds of Mona Lisa's dress depicted in a way that avoids unnatural patterns and maintains a realistic appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, Mona Lisa's dress retains a believable depiction, as textures and folds are adapted to a Studio Ghibli style. The artistic and softer aesthetic conforms to an animated interpretation while still preserving the essence of realistic clothing depicted in the original painting.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do Mona Lisa's hands in the Studio Ghibli style maintain a natural appearance with correct finger count and ergonomic positioning?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, Mona Lisa's hands are reimagined in a Studio Ghibli style, yet they maintain a natural appearance with the correct finger count and appropriate positioning, similar to the original artwork's ergonomic stance. This adaptation respects natural anatomy within an animated style framework.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

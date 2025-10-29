@@ -1,0 +1,79 @@
+**Description of reference image:**  
+The subject is a horse grazing near the shoreline of a calm body of water. The horse has a medium-dark brown coat and is positioned in profile, facing right and slightly away from the viewer. It is eating grass on a sandy beach. In the background, there is a house with a light-colored exterior and a gabled roof, situated behind sparse trees. The sky above is overcast, and the distant horizon shows faint outlines of land or vegetation. The overall atmosphere is serene, with natural seaside elements.
+
+---
+
+### Step 1 - Analyzing Allowed Changes:
+
+**Thinking process:**  
+The editing instructions describe breaking down the skater's starting motion into three frames, indicating the subject is changing from a horse to a skater. The instructions also mention adding motion trajectory lines, implying new graphic elements. However, the instructions do not specify changing the environment or scene beyond the skater's action.
+
+**Allowed Changes List:**  
+- Change the subject from a horse to a skater.  
+- Modify the horse's actions to simulate the skater's push-off, ground contact, and forward lean.  
+- Add motion trajectory lines to depict movement.  
+
+---
+
+### Step 2 - Determine Elements That Should Remain Unchanged:
+
+**Thinking process:**  
+- **Core Recognition Elements:** The core recognition elements relate to the skater's actions and motion, which are newly introduced and not present in the original horse image. However, the horse's identity is not retained, but its original setting may still be a referential scene. Thus, the scene remains crucial.
+- **Functional/Logical Association Elements:** The environment must logically support a skater's motion, meaning the sandy shore and open space should remain. The house and distant landmarks should stay as they provide context for the skater's location.
+- **Remaining Elements Based on Visual Coherence:** The overcast sky, water, and distant vegetation should remain to keep the scene consistent.
+
+**Preservation Targets List:**  
+- Sandy beach and grassy patches where the skater will move.  
+- Calm water body in the background.  
+- House with a light-colored exterior and gabled roof.  
+- Sparse trees around the house.  
+- Overcast sky and distant vegetation/horizon.  
+
+---
+
+### Step 3 - Generate Questions for Key Identifying Visual Elements:
+
+{
+    Q1:  
+    Thinking process: The sandy beach is critical for the skater's movement and must logically support the depicted action. Losing this would disrupt the scene's coherence.  
+    Question: Does the image retain the sandy beach with grassy patches where the skater moves?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2  
+}
+
+{
+    Q2:  
+    Thinking process: The house provides a recognizable landmark in the background, anchoring the skater's location. Its core identity lies in its structure and position relative to the skater.  
+    Question: Is the house with a light-colored exterior and gabled roof visible in the background?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2  
+}
+
+{
+    Q3:  
+    Thinking process: The calm water body is an essential environmental feature that sets the scene apart from other locations. It should remain to maintain the setting's integrity.  
+    Question: Is the calm water body visible in the background?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2  
+}
+
+{
+    Q4:  
+    Thinking process: The sparse trees enhance the scene's realism and spatial depth. They should remain consistent to avoid disrupting the environmental context.  
+    Question: Are the sparse trees around the house visible?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 1  
+}
+
+{
+    Q5:  
+    Thinking process: The overcast sky and distant vegetation contribute to the atmospheric setting, helping retain the original mood despite the subject change.  
+    Question: Is the overcast sky and distant vegetation/horizon visible in the background?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 1  
+}  

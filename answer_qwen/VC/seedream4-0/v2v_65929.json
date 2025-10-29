@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_65929",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the spatial arrangement and relative positions of the machinery consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the machinery that was originally present in Image A has been entirely replaced by fantastical candy-themed structures. The white industrial machines are no longer visible; instead, there is a whimsical landscape featuring gingerbread walls, lollipops, candy canes, and a river of chocolate. The spatial layout appears to follow a similar linear arrangement along the length of the building, but this is now purely decorative and not functional machinery. The relative positions of the original machines cannot be confirmed because they have been transformed into confectionery elements. Therefore, while the general alignment of objects along the space may appear similar, the actual machinery and their positions are not consistent with the original image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the ceiling trusses still providing structural support in the same manner as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The ceiling trusses in Image B visually resemble those in Image A — they are metallic, triangular, and span the roof structure in a regular pattern. This suggests that the architectural framework remains unchanged in terms of design and placement. However, in Image B, the trusses are part of a fantasy scene where the environment has been transformed into a candy factory. Despite the surreal content below, the trusses retain their physical appearance and likely continue to serve their structural role. There is no visual indication that the trusses have been altered or removed, so their function as structural supports remains consistent with the original image. Thus, based on visual cues and common engineering principles, the trusses are still providing structural support in the same manner.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the overall proportions and layout of the room match the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The overall proportions and layout of the room in Image B appear to mirror those in Image A. The length, width, and height of the space seem consistent, with the same arched roof and symmetrical arrangement of elements along the central axis. The perspective lines converge similarly, suggesting that the camera angle and spatial dimensions have been preserved. Even though the contents of the room have been replaced with candy-themed objects, the architectural boundaries — such as the walls, ceiling, and floor — maintain their original scale and configuration. This indicates that the editing process retained the original room’s geometry, using it as a backdrop for a fantastical transformation. Hence, the layout and proportions remain faithful to the original.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the position and extent of the wall (now transformed into gingerbread) consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the wall is made of brick and runs along the back of the warehouse, forming a continuous boundary. In Image B, this wall has been replaced with a gingerbread-like structure that follows the same linear path and extends across the entire back of the room. The height and position of the wall appear to align with the original, maintaining its role as a rear boundary. Although the material has changed from brick to edible-looking gingerbread, the spatial footprint and orientation remain consistent. This suggests that the transformation preserved the wall's original location and extent, even if its appearance was dramatically altered. Therefore, based on spatial continuity and alignment, the position and extent of the wall are consistent with the original image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the floor (now a river of chocolate) still serve as a base for the machinery in the same way as the original concrete floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the concrete floor serves as a stable, solid foundation for the heavy industrial machinery. It provides necessary support, allows for movement of equipment, and maintains structural integrity. In Image B, the floor has been transformed into a river of chocolate, which is clearly liquid and non-supportive. The machinery has been replaced with candy-themed structures that are not physically anchored or supported by the chocolate surface. Instead, these structures appear to float or stand on the edges of the chocolate river, implying that the floor no longer functions as a base for machinery. Since the chocolate cannot bear weight like concrete, it fails to serve the same mechanical purpose. Therefore, despite the visual similarity in layout, the floor no longer serves as a functional base in the same way.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5555555555555556
+}

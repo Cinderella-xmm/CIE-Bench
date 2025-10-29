@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_657",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the skateboarder's black shirt?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the figure of the skateboarder has been transformed into a chibi-style toy figure. The attire of this toy figure includes a black shirt, which is consistent with the shirt of the skateboarder in the original image where a person is wearing an identical black shirt. This reflects continuity in the color and style of the attire from Image A to Image B. The toy-like depiction ensures that the core attributes, such as clothing color and style, are retained for visual consistency and recognizability.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image retain the skateboarder's blue jeans?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the skateboarder is represented by a toy figure wearing blue jeans, which matches the color of the jeans worn by the skateboarder in the original image. This element of attire has been preserved in the transition from a real person to a toy model, maintaining the color scheme of the original subject's clothing. The choice to replicate the attire, including the blue jeans, helps in maintaining the identity and recognizability of the figure.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain the skateboard and its position relative to the skateboarder?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the toy figure includes a small skateboard, indicating that the presence of a skateboard has been retained. However, the positioning relative to the skateboarder differs between the real person and the toy figure, due to the different nature of static toys and dynamic real-life actions. While the skateboard is present, the dynamic interaction and positioning as seen in the original action shot cannot be exactly replicated in a toy format. Hence, while the skateboard itself is retained, its positional dynamic is not.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image retain the skateboarder's dynamic pose?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image portrays the skateboarder as a static chibi toy figure, inherently lacking the dynamic movement captured in the original image. While the toy may attempt to mimic aspects of a skateboarding pose, it does not capture the fluid motion and energy present in the action photograph of a real skateboarder. Toys, by nature, are designed to be stationary and do not convey dynamic motion.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image retain the detailed textures and colors of the skateboarder's attire and skateboard?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image, representing a toy version of the skateboarder, inherently lacks the detailed textures that naturally occur in real-life clothing and equipment. While the colors of the attire and skateboard are preserved to reflect the original color scheme, the toy figure simplifies these details into basic elements appropriate for its style. Therefore, while color aspects are retained, the intricate textures and detailing associated with the real-life attire and skateboard are not.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

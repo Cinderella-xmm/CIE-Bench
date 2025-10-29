@@ -1,0 +1,112 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a panoramic urban landscape at dusk, featuring a skyline composed of modern high-rise buildings with distinct architectural forms, including rectangular glass towers and mid-rise office structures. The tallest building in the center has a dark vertical grid façade with illuminated windows, standing out against the warm sunset sky transitioning from orange near the horizon to deep blue above. In the foreground, a long steel railway trestle bridge crosses a calm river, supported by wooden truss piers, running diagonally from the lower left toward the upper right. The bridge carries two parallel railroad tracks and is flanked by green trees and grassy parkland on both sides. On the left bank, there are historic red-brick buildings with gabled roofs, including one with a prominent chimney stack, surrounded by manicured lawns and pathways. A small pavilion-like structure with a gray roof sits near the edge of the park. The river reflects the soft light of the setting sun, and the surrounding vegetation is lush and vibrant green. The overall composition balances natural elements (trees, water, grass) with urban infrastructure (buildings, bridge, roads), creating a harmonious cityscape.
+
+**Thinking process:**  
+The editing instruction specifies transforming the urban skyline into a futuristic digital display mural, fusing buildings into luminescent towers with pixel-patterned facades; trees transform into glowing, angular digital circuits; and the bridge becomes a vibrant neon-lit pathway integrated with futuristic technology aesthetics. This indicates that:
+
+- The **form and appearance** of the buildings can be changed — they may no longer resemble real-world architecture but instead become stylized, luminous, pixelated digital constructs.
+- The **trees** are explicitly stated to transform into "glowing, angular digital circuits," so their organic shape and natural texture are not required to remain.
+- The **bridge** is to become a "neon-lit pathway," implying its material and lighting characteristics will change, though its structural role as a crossing over water remains implied.
+- The **skyline's location and layout** (relative positioning of buildings) may be preserved for compositional continuity, but their visual identity is fully open to transformation.
+- The **river and water surface** are not mentioned in the instructions, suggesting they may be retained or altered depending on context, but since no specific change is mandated, they could fall under background preservation unless contradicted.
+- The **historic brick buildings in the park** are not mentioned, meaning they may be subject to transformation or removal unless their presence is essential to scene logic.
+
+However, **no explicit instruction states that the river, the general layout of the park, or the position of the bridge relative to the city must be preserved**, so these are potentially modifiable. But since the instruction does not say to remove or reposition them, and they form part of the foundational scene, their spatial relationship should be considered for coherence.
+
+Allowed Changes List:  
+(Specific element 1 that allows for changes): Buildings' architectural forms and materials (e.g., glass, concrete) → transformed into pixel-patterned, luminescent towers  
+(Specific element 2 that allows for changes): Trees → transformed into glowing, angular digital circuits  
+(Specific element 3 that allows for changes): Bridge → transformed into neon-lit pathway with futuristic design  
+(Specific element 4 that allows for changes): Skyline’s visual texture and coloration → replaced with digital display effects  
+(Specific element 5 that allows for changes): Lighting of the entire scene → enhanced with artificial neon glow and digital illumination  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+To determine what must remain unchanged, we apply the exclusion method based on the allowed changes:
+
+- **Core recognition elements**: The original image contains identifiable features such as:
+  - The **railway trestle bridge** with its distinctive wooden truss supports and dual-track layout — this is a unique structural feature that defines the foreground and provides spatial anchoring.
+  - The **river** flowing beneath the bridge — it serves as a physical boundary and environmental anchor.
+  - The **relative positions** of the bridge, river, and city skyline — even if transformed, their spatial relationships (e.g., bridge spanning river, city behind) must remain consistent for scene coherence.
+  - The **presence of the historic red-brick buildings** in the park area — while not central, they provide contrast and historical context within the urban landscape; removing them without replacement would break narrative balance.
+  - The **overall composition** — diagonal line of the bridge leading to the skyline, balanced by green space on the left — this compositional rhythm should be preserved to maintain visual flow.
+
+- **Functional/logical association elements**:
+  - The **bridge spans the river** — this functional relationship must remain intact. Even if it becomes neon-lit, it must still cross the water.
+  - The **city lies beyond the park and bridge** — the depth layering (park → bridge → river → city) must be preserved for logical spatial understanding.
+  - The **railroad tracks run along the bridge** — this functional detail must remain, even if visually enhanced.
+
+- **Non-modified element deduction**:
+  After excluding all elements explicitly permitted to change (buildings, trees, bridge lighting), the following remain:
+  - The **shape and structure of the bridge supports** (trusses and piers)
+  - The **flow of the river**
+  - The **presence and placement of the red-brick buildings**
+  - The **green park area with pathways and lawns**
+  - The **general topography** — land on left, river on right, city in background
+
+These elements are not mentioned in the transformation instructions, so they are implicitly assumed to remain, especially since altering them would disrupt the scene’s logic and coherence.
+
+Preservation Targets List:  
+(The shape and structural form of the railway trestle bridge’s truss supports)  
+(The river’s presence and course beneath the bridge)  
+(The location and architectural form of the red-brick buildings in the park)  
+(The park’s green space with pathways and lawn areas)  
+(The relative spatial arrangement of bridge → river → city skyline)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The railway trestle bridge’s truss supports are a defining structural feature visible in the original image. Their wooden lattice framework and diagonal bracing pattern are unique to this type of bridge and distinguish it from modern bridges. If removed or replaced with a solid beam or different support system, the bridge would lose its identifiable character. Since the instruction only says the bridge becomes a neon-lit pathway, not that its structure is erased, the truss design must be preserved. This is a core identity element with a weight of 3 points.
+    Question: Are the wooden truss supports of the railway bridge clearly visible and structurally intact?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The river flows directly beneath the bridge and is a key geographical feature separating the park from the city. Its presence is essential for the spatial logic of the scene. Even if lit or stylized, its continuous path from left to right under the bridge must remain. Removing or redirecting the river would violate the scene’s foundational geography. This is an important scene element with a weight of 3 points.
+    Question: Is the river present and flowing continuously beneath the bridge?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The red-brick buildings in the park, particularly the one with the chimney, are distinctive due to their historical architectural style and color. They serve as a visual contrast to the modern skyline and add depth to the foreground. While not central to the futuristic theme, they are not mentioned for transformation, so their retention maintains scene authenticity. Their absence would create a gap in the park’s visual narrative. This is an important scene element with a weight of 2 points.
+    Question: Are the red-brick buildings with gabled roofs and chimneys visible in the park area?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The green park area with manicured lawns and pathways provides a natural buffer between the city and the river. Its presence contributes to the image’s balance and realism. Although trees may be transformed, the grassy fields and paved paths are not mentioned for alteration. Removing or replacing them would distort the park’s function and appearance. This is a secondary detail but necessary for visual coherence, hence a weight of 2 points.
+    Question: Are the green lawns and paved pathways in the park area clearly visible?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The spatial relationship between the bridge, river, and skyline establishes the image’s depth and perspective. The bridge leads the eye toward the city, which is positioned behind the park and river. Altering this arrangement (e.g., placing the city in front of the river) would destroy the scene’s logic. Even with futuristic elements, this compositional order must remain. This is a critical logical element with a weight of 3 points.
+    Question: Is the city skyline located behind the river and bridge, maintaining the original depth order?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q6: 
+    Thinking process: The dual railroad tracks running along the bridge are a functional detail that defines its purpose. Even if illuminated or stylized, their presence as parallel rails must be preserved to retain the bridge’s identity as a rail structure. Replacing them with a single path or removing them entirely would misrepresent the original object. This is a minor but important functional detail with a weight of 1 point.
+    Question: Are two parallel railroad tracks visible along the length of the bridge?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

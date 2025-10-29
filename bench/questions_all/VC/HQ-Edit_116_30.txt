@@ -1,0 +1,112 @@
+Description of reference image: The subject is a grand Gothic cathedral, prominently featuring a symmetrical façade with three large arched portals at the base. Above the central portal is a massive circular rose window composed of intricate tracery and stained glass, flanked by two smaller rose windows above the side portals. The vertical structure is dominated by tall, slender spires rising from each corner and along the central gable, culminating in pointed finials. The façade is richly adorned with detailed stone carvings, including statues in niches, ornamental pinnacles, flying buttresses, and elaborate archivolts framing the doorways. The building is constructed of light-colored stone, likely limestone or sandstone, with subtle textural variations indicating weathering and craftsmanship. The roofline features steeply pitched gables and decorative crockets. The surrounding environment includes adjacent low-rise buildings with traditional European architecture, set against a clear blue sky. The lighting suggests midday sun casting sharp shadows, emphasizing the depth and relief of the architectural details.
+
+Thinking process:  
+First, analyze the editing instructions to determine what can be changed. The instruction explicitly states: “Convert the cathedral into a detailed wooden model displayed inside an ornate shadow box.” This indicates that the **form** of the cathedral (from full-scale real-world structure to miniature model) is allowed to change. Additionally, it specifies material transformation (“warm stained wood”), internal additions (“tiny pews and chandeliers”), and mechanical elements (“clock mechanism at the back to move small figures”). These are all modifications permitted under the instruction.
+
+The instruction does **not** mention preserving the original scale, location, or external environment. Therefore, the **background buildings**, **sky**, and **real-world context** are not required to remain unchanged and may be altered or removed entirely.
+
+However, the instruction emphasizes retaining **“intricate gothic carvings in miniature form”**, which implies that the **design and structural details** of the cathedral must be preserved in reduced scale. It also says “detailed wooden model,” meaning the **architectural identity**—specifically the Gothic style—must remain recognizable.
+
+Thus, the **allowed changes list** includes:
+- Scale (full-size → miniature)
+- Material (stone → wood)
+- Environment (outdoor scene → shadow box interior)
+- Interior additions (pews, chandeliers, clock mechanism)
+- Lighting (natural daylight → artificial display lighting)
+
+Allowed Changes List:  
+- The physical size and scale of the cathedral  
+- The material composition (stone → stained wood)  
+- The surrounding environment (urban setting → shadow box display)  
+- The presence of additional internal elements (pews, chandeliers, moving figures)  
+- The background sky and adjacent buildings  
+
+Step 2 – Determine the elements that should remain unchanged
+
+Thinking process:  
+Core recognition elements: The cathedral’s identity as a Gothic church hinges on its iconic architectural features. Even in miniature, these must be preserved for recognition. Key elements include:
+- The **three-tiered portal arrangement** with pointed arches
+- The **central rose window** with radial tracery
+- The **twin spires** flanking the central gable
+- The **flying buttresses** and **vertical emphasis** characteristic of Gothic design
+- The **ornate pinnacles and crockets** along the roofline
+- The **symmetrical layout** and **triangular gable** above the rose window
+
+These are not merely decorative—they define the cathedral's genre and historical identity. Removing or altering them would result in a non-Gothic or unrecognizable structure.
+
+Functional/logical association elements: Although the function shifts from religious edifice to artistic model, the **spatial hierarchy** of the façade must remain intact. For example, the central portal must still be the largest and most prominent, the rose window must remain above it, and the spires must crown the corners. This maintains logical coherence in the miniature representation.
+
+Non-modified element deduction: All architectural details not explicitly mentioned for alteration must be retained. Since the instruction specifies “intricate gothic carvings in miniature form,” every carved detail—such as statue niches, tracery patterns, and column capitals—must be present in the model, even if scaled down.
+
+Preservation Targets List:  
+- The presence and position of the central rose window  
+- The three arched portals with their pointed arches and sculptural tympanums  
+- The twin spires at the outer corners of the façade  
+- The symmetrical arrangement of the façade elements  
+- The detailed tracery and ornamental stonework throughout the façade  
+- The overall Gothic silhouette defined by verticality and pointed forms  
+
+{
+    Q1: 
+    Thinking process: The central rose window is the most iconic feature of this cathedral type, especially in French Gothic architecture. Its presence, circular shape, and radiating tracery pattern are essential for identifying the structure as a major Gothic cathedral. If absent or replaced, the building loses its defining visual identity. This element is critical for recognition and thus carries maximum weight.
+    Question: Is the large circular rose window located above the central portal and featuring intricate radial tracery?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The three main portals are fundamental to the façade’s composition and represent the primary entrance points. Their pointed arches and relative positioning define the horizontal symmetry of the structure. Altering their number or form would fundamentally change the architectural character. This is a core structural element, hence high weight.
+    Question: Are there three distinct arched entrances at the base of the façade, arranged symmetrically with the central one being the largest?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The twin spires flanking the central gable are signature vertical elements of Gothic cathedrals. They contribute to the upward thrust and visual balance. Their absence would make the structure appear incomplete or non-Gothic. While the material may change to wood, their form and placement must be preserved in the model.
+    Question: Are there two tall, slender spires positioned symmetrically at the outer edges of the central gable?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The symmetrical layout of the façade—including the alignment of portals, windows, and decorative elements—is a hallmark of Gothic cathedral design. This balance is crucial for architectural recognition. Even in a model, the mirrored arrangement must be maintained to preserve authenticity.
+    Question: Is the façade symmetrically balanced around a central vertical axis?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The detailed tracery and ornamental carvings—such as the patterns in the rose window, the columns, and the pinnacles—are key indicators of Gothic craftsmanship. While the material changes to wood, the design must remain faithful. Losing these details would reduce the model to a generic structure.
+    Question: Are there visible intricate stone carvings, including tracery, pinnacles, and sculptural details, across the façade?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The flying buttresses and vertical shafts are functional and aesthetic features of Gothic architecture. Their presence supports the structure and contributes to its distinctive profile. Even in a model, they must be included to maintain architectural accuracy.
+    Question: Are there flying buttresses extending from the sides of the nave toward the exterior walls?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The triangular gable above the rose window is a standard feature in many Gothic façades. It frames the rose window and adds height to the central section. Its preservation ensures correct proportion and form in the model.
+    Question: Is there a triangular gable directly above the central rose window?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q8: 
+    Thinking process: The presence of multiple pinnacles along the roofline is a stylistic trait of Gothic cathedrals. While minor compared to larger elements, their inclusion adds authenticity and detail. They are not core but contribute to visual fidelity.
+    Question: Are there multiple slender pinnacles rising from the roofline along the central and side sections?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0048",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the contrast in the image been enhanced?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the visual cues suggest that the contrast has been enhanced. The stripes on the zebras appear more defined and the skyline in the background exhibits sharper distinctions between the buildings against the sky. Enhanced contrast would typically result in more vivid color transitions and clarity, which is evident in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there visible improvement in the sharpness of zebras and the grassy ground in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the zebras' stripes and features are sharper, with clearer delineations compared to typical images with less sharpness. However, the grassy ground seems to possess less detail compared to the zebras, suggesting focus may primarily be on the zebras. Overall, the zebras show improvement in sharpness.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the natural textures of the zebras' stripes and the grassland detailed and clear?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The texture analysis of Image B indicates the zebras' stripes are detailed and clear, allowing for a good differentiation in their fur patterns. The grassland, however, lacks distinct textural detail, appearing slightly blurred or less focused compared to the zebras.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have any urban elements, like buildings, vehicles, or people, been added to simulate a city life photojournalism aesthetic?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Image B contains visible urban elements including a city skyline with various buildings that suggest an urban setting. These additional elements provide a backdrop that simulates a city lifestyle, a common theme in photojournalism aiming to juxtapose wildlife against metropolitan environments.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the original composition of the zebras in the grassland been preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The original composition in Image A shows zebras naturally situated in open grassland. In Image B, the zebras appear on a different surface, being a structured platform rather than a natural setting, alongside a prominent urban skyline. These changes indicate that the original grassland composition has not been preserved.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

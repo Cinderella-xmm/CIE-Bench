@@ -1,0 +1,111 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a full-bodied male lion standing in profile, facing left, with its head turned slightly toward the viewer. The lion has a thick, voluminous golden-brown mane that frames its face and extends down its chest, with individual strands visible, creating a textured, layered appearance. Its fur is rendered with fine detail, showing natural highlights and shadows consistent with warm sunlight. The lion’s eyes are alert and focused, with a golden-yellow hue and clear pupils. Its nose is dark and prominent, and its mouth is closed in a neutral expression. The body posture is strong and poised, with front legs firmly planted and hind legs slightly bent, suggesting readiness to move. The tail curves gently upward at the tip.
+
+The background depicts an African savannah at sunset, with a soft gradient sky transitioning from pale yellow near the horizon to muted orange and dusky pink higher up. Wispy clouds are scattered across the sky, illuminated by the setting sun. In the distance, several acacia trees with flat-topped canopies are visible—some fully formed, others silhouetted against the light. The ground is covered in tall, dry grasses that sway gently, rendered with rich amber and rust tones, suggesting depth and texture. The lighting is directional, casting long shadows and giving the scene a warm, dramatic glow.
+
+Thinking process:  
+The editing instructions specify transforming the image into a **movie poster titled "King of the Wild"**, with key changes including:
+- Converting the lion into a **stylized, high-contrast silhouette**
+- Replacing the background with an **abstract gradient backdrop**
+- Adding **detailed grass textures to the foreground**
+- Incorporating **angular acacia tree silhouettes**
+- Placing a **dramatic typeface for the title** across the upper section
+
+From this, we extract the **allowed changes**:
+- The **form of the lion** (from realistic depiction to stylized silhouette) is explicitly permitted
+- The **background environment** (savannah landscape) is to be replaced with an abstract gradient — thus not preserved
+- The **trees** are to be reimagined as angular silhouettes — their form changes, but their presence as acacias may be retained in concept
+- The **title text** is new and not present in original — allowed addition
+- The **foreground grass** is to have added texture — implying enhancement or modification, not removal
+
+Thus, only elements **not mentioned for change** or **explicitly required to be retained** must remain unchanged.
+
+Allowed Changes List:  
+- The lion's visual form (realistic → silhouette)  
+- The background (natural savannah → abstract gradient)  
+- The acacia trees' shape (natural → angular silhouettes)  
+- Addition of title text ("King of the Wild") in dramatic font  
+- Enhancement of grass texture in foreground  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+We now identify what **must remain unchanged** based on exclusion from the allowed changes list and core recognition logic:
+
+1. **Core recognition elements**:  
+   - The lion is the central subject; while its **form** is to be changed to a silhouette, its **identity as a lion** must still be recognizable. However, since it becomes a silhouette, **specific anatomical features** like the **mane shape**, **head structure**, and **body proportions** must still reflect a lion — these are critical for identity. Thus, even in silhouette, the **overall outline** must preserve the lion’s iconic shape.
+   - The **presence of the lion** as the dominant figure is non-negotiable — it remains the focal point.
+
+2. **Functional/logical association elements**:  
+   - The lion is positioned in the **foreground**, dominant in scale and placement — this spatial hierarchy should be preserved even if background changes. The **relative size and central positioning** of the lion must remain, as altering it would disrupt the intended visual narrative.
+   - The **direction of gaze** (slightly toward viewer) and **stance** (front legs forward, ready to move) suggest dominance and awareness — these **postural cues** contribute to the “king” theme and should be preserved in silhouette form.
+
+3. **Non-modified element deduction via exclusion**:  
+   - While the **background** is replaced, the **conceptual context** of the savannah may be implied through abstract design — but no specific terrain features (like hills or water) are required to be kept.
+   - The **grass** is mentioned to be enhanced with texture — so its **presence** in the foreground is required, but its **style** can change. Therefore, **the existence of grass** in the foreground must be retained, though not necessarily its original rendering.
+   - The **acacia trees** are to become angular silhouettes — meaning their **presence** and **role as landmarks** in the composition must be preserved, but not their natural form.
+
+Preservation Targets List:  
+- The lion’s **silhouette must retain the distinctive shape of a male lion**, including a broad mane, powerful shoulders, and elongated body  
+- The lion’s **position in the foreground**, dominating the frame, must remain  
+- The lion’s **stance** — front legs forward, rear legs slightly bent — must be preserved in silhouette  
+- The **presence of grass** in the foreground must be maintained, even if texture is enhanced  
+- The **presence of acacia trees** in the background (as silhouettes) must be retained, even if stylized  
+- The **lion’s head orientation** — slightly turned toward the viewer — must remain, ensuring its gaze is forward-facing  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The lion’s **mane shape** is a core identification feature distinguishing it from other big cats. Even in silhouette, the **broad, rounded outline of the mane** around the head and neck is essential for recognizing it as a male lion. Loss of this shape would make the silhouette unidentifiable as a lion, especially in a symbolic movie poster context. This is a 3-point element because it is the primary visual identifier of the subject.
+    Question: Does the lion’s silhouette retain the distinct, wide, rounded mane shape around its head and neck?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The **body posture** — specifically the front legs planted forward and the rear legs slightly bent — conveys power and readiness, reinforcing the "king" theme. This stance is a functional element of the lion’s dominance and must be preserved to maintain the intended narrative. Altering it would weaken the visual impact of authority. It is a 2-point element because it is crucial for conveying behavior and status.
+    Question: Is the lion depicted with its front legs forward and rear legs bent, maintaining a poised, dominant stance?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q3: 
+    Thinking process: The **head orientation** — slightly turned toward the viewer — creates engagement and focus. This is a key compositional choice in the original image, allowing direct connection with the audience. Even in silhouette, this turn must be preserved to maintain the sense of awareness and regality. It is a 2-point element due to its importance in storytelling and visual interaction.
+    Question: Is the lion’s head turned slightly toward the viewer, rather than fully in profile?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The **presence of grass in the foreground** is a minor but important environmental cue. Though texture may be enhanced, the **existence of grass** anchors the scene and provides depth. Removing it would make the foreground too bare and disrupt the savannah context. It is a 1-point element because it supports coherence without being core to identity.
+    Question: Is there grass present in the foreground beneath the lion?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q5: 
+    Thinking process: The **presence of acacia trees** in the background, even if stylized into angular silhouettes, maintains the African savannah context. Their inclusion ensures thematic consistency. Removing them would eliminate a key environmental marker. This is a 1-point element because it is a contextual detail, not a core identity feature.
+    Question: Are acacia trees visible in the background, either as natural forms or stylized silhouettes?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The **lion’s position in the foreground**, occupying the central lower half of the frame, is essential for visual dominance. Moving it to the side or background would undermine the “king” theme. This spatial relationship is a logical association element and must be preserved. It is a 2-point element due to its role in composition and narrative.
+    Question: Is the lion positioned in the foreground, centered and large in scale relative to the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

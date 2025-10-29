@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_125",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly six chibi-style stickers in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on the visual cues in Image B, there are four distinct chibi-style illustrations or stickers present. Each sticker comprises a figure of a girl and a horse, depicted in an exaggerated, cartoonish style typical of chibi art. Counting these illustrations results in four, not six.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the chibi characters in the stickers have oversized, expressive eyes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi-style characters are characterized by having large, oversized eyes that are typical of this art style. This feature is a defining characteristic of chibi characters, often used to convey exaggerated emotions and a cute aesthetic.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the background of the stickers feature warm, earthy tones along with subtle stars or confetti?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background of each chibi-style sticker includes warm, earthy tones, primarily beige and brown. Additionally, there are small graphical elements like stars or sparkles scattered around, which enhance the visual appeal by adding a playful and whimsical touch.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the aspect ratio of the edited image 9:16?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The aspect ratio of Image B appears to be closer to a square, given the equal proportions on all sides, rather than a 9:16, which is a tall and narrow rectangle typically used in portrait formats like those for mobile photography or video.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the rider’s shirt depicted in a chibi style and retains the beige color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi-style illustrations maintain certain elements from the original image for consistency. The shirt worn by the chibi-version of the person is depicted in the same beige color, matching the shirt in the original image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

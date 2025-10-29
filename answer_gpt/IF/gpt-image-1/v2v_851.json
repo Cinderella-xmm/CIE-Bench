@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_851",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image rendered in monochrome (grayscale)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, it appears to be rendered in monochrome, as there are no colors present, only shades of gray, which is characteristic of a grayscale image. The absence of color makes the image look like a classic black and white photo.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the event details written in rustic, slightly imperfect typography?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The typography in Image B appears to have a rustic and slightly imperfect style. This can be inferred from the slightly uneven and traditional font style used, which gives an old-fashioned and vintage feel commonly seen in rustic typography.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the advertisement include the event name \"Riders & Reins Expo 2024,\" location \"Evergreen Equestrian Center, Olympia, WA,\" and date/time \"Saturday, September 14, 2024, from 10:00 AM to 6:00 PM\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the event name 'Riders & Reins Expo 2024' and location 'Evergreen Equestrian Center, Olympia, WA' are clearly stated. However, the provided image doesn't include the time 'from 10:00 AM to 6:00 PM.'",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there visible space allocated for listing ticket prices and contact details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not seem to have any noticeable space explicitly allocated for listing additional information like ticket prices or contact details. The composition focuses on the image and existing text without clear areas for additional content.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the advertisement formatted in standard letter-sized portrait orientation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Assessing the layout of Image B, it seems to be in a portrait orientation, as the image content flows vertically. It matches the proportions typical of a letter-sized format used for flyers or announcements.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

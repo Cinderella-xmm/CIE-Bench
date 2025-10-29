@@ -1,0 +1,135 @@
+**Step 1 – Analyze the editing instructions and determine allowed changes**
+
+**Description of reference image:**  
+The subject is a capybara with a light brown fur coat, white muzzle, and prominent whiskers. It wears a blue knitted beanie with a fluffy pom-pom on top, dark blue sunglasses with reflective lenses, and a blue knit sweater with visible stitching texture. The capybara’s mouth is slightly open, revealing its teeth, and it has large, expressive eyes visible through the sunglasses. The background is a neutral gray gradient, softly lit to emphasize the subject. The overall composition is a close-up portrait centered on the capybara’s face, with attention to realistic fur texture, soft lighting, and detailed accessories.
+
+**Thinking process:**  
+The editing instruction specifies transforming the capybara into a metallic sculpture with a polished bronze surface, replacing the hat with a bronze helmet, changing sunglasses into bronze-framed glass lenses, maintaining fur details as engraved lines, and placing the sculpture on a marble base. Key transformations include:
+- Material change: fur → engraved bronze
+- Hat replacement: knitted beanie → bronze helmet
+- Sunglasses replacement: plastic frames → bronze frames with glass lenses
+- Clothing: sweater → likely retained in sculpted form but material changed
+- Background: implied change from neutral gray to understated marble base
+
+However, the instruction **explicitly states**:
+- “Maintain fur details with engraved lines” — meaning the **pattern and structure** of the fur must remain visually identifiable, even if rendered in metal.
+- “Position the sculpture on an understated marble base” — introduces a new scene element (marble base), so the original background can be altered.
+
+Thus, the **allowed changes list** includes:
+- Subject form: transformed into a bronze sculpture
+- Hat: replaced with a bronze helmet
+- Sunglasses: replaced with bronze frames and glass lenses
+- Clothing: transformed into sculptural form (material changed)
+- Background: changed to marble base
+- Fur texture: not deleted, but **rendered as engraved lines** — thus, **structure preserved**, not literal fur
+
+**Allowed Changes List:**
+- The physical form of the capybara (from living animal to metallic sculpture)
+- The material of the capybara’s body (fur → bronze)
+- The knitted hat (replaced with a bronze helmet)
+- The sunglasses (plastic frames → bronze frames with glass lenses)
+- The sweater (material changed to sculpted bronze or matching metal)
+- The background (changed to marble base)
+- The color scheme (shift from natural colors to bronze tones)
+- The presence of fur (transformed into engraved lines, not removed)
+
+---
+
+**Step 2 – Determine elements that should remain unchanged**
+
+**Thinking process:**  
+We now exclude the allowed changes to identify what **must be preserved** based on visual coherence and identity.
+
+**Core recognition elements:**  
+The subject is a capybara. Its core identity features are:
+- Facial structure: rounded snout, large nose, wide mouth with visible teeth, prominent whiskers
+- Proportions: broad head, short ears (partially hidden under hat), thick neck
+- Fur pattern: distinct coloration — light brown body, white muzzle, darker around eyes and nose
+- Positioning: direct gaze toward viewer, slightly open mouth
+These are essential for recognizing the subject as a capybara. Even in sculpture form, the **facial shape and expression** must remain consistent.
+
+**Functional/logical association elements:**  
+- The **position of the hat**: originally covering the top of the head, must still sit atop the head in the helmet version — spatial logic preserved.
+- The **sunglasses’ position**: over the eyes, same placement as original — functional alignment maintained.
+- The **clothing’s positioning**: sweater and straps (visible as suspenders) must remain on shoulders and torso — structural logic preserved.
+
+**Non-modified element deduction:**  
+Although the materials change, the following **visual structures** must remain:
+- The **shape of the nose and mouth** — critical for facial identity
+- The **whisker arrangement** — number, direction, and density should be preserved in engraved form
+- The **color contrast between muzzle and body** — though rendered in bronze, the **relative brightness/engraving depth** must reflect the original white vs. brown
+- The **pom-pom's position** — although replaced by helmet, its location at the top of the head is a key spatial cue
+- The **overall posture and orientation** — facing forward, head centered
+
+Even though the hat is replaced, the **helmet must follow the same head contour** — thus, the **head shape** remains unchanged.
+
+**Preservation Targets List:**
+- Facial structure: snout, nose, mouth, and eye positions
+- Whisker layout and density
+- Muzzle color contrast (white vs. brown)
+- Head shape and proportions
+- Eye position and spacing
+- Mouth opening and visible teeth
+- Sweater and strap positioning
+- Overall frontal pose and gaze direction
+
+---
+
+**Step 3 – Generate yes/no questions based on key identifying visual elements**
+
+{
+    Q1: 
+    Thinking process: The capybara’s facial structure, particularly the broad snout and wide mouth with visible teeth, is a core identity feature. This distinguishes it from other rodents or animals. Even when transformed into a bronze sculpture, the shape of the nose, mouth, and surrounding facial contours must remain identical to maintain species recognition. Loss of this would result in misidentification. Therefore, this is a 3-point question.
+    Question: Is the capybara’s snout shape — including the rounded nose, wide mouth, and visible teeth — preserved in the sculpture?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The white muzzle contrasting with the light brown fur is a distinctive visual marker of the capybara. Although the fur is transformed into engraved lines, the **relative area and shape** of the white muzzle must be preserved to maintain the correct facial pattern. This is a key identification feature and cannot be omitted without losing recognition. Thus, it is a 3-point question.
+    Question: Is the white muzzle area, positioned centrally on the face and extending from the nose to the upper lip, preserved in the sculpture?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The whiskers are a defining sensory and aesthetic feature of the capybara. Their number, length, and radial spread from the snout are unique to the species. Even in engraved form, their **arrangement and density** must match the original to preserve realism and identity. This is a 2-point question because while not as critical as facial structure, it significantly affects visual fidelity.
+    Question: Are the whiskers present and arranged in the same radial pattern from the snout as in the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The positioning of the sunglasses over the eyes is crucial for preserving the character’s appearance. Even though they are replaced with bronze-framed glass lenses, their **placement over the eyes** must remain unchanged to maintain the original look and expression. This is a functional alignment requirement. Hence, it is a 2-point question.
+    Question: Are the glasses positioned directly over the eyes, with the frame aligned horizontally across the bridge of the nose?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The sweater and shoulder straps are key accessories that define the character’s style. Their **position on the shoulders and torso** must remain consistent, even if rendered in bronze. Changing their placement would disrupt the visual logic of the outfit. This is a 1-point question because it’s a detail-level accessory, but still contributes to overall consistency.
+    Question: Are the sweater and shoulder straps positioned on the shoulders and torso in the same way as in the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The head shape and proportions — especially the rounded head and short ears — are essential for identifying the capybara. Even with a helmet, the underlying head shape must match the original. This is a core anatomical feature and must be preserved. It is a 3-point question due to its role in species recognition.
+    Question: Is the capybara’s head shape — rounded, broad, and proportionally large relative to the body — preserved in the sculpture?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q7: 
+    Thinking process: The mouth is slightly open, showing teeth — a distinctive expression that adds character. This specific **mouth posture** must be preserved in the sculpture to maintain the original expression. While minor, it contributes to identity and emotion. This is a 1-point question as it’s a fine detail.
+    Question: Is the mouth depicted as slightly open, revealing the teeth, in the same manner as the original?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

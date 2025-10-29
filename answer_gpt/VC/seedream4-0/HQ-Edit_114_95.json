@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_114_95",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the wide, straight avenue leading directly toward the base of the Eiffel Tower preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a large object resembling a perfume bottle superimposed over the background, which includes the Eiffel Tower. Although the bottle obscures the direct view of the Eiffel Tower's base, the layout of the avenue remains visible and aligns with the street in the original image leading toward the Eiffel Tower. Thus, the avenue itself is still present.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the symmetrical rows of green trees lining both sides of the avenue preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image B showcases trees along both sides of the avenue. Despite the overlay of the large perfume bottle, the trees are still visible, and their symmetrical alignment appears consistent with Image A. Therefore, the symmetrical rows of green trees are preserved.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the streetlights positioned along the sides of the avenue preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, streetlights are visible flanking the avenue, similarly positioned to those in Image A. Even with the addition of the large bottle overlay, the streetlights are not obscured and retain their original positions.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the wet asphalt surface with visible reflections preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the detail of the wet asphalt, including visible reflections, remains discernible despite the imposing image of the perfume bottle. The surface texture and appearance are consistent with Image A, suggesting that this feature is preserved.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the overcast sky with dark, layered clouds preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background of Image B retains the cloudy, overcast sky with dark, layered clouds, which are very similar to those in Image A. There doesn't appear to be any changes in the sky portion of the image.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the distant Parisian skyline with identifiable rooftops and modern high-rises preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the Parisian skyline comprising identifiable rooftops and modern high-rises is still visible beyond the oversized bottle image. The skyline's character remains consistent with Image A, indicating this element is preserved.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are the vehicles, including cars and a bus, visible on the road in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B lacks visibility of vehicles like cars and buses on the road due to the obstruction caused by the superimposed perfume bottle covering a central portion of the avenue. Unlike Image A, where vehicles are clearly present, Image B does not display these elements.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.9230769230769231
+}

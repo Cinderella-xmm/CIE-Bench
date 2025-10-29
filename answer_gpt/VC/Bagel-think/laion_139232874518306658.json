@@ -1,0 +1,97 @@
+{
+  "filename": "laion_139232874518306658",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the subject wearing bright red lipstick?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sections of the subject's face that would potentially show lipstick are obscured by a blur. However, since the question implies the presence of red, common knowledge would indicate that to see 'bright red,' it must be distinctly vivid against other features, which cannot be ascertained due to the blurring. Thus, without visual confirmation, the rational conclusion is 'No.'",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the sunglasses black with a rectangular frame and reflective lenses?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sunglasses appear to be black but have a very generic shape due to the blurring and not enough detail to assess reflective lenses as the shades block view of the eyes. Without visible reflection, the conclusion leans away from verification.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the subject’s hair pulled back tightly, revealing her forehead and ears?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject's hairstyle suggests it is pulled back due to the absence of visible locks around her face. However, whether it reveals the forehead and ears is obscured by the blur covering that area, and therefore not definitively visible. Without clear, visual confirmation, the response is 'No.'",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are both hands visibly gripping the handles of shopping bags?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both of the subject's hands are clasped around shopping bag handles in Image B, showing visible grip. The visual cue in the image is clear, enhanced by the contrast of black gloves against the bags’ handles.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is a light pink turtleneck visible underneath the coat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a light pink garment can be seen underneath the coat that suggests a turtleneck, judging by its visible collar and the way it hugs the neck. This supports the identification as a turtleneck.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the subject wearing a dark gray skirt?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the lower portion of the subject's outfit as a skirt or similar bottom garment appearing in dark gray underneath the red coat. The contrast with the coat provides a clear indicator of color.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is there a strong shadow cast on the right side of the subject’s face and body?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a distinct shadow cast evident on the clothing and areas where the body curves due to light reflecting from the left. Despite the blurring on the face, the presence of a shadow on the body can be confirmed.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4666666666666667
+}

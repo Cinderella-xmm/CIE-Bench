@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-209738028040651683",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the almond-shaped eyes with visible dark eyeliner and defined lashes present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image features a woman dressed in a historical style gown, but the blurred face prevents direct observation of any detail related to eye shape, eyeliner, or lashes. Hence, there is no visual evidence in Image B to confirm the presence of such facial features.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the woman smiling with visible upper teeth in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Due to the blurred face in the edited image, it's not possible to observe any expressions such as a smile or visible teeth. The blurred area obscures all facial expressions that might indicate a smile.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the nose with a straight bridge and rounded tip present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The blurred face in the edited image does not allow for a clear observation of the nose shape or its features. Hence, there is no evidence in Image B to ascertain the specific shape of the nose.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the woman have light skin with a warm undertone in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman's visible skin tone appears light and possibly has a warm undertone, judging by the ambient light and the portrayal of skin in historical-themed visuals.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the woman's body silhouette consistent with the original — upright, slender build, and proportional limbs — in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on the edited image, the woman maintains an upright posture, her dress enhances a slender build perception, and the visible portion of her arms and hands appear proportional. These observations align with the description of the body's silhouette.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is a silver necklace with a small pendant visible around the woman’s neck in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, there is a necklace around the woman's neck, but despite it appearing elegant, its specific description in terms of material (silver) or pendant size is not identifiable from the visible cues. There is only general evidence of a necklace.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the woman’s dark brown hair visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "The edited image depicts the woman having historical-themed, styled hair, which is part of the outfit consistent with the historical setting. The hair color is styled as white or silver, not dark brown.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.35714285714285715
+}

@@ -1,0 +1,105 @@
+Description of reference image: The subject is a woman standing on a stone-paved pathway, facing slightly away from the viewer with her body angled to the right and head turned back over her shoulder. She wears an elaborate, floor-length kimono in vibrant red with intricate floral patterns in pink, blue, and white, featuring a long trailing sleeve and ornate obi tied at the waist with decorative fabric accents. Her dark hair is styled in a traditional updo adorned with a cluster of pink cherry blossoms and small golden ornaments. The background consists of a tunnel-like archway formed by blooming cherry blossom trees with dense clusters of soft pink flowers, their branches extending overhead. The path is bordered by evenly spaced cylindrical wooden posts on both sides, leading into a hazy, luminous distance where the light diffuses through the blossoms. Fallen petals are scattered along the edges of the path and grassy areas. The atmosphere is ethereal, with soft lighting and a warm, dreamlike glow emanating from the center of the scene.
+
+Thinking process: First, analyze the editing instructions word by word:  
+- "Transform the image into a traditional Japanese woodblock print" → indicates a complete stylistic transformation (e.g., flat colors, bold outlines), but does not specify removal of core subject or scene elements.  
+- "Depicting a graceful figure in an ornate kimono" → confirms the presence of a person in a kimono must remain, though style may change.  
+- "With bold outlines and flat colors" → implies changes to rendering technique, not elimination of elements.  
+- "Stylize the cherry blossoms with simplified forms and muted pinks" → allows simplification and color adjustment, but not removal.  
+- "Rework the path and poles with textured patterns" → allows texture modification but not structural removal.  
+- "Background should mirror classic ukiyo-e landscapes with distant rolling hills" → introduces new background content (rolling hills), which implies that the original background (blossom tunnel) may be altered or replaced. However, the instruction says "mirror," not "replace entirely," so some original spatial structure may persist.  
+
+Allowed Changes List:  
+- Rendering style (woodblock print aesthetic): allowed change  
+- Color palette (especially for blossoms and kimono): allowed change (muted pinks, flat colors)  
+- Line work (bold outlines): allowed change  
+- Texture of path and poles: allowed change (textured patterns)  
+- Background composition (addition of rolling hills): allowed change  
+- Simplification of cherry blossom forms: allowed change  
+- Overall artistic medium and tone: allowed change  
+
+Step 2 - Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements:  
+- The subject is a woman in a kimono — this is central to the identity of the scene. Even if stylized, the presence of a human figure in traditional attire must remain. The posture (turned back, looking over shoulder) is a key compositional feature that defines the moment and emotional tone.  
+- The kimono’s ornate design — while colors and patterns can be flattened, the fact that it is a long, flowing kimono with a wide sleeve and trailing hem must be preserved. Its function as traditional dress and visual centerpiece cannot be lost.  
+- The cherry blossom theme — although simplified, the presence of blossoms as dominant flora in the canopy must remain; they define the seasonal and cultural context.  
+- The path structure — a straight, stone-paved walkway bordered by vertical posts is a key spatial element. While textures can change, the linear arrangement and alignment must be retained to preserve the sense of depth and journey.  
+
+Functional/logical association elements:  
+- The figure’s position on the path — she stands centered, creating balance and focus. This spatial relationship between subject and environment is essential to the composition. Changing her location would disrupt the intended narrative.  
+- The direction of gaze — looking back toward the viewer adds intimacy and engagement. This pose is critical to the emotional resonance and cannot be arbitrarily changed without altering the mood.  
+
+Non-modified element deduction:  
+After excluding allowed changes (style, color, texture), the following must remain:  
+- The subject’s gender and general form (woman)  
+- The kimono's length and sleeve shape  
+- The presence of blossoms in the tree canopy  
+- The linear path with posts on both sides  
+- The figure’s posture (back-facing, head turned)  
+- The overall scene layout: figure in foreground, path receding into distance under a floral arch  
+
+Preservation Targets List:  
+- The presence of a female figure wearing a full-length kimono  
+- The kimono’s long trailing sleeve and wide hem  
+- The figure’s posture: standing sideways, head turned back toward viewer  
+- The stone-paved path with evenly spaced cylindrical posts on both sides  
+- The arching cherry blossom canopy overhead  
+- The fallen petals along the path edges  
+- The directional perspective of the path leading into a glowing distance  
+
+{
+    Q1: 
+    Thinking process: The presence of a female figure in a kimono is the core identity of the image. Without this figure, the cultural and thematic essence of the scene is lost. The kimono itself, especially its long trailing sleeve and wide hem, is a defining feature of traditional Japanese attire and must be preserved even if stylized. This element is critical for recognition and cultural authenticity.
+    Question: Is there a female figure wearing a full-length kimono with a long trailing sleeve and wide hem?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The figure’s posture—standing sideways with head turned back over the shoulder—is a key compositional and emotional anchor. It establishes the viewer’s connection and creates narrative tension. Any alteration to this pose would fundamentally change the intended mood and interaction.
+    Question: Is the figure positioned with her body angled to the right and her head turned back toward the viewer?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The stone-paved path with evenly spaced cylindrical wooden posts on both sides is a structural element that defines the spatial progression and symmetry of the scene. It provides the framework for the figure’s placement and guides the viewer’s eye. Its presence is essential for maintaining the original layout.
+    Question: Is there a straight stone-paved path bordered by evenly spaced cylindrical wooden posts on both sides?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The arching cherry blossom canopy overhead is the defining environmental feature, establishing the season, setting, and romantic atmosphere. Even if simplified, the presence of flowering trees forming an overhead tunnel must be retained to preserve the iconic imagery.
+    Question: Are there cherry blossom trees forming an arching canopy overhead with dense pink blooms?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q5: 
+    Thinking process: Fallen petals along the path edges contribute to the realism and seasonal detail of the scene. They reinforce the idea of transient beauty, a key theme in cherry blossom imagery. While they may be simplified, their presence enhances visual coherence and cultural symbolism.
+    Question: Are there fallen cherry blossom petals scattered along the edges of the path and surrounding grass?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The direction of the path leading into a glowing, hazy distance creates depth and a sense of journey. This vanishing point is crucial for the composition’s perspective and mood. Even if stylized, the forward-leading line must remain intact.
+    Question: Does the path extend straight ahead into a softly glowing, misty distance?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The figure’s hair is styled in a traditional updo with a visible cluster of pink cherry blossoms and golden ornaments. This accessory is a specific detail that ties her appearance to the natural surroundings and enhances cultural authenticity. While colors may shift, the presence of floral adornment in the hair must be preserved.
+    Question: Is there a floral ornament, specifically a cluster of pink cherry blossoms and golden details, in the figure’s hair?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

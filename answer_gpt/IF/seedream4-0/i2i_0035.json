@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0035",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image contain the exact title “Today’s Balanced Lunch” at the top?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features bold, white text at the top which reads 'Today’s Balanced Lunch'. The use of color contrast in the text against the orange background helps make it legible and clear. Common sense tells us that such placements usually designate a title, and the wording matches the provided text to check against.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a placeholder for the school logo located at the bottom right corner of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bottom right corner features a small logo which looks like a placeholder for a school's branding or mascot, as it is typical for educational materials to include institutional branding for ownership or identification purposes. The design resembles a cartoon cow, which matches the typical style of school mascots or logos.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Have the colors in the food and background been visibly enhanced to appear more vivid and bright?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the colors of the food items and the background appear more vibrant compared to typical natural food colors, suggesting an enhancement for visual appeal. The orange background contrasts starkly against the white plate and makes the image eye-catching, a common technique in marketing or educational media to draw attention.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are white outlines visible around the edges of all items on the plate in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, there are no visible white outlines around the edges of the food items or the plate. Such outlines would typically be used to separate objects visually for creativity or emphasis, which is not observed here.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the image been formatted to fit an A4 vertical layout, ensuring proper alignment of text and imagery?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "An A4 vertical format typically includes a portrait orientation with specific dimensions, such as 8.27 x 11.69 inches. In Image B, although the orientation appears more vertical due to the additional space taken by the title and potential school logo, without proper measurement tools or explicit indicators, it is not possible to conclusively determine if it precisely fits an A4 layout.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

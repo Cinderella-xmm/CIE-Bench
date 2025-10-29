@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1005",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the facial features and accessories (hats, glasses) precisely detailed and recognizable?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the focus is on determining the clarity and recognizability of features and accessories like hats and glasses. The hats are visible and distinct (grey, red, and fur-lined). World knowledge suggests that for facial features and accessories to be considered precise, they must be easily identifiable and detailed. Based on the visual cues, the hats are recognizable, but due to the image's nature, there are no glasses present, and the facial details are not meant to be part of the evaluation as per instructions.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the distinct colors and styles of the winter jackets (blue, yellow, green) retained?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases three individuals wearing winter jackets of distinct colors: one in blue, another in yellow, and the third in green. These colors are deliberately chosen for their distinctiveness, allowing for easy differentiation. The styles are typical for winter jackets, being puffy and providing warmth. World knowledge about clothing confirms these basic attributes are easily identifiable.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the individuals positioned in front of the log cabin, maintaining the original spatial relationship?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the three individuals stand closely together in front of a log cabin. Their poses and arrangements suggest they are aligned to showcase unity and friendship, common when taking such photos. Comparing with Image A, the spatial relationships in Image B align with typical group photo arrangements, indicating no considerable change in positioning.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the ski poles still present and held by the individuals?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Observing Image B, each individual holds a pair of ski poles, a typical accessory for skiing. The presence and holding posture of these poles indicate readiness for skiing activity. Considering the typical use of ski poles in snow scenes, we can infer that the edited image maintains these elements, similar to Image A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the rustic texture of the log cabin retained, even though its scale may be reduced?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the log cabin retains its characteristic rustic appearance made evident by its wooden logs and traditional structure. Rustic design aesthetics often include visible wood and simple construction techniques, and these attributes are observable. Comparing it with Image A, the scaling appears slightly adjusted but does not disrupt its rustic nature or the perception of the log cabin’s texture.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7
+}

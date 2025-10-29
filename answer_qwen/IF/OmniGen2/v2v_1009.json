@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1009",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the bowl made of a transparent glass-like material?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The bowl in Image B appears to be white and opaque, with no visual cues suggesting transparency. The material looks solid and matte, which is typical for ceramic or plastic bowls rather than glass. There are no reflections or light passing through the bowl that would indicate it is made of a transparent glass-like material.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the vegetables have a fresh and slightly damp surface texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The vegetables in Image B do not exhibit a fresh and slightly damp surface texture. Instead, they appear smooth and have a somewhat artificial look, lacking the natural imperfections and slight variations in texture that would suggest freshness and moisture. This observation is based on the uniformity and glossiness of the surfaces, which seem more like rendered graphics than real vegetables.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the image show angled lighting from above with soft ambient fill, creating highlights and soft shadows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is evidence of angled lighting from above, as indicated by the highlights on the top surfaces of the vegetables and the soft shadows cast beneath them. The presence of soft ambient fill is suggested by the even distribution of light across the scene, minimizing harsh contrasts. This type of lighting setup is common in studio photography or 3D rendering to create a visually appealing and realistic effect.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the background a neutral gray with a subtle vignette gradient and smooth texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B is indeed a neutral gray with a subtle vignette gradient, darker at the edges and lighter towards the center. The smooth texture of the background suggests a controlled environment, likely a digital creation or a carefully set up studio shot, designed to keep the focus on the subject without distractions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the colors of the vegetables naturally vibrant with a soft glow effect?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The colors of the vegetables in Image B are vibrant but have an unnatural quality due to the soft glow effect surrounding them. This glow gives the impression that the image might be digitally enhanced or part of a 3D render. While the colors are bright and eye-catching, they lack the subtlety and variation typically seen in naturally lit photographs of fresh vegetables.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

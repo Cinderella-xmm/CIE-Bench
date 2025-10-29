@@ -1,0 +1,71 @@
+{
+  "filename": "laion_9084600256631033263",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the glass bottle form retain the original car’s side profile and curvature without visible warping or disproportionate scaling?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the glass bottle design is smooth and rounded, characteristic of bottles. The side profile and curvature of the bottle are uniform and do not show any features resembling a car's profile. A car's profile includes elements like doors and wheels, which are absent on a bottle. Given the visual cues and common sense about vehicle design, the bottle does not retain the car's profile, indicating disproportionate scaling relative to a car's structure.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the faceted glass stoppers aligned with the original headlight positions and do they show consistent lighting and reflection patterns with the surrounding glass?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B independently, the glass stopper is a faceted design that sits atop the bottle. The position of the stopper is not related to the headlight positions from Image A as the bottle design does not have comparable features to align with headlight positions. Light reflections on a stopper are influenced by the facets and surrounding glass, and these do not directly correlate to the lighting patterns in car headlights. In Image A, headlights are structured differently and located in positions that do not relate to the current stopper's location.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the gear-shaped lid positioned centrally on the roof and securely connected to the glass body without visible seams or floating edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The analysis of Image B shows there is no gear-shaped lid present, nor does it appear to have any floating edges. The apparent stopper fits smoothly over the bottle opening without visible gaps or seams, reflecting a centralized and secure design common for bottles. Based on the bottle's design traits, there is no lid with gear-like attributes typically found on vehicles, indicating a continuity without seams.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the embossed Datsun emblem clearly visible on the front of the glass bottle and does it maintain proper depth and clarity without surface distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In examining Image B, the front of the bottle has embossed lettering that appears to be branding or design-related, but specifics regarding the Datsun emblem are indistinguishable. The visual analysis does not reveal any distortion or lack of clarity in label visibility. Image A includes the clear presence of the automobile brand Datsun emblem prominently on the car front, but there is no evidence of this detail transferred directly to the bottle front in Image B beyond the decorative design indicating a distinct lack of marked branding.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the glass body display natural reflections and highlights across its surface without abrupt transitions or artificial sheen?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the glass bottle with seamless natural reflections, evident from the symmetry and even highlights distributed across the surface. The reflections are consistent with glass properties, showing variations due to external light sources. There are no marked abrupt transitions or instances of artificial sheen; the reflections align with the typical glass characteristics. On comparison, Image A depicts a polished car surface which might share a gloss but lacks glass transparency, indicating non-comparative reflection quality.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.2
+}

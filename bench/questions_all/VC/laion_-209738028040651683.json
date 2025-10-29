@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The shape of the eyes, particularly the almond-shaped form with dark eyeliner and defined lashes, is a core facial identifier in the original image. This feature contributes significantly to the subject’s individuality and expression. If altered beyond recognition (e.g., changing eye shape or adding false lashes), the identity of the subject would be compromised. Since the instruction does not specify changing the eyes, and only adds a wig and pearls, the eye structure should be preserved. This is a key identification feature, making it a 3-point question.",
+      "question": "Are the almond-shaped eyes with visible dark eyeliner and defined lashes present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The presence of a wide, genuine smile showing upper teeth is a defining expression in the original image. It conveys emotion and personality, contributing to the subject’s identity. The instruction does not mention changing the facial expression, only adding a wig and pearls. Therefore, the smile should remain consistent. Loss of this feature would alter the emotional tone and identity of the subject. This is a high-priority facial feature, hence 3 points.",
+      "question": "Is the woman smiling with visible upper teeth in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The nose shape — specifically the straight bridge and rounded tip — is a unique facial landmark. Altering it would affect facial recognition. The instruction does not mention modifying the nose, so it should remain unchanged. Though less critical than eyes or mouth, it is still a core biometric feature. Its retention ensures consistency in identity, warranting a 2-point weight.",
+      "question": "Is the nose with a straight bridge and rounded tip present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The skin tone of the subject is light with a warm undertone, visible across the face and arms. This is a physical attribute not mentioned for change in the instruction. Although lighting may shift in the Rococo scene, the underlying skin tone should remain consistent to preserve realism and identity. Changing it drastically (e.g., to porcelain-white or golden) would be inconsistent with the original. This is a secondary but important identifier, so assigned 2 points.",
+      "question": "Does the woman have light skin with a warm undertone in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The general body silhouette — specifically the height, shoulder width, and torso proportions — is essential for maintaining the subject’s identity. Even if the dress changes, the underlying body shape should remain consistent. The instruction does not specify altering body proportions, only clothing and pose. Thus, preserving the basic human form and posture alignment (e.g., upright stance) is necessary. This is a structural identity element, vital for coherence, so weighted at 2 points.",
+      "question": "Is the woman's body silhouette consistent with the original — upright, slender build, and proportional limbs — in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The presence of a silver necklace with a small pendant is a minor accessory but a visible detail in the original image. Although the instruction says to \"accessorize with pearls,\" it does not require removing the existing necklace entirely. However, since pearls are to be added, the original necklace may be replaced. But if it is absent, it would be a loss of detail. Still, this is a low-level detail, not critical to identity. Hence, it is a 1-point question.",
+      "question": "Is a silver necklace with a small pendant visible around the woman’s neck in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The woman’s dark brown hair is a core feature, though the instruction specifies replacing it with a powdered wig. However, the original hair color and length are part of the identity before transformation. Since the instruction mandates a powdered wig, the original hair is not expected to remain. Therefore, this is **not** a preservation target. But if the instruction had not mentioned the wig, it would be. Since it does, we do not ask about it. Instead, we focus on what is not changed.",
+      "question": "Is the woman’s dark brown hair visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "No",
+      "weight": 1
+    }
+  ]
+}

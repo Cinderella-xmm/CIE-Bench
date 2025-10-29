@@ -1,0 +1,110 @@
+{
+  "filename": "laion_-2973406278626555832",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the edited image divided into two distinct panels?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, I observe two separate sections, each with its unique content. The first section resembles a comic panel featuring an individual holding a vape device and a speech bubble with explanatory text, while the second section focuses on a detailed cross-sectional diagram. This division into distinct panels is a common feature in comic strips to present different parts or actions of the story.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the vape device in Panel 1 rendered in a detailed and realistic manner, showing it in use?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Panel 1, the illustration includes a person holding a vape device close to their mouth, accompanied by a speech bubble explaining its function. However, the style is more simplified and illustrative than highly detailed or realistic. It resembles traditional comic art, focusing more on delivering the narrative rather than rendering in realistic detail.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does Panel 1 include a text bubble with the exact phrase “This device vaporizes liquid at low temperatures.”?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Panel 1 of the edited image, there is indeed a speech bubble next to the person holding the vape device. The text within this speech bubble is clearly the exact phrase mentioned in the question, providing information about the functioning of the device.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does Panel 1 have a background depicting a simplified laboratory setting that suggests innovation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Panel 1 includes elements like beakers and other laboratory-related items, stylized in a simplified manner typical of comic art. This setting, while not complex or detailed, suggests a laboratory environment, which may subtly imply a sense of innovation or scientific inquiry.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does Panel 2 display a cross-section diagram of the vape device with clear labels for coil, liquid, battery, and airflow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Panel 2 of the edited image features an illustrative cross-section of the vape device, labeled with parts such as 'coil,' 'liquid,' 'battery,' and 'airflow.' The visual representation and labeling provide a clear and informative breakdown of the device’s internal components.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does Panel 2 include a text box with the exact phrase “Understanding its internal magic!”?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Panel 2, there is a text box that contains the exact phrase “Understanding its internal magic!” positioned near the cross-section diagram. It serves to introduce what the subsequent illustration and labels will cover.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is all text in the comic strip rendered in a handwritten-style font?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text throughout both panels uses a handwritten-style font typical of comic strips, which adds a casual and approachable feel to the informational content, enhancing the strip’s illustrative and informal nature.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q8",
+      "question": "Is the vape device in the comic strip visually consistent with the one shown in the original image (black cap, transparent body, etc.)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing the visual elements in the edited image (Panel 1 primarily) and the original image, the vape device shares key design features like a black top and transparent section which implies these common physical characteristics. However, the comic simplifies the design for illustrative purposes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.875
+}

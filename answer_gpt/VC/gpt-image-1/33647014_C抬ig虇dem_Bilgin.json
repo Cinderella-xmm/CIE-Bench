@@ -1,0 +1,110 @@
+{
+  "filename": "33647014_C抬ig虇dem_Bilgin",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the alternating pattern of light and dark squares on the chessboard preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chessboard shows a clear alternating pattern of light and dark squares, which is typical for a chessboard. This pattern is crucial for gameplay as it helps define the movement and positioning of pieces. Given the visible squares in the edited image continue this pattern, it's reasonable to conclude the pattern is preserved.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the king located in the central position of the visible row of black pieces?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pieces have been transformed into fantasy characters but maintain their formation. The second position from the left, typically reserved for the queen, is occupied by the fire entity (bishop equivalent). Therefore, the central position would be the third from the left (the water entity), suggesting the black king would occupy this spot.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there exactly two bishops, two knights, and at least four pawns visible in their original positions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the original chess pieces have been replaced with fantasy figures, but their relative positions are maintained. There are no visual cues indicating the presence of two bishops, two knights, and four pawns; hence it's not possible to identify these pieces definitively.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the shadows of the chess pieces extend diagonally toward the bottom-left of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, shadows are visible beneath the fantasy characters, extending towards the bottom-left corner of the frame. This indicates the light source is positioned above and to the right, casting shadows diagonally in the specified direction.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the wood grain texture of the chessboard surface visible across the light squares?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chessboard maintains a wood grain texture clearly visible on the light squares. This texture provides a natural and realistic appearance, implying the preservation of the board’s original material design.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is there a blurred background with horizontal structural lines visible behind the chessboard?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background appears blurred, suggesting a focus on the foreground elements. While the edited image does not exactly retain the horizontal structural lines from Image A, there is a blurred effect consistent with the depth of field.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are there exactly eight black chess pieces visible in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the original chess pieces are replaced with fantasy characters. Counting these characters reveals that there are seven visible fantasy figures, reflecting their replacement of chess pieces. This does not match the original count of eight pieces.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q8",
+      "question": "Is the background of the image blurred while the foreground pieces are in sharp focus?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the fantasy characters in the foreground are indeed in sharp focus, showing rich detail, while the background remains blurred. This effect is often used in photography to draw attention to the primary subject.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5882352941176471
+}

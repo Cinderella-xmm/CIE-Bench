@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-3380433821817858999",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image now structured as a multi-panel infographic with at least three distinct steps?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are clearly defined sections labeled as steps, which indicate a sequence of actions to follow. The text 'Master the Power Jump' suggests a tutorial or guideline format, typical of infographics. There are multiple step numbers visible, which confirms the multi-panel structure.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a panel showing a simple figure in a kneeling position with bent arms pulled back, labeled as \"Step 1: Positioning: Kneel with bent arms back\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are panels illustrating different stages of the power jump. However, there isn’t a panel specifically labeled as 'Step 1: Positioning: Kneel with bent arms back.' The instructions visible include different texts, but not this exact phrase. The position described is partially visible in one of the images, but the labeling does not match.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a panel showing an explosive leaping motion with visual cues of propulsion (e.g., motion lines, energy burst), labeled as \"Step 2: Leap Attack: Propel using core strength\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does depict a leaping motion accented by motion lines indicating propulsion, giving a sense of energy and action. The panel is labeled as 'Step 2: Leap Attack: Propel using core strength,' confirming this description.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a panel showing the figure mid-air with knees tucked tightly, labeled as \"Step 3: Mid-Air Adjustment: Tuck knees tightly\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B includes a sequence where the figure is depicted mid-air, with a loose structure and bent limbs suggesting flexibility and mobility. However, the label 'Step 3: Mid-Air Adjustment: Tuck knees tightly' is not exactly present; the text is not visible with this exact representation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the illustrations rendered with bold outlines, vibrant blues and whites as dominant colors, and captions written in energetic, stylized fonts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The second image contains illustrations with strong bold outlines. The colors used prominently are blue and white, aligning with the thematic colors of the character depicted. The captions are stylized in a dynamic font, which enhances the energetic feel typical of action-oriented infographics.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

@@ -1,0 +1,97 @@
+{
+  "filename": "laion_4275911921816387814",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the blade visibly curved in the same manner as in the original image, extending from the guard to a pointed tip?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the blade has a similar curved shape extending from the guard to an end point, maintaining the same overall form as seen in Image A. This suggests that despite the transformation in material or texture, the curvature of the blade is consistent with the original design.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the hilt retain the segmented, block-like pattern along its length, similar to the original?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the hilt appears to have a fuzzy texture, which lacks the segmented, block-like pattern seen in Image A. The original image features a structured, segmented design that is not present in the edited version.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the guard decorated with intricate floral and geometric patterns, matching the original design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the guard with a fuzzy material rather than intricate floral and geometric patterns. In Image A, the guard is clearly decorated with detailed engravings, which are absent in the edited image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the blade covered with a dense black filigree pattern, matching the original in layout and coverage?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The blade in Image B seems to have a pattern resembling the original dense black filigree. While the materials appear different, the overall layout of the pattern is retained between the two images.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the proportions between the hilt, guard, and blade preserved, with the blade being longer than the hilt?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both images, the blade is noticeably longer than the hilt, and the proportions among the hilt, guard, and blade are consistent. This indicates that despite any texture or pattern changes, the overall size and ratio between parts are maintained.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the blade end in a pointed tip, consistent with the original?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The analysis of Image B shows that the blade does not clearly end in a pointed tip but instead seems to be covered in a soft, rounded material, which differs from the original pointed metallic tip in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the dagger positioned diagonally across the frame, from upper left to lower right, as in the original?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both Image A and Image B display the dagger diagonally positioned across the frame from the upper left corner to the lower right, indicating that the orientation of the dagger remains consistent.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

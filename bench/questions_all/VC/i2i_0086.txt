@@ -1,0 +1,75 @@
+### Step 1 - Analyzing Allowed Changes
+
+#### Description of Reference Image:
+The subject is a modern bathroom sink area with a central focus on a large circular mirror with an illuminated frame. The mirror reflects the interior's dark walls and ceiling lights. Below the mirror, there is a sleek, black vanity cabinet with a white countertop, housing a rectangular sink with a black faucet. A vase with delicate branches of flowers sits atop the counter. The walls are clad in light marble tiles with subtle veining, and there are wall-mounted sconce lights flanking the mirror. A black trash bin is positioned to the left, and a window with a dark frame occupies the right side of the image.
+
+#### Thinking Process:
+The instructions specify adding a golden butterfly above the mirror while requiring consistency with lighting and environment. Therefore:
+
+- **Allowed Changes**: The presence and appearance of a new subject (golden butterfly) above the mirror, ensuring it blends with the lighting and environment.
+- **Not Allowed Changes**: Any alteration to the existing elements apart from introducing the butterfly.
+
+#### Allowed Changes List:
+- Addition of a golden butterfly above the mirror with proper lighting and environmental consistency.
+
+### Step 2 - Determining Elements That Should Remain Unchanged
+
+#### Thinking Process:
+- **Core Recognition Elements**: The circular mirror, black vanity, marble wall tiles, window with dark frame, and vase with flowers are defining features of this bathroom setting. Changing them would alter its identity.
+- **Functional/Logical Association Elements**: The mirror’s reflective properties, placement of vanity relative to the mirror, and the relative positions of the wall sconces and window must remain intact for logical consistency.
+- **Remaining Elements**: Details like the black trash bin, the specific type of flowers, and the faucet design contribute to visual coherence and should be retained.
+
+#### Preservation Targets List:
+- Circular mirror with illuminated frame
+- Black vanity with white countertop and sink
+- Light marble wall tiles with veining
+- Wall sconces and their positions
+- Window with dark frame and natural light
+- Black trash bin and vase with delicate branches of flowers
+
+### Step 3 - Generating Questions to Detect Retention
+
+{
+    Q1:
+    Thinking process: The circular mirror is a core recognition element of this space. Its illuminated frame is essential for the modern aesthetic. Losing either would compromise the core identity of the image.
+    Question: Is the large circular mirror with an illuminated frame present above the black vanity?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2:
+    Thinking process: The black vanity with a white countertop is central to the composition and functionality of this bathroom. Altering its appearance could disrupt the scene's balance.
+    Question: Does the black vanity cabinet have a white countertop hosting a rectangular sink with a black faucet?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3:
+    Thinking process: The light marble wall tiles define the background and are critical to the room's aesthetic. Their texture and veining create depth and uniqueness.
+    Question: Are the walls covered in light marble tiles with subtle veining?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4:
+    Thinking process: The wall sconces flanking the mirror provide necessary lighting and visual symmetry. Their absence or alteration would disturb the environment's balance.
+    Question: Are two wall sconces mounted on either side of the mirror, providing ambient light?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5:
+    Thinking process: The vase with delicate branches of flowers adds a touch of natural elegance to the scene. While a minor detail, it contributes significantly to the visual harmony.
+    Question: Is there a black vase with delicate flowering branches placed on the white countertop?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

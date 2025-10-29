@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_120_14",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the background composed of vertical wooden planks with patches of peeling red paint?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background consists of wooden planks arranged vertically, with visible sections of peeling paint, which is predominantly red. The visual characteristics of these planks match the description of a background with peeling red paint, which is a common appearance for aged or weathered wooden materials. This deduction is based on the visible texture and color contrast typical of wood with worn paint.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the floorboards made of rough, aged wood with visible grain and gaps between planks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a floor composed of wooden planks. The texture appears rough and aged, which can be deduced from the visible grain and the gaps between the planks. This description aligns with the characteristics of older wooden flooring, where time and wear have created a textured surface and separation between boards.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a red circular reflector attached to the rear fender near the wheel?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no visible bicycle or standard bicycle components like a rear fender. Instead, the image shows a steampunk mechanical object with intricate gears and mechanical parts, and therefore, lacks a red circular reflector typical of a bicycle's rear fender.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a wire mesh basket mounted on the front handlebars?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not feature traditional bicycle handlebars or a mesh basket. Instead, it depicts a steampunk-style mechanical insect with metal components, gears, and no identifiable bicycle handlebars or basket. The absence of standard handlebars precludes the presence of a wire mesh basket, therefore.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a metal luggage rack mounted above the rear wheel?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image (Image B), the mechanical device does not show any traditional bicycle components such as wheels or a luggage rack. Therefore, there is no metal luggage rack visible in the setup, only gears and mechanical parts that make up the steampunk design.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are soft shadows cast by the bicycle onto the wall and floor, indicating directional lighting from the left?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject is not a bicycle but a mechanical construct with multiple gears and limbs. The lighting does create shadows on the background wall and floor, showing that there are soft shadows and some directionality of lighting. However, there's no bicycle present to cast those shadows. Therefore, assessing it strictly as the previous question of a bicycle situation is not applicable, but the lighting logic applies.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4166666666666667
+}

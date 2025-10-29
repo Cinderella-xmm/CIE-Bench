@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0087",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the clock appear to protrude from the wall surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The clock in Image B visually appears to be protruding from the wall because it casts a shadow on the blue background. Combined with the world knowledge of how objects cast shadows when they are not flush against a surface, the shadow supports the conclusion that the clock protrudes from the wall. Therefore, the clock appears to have depth and is not flat against the wall.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the clock cast a realistic shadow on the wall behind it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a shadow stretching diagonally from the clock towards the bottom right, suggesting the direction of light is coming from the opposite side. This shadow aligns with world knowledge about how protruding objects cast shadows under direct light, creating a realistic perception of depth. Therefore, the shadow appears realistic.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Have the edges of the clock been modified to indicate it is not flush against the wall?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edges of the clock in Image B project a shadow on the wall surface, which indicates the clock is raised from the wall. This visual cue, combined with the world knowledge of shadows creating depth perception, confirms modification to suggest the clock's edges are not flush against the wall.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there evidence of lighting changes around the clock to enhance its three-dimensional look?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows adjustments in lighting, as evidenced by the directional shadow cast by the clock, contributing to a three-dimensional appearance. This matches the world knowledge that lighting is used to enhance depth perception in imagery, indicating deliberate lighting changes around the clock.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the clock maintained a completely flat appearance, or does it now show signs of depth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No\n```",
+      "explanation": "The clock in Image B reveals a shadow suggesting depth, which contrasts with a completely flat appearance. This observation, along with world knowledge on shadow utilization to exhibit three-dimensional effects, indicates the clock shows signs of depth.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

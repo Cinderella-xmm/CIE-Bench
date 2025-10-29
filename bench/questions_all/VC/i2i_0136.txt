@@ -1,0 +1,71 @@
+### Step 1 - Analyzing Allowed Changes
+
+**Description of reference image:**  
+The subject is an orange fruit placed on a white plate. The orange has a prominent glossy texture and a natural stem at the top. The background is simple and neutral, with a gradient shadow highlighting the orange.
+
+**Thinking process:**  
+The editing instruction states transforming the orange into a rubber keychain model while preserving the stem and glossy texture. This implies that the form can be altered to resemble a keychain but must retain the visual identity of an orange.
+
+**Allowed Changes List:**  
+1. The physical form of the orange can be changed to resemble a keychain.  
+2. The size and scale may be adjusted to fit the keychain design.  
+3. The background can be entirely replaced or altered since there is no specific instruction to retain it.
+
+### Step 2 - Determining Unchanged Elements
+
+**Thinking process:**  
+The core identity of the orange should be preserved, specifically its stem and glossy texture. Functional/logical associations include ensuring that the orange maintains its distinctiveness even as a keychain. Visual coherence demands retaining the general orange color and surface imperfections.
+
+**Preservation Targets List:**  
+1. The stem of the orange (core recognition element).  
+2. The overall glossy texture of the orange (functional/visual identity).  
+3. The orange color (non-modified color detail).  
+4. Surface imperfections and texture patterns (minor detail for visual consistency).  
+5. The shape and proportions relative to the plate (logical association).
+
+### Step 3 - Generating Verification Questions
+
+{
+    Q1: 
+    Thinking process: The stem is a critical identifier of the orange, and losing it would make the subject unrecognizable as an orange. Hence, it’s a key element with a weight of 3 points.
+    Question: Does the edited image retain the green stem at the top of the orange?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The glossy texture is essential for the orange's realistic appearance. Without it, the keychain wouldn't look like an orange. This is a core identity feature with a weight of 3 points.
+    Question: Is the glossy texture of the orange still present on the keychain model?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: Maintaining the orange color is crucial for visual consistency. Changing the color would compromise the orange's identity. This is a core element with a weight of 2 points.
+    Question: Is the keychain primarily colored in an orange hue?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: Surface imperfections and texture patterns add realism and uniqueness to the orange. Losing them might reduce the image's authenticity but not completely obscure its identity. Thus, it is a detail-level feature with a weight of 1 point.
+    Question: Do the surface imperfections and texture patterns of the orange persist on the keychain model?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q5: 
+    Thinking process: The shape and proportions relative to the plate provide context and scale. Altering this could disrupt visual coherence. This is an important visual element with a weight of 2 points.
+    Question: Does the keychain maintain a proportional size and shape relative to the plate it rests on?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

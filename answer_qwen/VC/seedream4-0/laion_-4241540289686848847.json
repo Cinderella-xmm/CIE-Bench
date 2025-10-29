@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-4241540289686848847",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the character retain the golden-yellow eye color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character's eyes are clearly visible and exhibit a distinct golden-yellow hue. This is consistent with the eye color seen in Image A, where the same character also has golden-yellow eyes. The lighting in Image B is dimmer and more atmospheric, but it does not obscure or alter the eye color; instead, it enhances the luminous quality of the irises. Based on visual analysis and common knowledge about digital character rendering—where eye color is typically preserved across different scenes unless explicitly changed—the golden-yellow eye color remains consistent. Therefore, the character retains this feature.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the character’s facial structure (jawline, cheekbones, nose shape) preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character’s face shows a sharp jawline, prominent cheekbones, and a straight, well-defined nose—features that are characteristic of the original design. Comparing this to Image A, the same facial proportions are evident: the symmetry, bone structure, and overall facial geometry remain unchanged. Despite differences in lighting and environment (Image A has a more neutral outdoor setting, while Image B is indoors with ambient magical lighting), the underlying 3D model appears to be the same. In video game and animation workflows, especially in titles like those developed by Square Enix, character models are reused across scenes with consistent topology. Thus, the facial structure is preserved.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the character’s skin tone and texture preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The skin tone in Image B appears fair and smooth, consistent with the character’s appearance in Image A. The texture is detailed, showing subtle pores and natural shading that suggest high-resolution modeling. While Image B uses cooler, bluish ambient lighting due to the alchemical lab setting, this does not alter the base skin tone—it only affects surface reflectivity. In contrast, Image A features warmer lighting, which slightly enhances red tones, but the fundamental skin color remains the same. Digital artists typically maintain consistent skin textures across scenes to preserve character identity. Therefore, both tone and texture are preserved despite environmental lighting differences.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the character’s body proportions and stance preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character stands upright with a confident posture, holding a staff in one hand. The body proportions—such as the length of limbs, torso size, and head-to-body ratio—are consistent with those in Image A. Both images depict the character with slender build and balanced proportions typical of fantasy protagonists. Although Image A shows the character from a closer, more frontal view, and Image B includes more of the upper body and surroundings, the underlying skeletal structure and musculature appear identical. This consistency suggests that the character model was not re-scaled or distorted. Hence, body proportions and stance are preserved.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the camera angle and lighting direction preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The camera angle in Image B is slightly lower and more angled than in Image A, which is a direct frontal close-up. Image B captures the character from a three-quarter view, emphasizing the right side of the face and the staff. Additionally, the lighting in Image B is directional and dramatic, coming from multiple sources—such as glowing potions and ambient blue light—creating strong shadows and highlights. In contrast, Image A uses soft, even lighting with a diffuse pinkish hue, likely representing dusk or dawn. These differences indicate that the camera angle and lighting direction are not preserved. The change in perspective and illumination is intentional to match the new environment (a magical laboratory vs. an outdoor rocky area).",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the character’s relative position to the background preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the character is positioned in front of a large rock formation under a twilight sky, suggesting an open, natural environment. In Image B, the character is inside a cluttered alchemy lab, standing near a workbench with scrolls, flasks, and magical apparatus. The background has completely changed from natural terrain to an indoor, mystical setting. The character’s placement within the scene is also different: in Image A, they are centered with space around them; in Image B, they are partially framed by objects like the table and shelves. Therefore, the relative position to the background is not preserved. This reflects a scene transition rather than a simple edit of the same shot.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7692307692307693
+}

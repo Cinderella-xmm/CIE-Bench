@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_213",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Do the wings of the butterfly retain their natural texture and pattern without any visible unnatural artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the butterfly is rendered in a voxel-based 3D model style, where its wings are composed of small cubic blocks. While the overall color pattern—orange, black, and white markings—is preserved, the texture is not natural. Instead of smooth gradients and fine-scale patterns seen in real butterflies, the wings exhibit a blocky, pixelated appearance due to the voxel construction. This geometric representation introduces artificial edges and uniformity that are inconsistent with the organic texture of real butterfly wings. Therefore, the wings do not retain their natural texture or pattern; they have been stylized into a digital, low-resolution form.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the proportions and shapes of the butterfly's body and wings consistent with its natural form, avoiding any distortion or deformation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The butterfly in Image B maintains a general resemblance to a real butterfly in terms of overall shape and wing structure. The wings are symmetrical and extend outward from the body in a typical fashion. However, due to the voxel modeling technique, the edges of the wings and body are angular and segmented rather than smooth. The thorax and abdomen appear simplified and lack the subtle curvature and fine details present in biological specimens. While the gross proportions are roughly accurate, the deformation caused by the blocky rendering results in a loss of natural fluidity and anatomical precision. Thus, although the basic form is preserved, there is noticeable distortion due to the modeling style.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the lighting and shading on the butterfly in the 3D model appear natural and consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting appears to be applied uniformly across the voxel model, creating soft shadows and highlights that suggest a light source from above. However, because the butterfly is constructed from discrete cubes, the shading lacks the continuous gradients and subtle interplay of light and shadow found in natural objects. Real butterflies reflect light in a way that creates smooth transitions and surface nuances, which are absent here. The blocky nature of the model causes abrupt changes in brightness at cube boundaries, resulting in an artificial look. Compared to the natural lighting in Image A (which shows realistic softness and depth), the lighting in Image B is less convincing and does not fully mimic natural illumination.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have the fine details, such as the patterns on the wings and the texture of the body, been preserved without any loss or distortion in the 3D model?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The fine details of the butterfly’s wings and body are significantly altered in Image B. In a real butterfly, the wing patterns consist of intricate scales, delicate veins, and subtle variations in color intensity. In contrast, the voxel model simplifies these features into large, distinct blocks. As a result, fine textures like scale gradation or micro-patterns are lost entirely. The body, while maintaining a rough shape, lacks the fine hair-like structures and soft texture observed in real butterflies. Although the general pattern layout is retained, the resolution and fidelity of detail are reduced due to the inherent limitations of voxel rendering. Hence, the preservation of fine details is compromised.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the overall composition and placement of the butterfly in the 3D model appear visually plausible and coherent within the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The butterfly in Image B is positioned on a wooden surface, mirroring the setup in Image A. Its orientation, size, and spatial relationship to the table appear consistent with natural expectations. The model is centered and aligned properly, suggesting intentional placement for visual balance. Despite the stylized, blocky rendering, the butterfly remains recognizable and integrated into the environment without obvious misalignment or floating effects. The background blur and lighting also support a sense of depth and realism in the scene. While the butterfly itself is not lifelike, its placement within the context of the wooden surface is coherent and visually plausible. Therefore, despite the artistic transformation, the overall composition holds together well.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.2
+}

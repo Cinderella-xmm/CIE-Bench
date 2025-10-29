@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-3237677175669155494",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the Elizabeth Tower positioned on the right side of the image with a tall, vertical structure topped by a pointed spire and a clock face near the top?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a prominent structure on the right side that resembles the Elizabeth Tower, known for its tall and narrow design, a clock face near the top, and a pyramid-shaped spire, all characteristics of the iconic tower. These features match the visual and functional description of the Elizabeth Tower.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the building complex on the left side of the image have multiple pointed Gothic spires and a long horizontal facade with repeating arched windows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a building complex on the left that features multiple pointed spires and a horizontal design with windows in a repetitive arched pattern, characteristics of the Gothic architectural style often associated with historic buildings like the Houses of Parliament.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a red double-decker bus labeled with route number 53 traveling across the bridge from left to right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a prominent red double-decker bus visible, but the route number displayed is not 53. World knowledge of buses in London indicates they typically display route numbers, but here the visual detail does not confirm 53.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a bridge with green metal railings and a paved roadway extending across the image from left to right, connecting the buildings to the right side of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly shows a bridge stretching across the frame from left to right. The bridge has green railings and a paved road, characteristics of Westminster Bridge, connecting the buildings despite additional digital edits.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the text “BUS LANE” clearly visible in white lettering on the road surface near the right edge of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, upon observing the road surface near the right edge, the white lettering that reads “BUS LANE” is visible, indicating the designated bus lane, even if slightly altered by edits.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there people visible walking on the sidewalk on the right side of the bridge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, people are noticeably present and walking along the sidewalk on the bridge's right side. This detail aligns with typical scenes of metropolitan pedestrian activity in London.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is there a second red double-decker bus with route number 43 visible further down the road on the right side of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a second red double-decker bus is seen further down the road. However, the displayed route number on this bus is not 43, which contradicts the question detail.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7777777777777778
+}

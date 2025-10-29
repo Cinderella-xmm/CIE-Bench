@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0049",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the large red text \"START\" above the skier still visible and unchanged?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the area that would have displayed any text above the skier is filled with solid, bright green, which contrasts with any notion of text visibility. This suggests that any original text content, like 'START', visible in Image A is obscured or replaced entirely in Image B. Thus, the large red text 'START' is not visible and is changed.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the skier still hold ski poles and is dressed in skiing gear?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the skier is clearly shown holding ski poles, evidenced by visible elongated shapes suggestive of poles based on their metallic and straight appearance. The skier wears attire typical for cold-weather activities such as skiing, including a long-sleeved shirt/jersey, pants, gloves, and a bib, which indicates he is dressed in skiing gear.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the skier's bib with the number \"66\" still visible and unchanged?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the skier's bib displays the number '66' prominently, with legible text and numbers maintained clearly on the bib. There is no noticeable alteration in the bib's number in the edited image, matching its appearance in Image A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the snowy ground and visible ski tracks still present under the skier?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the skier is surrounded by a solid green background, replacing the snowy ground and ski tracks visible in Image A. The indication of snow and tracks typical of a ski environment are not evident in the edited image, as the ground is replaced entirely.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the skier maintain a forward-leaning posture indicating readiness to start the race?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the skier holds ski poles with a pose that suggests forward movement or posture, maintaining a stance typical of skiing, indicating readiness or preparation for a race. This posture remains unchanged compared to the skier's forward posture in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5454545454545454
+}

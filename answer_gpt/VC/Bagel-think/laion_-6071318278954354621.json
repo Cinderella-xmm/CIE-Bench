@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-6071318278954354621",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the original woman’s facial features, including the shape of her eyes, nose, mouth, and jawline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman’s face is blurred, so the distinct facial features such as the shape of her eyes, nose, mouth, and jawline are not visible. Facial recognition is not possible due to the imposed blur effect, making it impossible to determine whether these features are retained.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the original woman’s skin tone preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the visible skin tone on the legs and hands is light. In Image B, the visible skin tones on exposed regions appear consistent with the first image's skin tone, suggesting that the tone is maintained. By observing the hands and any exposed parts of the body, one can determine consistency in skin tone.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image preserve the walking posture with the left leg forward and the right arm bent?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman is standing still, holding a fan with both hands. There is no motion suggesting walking, and the position of the arms is different from those in a walking pose. This indicates that the walking posture from Image A is not preserved in Image B.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the hand positions preserved, with the right hand extended forward and the left hand near the hip?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image A shows the right hand in front and the left hand near the hip, possibly holding a bag. Image B presents both hands holding a fan, which is different from the original positions noted in Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the woman continue to look directly at the camera with the same gaze direction?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features the woman positioned sideways, with no direct indication of her gaze towards the camera. Her face appears faced forward while body posture is side-on, which differs from a frontal camera gaze.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the body shape and proportions of the woman preserved, including her slender frame and leg length?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the woman's body shape and proportions are consistent with Image A in terms of a slender frame and leg length. Both images show a similar structure, with nothing indicating a significant alteration in body appearance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the original volume and curl pattern of the woman’s hair preserved, even if partially obscured or styled differently?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both Image A and Image B depict the woman with noticeable volume and curls. The edited image may not reveal the entire extent of the hair due to styling, but the visible curl pattern and volume appear unchanged.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.35714285714285715
+}

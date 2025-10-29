@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_999",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Have the cabinet and sink been converted into five chibi-style Russian nesting dolls?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are five chibi-style Russian nesting dolls placed on the edge of the bathtub. Comparing Image B and Image A indicates that the cabinetry above the sink remains unchanged. The presence of the dolls in Image B seems merely to be an addition rather than a conversion of existing elements like the sink or cabinet into dolls. This leads to the conclusion that the cabinetry and sink have not been converted into dolls.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the nesting dolls organized from biggest to smallest?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts five nesting dolls lined up in a sequence, decreasing in size from left to right, with the largest on the far left and the smallest on the far right. Recognizing the general arrangement of nesting dolls, this sequence aligns with the usual organization from biggest to smallest.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the nesting dolls positioned along the edge of the bathtub?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the dolls are lined up on the edge where the sink meets the bathtub, extending from left to right along this line. This arrangement means the dolls are positioned along the edge of the bathtub, visually aligning with the boundary between the sink surface and the bathtub.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the aspect ratio of the edited image maintained at 3:2 horizontally?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "To determine the aspect ratio, one must analyze the dimensions of Image B. The proportions of the bathroom suggest it might adhere to a 3:2 aspect ratio, which is common for photographs, especially considering the horizontal layout. Without precise pixel measurements, estimating visually with common proportions in mind supports this conclusion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the nesting dolls exhibit a chibi-style design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the nesting dolls have enlarged heads and simplified facial features, which are characteristic aspects of chibi-style, emphasizing a cute and stylized appearance. This art style is often recognized for its playful, exaggerated proportions and facial appearances.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

@@ -1,0 +1,127 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a man seated at a white table, facing slightly to the left with his head turned upward and to the right, appearing contemplative. He has light brown hair styled in a modern yet neat fashion, a trimmed beard and mustache, and wears black-rimmed glasses. He is dressed in a white long-sleeved shirt with a polka-dotted bow tie and black suspenders. A wooden smoking pipe is held in his mouth, emitting visible smoke that curls upward into the air. In front of him is a vintage black typewriter with a sheet of paper inserted, positioned on the table. The background is a neutral gray gradient, smooth and untextured, providing a minimalist studio setting. The lighting is soft and directional from the front-left, casting subtle shadows and highlighting facial features and textures such as the fabric of the shirt and the grain of the pipe.
+
+Thinking process:  
+The editing instruction specifies several explicit transformations:
+- **Transform the image into a Victorian-era sepia-toned illustration**: This implies changing color tone, style, and artistic medium.
+- **Dress the man in a finely-tailored frock coat**: His current clothing (white shirt, bow tie, suspenders) will be replaced.
+- **Add an ornate high-back chair**: The seating will change from implied or unseen to a specific ornate design.
+- **Replace the typewriter with a large, leather-bound book**: The object on the table will be changed.
+- **Replace the pipe with a quill**: The smoking implement will be swapped for a writing tool.
+- **Surround him with intricate, hand-drawn floral motifs**: Background decoration will be added, altering the plain backdrop.
+
+These instructions clearly indicate that the following elements are **allowed to change**:
+- Clothing (shirt, bow tie, suspenders → frock coat)
+- Chair (not visible → ornate high-back chair)
+- Typewriter → leather-bound book
+- Pipe → quill
+- Background (gray gradient → floral motifs)
+- Color tone (color → sepia)
+- Artistic style (photorealistic → illustration)
+
+Allowed Changes List:  
+(Specific element 1 that allows for changes): Clothing (shirt, bow tie, suspenders)  
+(Specific element 2 that allows for changes): Chair (original not visible)  
+(Specific element 3 that allows for changes): Typewriter  
+(Specific element 4 that allows for changes): Smoking pipe  
+(Specific element 5 that allows for changes): Background (gray gradient)  
+(Specific element 6 that allows for changes): Color tone and artistic style  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+To determine what **must remain unchanged**, we apply the exclusion method based on the allowed changes list and assess what visual content in the original image is not mentioned as replaceable and is essential for identity preservation.
+
+- **Core recognition elements**: The man’s **facial structure**, including **glasses**, **beard**, **hair shape**, and **expression** (contemplative, upward gaze), are not mentioned for replacement. These define the subject’s identity. Even if clothing and props change, the face remains the core identifier. Similarly, the **act of holding a writing instrument** (though the type changes) implies a writerly role — the **posture and hand position** may need to reflect continuity in action.
+- **Functional/logical association elements**: The **position of the hands near the writing device** (typewriter or book) and the **direction of gaze** suggest a cognitive or creative process. Although the device changes, the **spatial relationship between the man and the object** (on the table, within reach) should logically persist. Also, the **smoke trajectory** from the mouth suggests active use of a tool — this could be reinterpreted with a quill, but the **flow of smoke** (if preserved) would conflict with a quill; thus, it is likely removed. However, **the presence of smoke** itself is tied to the pipe, so its removal is acceptable.
+- **Non-modified element deduction**: Elements not mentioned in the instructions include:
+  - The **man’s facial features** (eyes, nose, lips, beard texture, glasses)
+  - The **lighting direction and shadow placement**
+  - The **table surface and its flatness**
+  - The **man’s posture** (seated, leaning forward slightly, hands engaged)
+  - The **presence of a sheet of paper** (though the typewriter is replaced, the paper may be retained if attached to the book)
+  - The **overall composition** — the man centered, slightly off-axis, with focus on upper body
+
+Even though the typewriter is replaced, the **paper** might still be present if the book has an open page. However, since the instruction says "replace the typewriter with a large, leather-bound book", the **paper** is likely integrated into the book. Thus, **the presence of a written surface** may be retained conceptually, but not necessarily visually identical.
+
+Preservation Targets List:  
+(Facial features including beard, glasses, and expression)  
+(Hair shape and styling)  
+(Hand position and gesture indicating interaction with a writing tool)  
+(Table surface and its flat, clean appearance)  
+(Lighting direction and shadow pattern on face and shirt)  
+(Posture: seated, leaning forward, head tilted upward)  
+(Presence of a writing-related object on the table)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The man's facial features—specifically the **black-framed glasses**, **trimmed beard**, and **upward gaze**—are central to his identity. These are not mentioned in the editing instruction as being changed, and they serve as key identifiers distinguishing him from other characters. Losing them would make the figure unrecognizable as the same individual. The glasses have a distinct rectangular shape and reflective lenses, which are unique visual markers. Therefore, their retention is critical.
+    Question: Are the black-framed glasses with rectangular lenses and visible reflections on the lenses still present on the man's face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The **beard and mustache** form a distinctive facial hair pattern that contributes significantly to the man’s identity. The shape, density, and trim are consistent in the original image and are not referenced for alteration. Changing this would alter the subject’s appearance fundamentally, making it difficult to recognize the same person. It is a core feature of his identity.
+    Question: Is the trimmed beard and mustache, particularly the defined jawline coverage and upper lip growth, still present on the man's face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The **hair style**—with its textured, swept-back, light brown waves—is a defining characteristic of the subject’s appearance. While the instruction does not specify changing hair, it also does not allow for arbitrary styling. Since no mention is made of replacing or altering it, and it is a prominent feature, it should be preserved. Altering it would risk misidentifying the subject.
+    Question: Is the light brown, textured, swept-back hairstyle with visible volume and side-parting still present on the man's head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The **hand position**—specifically the right hand resting near the writing device and the left hand slightly raised—indicates engagement with a writing task. Though the device changes from typewriter to book, the **functional posture** of the hands should remain consistent to preserve logical continuity. The fingers appear poised for typing or writing, suggesting an active mental state. This spatial arrangement is important for maintaining the scene’s narrative logic.
+    Question: Are both hands positioned near the writing object (book), with the right hand showing a grip-like pose and the left hand partially extended toward the object?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The **table surface** is a flat, white plane that provides a neutral base for the scene. Its clean, uncluttered appearance and reflective quality under lighting are part of the original composition. Although the objects on it change, the **surface itself** is a structural anchor. If it were altered in texture or color, it would disrupt the visual coherence of the scene. Its retention ensures spatial consistency.
+    Question: Is the table surface still a flat, white, matte plane with soft reflections and no visible texture or pattern?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The **lighting direction** creates a soft shadow on the right side of the man’s face and shirt, with highlights on the left cheek and collar. This directional lighting defines the three-dimensional form and depth of the image. Changing it would alter the mood and perception of the subject. Since no instruction mentions altering lighting, it should be preserved to maintain visual fidelity.
+    Question: Is the lighting still coming from the front-left, creating a soft highlight on the left side of the face and a subtle shadow on the right side of the neck and shoulder?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The **posture**—seated, leaning slightly forward, head tilted upward and to the right—reflects a contemplative state. This body language is crucial to the narrative of thoughtfulness. Although the chair changes, the **body angle and orientation** should remain consistent to preserve the emotional tone and intent of the image. Changing the posture would shift the meaning of the scene.
+    Question: Is the man still seated with his torso slightly leaned forward, head tilted upward and to the right, eyes looking up and away?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q8: 
+    Thinking process: The **presence of a writing-related object** on the table is implied by the original typewriter and is confirmed by the instruction to replace it with a book. While the object changes, the **function** (writing activity) and **placement** (on the table, in front of the man) must be preserved. This maintains the logical context of the scene. The book must be open, large, and leather-bound, but the **fact that there is a book on the table** is a required outcome.
+    Question: Is there a large, open, leather-bound book placed on the table directly in front of the man?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0166",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has a poem been added at the bottom of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is visible text at the bottom that resembles artistic writing, suggesting an addition that is consistent with a poem or artistic phrase. The visual presence of this text indicates that a poem or text has indeed been added.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the poem exactly read: “A beam of morning light, a soft whisper, an unnamed yellow bird perching on a branch”?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text in Image B reads: \"A beam of morning light a soft whiper, an unawnmed yellow Bird ...pelings on a on a branch.\" It contains multiple typographical errors or variations, like 'whiper' instead of 'whisper', 'unawnmed' instead of 'unnamed', 'pelings' instead of 'perching', and additional errors making it not match exactly with the quoted text.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the poem placed at the bottom section of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text addition in Image B appears prominently located at the bottom of the image. This placement matches typical conventions for placing captions, poems, or descriptions in an image, confirming its placement in the bottom section.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the image quality been maintained after adding the poem?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The addition of the text in Image B does not seem to disrupt or degrade the visual quality of the image itself, which remains vibrant and clear, with the bird in sharp focus. The text overlay is distinct and does not cover any critical features of the image that might affect its quality.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the font style of the poem complementary to the artistic tone of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The font style chosen for the poem in Image B appears to be artistic and attempts to align with the serene and natural tone of the image, though it may be slightly complex in readability. The artistic nature of the script suggests an intention to harmonize with the image's tone, which is generally complementary.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0100",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the edges of the sinks and cabinets accurately depicted without any broken or warped shapes in both the top-down and angled side views?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the top-down view (left portion) presents a clean, schematic rendering of the vanity with straight lines and sharp corners, indicating accurate geometric representation. The sink is rectangular with clear, unbroken edges, and the cabinet doors and drawers are uniformly aligned. In the angled side view (right portion), the same vanity appears with consistent proportions—edges remain straight and parallel where expected, such as the countertop’s front edge and the vertical lines of the cabinet doors. There are no visible warping or distortion in either view. The perspective in the angled view maintains correct foreshortening and alignment, suggesting that the 3D modeling and rendering were done carefully. Based on visual inspection and common design principles for architectural renderings, the geometry appears intact and properly scaled in both views.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the shadows and light reflections on the countertop, mirrors, and cabinetry appear natural and consistent with the lighting sources in both the top-down and angled side views?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the angled side view of Image B, two wall-mounted sconces above the mirrors emit warm light, casting soft shadows beneath them and illuminating the upper part of the mirrors and countertop. The reflections in the mirrors show the lights and surrounding walls, which aligns with the position of the actual fixtures. On the countertop, subtle highlights suggest a smooth, polished surface, and the light direction appears consistent with the overhead sconces. However, in the top-down schematic view, there are no shadows or reflections because it's a line drawing meant to represent structure rather than photorealism. Thus, while the angled view shows plausible lighting effects with realistic shadowing and reflection, the top-down view lacks these elements by design. Since the question asks about both views, and one is not intended to include lighting effects, the overall consistency across both views cannot be fully evaluated as 'natural' due to the schematic nature of the top-down depiction. Therefore, the lighting and reflections are only partially natural and consistent when considering both views together.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the texture of the marble countertop and the finish of the white cabinetry remain clear and authentic in both the top-down and angled side views?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the angled side view, the marble countertop exhibits a realistic veining pattern typical of natural stone, with variations in gray tones over a white base, suggesting authenticity. The surface appears smooth and reflective, consistent with polished marble. The white cabinetry has a clean, matte finish with crisp panel details and black hardware, matching common modern bathroom designs. However, in the top-down view, the countertop is rendered as a flat, simplified graphic with minimal texture detail—only faint patterns hint at marble but lack depth and realism. Similarly, the cabinetry is outlined in black lines with no surface texture or material indication. While the angled view captures texture and finish authentically, the top-down schematic sacrifices realism for clarity. Since the question requires evaluation of both views, and one fails to preserve texture and finish authenticity, the overall answer must reflect this discrepancy.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the faucets and fixtures proportionate and correctly positioned relative to the sink basins in both the top-down and angled side views without any distortions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the angled side view, the faucet is centrally located over the sink basin, with handles symmetrically placed on either side, consistent with standard plumbing design. The spout height and curvature appear proportional to the sink size, and the base aligns with the countertop cutout. In the top-down view, the faucet is also centered above the sink, with handles extending outward appropriately. The layout matches real-world expectations for sink and faucet placement. Both views show no signs of distortion—such as misalignment, scaling errors, or floating fixtures—and maintain proper spatial relationships. This consistency between the two perspectives indicates careful design and accurate representation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the layout of the top-down view and angled side view logically arranged and spaced to facilitate easy interpretation of the sink structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The top-down view is a minimalist line drawing showing the full vanity layout, including the sink, faucet, drawers, and cabinet doors, clearly delineated. It provides an unambiguous structural overview. The angled side view offers a realistic 3D perspective, showing depth, scale, and spatial relationships, such as the positioning of the mirror, potted plant, and towel ring. The diagonal split between the two views allows for a direct comparison: the top-down view emphasizes function and layout, while the angled view enhances visual understanding. The transition between views is smooth, with overlapping elements (like the sink and countertop) maintaining consistent proportions and positions. This dual-view approach is commonly used in architectural visualization to convey both technical accuracy and aesthetic context. The arrangement is logical and aids interpretation, especially for someone evaluating design or installation feasibility.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

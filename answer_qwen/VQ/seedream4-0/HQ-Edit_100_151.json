@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_100_151",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the child's coat maintain a coherent shape with natural folds and no distorted or broken seams?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the child’s yellow raincoat appears to be rendered in a watercolor style, which inherently softens edges and can blur fine details like seams. However, upon close inspection, the coat maintains a generally coherent shape with visible fold lines that follow the contours of the body—such as at the shoulders, elbows, and waist—consistent with how fabric drapes naturally. There are no obvious breaks or distortions in the seams; the button placements and pocket outlines remain intact and logically aligned. While the watercolor technique slightly diffuses sharpness, it does not introduce unnatural deformities. The coat's structure remains plausible under artistic interpretation. Comparing to Image A (which is more photorealistic), the coat in Image B has softer transitions but still preserves anatomical plausibility. Therefore, despite the stylistic differences, the coat’s form remains coherent.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the balloon surfaces evenly colored in pastel tones without visible color bleeding or loss of specular highlights?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The balloons in Image B are rendered in a watercolor style, which typically involves translucent washes and soft blending. This results in subtle color gradients and gentle transitions between hues, consistent with pastel tones. However, due to the nature of watercolor, some areas show slight color bleeding—especially where adjacent colors meet, such as between red and blue balloons—where pigments appear to blend into one another. Additionally, the specular highlights (the bright reflections indicating light source) are present but softened and less defined compared to a photorealistic rendering. In Image A, the balloons have sharp, reflective surfaces with clear specular highlights and distinct boundaries. In contrast, Image B sacrifices precise reflectivity for artistic texture. Thus, while the colors are pastel and pleasing, there is noticeable color bleeding and diminished specular detail, making the surface treatment less realistic.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the child’s right hand holding the balloons have exactly five fingers with natural joint alignment and no extra or missing digits?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the child’s right hand is shown grasping the balloon strings. Despite the watercolor rendering, the hand is clearly depicted with five fingers: thumb, index, middle, ring, and pinky. Each finger shows a basic joint structure with curvature consistent with human anatomy. There are no visible extra digits or missing ones. The proportions and spacing appear natural, even if slightly stylized due to the painting technique. When compared to Image A, the hand in Image B is similarly structured but rendered with softer edges. Both images depict a normal five-fingered hand. No anomalies such as fused fingers or elongated digits are evident. Therefore, the hand maintains anatomical accuracy within the artistic context.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the watercolor texture applied uniformly across the wheat field without disrupting the visibility of individual stalks or creating unnatural stroke lines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The wheat field in Image B is painted using watercolor techniques, characterized by soft washes, visible brushstrokes, and blended edges. While the overall effect is harmonious, certain areas exhibit uneven application—particularly near the foreground where strokes seem more pronounced and directional, possibly mimicking wind patterns. Some individual stalks are obscured or merged due to overlapping washes, especially in denser clusters. Additionally, faint horizontal streaks suggest the use of wet-on-wet techniques, which can create unnatural flow patterns. In contrast, Image A features sharper, more defined stalks with consistent lighting and depth, preserving clarity. In Image B, the artistic choice prioritizes mood over precision, leading to a loss of detail in individual plant structures. Therefore, although the texture is uniform in style, it disrupts the clarity of individual stalks.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the calendar grid positioned at ground level and aligned with the path beneath the child, without floating or casting unrealistic shadows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "At the bottom of Image B, a calendar grid is visible, hanging from a clothesline-like rope with small pegs. The calendar is placed directly along the ground level, appearing to lie on the dirt path beneath the child. It is aligned horizontally and spans the width of the scene, matching the perspective of the path. There is no indication of floating—it rests flush with the terrain. Furthermore, there are no visible shadows cast by the calendar, which could be expected given the overhead sunlight in the scene. However, in watercolor art, shadows are often omitted or softened for aesthetic reasons. Since the calendar is integrated into the composition as a decorative element rather than a 3D object, its lack of shadow is acceptable within the artistic style. Compared to Image A, which lacks any calendar, this addition is purely illustrative. Its placement is consistent with the ground plane and does not violate spatial logic.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Do the clouds in the sky maintain natural edges and volume without visible pixelation or unnatural smoothing effects?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The clouds in Image B are rendered in a watercolor style, featuring soft, diffused edges and gentle gradations of tone. This technique naturally produces smooth transitions and avoids harsh outlines, which contributes to a dreamy, ethereal atmosphere. However, because of the medium, some cloud forms appear slightly flattened or lacking in three-dimensional volume compared to real-world cumulus clouds. There is no visible pixelation, as the image appears clean and resolution-appropriate. But the smoothing effect is inherent to watercolor, resulting in softer definition and reduced contrast. In Image A, the clouds are more volumetric with clearer edges and sharper lighting, giving them a more realistic appearance. In Image B, while the clouds are aesthetically pleasing, they sacrifice realism for stylistic harmony. The absence of pixelation is positive, but the smoothing effect reduces perceived depth. Thus, the clouds maintain natural-looking edges but with reduced volume due to artistic choice.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

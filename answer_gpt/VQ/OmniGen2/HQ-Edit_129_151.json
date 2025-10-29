@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_129_151",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the elder’s face show natural skin texture, realistic wrinkles, and facial proportions without distortion or unnatural smoothing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the elder's face is intentionally blurred to obscure identifying features, so any assessment of skin texture, wrinkles, or facial proportions is rendered ineffective. Thus, the question is not pertinent to the context of the edited image provided.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the tree trunks and branches in the background structurally coherent, with natural bark texture and no broken or warped shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background trees and branches appear stylized rather than photorealistic. The artwork style intentionally simplifies and smoothens textures, typical of illustrated or animated imagery. Despite this intentional artistic choice, the trunks and branches do not display visual errors like warping or inconsistency as understood in a stylized context.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the water surface reflect the surrounding trees and sky accurately, with smooth gradients and no distorted or duplicated elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B employs an illustrative style, where the water surface does not feature detailed reflection as in a photograph. Instead, it's represented by a smooth, artistic rendering without distinct reflections. While this does not provide accuracy in a photorealistic sense, within the stylized depiction, it maintains a coherent composition without visual distortion or duplication.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the duck-shaped chess pieces positioned correctly on the chessboard squares without overlapping, floating, or misalignment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the duck-shaped chess pieces are arranged in a simplified and stylized manner characteristic of illustrative design. They appear correctly placed on the chess squares, with no signs of visual errors like floating or misalignment relative to their intended positions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the calligraphy text placed in the lower right corner without overlapping key elements, and does it have clean lines and natural ink-like texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the calligraphy text is centrally placed in a circular emblem, distinct from the lower right corner. Its placement avoids overlapping other graphic elements, and it features clean, well-defined lines. While it's stylized to fit the overall illustration, it does not replicate natural ink texture inherent to traditional calligraphy, but maintains clarity and stylistic coherence in context.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

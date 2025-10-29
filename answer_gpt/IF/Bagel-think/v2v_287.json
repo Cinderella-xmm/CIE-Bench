@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_287",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the train depicted as a 3D voxel model with a blocky, pixelated appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train is stylized to appear simplified and more geometric compared to Image A. However, it does not exhibit the blocky and pixelated appearance typically associated with voxel models, which resemble 3D pixels or blocks, similar to styles seen in voxel art or pixelated graphics.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the train's 3D voxel model use a similar color palette and design simplicity as the icons shown in the left image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train is colored using a brighter palette with blue and white tones and simplified design compared to Image A. While there is a shift towards more vivid colors and a simplified style, typical of digital art designs, icon graphics often have more symbolic representation and are extremely simplified. The comparison with Image A reveals that the palette shift doesn't necessarily equate the design simplicity of graphic icons.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the entire image rendered in high enough detail to suggest an 8k resolution, with no visible pixelation or blur?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the details are abstracted with strong colors and simpler geometry; the style is intentionally less detailed than what one would expect from an 8k resolution high-fidelity render. Elements like the train, man, and station are depicted with enough detail to be recognized but lack the resolution clarity that suggests 8k rendering.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the train's 3D voxel model exhibit clean, precise shading and lighting effects consistent with those produced by Octane?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases a stylized approach with flat and bright colors that offer a smooth transition between surfaces, but it doesn't strongly feature the detailed or realistic shading and reflections that are characteristics of scenes rendered with Octane, which often showcase high realism and detailed shading effects.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the 3D voxel model of the train retain the original train's proportions and overall shape, making it recognizable despite the stylistic change?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing Image B to Image A, while the proportions are slightly altered to fit the style, the train retains similar characteristics such as the curved front and general shape that make it recognizable as the train depicted in Image A despite the significant stylistic abstraction.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.2
+}

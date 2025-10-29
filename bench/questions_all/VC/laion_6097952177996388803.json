@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The two distinct mountain peaks are the most defining feature of the landscape, serving as its primary identifier. Their unique shapes—one sharper, one more rounded—and their side-by-side arrangement are crucial for recognizing the location. Transforming them into horns must preserve their **number**, **position**, and **general silhouette**, otherwise the transformation becomes unrecognizable as derived from this specific scene. This is a core identity element; losing it would make the edited image fail the reference test.",
+      "question": "Are the two main mountain peaks still present and positioned side by side as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The snow caps on the peaks are critical seasonal and environmental markers. They indicate altitude and climate conditions, distinguishing this from other landscapes. Even if the peaks become \"horns,\" the **presence of snow** at the summit must be retained to maintain the original context. Removing or replacing snow would misrepresent the season and geography. This is a key functional detail tied to the scene’s realism.",
+      "question": "Do the summits of both peaks retain patches of snow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The exposed rock layers and stratified texture on the slopes are signature geological features of the area. These patterns provide depth and authenticity to the mountainside. While the texture may be interpreted as \"hide,\" the underlying **layered rock structure** must remain visually evident. Altering it entirely would destroy the naturalistic foundation of the image. This is a core visual trait necessary for grounding the fantasy transformation.",
+      "question": "Are the horizontal and vertical rock strata visible on the mountain faces?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The winding road in the foreground is a vital spatial anchor. It provides scale, perspective, and a sense of human interaction with the landscape. Even if reimagined as part of the beast’s anatomy (e.g., a vein or spine), its **pathway shape and placement** must remain consistent to preserve the original composition. Its removal or drastic distortion would break the continuity of the scene.",
+      "question": "Is the narrow road visible winding through the lower valley, extending toward the base of the mountains?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The distribution of brown heather and sparse grass across the slopes defines the vegetative character of the region. This coloration is a hallmark of highland terrain in colder seasons. While moss and roots may be added to simulate fur, the **original vegetation pattern** must remain underneath. Overwriting it completely would erase the natural ecological context. This is a key secondary detail supporting visual coherence.",
+      "question": "Are the slopes covered in patches of brownish-orange heather and dry grass, particularly in the mid-ground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The overcast sky with diffuse lighting and soft shadows sets the mood and illumination of the scene. It prevents harsh contrasts and enhances the somber tone. While an \"earthy aura\" might be added, the **cloud cover density** and **even light distribution** must be preserved to maintain the original atmosphere. Changing the sky dramatically would disrupt the lighting logic of the entire image.",
+      "question": "Is the sky uniformly overcast with no direct sunlight, resulting in soft shadows across the landscape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The natural contour lines and elevation gradients of the valleys define the topography. These curves guide the viewer’s eye and establish the three-dimensional structure of the land. Even if interpreted as musculature, the **flow and direction of these contours** must match the original terrain. Disrupting them would create a false sense of depth. This is a logical structural element essential for spatial consistency.",
+      "question": "Do the valleys show smooth, continuous contour lines that follow the natural slope of the land?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

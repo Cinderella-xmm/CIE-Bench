@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0155",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the text \"Breathe\" added at the top left corner of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is visible text at the top left corner that reads 'Breathe'. The positioning is clear and distinct, allowing it to be easily identified. The visual cue of the text being placed in the top left corner of the image confirms its presence there.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the text \"Calm\" placed at the bottom right corner of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text at the bottom right corner actually reads 'Cahis' instead of 'Calm'. This deviation from the expected text 'Calm' confirms that it is not present in the bottom right corner.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the text \"Breathe\" and \"Calm\" use fonts, colors, and sizes suitable for a plant therapy and meditation theme?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text 'Breathe' is printed in a soft, rounded font in white, which is generally associated with calmness and tranquility, fitting a meditation theme. However, the text supposed to be 'Calm' reads 'Cahis', making the assessment non-applicable to the given question. Thus, the text 'Breathe' fits the theme, but since 'Calm' is not present, the question can't be fully affirmed.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the added texts \"Breathe\" and \"Calm\" blend well with the plant and window setting, maintaining the calming atmosphere?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text 'Breathe' placed in the top left corner and 'Cahis' in the bottom right are both in white with a rounded font style, which are typical of designs intended to evoke calmness. 'Breathe', in particular, complements the natural setting as it evokes a sense of relaxation. However, without 'Calm' being present, the balance may be slightly affected as the expected message isn't conveyed fully.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the texts \"Breathe\" and \"Calm\" positioned in a way that does not obscure the central visual elements of the plant and window?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The placement of 'Breathe' at the top left and 'Cahis' at the bottom right is strategically positioned so that neither text interferes with the central elements of the plant and window. The plant remains the focus without being obstructed, allowing the viewer to appreciate the serene setting without distraction.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

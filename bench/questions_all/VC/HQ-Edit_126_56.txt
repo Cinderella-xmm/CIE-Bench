@@ -1,0 +1,122 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a serene mountain landscape featuring a tranquil river flowing through a valley flanked by autumn-colored trees. The scene includes two prominent snow-capped mountain peaks in the background, with sharp triangular silhouettes under a sky painted with soft orange, pink, and blue hues at sunrise or sunset. The sun is positioned near the center horizon, casting golden light across the valley. The foreground shows a reflective river that mirrors the surrounding trees and mountains, creating symmetrical reflections. Trees on both banks display vibrant fall foliage—deep reds, fiery oranges, golden yellows, and dark green conifers—arranged naturally along the riverbanks. Several small rock formations are visible in the river, and the water surface is calm, showing clear reflections of the trees and sky. The overall composition emphasizes depth, symmetry, and natural harmony, with layered hills receding into misty distances.
+
+**Thinking process:**  
+The editing instruction explicitly states:  
+- "Transform the serene mountain landscape into a vibrant Art Deco illustration" → This indicates a full stylistic transformation, allowing changes to form, texture, and artistic style.  
+- "Simplifying mountains and trees into geometric forms" → Allows modification of organic shapes into angular, stylized geometry.  
+- "Utilizing bold outlines and solid color blocks" → Permits elimination of gradients, textures, and subtle shading; replaces them with flat colors and strong borders.  
+- "Render the flowing river as a series of radiating parallel lines" → Directly alters the form and structure of the river from a natural, reflective body to abstract linear patterns.  
+- "Emphasize symmetry across the mirrored reflections" → While symmetry is to be emphasized, this does **not** require preservation of the original reflection content—it only requires the compositional balance to be maintained, even if the reflected elements are stylized.
+
+From this, we deduce that:
+- The **form** of mountains, trees, and river can be changed.
+- The **texture**, **color gradient**, and **naturalistic rendering** are not required to be preserved.
+- The **overall layout** (e.g., river in center, mountains in background, trees on banks) may remain spatially similar but must now follow Art Deco principles.
+- The **presence** of key elements (mountains, river, trees, rocks, sun) is implied to be retained, though their **appearance** is transformed.
+
+**Allowed Changes List:**  
+- Shape and form of mountains (can become geometric pyramids or stepped forms)  
+- Shape and form of trees (can become simplified triangles or stylized columns)  
+- Texture and surface detail of all elements (can be replaced with flat colors and bold outlines)  
+- River’s flow and reflection (must become radiating parallel lines, no longer realistic)  
+- Color palette (can shift to bolder, more saturated Art Deco tones)  
+- Lighting and shading (can be flattened or stylized)  
+- Reflections (can be reinterpreted as symmetrical geometric patterns rather than true mirror images)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+Despite the extensive stylistic transformation, certain **core identity features** and **logical relationships** must be preserved to maintain recognition of the original scene and ensure coherence with the instruction's intent:
+
+1. **Core recognition elements**:  
+   - The **presence of a central river** flowing between two banks is essential to the original composition. Even if stylized, the river must occupy the central axis of the image to preserve the visual narrative.  
+   - The **two dominant mountain peaks** in the background—one on the left, one on the right—are iconic structural elements defining the landscape. Their **relative positions** (left/right symmetry), **height**, and **triangular silhouette** must be preserved in some form to retain the core identity of the scene.  
+   - The **sun near the horizon center** is a key lighting and compositional anchor. Its **position** and **role as a light source** must remain consistent, even if rendered abstractly.  
+   - The **autumnal forest** on both sides of the river is a defining feature. While individual tree shapes can change, the **presence of deciduous trees in warm fall colors** (red, orange, yellow) and **evergreen conifers** (dark green) must remain to preserve the seasonal context.
+
+2. **Functional/logical association elements**:  
+   - The **river flows from the foreground toward the distant mountains**, creating a sense of depth. This directional flow must be preserved, even if represented by radiating lines.  
+   - The **trees are located on both banks of the river**, forming a natural corridor. This spatial relationship must remain intact to maintain environmental logic.  
+   - The **reflection in the river** is not just decorative—it mirrors the sky and trees. Although it will be stylized, the **concept of reflection** must be present, especially in the symmetry requirement. Thus, the **mirror-like quality** (even if abstracted) must be retained.
+
+3. **Non-modified element deduction**:  
+   - After excluding allowed changes (forms, textures, colors), the following must remain:  
+     - The **spatial arrangement** of major elements: river in center, mountains in background, trees on banks.  
+     - The **presence of rocks** in the river (small landforms breaking the water surface).  
+     - The **seasonal color scheme** (autumnal palette) must be preserved in essence, even if simplified into solid blocks.  
+     - The **symmetry** of the scene must be maintained, especially in the mirrored reflections.
+
+**Preservation Targets List:**  
+- Central river flowing from foreground to background  
+- Two large mountain peaks in background (left and right)  
+- Sun positioned near horizon center  
+- Trees on both riverbanks (with mix of deciduous and coniferous types)  
+- Rocks in the river  
+- Symmetric composition with mirrored reflections  
+- Autumnal color palette (warm reds, oranges, yellows, greens)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The presence of a central river flowing from the foreground to the background is a core compositional element that defines the scene’s depth and focus. Even in an Art Deco style, the river must remain centrally located and extend toward the mountains to preserve the original visual narrative. Its absence or relocation would fundamentally alter the scene’s identity.
+    Question: Is there a river running down the center of the image from the foreground to the distant mountains?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The two prominent mountain peaks on the left and right sides of the background are iconic landmarks that define the landscape’s identity. Their relative positions and height are critical for recognition. Even if stylized, they must remain as dominant structures in the background to maintain the scene’s core structure.
+    Question: Are there two large mountain peaks visible in the background, one on the left and one on the right side of the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The sun near the horizon center is a key light source and compositional anchor. Its position determines the direction of light and the time of day (sunrise/sunset). Even in stylized form, its placement must remain near the center of the horizon to preserve the original atmospheric effect.
+    Question: Is there a bright circular light source positioned near the center of the horizon line in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The trees on both banks of the river are essential for establishing the autumn setting. While their forms can be simplified, their presence on both sides of the river is necessary to maintain the natural corridor effect. Their absence would break the environmental continuity.
+    Question: Are there trees present on both sides of the river, extending along the banks?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The rocks in the river are minor but identifiable features that add texture and realism to the water. They are visually distinct and help ground the scene. Even in a stylized version, their presence in the river is expected to maintain consistency with the original.
+    Question: Are there visible rock formations or landmasses within the river, breaking the water surface?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The reflection in the river is a key visual element that enhances symmetry and depth. While the instruction allows stylization, the concept of reflection must be preserved—especially the mirrored symmetry of trees and sky. Without this, the image loses its reflective quality and compositional balance.
+    Question: Does the river reflect the trees and sky above it, maintaining a mirrored image across the water surface?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The autumnal color palette—dominated by reds, oranges, yellows, and greens—is a defining characteristic of the season and the mood of the scene. Even in Art Deco style, these warm tones must be preserved in solid blocks to maintain the seasonal identity.
+    Question: Are the trees on the riverbanks colored in warm autumn tones such as red, orange, and yellow, with dark green conifers interspersed?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

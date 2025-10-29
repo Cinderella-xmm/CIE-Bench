@@ -1,0 +1,84 @@
+{
+  "filename": "laion_6194574727047738936",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the pink flamingo-shaped mug with a white beak and curved neck present in the same position relative to the cereal bars?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the mug is prominently featured on the front, distinct from its presentation in Image A. Its exaggerated and cartoon-style drawing suggests that it has been repositioned to fit the illustrative theme, whereas in Image A, it was not illustrated and held a more realistic depiction. Based on this difference, the mug has been repositioned relative to the cereal bars to suit the animated representation in Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the words \"freee\" and \"corn flakes\" visible on the cereal box, along with the bird logo above the brand name?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text has been completely changed to a fictional description without the brand 'freee' or 'corn flakes,' and therefore the bird logo is also absent. The cereal box has adopted an illustrative fictional style that deviates from the branding present in Image A.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the circular illustration of a bowl filled with corn flakes visible on the front of the cereal box?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows an exaggerated animated bowl filled with a generic cereal illustration that fits into the whimsical style used throughout the artwork. It's distinctly different from Image A's realistic depiction of corn flakes.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the light-colored wooden surface visible beneath the cereal bars?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B has no visible wooden surface beneath the cereal bars. The entire scene is composed of animated elements with a grassy field illustrating the base, unlike Image A where the bars rest on a wooden cutting board.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the off-white wall visible in the background behind the cereal box?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Behind the cereal bars and mug in Image B is a completely illustrated background filled with patterns and color consistent with the cartoon theme, differing significantly from Image A's realistic off-white wall backdrop.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the pink flamingo mug positioned behind the cereal bars and to the left side of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pink flamingo mug is drawn prominently next to cartoon-like cereal bars, which positions it neither behind nor as limitedly positioned as the left side in Image A. Image A shows the mug realistically placed behind bars to the left, but in Image B, the placement serves a different thematic purpose.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.15384615384615385
+}

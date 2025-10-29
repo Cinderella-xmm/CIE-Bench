@@ -1,0 +1,123 @@
+{
+  "filename": "HQ-Edit_123_70",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image split into two distinct panels, one on the left and one on the right (or top and bottom), forming a comic layout?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly presents two separate sections. The first panel features a person in a forest setting, while the second panel shows a diagram or chart associated with fish. This layout is characteristic of comic or informational styles, where two related but distinct scenes or pieces of information are presented side by side.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does Panel 1 show the bear wearing spectacles and displaying a wise or thoughtful facial expression?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Panel 1 of Image B, there is a person, not a bear, shown. This means the panel does not feature a bear with spectacles or any expression.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a speech bubble in Panel 1 containing the text: “Ever wondered how a salmon ends up in a bear's mouth?”",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Panel 1 of Image B contains a speech bubble, but the text reads: 'Ever wondered how a salmon ends up in the forest?' rather than mentioning a bear's mouth. This suggests a journey or lifecycle, likely leading to a thematic discussion rather than a simple food chain statement.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does Panel 2 show a salmon emerging from bubbling water into a visual chart with labeled stages: 'egg', 'fry', 'smolt', 'adult'?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Panel 2 of Image B represents a salmon and its life stages, but the labels present are 'egg', 'madled', 'find, mo', 'sfrot', and 'adult'. This deviates from the expected stages and introduces different terminology. This may suggest alternate cultural or stylistic renditions rather than standard biological terms.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a fact box in Panel 2 containing the text: “Journey's end in the river gives life to the forest.”?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Panel 2 includes a speech or fact bubble with the text 'Journey's end in the life to forest.' This is similar but not identical to the given sentence, suggesting a focus on ecological importance, although expressed differently.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are all text elements (speech bubble, labels, fact box) rendered in a clear, modern sans-serif font?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text in Image B appears to be deliberately stylized with unconventional typography, including varied kerning and potential artistic distortion, which indicates it is not a standard modern sans-serif font.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are the water elements in Panel 2 depicted in blue hues and the forest background in Panel 1 shown in brown-green tones?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Panel 2 is illustrated with blue hues that are indicative of water depiction, aligning with typical representations. Panel 1 features greens typical of forest scenery, which suggests natural color schemes relative to the themes presented in both panels.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q8",
+      "question": "Does the overall image have an aspect ratio of 16:9?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image dimension does not particularly resemble a widescreen or 16:9 aspect ratio, as it appears more vertical and closely aligned with square or vertical proportions given by comic panels.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q9",
+      "question": "Is the visual content of both panels clear, logically connected, and suitable for educational purposes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B conveys a thematic relationship between ecological processes through two panels: one depicting a figure in the forest suggesting ecological inquiry and another showing a salmon lifecycle, albeit with irregular terminology. This indicates a logical connection concerning environmental themes, suggestive of educational content.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

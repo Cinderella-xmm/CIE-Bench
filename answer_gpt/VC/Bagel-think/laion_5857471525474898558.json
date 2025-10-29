@@ -1,0 +1,84 @@
+{
+  "filename": "laion_5857471525474898558",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the windows aligned vertically in the same columns across all floors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, each column of windows is vertically aligned. The structure of the building supports a consistent design where windows are directly above each other on different floors. This arrangement is traditional in multi-floor buildings to maximize structural integrity and aesthetic uniformity, thus aligning them vertically in columns.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a red door located on the left side of the ground floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a red door situated on the left side of the ground floor. The door's distinct bright color stands out against the predominantly red building exterior, making it noticeable and confirming its position on the left side.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a dark-colored door located on the right side of the ground floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a door on the right side of the ground floor appears to be of a darker hue compared to the red door on the left. This contrast in color and its placement confirm its location on the right side, and its darker shade is evident against the red building facade.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the climbing plant cover the central vertical strip of the building, spanning from near the ground floor up to the third floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the plant is depicted as a series of green blocks in the central vertical strip of the facade, resembling a climbing plant. It starts near the ground floor and extends upward toward the third floor, visually connecting multiple levels and maintaining the central strip appearance.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a red rectangular outline enclosing a section of the building that includes three stacked windows and a balcony?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no visible red rectangular outline around any part of the building. The drawing emphasizes surfaces through bold colors and stylized elements such as block-like structures, but no section is contained within a red rectangle, unlike some architectural digital edits that might delineate areas.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the balconies located directly outside specific windows on the second, third, and fourth floors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, blue block-like structures are attached to the building's facade, representing balconies situated directly outside designated windows on the second, third, and fourth floors. This design choice mirrors realistic architectural features and uses vivid color to portray the balconies distinctly outside certain windows.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8666666666666667
+}

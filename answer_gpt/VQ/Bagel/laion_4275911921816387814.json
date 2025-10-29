@@ -1,0 +1,71 @@
+{
+  "filename": "laion_4275911921816387814",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the silver-gray fabric on the blade retain the original blade's curved shape and pattern details without distortion or loss of fine lines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the blade is crafted from fabric, resembling a stuffed toy, which inherently affects the precision seen in metal engraving. The original in Image A is made from metal with intricate engravings. Although the fabric version maintains the overall curved shape, the pattern appears simplified due to the medium's limitations, lacking the intricate details seen in metal. This results in a loss of fine line work present in the metal blade.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the edges of the hilt smoothly rounded and consistent in curvature, without abrupt flattening or irregular bulges suggesting poor volume shaping?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the hilt is made of a plush, stuffed material which gives it a rounded appearance. Due to the nature of fabric and stuffing, the edges are indeed smooth and consistent, without any noticeable abrupt flattening or irregular bulges. The plush medium allows for smooth curves, making the hilt look well-formed overall.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the blade’s tip preserved as a pointed, slightly curved end without drooping or flattening due to over-stuffing or under-support?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The blade in Image B has a fabric construction, resulting in a less rigid structure compared to the metal blade in Image A. The tip in Image B appears rounded rather than pointed, likely due to the limitations of fabric stuffing which can cause drooping or flattening.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the black embroidered patterns uniformly spaced and aligned along the blade’s length, matching the original engraving’s density and symmetry?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the black patterns are embroidered on the fabric blade. While these attempt to replicate the design from Image A, they lack the precision and density of the original engravings. The embroidery is more simplified and may not match the uniform spacing and alignment seen in the metal engraving, given the nature of fabric working.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background a consistent, flat solid color without visible gradients, shadows, or texture that could imply improper rendering or compositing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B appears to be a solid, consistent light blue color without any noticeable gradients, shadows, or texture variations. This uniformity suggests that the background is well-rendered or composited, maintaining a flat appearance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

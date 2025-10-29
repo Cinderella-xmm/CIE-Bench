@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of adding illustrated blueberries and nutritional labels onto the pie slice, this evaluates whether the added elements blend naturally with the existing surface. The blueberries must match the size and shading of real berries, and the labels must not float unnaturally or cause distortion in the pie’s texture. The focus is on material consistency and absence of digital artifacts.",
+      "question": "Are the illustrated blueberries and text labels seamlessly integrated into the pie surface without visible pixelation, jagged edges, or inconsistent shadows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of transforming the mug into an anthropomorphic character, this checks whether the mug’s original geometry—especially its cylindrical body and handle—is preserved. Added features like limbs or facial expressions must not distort the mug’s volume or create impossible angles. The character must still resemble a functional mug.",
+      "question": "Does the anthropomorphic version of the mug retain the original cylindrical shape and handle position without stretching, warping, or breaking the object's form?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of inserting a minimalistic chart into the scene, this assesses whether the chart is placed in a way that does not overlap critical elements like the pie or mug, and whether its design follows standard layout rules (aligned edges, readable text). It also checks for visual noise or depth inconsistency.",
+      "question": "Is the chart positioned clearly within the frame without overlapping or obscuring the pie slice, mug, or plate, and does it have clean lines and legible text?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of applying warm pastel hues to enhance visibility, this evaluates whether the color grading alters the natural appearance of materials. For instance, the ceramic mug should not appear glowing or overly tinted, and the glass should not lose its transparency. The goal is to detect unnatural color shifts.",
+      "question": "Are the warm pastel tones applied evenly across the scene without causing unnatural discoloration of the ceramic, glass, or baked pie surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of maintaining structural coherence of core elements, this checks whether the pie slice retains its original triangular shape and crust integrity after adding illustrations. Similarly, the mug’s handle and body should not be distorted even if stylized. The plate and table should remain flat and undistorted.",
+      "question": "Do the pie slice, mug, plate, and table maintain their original geometric forms and spatial relationships without any visible warping, fragmentation, or misalignment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

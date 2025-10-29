@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_0_106",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the lion rendered as a high-contrast silhouette with minimal internal detail and strong edge definition?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the dominant figure is a high-contrast silhouette that lacks internal detail. The dark silhouette strongly contrasts against the gradient background, suggesting a deliberate stylistic choice emphasizing edge definition. This aligns with the description of a silhouette with minimal details.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Has the background been replaced with an abstract gradient composed of smooth color transitions rather than a realistic savannah landscape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background is composed of smooth color transitions, creating an abstract gradient rather than depicting the realistic savannah landscape seen in Image A. The presence of gradient colors without specific landscape details supports this answer.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are detailed grass textures clearly visible in the foreground of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the image features black silhouette grass shapes, without the detailed texture visible in Image A. The grass appears as a stylized silhouette, focusing on form rather than texture, thus indicating that detailed grass textures are not present.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the acacia trees depicted as angular, stylized silhouettes with sharp edges and geometric forms?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the acacia trees are depicted as stylized silhouettes with sharp, angular forms and edges. These geometric forms are much simpler compared to the more realistic depiction in Image A, adhering to the description of stylized silhouettes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the title \"King of the Wild\" displayed in a dramatic, bold typeface across the upper section of the image without overpowering the lion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the title 'King of the Wild' is prominently displayed in a bold, dramatic typeface at the top of the image. Since the lion itself is depicted as a silhouette and is not the focus of the composition, there's no concern about the text overpowering the lion's presence.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the lion positioned centrally and visually dominant in the composition, ensuring it remains the primary focus despite other elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the silhouette, likely representing the lion, takes up a significant portion of the composition and could be considered centrally placed. However, the bold text of 'King of the Wild' and the stark use of color gradients suggest other elements might compete for visual dominance. Therefore, the silhouette does not ensure that it remains the primary focus despite the text and background.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

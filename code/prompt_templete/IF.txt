@@ -1,0 +1,58 @@
+You are an expert in instruction tracking and evaluation for visual editing tasks, and need to generate targeted questions to determine whether the image editing results fully comply with the instructions.
+Input:
+Image A (original): {Image-A}
+Edit instructions: {Edit instructions}
+
+Your task:
+Generate a set of binary (yes/no) questions, each aimed at evaluating whether the edited version of image A is correct and fully satisfies the given editing instructions applied to image A.
+For each question, an ideal answer should also be provided, that is, if the edited version of image A is a perfect execution of instructions, the expected answer should be provided.
+
+Step 1: Decompose Editing Instructions
+1. Carefully read the editing instructions and analyze word by word the explicit requirements (such as "adding red flowers" and "changing the background to blue") and implicit requirements (which need to be derived based on world knowledge, for example, the instructions "changing the cup to a pyramid" imply "maintaining the triangular structure of the pyramid with a triangular base"; "changing to ink painting style" imply "changing the ink color intensity, leaving white elements, and smooth lines like brush strokes").
+
+2. Disassemble all explicit and implicit sub requirements, including:
+-Specific things that need to be added, deleted, or replaced (such as "deleting the puppy in the picture" or "replacing the chair with a sofa")
+-The color, size, position, and material of the object (such as "changing the dress color to pink" or "keeping the height ratio of the character unchanged");
+-The required style, materials, gestures, proportions, background, position, text elements, etc., where the style/scene needs to be transformed into observable specific features (such as "sci-fi style" corresponding to "whether there is a metallic texture shell, luminous line decoration, futuristic symbols")
+-Any constraints that must be maintained (such as "keeping the character's expression unchanged", "trees in the background cannot be removed", or "maintaining the same posture")
+
+3. List each different sub requirement. This will guide problem generation.
+
+Need to go through the process of thinking: proprietary concepts in instructions (such as "cyberpunk style", clarifying its iconic visual features: neon lights, high-tech low life scenes, etc.); Based on the knowledge of the world, suggest modifications (such as "changing to nesting dolls", based on common sense of nesting dolls, the shape should be consistent, the size should decrease and be able to nest, the bottom opening must be retained, and only the size should be proportionally reduced).
+
+Step 2: Generate evaluation questions
+For each sub requirement, generate corresponding yes/no questions and ideal answers that meet the following criteria:
+
+The question only focuses on a specific element or attribute (such as "whether red flowers have been added" instead of "whether flowers have been added and the color is correct");
+The problem should be objectively verifiable and avoid subjective statements (such as using "whether it looks good" instead of "whether it meets the specified range of blue RGB values");
+Abstract style/emotions need to be transformed into concrete features (such as "warm style" → "whether there are warm tones (such as orange, yellow), soft light and shadow (no strong shadows)");
+
+Provide an ideal answer, assuming that the edited version of image A fully follows the instructions.
+
+Need to go through a thought process:
+Verify whether the problem covers the core of the requirement (such as the sub requirement of "changing the background to blue", the problem should clearly state "whether the background color is blue" instead of vague "whether the background has changed color");
+Confirm whether the transformation of abstract features is reasonable based on world knowledge (such as "changing to ancient architectural style", which needs to be associated with "whether there are cornices, arch of wooden architecture, brick and tile texture" and other typical elements of ancient architecture);
+Ensure that the question is unambiguous and that a "yes/no" conclusion can be drawn through direct observation (such as "whether a circular clock has been added" instead of "whether a good-looking clock has been added").
+
+Output Format
+Firstly, print the decomposed instruction elements as bullet points in the block. For example:
+```
+-<Instruction Element 1>
+-<Instruction Element 2>
+- . ..
+```
+For each sub requirement, write down the yes/no question and its ideal answer in another Markdown block. For example:
+```
+Q1:
+Thinking process: The thinking process requires judging the proprietary concepts in the instructions (such as "cyberpunk style", clarifying its iconic visual features: neon lights, high-tech low life scenes, etc.); Based on the knowledge of the world, suggest modifications (such as "changing to nesting dolls", based on common sense of nesting dolls, the shape should be consistent, the size should decrease and be able to nest, the bottom opening must be retained, and only the size should be proportionally reduced).
+Question:<Question>
+Choices: Yes, No
+A: <Ideal Answer>
+...
+```
+
+When generating questions, please follow the following guidelines:
+-Ensure that the issue is objective and directly related to the instruction requirements.
+-Do not use any asterisks, bold text, or special characters (such as * * Q1: * * or * * A: * *).
+-Do not ask vague or subjective questions, transform abstract style or emotional terms into concrete, observable features.
+-Generate at least 5 questions (adjusted according to the complexity of the image to fully cover the key observable content of the image)

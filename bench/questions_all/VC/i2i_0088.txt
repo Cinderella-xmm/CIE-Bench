@@ -1,0 +1,65 @@
+### Step 1 - Description of Reference Image and Analysis of Allowed Changes
+**Description of reference image:** The image shows a polished metallic fork placed centrally on a folded dark blue napkin. The fork has four prongs and a sleek handle. The napkin is neatly folded and positioned on a similarly colored flat surface. The napkin's texture appears smooth with subtle creases indicating it is made of fabric.
+
+**Thinking process:** The editing instructions clearly specify replacing the fork with a gold spoon decorated with patterns while retaining the napkin unchanged. Thus, the fork's shape, material attributes, and presence can be changed, but the napkin's appearance, position, and the overall background must remain consistent.
+
+**Allowed Changes List:**
+- Replace the fork with a gold spoon.
+- Add decorative patterns on the new spoon.
+- Adjust the spoon's proportions and details to fit the scene.
+
+---
+
+### Step 2 - Determine Elements That Should Remain Unchanged
+**Thinking process:** The core recognition elements are those that define the image's context and identity. The napkin's appearance (color, fold, texture) and the background’s tone must stay unchanged. Functional elements like the fork's placement on the napkin dictate the spoon's positioning. Remaining details, like the overall lighting, contribute to coherence.
+
+**Preservation Targets List:**
+- Dark blue napkin's position, texture, and color.
+- Smoothness and crease details of the napkin.
+- The fork's original placement location on the napkin.
+- Background color and tone.
+- Lighting and shadows on the napkin and the table.
+
+---
+
+### Step 3 - Generate Yes/No Questions
+{
+    Q1: 
+    Thinking process: The dark blue napkin is a key visual element that aids in recognizing the image’s context. Losing this color would severely impact the image's identity.
+    Question:Is the napkin still dark blue?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The napkin’s texture and creases are essential for maintaining scene authenticity. They provide evidence of the material authenticity and the way it is folded.
+    Question:Are the napkin's fabric creases and texture preserved?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q3: 
+    Thinking process: The position of the original fork dictates where the gold spoon should appear to maintain visual consistency.
+    Question:Does the new spoon occupy the same position on the napkin as the original fork?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The background's solid dark blue tone serves as a neutral canvas that keeps attention on the main subjects. Altering it could detract from focus.
+    Question:Is the background still a solid dark blue tone?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: Maintaining the lighting and shadows ensures that the new spoon integrates seamlessly with the rest of the image, preserving coherence.
+    Question:Are the shadows and lighting on the spoon and napkin consistent with the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

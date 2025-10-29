@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_1_143",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the facial features of the scientist proportionally accurate and free from exaggerated or distorted shapes such as elongated eyes, misaligned nose, or uneven lip contours?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the facial features are blurred, but the illustration style suggests a cartoonish representation typical of chibi art, which intentionally exaggerates certain features for stylistic effect. Thus, the proportions might not conform to realistic human anatomy, often featuring features like larger eyes and simplified expressions.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the lab coat exhibit natural fabric folds and subtle shading consistent with real-world draping, without appearing uniformly flat or lacking depth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a stylized, cartoon-like representation of a lab coat. Such illustrations typically forsake realistic shading and fabric texture for flat, bold lines and colors that define the shape. This is evident as the lab coat lacks detailed draping and depth.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the hand holding the pipette have exactly five fingers with natural curvature and spacing, and are the joints and knuckles positioned realistically?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the hand is represented in a simplified cartoon style, where anatomical accuracy might be compromised for simplicity and style. The hands often appear with fewer details that might omit realistic finger curvature and joint articulation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the test tubes display uniform liquid levels and clear glass surfaces with coherent reflections and refractions, without visible texture distortions or broken geometric outlines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The test tubes in Image B are depicted with an illustrative style, suggesting minimal detail and uniformity typical of cartoons. Reflections and refractions might be implied with simple lines rather than realistic rendering, leading to potential uniformity but lacking in-depth detail.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the components of the microscope and adjacent control panel correctly aligned and proportionally scaled, with no misplaced parts or floating elements that violate physical logic?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B uses a stylized representation typical of graphic illustrations, which may have creative liberty in the portrayal of objects like microscopes or control panels. Elements are designed with a focus on design rather than strict adherence to physical accuracy, thereby potentially affecting proportions and alignment.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

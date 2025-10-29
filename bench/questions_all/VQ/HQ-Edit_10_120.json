@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of modifying the qipao’s texture to a silk-like watercolor finish in pastel hues, evaluate whether the new texture appears smooth and continuous across the fabric, particularly in areas like the sleeves and chest where folds occur. Check for any visible pixelation, unnatural sheen, or abrupt transitions between colors that could indicate artifacting or poor blending.",
+      "question": "Does the fabric of the qipao display a uniform silk-like watercolor texture without visible seams, blocky patches, or inconsistent shading?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "According to the sub requirement of adding gold foil accents to the floral patterns, assess whether the metallic highlights follow the curvature of the flowers and leaves and reflect light consistently with the ambient lighting in the scene. Look for floating highlights, incorrect specular reflections, or misplaced glints that suggest artificial overlay.",
+      "question": "Are the gold foil accents on the floral patterns aligned with the flower shapes and do they show realistic reflection behavior based on the surrounding lighting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of adding a floral border, determine if the border extends evenly along the edges of the image and integrates smoothly with the background and subject. Check for clipping artifacts, misalignment at corners, or overlapping that breaks the illusion of a unified frame.",
+      "question": "Is the floral border continuous and properly aligned along all four edges of the image without gaps, overlaps, or distorted elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "According to the sub requirement of inserting a writing space framed by delicate branches, verify that the branch framing is symmetrically positioned, proportionally sized relative to the subject, and does not intersect or obscure key facial or clothing details. Also check if the branches have natural curvature and texture.",
+      "question": "Are the branches forming the writing space correctly shaped, evenly spaced, and free from unnatural bends or disconnected segments?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of presenting the image on textured ivory paper, evaluate whether the paper texture is uniformly applied across the background without altering the sharpness or contrast of the central figure. Ensure the texture does not create moiré patterns or shadow distortions over the subject.",
+      "question": "Is the ivory paper texture visible in the background but does not interfere with the clarity or detail of the person or clothing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "According to the sub requirement of preserving anatomical accuracy, especially in the hands, examine the number of fingers, their positioning, skin wrinkles, and joint structure. Confirm that there are exactly five fingers per hand, no extra digits, and that the hand posture is ergonomically plausible given the pose.",
+      "question": "Do both hands show five fingers each with natural joint angles and skin texture, and are they positioned in a way that matches human anatomy?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

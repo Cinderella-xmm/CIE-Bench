@@ -1,0 +1,71 @@
+{
+  "filename": "laion_9074175796420343583",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the crisscross lattice pattern of pastry strips visible on the pie's surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on the visual cues in Image B, there is no crisscross lattice pattern visible on the pie's surface. Instead, the pie appears to be whole or uncut on top. This judgment is through direct observation of the pie surface in the edited image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the knife with a metallic blade and wooden handle clearly present in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, there is a figure holding a knife with a metallic blade and wooden handle, suggesting it is meant for use with the pie. Comparison with Image A's knife confirms it has similar features and orientation.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is a fine dusting of white powdered sugar visible on the surface of the pie, particularly over the lattice?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pie surface is not clearly visible for dusting details, as the crust is solid without a lattice pattern. There is no indication or representation of powdered sugar on the surface as observed visually.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the pie crust uniformly golden brown in color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts the pie with a crust that appears to be in uniform color; however, its specific coloring cannot be discerned beyond general tones due to color style typical in illustrations. This analysis relies on the typical perception of pie graphics, which frequently display such colors.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are dark red sections of fruit filling visible through the gaps in the lattice crust?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The visual cues in Image B show the pie as whole without lattice gaps, inhibiting observation of any fruit filling. No red sections can be seen in the design of the pie, as the whole surface is solid, deduced from visual information.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4166666666666667
+}

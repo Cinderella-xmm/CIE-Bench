@@ -1,0 +1,105 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a geisha depicted in a traditional Japanese aesthetic, facing slightly to the right with her head turned downward, holding a partially open white folding fan in her left hand. Her dark hair is styled in an elaborate updo adorned with ornate golden hairpins, red and orange floral ornaments, dangling tassels, and small round decorative beads. She wears a richly patterned kimono with vibrant colors—predominantly green, red, gold, and blue—with intricate floral and geometric designs, including visible layered sleeves and a large red obi tied at the back with a prominent bow. The kimono features detailed embroidery and textile textures suggesting silk or brocade. Cherry blossom branches with soft pink flowers frame the upper and lower edges of the composition, arching over and around her. The background consists of a stylized black-and-gold geometric lattice pattern reminiscent of traditional Japanese screen design, with vertical lines resembling shoji panels on the left side, and a subtle gradient sky transitioning from pale yellow to blue behind them. A circular black void frames her head, contrasting with the blossoms and enhancing her silhouette.
+
+Thinking process:  
+The editing instruction explicitly states transformations that are allowed:  
+- "Transform the geisha into an Art Nouveau stained glass masterpiece" → this implies the **entire visual style** of the subject must change, including materiality (glass), color palette (jewel tones), and form (organic motifs).  
+- "Redesign her kimono with flowing organic motifs and vivid jewel tones" → the **kimono’s design and color** are to be altered, but not its **presence or function**.  
+- "Make the cherry blossoms into intricate glass petals" → the **blossoms’ form** changes to glass, but their **presence and position** may still be retained.  
+- "Convert her fan into a peacock fan, with iridescent feathers" → the **fan's type and texture** change, but it remains a handheld object in her hand.  
+- "The background becomes a mosaic of curving lines and shades" → the **background structure** changes from geometric lattice to flowing Art Nouveau patterns, so original lattice elements are no longer required.
+
+Thus, the **allowed changes list** includes:
+- The **style** of the geisha (from realistic painting to stained glass).
+- The **design and texture** of the kimono (to include organic motifs and jewel tones).
+- The **material and form** of the cherry blossoms (to glass petals).
+- The **type and appearance** of the fan (to a peacock fan with iridescent feathers).
+- The **background structure and motif** (from rigid geometric lattice to flowing Art Nouveau mosaic).
+
+Allowed Changes List:  
+(Specific element 1 that allows for changes): The visual style of the geisha (e.g., rendering as stained glass)  
+(Specific element 2 that allows for changes): The kimono’s pattern and color scheme (to organic motifs and jewel tones)  
+(Specific element 3 that allows for changes): The material and shape of the cherry blossoms (to glass petals)  
+(Specific element 4 that allows for changes): The fan’s design (to a peacock fan with iridescent feathers)  
+(Specific element 5 that allows for changes): The background’s structure and design (to flowing Art Nouveau mosaic)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements:  
+- The **geisha identity** is defined by specific cultural markers: her hairstyle (elaborate updo with ornaments), makeup (white face, red lips, darkened eyes), and attire (kimono and obi). While the style changes, the **identity as a geisha** must remain recognizable. Therefore, the **structure of her hairstyle**, **presence of hairpins**, and **traditional makeup features** (especially the white face and red lips) are core identifiers. These cannot be removed or fundamentally altered without losing the subject’s identity.  
+- The **hand-held fan** is a functional accessory central to her pose and cultural role. Though its form changes, its **position in her left hand** and **function as a handheld object** must remain consistent to preserve logical coherence.  
+- The **cherry blossoms** are culturally significant and spatially framed around her; though transformed into glass, their **placement** (top and bottom arcs framing the figure) and **role as framing elements** should be preserved to maintain compositional balance and symbolic meaning.  
+
+Functional/logical association elements:  
+- The **fan must remain held in her left hand**; changing its location or removal would disrupt the action logic of the pose.  
+- The **geisha’s posture**—slightly turned head, downward gaze, and profile view—defines her contemplative mood and is essential to the scene’s narrative. This **body orientation** must be preserved even if rendered in stained glass.  
+
+Non-modified element deduction:  
+- The **large red obi bow** at the back is a distinctive feature of the kimono and contributes to the visual balance. It is not mentioned in the instructions to be changed, so it should remain.  
+- The **overall composition**—with the geisha centered, framed by blossoms, and set against a structured background—is implied to be preserved in form, even if the style shifts. Thus, the **spatial relationship between the geisha and the blossoms** must be maintained.  
+
+Preservation Targets List:  
+(The presence of the geisha's elaborate hairstyle with multiple hairpins and ornaments)  
+(The presence of the white face makeup with red lips and darkened eyes)  
+(The fan being held in the left hand)  
+(The cherry blossoms forming an arc above and below the geisha)  
+(The red obi bow tied at the back of the kimono)  
+(The geisha’s profile pose with head turned down and body facing right)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The elaborate hairstyle with multiple hairpins and floral ornaments is a core identity feature of the geisha. Its presence and arrangement define her cultural role and distinguish her from other figures. Even if rendered in stained glass, the **structure of the updo**, **number and placement of hairpins**, and **ornamental flowers** must remain to preserve recognition. Losing these would make her unrecognizable as a geisha. Hence, this is a key identification element with weight 3.
+    Question: Is the geisha’s hair styled in an elaborate updo with multiple golden hairpins, floral ornaments, and dangling tassels?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The white face makeup with red lips and darkened eyes is a signature feature of traditional geisha portrayal. This is a core visual identifier that defines her identity. Even in stained glass, the **color contrast** and **specific facial markings** must remain. Altering or removing them would destroy the character’s authenticity. This is a critical recognition element, hence weight 3.
+    Question: Does the geisha have a white-painted face with red lips and darkened eye makeup?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The fan is a functional object held in her left hand. Its **position** and **function** are essential to the pose. Although its form changes to a peacock fan, it must still be **held in the left hand** to maintain logical consistency. Changing its hand or removing it would break the action logic. This is a functional/logical element, thus weight 2.
+    Question: Is the fan held in the geisha’s left hand?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The cherry blossoms form a framing arc above and below the geisha, creating a balanced composition. Their **spatial arrangement** is crucial to the scene’s harmony. Even if transformed into glass, their **placement** must remain to preserve the visual structure. This is an important scene element affecting overall consistency, hence weight 2.
+    Question: Are the cherry blossoms arranged in an arching pattern above and below the geisha?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The large red obi bow tied at the back is a distinctive detail of the kimono. It contributes to the visual balance and cultural accuracy. Though the kimono’s design changes, this **specific feature** is not mentioned for modification, so it must be preserved. It is a secondary but identifiable detail, hence weight 1.
+    Question: Is there a large red bow tied at the back of the kimono?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The geisha’s pose—profile view with head turned down and body facing right—is central to the image’s mood and composition. This **body orientation** defines the scene’s narrative and must remain unchanged even in stylized form. Altering it would disrupt the intended emotional tone and visual flow. This is a key postural element, hence weight 2.
+    Question: Is the geisha shown in profile with her head turned downward and body facing to the right?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

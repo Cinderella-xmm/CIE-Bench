@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0078",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the background been replaced with a steampunk-style train station waiting room?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B features an arched ceiling, vintage lighting fixtures, and wooden benches that are characteristic of a classic train station. The warm lighting and architectural style suggest a historical or nostalgic setting, which aligns with steampunk aesthetics that often incorporate Victorian-era elements. However, there are no explicit gears, clockwork devices, or other overtly steampunk-specific elements visible.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the original lighting and shadows on the wristwatch preserved after the background change?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the wristwatch is illuminated by a soft, warm light that creates distinct highlights and shadows on its surface. This lighting appears consistent with the ambient light from the lamps in the background, suggesting that the original lighting characteristics have been maintained to some extent. Comparing this with Image A, where the watch is lit by natural daylight, the lighting has changed but the quality of shadows and highlights on the watch remains similar.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the new background contain steampunk elements such as gears, metallic textures, or vintage train station features?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The new background includes vintage train station features like wooden benches, large windows, and ornate lamp posts. While these elements contribute to a steampunk ambiance, there are no visible gears or metallic textures that are typically associated with steampunk design. The overall atmosphere leans towards a historical train station rather than a purely steampunk environment.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the wristwatch still prominently displayed and undistorted in the new background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The wristwatch in Image B is clearly visible and centrally positioned, maintaining its prominence. There is no distortion in its shape or size, indicating that it has been seamlessly integrated into the new background. The focus remains on the watch, ensuring it is the main subject of the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there visible elements such as steam trains, clockwork devices, or industrial platforms in the new background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B does not feature any steam trains, clockwork devices, or industrial platforms. Instead, it showcases a train station waiting area with benches, lamps, and large windows. These elements create a historical ambiance but do not include the specific industrial or mechanical components mentioned.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

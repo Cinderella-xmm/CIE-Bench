@@ -1,0 +1,123 @@
+{
+  "filename": "HQ-Edit_123_70",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image split into two distinct panels, one on the left and one on the right (or top and bottom), forming a comic layout?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a clear separation within the image that divides it into two parts, one on the left featuring a character with text, and one on the right showing a scene with a bear and fish, depicting a comic-like layout.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does Panel 1 show the bear wearing spectacles and displaying a wise or thoughtful facial expression?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Panel 1 in Image B does not feature a bear, but rather a character holding a sign with text. The character's face is blurred but wearing spectacles is not visible.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a speech bubble in Panel 1 containing the text: “Ever wondered how a salmon ends up in a bear's mouth?”",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Panel 1 of Image B, there is text beneath the character holding a sign, but it does not say 'Ever wondered how a salmon ends up in a bear's mouth?'. Instead, it's illegible text.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does Panel 2 show a salmon emerging from bubbling water into a visual chart with labeled stages: 'egg', 'fry', 'smolt', 'adult'?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Panel 2 in Image B shows fish and a bear but does not display a visual chart with the labels 'egg', 'fry', 'smolt', 'adult'.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a fact box in Panel 2 containing the text: “Journey's end in the river gives life to the forest.”?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Panel 2 in Image B does not contain a fact box with the specified text. The visual does not present additional text features beyond the images of the fish.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are all text elements (speech bubble, labels, fact box) rendered in a clear, modern sans-serif font?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text in Image B is not clear and appears to be jumbled or distorted, making the typeface difficult to categorize as a clear, modern sans-serif font.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are the water elements in Panel 2 depicted in blue hues and the forest background in Panel 1 shown in brown-green tones?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The water elements in Panel 2 of Image B are depicted using shades of blue, and the background in Panel 1 with the forest bear does incorporate brown-green tones, matching the description.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q8",
+      "question": "Does the overall image have an aspect ratio of 16:9?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The composition of Image B is more of a rectangular format, but without specific dimensions provided in the question, determining if it matches an exact 16:9 aspect ratio is not possible just from the appearance.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q9",
+      "question": "Is the visual content of both panels clear, logically connected, and suitable for educational purposes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "While there are two distinct panels in Image B, the text is not legible, and the visual content does not form a clear, logical, and educational sequence, such as a structured explanation of a process.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2222222222222222
+}

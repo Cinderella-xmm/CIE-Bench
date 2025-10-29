@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0114",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the modern man raising a glass appear naturally integrated into the scene without disrupting the structural coherence of the original table arrangement?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The modern man is positioned on the far right side of the image, outside the main table structure. The table remains intact and undisturbed in its original form, with no visible alterations to its length, shape, or alignment. The man stands slightly apart from the table, not interacting physically with it or any of the figures seated at it. His placement does not interfere with the spatial composition of the original painting. While his presence is clearly an addition, it does not overlap or distort the table’s geometry. Therefore, structurally, the table arrangement remains coherent. However, this integration is not natural in terms of narrative or context—his inclusion feels like a modern intrusion rather than a seamless part of the scene. But strictly speaking about structural coherence (i.e., whether the table or seating arrangement is disrupted), the answer is that it is preserved.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there any unnatural textures or artifacts visible around the modern man in formal attire that disrupt the natural appearance of the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon close inspection, the modern man appears to have been digitally inserted into the image. There are noticeable differences in texture between the painted surface of the original artwork and the man's clothing. The fabric of his suit has a smooth, photographic quality, while the background has a rough, aged, fresco-like texture. Additionally, the lighting on the man does not match the directional light source in the original painting, which comes from the windows in the back. The edges around the man, especially near his jacket and hair, show slight blurring or hard lines typical of digital compositing, suggesting a lack of seamless blending. These inconsistencies create visual artifacts that stand out against the original painting’s texture and tonality.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the modern man in formal attire blend seamlessly with the artistic style of the original painting, maintaining consistent line work and shading without introducing visually incongruous elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Leonardo da Vinci’s 'The Last Supper' is characterized by precise linear perspective, soft sfumato shading, and detailed anatomical rendering within a Renaissance aesthetic. The modern man, however, is rendered in a contemporary photographic style with sharp edges, realistic skin tones, and modern clothing. His suit and bow tie are not painted but photographed, lacking the brushwork, tonal gradation, and subtle shadows present in the original. The shading on his face and clothing does not follow the same light direction as the rest of the scene, and his facial features are more sharply defined than those of the figures in the painting. This creates a stark contrast in artistic style, making him visually incongruous. Therefore, he does not blend seamlessly with the original artistic style.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the addition of the modern man caused any distortion or damage to the geometric shapes of the table or surrounding characters?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The table and all the figures at it remain unaltered in their proportions and positioning. The modern man is placed to the right, outside the frame of the table, and does not intersect with any of the existing figures or architectural elements. The table’s perspective lines, including the vanishing point toward the center, remain intact. The characters’ postures and spatial relationships are unchanged. There is no visible warping, stretching, or cropping of the original figures or the table due to the insertion of the man. The edit appears to be a simple overlay rather than a manipulation of the underlying geometry. Thus, no distortion or damage to the geometric shapes is evident.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the posture and action of the modern man, specifically him raising a glass, visually credible and consistent with the actions of others depicted in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The original scene depicts a moment of intense emotional reaction among the apostles following Jesus’ announcement of betrayal. Their gestures are expressive, dynamic, and rooted in dramatic interaction—some leaning forward, others recoiling, hands raised in surprise. The modern man, standing apart and raising a glass in a toast-like gesture, contrasts sharply with this mood. His posture is relaxed and celebratory, which is inconsistent with the solemnity and tension of the scene. Moreover, the act of toasting with a wineglass—a modern object not present in the original—is anachronistic and narratively disjointed. While the gesture itself is physically plausible, it is not credible within the context of the scene’s emotional tone or historical setting. Therefore, the action is not consistent with the actions of others in the scene.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

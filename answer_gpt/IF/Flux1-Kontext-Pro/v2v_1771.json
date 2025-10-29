@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1771",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the background now a snowy tundra landscape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual cues show the Leaning Tower of Pisa with a sky that is overcast and gray. The ground appears to be covered in snow, and the surrounding area has the look of a cold environment. These factors suggest a winter landscape, resembling snowy terrains, but not specifically a tundra, which is typically barren and treeless. Since there are buildings and trees visible, this is not exactly a tundra. However, it does give the impression of a snowy environment.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Have the surrounding buildings and structures been removed from the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, it is evident that the buildings and structures surrounding the Leaning Tower of Pisa are still present. The same buildings visible in Image A also appear in Image B, suggesting no removal of these structures. This consistency indicates that the surrounding elements have not been altered in their presence.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the new background show snow-covered ground and icy elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image in Image B clearly shows the ground covered in a layer of snow. The roofs of the buildings also appear to have snow, contributing to the winter scene. This visible snow indicates the presence of icy elements common in a snowy environment.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the tower's position and appearance remained unchanged?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon comparing Image A and Image B, it is observed that the Leaning Tower of Pisa maintains the same lean and orientation, as well as the same architectural details. There are no alterations to its tilt or structural appearance. This indicates that the position and appearance of the tower have not been changed.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the vibrant sunset sky no longer visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the striking orange and red hues of the sunset sky from Image A are replaced by a cloudy, blue-gray sky. This indicates a significant change in the atmospheric background. The vibrant sunset is not present, confirming that it is no longer visible in Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

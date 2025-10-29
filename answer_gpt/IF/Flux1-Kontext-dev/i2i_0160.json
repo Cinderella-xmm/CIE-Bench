@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0160",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the background been changed from a sunset to a starry night sky?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background displays a night scene with visible stars and a prominent full moon, which contrasts with a typical sunset background. A sunset generally includes warm colors and a sun on the horizon, which is not present in Image B. Therefore, the background transition from a sunset in Image A to a night scene in Image B can be confirmed through these visual cues.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a faint new moon visible in the new background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the moon is clearly visible and is a full moon rather than a faint new moon. A new moon is characterized by its subtle or entirely absent visibility, generally only showing a slim crescent or being mostly hidden, whereas in Image B, the moon appears full and bright.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the image include subtle dreamy effects such as soft lighting or faint clouds to create a dreamy atmosphere?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents a serene and composed night scene with clear starry sky and full moon without any noticeable soft lighting or faint clouds, which might typically contribute to a dreamy atmosphere. The clarity and sharpness of the elements do not imply any dreamy effects.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have the birds remained in their original positions and retained their detailed appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the two birds are positioned on the branch precisely as in Image A, maintaining the same posture and detailed appearance. The change in background does not affect the birds' placements or observable details, indicating they have remained in their original positions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any additional changes to the image apart from the background, new moon, and dreamy effects?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No\n```",
+      "explanation": "Upon analysis of Image B, other than the altered background from a sunset to a night sky, no other edits such as additions of new elements or other alterations to the subjects (like the birds or branch) are seen. The listed elements in the question cover the main changes, implying there are no additional changes observed.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

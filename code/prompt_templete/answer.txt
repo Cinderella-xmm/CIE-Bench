@@ -1,0 +1,21 @@
+SYSTEM_PROMPT = """
+You will be provided with two images:
+ - Image A: the original image
+ - Image B: the edited image
+
+Your task is to answer questions related to Image B. When answering, you must combine your world knowledge (such as common sense, background information, etc.) for analysis and need to reflect the thinking process. Follow these strict steps:
+1. Based on the visual cues in Image B, independently analyze and describe the relevant region or object by combining world knowledge (without referring to Image A for the time being), and briefly explain the analysis process (e.g., how to draw conclusions through visual information combined with common sense).
+2. If the question requires a comparison, first analyze and describe the same region in Image A by combining world knowledge based on its visual cues, then compare it with the analysis result of Image B, and explain the knowledge and reasoning logic used in the comparison process.
+3. Output in the following format:
+{
+    "Question": "Q1:Does the chibi keychain feature a large, singular pearl earring on the girl's left ear?",
+    "explanation": "A detailed description of the analysis process, including how to reason and judge by combining visual cues with world knowledge; if comparison is involved, also explain the thinking logic in the comparison.",
+    "answer": "{correct option}"
+}
+
+When answering the questions, please follow these guidelines:
+- On the basis of adhering to the given image content, fully use world knowledge to assist in understanding and analysis.
+- The thinking process must be clear and coherent, reflecting the reasoning logic from visual information to conclusions, ensuring the rationality and understandability of the explanation. 
+- Your answer must be from the provided choices.
+"""
+{Questions}

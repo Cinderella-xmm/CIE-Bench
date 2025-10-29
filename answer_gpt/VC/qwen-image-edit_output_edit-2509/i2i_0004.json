@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0004",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image retain the man’s smiling expression and distinct facial features?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image features a blurred face, which means that neither the man's smiling expression nor any distinct facial features are visible. The purpose of the blurring is to obscure these details, so they cannot be retained in the edited image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the man’s short, neatly styled hairstyle accurately retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the hairstyle is visible at the top but it appears altered due to the blurring of the face. However, the overall shape suggests an attempt to retain a short and neatly styled look, which is a reasonable representation based on hairstyle norms.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image include the black T-shirt with its central white graphic design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image clearly retains the man's black T-shirt and the central white graphic design on it. These elements are visible without any alteration and are accurately represented in the edited image.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the subject positioned on or near a bookshelf in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background of the edited image shows shelves filled with books, indicating that the subject is positioned near a bookshelf. The environment suggests this common location for images of this nature.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the blue and red colors of the books visible in the background of the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image displays books with blue and red covers on the shelves in the background. These colors are distinctly visible and are retained from the original image's background setting.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0090",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Do the edges and contours of the stapler maintain their smoothness without any jagged or unnatural breaks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, both sides of the stapler display smooth and continuous edges, characteristic of a well-crafted object. The blue side maintains smooth lines, which is consistent with how staplers are typically designed. The orange side, although predominantly showing the back, also maintains smooth and curved contours without any disruption or jagged appearance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the blue color and metallic finish of the stapler consistent across both the front and back views with no visible texture discrepancies or artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the blue stapler shows a consistent color and finish from the front view. However, the back view is depicted as an orange stapler with no metallic finish shown, breaking the consistency of the view. A typical stapler would show consistent color and finish in any multi-angled presentation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the mechanical components such as screws and hinges depicted accurately and consistently between the two views, avoiding any illogical positioning or distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The front view in Image B shows screws and a metallic finish consistent with functional design. However, the back view, which is orange, does not provide a complete view of mechanical components, potentially due to view angle. Traditionally, accurate depiction should show functional parity between the views.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the shadows and highlights on the stapler match the lighting conditions in both views, ensuring a believable three-dimensional effect?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, shadows and highlights seem consistent with a light source coming from the top or a top-front angle. Both views possess believable lighting as shadows and highlights match the position and orientation of the stapler, enhancing the three-dimensional perception despite the color change.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the layout of the stapler's side-by-side views clear and uncluttered, with no distracting or misplaced elements disrupting the visual flow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents two views of the stapler side by side in a neat and orderly manner. The clean division between blue and orange views allows focus without interference, making the layout clear and articulate.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

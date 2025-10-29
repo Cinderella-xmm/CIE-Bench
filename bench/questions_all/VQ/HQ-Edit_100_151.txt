@@ -1,0 +1,58 @@
+```
+Step 1: Disassemble Editing Instructions
+-<Thinking Process 1>: The instruction requires cartoonizing the child with exaggerated features, specifically an exaggerated coat and balloons in pastel tones. This involves altering the proportions and colors of the child’s clothing and balloons, which may affect the natural appearance and structural coherence. The original image shows a realistically proportioned child in a yellow raincoat holding colorful balloons. Exaggerating the coat could distort its shape or make it appear unnaturally large or misshapen. Changing balloon colors to pastel tones may reduce visual contrast and alter the perceived realism if not done consistently. Therefore, sub-requirements must evaluate whether the exaggeration maintains structural consistency and avoids unnatural textures or color shifts.
+-Sub requirement 1: Modify the child's coat to be exaggerated in size or shape; assess whether this change distorts the garment’s geometry or causes unnatural stretching or folding that breaks physical plausibility.
+-Sub requirement 2: Change the balloons’ colors to pastel tones; verify that the color shift does not introduce unnatural gradients, halos, or loss of detail on the balloon surfaces.
+-Sub requirement 3: Cartoonize the child’s facial features and body proportions; ensure that the transformation preserves anatomical correctness (e.g., number of fingers, limb proportions) without introducing deformities.
+
+-<Thinking Process 2>: The instruction calls for enhancing the wheat field with watercolor textures. The original image depicts a detailed, photorealistic wheat field. Applying watercolor texture may blur fine details or create visible brushstroke artifacts that conflict with the rest of the image’s style. This edit affects the entire background field, so evaluation must focus on whether the texture integration is seamless and whether it degrades the clarity of individual wheat stalks or creates inconsistent surface patterns.
+-Sub requirement 4: Apply watercolor texture to the wheat field; check whether the texture overlays are uniform, non-disruptive, and do not obscure or distort the underlying structure of the wheat stalks.
+-Sub requirement 5: Ensure that the transition between the textured field and the surrounding elements (e.g., sky, path) remains smooth without visible seams or edge artifacts.
+
+-<Thinking Process 3>: Adding a hanging calendar grid below the child, where each balloon symbolizes a day, introduces a new compositional element. The original image has no such grid. This addition must be spatially coherent—positioned naturally beneath the child—and visually integrated without appearing floating or misaligned. Each balloon should correspond to a day in the grid, implying a symbolic relationship. The grid must not disrupt the depth perception or occlude key elements like the child’s feet or the ground.
+-Sub requirement 6: Insert a calendar grid beneath the child; verify that the grid is anchored properly to the scene, aligned with perspective, and does not float unnaturally above the ground.
+-Sub requirement 7: Map each balloon to a day in the grid; confirm that the correspondence is logical and visually consistent (e.g., one balloon per cell, no overlaps or missing entries).
+
+-<Thinking Process 4>: The backdrop is specified as a soft blue sky, but the original already features a clear blue sky with clouds. The instruction implies tonal adjustment toward softer hues, possibly reducing contrast or saturation. This change must not cause unnatural cloud shapes or loss of detail in the sky.
+-Sub requirement 8: Adjust the sky tone to soft blue; evaluate whether the modification alters cloud edges or introduces gradient banding or noise.
+
+-<Thinking Process 5>: The overall style shift from realistic to cartoonish must preserve core elements (child, balloons, field) while transforming them into a stylized form. The challenge lies in maintaining visual credibility—ensuring that even when stylized, the elements retain recognizable forms and avoid geometric distortion or material inconsistencies.
+-Sub requirement 9: Maintain structural coherence across all edited elements; ensure that no part of the image appears disjointed or physically impossible due to the style conversion.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of modifying the child's coat to be exaggerated in size or shape, this question evaluates whether the coat retains a plausible geometric structure and does not exhibit unnatural stretching, bulging, or misalignment with the child’s body. The original coat is proportionally accurate; any exaggeration must not break physical logic.
+Question: Does the child's coat maintain a coherent shape with natural folds and no distorted or broken seams?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of changing the balloons' colors to pastel tones, this question checks whether the color shift results in visible artifacts such as uneven gradients, haloing around edges, or loss of surface detail (e.g., reflections or highlights). The original balloons have glossy, reflective surfaces; pastelization must preserve these qualities.
+Question: Are the balloon surfaces evenly colored in pastel tones without visible color bleeding or loss of specular highlights?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of cartoonizing the child’s features, this question examines whether the hand structure remains anatomically correct—specifically, whether the number of fingers is five and the shape follows ergonomic principles. Any distortion here would compromise structural consistency.
+Question: Does the child’s right hand holding the balloons have exactly five fingers with natural joint alignment and no extra or missing digits?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of applying watercolor texture to the wheat field, this question evaluates whether the texture blends seamlessly with the existing grass and does not obscure individual wheat stalks or introduce artificial brushstroke patterns that conflict with the rest of the image.
+Question: Is the watercolor texture applied uniformly across the wheat field without disrupting the visibility of individual stalks or creating unnatural stroke lines?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of inserting a calendar grid beneath the child, this question checks whether the grid is grounded in the scene and aligned with the perspective of the path and field. It must not appear suspended or misaligned with the horizon or the child’s position.
+Question: Is the calendar grid positioned at ground level and aligned with the path beneath the child, without floating or casting unrealistic shadows?
+Choices: Yes, No  
+A: Yes
+
+Q6: 
+Thinking process: Based on the sub requirement of adjusting the sky tone to soft blue, this question evaluates whether the sky retains natural cloud formations and smooth transitions between light and shadow, avoiding digital artifacts such as banding or over-smoothing.
+Question: Do the clouds in the sky maintain natural edges and volume without visible pixelation or unnatural smoothing effects?
+Choices: Yes, No  
+A: Yes
+```

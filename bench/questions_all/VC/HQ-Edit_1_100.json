@@ -1,0 +1,92 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The green desk lamp is a critical visual identifier in the original image, providing both functional lighting and distinct color contrast. Its presence and green shade are unique to the scene and help establish mood and authenticity. Even if stylized, its color and position must be preserved to maintain visual consistency. If removed or replaced, the scene loses a key atmospheric element. This is a core identity feature tied to the environment and lighting setup, hence weighted at 3 points.",
+      "question": "Is the green-shaded desk lamp present on the right side of the desk?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The grid-patterned window is a defining architectural feature in the background, contributing to the depth and natural lighting of the scene. It is not mentioned for modification in the instructions and serves as a structural anchor. Its removal or alteration would disrupt the spatial logic and lighting cues. As a key environmental element, its retention ensures scene coherence, warranting a weight of 2 points.",
+      "question": "Is the vertical window with a grid pattern visible on the left side of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The open book with visibly aged, yellowed pages is central to the narrative of reading and scholarship. Although the instruction allows elongation, the fundamental attribute of being an open book with readable text and aged paper must remain. Losing this would break the core action of the scene. Thus, it is a key functional object, deserving a weight of 3 points.",
+      "question": "Is there an open book with yellowed pages on the desk in front of the figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The round wire-rimmed glasses are a distinctive accessory that contributes to the character’s identity and expression. They are not mentioned for change, and altering them could misrepresent the figure’s appearance. Their shape and placement are essential for facial recognition and continuity. As a key personal attribute, they carry a weight of 2 points.",
+      "question": "Are round wire-rimmed glasses visible on the figure’s face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The figure’s seated posture at the desk, leaning forward with her hand on the book, defines the action and engagement in the scene. This pose is crucial for conveying focus and intent. While style may shift to cartoonish, the physical positioning must remain to preserve narrative logic. It is a core functional posture, so it is assigned 2 points.",
+      "question": "Is the figure seated at the desk with her body leaning forward toward the open book?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The wooden desk surface with visible grain texture grounds the scene in realism and provides a tactile base for the objects. Though the instruction mentions artistic transformation, the material and surface detail are not specified for change. Retaining the wood grain ensures environmental consistency and avoids surrealism that breaks immersion. This is a secondary but important detail, worth 1 point.",
+      "question": "Is the desk made of wood with visible grain texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The stack of books behind the main open book adds depth and context to the scholarly setting. Though not the primary focus, their presence reinforces the library environment. Since they are not mentioned for removal or modification, they must be preserved to maintain environmental logic. This is a minor but supportive detail, hence 1 point.",
+      "question": "Are there multiple stacked books located behind the main open book on the desk?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q8",
+      "thinking_process": "The dark hair styled in a bun with loose strands framing the face is a key part of the character’s appearance. It is not referenced for change, and altering it would affect identity recognition. The bun structure and hair flow are visually distinctive and must be retained for continuity. This is a secondary identity feature, so it receives 1 point.",
+      "question": "Is the figure’s dark hair styled in a bun with loose strands falling near the face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

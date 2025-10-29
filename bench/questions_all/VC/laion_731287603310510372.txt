@@ -1,0 +1,119 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a man shown in profile view, facing left, wearing a gray flat cap with a structured, slightly curved brim. The cap has a visible seam pattern across the crown and a small brown leather tag on the side near the back. He has short dark hair, a neatly trimmed mustache, and a goatee. His eyes are light-colored (blue or gray), and he wears a plain heather gray crew-neck t-shirt. The background is a neutral, solid light gray tone with no textures or objects. The lighting is even and soft, highlighting facial features without harsh shadows.
+
+Thinking process:  
+The editing instruction specifies transforming the image into a **vintage detective movie poster**, using **noir elements** such as shadowy textures, angular lines, sepia tones, and overlays like city silhouettes and magnifying glasses. It explicitly calls for adding **text ("The Gray Mystery")**, **abstract background elements**, and **aesthetic filters** (sepia). However, it does not mention altering the **subject’s identity**, **face**, **clothing type**, or **core features**—only how they are framed and styled within a new context.
+
+Key changes allowed by the instruction:
+- Background transformation: From plain gray to a noir-style urban scene with abstract silhouettes.
+- Color grading: Addition of a **subtle sepia tone**.
+- Overlay elements: Cityscape silhouette, magnifying glass, angular lines, and textured shadows.
+- Text addition: Title “The Gray Mystery” in bold serif font.
+- Visual style shift: Emphasis on **dramatic lighting**, **contrast**, and **mood** typical of film noir.
+
+Thus, the following elements are **allowed to change**:
+- Background color and content
+- Lighting intensity and direction
+- Overall color palette (e.g., sepia overlay)
+- Added graphical overlays (cityscape, magnifying glass)
+- Text elements
+- Texture effects (shadowy textures, grain)
+
+Allowed Changes List:
+- Background environment
+- Color tone (introduction of sepia)
+- Lighting contrast and shadows
+- Overlay graphics (cityscape, magnifying glass)
+- Typography and text placement
+- Angular line art and texture layers
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+We now identify what **must be preserved** based on exclusion from the allowed changes list and core recognition logic.
+
+**Core recognition elements**:  
+The subject's **identity** depends on recognizable facial features and clothing. Since the instruction does not specify changing the person’s face, expression, or key garments, these remain critical. Specifically:
+- The **gray flat cap** is central to the theme ("emphasizing the gray cap and shirt"), so its **presence, shape, and position** must be retained.
+- The **heather gray t-shirt** is also emphasized—its **color and basic form** should remain identifiable.
+- The **facial structure**, including **mustache**, **goatee**, and **eye color**, defines the individual and cannot be altered without losing identity.
+
+**Functional/logical association elements**:  
+There is no functional interaction described (e.g., holding an object), but the **relationship between the cap and head** is essential—the cap must still sit naturally on the head, not float or distort. Similarly, the **shirt must remain worn properly** around the neck and shoulders.
+
+**Non-modified element deduction**:  
+Even though the background and mood are to be changed, the **subject’s posture** (side profile), **head orientation**, and **relative positioning of facial features** must stay consistent. Any distortion would compromise coherence.
+
+Preservation Targets List:
+- The presence and shape of the gray flat cap
+- The position and appearance of the brown leather tag on the cap
+- The heather gray crew-neck t-shirt
+- The man’s facial features: mustache, goatee, eye color, nose shape
+- The side profile pose (facing left)
+- The natural fit of the cap on the head
+- The fabric texture of the cap and shirt (as implied by material consistency)
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The gray flat cap is explicitly emphasized in the instruction as a core visual focus ("emphasizing the gray cap and shirt"). Its **shape**, **position**, and **material texture** are essential to the subject’s identity and thematic intent. If the cap is removed, replaced with another hat, or significantly distorted (e.g., flattened or reshaped), the core subject identity and thematic emphasis are lost. This makes the cap a **key identity element** with a weight of 3 points.
+    Question: Is the gray flat cap still present on the man's head, maintaining its original shape and position?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The brown leather tag on the side of the cap is a **distinctive detail** that contributes to the authenticity and design of the cap. While small, it is visually identifiable and likely part of the product branding or style. Removing or altering it would affect the accuracy of the cap representation, especially if this is a product-focused image. It is not mentioned in the instructions as something to change, so it must be preserved. As a **minor but unique detail**, it carries moderate importance.
+    Question: Is the small brown leather tag visible on the side of the cap near the back?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q3: 
+    Thinking process: The heather gray t-shirt is explicitly mentioned as a focal point ("emphasizing the gray cap and shirt"). Its **color** and **basic cut** (crew neck, short sleeves) are necessary to maintain continuity with the original image. Changing the shirt’s color, style, or removing it entirely would contradict the instruction’s emphasis and alter the subject’s appearance significantly. Thus, it is a **key component** of the visual identity.
+    Question: Is the man wearing a heather gray crew-neck t-shirt?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The man’s **facial hair**—specifically the mustache and goatee—is a defining feature of his appearance. These are not mentioned in the instruction as being editable, and altering them would change his identity. They contribute to the character’s distinctiveness and are crucial for recognition. Therefore, their **presence and shape** must be preserved.
+    Question: Does the man have a mustache and a goatee?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q5: 
+    Thinking process: The **side profile pose** (facing left) is a structural element of the composition. It defines how the subject interacts with space and is essential for maintaining the original framing. Changing the angle (e.g., front-facing or three-quarter view) would fundamentally alter the image’s visual narrative and break consistency. Although not directly referenced, it is implied by the static nature of the original image and must be preserved for coherence.
+    Question: Is the man shown in a side profile, facing to the left?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The **fabric texture** of both the cap and shirt is implied by the heather gray appearance—this indicates a woven or melange material. While the instruction allows sepia tone and shadows, it does not permit changing the **material quality** of the clothing. Preserving the **texture** ensures the realism and authenticity of the attire, especially since the cap and shirt are central to the theme. Though subtle, texture affects perception of material and thus contributes to visual fidelity.
+    Question: Are the textures of the cap and shirt consistent with a heather gray fabric (i.e., showing a mix of light and dark fibers)?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The **natural fit** of the cap on the head is important for realism. If the cap appears floating, misaligned, or distorted due to added shadows or overlays, it breaks logical coherence. The instruction does not suggest repositioning or detaching the cap, so its **placement relative to the head** must remain accurate. This is a **functional relationship** that supports the integrity of the subject’s appearance.
+    Question: Is the cap sitting naturally on the man's head, aligned with the contours of his skull?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

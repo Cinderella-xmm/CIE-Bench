@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_30727",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the person appear naturally integrated into the scene without any obvious artifacts or unnatural textures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the person is positioned crouching next to the zebra. The lighting, shadow, and perspective should match the overall setting to appear naturally integrated. The person's casting shadow onto the ground is consistent with the lighting direction. However, close inspection reveals slight discrepancies in how light interacts with the person versus other elements like the zebra. This disparity can make the person look less naturally integrated into the scene, as slight texture differences suggest artificial addition.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the zebra's head turned in a way that looks natural and plausible for a startled reaction?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the zebra maintains nearly the same posture as before, bent down to drink water. The zebra's head doesn't significantly change its orientation or posture that would indicate a startled reaction such as an abrupt movement or a heightened alertness. Therefore, the zebra's pose is not suggestive of being startled.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the zebra's stripes clear and detailed without any unnatural blurring or distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the zebra's stripes remain consistently clear and detailed across its body, maintaining the natural pattern without visible signs of blurring or distortion. This indicates that the stripes were not altered in a way that negatively impacts their natural appearance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the person's foot look like it is realistically pressing down on the zebra's tail without breaking geometric shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the person's foot is close to the zebra's tail but does not appear to be pressing down on it. There is no deformation of the zebra's tail or realistic interaction, suggesting that the person and zebra elements are independent of each other, maintaining geometric integrity.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the addition of the person maintain the overall composition and layout of the scene without disrupting the natural setting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the person is introduced into the scene, interacting with the zebra without significantly altering the scene's composition or layout. The person is placed in a manner that respects the landscape, keeping in harmony with the background elements like rocks and water, although the visual integration of the person seems slightly off due to lighting inconsistencies. While it slightly affects the realism, the natural setting and layout are maintained.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

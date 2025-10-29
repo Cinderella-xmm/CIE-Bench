@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0049",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is only one zebra visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, there is a noticeable bright green area where the grass originally was. However, no zebra is present in either the original or the edited image; the scene depicts a person skiing. There are no zebras visible, aligning with the context of a winter sporting event as zebras are typically found in savanna-like environments, not snowy ones.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Has all the grass been removed from the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the area that was initially covered with snow and trees in the background is now replaced by a bright green surface. This change suggests that the snow has been covered up, but the transition to green replaces the snowy landscape, not grass. Grass is not present in the original image either.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the grass area replaced by a green gradient plane?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image does feature a consistent bright green color, but there is no gradient in the plane; it is uniformly green without any transition between colors. The original image's snowy landscape is replaced with this solid green area.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image maintain a calm and solitary atmosphere without extra distractions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image maintains a focus on the individual skiing under the start banner, with the background primarily green and little other visual complexity. The change to a green background simplifies the scene compared to the original snowy landscape with trees, aiding a more solitary focus on the skier without additional distractions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the original zebra's position and appearance preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "There is no zebra in either the original or edited image. The position and appearance of the person skiing in the scene is what is preserved, rather than any zebra imagery. Therefore, there is no zebra's position or appearance to be preserved in the edited image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

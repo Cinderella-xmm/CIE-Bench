@@ -1,0 +1,71 @@
+{
+  "filename": "laion_3185247289209855048",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is there a cartoon-style enamel pin representing the hair that features glossy, gold wavy hair with visible pearl embellishments?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual elements display a cartoon-style rendering of hair, characterized by smooth, curved lines and visible pearl-like embellishments, which match the typical qualities of enamel pins like glossiness. The sleek styling and jewel accents emphasize gold wavy hair with pearl detail.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a cartoon-style enamel pin representing the fur that has a soft pink color and a silky texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, below the blurred face, there is an illustration of fur with soft lines and shading that suggest a fluffy appearance with a pink color. These characteristics align with enamel pins that depict specific textures and vibrant colors.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a third cartoon-style enamel pin that features only minimalist outlines, without detailed textures or full coloring?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, only two distinct elements are visible: the hair and the fur. There isn't a separate third object depicted with minimalist outlines or lacking detailed textures and coloring.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do all three enamel pins exhibit a vibrant, polished finish consistent with high-quality enamel pins (e.g., glossy surface, sharp edges, bright colors)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows vibrant colors and smooth surfaces on the cartoon-style elements corresponding to the hair and fur, akin to enamel pins' polished finish. However, as only two distinct pins are visible, and not a third, the question premise is inaccurate.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Have the original hair and fur been completely replaced by the three distinct cartoon-style enamel pins, with no visible remnants of the original elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing Image A and Image B reveals that the former's realistic hair and fur texture have been replaced with cartoon-style depictions in Image B. However, only two distinct cartoon elements replace the original features, corresponding to hair and fur.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

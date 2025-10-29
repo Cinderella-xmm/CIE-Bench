@@ -1,0 +1,81 @@
+Description of reference image: The subject consists of multiple spherical and cubic objects arranged in a dynamic, scattered composition on a smooth, reflective surface. The spheres are primarily white with marbled patterns featuring flowing veins of warm brown and subtle gray tones, resembling natural stone such as marble or travertine. Some spheres exhibit high gloss, reflecting light and surrounding elements with clarity. Among the spheres, there are also smaller cube-shaped fragments that appear to be breaking apart or floating mid-air, suggesting motion or disintegration. The background is a soft, muted teal-gray gradient, slightly out of focus, contributing to a clean and minimalist aesthetic. The lighting is soft and diffused, casting gentle shadows and enhancing the three-dimensional form of the objects. The overall scene conveys a sense of balance between stillness and movement, with some elements suspended in air, implying recent impact or collapse.
+
+Thinking process:  
+First, analyze the editing instructions word by word:  
+- "Transform spheres and cubes into LEGO bricks with marbled patterns" → This explicitly changes the **form** (spheres → bricks) and **shape** (cubes → interlocking bricks), so the original geometric forms are no longer required.  
+- "Maintaining color" → The **color palette** (white base with brown and gray marbling) must be preserved.  
+- "Change surface texture to resemble LEGO's matte finish" → Texture is allowed to change from glossy to matte.  
+- "Arrange in a structured pattern on a wooden shelf" → The **arrangement** and **surface** (wooden shelf) are changed; thus, the original chaotic layout and reflective floor are not required.  
+- "Add subtle interlocking details on bricks" → Introduces new structural features (LEGO studs/interlocks), which are not present in the original.  
+- "Simplify background for a clean, minimalist aesthetic" → Background can be simplified, meaning the original blurred teal-gray backdrop may be altered or replaced.  
+
+Allowed Changes List:  
+- Shape of spheres and cubes → transformed into LEGO brick forms  
+- Surface texture → changed from glossy to matte  
+- Arrangement → changed from scattered to structured  
+- Support surface → changed from reflective floor to wooden shelf  
+- Background → simplified or replaced  
+- Presence of floating fragments → may be removed or reinterpreted as part of LEGO structure  
+- Light reflections and shadow behavior → adjusted due to matte texture  
+
+Step 2 – Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements:  
+- The **marbled pattern** (specifically the flowing brown and gray veins on a white base) is the defining visual identity of the materials in the image. Even though the form changes to LEGO bricks, the instruction specifies “maintaining color” and “marbled patterns,” meaning the **visual pattern itself must be preserved**. This is critical for maintaining continuity in material identity.  
+- The **color scheme** (white base with warm brown and gray veining) is explicitly required to be maintained, making it a core element. Any deviation would break the consistency of the material representation.  
+
+Functional/logical association elements:  
+- While the structure changes from free-floating spheres to LEGO bricks, the **material identity** (marble-like appearance) remains central. The functional role of the objects (as decorative or sculptural forms) is preserved through material continuity, even if shape changes. However, since the instruction does not require preserving any functional logic (e.g., physical interaction), this is not a functional constraint.  
+
+Non-modified element deduction:  
+- The **presence of marbled texture** (not just color but specific veining) must remain, as it is implied by “marbled patterns.”  
+- The **distribution of colors** (brown and gray veins in organic flow) must be retained, as altering it would change the material’s character.  
+- The **overall material impression** (stone-like, natural, luxurious) must be preserved via the marbled pattern, even if rendered on LEGO bricks.  
+
+Preservation Targets List:  
+- Marbled pattern with flowing brown and gray veins on white base  
+- White base color with warm brown and gray accents  
+- Organic, non-geometric distribution of veins  
+- Visual continuity of material identity (marble-like appearance)  
+- Color fidelity across all modified objects  
+
+{
+    Q1: 
+    Thinking process: The marbled pattern with flowing brown and gray veins on a white base is the core identity feature of the objects in the original image. This pattern is essential for identifying the material as marble-like and distinguishes it from plain white or uniformly colored objects. If this pattern is lost or simplified to uniform coloration, the material identity is destroyed, making the edited image visually inconsistent with the original intent. Therefore, this is a key identification element with a weight of 3 points.
+    Question: Is the flowing brown and gray marbled pattern visible on the surfaces of the LEGO bricks?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The white base color with warm brown and gray accents is explicitly required to be maintained in the editing instructions. This color combination defines the material tone and aesthetic of the original image. Changing the base to a different hue (e.g., gray or beige) or removing the brown/grey accents would fundamentally alter the visual identity of the material, making it unrecognizable as derived from the original. Thus, this is a core color fidelity requirement with a weight of 3 points.
+    Question: Are the LEGO bricks rendered with a white base color accented by warm brown and gray marbling?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The organic, non-geometric distribution of veins in the marbled pattern is a key detail that distinguishes natural marble from synthetic or artificial patterns. In the original image, the veins follow fluid, irregular paths rather than straight lines or repetitive motifs. Preserving this irregularity ensures the authenticity of the material representation. If the veins become regular or grid-like, the illusion of natural stone is broken. This detail supports visual coherence and is therefore assigned a weight of 2 points.
+    Question: Do the marbled veins follow an organic, irregular flow rather than a geometric or repetitive pattern?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The presence of both brown and gray veining within the same material is a distinctive characteristic of the original marbles. The combination contributes to depth and realism. Removing one of these colors (e.g., only brown or only gray) would reduce the richness of the material and deviate from the original visual balance. Since both are present in the original, their coexistence must be preserved to maintain material authenticity. This is an important detail affecting visual coherence, hence a weight of 2 points.
+    Question: Are both warm brown and gray veins present together in the marbled pattern of the LEGO bricks?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The visual continuity of the material identity—specifically, the perception that the LEGO bricks are made of a marble-like substance—is crucial. Even if the shape changes, the material appearance must remain consistent. This includes the way light interacts with the surface (though texture changes to matte, the underlying pattern must still suggest stone). If the bricks appear plastic or synthetic without any trace of marbling, the transformation fails. This is a secondary but important coherence element, hence a weight of 1 point.
+    Question: Do the LEGO bricks visually appear to be made of a marble-like material based on their surface pattern?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

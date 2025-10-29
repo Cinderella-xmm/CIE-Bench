@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0073",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the city skyline in the mirror maintain realistic lighting and contrast, matching the ambient light of the bathroom?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the city skyline depicted in the mirror is a night view, highlighted by bright city lights. The bathroom setting is well-lit by artificial light above the mirror. However, the overall brightness and color temperature of the city's night lights contrast with the ambient, more neutral light of the bathroom. Combining world knowledge about how differing light environments appear in a single setting, it can be deduced that the city's light does not harmonize with the bathroom’s ambient lighting, which is more subdued.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the textures and details in the city skyline clear and sharp, without unnatural blurring or pixelation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the city skyline visible in the mirror displays specific buildings and city details. The lights and structures are sharp and distinguished, indicating that there is no noticeable blurring or pixelation. Considering typical photo manipulations, a high-quality insertion would maintain such clear textures.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the skyline fit perfectly within the mirror's frame without distorting the geometric shape or overflowing its borders?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Examining Image B closely, the city skyline is neatly confined within the mirror’s frame. The straight edges of the mirror do not show any warping or overflow of the skyline image, suggesting the insertion was managed with proper perspective and geometry.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the city skyline in the mirror complement the bathroom's interior without clashing with elements like the marble countertop or fixtures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the stylistic difference between the sleek, modern city night skyline and the classic, elegant bathroom decor such as the marble countertop and brass fixtures creates a visual contrast. While not complementary per design conventions, no evident clash is apparent in terms of color or overpowering elements in the whole composition.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the original bathroom elements around the mirror (such as the light above and objects on the countertop) unaffected and retain their natural appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "When looking at Image B, all bathroom elements like the lighting fixture above the mirror and the various objects on the marble countertop maintain their original appearance. There is no indication that these features have been altered or incurred any unnatural changes arguably due to the inserted city skyline. Such retention suggests they stay unaffected by the edit.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

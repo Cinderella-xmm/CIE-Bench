@@ -1,0 +1,97 @@
+{
+  "filename": "laion_4462408628597316995",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the adult character holding an open book?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the adult character on the left is depicted holding a book that is open and emitting light. This is clear from the visual depiction of the book in the character's hands with pages visible and light emanating from it, indicating that it is open. Thus, the character is indeed holding an open book.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there exactly three children in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, only two children are visible—one sitting on the ground and the other partially visible on one side, suggesting there aren't three children present. By analyzing the number of distinct characters, we can conclude there are only two children in the image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do all three children wear blue uniforms with yellow trim and blue hats with yellow ribbons?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are two children, and they both appear to wear blue outfits with yellow trims, indicating a uniform. However, only one hat is visible, placed on the ground, suggesting it might not belong to the children or is associated uniformly. The phrasing about 'three children' is incorrect since only two children are present, and there's no definitive indication of all wearing hats.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the adult character positioned on the left side of the image, facing the children?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the adult character is indeed on the left side and is shown facing the children. The character's eyes and body direction are turned towards the children, interacting with them as observed in the image.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is one of the children pointing toward the book held by the adult?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, neither of the two children is depicted pointing at the book the adult is holding. Both children seem engaged but without any pointing gesture, based on their hand positions.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the bottom child seated with legs crossed and hands clasped?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, one of the children sitting on the ground does have legs positioned in a sitting manner, but the hands are not clasped together; rather, they are positioned more expressively, possibly indicating excitement or interest rather than in a clasped format.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the background a solid green color with no additional elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background of Image B is not a solid green color; it features a forest-like scene with visible details such as trees, plants, and mushrooms, indicating a natural setting rather than a monochrome background.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

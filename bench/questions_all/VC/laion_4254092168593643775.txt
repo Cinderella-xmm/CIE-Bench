@@ -1,0 +1,106 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a motocross rider in full racing gear, wearing a red suit with black and white accents, riding a red and blue dirt bike marked with the number "7" on the front fender and side panels. The rider leans forward dynamically, gripping the handlebars tightly, mid-motion on a dusty desert track. The motorcycle has visible suspension components, blue-rimmed wheels, and a detailed engine with a blue exhaust cover. A translucent rectangular frame overlays the scene, containing a stylized track outline in the top-right corner labeled "5/5", indicating lap progress. Inside this frame, a blurred duplicate of the rider appears on the right, suggesting motion or reflection. The background consists of a desert landscape with rolling dunes under a soft gradient sky transitioning from pale blue to warm orange near the horizon. Dust trails are kicked up behind the rear wheel, emphasizing speed and movement.
+
+Thinking process:  
+The editing instruction specifies transforming the **motocross rider into an energy drink label design**, which implies that the **subject’s form and context will be reinterpreted stylistically**, not preserved literally. However, the instruction also mentions retaining certain visual elements such as **dynamic sand streaks**, **minimalist silhouette style**, **track outline**, **brand name "RaceFuel"**, **speedometer icon**, and **colorful iconic elements**. These suggest that while the **literal depiction of the rider and environment may change**, specific **visual motifs and symbolic elements must be retained or transformed meaningfully**.
+
+From the instruction:
+- “Transform the motocross rider into an energy drink label design” → allows for **complete reinterpretation of the rider's form**, possibly reducing to silhouette or abstract representation.
+- “Include dynamic streaks of sand as background graphics” → **background sand streaks can be stylized but should remain present**.
+- “Capture the rider's action in a minimalist silhouette style” → **rider’s posture and motion must be preserved in essence**, even if simplified.
+- “Integrate bold typography with brand name 'RaceFuel'” → **new text element added; not part of original**.
+- “Overlay a track outline decked in bright iconic colors” → **track outline (already present) must be retained and enhanced**.
+- “Add speedometer icon with a maxed-out needle on the bottom” → **new graphic element added; not part of original**.
+- “Crafting a power and speed narrative” → **thematic direction, not a visual constraint**.
+
+Allowed Changes List:  
+- The rider’s clothing details (e.g., red suit pattern, helmet design)  
+- The exact color scheme of the motorcycle (though red/blue may be preserved as iconic)  
+- The realism of the rider’s posture (can become silhouette)  
+- The clarity of the desert background (can be abstracted into sand streaks)  
+- The presence of the second blurred rider (can be removed or integrated into design)  
+- The transparency and framing of the overlay rectangle (can be modified or removed)  
+- Addition of new elements: “RaceFuel” text, speedometer, bright colors on track  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements:  
+- The **number "7"** on the motorcycle is a key identifier—commonly used in motorsports for rider identification. It is visually prominent and likely tied to the rider’s identity. Even if stylized, its **presence and position** must be retained to preserve authenticity.  
+- The **track outline labeled "5/5"** is a functional element indicating race progress. The instruction says to “overlay a track outline,” implying the **original track shape and lap count must be preserved** and only enhanced with color.  
+- The **dust trail behind the rear wheel** is a critical indicator of motion and speed. While it can be stylized into "dynamic streaks," its **existence and origin point** (from the back wheel) must remain consistent to maintain physical logic.  
+- The **position of the rider relative to the motorcycle**—leaning forward, hands on bars—must be preserved in silhouette form to convey active riding posture. This is essential for logical coherence in motion representation.  
+
+Functional/logical association elements:  
+- The **connection between the rider and the motorcycle** must remain intact—no floating rider or detached vehicle. The rider must appear mounted on the bike, even in silhouette.  
+- The **direction of motion** (left to right) must be preserved to align with the dust trail and track progression.  
+
+Non-modified element deduction:  
+- The **shape of the motorcycle’s wheels**, especially the **blue rims**, are distinctive and contribute to the visual identity. While colors may shift, their **circular shape and placement** must remain.  
+- The **overall composition**—rider in foreground, desert in background, track outline in upper-right—must be maintained spatially to preserve scene logic.  
+- The **"5/5" lap indicator** must retain its **numerical value and position**, even if color or style changes.  
+
+Preservation Targets List:  
+- The number "7" on the motorcycle’s front fender and side panel  
+- The track outline with "5/5" label in the upper-right corner  
+- The dust trail originating from the rear wheel  
+- The rider’s leaning posture and grip on handlebars  
+- The circular shape and blue rim of the front wheel  
+- The spatial layout: rider in foreground, desert background, track overlay in upper-right  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The number "7" is a core identity marker of the rider and motorcycle, appearing prominently on both the front fender and side panel. Its presence is essential for identifying the specific rider and maintaining continuity with the original image. If lost or altered, the subject becomes unrecognizable in terms of competitive identity. Thus, it is a 3-point key element.
+    Question: Is the number "7" clearly visible on both the front fender and side panel of the motorcycle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The track outline with "5/5" is a functional element indicating race completion. It is already present in the original image and is explicitly referenced in the instruction to be overlaid in bright colors. Retaining its shape and label ensures continuity in the narrative of the race. Loss would break the contextual link to the event.
+    Question: Is the track outline labeled "5/5" present in the upper-right corner of the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The dust trail behind the rear wheel is a critical indicator of motion and physical interaction with the terrain. Its origin point at the rear tire and direction of dispersion are essential for conveying speed and realism. Even if stylized into streaks, its source and trajectory must remain consistent.
+    Question: Does the dust trail originate directly from the rear wheel of the motorcycle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The rider’s posture—leaning forward with hands on handlebars—is fundamental to depicting active motocross riding. Even in minimalist silhouette form, the body angle and hand position must reflect engagement with the bike. Altering this would misrepresent the action.
+    Question: Is the rider depicted in a forward-leaning posture with hands gripping the handlebars?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The front wheel’s circular shape and blue rim are distinctive visual features contributing to the motorcycle’s identity. While colors may be adjusted, the shape and placement must remain to preserve the vehicle’s structure. Losing this detail would distort the mechanical integrity of the bike.
+    Question: Is the front wheel circular with a blue rim?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The spatial arrangement—rider in foreground, desert background, track overlay in upper-right—establishes scene logic. Disrupting this layout could confuse the viewer about the setting and context. While background can be abstracted, the relative positions must be preserved.
+    Question: Is the rider positioned in the foreground with the desert landscape behind them and the track outline in the upper-right corner?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

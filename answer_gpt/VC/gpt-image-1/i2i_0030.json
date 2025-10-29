@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0030",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are all the original fruit types (pineapple, kiwi, pear, watermelon, orange, banana, and blueberries) retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a variety of fruits, including pineapple, kiwi, pear, watermelon, orange, banana, and blueberries, are visually identifiable on the plate. Each fruit type maintains distinct colors and shapes that allow them to be individually recognized. By referring to Image A, it's confirmed these are the same fruits as in the original, indicating no fruits have been removed in the edited image.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the original colors of the fruits (yellow, green, red, orange, and purple) preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the fruits display colors that are commonly associated with their natural appearance: yellow for pineapple and banana, green for kiwi and pear, red for watermelon, orange for orange slices, and purple for blueberries. Comparing these colors with Image A, it shows that there is consistency in the color representation of the fruits between the two images.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the cross-section texture of the kiwi and the seed pattern of the watermelon retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B retains key textural elements that characterize a kiwi cross-section, such as its interior seeds and radial pattern, as well as the distinctive seed pattern of the watermelon visible as small dots in the fruit's flesh. These elements match the visual textures present in Image A, confirming their retention in the edited version.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the original relative positioning and arrangement of the fruits preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon observing Image B, the fruits appear arranged in a similar pattern as Image A: pineapple, kiwi, pear, watermelon, orange, banana, and blueberries follow a consistent order and spatial arrangement on the plate when compared between both images. This suggests no change in their positioning.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the white plate and golden tray still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the plate remains visible with its white color, upon which the fruits are arranged. However, the golden tray is no longer present as the background and supporting surface has been changed to a green tray with leaf patterns. In Image A, the golden tray can be seen beneath the white plate. The comparison shows a change in the background elements of the setup between the two images.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.9
+}

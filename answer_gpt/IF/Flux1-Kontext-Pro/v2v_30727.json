@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_30727",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has a person been added to the image near the zebra's tail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "By closely examining Image B, it is apparent that a person has been introduced to the scene. Notably, the person is located near the zebra, but more towards the front of the zebra, rather than the tail. Therefore, the presence of the person indicates an edit in the image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the zebra have its head partially turned toward the person?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the zebra's head is down and oriented towards the water, which suggests it is drinking or looking into the watering hole. The zebra's head is not turned towards the person standing behind it; it maintains its original posture.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the person's foot positioned near or on the zebra's tail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the person is standing to the right of the zebra, with the feet distinctly in front of the zebra's body and far from the tail area. This positioning indicates that the person's foot is nowhere near nor on the zebra's tail.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the original elements of the watering hole and surrounding environment maintained?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the watering hole and surrounding rocks, which appear consistent with a natural savanna environment. These elements are unchanged and mirror those typically found in the habitat of zebras. There is no discernible alteration to the watering hole or the environment apart from the addition of the person.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the zebra's expression and posture indicate it is startled?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the zebra maintains a calm demeanor, with its head down drinking from the watering hole. The posture and expression indicate it is relaxed and likely undisturbed. There is no evident reaction that would suggest being startled by the nearby human presence.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

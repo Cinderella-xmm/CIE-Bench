@@ -1,0 +1,116 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a female figure with long, straight hair featuring a vibrant gradient of colors—starting with pink at the roots, transitioning through purple, blue, yellow, and orange toward the ends. The hair is parted down the middle and falls over her shoulders. She wears a futuristic outfit composed of dark fabric with armored sections: a high collar, shoulder plates with glowing blue accents, and a chest piece with a central illuminated blue line. Her posture is slightly angled to the left, facing forward with a neutral expression. The background consists of vertical light strips in warm tones (orange and white), suggesting a sci-fi corridor or interior space with dark walls and soft ambient lighting. The environment has a sleek, modern aesthetic with subtle depth cues indicating a narrow hallway.
+
+**Thinking process:**  
+The editing instruction explicitly states several transformations:
+- "Transform the futuristic outfit into a sleek metal armor suit featuring chrome and titanium finishes." → This indicates the **entire outfit** is to be replaced.
+- "Maintain the suit's contours with articulated joints for flexibility." → Implies that **the shape and silhouette** of the original suit should be preserved in form but re-materialized.
+- "Replace vibrant hair with flowing strands of polished wires in metallic blue and yellow hues." → Clearly specifies a **complete replacement of the hairstyle**, including color and material.
+- "Position the figure in a minimalist gray environment for a stark contrast..." → Indicates the **background must be changed entirely**.
+
+From this, we can deduce:
+- The **outfit’s structural contours** are allowed to remain as a template but must be transformed into a new material (chrome/titanium).
+- The **hair** is fully replaceable — both texture and color are to change.
+- The **background environment** is not to be retained; it will be replaced.
+
+Thus, only elements **not mentioned** in the instructions as being changed are candidates for retention.
+
+Allowed Changes List:  
+- Hair (color, texture, material)  
+- Outfit (material, surface finish, but not overall silhouette/contours)  
+- Background environment (entirely replaced)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now apply exclusion logic based on the allowed changes:
+
+**Core recognition elements:**  
+Although the subject is not a well-known artwork or character, her **identity is visually anchored by specific features**:
+- The **face structure** (facial symmetry, eye shape, nose, jawline) is critical to identity preservation. Changing facial features would make her unrecognizable from the original.
+- The **posture and orientation** (slightly angled left, facing forward) define spatial positioning and must remain consistent unless specified otherwise.
+- The **eye color** (blue irises) is a distinct visual trait visible in the original and contributes to identity.
+
+These are core because they are **not mentioned for modification** and are essential to maintaining the subject’s identity.
+
+**Functional/logical association elements:**  
+- The **armored suit’s joint articulation** is referenced in the instruction (“articulated joints for flexibility”), implying that **the functional design intent** must be preserved in form even if materials change. Thus, the **placement and shape of joints** (e.g., elbows, shoulders) must align with the original suit’s structure.
+- The **glowing blue accents** are present in the original suit. While the instruction does not specify preserving glow, it mentions “sleek metal armor” with “chrome and titanium finishes.” Since these materials may reflect light differently, but **if the original had glowing elements**, their **position and function** (as indicators of power or tech integration) may need to be preserved in the new design. However, since the instruction doesn’t require them, they are not guaranteed to stay.
+
+But note: **no explicit mention of retaining glow**, so it is **allowed to change**.
+
+**Non-modified element deduction:**  
+After excluding all elements explicitly changed:
+- **Facial features** (eyes, nose, mouth, skin tone, eyebrows)
+- **Face shape and proportions**
+- **Posture and body angle**
+- **Body proportions and stance**
+- **Positioning of limbs** (arms at sides, slight turn)
+- **Original eye color (blue)**
+
+These are **not mentioned for change**, so they must be retained to preserve identity and continuity.
+
+Preservation Targets List:  
+- Facial structure (including eyes, nose, mouth, jawline)  
+- Eye color (blue irises)  
+- Posture (slightly angled to the left, facing forward)  
+- Body orientation and limb positioning  
+- Proportions of head and torso relative to each other  
+- Skin tone and texture (assuming natural human appearance)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The blue irises in the eyes are a distinctive and unique visual feature in the original image. They contribute significantly to facial recognition and identity. If replaced or altered (e.g., changed to gray or green), the subject would no longer match the original. This is a core identification element, making its retention essential. Therefore, the question directly targets the presence of the original eye color, which is not mentioned for change in the instruction.
+    Question: Are the irises of the eyes still blue?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The facial structure—including the shape of the nose, jawline, and forehead—is a primary identifier of the individual. Any significant alteration (e.g., changing nose shape or jaw angle) would result in a different person. Since the instruction does not mention modifying facial features, they must be preserved. This is a core identity element.
+    Question: Is the facial structure, including the nose, jawline, and cheekbones, unchanged?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The posture—specifically the slight leftward angle of the body and forward-facing head—is a key compositional element. It defines the spatial relationship between the subject and viewer. The instruction does not specify altering pose, so it must remain consistent. Changing it would affect the scene’s coherence and subject identity.
+    Question: Is the subject positioned with a slight leftward turn of the body while facing forward?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The arm position—specifically the arms resting at the sides, with the right shoulder slightly forward due to the angle—defines the body language and balance. This is part of the original pose and contributes to visual consistency. Not mentioned for change, so it must be preserved.
+    Question: Are both arms positioned naturally at the sides of the body?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The skin tone appears to be a natural, light complexion with subtle shading. This is a minor detail but contributes to realism and identity. Since no instruction mentions altering skin tone or texture, it should remain unchanged. Though less critical than facial features, it supports visual coherence.
+    Question: Is the skin tone consistent with a natural light complexion?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The original image shows the subject’s lips closed in a neutral expression. This is a specific facial detail that contributes to emotional tone and identity. Since no instruction mentions altering expression, it must be preserved. This is a minor but identifiable feature.
+    Question: Are the lips closed in a neutral expression?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0103",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Have the brushstrokes added to the sofa preserved its structural integrity without causing distortion or unnatural textures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sofa is altered using Van Gogh-style brushstrokes, characterized by swirling, dynamic strokes. These brushstrokes do represent the sofa while maintaining its overall shape and structure, but they introduce a texture that seems inconsistent with the material a real sofa would have, leading to a perception of slight distortion. Comparing it with Image A, where the sofa appears smooth and without such textures, the edited version appears artistically altered with more emphasis on Van Gogh's stylistic elements. Hence, while the structure is somewhat preserved in the edit, the texture significantly deviates from reality.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the wall, including the framed painting, appear naturally integrated with the rest of the room after the style conversion, without any broken geometric shapes or lost fine details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the wall and the painting are transformed to the Van Gogh style, featuring swirling lines and vibrant colors. This transformation does not lead to broken shapes or significantly altered geometric forms, and the details within the context of the Van Gogh style are coherent, maintaining a whimsical yet consistent appearance. The image does preserve the integration between the wall and the overall room aesthetic even if the fine details inherent in the original real-life textures are lost. The comparison with Image A shows that despite the stylistic change, the overall arrangement and outlines remain precise.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the plant's leaves depicted with Van Gogh-style brushstrokes while still retaining a recognizable and plausible appearance without introducing unnatural artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the leaves of the plant have undergone a stylistic transformation with swirling and textured brushstrokes typical of Van Gogh's style, but they retain a general form and structure that makes them recognizable as leaves. This means that while the texture and detail are representative of Van Gogh's unique brushwork, the elements are preserved well enough to maintain identification of the object as a plant without introducing bizarre artifacts, thereby maintaining plausibility.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the side table and lamp been converted to fit the Van Gogh style while preserving their realistic proportions and physical logic, avoiding any distortion or loss of fine details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The side table and lamp in Image B have been adapted into the Van Gogh aesthetic, utilizing textured brushstrokes and bold colors. Despite these stylistic changes, the side table retains its basic shape and function, and the lamp maintains an identifiable form, suggesting that its proportions remain consistent with what would be expected in reality. However, due to the thick brushstrokes, some fine details inherent in the original realistic depiction might become blurred or lost. Comparing with Image A shows that the form is preserved while surface details are artistically simplified.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do all elements in the room maintain a harmonious and plausible arrangement in Van Gogh style, ensuring no disruption in the spatial relationships among objects?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a room entirely transitioned into a Van Gogh-like style, with swirling skies and vivid colors. Each object retains its original placement and relationship to the other elements within the room, ensuring that the spatial configuration remains coherent. The transformation adheres to a consistent stylistic theme, allowing for a harmonious view without misplacement or misalignment, which includes the wall, sofa, lamp, side table, and plant. Despite the artistic shift, the objects preserve their spatial relationships, ensuring plausibility in the overall arrangement.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

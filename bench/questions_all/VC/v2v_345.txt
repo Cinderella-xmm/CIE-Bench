@@ -1,0 +1,65 @@
+Description of reference image: The subject is a small brown mouse positioned on the left side of the frame, standing on a wooden surface. The mouse has large, rounded ears with visible inner pinkish lining, dark round eyes, a small pink nose, and long white whiskers extending from its snout. Its fur is a mix of light brown and gray tones on the back, transitioning to white on the belly and paws. The mouse’s posture is upright, with all four tiny pink feet planted firmly on the wood grain surface. To the right of the mouse lies a black smartphone, angled slightly toward the viewer, showing its bottom edge with a USB-C port flanked by two sets of speaker grilles. The phone has a matte black screen and a metallic silver or gray frame. The background is a neutral beige wall, softly blurred, creating a shallow depth of field that emphasizes the mouse and phone in the foreground. The lighting is soft and even, casting subtle shadows beneath the mouse and phone, enhancing their three-dimensional presence.
+
+Thinking process: First, analyze the editing instructions word by word: "Convert the mouse seen on the right into a 3D voxel-style model resembling the icons shown on the left." This indicates that the **form** of the mouse is to be changed — specifically, it must be transformed into a **voxel-style 3D model**, which implies a blocky, pixelated, cubic representation. However, the instruction does **not** mention changing the phone, the wooden surface, or the background. It also specifies “resembling the icons shown on the left” — but no such icons are present in the original image; this may imply a stylistic reference to common digital voxel art (e.g., Minecraft-like blocks), not an actual visual element in the image. Therefore, the **mouse's form** is explicitly allowed to change, but **its position, relative placement to the phone, and the surrounding environment must remain consistent** unless otherwise stated. The rendering method ("Octane in 8k resolution") refers only to the technical output quality, not content changes.
+
+Allowed Changes List:
+- The physical form and texture of the mouse (to be converted into a 3D voxel-style model)
+- The visual style of the mouse (from realistic fur to blocky, cubic geometry)
+- The rendering technique (Octane, 8k resolution) — affects appearance but not content
+
+Step 2- Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: Although the mouse is being transformed, its **identity as a mouse** must still be recognizable through its **position, orientation, and relationship to the phone**. However, since the form is explicitly changed, we cannot retain its biological features like fur texture or eye shape. But the **core identity** of the scene — a mouse next to a phone — must remain intact. Thus, while the mouse’s appearance changes, its **spatial role** (being adjacent to the phone, facing it) must be preserved. The **phone itself** is not mentioned for modification, so its **physical attributes** (USB-C port, speaker grilles, color, shape, position) must remain unchanged. The **wooden surface** and **background** are not referenced in the instruction, so they must be retained as part of the scene context.
+
+Functional/logical association elements: The mouse is positioned near the phone, suggesting a possible interaction or comparison in scale. If the phone were moved or altered, the spatial logic of the scene would break. The phone’s **bottom edge with the USB-C port and speaker holes** is a functional detail that supports identification of the device type. Changing this would affect logical consistency.
+
+Non modified element deduction: After excluding the mouse’s form (allowed to change), the remaining elements — the phone, the wooden table, the background, and the relative positioning — must be preserved. These are not mentioned for modification and are essential for maintaining scene coherence.
+
+Preservation Targets List:  
+- The smartphone’s bottom edge with the USB-C port and dual speaker grilles  
+- The position and orientation of the smartphone on the wooden surface  
+- The wooden surface texture and grain pattern  
+- The neutral beige background behind the scene  
+- The relative spatial arrangement between the mouse and the phone (mouse to the left, phone to the right, both on the same plane)  
+
+Q1:  
+Thinking process: The USB-C port and speaker grilles are key functional identifiers of the smartphone model. Their presence and precise layout are critical for recognizing the device type. Since the instruction does not mention modifying the phone, these elements must remain unchanged. Losing them would alter the phone’s identity and disrupt the scene’s realism and logic. This is a core functional feature, hence weight 3.  
+Question: Is the USB-C port located centrally on the bottom edge of the smartphone, flanked by two sets of three circular speaker holes?  
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+Q2:  
+Thinking process: The smartphone’s position on the wooden surface defines the scene’s composition. Moving it would disrupt the spatial relationship with the mouse, which is central to the image’s narrative. The phone’s angle and placement are visually distinct and must be preserved for consistency. This is an important scene element, hence weight 2.  
+Question: Is the smartphone placed diagonally on the wooden surface, with its bottom edge closer to the viewer than the top edge?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+Q3:  
+Thinking process: The wooden surface provides the primary environmental context. Its grain pattern and warm tone are distinctive and contribute to the overall realism. Altering the wood texture would change the setting’s authenticity. While not the most critical, it is a key environmental detail that supports visual coherence. Hence, weight 2.  
+Question: Does the wooden surface display a consistent horizontal grain pattern with warm brown tones and visible wood fibers?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+Q4:  
+Thinking process: The background is a neutral beige wall, softly blurred. It serves as a non-distracting backdrop that keeps focus on the subjects. Any change in color or clarity would shift the mood or depth perception. Though minor, it contributes to the scene’s balance and must be preserved. Weight 1.  
+Question: Is the background a uniform beige color with a soft blur effect, providing a shallow depth of field?  
+Choices: Yes, No  
+A: Yes  
+Weight: 1  
+
+Q5:  
+Thinking process: The relative position of the mouse and phone is essential for maintaining the scene’s logic. The mouse is on the left, the phone on the right, both at the same level. This spatial relationship is implied by the instruction to “convert the mouse...” while keeping the phone as-is. Disrupting this would make the edit inconsistent. This is a key compositional element, hence weight 2.  
+Question: Is the mouse positioned to the left of the smartphone, with both objects resting on the same wooden surface?  
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+Q6:  
+Thinking process: The mouse’s orientation — facing the phone — suggests intent or interaction. Even though its form changes, its directionality must be preserved to maintain narrative continuity. This is a secondary but meaningful detail affecting scene logic. Weight 1.  
+Question: Is the mouse oriented such that its head is turned toward the smartphone?  
+Choices: Yes, No  
+A: Yes  
+Weight: 1

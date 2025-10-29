@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0166",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has a poem been added at the bottom of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a block of text superimposed on the image, primarily located in the lower portion of the image. This text appears to match the common understanding of a poem being a short piece of writing composed of several lines. Therefore, it can be concluded that a poem has indeed been added to the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the poem exactly read: “A beam of morning light, a soft whisper, an unnamed yellow bird perching on a branch”?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text in Image B reads: 'A beam of morning light, a soft whisper an unnamed yellow bird perching on a branch.' Upon close inspection, it matches except for the absence of a comma after 'a soft whisper' in Image B. Therefore, it does not precisely match the given wording due to the missing comma.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the poem placed at the bottom section of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the poem is positioned towards the bottom of the image, over the section near the bird's feet and the branch. In the context of image composition, this placement can be considered the bottom section.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the image quality been maintained after adding the poem?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B retains a clear depiction of the bird and the background, with the poem text added over the image. The quality of the underlying image does not visibly degrade, as the bird remains sharp and well-defined. Thus, the image quality is maintained.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the font style of the poem complementary to the artistic tone of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The font used in Image B is a simple, elegant serif style that complements the artistic and natural theme presented by the image of the bird perched on a branch against a soft background. The font style aligns with the tranquil and aesthetically pleasing tone of the image, making it appropriate and complementary.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

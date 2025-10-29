@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-4003832708075596196",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are all leaf-shaped elements in the image, including those used as heads, clearly five-pointed maple leaves?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are leaf-shaped elements used as heads for the figures. These elements appear to be simplistically drawn and do not exhibit the detailed structure of five-pointed maple leaves, as they are more stylized representations rather than accurate depictions. The heads are more circular with a suggestion of a leaf rather than clear five-pointed structures. Therefore, these are not clearly five-pointed maple leaves.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are all leaf elements rendered exclusively in shades of orange, yellow, and red?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the leaves present are indeed predominantly in shades of orange, yellow, and red, consistent with common autumnal colors indicative of fall foliage and associated with the Thanksgiving theme.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a solid brown rectangular border surrounding the central illustration?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a solid brown rectangular border does surround the central illustration, providing a frame to the scene depicted with the figures and the large leaf behind them. This element is clear and unbroken around the illustration.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the background of the card uniformly white?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, unlike Image A, the background is not entirely white as there are elements of the large brown tree and colored leaves. The background includes more visual elements and the large tree compared to Image A's plain white background.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the central illustration positioned centrally within the card, bounded by the rectangular frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The central illustration in Image B is positioned within a rectangular frame but is not centered perfectly within the card as the figures appear slightly elevated and the leaf behind them takes up substantial space towards the top. The placement gives an impression of balance with the text below, but it is visually centered within the top portion of the card.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6153846153846154
+}

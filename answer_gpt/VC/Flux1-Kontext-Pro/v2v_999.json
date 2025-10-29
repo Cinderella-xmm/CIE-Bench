@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_999",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the bathtub still present with its wooden panel exterior and positioned in the same corner of the bathroom?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bathtub is depicted as a classic clawfoot tub, which contrasts with the wooden panel exterior bathtub in Image A. Although it remains in the same corner of the bathroom, the style of the bathtub has been changed from a wooden paneled one to a clawfoot design.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the tiles on the wall still displaying the same floral pattern as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both images exhibit the same tile pattern on the walls. The tiles feature a uniform arrangement of floral designs, suggesting continuity between Image A and Image B.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the towel rack still positioned next to the sink, with a beige towel hanging on it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The towel rack is not visible in Image B, as the view is focused solely on the bathtub and the chibi-style dolls. Unlike Image A, where the towel rack is situated next to the sink, Image B provides no evidence of its presence.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the lighting fixture still mounted above the original location of the cabinet?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B focuses on the bathtub area and does not display the part of the wall with the cabinet and lighting fixture visible in Image A. Therefore, the presence or absence of the lighting fixture cannot be determined in Image B.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the new chibi-style Russian nesting dolls placed along the edge of the bathtub, maintaining the spatial arrangement of the original fixtures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, chibi-style Russian nesting dolls are located inside the bathtub, notalong its edge, disrupting the arrangement seen in Image A. Image A has fixtures neatly positioned on the sink and bathtub, but Image B's dolls don't maintain this layout.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_118_142",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the transformed book retain a rectangular shape with visible binding and page structure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the object is primarily cylindrical in shape, encased within a glass dome. It does not resemble a rectangular book with binding or page structure. By world knowledge, books traditionally have a rectangular shape with distinct binding and page edges, which are visible in Image A.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the quill retain its feathered shaft and tapered tip?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the quill is visually present, complete with its feathered shaft and tapered tip. Quills are known for these characteristics, which are identifiable in Image B through the detailing on the feather, consistent with common knowledge. This corresponds to what is seen in Image A, where the quill retains the same shape and features.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the inkwell retain a container shape with visible dark liquid inside?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the object within the glass dome is cylindrical with no indication of containing ink. In traditional imagery and Image A, an inkwell appears as a small container with visible dark ink inside, absent in Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the book, quill, and inkwell positioned in a way that suggests they function together as writing tools?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a diorama with a quill and an ornate cylindrical object inside a cloche, without functional positioning typically seen with writing tools. Image A shows such tools precisely arranged as a collection for writing purposes.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the diorama retain a vintage aesthetic with dark wood, brass, and aged materials?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B maintains a vintage aesthetic through the use of brass and ornate details, such as gold accents on the cloche and decorative elements. The choice of materials, visual effects, and style convey a sense of antique design similar to or more advanced than in Image A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is there an ornate decorative border or frame visible on the book’s cover?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does not display a book; instead, it showcases a diorama. Image A exhibits a book with an ornate border on its cover, typical of decorative styles seen on antique books. As there is no cover visible in Image B, there can be no ornate book border.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the inkwell supported by a base or tray of some kind?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the display within the cloche rests on a wooden base, suggesting support, though it does not traditionally hold ink. In Image A, the inkwell sits on a brass tray to stabilize and contain the ink, indicative of classical inkwell design. While Image B provides a base, it lacks the direct ink-support functionality evident in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

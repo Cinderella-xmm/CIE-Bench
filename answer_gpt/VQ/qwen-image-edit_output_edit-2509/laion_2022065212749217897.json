@@ -1,0 +1,84 @@
+{
+  "filename": "laion_2022065212749217897",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the head disproportionately large compared to the body but without stretched or compressed facial features?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual style resembles a cartoon or chibi representation where the head is intentionally made larger relative to the body, following the common style of chibi art. Despite the enlarged head, there are no stretched or compressed facial features visible due to the blur applied, which aligns with typical chibi proportions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the facial features (eyes, nose, mouth) clearly visible and proportionally accurate despite the enlarged head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B's facial features are visibly blurred, preventing any assessment of clarity and proportional accuracy. In typical chibi representations, facial features are simplified and proportioned to fit the larger head. However, due to the blur, it's challenging to confirm these aspects here.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the stripes on the shirt maintain consistent width, alignment, and color accuracy across the collar and chest area?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the shirt as a cartoon representation and the stripes appear consistent in width, alignment, and color across the collar and chest. This is typical of simplified, stylized cartoon art, ensuring the shirt maintains a uniform appearance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the surface of the figure appear smooth and reflective, with no visible texture artifacts or rough edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The surface of the figure in Image B is smooth and reflective, consistent with the style of cartoon illustrations or digital art where such finishes are standard. No texture artifacts or rough edges are observed, aligning with typical clean and polished cartoon graphics.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background a uniform pastel color with no gradients, shadows, or blending artifacts near the figure's edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B exhibits a background with a uniform pastel gradient that is smooth and consistent, enhancing the focus on the figure. There are no visible shadows or blending artifacts distracting from the figure's edges, typical of clean and simple background designs in digital artwork.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the facial expression more animated than the original (e.g., wider eyes, open mouth) but still anatomically consistent and not distorted?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Without clear visibility of the facial features in Image B due to blurring, it's difficult to assess the animation and anatomical consistency of the facial expression. However, chibi styles typically exaggerate features such as eyes and mouth for an animated effect, suggesting a possibility of such expression if facial features were visible.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

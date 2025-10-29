@@ -1,0 +1,97 @@
+{
+  "filename": "v2v_21807",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there four clock faces, one on each visible side of the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there appear to be two visible clock faces on the tower, with both showing similar features. Given the common architectural style of towers, which usually have a clock face on each side, we could infer that there may be more clock faces, possibly four in total. However, based solely on the visible evidence from this angle in the image, we can only confirm two clock faces can be seen in Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the clock faces contain black Roman numerals arranged in a circular pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly shows the clock faces with Roman numerals arranged in a circular pattern, which is a traditional style for clock faces often seen in public towers. This arrangement is typical for clock faces and hence the observation can be affirmed.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a steeply pitched pyramidal roof topped with a finial at the very top of the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tower depicts a roof that is steeply pitched and pyramidal in shape. Additionally, at the apex, there is a decorative finial, which is a common element in traditional architecture embellishing the roof.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there four arched openings at the base of the tower, one on each side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows multiple arched openings at the base of the tower, and the architectural symmetry suggests there is likely one on each side, as typical for structures with a square footprint, but only three can be directly observed.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the tower located at the center of a circular road with vehicles traveling around it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly displays the tower being positioned in the center of a circular road or roundabout, a common urban planning design. Vehicles are seen traveling in a circular pattern around it in Image B.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there multiple cars visible on the road surrounding the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, multiple cars can be seen on the road encircling the tower, which aligns with the traffic pattern of a roundabout where multiple vehicles are commonly present.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are there trees with bare or sparse foliage visible along the road behind the tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays trees along the road and behind the tower. However, instead of having bare or sparse foliage, the foliage is depicted as full and lush with leaves, indicative of a season other than winter.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

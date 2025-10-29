@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0102",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the pencil blue in color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pencil is distinctively blue from its visible body, indicating its color due to the reflection of blue light and is easily recognizable, which aligns with its general appearance as a colored pencil. This conclusion comes from the visual cue of the pencil's body and common knowledge of colored pencils having distinguishable bodies.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the yellow paper have clean edges and a uniform color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents a uniform yellow color on the paper along with clean and sharp edges which are typically expected for quality paper. From visual analysis, the paper lacks any visible wrinkles or color variations, indicating it is laying flat and uniformly colored. This judgment is based on common characteristics of new paper products and visual inspection.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the pencil's tip visibly touching the yellow paper?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no visible pencil present; instead, the text 'Draft' is legible on the yellow paper where the pencil might appear. The absence of a pencil or any object visibly touching the paper leads to the conclusion that no physical interaction is occurring. The decision is based on straightforward visual observation of the edited image content.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a blurred silver laptop in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a silver object partially visible in the background, which appears blurred and resembles the typical design and color of a laptop. Its overall appearance is consistent with the form factor and color of laptops, and the blur suggests it is not in the focus of the image. This is identified through visual cues and general knowledge of laptops.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the pencil's tip visibly sharp?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there isn't a pencil visible as the text 'Draft' has replaced any prior image content that might have included a pencil, meaning there's no tip observed or evaluated from the current image. As the pencil does not exist in this scenario, it's not possible to assess its sharpness.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5454545454545454
+}

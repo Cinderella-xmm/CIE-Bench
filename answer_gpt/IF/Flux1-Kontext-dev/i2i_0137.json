@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0137",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the black vase replaced with a teapot?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the object on the small table between the two chairs is a black object with a spout and a handle, visually resembling a teapot. This differs from Image A, where the object appears to be a black vase. Observing the shape and features, the object in Image B is clearly a teapot, which differs in design and purpose from a vase. Thus, the image analysis supports the claim that the vase was replaced with a teapot.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there two porcelain cups placed on the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are two porcelain cups placed on saucers on the floor in front of the chairs, not on the table. Image A does not depict these cups. The floor placement in Image B contrasts with the expectation of them being on the table. Thus, based on the visual analysis, it confirms that the cups are not placed on the table.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the arrangement of the teapot and cups imply a conversation scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows two chairs facing each other with the cups and teapot arranged in between, suggesting a setup where two people might sit and engage in conversation. Commonly, such arrangements in a seating area imply a social or conversational setting. The presence of both a teapot and cups further enhances the suggestion of an interaction, such as having tea together, contributing to the ambiance of a conversation scene.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have the original background and furniture positions remained unchanged?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Comparing Image A and Image B, the background, including the window, curtains, and large plant to the right, as well as the furniture positions, such as the chairs and the table, remain the same. The primary change appears to be the addition of the teapot and cups, while the foundational setup and background details remain consistent.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the teapot and porcelain cups match the lighting and environmental conditions in the room?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting on the teapot and porcelain cups is consistent with the overall lighting in the room, as evidenced by the natural light coming through the window, creating soft, natural shadows and highlights on these objects. The materials of the teapot and cups reflect the lighting accurately, suggesting they are well-integrated into the environment without any visual inconsistency.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

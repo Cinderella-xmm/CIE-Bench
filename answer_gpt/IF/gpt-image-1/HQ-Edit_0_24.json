@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_0_24",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the flowers in the image rendered with visibly higher color saturation compared to the original?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the flowers are depicted with vivid and bold colors. By visually comparing with Image A, where the colors of the flowers also appear bright but with a slightly softer tone, it suggests that the color saturation in Image B is evidently higher. This higher saturation makes the flowers appear more eye-catching and vibrant, conveying an enhanced visual appeal.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the gardening tools (shovel and watering can) appear to have an antique, metallic finish with signs of aging such as tarnish or patina?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the gardening tools display a smoother and cleaner look without any signs of aging, such as tarnish or patina. They appear more decorative and crafted, rather than actual aged tools. In contrast, Image A depicts these tools with more realistic textures, possibly conveying an antique feel but clearly less than in Image B. The cleaned and maintained appearance in Image B shows no tarnish, indicating no antique finish.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a faint, decorative vine pattern overlaid on the background of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a decorative vine pattern can be noticed especially on the border areas, intertwined with floral elements, enhancing the visual theme of a lush garden. This pattern is absent from Image A, which has a more photo-realistic representation without any decorative overlays in the background. The presence of aesthetically stylized elements in Image B creates a more artistic impression.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a blank rectangular header space at the top of the image intended for monthly details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B distinctly features a blank, rectangular header space at the top, likely intended for text or monthly details, as suggested by its prominent position and contrasting frame. Image A does not include this blank header and focuses instead on the detailed background. The presence of the rectangular space in Image B serves as an organizational component, commonly seen in calendar layouts.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the blank header framed by an ornate, decorative border composed of leafy or floral patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the blank header at the top is indeed framed by an ornate border, incorporating intricate leafy and floral patterns, which complements the garden theme of the image. This decorative element is not observed in Image A, which centers its visual emphasis on garden scenery without additional bordering. The ornate framing in Image B enhances the visual appeal and may serve a decorative function for calendric or informational presentations.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

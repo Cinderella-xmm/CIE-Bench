@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0114",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the modern man raising a glass appear naturally integrated into the scene without disrupting the structural coherence of the original table arrangement?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a modern man in formal attire is added, raising a glass on the far right side of the painting. His pose and presence disrupt the coherence of the original table arrangement, as the addition creates an imbalance in the composition with an anachronistic figure that stands out distinctly. The original painting is a cohesive representation of the period, and such a modern inclusion breaks its structural harmony.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there any unnatural textures or artifacts visible around the modern man in formal attire that disrupt the natural appearance of the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B reveals an unnatural blending of textures where the modern man's image is inserted. His attire and sharp contours contrast with the faded, textured appearance of the rest of the painting, indicating digital editing. In addition, the lighting on the man does not match that of the rest of the scene, creating a less than natural integration.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the modern man in formal attire blend seamlessly with the artistic style of the original painting, maintaining consistent line work and shading without introducing visually incongruous elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, visually incongruous elements are evident in the addition of the modern man. His attire, the sharpness of his portrait, and contemporary styling starkly contrast with the distinctive artistic style of the Renaissance painting, which includes softer lines and shadow work typical of Leonardo Da Vinci. The addition does not blend seamlessly in terms of style.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the addition of the modern man caused any distortion or damage to the geometric shapes of the table or surrounding characters?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, the table and surrounding characters remain largely unchanged by the introduction of the modern man. The geometric integrity of the arrangement and alignment appears undisturbed, and while his presence creates an imbalance in scene coherence, shapes themselves remain intact.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the posture and action of the modern man, specifically him raising a glass, visually credible and consistent with the actions of others depicted in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The posture and action of the modern man raising a glass are inconsistent with the actions and postures of the other characters in the scene, who are engaged in the Last Supper. The original painting characters are not depicted in celebratory poses, focusing instead on more somber interactions. Hence, the added man's action is not visually credible within the context of the original piece.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

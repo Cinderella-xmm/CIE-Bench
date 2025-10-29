@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_125_34",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the brass gears and levers on the desk properly aligned with the desk’s structure, showing no signs of floating, misshapen geometry, or unnatural material seams?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the desk appears to have intricate, carved designs that harmoniously incorporate brass elements, such as gears and levers. These components seem structurally integrated, blending well with the carved wood without showing signs of floating or mismatched geometry. The lighting and shading repeat naturally along these elements, suggesting that they are correctly positioned and aligned, maintaining a cohesive material seam with the desk structure.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the modified books display consistent glowing effects without distorting their page edges or causing unnatural light bleeding into surrounding surfaces?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon inspection, Image B shows the books stacked on the desk, appearing to have a standard look without evident glowing effects. Their edges are sharp, pages are aligned, and there is no noticeable light bleeding or distortion impacting the surrounding surfaces. The surface lighting seems to render them without any special glowing modifications, hence maintaining their natural appearance.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the holographic globe above the monitor clearly visible with proper depth and transparency, and does it cast natural shadows or reflections on the desk surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the holographic globe above the monitor is prominent, with an apparent depth and transparent effect that suggests some form of digital enhancement. However, the globe itself does not cast any discernible shadow or reflection on the desk surface, which defies natural light interaction principles for holographic projections, potentially indicating unnatural integration.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the newly added ornate frames around the windows seamlessly integrated with the existing window structure, without overlapping glass panes or creating distorted perspective lines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features ornate frames around the windows that appear to be carved to match the surrounding wooden designs. They align well with the wooden structure and do not overlap the glass panes or create distorted perspective lines. The window is presented with a coherent perspective, maintaining a seamless integration with framed elements as expected for a realistic design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do all edited elements (gears, glowing books, hologram, window frames) share consistent lighting and shadow behavior, avoiding abrupt changes in brightness or material properties?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Examining Image B, while the elements like gears and window frames show consistent lighting behavior, the holographic globe lacks shadows or reflections on the desk. This inconsistency breaks the continuity of lighting and shadow behavior across the elements. The books do not exhibit glowing anomalies but the digital hologram's lack of interaction with shadows contrasts the harmonious lighting across the other elements.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

@@ -1,0 +1,65 @@
+Description of reference image: The subject is a turquoise blue mug filled with a warm beverage, likely coffee, with a light brown foam layer visible on top. The mug has a rounded handle and sits on a dark, circular coaster placed over a light gray surface. The background is blurred, suggesting a shallow depth of field, with indistinct darker objects behind the mug. The lighting creates subtle reflections on the mug's glossy surface.
+
+### Step 1 - Analyze Allowed Changes
+Thinking process: The instructions specify converting the photo into an oil painting in Van Gogh’s style. This implies changes to the artistic style, including brushstrokes, texture, and possibly color vibrancy. Scene elements may be adjusted to align with Van Gogh’s typical compositions, but fundamental features of the mug and the setting should remain identifiable. 
+
+Allowed Changes List:
+- Transformation of the image into an oil painting style with visible brushstrokes and texture.
+- Adjustment of color saturation and vibrancy to match Van Gogh’s characteristic style.
+- Modification of the background to a style consistent with Van Gogh's paintings, such as swirling night skies or textured landscapes.
+
+### Step 2 - Determine Elements That Should Remain Unchanged
+Thinking process: To retain the core identity of the mug and its placement, key elements like the mug's shape, color, position on the coaster, and the coaster’s structure must remain intact. The functional relationship between these elements also needs preservation.
+
+Preservation Targets List:
+- The turquoise blue color and shape of the mug.
+- The presence of the coaster beneath the mug and its circular shape.
+- The position of the mug on the coaster.
+- The beverage inside the mug (its general appearance and level).
+- The general composition and perspective of the scene.
+
+### Step 3 - Generate Questions for Detecting Retention of Edited Elements
+{
+    Q1: 
+    Thinking process: The turquoise blue color of the mug is a distinctive feature that contributes significantly to the identity of the object. Losing this color would make it challenging to recognize the mug in Van Gogh’s style.
+    Question: Is the mug still predominantly turquoise blue in color?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The shape of the mug—round with a handle—is essential for maintaining its recognizability. Any distortion could lead to misidentification.
+    Question: Does the mug retain its round shape with a handle?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The coaster is a functional element supporting the mug. Its presence and circular shape are necessary to maintain the arrangement's logic and visual coherence.
+    Question: Is there a circular coaster under the mug?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The level of beverage provides context about the state of the mug. Although details may change, the general level should be recognizable.
+    Question: Is the beverage level in the mug still visibly filled to a similar height as the original?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The position of the mug on the coaster is crucial for maintaining compositional balance and logical spatial relationships.
+    Question: Is the mug still centrally positioned on the coaster?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

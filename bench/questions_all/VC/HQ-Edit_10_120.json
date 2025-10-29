@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The woman’s facial expression, including the gentle smile and crinkled eyes, is a core identifier of her character and emotional state. This specific arrangement of facial muscles and skin texture is unique to her and essential for recognition. If altered, especially in terms of the shape of the smile or the depth of wrinkles, the subject would no longer be identifiable as the same person. This is a key identity feature and thus carries a weight of 3 points.",
+      "question": "Does the edited image retain the elderly woman’s facial expression, including the gentle smile and visible wrinkles around the eyes and mouth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The white hair is a defining trait of the subject, clearly visible in the original image. Its color, volume, and neat styling are critical for identification. Any change in color (e.g., gray or darkened) or style (e.g., longer or disheveled) would alter her appearance significantly. Since it is not mentioned in the editing instructions as something to be changed, it must be preserved. This is a core recognition element, hence weighted at 3 points.",
+      "question": "Is the elderly woman’s short, white, neatly styled hair preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The round wire-rimmed glasses with pink-tinted lenses are a distinctive accessory that contributes to the subject’s identity. Their shape, position on the face, and lens color are visually prominent and help distinguish her. Removing or altering them would compromise recognition. As they are not specified for change, they must remain unchanged. This is a key accessory element, so it receives a weight of 3 points.",
+      "question": "Are the round wire-rimmed glasses with pink-tinted lenses positioned correctly on the woman’s face in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The hands are shown clasped gently in front, with visible age-related skin texture and veins. This gesture and detail contribute to the authenticity and emotional tone of the portrait. While the clothing may be modified, the hands’ position and appearance are not mentioned for alteration. Preserving them ensures continuity in posture and realism. This is a secondary but important detail affecting coherence, so it is assigned 2 points.",
+      "question": "Are the woman’s hands clasped gently in front of her body, with visible age-related skin texture and veins, as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The background consists of a tree-lined park path with green hedges and soft lighting. This environment provides context and mood. The instruction does not specify changing the background, so it must remain intact. The spatial relationship between the subject and the path, as well as the blurred trees, supports visual consistency. This is an important scene element, thus weighted at 2 points.",
+      "question": "Is the background of the image preserved as a tree-lined park path with green hedges and soft daylight, matching the original scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The qipao’s silhouette — high collar, long sleeves, front closure with frog buttons — defines its traditional form. Although the texture and pattern may be redesigned, the structural outline must remain to preserve the garment’s identity as a qipao. Changing the shape (e.g., removing sleeves or altering the collar) would transform it into a different type of clothing. This is a core functional/formal element, so it is given 2 points.",
+      "question": "Does the edited image retain the qipao’s silhouette, including the high collar, long sleeves, and front closure with black frog buttons?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The black frog closures (buttons) are small but distinctive features of the qipao, located along the front center. They are part of the traditional design and help identify the garment. While their texture may be enhanced, their presence and placement must remain consistent. Losing them would alter the garment’s authenticity. This is a detail-level element but significant for cultural accuracy, so it receives 1 point.",
+      "question": "Are the black frog closures visible along the front center of the qipao in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

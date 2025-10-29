@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0022",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the cat’s curled-up posture in the chibi illustration match the original position on the car hood and maintain structural consistency?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the cat is depicted in a curled-up posture typical of a resting cat. The original image in Image A also shows the cat in a similar curled-up position on the car hood. The chibi illustration simplifies the form but still maintains structural consistency with the original resting position, lying on a flat surface resembling the car hood.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the gradient color blocks used to depict the cat’s fur smooth and free from unnatural textures or color blocks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi illustration uses blocks of color to represent the fur of the cat. These color representations are stylized and smooth, typical in illustrative art, and don't present any unnatural textures or broken color blocks. They provide a clean, artistic depiction of fur compared to the more detailed and textured real fur in Image A.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the car appear as a curved surface with reflection lines only, maintaining its structural integrity and avoiding obvious artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B is a sticker-focused illustration, so the car itself is not explicitly detailed in the image; only the representation of the cat is depicted on a sticker without reflections or artifacts. Comparatively, Image A shows the car's hood with reflections and structural integrity intact. The edited image focuses on the cartoon representation, not the car.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the sticker outlined with a thick white line and does it have a transparent background, retaining the visual coherence of the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the illustration of the cat is bordered with a thick white outline typical for stickers, emphasizing the cartoon style of the sticker. This style choice helps maintain visual coherence by clearly defining the borders despite having a potential multicolor background. The sticker appears not as a part of a larger scene but as an isolated illustrative product.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Have any unnatural textures been introduced, or have key details of the cat and car been lost in the chibi illustration?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "In Image B, the chibi illustration significantly simplifies the details of the cat, reducing the complex textures of its fur seen in Image A to smooth cartoonish color blocks. Details intrinsic to realism might be lost, but this is typical for the chibi style, which prioritizes simplicity and stylized aesthetics over realism and detail. The car is absent, further suggesting detail loss compared to the original image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_657",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the skateboarder's black shirt?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figure is a stylized collectible toy (Funko Pop!) representing a skateboarder. The character in the toy is wearing a black shirt, which matches the original attire seen in Image A. Despite the transformation into a cartoonish, exaggerated form typical of Funko Pop! figures, the color and basic design of the shirt remain consistent with the original. This retention of clothing color aligns with common practices in merchandise where key visual elements from the source are preserved for recognition. Therefore, based on visual evidence and product design conventions, the black shirt is retained.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image retain the skateboarder's blue jeans?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figurine is dressed in blue jeans, matching the original outfit of the skateboarder in Image A. Although the jeans are stylized to fit the chibi aesthetic of the Funko Pop! design—being slightly more rigid and simplified—the color remains clearly blue. This consistency in color choice reflects branding and recognition strategies used in pop culture merchandise, where core elements like clothing colors are preserved even when forms are altered. Thus, despite the stylistic changes, the blue jeans are retained.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain the skateboard and its position relative to the skateboarder?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the skateboard is present but not in the same dynamic position as in Image A. In the original image, the skateboard is mid-air during a trick, balanced under the skateboarder’s feet with motion implied. In contrast, the Funko Pop! figure holds the skateboard in a static pose, with one foot on it and the other off, suggesting a stationary stance rather than an active trick. The position is therefore significantly altered—no longer capturing the airborne, balanced movement of the original. While the skateboard itself is present, its functional and spatial relationship to the skateboarder has changed from dynamic to static. Hence, the position relative to the skateboarder is not retained.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image retain the skateboarder's dynamic pose?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the skateboarder is captured mid-trick, with arms outstretched for balance, body angled dynamically, and the skateboard in motion along a ramp. This conveys a sense of action, momentum, and physical exertion. In Image B, the figure is a static toy with a simplified, stylized posture that lacks any indication of motion or balance in mid-air. The pose is fixed and posed for display, not reflective of a real-time trick. The transformation into a collectible figure inherently removes dynamic motion, replacing it with a static representation. Therefore, the dynamic pose is not retained.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image retain the detailed textures and colors of the skateboarder's attire and skateboard?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image A, the skateboarder’s clothing and skateboard feature realistic textures—such as fabric folds in the jeans, subtle shading on the shirt, and visible grip tape and wheel details on the board. In Image B, these details are replaced with simplified, smooth surfaces typical of vinyl toys. The jeans lack texture, the shirt is flat black without variation, and the skateboard has minimal detail compared to the real one. Colors are preserved (black shirt, blue jeans), but fine textures such as fabric weave, wear marks, or material finish are absent. The artistic style prioritizes recognizable features over realism, so while colors are retained, detailed textures are not. Thus, the detailed textures and colors are not fully preserved.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

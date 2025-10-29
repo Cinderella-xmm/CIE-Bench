@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_11441",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the ground covered in snow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sidewalk appears to be covered in white flakes. This visual cue combined with world knowledge suggests that the ground could be covered in snow, as snow manifests as flaky, white material, typically seen in winter conditions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there snowflakes falling in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows numerous white dots scattered throughout the illustration, suggesting snowfall. Combining visual cues with world knowledge about typical representations of snowfall, it's reasonable to conclude these are snowflakes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the radish character have a scarf and hat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the radish character is wearing a scarf, visibly wrapped around its neck. No hat is visible on the character. World knowledge tells us that scarves are commonly worn in colder, winter weather to keep warm.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the dog wearing a winter jacket?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the dog is not visually depicted wearing anything resembling a winter jacket over its body. It retains the same appearance as in warmer conditions. Therefore, based on observation, the dog is not dressed in a winter jacket.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the scene overall appear to be a winter landscape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B contains several winter-themed elements: snow-covered ground, falling snowflakes, and the radish character wearing a scarf—all typical indicators of a winter scene. Combining these visual and thematic cues with world knowledge about winter landscapes suggests that the scene represents a winter landscape.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0085",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the painting visibly extend beyond its frame to create a 3D effect?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the painting appears to extend beyond a traditional flat frame, as seen by the jagged and non-rectangular boundaries of the painting on the wall. This creates a three-dimensional effect, where parts of the painting, like the trees and the outline of the river banks, seem to protrude outward from the wall.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the elements from the painting visually merge into the room environment, such as appearing on the wall or floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, elements of the painting extend beyond the frame, but they do not appear to merge into the room environment like the floor or other areas around the painting. The extension is solely along the wall, maintaining a distinct separation from other areas of the room like the floor.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the transitions between the painting and the room environment smooth without any abrupt edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edges of the painting in Image B are deliberately jagged and uneven, creating a 3D appearance but not a smooth transition into the room's wall. The transition is distinct with visible outlines where the painting meets the wall surface, making the edges appear abrupt.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the original elements of the painting, such as trees, water, and the sun, still identifiable in the edited version?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Despite the 3D extension, Image B retains the identifiable elements like the trees, water, and sun from the original painting. These elements continue to be clearly recognizable due to their distinct shapes and colors, which are characteristic of landscape paintings.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the lighting and shadows in the extended portions of the painting match those in the actual room environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "While Image B showcases a 3D effect, the lighting and shadows of the extended portions of the painting do not seem to perfectly match those of the room's environment. The lighting in the room casts shadows from the right side, but the painting does not reflect this lighting effect accurately, indicating a mismatch.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

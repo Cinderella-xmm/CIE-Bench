@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0004",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image retain the man’s smiling expression and distinct facial features?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject is a stylized figurine with exaggerated cartoon-like features. While the figurine does have a smiling expression, it is simplified and not an accurate representation of the original person's facial features. The eyes are large and round, the nose is small and rounded, and the mouth is a broad, simple smile—characteristic of a chibi or bobblehead design. These features are not 'distinct' in the sense of resembling real human facial details but rather are generalized for a playful, animated aesthetic. Therefore, although a smile is present, the distinct facial features from the original image are not retained.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the man’s short, neatly styled hairstyle accurately retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The figurine in Image B has a hairstyle that mimics the general shape and volume of the original person’s hair—short and swept back with some texture. However, it is stylized with smooth, sculpted lines typical of collectible figures, lacking the fine detail and natural variation seen in real hair. While the overall silhouette and direction of the hair are preserved, the accuracy of the styling is compromised by the artistic simplification. Thus, while the hairstyle is recognizable, it is not an accurate retention of the original.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image include the black T-shirt with its central white graphic design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Yes, the figurine in Image B is wearing a black T-shirt with a white graphic on the chest. The design resembles a sleek, angular shape, similar to a stylized rocket or car logo, which matches the known branding associated with the individual (e.g., Tesla or SpaceX). This graphic is clearly visible and positioned centrally on the shirt, just as in the original image. Although slightly simplified due to the figure's scale and material, the essential element—the black T-shirt with a white central design—is faithfully included.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the subject positioned on or near a bookshelf in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figurine is placed directly on a white shelf that is part of a larger bookshelf unit. Behind the figure, multiple books are visible on adjacent shelves, confirming that the setting is indeed a bookshelf environment. The positioning is consistent with a display setup where collectibles are showcased among books. This placement mirrors the background in Image A, indicating continuity in the scene's context. Therefore, the subject is clearly positioned on a bookshelf.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the blue and red colors of the books visible in the background of the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Yes, in Image B, the background includes several books arranged on shelves. On the upper left shelf, there are books with dark blue spines and gold detailing, matching the blue books seen in Image A. On the right side, a row of red books with gold accents is visible, consistent with the red books in the original image. These color elements are clearly distinguishable and match the original scene. The lighting and focus allow for accurate identification of these colors, confirming their presence.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5
+}

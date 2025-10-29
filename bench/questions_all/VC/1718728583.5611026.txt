@@ -1,0 +1,115 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a humanoid robot standing upright on a sandy beach, positioned centrally in the frame. The robot has a sleek, metallic body with exposed mechanical components, including visible wiring and segmented joints. Its torso features a silver-white armored vest with angular contours, and its limbs are composed of polished chrome-like materials with articulated joints. The head is human-shaped but clearly artificial, with smooth facial features, dark hair styled in a bun, and large orange-tinted sunglasses. A faint pinkish hue is visible on the face, possibly indicating a synthetic skin layer or lighting effect. The robot’s posture is relaxed, with arms slightly bent at the sides. Surrounding the robot is a dense flock of pink flamingos, all facing various directions, standing on one leg or walking slowly. The flamingos have long necks, slender legs, and curved beaks, rendered in soft pastel pink tones. The background consists of a calm turquoise sea, rocky outcrops, and distant palm trees under a warm, hazy sky suggesting sunset. The lighting is soft and golden, casting gentle shadows and giving the scene a dreamlike, surreal quality.
+
+**Thinking process:**  
+The editing instruction specifies: *"Reimagine the robot among flamingos as an Art Deco sculpture with streamlined forms and chrome accents. Render flamingos as stylized geometric patterns, integrate backdrop with angular palm trees and stylized rocks, using a muted pastel palette to evoke a vintage futuristic ambiance."*  
+
+From this, we can extract the following transformation directives:
+
+- **Subject transformation**: The robot must be reimagined as an *Art Deco sculpture*, implying changes to form (streamlined), material (chrome accents), and aesthetic style (geometric symmetry, vertical lines, decorative motifs). This means the *form* and *style* of the robot are allowed to change.
+- **Flamingos**: Must be transformed into *stylized geometric patterns*. Their natural form is to be replaced by abstract shapes.
+- **Backdrop**: Must be redesigned with *angular palm trees* and *stylized rocks*, replacing organic forms with sharp, geometric designs.
+- **Color palette**: Shifted to a *muted pastel palette* for a "vintage futuristic" feel — meaning color tone and saturation may change, but not necessarily specific hues if they are part of core identity.
+
+Thus, **allowed changes** include:
+- The **robot's design** (form, proportions, surface details) — now Art Deco
+- The **flamingos' appearance** — from biological birds to geometric patterns
+- The **background elements** — palm trees and rocks must become angular and stylized
+- The **overall color scheme** — shifted to muted pastels
+
+However, the instruction does **not** specify changing the **presence** of the robot, flamingos, or the beach setting. It only specifies how they should be **reimagined**. Therefore, the **core presence** of these elements must still exist — even if their form changes.
+
+**Allowed Changes List:**
+- Robot's form and style (transformed into Art Deco sculpture)
+- Flamingos’ biological structure (replaced with geometric patterns)
+- Palm trees’ shape (replaced with angular forms)
+- Rock formations (replaced with stylized geometry)
+- Color palette (shifted to muted pastels)
+- Lighting and atmosphere (adjusted to evoke vintage futurism)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now identify what **must remain unchanged**, based on exclusion from the allowed changes list and core recognition logic.
+
+**Core recognition elements:**
+- The **subject being a robot** — despite being reimagined as a sculpture, it must still be recognizable as a robotic figure, not a human or animal. Its **mechanical nature** (e.g., visible joints, metallic surfaces) is essential to its identity.
+- The **presence of flamingos** — though stylized, they must still be identifiable as flamingos through key traits like long necks, slender legs, or pink coloring (even if abstract).
+- The **beach environment** — though stylized, the setting must remain a coastal scene with sand and water to maintain logical consistency.
+- The **position relationship** between the robot and flamingos — the robot should still be among them, not isolated or removed.
+
+**Functional/logical association elements:**
+- The **spatial layout** — the robot stands among the flamingos, which implies proximity and interaction. Even if stylized, this spatial relationship must be preserved to maintain narrative coherence.
+- The **robot’s upright stance** — since it is described as standing, this posture should be retained unless explicitly changed (which it isn’t).
+
+**Non-modified element deduction:**
+- The **robot’s head shape** — while the style may change, the head must retain a humanoid form to distinguish it from other machines.
+- The **flamingos’ number and density** — though their form changes, their collective presence must be maintained to preserve the scene’s character.
+- The **presence of water and sand** — these define the environment and must remain, even if stylized.
+
+Therefore, the **elements that must be preserved** are those that anchor the original scene’s identity without being explicitly altered by the instructions.
+
+**Preservation Targets List:**
+- The robot’s humanoid form (head, torso, limbs)
+- The presence of flamingos in the foreground and midground
+- The beach setting with sand and water
+- The robot standing among the flamingos (spatial relationship)
+- The overall composition placing the robot as central focus
+- The presence of palm trees and rocks in the background (though stylized, they must still be present)
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The robot's humanoid form is a core identity feature; even when reimagined as an Art Deco sculpture, it must retain a recognizable human-like silhouette with distinct head, torso, arms, and legs. If these parts are absent or transformed into non-human shapes (e.g., animal or abstract blobs), the subject would no longer be identifiable as a robot. This is a 3-point question because losing this would fundamentally alter the subject’s identity.
+    Question: Does the edited image retain a humanoid robot with a distinct head, torso, arms, and legs?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The presence of flamingos is essential to the scene's narrative and visual theme. Even if stylized into geometric patterns, their existence must be confirmed. If they are entirely removed or replaced by unrelated objects (e.g., seagulls or abstract shapes with no bird-like qualities), the scene loses its defining element. This is a 3-point question because the flamingos are central to the image’s concept.
+    Question: Are flamingos present in the scene, either in biological or stylized form?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The beach environment — specifically the sand and water — defines the location. Even if stylized, the presence of a shoreline with sand and a body of water must remain. Removing or replacing these would shift the setting entirely (e.g., to a desert or forest), breaking continuity. This is a 2-point question because it’s a critical environmental anchor.
+    Question: Is there a sandy beach and a body of water in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The robot’s position among the flamingos establishes the scene’s spatial logic. If the robot is isolated or placed far from the flock, the narrative of “among flamingos” is broken. This is a 2-point question because it affects the scene’s coherence and intended relationship between subject and environment.
+    Question: Is the robot positioned within or surrounded by the flock of flamingos?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The presence of palm trees and rocks in the background is implied by the original image and must be retained, even if stylized. Their removal would eliminate key landscape features, making the setting unrecognizable. This is a 1-point question because it’s a supporting detail, but still necessary for visual consistency.
+    Question: Are palm trees and rock formations visible in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The robot’s upright stance is a functional posture that reflects its role as a standing figure. If it is crouching, lying down, or floating, the intended pose is lost. This is a 1-point question because it’s a minor but meaningful detail affecting posture recognition.
+    Question: Is the robot standing upright on two legs?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

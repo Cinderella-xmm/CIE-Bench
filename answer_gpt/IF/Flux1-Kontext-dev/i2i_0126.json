@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0126",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image include a front view of the office environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the illustrations show the office environment primarily from a front view perspective. The chairs, desks, plants, and computers are oriented towards the viewer, indicating a clear frontal view of the setup.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a side view of the office environment present in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The side view in the context of office environments typically shows the lateral arrangement and depth of objects such as desks, chairs, and computers. Image B does not depict a side view, as the arrangement is primarily head-on, without any lateral perspective.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the image incorporate a top view of the office environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, none of the illustrations represent a top view, as all views are from the front or slightly angled, showing the height and face of objects, such as the desks and chairs, without displaying them from above.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the three views (front, side, and top) depicted as distinct illustrations within one image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B only includes the front view across its different panels. It does not depict side or top views, so it does not contain distinct illustrations of all three views within the image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the combined illustrations show the full office environment layout comprehensively, covering essential elements like desks, chairs, and equipment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does show various elements essential to an office environment, such as desks, chairs, plants, and computers, however, it does so through individual and slightly varied frontal perspectives rather than a single comprehensive overview of the entire layout.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

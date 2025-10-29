@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0087",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the clock appear to protrude from the wall surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the clock has a visible shadow cast on the wall behind it, which suggests that it is not flush against the wall. This shadow indicates depth and implies that the clock is slightly protruding from the wall surface. The presence of this shadow, combined with the lighting effects around the clock's edges, reinforces the perception of the clock being three-dimensional and not flat against the wall.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the clock cast a realistic shadow on the wall behind it?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a distinct shadow visible behind the clock, which appears consistent with the light source direction. This shadow adds realism to the image by suggesting that the clock is a physical object with depth. The shadow's softness and placement align with typical lighting behavior in real-world scenarios, enhancing the impression of a three-dimensional object.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Have the edges of the clock been modified to indicate it is not flush against the wall?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the edges of the clock show subtle shading and highlights that suggest it is not completely flat against the wall. These modifications create an illusion of depth, making it appear as though the clock is slightly raised or protruding. Comparing this with Image A, where such details are absent, confirms that these edge modifications contribute to the perception of the clock not being flush against the wall.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there evidence of lighting changes around the clock to enhance its three-dimensional look?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are noticeable lighting effects around the clock, including highlights on the top edge and shadows on the bottom edge. These lighting changes simulate a light source interacting with a three-dimensional object, thereby enhancing the clock's appearance of depth. In contrast, Image A lacks these lighting nuances, appearing flatter without such enhancements.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the clock maintained a completely flat appearance, or does it now show signs of depth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No\n```",
+      "explanation": "In Image B, the clock shows clear signs of depth through various visual cues such as shadows, lighting effects, and edge modifications. These elements collectively give the impression that the clock is no longer flat but has a three-dimensional quality. Comparatively, Image A presents the clock as flat without any of these depth-indicating features.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

@@ -1,0 +1,84 @@
+{
+  "filename": "laion_5857471525474898558",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the windows aligned vertically in the same columns across all floors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, we can observe a LEGO structure representing a building. The windows are arranged neatly in three vertical columns, with each column having a window on each of the three floors. This alignment suggests that the windows are indeed vertically aligned in the same columns, which is consistent with architectural design and common sense for such structured models.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a red door located on the left side of the ground floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, which is a LEGO model representing a building, there is only one door visible, and it is centered in the front of the structure in a neutral, dark color. There is no indication of a red door located on the left side.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a dark-colored door located on the right side of the ground floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the LEGO model shows a single dark-colored door located centrally at the building's base, not specifically on the right side of the ground floor. Since there is no separate section or separate door on the right, the answer according to the visual perception is no.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the climbing plant cover the central vertical strip of the building, spanning from near the ground floor up to the third floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is an arrangement of green LEGO pieces that represent a climbing plant. This decoration appears to start from near the bottom (though not directly from the ground level) and extends upwards, somewhat like a central vertical strip, spanning two rows of windows. However, given LEGO's limited scale, it symbolically represents the plant's climb from bottom to top.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a red rectangular outline enclosing a section of the building that includes three stacked windows and a balcony?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the simple and idealized depiction of the building using LEGOs does not include any red line or outline as part of its design. Everything is constructed using LEGO bricks without additional colored outlines enclosing specific sections like windows or balconies.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the balconies located directly outside specific windows on the second, third, and fourth floors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, two balconies are visible clearly positioned right beneath the windows of the second and third floors, as indicated by distinctive dark LEGO railings. There is no balcony shown for the top floor in this structured model.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.3333333333333333
+}

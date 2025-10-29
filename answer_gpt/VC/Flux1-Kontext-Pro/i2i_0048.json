@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0048",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the zebra retain its black-and-white stripe pattern without significant alteration?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the zebra's black-and-white stripe pattern is clearly visible. The stripes run horizontally across its body, and there are no visible changes or significant alterations to the pattern. The familiar natural zebra stripes are a key identifying feature, so world knowledge confirms this pattern as typical for zebras.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the zebra still in its original standing posture facing slightly towards the right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the zebra is depicted in a stance with its body mostly parallel to the frame and its head turned towards the camera, slightly facing the right as per the viewer's perspective. This aligns with a typical natural posture one might expect in such an image, combining both visual cues from the position of the legs and head direction.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the second zebra partially visible behind the first one, preserving its placement in the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the partial body of a second zebra is seen, indicating that it is placed behind the first zebra. This placement implies that the second zebra maintains a familiar positioning often seen in group animal photographs where one animal is partially obstructed by another.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the image still feature a grassy savannah background with some scattered vegetation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background has been altered to feature an urban or indoor setting with a flat, solid surface and solid-colored walls rather than a grassy savannah. This new background lacks any indication of open grassy plains or natural vegetation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the zebras' relative sizes, proportions, and perspectives maintained as seen in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the sizes and proportions of the zebras remain consistent with what we would expect from a typical photographic perspective of zebras. Based on the visual cues, there appears to be no significant distortion or change in relative size, similar to Image A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.9
+}

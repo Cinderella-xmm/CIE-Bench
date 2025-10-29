@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The white beard and mustache are the most distinctive facial features of the subject, serving as a core identifier. Their presence and color (white) are essential for recognition. If removed or colored differently (e.g., gray or black), the subject would no longer be identifiable. This is a 3-point weight element because it is central to identity.",
+      "question": "Is the subject’s beard and mustache present and white in color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The short, graying white hair with a receding hairline is another key identifier. Altering its length, color, or style (e.g., making it longer or darker) would compromise recognition. While the instruction allows artistic styling, it does not permit changing the fundamental identity-defining traits. Thus, the hair’s form and color must be preserved. This is a 3-point element due to its role in identity.",
+      "question": "Does the subject have short, graying white hair with a visible receding hairline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The facial expression, particularly the slightly open mouth and engaged look, conveys the subject’s state of speaking. This is a key moment captured in the original image and contributes to the narrative context. While the artistic style may change, the expression should remain recognizable. Losing this would distort the intended moment. It is a 2-point element as it is important for contextual consistency.",
+      "question": "Is the subject’s mouth slightly open, indicating speech?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The dark suit jacket and white shirt are structural elements of the attire. While the instruction allows changing the suit’s color and texture to watercolor blue-black, the **presence** of a suit jacket and shirt must remain. Removing them or replacing them with casual wear would violate the subject’s formal appearance. The clothing structure is a 2-point element as it defines the professional context.",
+      "question": "Is the subject wearing a dark suit jacket over a white dress shirt?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The red tie with white polka dots is a specific detail. While the instruction says to feature the tie in various patterns, it does not say to remove the tie itself. Therefore, the **presence of a tie** must be preserved, even if its pattern changes. The knot and placement are part of the formal attire and should remain. This is a 1-point element as it is a detail, but its absence would affect coherence.",
+      "question": "Is there a tie visible at the neck, knotted in standard fashion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The facial structure—specifically the shape of the eyes, nose, and jawline—is critical for identity. Even under stylization, these features must remain consistent enough to preserve recognition. Changing the eye shape or jawline would misrepresent the subject. This is a 3-point element due to its foundational role in identity.",
+      "question": "Are the subject’s eyes positioned symmetrically, with visible wrinkles around them, and a prominent nose and jawline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The lighting and focus on the face suggest a clear portrait setup. While the overall rendering may become vintage-style, the **direction and quality of light** on the face (especially highlighting the right side) should be preserved to maintain the original composition’s intent. This is a 1-point element as it supports visual coherence without being central to identity.",
+      "question": "Is the face illuminated from the front-right, casting subtle shadows on the left side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

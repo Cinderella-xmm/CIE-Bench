@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0154",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image contain the front view of the sports car?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, multiple views of the sports car are presented. One of these views, located in the bottom left corner, displays the front perspective of the car, showcasing the grille, headlights, and frontal design elements that are characteristic of a frontal view.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image contain the side view of the sports car?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the topmost view of the sports car depicts it from a side angle, illustrating the car's profile from the side, which includes the wheels, the shape of the doors, and the overall silhouette, confirming the presence of a side view.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image contain the top view of the sports car?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, there is no depiction of the car from a top-down angle. The views shown are front, side, and angled perspectives, but none resemble a view from directly above the vehicle.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the front, side, and top views visibly combined into a single image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the different views of the car are arranged in a single image but do not include a top view. Only the front, side, and angled views are present. The arrangement, while combined, lacks the top view required for this question.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the combined image clear, appropriately scaled, and presented professionally for the specified uses?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The arrangement in Image B presents the car from different angles in a clear manner, with each view being distinct and well-proportioned. The clarity and scaling seem suitable for illustrative or informative purposes, reflecting a professional presentation typical for showing multiple angles of an object in a single frame.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

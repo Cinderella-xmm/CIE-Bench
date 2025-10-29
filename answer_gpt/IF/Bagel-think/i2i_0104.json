@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0104",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image formatted as a pet adoption poster?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the photograph of a cat is accompanied by text, making it resemble promotional material often found in pet adoption settings. The placement of text over an image of an animal resembles poster designs commonly used for adoption, where the animal is prominently featured along with their name and perhaps other phrases related to adoption.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Has the text \"Warm Home\" been added to the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features stylized text that reads 'Horn Heed' above 'Adam Hoet,' which is unrelated to 'Warm Home.' No such phrase is present.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Has the text \"Adopt Love\" been added to the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing the text on Image B, we see specific text 'Horn Heed' and 'Adam Hoet.' The phrase 'Adopt Love' is not included, indicating the image does not have such a text addition.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are both \"Warm Home\" and \"Adopt Love\" clearly visible in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Given Image B only displays the stylized text 'Horn Heed' and 'Adam Hoet,' the absence of both specific text 'Warm Home' and 'Adopt Love' makes this option clearly incorrect.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the cat remain the central focus of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite additional text, the cat is prominently featured and remains the dominant subject in the composition. The text does not alter the primary focus from the cat itself.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

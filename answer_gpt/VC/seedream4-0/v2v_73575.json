@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_73575",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image composed of two separate panels, with one bird on the left and one on the right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the composition is clearly divided into two sections, with a distinct division line down the center, suggesting two separate panels. Each panel features a single bird — one on the left and one on the right. This division can be visually confirmed by observing the library background, which is split in symmetry, and each bird is seated atop a distinct pedestal, indicating separation.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the bird that was originally on the left still located in the left panel, and the bird that was originally on the right still located in the right panel?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bird on the left is a paper origami bird, and the bird on the right is a crystal bird. Comparing to Image A, the birds appear different in material and design, indicating the birds are replaced rather than retained in their original positions. In Image A, the bird on the left is real with a realistic posture, whereas, in Image B, both birds are artificial with distinct materials.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the bird on the left have its head turned toward the viewer, with its beak slightly open and facing forward?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The bird on the left in Image B is an origami sculpture and has its head designed to face slightly to the right rather than directly toward the viewer. Furthermore, the beak does not appear to be open, as it is a solid part of the origami structure, unlike a real bird which might have a hinged beak capable of opening.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the bird on the right have its body angled such that its back is partially visible and it is facing left?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The bird on the right in Image B is a crystal sculpture. It is facing left, and part of its back is visible, showcasing its faceted design. However, the angle, due to its artificial structure, is different compared to that of a natural bird’s posture. A realistic bird might exhibit more curvature and natural asymmetry, which are not present here due to the geometric nature of the crystal form.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the feet of both birds clearly shown gripping a surface beneath them?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, both birds are perched on pedestals which look like chess pieces. The origami bird has folded paper feet that touch the surface, and the crystal bird is positioned on its pedestal, but neither has feet anatomically gripping like real bird talons; rather they rest upon their respective surfaces in a stylized manner.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Do both birds maintain an upright, balanced silhouette with a distinct head, body, and tail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, both the origami bird on the left and the crystal bird on the right maintain an upright posture with clearly defined head, body, and tail sections. The origami bird has a neat angular design typical of paper art, while the crystal bird's facets are arranged to suggest the typical avian silhouette, both indicating balance and structure despite being unconventional materials.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.46153846153846156
+}

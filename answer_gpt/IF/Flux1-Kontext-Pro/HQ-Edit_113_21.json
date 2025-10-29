@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_113_21",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited version contain exactly three distinct art postcards?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, it displays three different sections which look like art postcards, each with a distinct design showcasing traditional African motifs and vibrant colors. Using common understanding of what constitutes a postcard-sized image, the edited image indeed comprises exactly three such sections.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a postcard showing the woman leaning against a straw hut?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the left-most postcard clearly depicts a woman wearing traditional attire standing in front of a structure resembling a straw hut, indicated by the thatched roof and textured walls typical of such huts.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a postcard where the woman's beaded jewelry is represented in an abstract, non-realistic style?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The middle postcard in Image B features a close-up of beaded jewelry. Although it is focused closely on the jewelry rather than being abstract or overly artistic, it is presented in a straightforward, realistic style rather than an abstract one.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a postcard showing the woman’s silhouette against a digitally rendered grassy landscape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The right-most postcard in Image B displays a silhouette of a woman set against a landscape that includes green grasses and a blue sky with clouds, which gives a digital and illustrative representation rather than a realistic photograph.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do all three postcards feature vivid colors and geometric borders?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Each of the three postcards in Image B incorporates rich, vivid colors typical of traditional African textiles and designs, and they are all bordered with geometric patterns, enhancing the artistic appeal and continuity of the designs.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

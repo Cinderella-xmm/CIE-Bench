@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The patient's connection to the IV is a core recognition feature. Losing this connection would make the scene unrecognizable as a hospital setting, impacting the core identity of the image.",
+      "question": "Is the patient still visibly connected to the IV drip via tubing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The nurse's activity with medical supplies is a key functional element. It maintains the logical association between the nurse and the patient's care.",
+      "question": "Is the nurse still interacting with medical supplies on the cart near the patient?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The presence of medical monitors is essential for maintaining the hospital setting. Their absence would disrupt the scene's context.",
+      "question": "Are the medical monitors still visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The patient's relaxed posture contributes to the narrative and helps maintain visual coherence. Changing this could alter the mood and context.",
+      "question": "Is the patient still lying in a relaxed position with his eyes closed?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The IV stand and its position relative to the patient are important for maintaining the logical relationship between the patient and the IV drip.",
+      "question": "Is the IV stand still positioned next to the patient's bed?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

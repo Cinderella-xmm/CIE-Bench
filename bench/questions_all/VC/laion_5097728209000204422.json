@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The glasses with rectangular frames are a core identification feature of the subject. They are clearly visible in the original image and distinguish him from others. In any artistic transformation, even into a Renaissance portrait, the presence and general shape of the glasses would be critical to maintain identity recognition. If the glasses are absent or significantly altered (e.g., round lenses, no frame), the subject becomes unrecognizable. Thus, this is a weight-3 element.",
+      "question": "Are the rectangular-framed glasses present on the subject's face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The beard and mustache, with their distinct gray and white mixture, are central to the subject’s facial identity. Their shape and coverage are consistent across the original image and would be essential to recognize the individual in any edited version. Altering the color or removing them entirely would fundamentally change the subject’s appearance. Therefore, this is a key recognition element.",
+      "question": "Is the gray and white beard and mustache present on the subject's face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The hair, particularly its graying texture and length around the temples and ears, contributes to the subject’s identity. While the hairstyle may be stylized in a Renaissance portrait, the natural coloration and volume should remain consistent. Removing or drastically altering the hair color or texture would make the subject unidentifiable.",
+      "question": "Is the graying hair visible on the top and sides of the subject's head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The ring on the left ring finger is a minor but identifiable detail. It is a personal accessory that, while not essential for identity, adds specificity to the subject. Its presence helps confirm the continuity of the individual across edits. Although the instruction does not require its retention, its absence without replacement could break visual coherence if the intent is to preserve the subject’s identity.",
+      "question": "Is a ring visible on the ring finger of the subject's left hand?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The hand shape and skin tone, particularly the left hand resting on the hip, are part of the subject’s physical characteristics. Even if the pose changes, the underlying anatomy and skin texture should remain consistent. The hand's position in the original image is significant, and while it may be repositioned, its visual attributes should not be distorted beyond recognition.",
+      "question": "Are the hands of the subject visible with natural skin tone and proportion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The facial structure, including the nose shape, jawline, and eye spacing, is the foundational identity marker. These features define the subject’s likeness and cannot be altered without losing identity. Even in a painted style, these proportions must be preserved to ensure recognition.",
+      "question": "Is the facial structure, including the nose, jawline, and eye spacing, consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "laion_7318691618554101074",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are all makeup brushes replaced with sculpted crystal wands?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the objects inside the container are clear and elongated, resembling wands, with faceted tops that look like crystal. World knowledge suggests these are crystal wands due to their material and appearance. Image A shows makeup brushes with bristles, and Image B shows clear, faceted objects with no brush bristles at all, indicating a complete replacement of the makeup brushes with crystal wands.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does each crystal wand have a unique gemstone at its tip?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, all the wands have similar, identical faceted crystal tips, suggesting uniformity rather than uniqueness. World knowledge about gemstones suggests that unique gemstones would vary in shape, color, or cut. Therefore, visual analysis of Image B shows no variation in the tops of the wands.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the container a transparent crystal vase with visible etched floral patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a transparent container that seems to be made of crystal, given the transparency and refraction seen. However, there are no visible etched floral patterns on the surface of the container. The lace-like distortion at the top may appear as a pattern but is not an etched pattern on the glass surface itself. Image A was a simple glass container with no such crystal elements.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Has the lace band been replaced with a carved crystal ribbon?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a lace band that encircles the container, similar to traditional lace material, visible through its texture and pattern, not a carved crystal ribbon. The lace is not rigid or structured like carved crystal but retains the fabric-like appearance. Image A had a lace band, suggesting no material change.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the entire arrangement placed on a mirrored surface that reflects the crystal vase and wands?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B indicates that the arrangement is placed on a highly reflective surface, evident from the distorted reflection of the vase and wands. The mirror-like surface is characteristic of glass tables or mirrored surfaces. Image A also reflected the objects, confirming a mirrored placement for both images.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

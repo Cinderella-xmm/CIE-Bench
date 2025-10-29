@@ -1,0 +1,71 @@
+{
+  "filename": "laion_2932532684551195898",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the orange and yellow flower petals in the headpiece free from color banding, pixelation, or sharp, unnatural edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the flower petals in the headpiece appear smooth and vibrant without any visible color banding or pixelation. The edges of the petals are natural and soft, which suggests a high-quality edit. The absence of sharp or unnatural edges contributes to a realistic appearance of the flowers.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the black, orange, and yellow braids in the headpiece maintain consistent thickness, smooth curvature, and uninterrupted strand alignment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the braids show consistent thickness throughout their length. The strands are aligned without visible interruptions, and the curves are smooth and natural. This indicates that the editing process maintained the integrity and continuity of the braids, contributing to a seamless and coherent appearance.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the gold earrings reduced in size and repositioned on the headpiece while preserving their intricate mesh patterns and metallic sheen?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the gold earrings remain hanging from the ears, similar to their position in Image A. They retain their intricate mesh patterns and metallic sheen, indicating that the earrings were not repositioned onto the headpiece. There is no evidence of size reduction or repositioning in the edited image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the flowers, braids, and earrings positioned so that they appear physically connected to the head and hair without gaps or floating elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the flowers and braids appear well-integrated with the hair, without gaps or floating. The elements maintain a natural connection to the head, aligned with what would be expected in a real hairstyle. The earrings remain attached to the ears, indicating proper positioning without any floating elements.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any visible seams, unnatural shadows, or texture discontinuities at the edges of the headpiece where it meets the face or hair?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the transition between the headpiece and the hair appears seamless, with no visible seams, unnatural shadows, or texture discontinuities. The integration is smooth, giving the impression of a natural and cohesive headpiece.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

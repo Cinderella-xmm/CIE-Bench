@@ -1,0 +1,23 @@
+As a classifier, please uniquely classify the given editing instruction based on the provided category information.
+intruction-{input_instruction}
+
+The specific requirements are as follows:
+1. Category reference: The following are all optional categories, each containing an ID, category name, and description. Please strictly use this as the classification basis:
+   - id: 1，Category: "Reconstruction - Cartoon and personification"，Description: "Transforming human figures, animals, or objects into simplified or exaggerated representations such as cartoons, chibi forms, mascots, or figurines."
+   - id: 2，Category: "Reconstruction - Thematization and Identity Attribution"，Description: "Preserving the salient features of an entity while assigning it professional, cultural, social, or ritual identities."
+   - id: 3，Category: "Reconstruction - Fantasy and Bio-Recreation"，Description: "Reimagining subjects as fantastical creatures, hybrid beings, or virtual world avatars, with an emphasis on surrealism and creativity."
+   - id: 4，Category: "Stylization - Artistic Style Transfer"，Description: "Applying specific artistic styles such as watercolor, oil painting, ukiyo-e, cubism, pop art, or animation aesthetics."
+   - id: 5，Category: "Stylization - Historical and Cultural Transformation"，Description: "Embedding subjects within particular historical contexts or cultural frameworks, such as ancient murals, ethnic art, or traditional crafts."
+   - id: 6，Category: "Stylization - Material and Medium Simulation"，Description: "Imitating the visual and tactile qualities of particular materials or media, such as enamel, pixel art, ceramics, mosaics, LEGO, or woodcarving."
+   - id: 7，Category: "Contextualization - Encapsulation and Containerized Scenarios"，Description: "Placing objects within enclosed or framed settings—such as snow globes, display cases, glass domes, or picture frames—to construct immersive or decorative environments."
+   - id: 8，Category: "Contextualization - Commercial and Design Applications"，Description: "Transforming imagery into commercial or product design elements, including packaging, advertising, branding, or merchandise."
+   - id: 9，Category: "Contextualization - Informational and Narrative Expression"，Description: "Utilizing visual representations for information delivery or storytelling, including didactic diagrams, posters, comics, or sequential art."
+
+2. Classification rules:
+-For each input editing command, it is necessary to select the unique and most matching category from the above 9 categories;
+-The matching basis is the consistency between the core intention of the editing instruction and the category description, with priority given to the conversion methods, scenarios, or objectives explicitly mentioned in the instruction;
+-Do not add or modify categories, ensuring that each instruction corresponds to only one category ID and name.
+
+3. Only output a unique number representing the corresponding category id, do not output any other irrelevant content.
+Output Example:
+1

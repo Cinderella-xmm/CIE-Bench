@@ -1,0 +1,63 @@
+```
+Step 1: Disassemble Editing Instructions
+-<Thinking Process 1>: The editing instruction requires transforming the entire scene into a miniature stylized 3D model encased in a crystal-clear snow globe. This involves altering the scale, perspective, and physical context of the original image. The original image features a wide-angle view of the Great Wall winding across mountainous terrain with real-world proportions and lighting. Converting this to a snow globe format implies a significant shift in spatial logic, requiring the entire landscape to be contained within a spherical transparent enclosure. This transformation affects overall realism and natural appearance by introducing artificial boundaries and scaling distortions. Attention must be paid to whether the transition maintains structural coherence, such as preserving the correct relative positions and proportions of the Wall, mountains, and figures, while avoiding unnatural textures or geometric breaks caused by the enclosure.
+
+-Sub requirement 1: The entire scene (including the Great Wall, mountains, sky, and people) must be scaled down and enclosed within a transparent spherical snow globe without distorting the core structure or introducing unnatural warping at the edges of the globe.
+
+-Sub requirement 2: The material properties of the snow globe (crystal-clear glass) must appear realistic, with proper refraction, reflection, and transparency effects that do not introduce artifacts like ghosting, blurring, or inconsistent light behavior.
+
+-Sub requirement 3: Tiny detailed figures walking the Wall must retain their human-like proportions and anatomical correctness despite being miniaturized, and should not exhibit deformation or missing limbs due to scaling.
+
+-Sub requirement 4: Bright autumn foliage must be added to the surrounding vegetation without disrupting the existing greenery’s texture or creating color clashes, ensuring that the new colors blend naturally with the environment.
+
+-Sub requirement 5: A swirling snow effect must be introduced inside the globe without obscuring key elements like the Wall or figures, and must appear physically plausible—such as consistent particle density and motion direction—without appearing static or artificially layered.
+
+-Sub requirement 6: Ceramic birds in flight must be visible within the globe, rendered with smooth surfaces and appropriate size relative to the scene, and positioned in mid-air paths that follow natural flight dynamics.
+
+-Sub requirement 7: The dark wooden base must be added beneath the snow globe with engraved text "Great Wall Memories," maintaining realistic wood grain, depth, and contrast, and ensuring the engraving is legible and proportionally correct.
+
+-Sub requirement 8: The composition must preserve visual credibility by ensuring the snow globe sits stably on the base, with no floating or misaligned elements, and the internal scene remains coherent in scale and perspective.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of enclosing the entire scene within a crystal-clear snow globe, evaluate whether the spherical boundary is visually present and correctly renders the curvature and transparency of glass. The question checks for artifacts such as jagged edges, incorrect refraction, or abrupt transitions between the globe and background.
+Question: Is the edge of the snow globe smooth and continuous, with no visible seams, distortions, or pixelation along its surface?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of maintaining realistic material properties for the snow globe, assess whether light interacts naturally with the transparent sphere—specifically, whether reflections and refractions are consistent with glass optics. This includes checking for accurate highlights, internal shadows, and distortion of the background through the globe.
+Question: Are the reflections and refractions on the snow globe surface consistent with how light behaves on clear glass, showing subtle bending of the scene behind it and soft highlights?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of preserving the proportions and anatomy of the tiny figures walking the Wall, verify that each figure has a full set of limbs, correct body shape, and no clipping or stretching due to scaling. Focus on the group of people near the center of the Wall and those descending the stairs.
+Question: Do all visible figures inside the snow globe have complete and correctly proportioned limbs, with no extra fingers, missing arms, or distorted postures?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of adding bright autumn foliage without disrupting existing textures, examine the trees and shrubs along the mountain slopes. The new colors should enhance the scene without creating sharp color boundaries or unnatural patches.
+Question: Are the autumn-colored leaves integrated smoothly into the existing green vegetation, with no abrupt color changes or blocky textures indicating digital overlay?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of introducing a swirling snow effect, evaluate whether the snow particles are evenly distributed and move in a coherent flow pattern. Check if they obscure important elements or appear as static, flat layers.
+Question: Are the snow particles visible throughout the globe in a dynamic, swirling pattern, and do they not fully cover the Great Wall or figures, allowing them to remain clearly visible?
+Choices: Yes, No  
+A: Yes
+
+Q6: 
+Thinking process: Based on the sub requirement of including ceramic birds in flight, assess whether the birds are small, detailed, and positioned in mid-air trajectories that suggest motion. Check for unnatural shapes or floating objects that break physical logic.
+Question: Are the ceramic birds clearly distinguishable as small flying objects with defined wings and bodies, and are they located in the air above the Wall without touching any surfaces?
+Choices: Yes, No  
+A: Yes
+
+Q7: 
+Thinking process: Based on the sub requirement of adding a dark wooden base with engraved text, evaluate whether the base appears solid and grounded under the snow globe, with visible wood grain and readable lettering. Confirm that the text “Great Wall Memories” is correctly spelled and proportionally sized.
+Question: Is the wooden base dark in color, textured with realistic grain, and does it support the snow globe without floating or tilting, with the engraved text clearly legible?
+Choices: Yes, No  
+A: Yes
+```

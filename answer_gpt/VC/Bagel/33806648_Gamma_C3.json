@@ -1,0 +1,84 @@
+{
+  "filename": "33806648_Gamma_C3",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the fallen log still present in the foreground, lying diagonally across the cave floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there appears to be a large, fantastical creature with glowing features occupying the foreground and main area of the cave. Given this visual information, the log that was present in Image A is obscured by the presence of this creature. By combining knowledge that large objects like this creature would cover most smaller objects and based on visual cues, it is reasonable to conclude that the fallen log is no longer visible in Image B.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does sunlight still enter from the arch opening and illuminate the right side of the cave interior?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the presence of the glowing creature with blue luminescent features suggests that external light sources, such as sunlight, might be less distinguishable. However, the bright background seen through the arch suggests sunlight still enters. In Image A, sunlight was clearly illuminating the cave, and the overlapping features of Image B suggest that despite the changes, sunlight continues to illuminate the cave.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the rocky, uneven ground surface visible beneath the arch and extending toward the foreground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the creature occupies a significant portion of the cave floor, obscuring much of the ground. However, segments of rocky ground are still visible around and behind the creature. Comparing with Image A, where the ground was more visible, it is reasonable to conclude that despite the presence of the creature, the rocky ground is still visible where the creature is not obstructing the view.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the bright sky and distant tree-covered hillside still visible through the arch opening?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, apart from the creature, the bright sky is observable through the arch opening. There are no visible tree-covered hillsides, unlike in Image A. The lack of visible trees or distinguishable hillside features indicates that these aspects are not present in the edited image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the cave interior structured with converging rock walls and a clear path leading toward the arch opening?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cave structure remains similar with converging rock walls leading to the arch opening, visible in the background beyond the creature. The creature's presence dominates the path area, but the cave structure beyond it retains the original layout from Image A, indicating a path leading to the arch.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the surrounding rock walls still composed of layered sedimentary rock with natural weathering patterns and beige-to-brown coloration?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the surrounding rock walls of the cave maintain the same color and texture as seen in Image A. The layered sedimentary rock with its natural weathering patterns and color remains unchanged, as it continues to be present in the background setting of the edited image.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.75
+}

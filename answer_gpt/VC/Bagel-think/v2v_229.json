@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_229",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the presence of the bed as the central object?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the bed is prominently represented as the central object, similar to Image A. The visual depiction of a bed is evident with pillows and blankets, reinforcing its identification as the central object. Common knowledge indicates that a bed, by design, serves as the main object within a bedroom setting.",
+      "weight": 3,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image retain the warm glow from the lamp and candles?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "Analyzing Image B, the edited depiction shows a bedside lamp, but unlike Image A, where candles provide a warm ambient glow, there are no candles in Image B. A lamp is present, suggesting illumination, but the lack of candles changes the warmth and ambiance created by the collective light sources found in the original image.",
+      "weight": 3,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain the soft texture representation of the bedding?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "Image B portrays the bedding using simplified lines and colors to illustrate a bedspread and pillows, but it lacks detailed texture depiction. Common sense suggests that a minimalistic depiction simplifies texture representation compared to Image A's detailed photographic realism where materials like blankets exhibit texture visually through fabric folds.",
+      "weight": 2,
+      "model_answer": "no",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image retain the arrangement of pillows on the bed?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the pillows are illustrated in a pink color against a softer yellow bedspread. Comparing with Image A, visual cues and arrangement suggest multiple pillows placed against the headboard are similar in both images. This is a typical arrangement often seen and expected in bedroom settings.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image retain the position of the bedside table relative to the bed?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "correct_answer": "yes",
+      "explanation": "In Image B, the bedside table is depicted near the head of the bed, consistent with the usual placement in a bedroom for accessibility. Image A has the bedside table at the left of the bed similarly positioned as shown in Image B. World knowledge about typical bedroom layouts confirms this positioning as standard for practical usage.",
+      "weight": 2,
+      "model_answer": "yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5833333333333334
+}

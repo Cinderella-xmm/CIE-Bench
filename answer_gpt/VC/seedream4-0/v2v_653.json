@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_653",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the subject wear a white lab coat in all six chibi-style stickers?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "To analyze Image B, each of the six chibi-style stickers features a character with short brown hair. Moreover, five of the stickers clearly show the character wearing a white lab coat. The sixth sticker in the bottom left seems to feature an explosion or visible props, but it's not clear whether a lab coat is visible or not.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the subject wearing a light blue shirt visible beneath the lab coat in all stickers?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, only the first two stickers at the top (one holding beakers, the other with a clipboard) feature the subject wearing a white lab coat with a visible light blue shirt beneath it. For the other stickers, the shirt color isn't clearly visible due to the absence of detail above the lab coat.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the subject retain short brown hair in all chibi-style stickers?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, upon examining the chibi-style stickers, the character consistently has short brown hair in all six stickers. This characteristic was checked by observing each sticker's hairstyle, revealing continuity.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the subject retain a beard in all chibi-style stickers?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, none of the chibi-style stickers display the character with a beard. All the stickers have clear lines and depictions where facial hair would be absent. This absence aligns with the general chibi art style, which often simplifies facial features.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do at least four of the six stickers include a scientific prop (e.g., beaker, clipboard, microscope)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, examining each sticker for scientific props, the first sticker features a beaker, the second a clipboard, the fifth a test tube, and the sixth a microscope. This analysis reveals at least four stickers showcasing some form of scientific prop.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

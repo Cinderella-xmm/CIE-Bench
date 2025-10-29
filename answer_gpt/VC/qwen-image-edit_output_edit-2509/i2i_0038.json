@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0038",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the person's raised hand with an open palm still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the edited image, the person's raised hand with an open palm is clearly visible. This visual cue is analyzed by observing the hand's position and orientation. The hand is opened near the face, which resembles a natural gesture of waving or presenting. This visual understanding is consistent with common knowledge about common body language or gestures.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there still a wooden-framed mirror visible in the bathroom background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bathroom background is removed, leaving a plain white backdrop, indicating the absence of a wooden-framed mirror. Image A shows the mirror clearly; however, in Image B, no such details are present, hence the comparison leads to the conclusion that any background elements including the mirror have been omitted.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the person still holding an object resembling a phone near their face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the person is depicted holding an object in front of their face that visually resembles a phone or camera. This is determined by observing the object's shape and proportions, which match common handheld devices used for capturing photos. The comparison of this region with Image A shows consistency in this action.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the person still wear a black T-shirt with a graphic and a necklace?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B visibly displays the black T-shirt with a graphic design and a necklace on the person. This observation relies on recognizing common apparel and accessory designs. It aligns with the attire observed in Image A, where the shirt graphic is distinctive, and the necklace is visible.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there still a white sink with a faucet visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a simplified plain backdrop without any detailed environment elements like in Image A. In Image A, the sink and faucet are prominent parts of the bathroom background. The absence of such items in Image B, evidenced by the simplified and featureless space, indicates their removal.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

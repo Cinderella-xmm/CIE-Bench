@@ -1,0 +1,71 @@
+{
+  "filename": "HQ-Edit_125_156",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the magnifying glass placed among the books on the left bookshelf visually consistent in size, shape, and material, with a shadow extending toward the desk that matches the lighting direction from the window?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon close inspection of Image B, the magnifying glass is not located among the books on the left bookshelf. Instead, it is positioned on the floor near the center of the image, resting on top of a piece of parchment. This placement contradicts the question's premise that the magnifying glass is on the left bookshelf. Furthermore, the shadow cast by the magnifying glass extends diagonally toward the bottom-right, which aligns with the light source coming from the upper-left (the window), suggesting consistent lighting logic. However, since the magnifying glass is not on the bookshelf at all, the question’s condition about its position is fundamentally incorrect. Therefore, the answer must be 'No' because the object is not in the specified location.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the ghostly outline of the detective in a trench coat appear as a translucent, softly blended form within the stained-glass window pattern, maintaining the integrity of the original design and showing no jagged edges or inconsistent opacity?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the ghostly figure of the detective in a trench coat appears behind the curtain at the back of the room, not within the stained-glass window itself. The figure is rendered as a semi-transparent silhouette, softly blended into the background with smooth gradients and no visible jagged edges. However, the stained-glass window pattern remains intact and undisturbed by the figure—there is no overlap or integration of the figure into the glass design. The figure is superimposed over the curtain, not embedded within the window’s intricate patterns. Thus, while the figure is well-integrated with soft blending and consistent opacity, it does not appear within the stained-glass window as the question suggests. Since the figure is not part of the stained-glass design, the visual consistency described in the question is not met.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the deep sepia tones applied consistently across all surfaces including the wooden desk, bookshelves, floor, and window, preserving fine details like wood grain and book spines without introducing blotchy or uneven color patches?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B exhibits a rich, monochromatic sepia tone that dominates the entire scene, enhancing the vintage and mysterious atmosphere. The wooden desk, bookshelves, floor, and even the window frame are uniformly tinted in warm brownish hues. Fine details such as wood grain on the desk and individual book spines remain visible and sharp, indicating high resolution and careful color grading. There are no noticeable blotches, color shifts, or uneven patches that would suggest poor post-processing. The lighting enhances depth without causing harsh contrasts or discoloration. Therefore, the application of sepia tones is both consistent and respectful of texture detail across all surfaces.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the title \"The Lost Legacy\" positioned at the top of the image in a bold serif font that is clearly legible, proportionally scaled, and seamlessly overlaid without obscuring the ceiling details or causing visual disruption to the surrounding ornate patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The title 'The Lost Legacy' is indeed positioned at the top center of the image, above the central archway and below the ceiling. It is rendered in a bold, elegant serif font typical of classic mystery or gothic themes. The text is large enough to be clearly legible but not so large as to dominate the scene. Importantly, the font is transparent or subtly blended where it overlaps the ceiling’s ornate patterns, allowing the intricate designs to remain visible beneath the letters. The text does not obscure critical architectural elements, and there are no visible artifacts or distortions around the edges. The overlay is clean and professional, fitting the aesthetic of the scene without disrupting the visual harmony. Hence, the title integrates seamlessly into the composition.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the added elements—the magnifying glass and the ghostly figure—integrate seamlessly into the scene without distorting adjacent objects, altering lighting logic, or introducing visible artifacts such as misaligned edges or texture repetition?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The magnifying glass on the floor and the ghostly figure in the background are both digital additions. The magnifying glass is realistically rendered with proper reflections, shadows, and scale relative to the surrounding parchment and floor tiles. Its shadow aligns with the ambient light direction from the window, preserving lighting consistency. The ghostly figure is translucent and softly blended into the curtain backdrop, with no sharp edges or pixelation. It does not interfere with nearby objects like the columns or the window frame. There are no signs of texture repetition or misalignment. Both elements appear to be carefully composited, maintaining the scene’s coherence. No visible artifacts or distortions are present, and they enhance rather than disrupt the narrative mood. Therefore, the integration is seamless.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

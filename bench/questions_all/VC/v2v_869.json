@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The black knit beanie is a core identity feature of the subject in the original image. It is a distinctive piece of headwear that defines the character's appearance and is referenced in the editing instruction as a \"warm hat\" to be included in the figurine. Its presence and knitted texture are essential for recognition. If removed or replaced with a different hat type, the character would lose a key identifying trait. This makes it a high-weight element.",
+      "question": "Is the black knit beanie present on the head of the figure in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The brown backpack is a functional and visual anchor in the original image, clearly visible with both straps over the shoulders. The instruction specifies a \"practical backpack\" as part of the figurine’s attire, indicating it must be retained. Its color and placement are critical for maintaining the character’s identity and thematic consistency. Removing or changing its color would disrupt recognition and narrative logic.",
+      "question": "Is the backpack brown in color and positioned over both shoulders with visible straps?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The facial structure, particularly the jawline and nose shape, is a core recognition element. While the instruction allows for stylization into a chibi form, the underlying facial features must remain consistent enough to identify the same individual. The instruction emphasizes \"large, sparkling eyes full of emotion,\" which implies the eyes must be present and expressive, but their exact shape should reflect the original’s positioning and proportion. Losing this would make the figure unrecognizable.",
+      "question": "Are the eyes positioned in the same relative location on the face as in the original image, with a clear gaze direction toward the right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The dark-colored jacket with a collar and front zipper is a defining article of clothing in the original image. The instruction refers to \"casual attire\" and \"practical backpack,\" implying the jacket is part of the outfit to be preserved. While the material may be stylized, the silhouette and closure type (zipper) must remain consistent to maintain visual identity.",
+      "question": "Does the figure wear a dark-colored jacket with a visible front zipper and collar?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The blue denim jeans are a secondary but identifiable detail in the original image. They contribute to the casual, traveler-like appearance and are mentioned in the instruction as part of the \"casual attire.\" While less critical than the headwear or backpack, their retention ensures visual coherence and prevents misidentification of the character’s style.",
+      "question": "Are the pants worn by the figure blue in color and consistent with the appearance of denim jeans?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The upright posture with one hand visible at the side is a key compositional element in the original image. The instruction describes the figure as standing on a platform, implying a similar stance. While the angle may shift in the 3D render, the basic pose—standing straight, one hand down—must be preserved to maintain the character’s demeanor and spatial logic within the diorama.",
+      "question": "Is the figure standing upright with one hand visible near the side of the body?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The presence of the backpack straps over the shoulders is a functional detail that confirms the backpack is being worn correctly. The instruction specifies a \"practical backpack,\" which implies proper attachment. This detail supports the realism and logic of the character’s gear, even in a stylized form.",
+      "question": "Are both shoulder straps of the backpack visible and positioned over the shoulders?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

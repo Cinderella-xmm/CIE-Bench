@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0026",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the player depicted wearing a red shirt with black shorts in all frames?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the player is wearing a white shirt with black accents and black pants. The visual cues, such as the clothing's color and design pattern, suggest that the player is not wearing a red shirt or black shorts. Contrasting this with Image A, where the player is dressed in a red shirt with black shorts, the attire in Image B does not match the one depicted in Image A.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does each frame show the player dynamically engaged with the tennis racket and ball, mimicking a natural hitting motion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, each frame displays the player holding a tennis racket and positioned in various stances that suggest engagement in playing tennis, but they seem more posed or illustrative rather than demonstrating motion dynamics seen in real action. The nature of the drawing style leads to an analysis that the motion might not mimic natural hitting but rather represents posed illustrations.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the racket and ball consistently positioned to indicate a realistic hitting action in every frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, only in two frames is the racket positioned in a manner that looks like engaging with a ball, while other frames primarily focus on the player’s posture without showing the ball. This indicates inconsistency in depicting realistic hitting action with both the racket and ball across all frames.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the player retain his short dark hair in all frames of the sequence?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the player maintains short dark hair across all frames. This is consistent throughout each illustration, demonstrating continuity in the player's hairstyle.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the yellow tennis ball appear consistently across all frames, maintaining its bright color and position relevance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the yellow tennis ball is not visible in some frames, which suggests inconsistency in its appearance and positioning. Furthermore, when compared to Image A, which shows the bright tennis ball engaging with the racket, Image B fails to maintain this continuity across all frames.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.09090909090909091
+}

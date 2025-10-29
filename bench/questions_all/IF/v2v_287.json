@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The instruction requires converting the train into a 3D voxel model. This means the train should appear as a blocky, pixelated structure rather than a smooth, realistic one.",
+      "question": "Is the train depicted as a 3D voxel model with a blocky, pixelated appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The train's new style must match the visual characteristics of the icons on the left image. This involves analyzing the icon style for features like color palette, simplicity, and design elements.",
+      "question": "Does the train's 3D voxel model use a similar color palette and design simplicity as the icons shown in the left image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Rendering in 8k resolution implies that the image should have extremely high detail and clarity, which can be observed by checking for sharpness and lack of pixelation or blurriness.",
+      "question": "Is the entire image rendered in high enough detail to suggest an 8k resolution, with no visible pixelation or blur?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Using Octane as the rendering engine typically results in photorealistic lighting and materials. However, since this is a voxel model, it should still exhibit clean, precise shading typical of Octane renders.",
+      "question": "Does the train's 3D voxel model exhibit clean, precise shading and lighting effects consistent with those produced by Octane?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The original train's proportions and overall shape should remain recognizable even after conversion to a voxel model. This ensures the transformation maintains the essence of the train while adapting its style.",
+      "question": "Does the 3D voxel model of the train retain the original train's proportions and overall shape, making it recognizable despite the stylistic change?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

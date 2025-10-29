@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0089",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the kitten's original orange fur with white markings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, we observe the non-blurred part of the kitten. The visible portions include some fur on the ears and legs, which suggests a similar coloration seen in Image A: predominantly orange fur with white markings. Thus, though partially hidden, the visual cues indicate the retention of original fur colors and patterns.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the kitten's greenish-yellow eyes preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "For Image B, the visible area does not include the eyes, making it impossible to confirm their retention visually within the edited region. World knowledge cannot fill this gap as it relies entirely on visible cues from the image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the image retain the kitten's perked ears, pink nose, and white whiskers?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "From Image B, the visible parts show the kitten's perked ears which are not obscured, aligning with the features seen in Image A. The other features like the pink nose and white whiskers, not visible in the edited image, are presumed unchanged based on continuous visual visibility of similar areas.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the blue blanket with its soft texture maintained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the surrounding area visible is the blue blanket with a noticeable soft texture, clearly evident. This mirrors Image A's depiction of the blanket, confirming that it is retained in the edited version.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the kitten retain its relaxed posture while appearing to leap out of the screen in 3D?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, although the face is blurred, portions of the body remain visible which suggest relaxed posture similar to how it appeared originally in Image A. Image A presents a 3D-like depth through focused and unfocused areas, something Image B seems to conserve with its visible regions.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7692307692307693
+}

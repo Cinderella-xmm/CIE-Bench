@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0170",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the clothing and bags of both women depicted with soft gradient blocks that retain their original shapes and proportions without introducing any unnatural artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the clothing and bags of both women are rendered in a stylized, illustrated format. The garments, such as the navy blazer, beige sweater, black pants, and light blue jeans, are outlined with clean lines and filled with flat or subtly shaded color blocks rather than realistic gradients. While the shapes and proportions are preserved overall, the rendering uses simplified gradients and uniform color fills typical of graphic illustrations. These do not mimic natural fabric textures or lighting effects seen in real-world photography. However, there are no obvious distortions or unnatural artifacts—just a deliberate artistic simplification. Therefore, while the 'soft gradient blocks' are present to some extent (in the form of smooth transitions between colors), they are not realistic gradients but rather stylistic choices. The shapes and proportions remain accurate compared to the original image. Given the context of an illustration, the lack of unnatural artifacts is maintained.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the mannequins and their outfits inside the store window appear structurally coherent and visually plausible in terms of shape and material after the style conversion, without any noticeable distortion or unnatural textures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the mannequins are stylized with simplified forms and solid-colored outlines. Their clothing—such as the tan jacket with red pants on the left and the white jacket with dark pants on the right—is depicted using flat colors and minimal shading. Despite this stylization, the anatomical structure of the mannequins remains intact; limbs and torsos maintain proper alignment and proportions. The materials of the clothes are not rendered with realistic textures (e.g., fabric weave or sheen), but instead use consistent color fills, which is typical for illustrations. There are no visible distortions such as warped limbs or misaligned joints. The visual plausibility is preserved within the illustrative style. Compared to Image A, where the mannequins have more realistic textures and depth, Image B abstracts these details but does so coherently. Thus, while not photorealistic, the mannequins remain structurally sound and visually plausible within the new artistic medium.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the storefront maintain its original architectural details, such as the frame and tiles, without any visible distortion or introduction of non-natural textures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The storefront in Image B retains the basic structure of the original: a large glass window framed by dark vertical columns and a baseboard. The architectural elements like the frame and the horizontal molding at the bottom are clearly defined with clean lines. The glass surface is represented with a transparent effect, allowing visibility into the interior, and the reflections are simplified but not distorted. The tile pattern on the sidewalk outside is replaced with a uniform gray surface in the illustration, lacking the detailed cobblestone texture seen in Image A. However, this simplification is consistent with the overall illustrative style. There are no non-natural textures introduced—no pixelation, warping, or surreal patterns. The structural integrity of the building’s facade is preserved, albeit in a stylized manner. Therefore, while some detail is lost, the architectural essence remains intact without distortion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the texture of the cobblestone pavement represented naturally with soft gradients, maintaining the structural integrity and visual coherence without any loss of detail or unnatural appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cobblestone pavement has been significantly simplified. Instead of individual stones with varying shapes, shadows, and textures as seen in Image A, it is rendered as a flat, uniform gray surface with subtle shading. There are no visible cobblestones or realistic textural variations. This represents a clear departure from natural representation. The use of soft gradients is minimal and serves only to suggest depth, not actual texture. As a result, the structural integrity of the pavement is preserved in terms of layout (it's still a sidewalk), but the detail and natural appearance are entirely lost. In contrast to Image A, where the cobblestones are distinct and realistic, Image B opts for abstraction. Therefore, the texture is not represented naturally, and the detail is sacrificed for stylistic consistency.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the lighting effects and shadows in the image convincingly portrayed with soft gradient blocks, ensuring they contribute to the overall realism and natural appearance without breaking the visual flow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, lighting and shadows are stylized rather than realistic. The illumination inside the store window is indicated by a warm yellow glow, but it lacks the dynamic range and soft falloff seen in Image A. Shadows are simplified and often reduced to flat dark areas beneath objects or figures, such as under the women and the mannequins. These shadows are not based on natural light physics but on illustrative convention. For example, the reflection on the glass is minimal and doesn't show complex interactions between light and surfaces. While the use of soft gradient blocks helps maintain visual harmony and avoids harsh edges, the lighting does not contribute to realism—it enhances the cartoonish aesthetic instead. Compared to Image A, where lighting creates depth and dimensionality, Image B sacrifices realism for clarity and style. Hence, although the lighting is coherent within the art style, it does not achieve natural realism.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

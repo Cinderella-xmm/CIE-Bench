@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0088",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the napkin still dark blue?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the napkin maintains the same dark blue color tone as seen in the original image. This is evident from the visual observation, where the hue and saturation of the napkin have remained consistently dark blue between the two images. The recognition of color consistency relies on visual matching between the two images.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the napkin's fabric creases and texture preserved?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on the visual texture in Image B, the napkin's fabric creases and texture remain consistent with common fabric characteristics observed in Image A. This conclusion is drawn from identifying similar patterns and shadows that indicate the natural folds and texture found in cloth, supported by consistent lighting which highlights these features in both images.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the new spoon occupy the same position on the napkin as the original fork?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In comparing Image B with Image A, the spoon appears to be placed in the same central position on the napkin as the original fork. This observation is based on alignment checks where both utensils are centrally aligned on similar areas of the napkin, suggesting the position remains unchanged.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the background still a solid dark blue tone?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents a background that retains the solid dark blue tone seen in Image A. This consistency is verified through the uninterrupted color field across both images, indicating no modifications to the background color. Such continuity reflects a stable color palette usage in the setup.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the shadows and lighting on the spoon and napkin consistent with the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "While analyzing Image B, the lighting on both the spoon and napkin seems slightly altered compared to the original fork in Image A. The spoon displays a more pronounced reflection, suggesting potentially different lighting or material properties affecting the shadow and highlight nuances.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.9
+}

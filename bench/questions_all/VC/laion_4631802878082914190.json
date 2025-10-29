@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The six-stage structure is the core identity of the CRISP-DM model. Removing or merging any stage would fundamentally alter the process’s definition. Even in a whimsical version, the number of stages must remain six to maintain fidelity to the original methodology. This is a key identifier of the framework, so losing it would render the diagram unrecognizable as CRISP-DM.",
+      "question": "Does the edited image contain exactly six labeled process stages corresponding to the CRISP-DM phases?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The correct sequence of stages ensures the logical flow of the data mining process. Reordering them (e.g., placing Modeling before Data Preparation) would break the functional integrity of the model. Since the instruction specifies a \"winding road\" representing data flow, the path must reflect the correct progression.",
+      "question": "Are the six stages arranged in the correct sequential order: Business Understanding → Data Understanding → Data Preparation → Modeling → Evaluation → Deployment → back to Business Understanding?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The bidirectional connection between \"Data Understanding\" and \"Business Understanding\" is a defining feature of CRISP-DM, allowing for iterative refinement. In the original image, this is shown via double-headed arrows. Even in the comic version, this relationship must be preserved through equivalent visual cues (e.g., two-way paths or dialogue).",
+      "question": "Is there a bidirectional connection (e.g., two-way path or mutual interaction) between the \"Business Understanding\" and \"Data Understanding\" stages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Similarly, the bidirectional link between \"Data Preparation\" and \"Modeling\" reflects the iterative nature of building models. This is critical for accurate representation. The edited image must show this feedback loop, even if stylized.",
+      "question": "Is there a bidirectional connection (e.g., two-way path or mutual interaction) between the \"Data Preparation\" and \"Modeling\" stages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The central data source is a core conceptual element of the diagram. While its visual form changes from a database icon to glowing crystals, its position and role as the shared resource for all stages must remain. Its central location in the diagram reinforces its importance.",
+      "question": "Is there a central data source located at the center of the diagram, accessible to all six stages?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The cyclical nature of the process is fundamental to CRISP-DM, emphasizing ongoing improvement. The return path from Deployment back to Business Understanding must be visible, even if represented as a winding road or bridge. Losing this loop would make the diagram linear and incorrect.",
+      "question": "Does the diagram include a clear return path from the \"Deployment\" stage back to the \"Business Understanding\" stage, completing the cycle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

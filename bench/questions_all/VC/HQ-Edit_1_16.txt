@@ -1,0 +1,127 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a small sparrow perched on a moss-covered tree branch, facing slightly to the left. The bird has rich, warm-toned plumage: a reddish-brown crown, light tan underbelly with fine feather texture, and darker brown wings and tail feathers. Its beak is short and conical, pale pinkish-gray in color, with a dark tip. The eye is large, dark blue with a sharp black pupil, surrounded by a thin white orbital ring. The feet are slender, pinkish with visible claws gripping the branch. The branch is textured with natural bark patterns and covered in patches of green moss, particularly on the right side. Above the bird, several oak leaves with distinct lobed edges and prominent veins hang down, illuminated from behind, creating a glowing effect against a soft green gradient background. The lighting emphasizes the bird’s fluffy feathers and the translucency of the leaves.
+
+---
+
+**Thinking process:**  
+The editing instruction specifies transformation of the sparrow into an "adventurous character" with added accessories (explorer hat, backpack), replacement of the oak leaves with a stylized map, and addition of a whimsical title. These changes directly affect:
+
+- **Subject transformation**: The sparrow's form can be modified via accessories (hat, backpack) — allowed change.
+- **Scene elements**: Oak leaves are explicitly replaced with a map → not retained.
+- **Background/texture**: The mossy branch and green gradient background may be preserved or altered; no explicit instruction to retain them, so they are within modification scope.
+- **Plumage description**: Instruction says “emphasize the bird’s fluffy plumage in warm, earthy tones” — this implies that the *color palette* and *fluffiness* should remain consistent but may be enhanced stylistically.
+- **Title and text**: New element to be added, not present in original.
+
+Thus, only those aspects **not mentioned for modification** must be considered for retention.
+
+---
+
+**Allowed Changes List:**  
+- The oak leaves above the bird (to be replaced with a stylized map)  
+- The background environment (green gradient may be altered or reimagined)  
+- The presence and appearance of the moss on the branch (may be altered or removed)  
+- The bird’s posture or position (implied by transformation into explorer)  
+- Addition of accessories: tiny explorer hat and miniature backpack  
+- Addition of a whimsical title at the top  
+- Stylistic enhancement of plumage (but warm, earthy tones to be maintained)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now apply exclusion logic to identify what **must remain unchanged**, based on core identity and logical consistency:
+
+1. **Core recognition elements**:  
+   - The **sparrow as the central subject** must remain identifiable. Even if it gains accessories, its fundamental avian anatomy (head shape, beak, eye, body proportions) must be recognizable. The **feather structure**, especially the **texture and layering of the plumage**, is critical to identifying it as a real bird, not a cartoon figure.  
+   - The **eye structure** — specifically the **dark blue iris with a black pupil and white orbital ring** — is a unique visual signature in this image. It contributes strongly to realism and species identification. If lost, the bird loses its distinctiveness.  
+   - The **beak shape and color** — short, conical, pale pinkish-gray with dark tip — is characteristic of sparrows and essential for biological accuracy.  
+   - The **tail feathers** — long, narrow, and layered — are part of the bird’s silhouette and must remain consistent unless transformed by costume. But since the hat/backpack are tiny, the tail should not be obscured or reshaped.  
+
+2. **Functional/logical association elements**:  
+   - The **bird’s perch on the branch** is a functional relationship: it is standing on a surface. This physical interaction must be preserved even if the branch is stylized. The **claws gripping the branch** are necessary for believability of the pose and balance.  
+   - The **relative positioning** of the bird on the branch (centered, facing left) provides compositional stability. While slight adjustment may occur, the overall spatial orientation should not be reversed or drastically shifted.  
+
+3. **Non-modified element deduction**:  
+   - After excluding all allowed changes (leaves, background, moss, accessories), the following **original details must be preserved**:
+     - The **texture of the feathers**, including fine striations and fluffiness
+     - The **shape and color of the beak**
+     - The **structure of the eye**
+     - The **form and angle of the tail**
+     - The **position and grip of the feet** on the branch
+     - The **overall body proportions** (compact head, rounded chest, slim tail)
+
+These are not mentioned in the instructions as modifiable, and their alteration would compromise the integrity of the original subject.
+
+---
+
+**Preservation Targets List:**  
+- The bird’s eye with dark blue iris, black pupil, and white orbital ring  
+- The short, conical beak with pale pinkish-gray base and dark tip  
+- The layered, fluffy plumage in warm earthy tones (tan, brown, reddish crown)  
+- The long, narrow tail feathers with natural layering and shading  
+- The feet with visible claws gripping the branch  
+- The bird’s body proportions and posture (perched upright, facing left)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The dark blue iris with a sharp black pupil and surrounding white orbital ring is a distinctive anatomical feature of the bird in the original image. This specific eye structure is critical for identifying the bird as a realistic sparrow and differentiating it from other species. Altering or removing this feature would make the bird unrecognizable as the original subject, thus affecting core identity. Therefore, it is a key recognition element with high weight.
+    Question: Is the bird's eye clearly visible with a dark blue iris, black pupil, and a thin white orbital ring?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The beak’s shape and coloration—short, conical, pale pinkish-gray with a dark tip—are defining features of sparrows and contribute to the bird’s biological authenticity. Changing its shape or color would misrepresent the species. Since the instruction does not mention altering the beak, this detail must be preserved. It is a core identity feature.
+    Question: Does the bird have a short, conical beak that is pale pinkish-gray with a dark tip?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The texture and color of the plumage—especially the fluffy, layered appearance in warm earthy tones like tan, brown, and reddish crown—are central to the bird’s realistic portrayal. Although the instruction allows emphasizing these traits, it does not permit changing them fundamentally. Losing this texture or shifting colors would alter the bird’s identity. Thus, it is a core visual attribute.
+    Question: Are the bird’s feathers visibly fluffy and layered, with warm earthy tones including tan, brown, and reddish crown?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The long, narrow tail feathers with natural layering and shading are part of the bird’s silhouette and contribute to its balanced posture. While accessories might be added, the tail’s structure is not mentioned for modification and is essential for maintaining the original form. Altering it would disrupt the bird’s anatomical integrity.
+    Question: Do the bird’s tail feathers extend downward in a long, narrow, layered shape with natural shading?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The bird’s feet, with visible claws gripping the branch, establish a functional relationship with the perch. This detail supports the realism of the scene and the bird’s posture. Even with added accessories, the grip must remain intact. Removing or distorting this would break the logical consistency of the bird being perched.
+    Question: Are the bird’s feet visible with claws gripping the branch?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The bird’s posture—perched upright on the branch, facing slightly left—is a key compositional element. While minor adjustments may occur during transformation, the orientation and balance must be preserved to maintain continuity. Reversing direction or altering stance would disrupt the original framing.
+    Question: Is the bird positioned upright on the branch, facing slightly to the left?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The moss on the branch is a secondary environmental detail that adds texture and realism. While the instruction does not require its retention, it is part of the original scene and contributes to visual coherence. However, since it is not a core element and may be altered, it is assigned lower weight. Still, its presence enhances authenticity.
+    Question: Is there green moss visible on the right side of the branch beneath the bird?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

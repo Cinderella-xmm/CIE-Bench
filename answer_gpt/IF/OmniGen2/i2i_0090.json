@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0090",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image show the stapler from both the front and rear views side by side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the visual cues indicate only the front view of a blue stapler on the left side, while the right side shows the same stapler in an orange color but from a different perspective, not a direct rear view. World knowledge about typical object representations tells us that rear views involve showing the opposite side of the object, which isn't the case here.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the stapler's front and rear views arranged next to each other in a horizontal alignment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, although two perspectives of staplers are horizontally aligned, they represent different portions and not exact front and rear views. Therefore, the horizontal alignment exists but doesn't correspond to front and rear views.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are all parts of the stapler visible in both the front and rear views without any truncation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the stapler on the left side shows the majority of its form without truncation. However, on the right, the stapler appears incomplete as it's shown with a different color, missing a portion due to the split design. Based on typical object completeness assessment, truncation is present.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the front and rear views of the stapler in the edited image match in terms of color and design details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the stapler on the left is blue, while the one on the right is orange. Despite both showing a stapler, the significant color difference indicates a lack of consistency in color and possibly design details, per usual visual design comprehension.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background consistent between the front and rear views of the stapler without additional elements introduced?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The image reveals a stapler in a two-tone background split vertically. The left half features a green background while the right half transitions into a green-and-orange scheme. World knowledge of visual uniformity suggests that this inconsistency introduces additional visual elements between the two views.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.0
+}

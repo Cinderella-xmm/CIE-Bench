@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0123",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the parking meter maintain its black cylindrical shape and color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, both parking meters are visually cylindrical and black, maintaining a consistency in shape and color as seen in typical parking meters. Given common parking meter design, this observation confirms the shape and color in Image B. Since no alteration to shape or color is evident when comparing to common design standards or the unchanged component of Image A, the reasoning leads to the conclusion that their appearance remains unchanged.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the coin slot visible on both parking meters?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon inspection of Image B, the left parking meter has a visible coin slot that is clear, but the right meter does not appear to have a discernible coin slot. This discrepancy compared to typical parking meter design suggests that both do not have visible coin slots. When comparing with Image A, image B retains the coin slot visibility on one meter (the left), but not on both, thus establishing a clear visibility conclusion for this specific question.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the digital display on the right parking meter unchanged and labeled \"1995\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the digital display on the right parking meter does indeed display the numbers '1995,' consistent with its location and labeling seen in general parking meters. Analyzing its content and position alongside the digital indicators of '1995' that are visible in Image A, the conclusion confirms no alteration to this detail, ensuring its location and appearance remain consistently labeled as '1995.'",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the scene background, including the sidewalk, street, cars, and buildings, consistent with the original?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the same urban setup, consisting of sidewalks, streets, cars, and buildings that are visually coherent with typical urban scenes. Reviewing and contrasting this setup with Image A, there are no explicit changes on those parts; thus, the background elements remain consistent between the two images. This consistency is examined by matching visual cues like building positions, car arrangements, and street directions.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the numbers on the left meter (\"20487\") still present in some form, like being part of the robotic dog's design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the numbers '34887' are visible on the left meter, just as they were in Image A. However, they do not seem to be integrated into the robotic dog's design, on close examination of parts like its body or markings. By thoughtfully verifying the existence of '34887' both on Image A's left meter display and Image B with unchanged positioning, the reasoning concludes that they remain on the parking meter rather than translating into the robotic addition.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

@@ -1,0 +1,131 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is an ornate, multi-tiered birdhouse designed in a Gothic Revival architectural style, featuring intricate wood carvings, pointed gables, decorative spires, and a steeply pitched roof covered in blue shingles. The structure includes multiple arched windows with stained-glass-like detailing, a central balcony with carved railings, and a small door at the base. The birdhouse is mounted on a vertical wooden post and elevated above a grassy lawn, surrounded by trees and dappled sunlight. The craftsmanship emphasizes symmetry, verticality, and detailed ornamentation, resembling a miniature fairy-tale castle. The overall color palette consists of natural wood tones contrasted with vibrant blue roofing tiles. The background features soft-focus greenery and bright daylight, suggesting a peaceful garden setting.
+
+**Thinking process:**  
+The editing instruction explicitly states: *"Transform the ornate birdhouse into a miniature fairy tale castle encased within a crystal cloche."* This indicates that the **form and identity of the original subject (the birdhouse)** can be altered — it may no longer be a birdhouse per se but transformed into a fantasy-style castle. However, the instruction also specifies several **visual attributes to preserve or modify**, such as:
+- "Style the roof with vibrant sapphire shingles" → allows change in roof material/color but retains the concept of a blue-shingled roof.
+- "Add miniature flower beds along the entrance" → introduces new elements not present in the original.
+- "Tiny woodland creatures peeking through windows" → new additions.
+- "Position the castle on a delicate grassy mound base" → changes the support structure from a wooden post to a grassy mound.
+- "Encased within a crystal cloche" → adds a new environmental element not present originally.
+
+Key observations:
+- The **original form** of the birdhouse (its shape, layout, and architectural style) is allowed to be transformed into a castle, meaning **structural identity can change**.
+- The **roof's blue color** is referenced again ("sapphire shingles"), indicating that **blue roofing must remain**, though texture/material may shift.
+- The **wooden construction and ornate carving details** are implied in both original and edited versions, suggesting these stylistic traits may be preserved even if form changes.
+- The **background environment** (trees, grass, sunlight) is not specified to be retained, so it can be changed.
+- The **support base** (wooden post) is replaced by a "grassy mound", so this element is not required to remain.
+
+Thus, only those elements **not mentioned for transformation or replacement** should be considered for retention.
+
+**Allowed Changes List:**
+- The overall form of the birdhouse (can become a castle)
+- The support structure (wooden post → grassy mound)
+- The background environment (trees, sky, lawn can be altered)
+- The addition of a crystal cloche (new element)
+- Addition of miniature flower beds
+- Addition of woodland creatures in windows
+- Roof material (shingles → sapphire-like, possibly glass or gemstone)
+- Color tone of roof (must remain blue/sapphire, but texture may change)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now identify what **must be preserved** based on exclusion from the allowed changes list and core recognition logic:
+
+1. **Core recognition elements**:  
+   While the subject is being transformed into a "fairy tale castle," the instruction still refers to it as derived from the "ornate birdhouse." Therefore, certain **architectural characteristics** that define its original identity — especially **distinctive Gothic Revival features** — may need to persist to maintain continuity. These include:
+   - The **pointed gables** and **spire-like finials** at the roof peaks
+   - The **intricate wood carvings** on the facade, particularly around arches and balconies
+   - The **central balcony with carved railing**
+   - The **symmetrical layout** and **vertical emphasis**
+   - The **presence of arched windows** with detailed tracery
+
+   Even if the object becomes a "castle," the **iconic design language** of the original birdhouse must remain recognizable to ensure consistency with the source.
+
+2. **Functional/logical association elements**:  
+   The original birdhouse has a **door at the base**, which implies entry/exit functionality. While the instruction does not specify retaining this function, the **presence of a door** is part of the structural logic of the building. Since the edited version is described as a "miniature fairy tale castle," it likely still needs a **main entrance**, so the **door’s position and presence** may be logically preserved.
+
+3. **Non-modified element deduction**:  
+   Elements **not mentioned** in the editing instructions as changed or added should be assumed to be **retained**, unless they are clearly part of the allowed transformation. For example:
+   - The **blue roofing tiles** are mentioned as "sapphire shingles" — same color family, so **color must be preserved**.
+   - The **wooden material appearance** is implied in both original and edited descriptions (“ornate birdhouse” → “miniature fairy tale castle”), so **natural wood textures** should remain visible.
+   - The **carved floral motifs** and **balcony railings** are unique details that define the ornateness; since they are not explicitly removed, they should be retained.
+   - The **window shapes and placement** are consistent across both descriptions, so their **positions and forms** should be preserved.
+
+Therefore, despite transformation, the **core visual grammar** of the original birdhouse — including its **architectural silhouette, decorative carvings, window arrangement, and color scheme** — must be preserved to maintain visual coherence.
+
+**Preservation Targets List:**
+- The presence of **pointed gables with spire-like finials**
+- The **central balcony with carved wooden railing**
+- The **arched windows with decorative tracery**
+- The **blue-colored roof shingles** (in sapphire tone)
+- The **wooden texture and natural finish** of the exterior
+- The **position and form of the main door** at the base
+- The **symmetrical facade layout**
+- The **intricate wood carvings** on columns and arches
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The pointed gables with spire-like finials are the most iconic architectural feature of the original birdhouse, defining its Gothic Revival style and verticality. Their removal would fundamentally alter the identity of the structure, making it unrecognizable as a derivation of the original. Since the instruction transforms it into a "fairy tale castle," but does not specify removing these features, their preservation ensures continuity. This is a core identity element, hence weight 3.
+    Question: Are the pointed gables with spire-like finials at the roof peaks present?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The central balcony with carved wooden railing is a key structural and aesthetic feature, distinguishing the birdhouse from simpler designs. It serves as a focal point and contributes to the whimsical, ornate character. The instruction mentions adding a "balcony" in the new design, implying its retention. Its absence would break the visual logic of the transformation. Thus, it is a critical scene element, warranting weight 2.
+    Question: Is there a central balcony with intricately carved wooden railing located below the uppermost gable?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q3: 
+    Thinking process: The arched windows with decorative tracery are essential to the Gothic Revival style and are consistently positioned in the original. They contribute to the symmetrical design and visual rhythm. The instruction does not mention changing them, and their inclusion in the "fairy tale castle" suggests preservation. Losing them would remove a key identifying trait. Hence, weight 2.
+    Question: Are there arched windows with decorative tracery visible on the front facade?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The blue roofing shingles are explicitly referenced in the instruction as "vibrant sapphire shingles," confirming that the blue color must be preserved. Although material may change, the color remains a core identifier. Changing it to another hue would violate the instruction and disrupt visual continuity. This is a critical color-based identity element, thus weight 3.
+    Question: Is the roof covered in blue shingles (or sapphire-colored material)?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q5: 
+    Thinking process: The wooden texture and natural finish of the exterior are fundamental to the birdhouse’s appearance. The instruction describes a "miniature fairy tale castle" but uses terms like "ornate" and "wooden," suggesting the material should remain consistent. Altering it to stone or metal would contradict the original medium and weaken coherence. This is a detail-level but important material attribute, hence weight 2.
+    Question: Does the exterior of the structure retain a visible natural wood texture and finish?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The main door at the base is a functional and compositional element, providing access and grounding the structure. Its position and form are consistent in both original and edited descriptions. Removing or relocating it would disrupt logical spatial organization. Though not the most prominent feature, it supports structural integrity and recognition, so weight 1.
+    Question: Is there a single wooden door located at the center of the base level?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The symmetrical layout of the facade, with balanced windows, columns, and architectural elements, defines the design’s harmony. This balance is crucial for maintaining the fairy-tale aesthetic and continuity with the original. Asymmetry would make it visually inconsistent. This is a structural detail affecting overall coherence, thus weight 2.
+    Question: Is the facade of the structure symmetrically arranged around a central vertical axis?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

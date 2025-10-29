@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-569946534581670968",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the golden-brown color present on the plush chicken wings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the plush chicken wings are uniformly bright orange rather than golden-brown which is the common color of cooked chicken wings due to browning during cooking. The plush wings appear artificially colored, suggesting this is not a realistic color for real chicken wings.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the plush chicken wings shaped like real chicken wings, including distinct drumettes and flats?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, while the plush objects vaguely resemble chicken wings, they lack the distinct segmentation between drumettes and flats. Real chicken wings have an anatomical structure that includes these two parts, which is not clearly defined in the plush version.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a small white bowl located at the bottom right corner of the plate?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a small white bowl located towards the bottom center rather than the bottom right of the plate, which is consistent with traditional serving arrangements. The placement does not qualify as being strictly at the corner.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the object inside the small white bowl bright orange in color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, an object inside the small white bowl is shown, and it is bright orange in color. This contrasts with typical sauces often seen in bowls next to chicken wings, which can vary greatly but bright orange suggests a specific style of sauce.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there approximately ten plush chicken wings on the plate?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, by counting the visible objects that resemble plush chicken wings, there are about ten pieces depicted on the plate. This estimation is based on the arrangement and visible portions of the wings.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the small white bowl positioned near the bottom right corner of the plate?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the small white bowl is positioned closer to the bottom center of the plate, not clearly the bottom right corner. The positioning of items on plates usually follows specific arrangements, and this placement is not at the corner.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.3076923076923077
+}

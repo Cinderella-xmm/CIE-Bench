@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of converting the scene into a watercolor illustration style, evaluate whether the overall artistic transformation maintains structural coherence and visual plausibility without introducing unnatural textures or distortions. The original image features a woman seated on a wooden bench in a natural setting with clear textures (wood grain, fabric folds, foliage). The editing instruction requires a stylistic shift to watercolor, which may affect texture realism. Therefore, assess if the transition preserves the integrity of key elements like clothing, skin, and background while avoiding artifacts such as smudging, over-blurring, or inconsistent brushwork.",
+      "question": "Are the edges and transitions of the woman’s clothing, hair, and facial features smooth and consistent with watercolor rendering, without jagged lines or unnatural texture breaks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of elongating the robe drapes, assess whether the modification of the garment’s shape adheres to physical logic and anatomical structure. In the original image, the woman wears a light blue cardigan with natural drape and fold patterns. Elongating the drapes could lead to unnatural stretching, floating fabric, or geometric distortion. Evaluate whether the extended fabric maintains plausible flow and weight consistency with the original material appearance.",
+      "question": "Do the elongated drape sections of the robe follow natural gravitational flow and maintain consistent fabric thickness and fold patterns without appearing stretched or floating?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of adding botanical patterning to the robe, evaluate whether the added design elements integrate seamlessly with the existing fabric texture and color scheme. The original scarf has floral motifs; extending this pattern across the robe must avoid abrupt contrasts, misalignment, or artificial repetition that breaks visual continuity.",
+      "question": "Are the botanical patterns on the robe evenly distributed, aligned with the fabric weave, and blended naturally with the surrounding colors without visible seams or repetition artifacts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of transforming text in the open book into leaf outlines, assess whether the content change is visually coherent and maintains the form of a readable book. The original book has visible pages and text; replacing text with leaf shapes must preserve the page layout and paper texture while ensuring the transformation does not cause warping, ghosting, or loss of detail in the book’s structure.",
+      "question": "Are the leaf outlines within the book pages clearly defined, proportionally scaled to the page size, and integrated without distorting the book's spine, edges, or page curvature?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of adding sunlight filtering through leaves, evaluate whether the lighting effect appears natural and spatially consistent with the original environment. The original image has soft ambient light; new sunbeams must align with tree positions and cast realistic shadows or highlights without creating glowing halos, unnatural brightness gradients, or misplaced rays.",
+      "question": "Do the added sun rays originate from a logical direction relative to the tree canopy and cast soft glows and subtle shadows that match the depth and density of the surrounding foliage?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "Based on the sub requirement of adding a muted border with literary motifs, evaluate whether the border enhances the postcard aesthetic without disrupting the central composition. The border should frame the image without overlapping key elements like the woman’s face or hands, and its design must be cohesive with the watercolor theme.",
+      "question": "Is the border positioned uniformly around the image edge, containing subtle literary symbols (e.g., books, quills), and does it not obscure or distort any part of the main subject or background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

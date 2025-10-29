@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_3597",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the contemporary shed been replaced with a vintage wooden washtub?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the central object is a large wooden washtub with a hand-cranked wringer mechanism mounted on top. The washtub is clearly constructed from wooden staves bound by metal hoops, consistent with historical designs used in the 19th century for laundry. The presence of a crank and gear system indicates it's a manual washing machine, which aligns with vintage technology. There is no indication of a 'contemporary shed' in either image—this term seems to be a misstatement or confusion, as the setting appears to be an indoor or semi-outdoor space with plants and soft lighting, not a shed. However, since the washtub itself is vintage and made of wood, and there is no modern structure visible, the question may be asking whether the scene has shifted from a modern structure (like a shed) to this vintage setup. Based on visual cues, the environment features rustic elements, but no contemporary shed is present. Therefore, the answer hinges on interpreting 'contemporary shed' as something that wasn't originally there. Given that the washtub is vintage and dominates the scene, and no modern structure exists, the replacement is implied if we assume a modern shed was previously imagined or depicted. But since the original image (Image A) shows only a sepia-toned drawing without any shed, the idea of replacing a shed is speculative. However, the focus is on whether the washtub is vintage and wooden—which it is—and whether it replaces a contemporary structure. Since no such structure exists in either image, the phrasing is misleading. Still, based on the description, the washtub is indeed vintage and wooden, so if a shed were implied in the original context, it has been replaced.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the surrounding plants and lighting unchanged from the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the surroundings include potted plants on both sides of the woman, with foliage casting dappled shadows on the wall behind her. There is also a lit lantern on the left side, contributing warm ambient light. In contrast, Image A is a monochromatic line drawing with no color, no plants, and no lighting effects—only hatching and shading to suggest depth. Therefore, the plants and lighting are entirely new additions in Image B. The original image lacks any environmental details beyond the figure and the washtub. Hence, the surrounding plants and lighting have changed significantly from Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the washtub depicted as vintage and made of wood?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the washtub is clearly shown as being constructed from vertical wooden planks held together by horizontal metal bands, typical of 19th-century wash tubs. Its design includes a hand-cranked wringer mechanism, which further supports its vintage nature. The texture and grain of the wood are visible, and the overall construction style is consistent with historical laundry equipment. This matches world knowledge about traditional washing methods before electric machines. Thus, the washtub is both vintage and made of wood.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Have any new plants been added or existing plants removed from the surroundings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Image A contains no plants at all—it is a simple line drawing focused solely on the woman and the washtub. In Image B, multiple potted plants are visible: one on the left near the lantern, another on the right, and some vines climbing the wall. These plants are clearly not present in Image A. Since there were no plants in the original, all plants in Image B are new additions. There are no existing plants to remove because none existed before. Therefore, new plants have been added.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Has the lighting remained consistent with the original image, without any noticeable changes in shadows or highlights?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image A uses uniform sepia tones with hatching to create shading, lacking any realistic light source or directional illumination. It does not depict shadows or highlights in a photorealistic way. In contrast, Image B features strong directional lighting, likely from a window or lantern, casting distinct shadows on the floor and wall. Highlights are visible on the woman’s face, clothing, and the wooden surfaces of the washtub. The lighting creates depth and realism absent in Image A. Therefore, the lighting has changed dramatically, introducing dynamic shadows and highlights not present in the original.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

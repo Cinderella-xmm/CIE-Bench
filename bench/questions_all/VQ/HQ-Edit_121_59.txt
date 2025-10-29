@@ -1,0 +1,48 @@
+```
+Step 1: Disassemble Editing Instructions
+-<Thinking Process 1>: The editing instruction requires transforming the fishing pole into a golden wand with magical ripples on the water. This involves replacing the existing fishing rod (a realistic object) with a stylized, fantastical one. The transformation affects both the material (from wood/metal to gold) and function (from fishing to magic). The change must preserve structural coherence—especially at the point where the rod connects to the reel and hand—and maintain visual plausibility in terms of shape, lighting, and reflection. Additionally, the magical ripples should not disrupt the water's surface logic or reflect incorrectly.
+-Sub requirement 1: Replace the fishing rod with a golden wand while preserving its connection to the character’s hand and reel; evaluate whether the new material (gold) appears consistent with lighting and shadows, and whether the transition between materials is seamless without artifacts.
+
+-<Thinking Process 2>: The instruction specifies enlarging the rustic texture of the fisherman’s hat and plaid shirt. This involves enhancing surface detail without distorting proportions or introducing unnatural patterns. The textures must remain coherent with the original clothing and hat materials, avoiding pixelation or over-sharpening that could break realism. The enhanced texture should not alter the fabric’s drape or the hat’s shape.
+-Sub requirement 2: Enhance the texture of the hat and plaid shirt without altering their geometry or causing visible distortions such as stretched seams, broken patterns, or inconsistent shading.
+
+-<Thinking Process 3>: The instruction calls for transforming the fishing pole into a golden wand with magical ripples. This introduces a new element (magic) that must be visually integrated into the scene. The ripples should originate from the tip of the wand and spread outward in a plausible pattern, affecting the water surface and reflections. They must not contradict physics (e.g., no sudden breaks in continuity or floating waves), and must reflect consistently in the mirror-like water.
+-Sub requirement 3: Add magical ripples emanating from the tip of the golden wand; assess whether the ripple pattern follows logical wave behavior, reflects correctly in the water, and does not introduce unnatural distortions or gaps.
+
+-<Thinking Process 4>: The instruction requires framing the image in distressed wood with embossed pine tree details. This adds a border around the image, which must align with the composition and not interfere with the central subject. The frame must appear physically plausible—its depth, texture, and shadowing should match the lighting direction in the scene. Embossed pine trees should be clearly defined but not overly exaggerated or distorted.
+-Sub requirement 4: Add a distressed wooden frame with embossed pine trees; evaluate whether the frame’s material, texture, and shadowing are consistent with the scene’s lighting and perspective, and whether the embossed details are coherent and free of artifacts.
+
+-<Thinking Process 5>: The overall style shift to "semi-cartoon" implies a balance between stylization and realism. While some exaggeration is acceptable, key elements like the fisherman’s face, hands, and clothing must retain anatomical accuracy and natural proportions. The semi-cartoon style should not result in disproportionate limbs, missing fingers, or unnatural poses. The reflection in the water must remain a faithful inversion unless altered by the magical effect.
+-Sub requirement 5: Ensure the semi-cartoon style preserves anatomical correctness, especially in hands and facial features, and maintains structural consistency in the reflection and surrounding environment.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of replacing the fishing rod with a golden wand, this question evaluates whether the material transformation from realistic fishing rod to golden wand maintains visual coherence. The golden surface must reflect light appropriately and connect seamlessly to the reel and hand. Any unnatural highlights, misaligned edges, or inconsistent color gradients would indicate artifacts.
+Question: Does the golden wand have smooth, reflective surfaces with consistent lighting and shadows that match the surrounding environment, and is it properly connected to the reel and the fisherman’s hand without gaps or distortions?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of enhancing the texture of the hat and plaid shirt, this question checks whether the increased texture detail remains within natural limits. Over-enhancement can lead to unnatural patterns, jagged edges, or color bleeding. The fabric folds and stitching should still appear plausible.
+Question: Are the textures on the hat and plaid shirt visibly enhanced but still consistent with real fabric appearance, with no pixelation, stretching, or broken patterns in the weave or seams?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of adding magical ripples from the wand, this question evaluates whether the water disturbance follows physical logic. Ripples should radiate outward in concentric circles, affect the reflection, and not float independently or break the water surface integrity.
+Question: Do the magical ripples originate from the tip of the wand and spread outward in continuous, concentric patterns that interact naturally with the water surface and reflections, without floating or disconnected wave segments?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of adding a distressed wooden frame with embossed pine trees, this question assesses whether the frame integrates naturally into the image. It must cast appropriate shadows, match the lighting direction, and have realistic wood grain and embossing depth.
+Question: Is the wooden frame positioned around the image with correct perspective, consistent texture, and shadows that align with the scene’s lighting, and do the embossed pine tree details appear three-dimensional without distortion or clipping?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of maintaining anatomical accuracy in the semi-cartoon style, this question focuses on the fisherman’s hands and face. The number of fingers should be five per hand, joints should follow ergonomic form, and facial features should not be exaggerated beyond recognition. The reflection must also mirror these features accurately.
+Question: Do the fisherman’s hands show five fingers each with natural joint positioning and skin texture, and is his facial structure preserved without distortion in both the original and reflected image?
+Choices: Yes, No  
+A: Yes
+```

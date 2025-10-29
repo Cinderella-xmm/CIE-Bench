@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0042",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the subject's arms-raised pose preserved in the chibi-style figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi-style figure is depicted with both arms raised, which reflects the pose seen in Image A where the subject has their arms spread outward. The chibi representation has simplifications, but prominently features the raised arms which is a noticeable similarity.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the multiple plates of burgers, fries, and drinks still present on the table in the same positions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the chibi-style figure has only one plate containing burgers and fries whereas Image A has multiple plates arranged on the table. The edited image has simplified the arrangement to a single plate setup, differing from the original image where multiple distinct items are visible.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the table still circular with a blue surface and metallic edge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B represents a simplified base for the chibi-style figure, not a detailed realistic table. In contrast, Image A contains a clear circular blue table with a metallic edge. The edited version does not include specific details suggestive of a table, hence does not preserve these aspects.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the red booth surrounding the subject still visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image (B) is focused on a single chibi figure and food items, which do not include background details such as the surrounding booth seen in Image A. The absence of such environmental context suggests this aspect is not preserved in the edited version.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the chibi-style figure still display a cheerful facial expression?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Facial expressions in chibi-style figures are often exaggerated and simplified for a more stylized look. Image B's figure does not clearly convey a specific facial expression due to blurring, so it cannot be assessed as maintaining a cheerful expression.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2727272727272727
+}

@@ -1,0 +1,97 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a well-maintained golf course scene featuring a large, traditional English manor-style clubhouse with red brickwork, white timber-framed sections, multiple chimneys, arched windows, and a steeply pitched red-tiled roof. The building is centrally positioned in the background, flanked by dense green trees. In front of the clubhouse, a large crowd of spectators lines the fairway, standing on grassy slopes and behind barriers. Several individuals in red shirts are visible near the putting green, likely caddies or officials. A calm body of water occupies the foreground, reflecting the clubhouse and sky with clear surface mirroring. To the right, temporary white event tents are set up, with signage including "AT&T GOLF" visible on a black tower structure. The grass is uniformly green, with sand bunkers strategically placed on the fairway. The sky is partly cloudy with soft blue tones.
+
+**Thinking process:**  
+The editing instructions specify the following transformations:  
+- Transform the **English manor-style house** into a **colorful cubist structure**, fragmenting its brickwork into vibrant geometric planes → This explicitly allows for complete structural and stylistic alteration of the building’s form, texture, and color.  
+- Render the **crowd** as **scattered, faceless abstract forms** → This permits abstraction of human figures; their identity, facial features, clothing details, and spatial arrangement can be altered.  
+- Add a **checkered pattern to the grass** → The grass texture and pattern are allowed to change.  
+- Convert the **water reflection** into **prismatic shards** → The reflective quality of the water is to be replaced with fragmented, prismatic effects.
+
+These changes target specific elements: the architectural style of the house, the representation of people, the grass texture, and the water reflection. No part of the instruction mentions preserving any of these elements in their original form. Therefore, all four are within the scope of modification.
+
+**Allowed Changes List:**  
+- The architectural form, brickwork texture, and color scheme of the English manor-style house  
+- The appearance, number, and positioning of the crowd (including individual clothing and facial features)  
+- The texture and pattern of the grass (specifically, the introduction of a checkered design)  
+- The nature of the water reflection (to become prismatic shards instead of realistic mirror-like reflection)
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+To determine what must remain unchanged, we apply exclusion based on the above allowed changes:
+
+**Core recognition elements:**  
+While the house is to be transformed into a cubist structure, its **spatial position relative to the scene** — specifically, its location in the background behind the fairway and adjacent to the trees — may still need to be preserved for scene coherence. However, since the instruction allows full transformation of the house’s form, its **architectural identity** (e.g., Tudor-style gables, chimneys, etc.) is not required to be retained. Similarly, the **crowd's presence** is implied to be abstracted, so their real-world detail is not required. But the **overall layout of the golf course** — such as the placement of sand bunkers, the fairway curvature, the proximity of the water hazard — remains essential for maintaining the scene’s logical function and identity as a golf setting. These spatial relationships define the scene’s functionality.
+
+**Functional/logical association elements:**  
+The **position of the water hazard** in the foreground, directly bordering the fairway, is critical for understanding the golf hole’s challenge. Its **presence and location** must remain consistent, even if its reflection is altered. The **relative positions of the bunkers** and the **slope of the green** are also functional elements tied to the game’s logic. Changing these would disrupt the recognizable layout of the golf course.
+
+**Non-modified element deduction:**  
+Although the grass texture is to be changed to checkered, the **overall shape and contour of the fairway** — including the undulating greens and surrounding rough — should remain intact to preserve the course’s identity. The **placement of the AT&T GOLF tower** and **event tents** in the right midground must stay in their approximate locations to maintain scene context and continuity. While the crowd is to be abstracted, the **density and general clustering pattern** along the fairway may still need to reflect a real-world spectator distribution for visual plausibility, though not necessarily literal fidelity.
+
+Thus, the **core spatial structure** of the golf course — including the fairway, bunkers, water hazard, and key landmarks like the tower and tents — must be preserved in terms of **position, shape, and relational layout**, even if textures and appearances are altered.
+
+**Preservation Targets List:**  
+- The overall layout and shape of the golf fairway, including the curved contours and elevation changes  
+- The presence and location of sand bunkers along the fairway  
+- The position and shape of the water hazard in the foreground  
+- The placement of the AT&T GOLF tower and white event tents in the right midground  
+- The relative spatial relationship between the clubhouse (even if stylized), the fairway, and the water  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The curved shape of the fairway is a core functional element of the golf course, defining the play path and terrain. It is visually distinct due to its smooth, rolling contours that guide the eye from the foreground toward the green. If this shape is distorted or removed, the scene loses its identity as a golf hole. Thus, it is a key structural feature that must be preserved.
+    Question: Is the curved contour of the fairway, leading from the foreground toward the green, preserved in its original shape?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The sand bunkers are essential hazards in golf course design. Their presence and placement are key to identifying the hole’s difficulty and layout. Even if their texture changes, their physical location and shape must remain to maintain functional consistency. Altering their position would misrepresent the course.
+    Question: Are the sand bunkers located in their original positions along the fairway, particularly near the green and on the left side?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The water hazard in the foreground is a major obstacle and a defining feature of the hole. Its presence and position relative to the fairway are critical for scene recognition. Even if its reflection is transformed, the water body itself must remain in place to preserve the spatial logic of the course.
+    Question: Is the water hazard present in the foreground, directly bordering the fairway, and reflecting the sky and structures?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The AT&T GOLF tower and the white event tents are identifiable landmarks that anchor the scene as a professional golf tournament. Their placement in the right midground provides contextual clues about the event. Moving or removing them would break the scene’s narrative coherence.
+    Question: Are the AT&T GOLF tower and the white event tents located in the right midground, adjacent to the spectator area?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The general slope and elevation of the green area, particularly the rise toward the back, are important for understanding the hole’s design. This topography influences ball movement and player strategy. Preserving this gradient ensures the course remains recognizable.
+    Question: Is the green area elevated at the back, forming a slight incline from the fairway?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The cluster of spectators along the fairway indicates a live event. While their appearance may be abstracted, their general grouping and density along the edge of the course help establish the scene’s atmosphere. Removing or dispersing them entirely would make the event feel empty or unreal.
+    Question: Is there a dense group of spectators visible along the edge of the fairway, especially near the green?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0091",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the wall clock still visible after the edit?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "In Image B, the scene has drastically changed and now depicts a castle hall interior with architectural elements such as stone walls, arches, and wooden ceiling beams. No wall clock is visible in this new setting. Thus, using world knowledge that clocks are not typical in castle halls used in such architectural styles, it can be concluded that the wall clock is not visible.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the wooden cabinet still visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Image B shows the interior of a castle hall with stone walls and a wooden door, distinct from the modern interior design setting of Image A containing a wooden cabinet. The absence of furniture typical of domestic interiors like wooden cabinets in castle hall architecture suggests that the wooden cabinet is not visible.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image show elements typical of a castle hall interior, such as stone walls or arches?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly depicts stone walls, arches, and a wooden door, which are consistent with architectural features found in traditional castle hall interiors. Combining this visual information with the common knowledge that castles typically have such elements, it confirms the presence of elements typical of a castle.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the lighting in the edited image match the lighting style from the original image, with similar shadows and highlights?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting involves sunlight casting shadows through window arches typical of castle arches. This differs from Image A, where soft shadows are cast by elements like plants and vases in a domestic setting. Considering the architectural differences and the typical sunlight seen in castle halls, the lighting styles do not match.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any remaining objects from the original scene, such as vases or plants, in the castle hall setting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Image B does not contain any decorative objects like vases or plants which were present in Image A. The interior of Image B is typical of a castle hall with architectural features and lacks domestic decorative items. Combining the absence of these items in the setting typical for castle halls with the visual cues confirms that no original objects remain.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

@@ -1,0 +1,132 @@
+**Step 1 – Analyze the editing instructions and determine allowed changes**
+
+**Description of reference image:**  
+The subject is a highly detailed, golden funerary mask resembling that of Tutankhamun, an iconic artifact from ancient Egyptian culture. The mask features a smooth, polished gold face with inlaid blue lapis lazuli eyes and eyebrows, framed by a striped nemes headdress composed of alternating gold and deep blue stripes. The headdress includes a uraeus (cobra) at the forehead, rendered in turquoise and blue stones with a central oval gemstone above it. The facial features are symmetrical, with finely sculpted ears, a straight nose, and full lips. Hieroglyphic inscriptions are embedded into the cheeks and collar area, using colored inlays of blue, red, and black on a gold background. The broad collar (wesekh) is made of horizontal bands of gold and blue, decorated with intricate hieroglyphs and symbolic patterns. The neck is adorned with a vertical, pleated blue beard-like element (false beard), typical of pharaonic regalia. The overall composition is frontal, centered, and highly stylized, set against a dark, neutral background to emphasize the luminosity of the gold and colors.
+
+**Thinking process:**  
+The editing instruction specifies a transformation into a **Steampunk-inspired hieratic sculpture**, which implies a complete stylistic overhaul while retaining the **general form and silhouette** of the original mask. Key phrases include:  
+- "Transform the image into a Steampunk-inspired hieratic sculpture" → indicates a thematic shift but not necessarily a change in fundamental structure or identity.  
+- "Replace the traditional elements with intricate brass gears and polished copper" → explicitly allows replacement of materials and textures, but **not the structural layout**.  
+- "Maintain the headdress shape" → this is a **critical constraint**: the overall silhouette of the nemes headdress must remain unchanged.  
+- "Equip the figure with mechanical wings adorned with emerald accents" → introduces new elements not present in the original; these are **permissible additions**.  
+- "Reimagine the collar with ornate clockwork designs, adding small steam exhaust pipes... subtle wisps of vapor" → replaces decorative details of the collar but retains its **position and general outline**.  
+
+Thus, **allowed changes** include:
+- Material substitution (gold → brass/copper)
+- Texture replacement (smooth metal → gears, rivets, pipes)
+- Addition of mechanical wings (new element)
+- Integration of steam vents and vapor effects
+- Replacing hieroglyphs with clockwork motifs
+- Color shifts (e.g., blue → green/brass tones)
+
+However, **elements not mentioned as changed** — especially those tied to **identity and structure** — must be retained unless implied otherwise.
+
+**Allowed Changes List:**  
+- Material of the mask (gold → brass/copper)  
+- Surface texture (smooth → gear-based)  
+- Collar design (hieroglyphic → clockwork)  
+- Addition of mechanical wings  
+- Inclusion of steam vents and vapor effects  
+- Color palette adjustment (blue → emerald/green accents)  
+- Replacement of hieroglyphs with mechanical symbols (if structurally equivalent)  
+
+---
+
+**Step 2 – Determine the elements that should remain unchanged**
+
+**Thinking process:**  
+We now apply exclusion logic based on the allowed changes list and anchor to the original image's visual content.
+
+**Core recognition elements:**  
+The mask’s identity hinges on several **iconic visual features** from ancient Egyptian art:
+- The **nemes headdress** with its **alternating gold and blue stripes** — this is a hallmark of royal pharaonic masks.
+- The **uraeus cobra** at the forehead — a sacred symbol of sovereignty and divine protection.
+- The **false beard** extending from the chin — a standard attribute of pharaohs in funerary art.
+- The **symmetrical facial structure** with **inlaid eyes** — even if materials change, the **shape and placement** must remain consistent for recognition.
+- The **overall frontal, symmetrical pose** — essential to the hieratic style.
+
+These features are **not mentioned as being replaced** in the instruction. While materials may change, the **form and position** of these elements must be preserved to maintain the subject’s identity as a pharaonic mask.
+
+**Functional/logical association elements:**  
+- The **headdress shape must be maintained** per instruction → this is a **direct requirement**, so its **silhouette, curvature, and layered structure** must persist.
+- The **false beard** is attached to the chin and extends downward — its **position and orientation** are functionally linked to the face and must remain.
+- The **collar’s width and placement** around the neck must stay, though internal design can change.
+
+**Non-modified element deduction:**  
+Even if not explicitly stated, the following **visual coherence requirements** must be retained:
+- The **placement of the uraeus** on the forehead — cannot be moved or removed without losing symbolic meaning.
+- The **eye shape and positioning** — large, almond-shaped, with defined brows — must remain in the same location.
+- The **ear shape and placement** — realistic human ears on either side — must be preserved, even if textured differently.
+- The **hieroglyphic layout** on cheeks and collar — while content may change, the **patterned distribution** and **area coverage** must be respected.
+
+Thus, **retained elements** are those whose **form, position, and functional role** are essential to identity and not explicitly permitted to change.
+
+**Preservation Targets List:**  
+- The **nemes headdress shape** (striped, wide, covering head and shoulders)  
+- The **presence and position of the uraeus cobra** at the center of the forehead  
+- The **false beard** extending from the chin  
+- The **facial symmetry** and **almond-shaped eyes** in their original positions  
+- The **ear shape and placement** on both sides of the head  
+- The **collar’s outline and position** around the neck  
+- The **frontal, symmetrical posture** of the mask  
+
+---
+
+**Step 3 – Generate yes/no questions based on key identifying visual elements**
+
+{
+    Q1: 
+    Thinking process: The nemes headdress is the most iconic feature of pharaonic masks, with its distinctive striped pattern of alternating gold and blue bands. Its shape — wide, layered, and draping over the shoulders — is a core identity marker. Even if transformed into brass and copper, the **overall silhouette and striped structure must remain** to preserve the subject’s identity. This is a 3-point element because altering its shape would make the object unrecognizable as a pharaonic mask.
+    Question: Is the nemes headdress present with its characteristic wide, striped, layered shape covering the head and shoulders?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The uraeus cobra is a sacred symbol placed centrally on the forehead of pharaonic masks. It is a **core identification feature** — its presence and position are essential for authenticity. The instruction does not mention removing it, only replacing materials, so its **location and form** must be preserved. Losing it would compromise the cultural and symbolic identity of the mask, making it a 3-point element.
+    Question: Is the uraeus cobra positioned centrally on the forehead, above the eyes?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The false beard is a defining attribute of Egyptian pharaohs in funerary art. It is a **vertical, pleated extension** from the chin, typically made of gold or stone. Although the material may be replaced with brass or copper, its **presence, position, and shape** must remain unchanged. Removing or relocating it would destroy the subject’s identity. This is a 3-point element due to its symbolic importance.
+    Question: Is there a false beard extending vertically from the chin, matching the original pleated form?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The eyes are a critical part of the mask’s expression and realism. They are **large, almond-shaped, and positioned symmetrically** under thick brows. Their **shape and placement** are non-negotiable for recognition. Even if made of glass or mechanical parts, their **original contour and position** must be preserved. This is a 2-point element because while the material can change, the **visual form** is essential for coherence.
+    Question: Are the eyes almond-shaped and positioned symmetrically beneath thick eyebrows?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The ears are anatomically accurate and placed on either side of the head. They are **small, rounded, and clearly defined** — a detail that contributes to the human likeness of the mask. Though not symbolic, they are part of the **realistic facial structure** and must remain in place for consistency. Altering their position or shape would disrupt facial symmetry. This is a 2-point element due to its role in facial integrity.
+    Question: Are the ears present on both sides of the head, with natural human ear shape?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The collar (wesekh) is a broad, layered band around the neck with a specific width and horizontal structure. While its internal design can be reimagined with clockwork, its **outline and placement** must remain. The instruction says "reimagine the collar", not "remove it", so its **physical presence and position** are required. This is a 2-point element because it defines the lower boundary of the mask.
+    Question: Is there a broad collar encircling the neck, maintaining its original width and horizontal band structure?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The frontal, symmetrical pose is essential to the hieratic style of Egyptian funerary art. The mask faces directly forward, with no tilt or turn. This **posture is foundational** to its identity. Any deviation would alter its cultural representation. This is a 3-point element because it defines the entire visual language of the artifact.
+    Question: Is the mask presented in a strictly frontal, symmetrical view with no rotation or tilt?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0115",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the battlefield scene in the background appear naturally integrated without unnatural textures or color clashes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background depicts a dramatically fiery battlefield scene, marked by flames and scattered artillery. This image composition features a potential clash between the vibrantly chaotic fire colors and the character's relatively muted tones, which could create visual disparity. Hence, integrating the background with the character becomes challenging, leading to potential unnatural textures or color clashes.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the character's pose and facial expression consistent with the original image and not distorted by the new background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The character maintains a pose of shock, with hands on either side of the face and an open mouth, consistent with the emotions portrayed in the original painting 'The Scream'. Despite the change in background to a fiery battlefield, this pose and expression remain unchanged and undistorted, emphasizing distress, which aligns with the new, intense scene.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the battlefield scene in the background avoid broken geometric shapes and retain fine details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B illustrates flames and debris, like scattered guns which should be depicted with clarity and precision to ensure detail retention. However, the presence of blurred or undefined regions and sharp contrasts can suggest broken shapes or a lack of fine detail maintenance when integrating these elements in the backdrop.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there no visible artifacts or blending issues where the new battlefield scene meets the edges of the character?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the character stands against the backdrop of chaos and flames, requiring seamless edge integration to avoid artifacts or blending issues. Depending on the precision of compositing, these edges can reveal discrepancies, such as mismatched contours or color imbalances that form visible artifacts.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the explosion in the battlefield scene coherently match the character’s expression and contribute to the overall natural appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the expression of shock and distress from the character aligns with the dramatic scene of an explosion, creating conceptual harmony. While natural appearance is maintained in terms of emotional congruence, visual integration might not be seamless due to potential discrepancies in compositing of explosion effects with character positioning.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

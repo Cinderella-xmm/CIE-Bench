@@ -1,0 +1,151 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a stylized, cartoonish medieval house rendered in a 3D isometric art style. The structure features a multi-tiered roof with bright red shingles, wooden beams forming a half-timbered framework, and stone foundations at the base. The walls are a mix of light brown wood panels and gray stone blocks. Two glowing yellow windows on the upper level emit warm light, indicating an interior source. A stone chimney protrudes from the left side of the roof. On the lower level, there are two arched doorways—one with a wooden door and one open—flanked by stone pillars. A stack of logs lies beside the right doorway, and a wooden barrel hangs from a bracket near the entrance. Small green plants grow from pots attached to the exterior walls. The entire building casts a soft shadow on a neutral beige background, suggesting directional lighting from the top-left. The overall design is whimsical yet detailed, typical of fantasy game environments.
+
+**Thinking process:**  
+The editing instructions explicitly state transformations that must be applied:
+- **Color change**: Convert to earthy tones (e.g., browns, greens, grays).
+- **Texture modification**: Add moss texture to the base; replace stone textures with wooden planks.
+- **Structural addition**: Introduce miniature fantasy characters beside the building.
+- **Game branding**: Add a parchment-style board with “Castle Quest” logo and title.
+- **Accessories**: Include rule booklets beside the set.
+
+These changes indicate that:
+- The **color palette** can be altered.
+- The **material textures** (stone → wood, base → moss) can be changed.
+- The **scene composition** can expand to include new elements like characters and game accessories.
+- The **background** may be modified or replaced to accommodate game assets.
+
+However, the instruction does **not** specify changing the **overall architectural form**, **layout**, or **core structural components** of the house. It also does not allow for removing or altering the **fundamental shape**, **window positions**, **roof configuration**, or **door placements**, as these define the original identity of the building.
+
+Thus, while surface materials and colors can be changed, the **iconic silhouette**, **spatial relationships**, and **functional layout** of the house must remain consistent.
+
+---
+
+**Allowed Changes List:**
+- Color scheme (from vibrant reds and yellows to earthy tones)
+- Stone textures → wooden planks
+- Base texture → moss-covered
+- Addition of miniature fantasy characters
+- Addition of "Castle Quest" parchment logo and title
+- Addition of rule booklets
+- Background and lighting adjustments to support game asset presentation
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+To identify what **must be preserved**, we apply exclusion based on the allowed changes:
+
+### Core Recognition Elements:
+- The **multi-gabled roof structure** with three distinct sections (central tower, left wing, right wing) is a unique architectural signature. Its tiered, overlapping red shingles form a distinctive profile. This shape is central to the building’s identity and cannot be altered without losing recognition.
+- The **position and shape of the two upper windows** (diamond-shaped, glowing yellow) are key visual markers. Their placement on the upper story defines the internal lighting and symmetry.
+- The **stone chimney** on the left side of the roof is a prominent feature that anchors the structure’s asymmetry and adds functional detail.
+- The **arched doorways** on the ground floor—especially their placement (one closed, one open)—define access points and contribute to spatial logic.
+- The **stack of logs** and **hanging barrel** are specific environmental props that add narrative context and realism. Though minor, they are identifiable details tied to the original scene.
+
+### Functional/Logical Association Elements:
+- The **spatial relationship between the roof sections** (how they connect and overlap) maintains structural coherence. Changing this would disrupt the building’s balance and make it unrecognizable.
+- The **relative positions of doors, windows, and chimney** must remain consistent to preserve the building's functional logic (e.g., where one enters, where light comes from).
+- The **shadow cast by the house** indicates lighting direction and depth perception. While lighting may shift, the **directionality and shape of the shadow** should reflect the original orientation to maintain consistency.
+
+### Non-Modified Element Deduction:
+After excluding allowed changes (colors, textures, added props), the remaining **structural forms**, **geometric shapes**, **component placements**, and **proportional relationships** must be retained. These include:
+- The **triangular gables** of each roof section
+- The **vertical alignment** of the central tower
+- The **corner supports** made of thick wooden beams
+- The **stone foundation blocks** (though material may change, their shape and position should persist)
+
+Even if materials change (stone → wood), the **form and location** of the foundation must stay intact to preserve the building’s footprint.
+
+---
+
+**Preservation Targets List:**
+- The multi-gabled roof structure with three distinct sections
+- The diamond-shaped glowing windows on the upper level
+- The stone chimney on the left side of the roof
+- The two arched doorways on the ground floor (one open, one closed)
+- The stack of logs beside the right doorway
+- The hanging wooden barrel near the right arch
+- The relative positioning of all structural components (windows, doors, chimney, roof sections)
+- The overall silhouette and volumetric shape of the house
+- The corner wooden beams supporting the roof overhangs
+- The small potted plants on the exterior walls
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The multi-gabled roof structure with three distinct sections (central tower, left wing, right wing) is the defining architectural form of the house. Its layered, overlapping shingles create a unique silhouette recognizable across different styles. If this structure is altered—such as merging the wings or flattening the roof—the building loses its core identity. Therefore, preserving the exact number and arrangement of roof sections is essential for recognition, making this a 3-point element.
+    Question: Does the edited image retain the original three-section gabled roof structure with a central tower and two side wings?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The diamond-shaped glowing windows on the upper level are critical visual cues that distinguish this house from others. Their shape, size, and position on the upper story provide both aesthetic and functional identity (light source). Altering their shape or moving them would break the visual logic of the building’s interior illumination and weaken its recognizability. Thus, their presence and placement are vital and warrant a 3-point weight.
+    Question: Are the two diamond-shaped glowing windows located on the upper level of the central tower in their original positions?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The stone chimney on the left side of the roof is a distinctive feature that contributes to the asymmetry and realism of the structure. It is positioned specifically above the left wing and connects to the roofline. Removing or relocating it would alter the building’s balance and disrupt the implied function of heating. As a non-redundant architectural element, its retention is crucial for maintaining the original design integrity, hence a 2-point weight.
+    Question: Is the stone chimney still present on the left side of the roof, extending upward from the left wing?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The stack of logs beside the right doorway is a specific environmental detail that adds narrative context (fuel storage). Its position relative to the door and the barrel provides spatial logic. While small, its absence would reduce visual coherence and remove a key identifier of the original scene. Though not central to identity, it is a notable secondary detail that supports authenticity, earning a 2-point weight.
+    Question: Is the stack of wooden logs still positioned beside the right arched doorway?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The hanging wooden barrel near the right arch is another distinct prop that reinforces the rustic, lived-in feel of the house. Its placement on a bracket and its cylindrical shape make it a recognizable feature. Removing it would diminish the richness of the scene and affect the perceived functionality of the building. While not core to structure, it is a key environmental detail, thus deserving a 2-point weight.
+    Question: Is the wooden barrel still hanging from a bracket near the right arched doorway?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The two arched doorways on the ground floor—one open, one closed—are functional entry points that define access and symmetry. Their shape and placement are integral to the building’s front-facing design. Changing their form or position would disrupt the intended spatial flow and reduce recognition. Even if materials change, their arch shape and relative locations must remain. This is a key structural element, so it earns a 3-point weight.
+    Question: Do the two arched doorways on the ground floor retain their original positions and arch shapes (one open, one closed)?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q7: 
+    Thinking process: The small potted plants on the exterior walls (one on the left, one on the right) are subtle but intentional decorative elements that add life to the scene. They are placed on brackets and contribute to the whimsical, lived-in aesthetic. While minor, their removal would slightly degrade visual completeness and coherence. As a detail-level feature, it receives a 1-point weight.
+    Question: Are the two small green potted plants still visible on the exterior walls, one on each side?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q8: 
+    Thinking process: The corner wooden beams supporting the roof overhangs are structural elements that reinforce the half-timbered design. Their diagonal placement at the corners is a signature of the building’s construction style. Altering or removing them would compromise the architectural style and visual continuity. Though not immediately obvious, they are key to the building’s frame identity, so they are worth a 2-point weight.
+    Question: Are the diagonal wooden beams still present at the corners of the roof overhangs?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

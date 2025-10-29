@@ -1,0 +1,92 @@
+Description of reference image: The subject is a black grand piano positioned centrally on a polished wooden stage in an opulent concert hall. The piano has a glossy black finish, with its lid open upward to reveal the internal strings and soundboard. Its structure includes four legs with golden casters at the base, a music stand, and three pedals visible beneath the keyboard. The keys are white and black, arranged in standard piano configuration. The piano is placed under a large crystal chandelier that hangs from an ornate ceiling featuring gilded moldings, frescoed medallions, and intricate Baroque-style designs. Behind the piano, a large pipe organ with vertical pipes and decorative woodwork spans the back wall. The auditorium features multiple tiers of red velvet seating arranged in curved rows, flanked by golden balconies with lit sconces and framed paintings on the walls. The floor is made of warm-toned hardwood planks running parallel to the stage, reflecting ambient light.
+
+Thinking process: First, analyze the editing instructions word by word:  
+- "Transform the grand piano into an oversized ornate cookie sculpture" → indicates a complete transformation of the **subject’s material and texture**, but not necessarily its **shape or structural form**.  
+- "Mimicking the original details" → implies preservation of **overall shape, proportions, and key structural elements** such as lid, legs, keyboard layout, and pedal system.  
+- "Replace the glossy black surface with a rich caramel hue, embellished with white and gold icing" → changes color and texture of the piano surface; this is allowed.  
+- "Embed sugar crystals for the keys" → replaces the actual keys with edible equivalents, but maintains their **position and arrangement**.  
+- "Position this cookie piano on a simple white marble tabletop" → **changes the scene environment** (stage → tabletop), meaning the **original background (concert hall)** is no longer required.  
+
+Thus, the **subject's form and structure** must be preserved in outline and spatial relationships, even if transformed into a cookie sculpture. However, the **scene (concert hall)** is explicitly replaced, so it is not required to remain. The **piano’s functional components** (keys, pedals, lid, legs) must retain their positions and configurations due to the instruction to “mimic the original details.”
+
+Allowed Changes List:  
+- The material and surface texture of the piano (glossy black → caramel cookie with icing)  
+- The color of the piano (black → caramel, white/gold icing)  
+- The nature of the keys (real ivory/black keys → sugar crystals)  
+- The location of the piano (wooden stage → white marble tabletop)  
+- The entire background environment (opulent concert hall → plain white marble table)  
+- Lighting and ambiance (golden theater lighting → neutral studio-like illumination)  
+
+Step 2 - Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements: The piano is the central subject. While its material changes, its **structural identity** must be preserved because the instruction specifies “mimicking the original details.” This means the **shape and proportion** of the piano—especially the lid angle, leg placement, keyboard orientation, and pedal alignment—are essential to maintaining visual coherence and identification. These are not arbitrary design choices but **iconic functional forms** of a grand piano. For example, the **open lid**, **three pedals**, and **four-legged base** are defining features of a grand piano that distinguish it from upright pianos or other instruments. Changing these would result in a non-recognizable object.
+
+Functional/logical association elements: The **keyboard layout** (white and black keys in standard pattern) must remain in correct position and spacing, even if made of sugar crystals. The **pedals** must be present and aligned under the keyboard. The **lid must be open**, as it is in the original image, since this is part of the performance-ready state implied by the setting. The **legs must support the structure**, maintaining balance and spatial logic. These are functional parts whose positions and relations define the piano’s usability and thus must be preserved.
+
+Non-modified element deduction: After excluding allowed changes (material, color, scene), what remains? The **overall silhouette**, **proportional relationships**, **spatial arrangement of components**, and **orientation** of the piano. Even though the scene is changed, the **piano’s internal structure** must match the original to fulfill the instruction to “mimic the original details.” Thus, the **relative positioning** of all parts (e.g., lid hinge point, pedal location, keyboard width) must be retained.
+
+Preservation Targets List:  
+- The open lid of the piano, angled upward  
+- The four-legged structure with golden casters at the base  
+- The presence and arrangement of three pedals beneath the keyboard  
+- The horizontal keyboard with alternating white and black keys in standard layout  
+- The overall grand piano silhouette and proportions (length, height, width)  
+- The music stand attached to the top of the piano body  
+- The position of the lid hinge connecting the top to the main body  
+
+{
+    Q1: 
+    Thinking process: The open lid is a core identity feature of a grand piano in performance context, distinguishing it from closed or upright models. Its upward angle reveals the interior and is iconic in concert settings. If lost, the object may be mistaken for a different instrument or non-functional model. Therefore, retaining the open lid is critical for recognition.
+    Question: Is the lid of the piano open and angled upward, revealing the internal structure?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The four-legged structure with casters is a functional and identifiable trait of grand pianos. It defines the instrument’s stability and mobility. Removing or altering the legs would fundamentally change the piano’s form and make it unrecognizable as a grand piano.
+    Question: Does the piano have four legs, each ending in a golden caster, supporting the body?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The three pedals are essential functional components of a grand piano, located in a specific row beneath the keyboard. Their presence and alignment are key identifiers. Omitting them or changing their number would break the instrument’s authenticity.
+    Question: Are there exactly three pedals positioned in a row beneath the keyboard?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The keyboard must maintain the standard layout of alternating white and black keys, regardless of material. The sequence and spacing define the piano’s function and identity. Even if made of sugar crystals, the visual pattern must match the original.
+    Question: Are the keys arranged in the standard piano pattern of alternating white and black keys across the full length of the keyboard?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The music stand is a fixed accessory attached to the top of the piano body, used to hold sheet music. Its presence is consistent with grand piano design and contributes to the instrument’s completeness. Removing it would suggest a missing component.
+    Question: Is there a music stand attached to the top front edge of the piano body?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The hinge connecting the lid to the piano body is a structural detail that enables the lid to open. Its position is fixed and essential for the lid to function properly. Altering its location or removing it would compromise the mechanical logic of the piano.
+    Question: Is the lid connected to the piano body via a visible hinge mechanism near the rear edge of the keyboard?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The overall silhouette and proportions of the piano—its elongated rectangular body, curved sides, and balanced height—are defining characteristics of a grand piano. Distorting these would make it resemble a different instrument or abstract sculpture.
+    Question: Does the piano maintain the same elongated, curved-body silhouette and proportional dimensions as in the original image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

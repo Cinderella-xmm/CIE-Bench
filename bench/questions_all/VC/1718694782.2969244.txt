@@ -1,0 +1,131 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a cartoon-style male character mid-leap, captured in dynamic motion as he jumps off a rocky cliff. He has reddish-brown hair styled in a slightly messy but defined way, with visible strands swept back by motion. His facial expression is joyful and wide-eyed, mouth open in an exuberant smile, showing teeth. He wears a maroon zip-up hoodie with visible drawstrings and a hood resting on his shoulders, paired with light beige or khaki-colored pants that are slightly wrinkled at the knees due to movement. His footwear consists of dark brown hiking boots with thick soles and laces tied tightly. The character’s posture shows one leg extended forward and the other bent behind, arms positioned in a running gesture—left arm bent forward, right arm back—with fingers curled into loose fists. He is airborne, with no contact to the ground, suggesting momentum from a jump.
+
+The background features a mountainous landscape under a soft sky transitioning from pale blue to warm golden hues near the horizon, indicating either sunrise or sunset. The distant mountains have sharp peaks, some partially veiled in mist, and the foreground includes a rugged rock formation covered with patches of yellow wildflowers. The lighting casts soft shadows beneath the character, enhancing depth and volume. The overall atmosphere is serene yet energetic, emphasizing freedom and adventure.
+
+---
+
+**Thinking process:**  
+First, analyze the editing instructions word by word:  
+- "Create a two-panel comic strip titled 'Leap of Adventure.'" → This indicates the format will change from a single image to a multi-panel comic. However, **the original image content must still be used as a basis**, especially the character and key moment of leaping.  
+- "Panel 1 should show the character preparing to jump off a mountain cliff..." → The **character's pose changes**: from mid-air leap to pre-jump stance. So the **current jumping posture is not preserved** in Panel 1.  
+- "...with emphasized motion lines and an internal monologue bubble: 'The jump of a lifetime awaits!'" → Adds new visual elements (motion lines, speech bubble), which are not present in the original. These are allowed modifications.  
+- "Add vibrant gradient colors to enhance the sunset backdrop." → The **sky coloration may be intensified**, but the **basic structure of the mountain range and sky remains**. Background can be modified for effect, but core environmental layout (e.g., mountain shape) is implied to remain.  
+- "Panel 2 should depict a parachute deploying..." → This introduces a **new object (parachute)** and **a different action phase** (after jump), meaning the **original mid-leap state is replaced** in this panel.  
+- "Include animated clouds to boost visual excitement." → Clouds may be stylized or moving, but their presence is already in the original; they are being enhanced, not removed.
+
+From this, we determine:
+
+**Allowed Changes List:**  
+- Character’s **posture** (from mid-leap to pre-jump in Panel 1, then to descending with parachute in Panel 2)  
+- Addition of **motion lines**, **speech bubbles**, **animated cloud effects**  
+- **Sky gradient enhancement** (color intensity and vibrancy)  
+- **Introduction of parachute** in Panel 2  
+- **Format transformation** into a two-panel comic layout  
+
+Thus, **only the character design, clothing, and environment layout** are **not explicitly changed** in the instruction — though the character’s action and context evolve across panels.
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now exclude the allowed changes to identify what **must be preserved** based on identity and coherence:
+
+1. **Core recognition elements:**  
+   - The character is clearly identifiable by specific features: **reddish-brown hair**, **maroon hoodie with drawstrings**, **beige pants**, **hiking boots**, and **distinct facial features** (wide eyes, big smile, prominent nose). These define the character’s identity. Even if the pose changes, these traits must remain consistent to preserve recognition.
+   - The **mountainous terrain** and **rocky cliff edge** are central to the scene. Though enhanced, their **shape and relative positioning** (especially the sharp peak in the distance and the flower-covered cliff) must remain intact to maintain spatial logic and continuity.
+
+2. **Functional/logical association elements:**  
+   - The **character’s clothing** (hoodie, pants, boots) serves both identity and functional roles (outdoor gear). If altered, it could misrepresent the character’s role or setting.
+   - The **cliff edge** is where the action begins. Its **position and texture** (rocky surface with yellow flowers) anchor the narrative. Changing it would break the logical flow of “jumping off a cliff.”
+
+3. **Non-modified element deduction:**  
+   - The **hair color and style**, **clothing colors**, **boot design**, **facial expression type** (joyful), and **background mountain silhouettes** are not mentioned for modification. Therefore, they must be retained.
+   - While the **sky color** can be intensified, the **presence of clouds and their general distribution** must stay to maintain realism and continuity.
+   - The **yellow wildflowers** on the cliff edge are a minor but distinctive detail — they add visual richness and help locate the scene. They are not mentioned for removal, so they should persist.
+
+Thus, even though the **pose and action sequence change**, the **core identity of the character and the essential environmental landmarks** must be preserved.
+
+---
+
+**Preservation Targets List:**  
+- Reddish-brown hair with defined curls and direction  
+- Maroon zip-up hoodie with visible drawstrings and hood  
+- Beige/khaki pants with slight creasing at knees  
+- Dark brown hiking boots with thick soles and tied laces  
+- Joyful facial expression with wide eyes and open mouth showing teeth  
+- Mountain silhouette with sharp peak in background  
+- Rocky cliff edge with patches of yellow wildflowers  
+- Presence of clouds in sky (though color/vibrancy may increase)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The character’s reddish-brown hair is a core identity feature. Its color and styling (slightly tousled, swept back) distinguish him from other characters. If changed in hue or form, the character becomes unrecognizable. This is a key visual identifier, hence weighted 3 points.
+    Question: Is the character's hair reddish-brown in color and styled with visible curls and a swept-back motion?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The maroon hoodie with drawstrings is a defining article of clothing. It contributes to both character identity and contextual setting (outdoor attire). Removing or changing its color or structure would alter the character’s appearance significantly. This is a high-impact accessory, thus weighted 3 points.
+    Question: Does the character wear a maroon zip-up hoodie with visible drawstrings and a hood resting on the shoulders?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The beige pants are part of the character’s consistent outfit. Their color and slight creasing at the knees are noticeable details that contribute to realism and identity. Changing them would disrupt visual continuity. While not as iconic as the hoodie, they are important enough to retain for coherence, hence weighted 2 points.
+    Question: Are the character's pants light beige or khaki in color with visible creases at the knee area?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The hiking boots are functional and stylistic elements. Their dark brown color, thick soles, and tied laces are specific details that ground the character in a realistic outdoor context. Altering them would affect believability and identity. This is a key accessory, thus weighted 2 points.
+    Question: Do the character's shoes have dark brown color, thick soles, and tied laces?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The facial expression—specifically the wide eyes, open mouth showing teeth, and joyful demeanor—is crucial to conveying emotion and character personality. This expression defines the moment of exhilaration. Losing it would change the emotional tone entirely. It is a core expressive feature, hence weighted 3 points.
+    Question: Does the character have a wide-eyed, smiling facial expression with visible teeth and raised eyebrows?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q6: 
+    Thinking process: The distant mountain with a sharp peak is a key environmental landmark. Its shape and position establish the setting. Even if the sky is enhanced, the mountain silhouette must remain to preserve spatial context. This is a critical background element, thus weighted 2 points.
+    Question: Is there a prominent sharp-peaked mountain visible in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The rocky cliff edge with yellow wildflowers is a unique environmental detail. It adds specificity to the location and enhances visual storytelling. While small, it is a distinctive feature that should not be omitted. This is a secondary but recognizable detail, hence weighted 1 point.
+    Question: Is the cliff edge covered with patches of yellow wildflowers?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q8: 
+    Thinking process: The presence of clouds in the sky is part of the atmospheric composition. Although their color and animation may be enhanced, their existence is essential for maintaining the original sky’s mood. Removing them would fundamentally alter the scene. This is a key environmental component, thus weighted 2 points.
+    Question: Are there clouds visible in the sky above the mountains?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

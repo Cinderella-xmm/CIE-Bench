@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0085",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the painting visibly extend beyond its frame to create a 3D effect?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on the visual cues in Image B, the painting within the frame remains contained and does not appear to extend beyond its frame into the room environment. The painting maintains a flat appearance within the boundaries of its frame. Without needing to compare Image A for this analysis, the straightforward observation in Image B reflects that the painting is traditionally framed and doesn't create a 3D effect.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the elements from the painting visually merge into the room environment, such as appearing on the wall or floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the painting is clearly confined to the frame with no elements such as trees, water, or sunlight extending onto the wall or floor of the room, which would indicate an artistic merging or blending with the room environment. The painting maintains its presence solely within the frame and does not interact with the surrounding environment in this manner.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the transitions between the painting and the room environment smooth without any abrupt edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The painting in Image B remains within its frame, with the edges of the frame clearly separating the painting from the rest of the room. This creates a distinct and abrupt transition between the painting and the environment, with no elements blending or flowing between the two. Therefore, the transition is not smooth but clearly defined.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the original elements of the painting, such as trees, water, and the sun, still identifiable in the edited version?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the painting retains its original elements, such as the trees on both sides, the body of water in the center, and the sun setting in the background. These elements are fully identifiable, maintaining their clarity and details without any loss or alteration in the edited version.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Do the lighting and shadows in the extended portions of the painting match those in the actual room environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Since there are no parts of the painting that extend into the room environment in Image B, the question of matching lighting and shadows does not apply. The painting is fully contained within its frame, thus no comparison of lighting and shadows across different environments is possible.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.2
+}

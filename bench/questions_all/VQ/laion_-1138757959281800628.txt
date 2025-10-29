@@ -1,0 +1,57 @@
+```
+Step 1: Disassemble Editing Instructions
+-<Thinking Process 1>: The instruction requires converting the hotel and pool scene into a miniature 3D diorama inside a glass terrarium. This involves changing the scale, perspective, and surrounding environment of the entire scene. The original image features a large modern hotel with a swimming pool, sunbathers, trees, and sky. Transforming this into a diorama implies altering depth perception, adding enclosure boundaries (like glass walls), and adjusting lighting to simulate a contained space. This transformation affects overall realism and natural appearance due to scale change and artificial framing. Attention must be paid to whether the transition from real-world scale to miniature maintains structural coherence and avoids distortions such as warped geometry or inconsistent proportions.
+-Sub requirement 1: Convert the entire scene into a miniature diorama within a glass terrarium—evaluate whether the scale reduction preserves geometric integrity, proportionality, and visual credibility without introducing unnatural shrinkage or distortion of architectural elements like the hotel building or pool edges.
+
+-<Thinking Process 2>: Layered water effects in the pool are required. In the original image, the pool is a single-layered blue surface with visible swimmers and floating objects. Adding layered water effects means simulating multiple transparent planes or depth layers beneath the surface, possibly with refraction or reflection artifacts. This can affect the perceived authenticity if not rendered consistently with light behavior and physical properties of water.
+-Sub requirement 2: Add layered water effects to the pool—assess whether the water layers appear physically plausible, maintain consistent transparency and refraction, and do not introduce unnatural textures or discontinuities that break the illusion of liquid depth.
+
+-<Thinking Process 3>: Miniaturize the sunbathers and trees alongside the building. In the original image, people are full-sized relative to the hotel and pool. Reducing their size must preserve anatomical correctness and proportional relationships. Trees near the building must also be scaled down while retaining leaf structure and branching patterns. If scaling is uneven or details are lost, it may lead to unnatural textures or disproportionate figures.
+-Sub requirement 3: Miniaturize human figures and nearby trees—check whether the reduced-scale individuals retain proper limb proportions, facial features, and clothing details, and whether trees show consistent foliage density and branch structure at smaller scale without pixelation or blurring.
+
+-<Thinking Process 4>: Fabricate cascading greenery from the rooftop. The original hotel has a flat roof with no vegetation. Introducing plant growth from the top requires adding realistic foliage that flows downward along the building’s sides. This involves new textures, shadows, and spatial continuity. Poor integration could result in abrupt transitions, unnatural lighting, or lack of root/soil connection.
+-Sub requirement 4: Add cascading greenery from the rooftop—evaluate whether the plants emerge naturally from the roof edge, follow gravity-consistent flow, have appropriate shadowing and lighting, and integrate seamlessly with the building’s surface without floating or clipping artifacts.
+
+-<Thinking Process 5>: Add small, whimsical beach accessories near the edge of the pool. These include items like tiny umbrellas, toys, or floats. Their placement should be logical and not obstructive. They must be sized appropriately for the miniature context and not appear disproportionately large or misplaced.
+-Sub requirement 5: Place whimsical beach accessories near the pool edge—verify that these objects are correctly scaled, positioned realistically (e.g., on loungers or sand), and do not overlap improperly with existing elements or appear unnaturally sharp or out of place.
+
+-<Thinking Process 6>: Position floating 3D clouds above the scene for depth and scenic embellishment. Original clouds are part of the sky background. Floating 3D clouds imply volumetric rendering with soft edges and depth cues. They must not obscure key elements or conflict with the lighting direction.
+-Sub requirement 6: Add floating 3D clouds above the scene—determine whether the clouds have volumetric shading, cast subtle shadows, align with ambient lighting, and float at plausible altitudes without intersecting the building or appearing flat.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of converting the entire scene into a miniature diorama inside a glass terrarium, evaluate whether the structural elements such as the hotel building and pool maintain correct proportions and geometric alignment after scaling. The glass enclosure must be visible and logically placed around the scene without distorting the architecture or causing misalignment of edges.
+Question: Are the corners and edges of the hotel building preserved with consistent angles and proportions, and is there a clear transparent boundary (glass) enclosing the scene without warping or breaking the structure?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of adding layered water effects to the pool, assess whether the water appears to have multiple transparent depth layers with coherent refraction and reflection patterns. The presence of swimmers and floating objects should remain visible through the layers without unnatural distortion or color banding.
+Question: Do the water layers in the pool show consistent transparency and refraction, allowing visibility of submerged objects and swimmers without jagged edges or color artifacts?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of miniaturizing sunbathers and trees, check whether the reduced-scale human figures retain anatomical accuracy (e.g., number of fingers, limb proportions) and whether the trees have intact leaf textures and branch structures. Scaling should not cause blurring or loss of fine detail.
+Question: Do the sunbathers on the lounge chairs have correctly proportioned limbs and recognizable clothing details, and do the nearby trees display natural leaf density and branching without pixelation or texture repetition?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of fabricating cascading greenery from the rooftop, verify whether the plants grow downward from the roofline in a gravity-consistent manner, with appropriate shadows and integration into the building's surface. There should be no floating segments or sudden breaks in the foliage.
+Question: Does the greenery flowing from the rooftop follow a continuous, downward trajectory with realistic shadowing and attachment points, and does it blend naturally with the building’s exterior without floating or clipping issues?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of placing whimsical beach accessories near the pool edge, determine whether these objects are properly scaled relative to the loungers and people, and whether they are positioned on surfaces (e.g., sand, deck) without overlapping or appearing suspended in mid-air.
+Question: Are the beach accessories near the pool edge correctly sized and placed on solid ground, avoiding overlap with people or furniture, and do they have natural material textures (e.g., fabric, plastic)?
+Choices: Yes, No  
+A: Yes
+
+Q6: 
+Thinking process: Based on the sub requirement of positioning floating 3D clouds above the scene, assess whether the clouds have soft edges, volumetric shading, and consistent lighting that matches the direction of sunlight. They should not intersect with the building or appear flat against the sky.
+Question: Do the floating 3D clouds exhibit soft gradients and subtle shadows, hover above the building without intersecting its structure, and maintain consistent lighting with the rest of the scene?
+Choices: Yes, No  
+A: Yes
+```

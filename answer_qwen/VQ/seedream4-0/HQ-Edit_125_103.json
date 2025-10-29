@@ -1,0 +1,84 @@
+{
+  "filename": "HQ-Edit_125_103",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the transformed teapot maintain a uniform cylindrical shape with smooth, continuous surfaces and no visible geometric distortions or irregularities?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no teapot present. Instead, the image features a golden cylindrical tea canister with floral patterns and a stack of cups. The question refers to a 'transformed teapot,' but the object in question is not a teapot at all—it is a tea storage container. Therefore, the premise of the question is invalid because the teapot from Image A has been replaced entirely by a different object. Based on visual analysis, the canister is cylindrical and appears to have smooth, continuous surfaces without geometric distortions. However, since the object is not a teapot, it cannot be said to maintain the shape of a teapot. Thus, the answer must reflect that the teapot does not exist in this image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the golden foil floral patterns clearly embossed with consistent depth, proper lighting interaction, and no signs of blurred edges or artificial textures?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The golden foil surface of the cylindrical tea canister in Image B displays floral patterns featuring peonies, leaves, and berries. These designs appear raised, suggesting embossing. The lighting casts soft shadows beneath the raised elements, indicating depth and proper interaction with light. The edges of the floral motifs are sharp and well-defined, without blurring or pixelation. There is no visible repetition or unnatural texture that would suggest digital artifacts. The metallic sheen of the gold foil is consistent, and the floral details are rendered with fine precision. Given these observations and knowledge of high-quality traditional Japanese lacquerware or metalwork, where such patterns are often meticulously hand-applied or embossed, the visual cues support the conclusion that the patterns are realistically embossed and well-rendered.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the redesigned cups stacked in a stable, physically plausible manner with matching rim sizes and lids that fit securely without gaps or misalignment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, three cups are stacked vertically. The topmost cup is inverted, with its lid placed upside down on top of it, forming a small tower. The rims of the cups appear to be slightly mismatched—each cup has a different diameter, and the stacking does not follow a typical nested design. The lid rests on the upper cup, but it does not appear to be flush or properly aligned; there is a visible gap between the lid and the cup beneath it. Additionally, the base cup sits directly on the surface, and the middle cup seems to rest precariously on it. This configuration is unstable and not physically plausible for long-term stacking. In real-world ceramics, such stacking would require precise sizing and balance, which is not observed here. Therefore, based on visual analysis and physical reasoning about object stability and alignment, the stacking is flawed.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the Japanese calligraphy positioned at the top of the packaging with natural brushstroke variation and clear legibility, without clipping or distortion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The top of the golden cylindrical canister in Image B features two large kanji characters: '茶' (cha, meaning tea), written in black ink. The calligraphy is centered and clearly legible. The strokes exhibit variation in thickness and curvature, consistent with traditional brushwork, suggesting natural brushstroke dynamics rather than mechanical replication. There is no clipping or truncation of the characters, and they are fully contained within the circular lid area. The smaller vertical text beside the main characters also appears legible and proportionally correct. No distortion or warping is evident. Given that this style of calligraphy is commonly used on premium tea packaging in Japan, the visual presentation aligns with authentic aesthetic standards. Therefore, the calligraphy is correctly placed, legible, and stylistically appropriate.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the bamboo motif along the side have consistent node spacing, natural grain texture, and smooth edges without repeating or distorted segments?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "On the right side of the golden canister, a vertical bamboo stalk is depicted. The nodes are evenly spaced, and each segment between nodes is consistent in length, which is characteristic of realistic bamboo representation. The texture of the bamboo includes subtle shading and line work that mimics natural grain patterns. The edges of the bamboo are clean and smooth, without jaggedness or repetition that might indicate digital cloning. There is no visible distortion or pattern repetition across the length of the stalk. While stylized, the depiction adheres closely to traditional Japanese artistic conventions for bamboo, where symmetry and natural proportion are emphasized. Based on visual inspection and cultural artistry norms, the bamboo motif is rendered convincingly.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the surface beneath the tea set completely flat, uniformly white, and free from any unintended shadows, textures, or reflections?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The surface beneath the tea set in Image B is predominantly white and appears flat. However, there are subtle shadows cast by the objects—particularly under the canister and the stacked cups—indicating a light source from above. These shadows are soft and natural, not harsh or artificial, and are expected in product photography. There are no visible textures or patterns on the surface itself, and no reflections that would suggest a glossy or uneven material. The background is clean and uncluttered, maintaining a studio-like quality. While the surface is not perfectly shadowless, the presence of soft shadows is acceptable and realistic. The term 'completely flat' is satisfied, and 'uniformly white' holds true except for the slight gradient caused by lighting. Since shadows are part of normal rendering and do not constitute 'unintended' artifacts, the surface meets the criteria for a professional presentation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

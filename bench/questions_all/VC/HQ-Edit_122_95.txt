@@ -1,0 +1,130 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject consists of two identical women standing side by side in front of the Taj Mahal, framed within a red stone archway. Both women wear richly embroidered red sarees with golden floral patterns and sheer golden borders. Their sarees are draped traditionally, with one shoulder bare and the pallu (draped end) held over the arm. They have long, wavy dark hair, adorned with gold jewelry including maang tikka (forehead ornament), earrings, and bangles. Their facial features are symmetrical, with defined eyebrows, soft makeup, and neutral expressions. The background features the iconic white marble dome and minarets of the Taj Mahal, centered along a symmetrical water channel flanked by manicured hedges and pathways. The lighting is warm, suggesting early morning or late afternoon sun, casting soft shadows and enhancing the golden tones of the attire and architecture.
+
+Thinking process:  
+The editing instruction explicitly transforms multiple elements:  
+- "Transform the image into a Byzantine mosaic on a golden backdrop" → full stylistic transformation; background and medium changed.  
+- "Her saree reimagined with intricate patterns of peacocks and vines in vibrant tesserae" → the saree’s design is to be replaced, though it remains a saree-like garment.  
+- "The Taj Mahal morphs into a domed basilica with arches leading to mythological scenes" → architectural form is altered, but a domed structure remains.  
+- "Convert the pose to a graceful ecclesiastical stance typical of solemn Byzantine figures" → posture and gesture are modified.  
+- "Integrating floral motifs into the scene" → new decorative elements added.  
+
+Thus, the following elements are **allowed to change**:  
+- Artistic style (from photorealistic to mosaic)  
+- Saree pattern (floral → peacock/vine tesserae)  
+- Background architecture (Taj Mahal → domed basilica)  
+- Subject posture (standing symmetrically → ecclesiastical stance)  
+- Overall color palette and texture (realistic fabric → mosaic tesserae)  
+- Scene composition (symmetrical garden → mythological archways)  
+
+Allowed Changes List:  
+- Artistic medium (photorealism → mosaic)  
+- Saree embroidery pattern (golden floral → peacock and vine motifs)  
+- Architecture of the Taj Mahal (white marble mausoleum → domed basilica with mythological arches)  
+- Posture of subjects (side-by-side standing → ecclesiastical pose)  
+- Background environment (garden with water channel → golden mosaic with arches)  
+- Texture and material representation (fabric → tesserae)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+We now exclude all allowed changes and identify what must remain unchanged based on core identity and logical coherence.
+
+**Core recognition elements:**  
+- The **presence of two identical women** is critical. Even if their pose changes, the dual nature of the subjects is central to the original image’s symmetry and visual narrative. Changing this would fundamentally alter the image's identity.  
+- The **red and gold color scheme of the saree** is not fully specified as changeable—only the *pattern* is to be transformed. Since the instruction says “reimagined with intricate patterns,” the base color and fabric type may still need to reflect the original’s richness. However, since the instruction allows pattern change, the **color** (red/gold) is not strictly protected unless tied to identity. But given that the original’s identity relies on the opulence of red and gold, and no alternative colors are specified, we assume these hues should persist.  
+- The **Taj Mahal’s position and function as a central architectural landmark** must remain logically consistent—even if transformed, it must retain its role as a domed, monumental structure at the end of the pathway. Its **iconic dome shape** is essential for recognition, even if stylized.  
+- The **archway framing the scene** is a key compositional element. Though the background changes, the archway likely remains a structural frame, so its **position and arched shape** should be preserved to maintain spatial logic.  
+
+**Functional/logical association elements:**  
+- The **spatial relationship between the subjects and the Taj Mahal**—they are positioned in front of it, aligned with the central axis of the garden. This alignment must be preserved even if the architecture changes, to maintain scene logic.  
+- The **water channel leading to the monument** is part of the original layout. Although it may become symbolic in the mosaic version, its linear path from foreground to background should remain to preserve depth and symmetry.  
+
+**Non-modified element deduction:**  
+After excluding allowed changes:  
+- The **identity of the subjects as women with dark hair and traditional Indian attire** must remain. Though pose and style change, they cannot become male or non-human.  
+- The **overall symmetry of the composition**—two figures mirroring each other—is implied in the original and should persist even in the ecclesiastical pose, to preserve balance.  
+- The **gold jewelry (maang tikka, earrings)** are visible and distinctive; although the instruction doesn’t mention them, they are part of the cultural identity and should remain recognizable unless replaced.  
+
+Preservation Targets List:  
+- Presence of two female figures  
+- Symmetrical positioning of the two figures  
+- Central domed structure at the end of the pathway (Taj Mahal’s functional role)  
+- Arched entryway framing the scene  
+- Linear water channel leading toward the central structure  
+- Red and gold color palette of the sarees (as core visual identity)  
+- Gold jewelry (maang tikka and earrings)  
+- Dark hair and facial features of the subjects  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The presence of two identical women is the defining feature of the image. Removing or altering their number or gender would destroy the core identity of the scene. The instruction does not state merging or replacing them, only changing their pose and style. Thus, the existence of two distinct female figures is a core identity element. Losing one would make the image unrecognizable as a faithful adaptation.
+    Question: Are there two female figures present in the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The symmetrical arrangement of the two figures is essential to the original composition. The instruction mentions transforming the pose but not breaking symmetry. Ecclesiastical poses in Byzantine art often maintain balance, so symmetry is likely preserved. Breaking this would disrupt the visual harmony and identity of the scene.
+    Question: Are the two figures positioned symmetrically relative to the central axis of the image?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The Taj Mahal’s dome is an iconic identifier. Even if transformed into a basilica, the presence of a large central dome is required to maintain the reference to the original site. The instruction specifies “domed basilica,” confirming the dome’s retention. Losing this would remove the architectural anchor of the scene.
+    Question: Is there a large central dome visible at the end of the pathway?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The arched entryway frames the entire scene and provides depth. It is a key structural element. The instruction does not mention removing it, and the mosaic transformation likely retains it as a border. Its absence would break the compositional framing.
+    Question: Is there an arched stone entrance framing the view of the central structure?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The water channel is a defining feature of the Taj Mahal’s garden layout. Even if stylized, its linear path from foreground to background maintains spatial logic. The instruction implies a transformed but continuous path, so its presence and direction should be preserved.
+    Question: Is there a straight water channel running from the foreground to the central structure?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The red and gold color scheme of the sarees is central to their visual identity. While the pattern changes, the base colors are not mentioned as altered. In mosaic art, these colors would likely be preserved in tesserae form. Changing them would misrepresent the original cultural attire.
+    Question: Do the sarees retain a dominant red and gold color scheme?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The maang tikka and earrings are distinctive cultural accessories. The instruction does not mention removing them, and in Byzantine-style transformations, such ornaments might be stylized but retained. Their absence would reduce cultural authenticity and visual coherence.
+    Question: Are gold jewelry pieces, including a forehead ornament (maang tikka) and earrings, visible on both figures?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q8: 
+    Thinking process: The dark hair of the figures is a consistent trait. The instruction allows hairstyle changes but not replacement with light or synthetic hair. Preserving dark hair maintains character consistency.
+    Question: Do both figures have long, dark hair?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

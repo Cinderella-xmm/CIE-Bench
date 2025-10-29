@@ -1,0 +1,85 @@
+Description of reference image: The subject is a richly detailed Victorian-style study featuring an ornate wooden desk with intricate carvings, positioned centrally in front of two large multi-paned windows framed by dark gray drapes. Behind the desk is a highly decorative wooden panel with elaborate floral and scrollwork carvings, forming part of a larger wall unit that includes built-in shelves filled with aged books. On the desk sits a modern computer monitor displaying a white world map on a black background, flanked by stacks of old leather-bound books, a brass desk lamp with an adjustable arm, writing utensils in holders, and various small decorative objects including a globe model and inkwells. To the left, a tufted leather armchair is partially visible. The floor features a patterned Persian-style rug over polished hardwood flooring. Sunlight filters through the windows, creating soft highlights and shadows across the room. The overall atmosphere blends classical elegance with subtle modern elements.
+
+Thinking process: First, analyze the instructions that clearly state what can be changed: "Transform the desk into an elaborate control panel with brass gears and levers" — this means the form and function of the desk are allowed to change; "Modify the books into mysterious glowing tomes with mechanical bookmarks" — the appearance and properties of the books may be altered; "Adjust the globe on the screen to appear as a holographic 3D model" — the content displayed on the monitor is permitted to change; "Integrate elaborate, ornate frames around the windows" — window framing can be modified. These changes allow transformation of specific functional and aesthetic components. However, no instruction mentions changing the position of the desk relative to the windows or the presence of the central carved panel behind it, nor does it suggest removing the rug, chair, or basic layout. Therefore, only explicitly mentioned elements are within the scope of modification.
+
+Allowed Changes List:
+- Desk structure and surface (transformed into a control panel with gears and levers)
+- Books (changed into glowing tomes with mechanical bookmarks)
+- Monitor display content (globe → holographic 3D model)
+- Window frames (enhanced with steampunk-style ornate patterns)
+
+Step 2 – Determine the elements that should remain unchanged
+
+Thinking process:  
+Core recognition elements: The original image’s identity hinges on its architectural and decorative style—specifically, the Victorian-era aesthetic defined by deep wood tones, hand-carved details, symmetrical design, and classical furniture forms. While the desk and books are being transformed, the **central carved wooden panel** behind the desk is not mentioned for modification—it serves as a defining backdrop element, anchoring the room’s visual identity. Its intricate floral and scrollwork carving pattern is unique and iconic to the setting. Similarly, the **position and structure of the two large multi-paned windows**, along with their **dark gray drapes tied back at the sides**, define the lighting and spatial rhythm of the scene. Changing these would fundamentally alter the composition and context.
+
+Functional/logical association elements: The **relative positioning of the desk between the two windows** must be preserved because it maintains spatial logic—this alignment supports the room’s symmetry and balance. Removing or shifting the desk would disrupt the intended formal arrangement. Also, the **presence of the Persian-style rug under the desk** contributes to the room's historical authenticity and grounding; its placement and pattern help establish continuity between the floor and furniture. Although minor, its retention ensures environmental coherence.
+
+Non-modified element deduction: Elements not listed in the allowed changes list—such as the **tufted leather armchair on the left**, the **wooden radiator beneath the window**, the **texture and color of the walls**, and the **overall lighting direction from outside**—must be retained unless implied otherwise. These contribute to the realism and depth of the scene. Even though the monitor content changes, the **physical form of the monitor** (silver base, flat screen) remains relevant as a contrast to the vintage surroundings. It is not replaced entirely but reimagined visually—so its physical presence must persist.
+
+Preservation Targets List:
+- Central carved wooden panel behind the desk
+- Position and structure of the two large multi-paned windows
+- Dark gray drapes tied back at both windows
+- Tufted leather armchair on the left side of the frame
+- Persian-style rug under the desk
+- Physical form of the computer monitor (including silver stand and screen shape)
+- Wooden radiator beneath the left window
+- Overall lighting direction from outside (sunlight entering from windows)
+
+{
+    Q1: 
+    Thinking process: The central carved wooden panel behind the desk is a core identity feature of the room’s Victorian aesthetic. Its detailed floral and scrollwork carving pattern is distinctive and defines the architectural character of the space. If this panel were removed or simplified, the room would lose its defining ornamental identity. This element is critical for recognizing the original setting and maintaining stylistic consistency.
+    Question: Is the central carved wooden panel with floral and scrollwork detailing behind the desk present and unaltered?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The two large multi-paned windows are essential structural and compositional anchors in the image. Their symmetric placement and grid-like panes contribute significantly to the sense of depth and light. Altering their number, size, or configuration would disrupt the balance of the scene and break the spatial logic established in the original. Thus, they must be preserved in position and form.
+    Question: Are the two large multi-paned windows positioned symmetrically on either side of the desk, with intact glass panes?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The dark gray drapes tied back at each window are key to the room’s atmosphere and visual rhythm. They frame the windows and create a sense of elegance and formality. Changing their color, texture, or position would affect the lighting dynamics and aesthetic tone. Since they are not mentioned for modification, they must remain consistent.
+    Question: Are the dark gray drapes tied back at both windows, maintaining their original folds and position?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The tufted leather armchair on the left side of the image provides contextual grounding and enhances the room’s lived-in feel. Its presence contributes to the narrative of a personal study. As it is not mentioned for modification, its inclusion and position must be preserved to maintain environmental coherence.
+    Question: Is the tufted leather armchair visible on the left side of the frame, partially in view?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The Persian-style rug under the desk is a secondary but important detail that ties the furniture to the floor and adds texture to the scene. Its pattern and placement help define the space’s richness. While not central, its absence would reduce visual cohesion and make the scene feel incomplete.
+    Question: Is the patterned Persian-style rug placed under the desk, extending toward the foreground?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The physical form of the computer monitor—its silver stand and flat screen—is a modern contrast within the vintage setting. Although its display content changes, the object itself is not replaced. Retaining its shape and position ensures continuity between the original and edited versions, preserving the juxtaposition of old and new.
+    Question: Is the computer monitor with a silver stand and flat screen still present on the desk in its original position?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The wooden radiator beneath the left window is a minor but authentic detail contributing to the period accuracy of the room. It grounds the space and reflects real-world interior design. Since it is not mentioned for modification, it should remain as a consistent environmental element.
+    Question: Is the wooden radiator visible beneath the left window, aligned with the baseboard?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

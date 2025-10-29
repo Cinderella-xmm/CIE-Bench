@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0070",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the train labeled \"BB 3017\" still visible and legible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train label 'BB 3017' is visible on the front of the locomotive. The clarity and legibility of the label can be determined by examining the image closely. Despite the dark setting, the straight-on view of the train allows the label to be seen clearly, indicating that it is both visible and legible.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the railway tracks, including the parallel tracks beside the main line, still intact and correctly laid out?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the railway tracks are still present and appear to be properly laid out. Despite the stark and dramatic nighttime scene introduced in the edited image, the tracks can be seen extending into the distance. Comparing this observation with Image A, where tracks run parallelly and further into the distance, confirms that the layout in Image B remains accurate with parallel running tracks beside the main line still intact.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the train still positioned centrally on the railway tracks?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train is positioned centrally on the railway tracks. This can be observed from the front-on view where the train's alignment matches the central line of the tracks. The orientation and positioning of the train in comparison to the tracks confirms its central location, similar to that in Image A where the train is positioned centrally as well.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the train retain its structural integrity, including the white locomotive and the loaded freight car?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train maintains its structural integrity. The white locomotive at the front and the freight car behind it can still be clearly identified. Despite the change in environment to a nighttime setting, these structural components of the train remain unaltered and intact. The comparison with Image A's daytime setting further affirms that there has been no change to the train's structure, confirming it retains its integrity.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the railroad signal on the left, marked with the number \"3\", still present in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the railroad signal that was present in Image A is no longer visible. The focus in Image B is more on the train, the night sky, and the tracks, with no railroad signal evident in the image. Visual inspection confirms it lacks the presence of the signal marked with the number '3' seen in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.9
+}

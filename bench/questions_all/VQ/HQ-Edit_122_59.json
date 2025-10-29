@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the elephant sculpture into a whimsical 3D scene within an ornate glass display case, the original image features a large, intricately carved wooden elephant sculpture on a simple pedestal. The editing instruction requires miniaturizing the elephant and placing it inside a glass case. This change affects scale and spatial context. The question evaluates whether the size reduction of the elephant is proportionally consistent with the surrounding environment (e.g., glass case dimensions) and whether the scaling maintains structural coherence without distorting anatomical features such as legs, trunk, or tusks.",
+      "question": "Is the elephant's size reduced proportionally so that its limbs, head, and body maintain correct relative proportions and do not appear stretched or compressed?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of adding intricate golden inlays to the elephant, the original image shows detailed wood carvings with no metallic elements. Introducing golden inlays involves modifying surface textures and materials. The evaluation focuses on whether the added gold elements blend naturally with the existing wood grain and carving patterns, and whether they introduce unnatural reflections, texture mismatches, or visual discontinuities.",
+      "question": "Do the golden inlays follow the contours and patterns of the original wood carvings without creating abrupt edges or mismatched material transitions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of surrounding the elephant with tiny bonsai trees, the original image has no vegetation. Adding bonsai trees introduces new objects into the scene. These must be positioned at a plausible scale relative to the miniaturized elephant and must have natural-looking foliage, trunks, and root structures. The evaluation checks for visual credibility in object placement and realism in tree details.",
+      "question": "Are the bonsai trees positioned at a scale consistent with the miniaturized elephant and do they exhibit natural leaf shapes, branch structures, and ground-level placement?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of incorporating a lush, miniature jungle depicted in vibrant, earthy tones, the original image has a plain background and floor. The addition of a jungle environment involves complex textural and color changes. The evaluation assesses whether the newly introduced jungle elements (such as soil, moss, ferns, etc.) have realistic textures, appropriate lighting, and seamless integration with the base and glass case, avoiding artificial or overly saturated appearances.",
+      "question": "Does the miniature jungle feature natural earthy tones and textures such as soil, moss, and plant matter that are consistent with real-world botanical materials and lighting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of replacing the base with a smooth, polished stone featuring engraved floral details, the original image has a plain rectangular pedestal. The new base must reflect a different material (stone vs. wood/plastic), with visible engraving patterns. The evaluation checks whether the stone material appears uniformly polished, whether the floral engravings are coherent and non-distorted, and whether the transition from the base to the glass case is visually plausible.",
+      "question": "Is the new stone base smooth and polished with clear, continuous floral engravings that do not exhibit jagged lines, missing segments, or inconsistent depth?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

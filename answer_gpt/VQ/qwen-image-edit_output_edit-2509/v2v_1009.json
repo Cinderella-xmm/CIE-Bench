@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1009",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the bowl maintain a clean, semi-transparent appearance without any unnatural textures or broken geometric shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a bowl that is made to look like it's constructed with sharp edges and defined facets, reminiscent of a low-polygon model or stylized geometric art. This deviates from a clean semi-transparent appearance as it introduces clearly visible geometric shapes that would not be present in a naturally smooth and transparent bowl.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the carrots and cauliflower display a fresh and slightly damp texture without any loss of fine details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the carrots and cauliflower are depicted with simplified geometry and faceted surfaces, lacking the fine textures and details that would typically indicate freshness and slight dampness. The precise, clean lines and polygonal shapes do not accurately simulate the intricate surface details one would find in fresh vegetables.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the reflections and soft shadows on the vegetables and bowl accurately depicted without causing any unnatural distortions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B has been stylized in such a way that it lacks realistic reflections and soft shadows. The geometric and faceted representation does not incorporate true reflections or shadows, causing the appearance to be more abstract and unnatural compared to real-life scenarios.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the carrots and cauliflower retain their natural shades of orange and white without any overly vibrant or muted tones?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The colors of the carrots and cauliflower in Image B do seem to approximate the natural shades of orange and white. Despite the geometric abstraction, the hues are not overly vibrant or excessively muted, maintaining a semblance of natural coloration.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background a neutral gray with a smooth texture, subtly enhancing the vegetables and bowl without introducing distractions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The background in Image B is a plain grey without pronounced textures, consistent with a neutral tone that focuses attention on the bowl and its contents without introducing any distracting elements.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.4
+}

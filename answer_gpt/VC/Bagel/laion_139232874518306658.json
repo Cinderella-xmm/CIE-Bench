@@ -1,0 +1,97 @@
+{
+  "filename": "laion_139232874518306658",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the subject wearing bright red lipstick?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lipstick is not visible as the subject's face is blurred and lacks distinguishable features. Therefore, it's not possible to determine the presence of red lipstick based solely on Image B.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the sunglasses black with a rectangular frame and reflective lenses?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the subject wearing sunglasses, but due to the blurred area on the face and alteration in colors and clarity, specific details like whether the lenses are reflective or the frame shape are not discernible in the edited image.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the subject’s hair pulled back tightly, revealing her forehead and ears?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the hair of the subject is visible but due to the blur effect and artistic transformation, whether the forehead or ears are revealed is indistinct, making it challenging to confirm the hairstyle.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are both hands visibly gripping the handles of shopping bags?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the subject's hands are shown gripping shopping bags in a manner similar to Image A, indicating the presence of shopping bags in both hands.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is a light pink turtleneck visible underneath the coat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Although Image B is more abstract, the turtleneck's color is altered due to the artistic style and color distortion, making it impossible to confirm if it's light pink like in Image A.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the subject wearing a dark gray skirt?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the artistic rendering transforms the bottom portion, making it unclear and affecting color perception, thus preventing confirmation of skirt color as dark gray.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is there a strong shadow cast on the right side of the subject’s face and body?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B employs a bright color scheme without distinct shadows as seen in a more realistic image like Image A, thus lacking strong shadows of any kind on the subject.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.13333333333333333
+}

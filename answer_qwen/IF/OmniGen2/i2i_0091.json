@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0091",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the wall clock still visible after the edit?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "The edited image depicts a hallway with stone walls, arches, and a hanging lantern. There is no wall clock present in this scene. The visual cues such as the architectural style and lighting do not suggest the presence of a modern wall clock. Therefore, based on the visual information from Image B alone, there is no evidence of a wall clock.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the wooden cabinet still visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "In the edited image, the scene has changed to an interior hallway with stone walls and arches. There are no wooden cabinets or any furniture resembling a cabinet in this setting. The elements present are consistent with a castle hall interior rather than a room with modern furnishings. Thus, the wooden cabinet is not visible in the edited image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image show elements typical of a castle hall interior, such as stone walls or arches?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image clearly displays stone walls and multiple arches along the corridor, which are characteristic features of a castle hall interior. The architecture includes arched doorways and windows, further supporting the conclusion that this scene represents a castle hall. The analysis is based on the visual cues of the materials and structural design commonly associated with castles.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the lighting in the edited image match the lighting style from the original image, with similar shadows and highlights?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The original image (Image A) shows soft natural light casting gentle shadows from objects like the plant and clock. In contrast, the edited image (Image B) features more dramatic lighting with strong contrasts between light and shadow, typical of sunlight filtering through large windows in a stone structure. The lighting styles differ significantly due to the change in environment and light sources.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any remaining objects from the original scene, such as vases or plants, in the castle hall setting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "The original image contains objects like vases, plants, and books on a wooden cabinet. However, the edited image does not include any of these items. The scene has been completely transformed into a castle hall setting without any remnants of the original objects. This conclusion is drawn by comparing the contents of both images and noting the absence of familiar objects in the new setting.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

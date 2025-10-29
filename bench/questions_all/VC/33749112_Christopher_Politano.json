@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The three distinct mountain peaks—two broad and one sharp—are iconic features of the original landscape. Their relative positions and shapes define the skyline and are essential for identifying the location. If these peaks are completely reshaped or removed, the scene loses its geographic identity. Thus, preserving their presence and arrangement is critical for recognition. This is a core identity feature, so the weight is 3 points.",
+      "question": "Are the three distinct mountain peaks—two broad and one sharp—present and positioned in the same relative layout as in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The central lake has a unique irregular shape with a curved western edge and a shallow extension toward the foreground. This shape is a defining feature of the basin. Even if transformed into a chest, the underlying geometry must remain consistent to preserve the original topography. Losing this shape would make the scene unrecognizable. This is a core identity feature, so the weight is 3 points.",
+      "question": "Is the lake located in the same basin with the same irregular shape, including the curved western edge and shallow extension toward the foreground?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The network of trails forms a logical path system across the slopes, connecting the lower areas to the lake and higher elevations. These trails provide spatial coherence and indicate human access. Although they may be transformed into luminescent veins, their routing and convergence points must remain consistent to maintain environmental logic. This is an important scene element affecting overall consistency, so the weight is 2 points.",
+      "question": "Do the trails maintain their original routing pattern across the slopes, including their connection to the lake and convergence points?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The presence of human figures near the lake provides scale and context. Their exact number and position are not critical, but their existence and general location (near the shoreline) are necessary to maintain realism and narrative continuity. Removing them would alter the scene’s interpretive value. This is a minor but meaningful detail, so the weight is 1 point.",
+      "question": "Are there visible human figures present near the shoreline of the lake, consistent with their placement in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The rocky outcrops and boulders along the shoreline and slopes are key geological features that ground the scene in reality. They define the terrain’s texture and stability. Even if stylized, their presence and distribution must be preserved to maintain visual coherence. This is a secondary detail but contributes to authenticity, so the weight is 1 point.",
+      "question": "Are the rocky outcrops and boulders visible along the shoreline and slopes, maintaining their original distribution and size?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The general green vegetation cover on the slopes is a dominant feature of the landscape. While the instruction allows replacing it with scales, the original green tone and coverage pattern must be preserved in form, even if stylized. This ensures the scene remains grounded in its original environment. This is a key visual characteristic, so the weight is 2 points.",
+      "question": "Is the green vegetation cover present across the slopes, maintaining its general distribution and density as seen in the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The sky is clear blue with scattered wispy clouds, contributing to the atmosphere and lighting of the scene. Although the instruction mentions a \"celestial hue,\" the original sky conditions must be preserved as a baseline for lighting and shadow consistency. This is a minor environmental detail but affects overall coherence, so the weight is 1 point.",
+      "question": "Is the sky clear blue with scattered wispy clouds, matching the original atmospheric conditions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0071",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the white and red color scheme of the train retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train's body has a distinct white and red color scheme. This choice is consistent with the typical design of many modern trains, suggesting a clean and sleek appearance. The color combination is easily recognizable and remains constant throughout the image, indicating that the color scheme is indeed retained.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the train remain on a suitable track or elevated system, consistent with the maglev design?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train does not appear to be on any visible track or elevated system. Instead, it seems to float unnaturally above the sand, suggesting it is not aligned with any detectable maglev design or traditional rail system. Trains typically require tracks for guidance and movement, and the absence of visible tracks indicates inconsistency with conventional systems.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the background environment, including the horizon and setting, largely consistent with the original scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In both Image A and Image B, the background shows a beach setting with sand, shallow water, and a visible horizon. This indicates that the background environment, specifically the beach and horizon line, is consistent between the two images. The primary difference lies in the subject matter displayed in the foreground.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the lighting and shadows consistent with those in the original image, preserving the realistic look of the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the lighting and shadows are intended to match those in Image A, where the sun casts shadows toward the observer. However, the edited train's shadow appears to be inconsistent with the natural shadow that should be formed given its orientation and proportion. The shadow of the train doesn't naturally correspond to its form as the dog's shadow does in Image A, disrupting the realistic depiction of lighting and shadow.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the train maintain realistic proportions and scale in relation to its surroundings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the train appears to be very small in comparison to its real-life size, assuming that the animals' legs are visually aligned with their actual dimension. Trains are usually large structures, much bigger than objects like a dog or an individual's legs, and the scene shows it in a juxtaposition that renders it disproportionately smaller than expected.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

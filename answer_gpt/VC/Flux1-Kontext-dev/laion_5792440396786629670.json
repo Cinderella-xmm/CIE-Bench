@@ -1,0 +1,97 @@
+{
+  "filename": "laion_5792440396786629670",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is there a central root node labeled or represented as \"HOMEPAGE\" positioned at the top center of the diagram?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the top center of the diagram features a yellow node clearly labeled 'HOMEPAGE'. This node is visually distinct, prominent, and serves as the central point from which multiple branches extend. Based on these visual cues and common web architecture, the central positioning and distinct labeling confirm it is indeed the 'HOMEPAGE'.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are there exactly five primary branches originating from the HOMEPAGE node, corresponding to PRODUCTS & SOLUTIONS, ABOUT US, EVENTS & RESOURCES, SUCCESS STORIES, and CONTACT US?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are five distinct paths that originate from the node labeled 'HOMEPAGE'. These paths lead to main sections labeled 'PRODUCTS & SOLUTIONS', 'ABOUT US', 'EVENTS & RESOURCES', 'SUCCESS STORIES', and 'CONTACT US'. These visual cues match standard web page architecture where primary branches represent major sections of a website.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is there a legend labeled \"SITE MAP KEY\" located in the bottom-right corner of the image, showing color codes for different levels?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B contains a legend labeled 'SITE MAP KEY' positioned in the bottom-right corner. This legend visually displays different color codes corresponding to various levels of the site map, providing a clear reference for the hierarchical structure depicted in the diagram.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the \"to the web\" logo present in the top-left corner of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the top-left corner includes branding related to the 'to the web' company, but the visual representation is different from a typical logo presentation. Instead, it is part of the visual theme without a conventional logo format. Recognizing company branding often involves understanding visual representation styles and placement.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a FOOTER section containing \"Privacy Policy\" and \"Site Map\" below the main content area?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on the visual data in Image B, there is a section labeled 'FOOTER' which contains elements labeled 'Plimey Policy' and 'Site Map'. This section is located below the primary site map content area, indicating standard placement for footer information.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are there exactly three nodes under the \"SUCCESS STORIES\" section, labeled or represented as Case Study #1, #2, and #3?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are nodes under the 'SUCCESS STORIES' section. However, they do not fit the labels of Case Study #1, #2, and #3 as seen in standard structural labeling. Instead, the presence of characters implies more playful or abstract labeling, showing a variation from typical logical site map labeling.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is there a node labeled or represented as \"Product Details\" located directly under \"Product #3\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, a node labeled 'Product Details' exists, positioned directly beneath 'Product #3' within the 'PRODUCTS & SOLUTIONS' branch. This placement reflects a common organizational structure where detailed information follows the main hierarchical path.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

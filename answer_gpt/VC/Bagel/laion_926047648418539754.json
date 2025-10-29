@@ -1,0 +1,84 @@
+{
+  "filename": "laion_926047648418539754",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the model’s original facial features, including dark eyes, defined cheekbones, and full lips?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the facial features are blurred, making it impossible to discern the details such as dark eyes, defined cheekbones, or full lips. Analyzing this visual cue and applying world knowledge about blurred images, it is clear that facial features cannot be accurately described or retained. Therefore, the answer is No.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the model’s long, straight black hair parted down the middle still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the model appears to have long, straight hair parted down the middle similar to Image A. The hair is consistent in its style and position, which matches common knowledge of hairstyles. Therefore, the image maintains the original hairstyle, leading to the answer Yes.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the wide silver crystal choker necklace still visible around the model’s neck?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examining Image B, there is no clear indication of a wide silver crystal choker necklace around the model's neck. Instead, the area appears to be plain or stylized differently, without distinct jewelry being visible. Comparing this observation with Image A, where the necklace is present, it is clear that the necklace is not retained. Therefore, No is the correct answer.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the model maintain the same upright stance with hands clasped at the waist and legs slightly apart?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the model's stance appears to be upright with hands held at the waist and legs slightly apart. This matches the upright stance observed in Image A, where the model’s body language is similarly positioned. Based on visual consistency, the stance in both images is sustained, leading to the answer Yes.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are both hands positioned together at the waist, holding the bag handle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts the model’s hands as being positioned together at the waist, holding onto what resembles a bag handle, consistent with the scale and positioning seen in Image A. Both images align on this characteristic, showing both hands together at the waist. Therefore, Yes is the correct answer.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the model’s natural skin tone and body proportions preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the model's skin tone appears stylized, giving neither a sense of realism nor naturalness compared to Image A. The edited image uses non-naturalistic hues which typically deviate from real-life tones, altering their representation, therefore No is the correct answer regarding preservation.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

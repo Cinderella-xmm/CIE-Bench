@@ -1,0 +1,72 @@
+Description of reference image: The subject is a sandwich placed on a white plate, featuring a golden-brown bun, fresh lettuce leaves, slices of turkey breast, a tomato slice with mayonnaise, and a hand partially visible in the background. The sandwich sits on a wooden table, and there’s another blurred plate and food item in the far-left corner. The setting conveys a casual dining scenario.
+
+### Step 1 - Allowed Changes List:
+
+- Add a small "Fresh" flag on top of the sandwich.
+- Replace the tomato slices with grilled pineapple slices.
+
+### Step 2 - Preservation Targets List:
+
+#### Thinking Process:
+**Core Recognition Elements:**  
+The sandwich structure (bun, meat, and lettuce) is crucial for maintaining the identity of the sandwich. Altering these core elements could lead to confusion about the subject. The wooden table and the hand in the background provide context that supports the dining scenario.
+
+**Functional/Logical Association Elements:**  
+The position of the sandwich on the plate and the plate on the table must remain consistent to maintain the logic of the scene. Removing or significantly altering these elements would disrupt the context.
+
+**Remaining Elements Retention:**  
+Details like the bun's texture, lettuce leaf shapes, turkey breast slices, and the mayonnaise dollop on the tomato should be retained to preserve the image's coherence and realism, even though they are secondary details.
+
+#### Preservation Targets List:
+- Sandwich bun and its texture.
+- Plate position under the sandwich.
+- Lettuce leaves and their placement.
+- Slices of turkey breast and their arrangement.
+- Wooden table surface and hand in the background.
+
+### Step 3 - Question Generation:
+
+{
+    Q1: 
+    Thinking process: The sandwich bun with its golden-brown texture and soft appearance is a critical element for recognizing the sandwich. Losing this would change the subject’s core identity. Therefore, it is a key element with a weight of 3 points.
+    Question: Does the image retain the golden-brown bun with its soft texture?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The position of the sandwich on the white plate is crucial for maintaining the scene's logic. If the sandwich is no longer on the plate, it would disrupt the context, making it a functional element worth 2 points.
+    Question: Is the sandwich still positioned on the white plate?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The fresh lettuce leaves are an important detail contributing to the sandwich’s appearance and freshness. These leaves add authenticity and cannot be altered without affecting the overall look, making them a significant detail element with a weight of 2 points.
+    Question: Are the fresh lettuce leaves still present beneath the meat?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The slices of turkey breast are necessary for retaining the identity of the sandwich as containing protein. Without them, the sandwich loses its defining characteristic, making it a key component with a weight of 3 points.
+    Question: Are the slices of turkey breast still visible in the sandwich?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q5: 
+    Thinking process: The wooden table surface and the hand in the background establish the casual dining scenario. While these are secondary details, they contribute to the overall context and coherence, warranting a weight of 1 point.
+    Question: Is the sandwich still presented on the wooden table with a hand visible in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

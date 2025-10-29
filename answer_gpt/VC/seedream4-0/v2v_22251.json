@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_22251",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the subject's face, including their facial features, unchanged?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, visual cues such as the face are obscured, hence specific details about facial features remain undisclosed, making it impossible to determine changes compared to Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the subject still have long black hair?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is no alteration to the subject's hair, which remains long and visible in both images. Based on hair length and color in Image B, it aligns with common world knowledge of the appearance of long black hair.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the green earrings still present on the subject's ears?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows that the subject continues to wear green earrings. This is based on the visual confirmation from their positioning and color, consistent with common understanding of accessory representation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the subject still facing forward with a neutral expression?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Despite the obscuring of facial details in Image B, the positioning of the head, shoulders, and body implies a forward-facing stance similar to Image A, suggesting continuity of head orientation.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there still a graphic design visible on the subject's clothing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the original graphic t-shirt is obscured by new period clothing. The detailed fabric and embroidery are characteristic of historical attire and indicate no visible graphic design as in Image A.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

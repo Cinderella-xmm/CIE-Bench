@@ -1,0 +1,97 @@
+{
+  "filename": "laion_139232874518306658",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the subject wearing bright red lipstick?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the face of the subject is blurred, making it impossible to see the details of their lips. Therefore, based solely on the visual information available, we cannot determine the color of any lipstick that may be worn. Thus, we conclude that the information is not sufficient to make a determination.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the sunglasses black with a rectangular frame and reflective lenses?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, even with the blurred region, we can still observe the shape and color of the sunglasses. The sunglasses appear to be darkly colored, likely black, and although the details on reflection are minimal due to the blur, they seem to have a rectangular frame. Using world knowledge, rectangular frames are a common design, supporting this observation.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the subject’s hair pulled back tightly, revealing her forehead and ears?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Despite the blur over the face area in Image B, the hair appears to be smooth and pulled back. This suggests a hairstyle that reveals the forehead but not necessarily the ears, as they are not visible in the image. Hair pulled back tightly generally means such visibility, but specific evidence of ears is uncertain.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are both hands visibly gripping the handles of shopping bags?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly shows the subject's arms and hands actively holding multiple shopping bags in both hands. The handles seem to be firmly gripped, which is typical when carrying bags. Therefore, the visual elements strongly support both hands gripping the bag handles.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is a light pink turtleneck visible underneath the coat?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the attire under the maroon coat is clearly visible as a light pink turtleneck. This is consistent with common fashion choices to add layers under coats, and the distinct color and garment style align with this description.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the subject wearing a dark gray skirt?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "From Image B, below the coat, the visible garment that appears to be part of the lower attire is dark gray. It aligns in color and position with a skirt, given standard clothing combinations and winter apparel. Hence, this appearance suggests the presence of a dark gray skirt.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is there a strong shadow cast on the right side of the subject’s face and body?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a definite shadow on the right side of the subject’s body. The contours and lighting provide evidence of shadowing, a typical result of light angles and obstruction by the subject’s shape, suggesting visibility of environmental interaction with light.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

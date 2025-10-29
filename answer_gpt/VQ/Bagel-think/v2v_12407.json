@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_12407",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the mango retain its recognizable shape and texture in the 8-bit pixel art style without appearing overly distorted or unnatural?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the mango maintains its identifiable oval shape despite the pixelated nature of 8-bit art. It does not appear excessively distorted as the primary shape and color are consistent with what one would expect for a mango. In Image A, the mango is smooth and oval, which is mirrored in Image B with allowance for stylistic differences in texture due to the pixel format. The visual cues affirm that the shape remains recognizable.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the table and napkin depicted with consistent structure and proportions in the 8-bit pixel art style, avoiding any broken geometric shapes or disproportionate elements?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon inspecting Image B, the table exhibits consistent geometric lines characteristic of pixel art, though more angular compared to the natural lines in Image A. The napkin retains folded elements consistent with 8-bit formatting. Comparing Image A, the proportions hold firm; thus, the geometric consistency of structure in the pixel art prevents disproportionate elements or broken shapes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Do the fine details of the mango's surface and the napkin's texture remain discernible in the 8-bit pixel art style, without significant loss or introduction of unnatural patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Considering Image B, fine details such as the napkin's folds and mango's surface texture are reduced due to the nature of pixel art, which trades fine detail for stylized patterns. Visibly, the mango's surface lacks intricate textural details, and the napkin is simplified into basic shaded areas. Image A shows detailed texturing absent in Image B. Due to the pixel art's inherent limitations, unnatural patterns replace fine details.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the lighting and shadow effects on the mango and table in the 8-bit pixel art style appear natural and plausible, without introducing any obvious artifacts or inconsistencies?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, lighting effects are interpreted through patchy shading, typical for 8-bit art, where light-to-dark transitions form patterns showing depth. This style induces plausibility by aligning shadows with foundational lighting techniques, even if limited by pixel art constraints. Image A provides source lighting, naturally translating into less detailed but consistent results within Image B without glaring inconsistencies.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the composition and layout of the mango, napkin, and table in the 8-bit pixel art style visually credible and structurally sound, without any elements appearing misplaced or out of context?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, all components mirror the positioning observed in Image A, preserving overall layout integrity. The mango is centrally positioned, ensconced within napkin folds atop the table, appearing in order visually. No elements diverge significantly from their expected locations. Image A details are simplified yet compositionally respected in Image B, supporting a structurally sound depiction.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

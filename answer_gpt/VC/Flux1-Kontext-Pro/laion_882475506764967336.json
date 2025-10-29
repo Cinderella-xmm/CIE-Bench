@@ -1,0 +1,84 @@
+{
+  "filename": "laion_882475506764967336",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there exactly six chairs surrounding the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a careful observation reveals six distinct chairs surrounding the table. These chairs are positioned on each side of the square table, which is a typical arrangement for accommodating several people. Therefore, the conclusion based on the visual cue is that there are exactly six chairs surrounding the table.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the table square in shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The appearance of the table in Image B shows equal length on all four sides and right angles at the corners, which are characteristic features of a square shape. Based on these visual cues and the lack of any indication of rectangular shape, the table is indeed square.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are there two chairs on each long side of the table and one chair on each short side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Since Image B displays a square table, it inherently lacks long and short sides as a rectangular table would. Instead, the square table has equal-length sides. The arrangement of chairs shows two chairs each along two sides and one chair each on the remaining sides. This layout doesn't correspond to having two on long sides and one on short sides typical of rectangular tables.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the chairs on the long sides of the table have armrests?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays chairs arranged around a square table, which means there are no 'long sides' as would be found on a rectangular table. However, upon observing the chairs, each chair, regardless of placement around the table, exhibits armrests on both sides, indicating uniformity in design.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a centerpiece located in the center of the table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B prominently shows a small decorative item, likely a pot or planter, located at the geometric center of the table's surface, serving as a centerpiece. This aligns with the common practice of decorating tables with central adornments.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the furniture set placed on a flat, level surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly shows the furniture set positioned on a flat, gray surface with patterned designs suggesting modular flooring often seen in playsets or models. The uniformity and consistent appearance of the base indicates it is flat and level.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

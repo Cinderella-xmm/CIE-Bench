@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_125_136",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the title “Astronaut and Space Station Dynamics” present in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "To determine whether the title 'Astronaut and Space Station Dynamics' is present, I examine the entire visual space of Image B. The image contains an astronaut on the Moon, a space station (ISS), Earth in the background, and a sequence of steps labeled at the bottom. However, there is no visible text at the top or elsewhere that reads 'Astronaut and Space Station Dynamics'. The only textual content is the step-by-step labels at the bottom: 'Step 1: Prepare', 'Step 2: Navigate', 'Step 3: Operate'. Based on this observation, the specific title mentioned in the question is not present.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the astronaut, Moon, and ISS depicted using simplified, vector-style shapes rather than photorealistic rendering?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the astronaut, Moon, and International Space Station (ISS) are rendered with clean lines, flat colors, and minimal shading—hallmarks of vector-style illustrations. The astronaut's suit lacks detailed textures like fabric wrinkles or reflections; instead, it uses simple geometric forms and solid color blocks. The Moon is represented as a smooth, white surface with basic craters, and the ISS has stylized modules and solar panels without complex material details. These visual cues align with simplified, vector-based design commonly used in infographics. In contrast to photorealism, which would include lighting gradients, depth, and texture, this image uses abstraction for clarity and aesthetic consistency.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the spacesuit include visible textural details such as stitching or fabric patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon close inspection of the astronaut’s spacesuit in Image B, there are no visible indications of stitching, fabric folds, or textile patterns. The suit is composed of smooth, uniform surfaces with subtle contouring to suggest form, but no fine details like seams or weave textures are present. This contrasts with real-life spacesuits, which have layered fabrics and visible stitching for durability and flexibility. The style here prioritizes simplicity and clarity over realism, typical of vector illustrations. Therefore, the spacesuit does not include such textural details.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are gold accents used in the image to emphasize certain elements such as labels, borders, or arrows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "I analyze the color palette and design elements in Image B. The astronaut’s helmet rim, the flag patch border, and some structural outlines on the ISS feature a golden-yellow hue. These gold accents are consistently applied around key components—such as the visor edge and flag—to draw attention. Additionally, the arrows pointing from the astronaut toward the ISS are outlined in gold, reinforcing their role in guiding the viewer’s eye. This use of gold serves both decorative and functional purposes, emphasizing important parts of the composition. Thus, gold is indeed used strategically in the image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there three sequential stages illustrated with arrows showing the astronaut's movement toward or interaction with the space station?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the astronaut is shown pointing toward the ISS, with two white arrows originating from the astronaut’s hand and directing toward the space station. These arrows suggest motion or progression. Below the main illustration, three labeled steps—'Step 1: Prepare', 'Step 2: Navigate', 'Step 3: Operate'—are connected by arrows, indicating a sequence of actions. While the physical movement of the astronaut is implied rather than animated, the combination of directional arrows and step labels clearly illustrates a three-stage process involving preparation, navigation, and operation. This structured flow visually represents a sequence of interactions with the space station.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the labels “Step 1: Prepare”, “Step 2: Navigate”, and “Step 3: Operate” displayed in sequence along the bottom of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "I observe the lower portion of Image B and confirm the presence of three distinct text labels: 'Step 1: Prepare', 'Step 2: Navigate', and 'Step 3: Operate'. These are arranged horizontally from left to right, separated by dark blue arrows that point forward, indicating progression. They are positioned along the bottom edge of the image, beneath the main illustration. This layout is consistent with standard infographic design, where steps are listed sequentially for clarity. Therefore, the labels are indeed displayed in order along the bottom.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the entire infographic arranged in a vertical format with elements stacked from top to bottom?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The layout of Image B is primarily horizontal rather than vertical. The main visual elements—the astronaut, the ISS, and Earth—are arranged across the width of the image, with the astronaut on the left and the ISS on the right. The step-by-step labels are placed horizontally along the bottom. There is no clear stacking of major components from top to bottom. Instead, the composition emphasizes lateral movement and spatial relationships. While some minor elements (like stars) are distributed vertically, the overall structure is not organized in a vertical stack. Hence, the infographic is not arranged in a vertical format.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5714285714285714
+}

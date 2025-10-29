@@ -1,0 +1,60 @@
+### Step 1: Analyzing the Reference Image and Allowed Changes
+
+**Description of reference image:**  
+The subject consists of a golden toy car positioned horizontally on the left side of the image and an orange toothbrush placed vertically on the right side. Both objects rest against a plain, solid pink background. The car has a shiny metallic finish, four wheels, and visible windows. The toothbrush has a straight handle and white bristles.
+
+**Thinking process:**  
+The editing instructions specify transforming the car into a 3D chibi-style representation emerging from the frame and adding a human hand grasping the frame edges. This implies changes to the car's appearance and the addition of new elements (hand and frame). However, the core identity of the car and the presence of the toothbrush must be retained.
+
+**Allowed Changes List:**  
+1. The car's design can be altered to a chibi style, changing proportions and details.
+2. A new frame and hand can be added around the image.
+3. The car can appear as if emerging from the frame, altering its spatial relationship with the background.
+
+### Step 2: Determining Elements That Should Remain Unchanged
+
+**Thinking process:**  
+Core recognition elements include the car's golden color and basic shape, as well as the toothbrush's orange handle and white bristles. Functional/logical associations involve the relative positions of the car and toothbrush. Remaining elements like the pink background should also be considered for visual coherence.
+
+**Preservation Targets List:**  
+1. The golden color and basic shape of the car.
+2. The orange handle and white bristles of the toothbrush.
+3. The relative positions of the car and toothbrush.
+4. The pink background for visual coherence.
+
+### Step 3: Generating Questions
+
+**Q1:**  
+Thinking process: The golden color is a core recognition feature of the car. Losing this would make it unidentifiable as the same car.
+Question: Is the car still primarily golden in color?
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+**Q2:**  
+Thinking process: The car's basic shape is crucial for recognizing it as a car even in chibi form.
+Question: Does the car retain its basic shape as a four-wheeled vehicle?
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+**Q3:**  
+Thinking process: The toothbrush's handle and bristles are key identifiers.
+Question: Does the toothbrush still have an orange handle and white bristles?
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+**Q4:**  
+Thinking process: The relative positions help maintain the scene's logic.
+Question: Are the car and toothbrush still positioned on opposite sides of the image?
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+**Q5:**  
+Thinking process: The pink background aids in visual coherence.
+Question: Is the background still a solid pink color?
+Choices: Yes, No  
+A: Yes  
+Weight: 1  

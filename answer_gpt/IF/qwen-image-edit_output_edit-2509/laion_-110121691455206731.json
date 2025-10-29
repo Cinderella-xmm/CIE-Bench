@@ -1,0 +1,110 @@
+{
+  "filename": "laion_-110121691455206731",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the edited image a comic strip consisting of at least two distinct panels?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B clearly features two separate sections divided horizontally, which are typical features of a comic strip format. Each panel is designed to convey different parts of a narrative or story, which is a fundamental characteristic of comic strips.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does Panel 1 show the watch with a face drawn on its dial, seated at a detective desk, and polishing its metal exterior?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Panel 1 of Image B, the watch dial is illustrated as a face complete with eyes and a nose, giving it anthropomorphic attributes. The setting resembles a detective desk indicated by items like files and papers, common in detective settings. However, there is no indication of the watch polishing its exterior; instead, it is holding a tool and making an animated expression.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does Panel 1 contain the dialogue \"Time to solve this case, down to the last second! 🕵️‍♂️\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Panel 1 of Image B, there's a speech bubble above the watch character stating 'Time to solve this case, down to the last second!' but without the emoji symbol.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does Panel 2 show Chrono in a cluttered office with scattered clues, examining a magnifying glass?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Panel 2 of Image B, the character Chrono is depicted in an office setting that appears cluttered with papers and files scattered on the desk—a typical detective scenario for investigating. Chrono is holding a magnifying glass which suggests examining details or clues.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there small tick mark sound effects (e.g., “tick”, “tock”) visible around the watch dial in at least one panel?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Throughout the panels of Image B, the watch dial displays a face character but does not include any visible sound effects like “tick” or “tock” around it.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the image use a combination of greyscale and shiny silver accents to reflect the original watch's appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B employs a greyscale design that mirrors the shiny silver appearance of the original watch (Image A), capturing the glossy and metallic aesthetics key to the original watch's design.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Does Chrono display a cartoonish facial expression on the watch dial?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases Chrono with exaggerated facial features like large eyes and a bold nose drawn on the watch dial, typical of cartoonish animations aimed at conveying emotion and personality.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q8",
+      "question": "Does Panel 2 contain the dialogue \"No detail too small for Detective Chrono! 💼\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Panel 2 of Image B contains the dialogue 'No detail too small for Detective Chrono!' However, there is no briefcase emoji (💼) accompanying the text.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

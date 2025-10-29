@@ -1,0 +1,84 @@
+{
+  "filename": "laion_3745298076957807089",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the bottle’s main body still a transparent rectangular glass container with softly rounded edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bottle indeed has a rectangular shape, but the main body is not transparent. Instead, it is a dark green glass container which suggests opaqueness when compared to the transparent design usually seen in whisky bottles. The edges of the bottle in Image B appear to be angular rather than softly rounded. Hence, this does not match the characteristics of a transparent rectangular glass container with softly rounded edges.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the interior of the bottle filled with a golden-yellow translucent liquid?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The bottle in Image B does not appear to be filled with any liquid, as the contents cannot be seen due to the dark green opaque glass. No golden-yellow liquid or translucency is visible. This contrasts with the expected appearance of a whisky bottle filled with golden-yellow liquid.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the black box with the arched cutout and gold text \"CADENHEAD'S\" at the top and \"ESTD. 1842\" at the bottom still present?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a black box with an arched cutout is visible, matching the description of having 'CADENHEAD'S' in gold text at the top and 'ESTD. 1842' at the bottom. This indicates the box's design remains consistent with these features.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there visible reflections and highlights on the glass surface of the bottle indicating transparency and smoothness?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a bottle surface that is dark and opaque, which lacks the reflections and highlights that indicate transparency. Smoothness is suggested by the clean edges and surface of the bottle, yet the visual cues of transparency through reflections and highlights are absent.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the bottle positioned to the left of the box, with the box’s arched window aligned to frame the bottle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bottle is indeed placed to the left of the black box, and the box's arched window is aligned in such a way that it could frame the bottle if it were transparent. The positioning appears similar to a typical product display setup involving boxed items.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the bottle have a flat, thickened base that rests stably on the surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows that the bottle's base appears substantial enough to provide stability, resting flat on the surface. Although the base details are not dramatically accentuated, the assumption of a thickened and flat base is reasonable considering typical bottle designs for stability.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.42857142857142855
+}

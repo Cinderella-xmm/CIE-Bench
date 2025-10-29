@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The wrought-iron lattice structure is the defining architectural feature of the Eiffel Tower. It consists of crisscrossing metal beams forming a complex grid pattern. If this texture is lost or replaced with solid surfaces, the tower becomes unrecognizable. This is a core identity feature, hence weight 3.",
+      "question": "Does the edited image retain the intricate wrought-iron lattice structure of both Eiffel Towers?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The triangular base with four pillars is essential for structural recognition. Without this, the tower loses its iconic foundation shape. Even in a miniature format, this must be preserved to maintain identity. This is a core element, hence weight 3.",
+      "question": "Are both towers supported by a triangular base composed of four distinct pillars?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The central archway beneath the tower is a key visual feature allowing passage underneath. Its absence would make the tower appear incomplete or incorrectly modeled. This is a critical structural detail, hence weight 2.",
+      "question": "Is there a clearly defined archway beneath each tower through which the path passes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The presence of two towers is explicitly stated in the instruction and visible in the original image. Removing one would violate the description and destroy the symmetry intended. This is a core compositional element, hence weight 3.",
+      "question": "Are there exactly two Eiffel Towers present in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The spire at the top is a unique identifier of the Eiffel Tower. It is a tall, slender point extending above the main structure. Losing it would make the tower resemble other structures. This is a key identification feature, hence weight 3.",
+      "question": "Does each tower have a pointed spire at its apex?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The three-tiered platform levels (visible as horizontal bands) are characteristic of the Eiffel Tower’s design. They mark the observation decks. Altering or removing them would distort the tower’s proportions. This is a structural detail critical to authenticity, hence weight 2.",
+      "question": "Are there three distinct horizontal platform levels visible along the height of each tower?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    }
+  ]
+}

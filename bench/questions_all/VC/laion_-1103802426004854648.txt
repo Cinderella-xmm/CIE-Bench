@@ -1,0 +1,91 @@
+Description of reference image: The subject is a plush toy seahorse, primarily pink in color with soft, textured fabric. It has large black eyes with white highlights, giving it an animated and friendly expression. The seahorse features yellow ears made of ribbed fabric, positioned on the sides of its head. A prominent purple satin bow sits atop its head, adding a decorative flourish. Its body includes two purple ruffled fins on either side, near the midsection, and a central transparent yellow belly section that appears to be made of plastic. This yellow belly contains a pink heart-shaped emblem with a musical note inside, indicating a musical or interactive function. The tail curves gently downward, maintaining the plush texture throughout. The background is plain white, with no additional elements or scenery present.
+
+Thinking process: First, analyze the instructions that clearly state what can be changed:  
+- "Transform the plush seahorse into a glass sculpture" → implies complete material transformation of the entire subject; the form remains a seahorse but now made of glass.  
+- "Replace the pink fabric with smooth, translucent pink glass showcasing subtle bubble texture" → changes material and texture of the main body, but retains shape and color (pink).  
+- "Turn the yellow belly into opaque yellow glass with etched music note" → changes material and transparency of the belly, but retains its position and function as a musical indicator.  
+- "Use lavender glass ribbons for the fins and place it on a reflective black display stand" → changes material of fins (from purple fabric to lavender glass), and introduces a new scene element (black reflective stand), which was not in original.  
+
+Allowed Changes List:  
+- Material of the entire seahorse body (plush → translucent pink glass)  
+- Texture of the body (soft fabric → subtle bubble texture in glass)  
+- Material and opacity of the belly (transparent plastic → opaque yellow glass)  
+- Design of the music symbol (from printed pink heart with note → etched music note)  
+- Fins’ material (purple fabric → lavender glass)  
+- Background/environment (plain white → reflective black display stand)  
+
+Step 2 - Determine the elements that should remain unchanged  
+Thinking process:  
+Core recognition elements:  
+- The seahorse's overall shape and posture must be preserved because it defines the identity of the object. Even though it becomes glass, the silhouette and anatomical structure (head, curved neck, tail, fins) are essential for recognition.  
+- The presence of the musical feature (music note) is critical—it indicates functionality and distinguishes this toy from others. Though the method of representation changes (printed vs. etched), the *presence* and *position* of the music symbol must remain.  
+- The relative positioning of parts—such as the bow on the head, fins on the sides, and belly in center—must stay consistent to maintain visual coherence and functional logic (e.g., the belly being the active part).  
+
+Functional/logical association elements:  
+- The musical function indicated by the music note must be preserved, even if the medium changes. The note’s location on the belly is functionally linked to sound emission, so its placement must remain fixed.  
+- The structural relationship between the head, body, and tail must be retained to preserve the biological plausibility and aesthetic balance of the seahorse.  
+
+Non modified element deduction:  
+After excluding allowed changes (material, texture, color tone of fins, background), the following unmentioned visual details must remain:  
+- The general shape and orientation of the bow on the head (its placement and form, not material)  
+- The number and placement of fins (two on sides, near midsection)  
+- The curvature of the tail (downward bend)  
+- The eye design (large round black eyes with white highlights)  
+- The proportion and relative size of the belly compared to the rest of the body  
+
+Preservation Targets List:  
+- Seahorse’s overall silhouette and posture (curved body, upward head, downward tail)  
+- Position and shape of the music note on the belly  
+- Presence and location of the bow on top of the head  
+- Number and placement of fins (two side fins near midsection)  
+- Eye shape and placement (large black circular eyes with white pupils)  
+- Relative size and position of the belly in the center of the body  
+
+{
+    Q1: 
+    Thinking process: The seahorse’s silhouette—specifically its curved body, upright head, and downward-curving tail—is the core identity feature that distinguishes it from other animals or toys. Changing this would make it unrecognizable as a seahorse. Even in glass form, the shape must remain identical to preserve identity. This is a 3-point element because it defines the subject’s nature.
+    Question: Is the seahorse’s body shaped with a curved neck leading to a downward-curving tail, forming a recognizable seahorse silhouette?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The music note within the heart on the belly is a functional identifier indicating the toy plays music. Although the instruction says to “etch” it instead of print, the symbol must still be present and located centrally on the belly. Losing this would remove the key functional clue and misrepresent the object’s purpose. This is a 3-point element due to its functional significance and iconicity.
+    Question: Is there a music note symbol located within a heart shape on the central yellow belly section?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The bow on top of the head is a distinctive decorative feature that contributes to the toy’s character and charm. While the material changes from satin to glass, its position and form (a looped ribbon-like structure) must remain unchanged to preserve visual continuity. This is a 2-point element because it is a key accessory defining the toy’s appearance.
+    Question: Is there a ribbon-like bow positioned at the top of the seahorse’s head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The two fins on the sides of the body are anatomically significant and visually balanced. Their presence and lateral placement near the midsection are necessary for maintaining the seahorse’s natural form. Even if made of glass, their count and position must remain to ensure correct identification. This is a 2-point element due to its structural importance.
+    Question: Are there exactly two fins positioned on the sides of the seahorse’s body, near the midsection?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The eyes are critical facial features that give the toy its expressive character. Their large, round, black-with-white-highlight design is a signature trait. Altering their shape or position would change the toy’s personality and recognition. This is a 2-point element because it affects both identity and emotional appeal.
+    Question: Are the eyes large, round, black with white highlights, and placed symmetrically on the face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The belly is a central component, both visually and functionally. Its position in the middle of the body and its larger size relative to the head and tail are important for balance and identifying the toy’s interactive area. Even if transformed into glass, its central location and proportional size must be preserved. This is a 1-point element because it supports overall structure but is less distinct than other features.
+    Question: Is the yellow belly section located centrally on the body and larger than the head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

@@ -1,0 +1,116 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a detailed sandcastle constructed on a wet sandy beach, positioned to the right side of the frame. The castle features multiple conical turrets, cylindrical towers, and layered architectural elements resembling a medieval fortress, with small red flags atop several spires. It is built from compacted sand, showing visible grain texture and shadowing that emphasizes its three-dimensional form. In the foreground, scattered across the damp sand near the waterline, are various natural seashells—some spiral, some fan-shaped—in warm beige, orange, and pink tones. A bright red plastic shovel with a yellow handle lies partially submerged in shallow water, angled toward the left. The ocean behind the scene displays rolling greenish-blue waves with white foam crests, under a partly cloudy sky transitioning from pale blue to golden hues near the horizon, suggesting early morning or late afternoon light. The reflection of the sky and waves appears faintly on the wet sand surface, enhancing depth.
+
+Thinking process:  
+The editing instruction explicitly states transformations:  
+- "Transform the sandcastle and beach scene into a collection of translucent crystal sculptures" → This allows changing material (sand → crystal), texture (grainy → faceted), and visual properties (opaque → translucent).  
+- "Render the castle with faceted clear crystals, highlights in soft blue shades" → Confirms material change and color tone shift; original sand texture and color are no longer required.  
+- "Replace seashells with small, polished gemstones in pastel hues" → Seashells must be replaced; their shape may be preserved but not their material or origin.  
+- "Reimagine the ocean as a wave pattern etched into a frosted glass slab" → Ocean’s physical form is replaced entirely; waves are now decorative etching, not real water.  
+- "Place these elements in a minimalist gallery display case" → Background environment changes completely; beach and sky are removed and replaced with curated indoor setting.  
+
+Thus, all environmental context (beach, ocean, sky), material composition (sand, shells, plastic), and spatial layout (natural shoreline) are permitted to change. Only the **structural form and relative positioning** of key objects may need retention if implied by transformation logic.
+
+Allowed Changes List:  
+- Material of sandcastle (sand → crystal)  
+- Texture of sandcastle (grainy → faceted)  
+- Coloration of sandcastle (natural beige → translucent with blue highlights)  
+- Material and appearance of seashells (organic shell → polished gemstone)  
+- Color of seashells (natural tones → pastel hues)  
+- Nature of ocean (real water → etched frosted glass)  
+- Overall environment (beach → gallery display case)  
+- Lighting and atmosphere (natural sunlight → controlled gallery lighting)  
+- Presence and form of shovel (plastic tool → possibly stylized version or omitted)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Despite extensive transformation, certain **core structural identities** must remain to preserve recognition of the subject. These are derived from exclusion:
+
+1. **Core recognition elements**:  
+   - The **iconic silhouette and tiered architecture** of the sandcastle — including its central tower, multiple turrets, and stepped base — defines it as a sandcastle, even when transformed. While material changes, the **formal structure** (e.g., number of towers, central spire, symmetrical layout) must be retained for identification.  
+   - The **relative placement of towers** (central tall spire flanked by smaller ones) is essential to maintain architectural coherence and distinguish this specific design.  
+   - The **presence and orientation of the red flags** on top of the turrets — though color might shift slightly, their **position at the apexes** should remain to preserve symbolic identity.  
+
+2. **Functional/logical association elements**:  
+   - The **shovel's position near the base of the castle** implies human interaction and scale. Even if transformed into a crystal version, its **placement in the foreground**, **angled toward the castle**, and **partial submersion in water** suggest narrative continuity (childhood play). If relocated arbitrarily, logical connection breaks.  
+   - The **spatial relationship between the castle, shells, and shovel** must remain consistent: the shovel is adjacent to the shells, which are clustered near the castle’s foundation. This layout supports the theme of a constructed beach scene.  
+
+3. **Non-modified element deduction**:  
+   - Though shells are replaced, their **distribution pattern** (scattered around base of castle) should be preserved.  
+   - Though ocean becomes glass, the **wave-like motion** must still appear as a **pattern**, not random lines — so the **directionality and rhythm of waves** should be retained in the etched design.  
+   - The **overall composition** — castle on right, ocean on left, horizon line dividing sky and sea — should be preserved in layout, even if rendered differently.  
+
+Preservation Targets List:  
+- The **tiered, multi-turreted structure** of the sandcastle  
+- The **central spire with flag** and surrounding smaller towers  
+- The **red flags atop each turret**  
+- The **relative positioning of the shovel** in the foreground, angled toward the castle  
+- The **clustering of shells/gemstones** at the base of the castle  
+- The **horizontal wave pattern** in the background (now etched)  
+- The **presence of the shovel** as a key accessory indicating construction  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The tiered, multi-turreted structure of the sandcastle is its defining architectural identity. Changing its overall form would make it unrecognizable as a sandcastle, even if made of crystal. The presence of a central tower flanked by smaller ones is essential for identifying this specific type of sandcastle. Thus, preserving this configuration is critical.
+    Question: Does the transformed sculpture retain a central tall spire flanked by multiple smaller turrets arranged symmetrically?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The red flags on the turrets are iconic markers of the sandcastle’s playful, whimsical nature. Their presence at the top of each tower adds symbolic detail and distinguishes this structure from generic towers. Removing them or relocating them would diminish its identity as a child-built fantasy castle.
+    Question: Are there small red flags positioned at the tip of each turret of the crystal sculpture?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The shovel is a functional object tied to the act of building. Its placement near the castle, partially submerged, suggests recent use. Moving it away or altering its angle would break the narrative logic of a constructed beach scene. Even if transformed, its location must remain consistent.
+    Question: Is the shovel located in the foreground, angled toward the base of the castle, and partially submerged in reflective water?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The clustering of shells at the base of the castle establishes spatial context and enhances realism. Replacing them with gemstones does not negate their role; their distribution pattern must remain to preserve the original scene’s logic. Dispersing them randomly would disrupt the sense of a constructed environment.
+    Question: Are the gemstones (replacing seashells) grouped in a cluster at the foot of the crystal castle, similar to the original shell arrangement?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The wave pattern in the background is not just decoration—it represents the ocean. Although reimagined as an etched design, the directionality and rhythm of the waves must match the original ocean’s movement. A static or unrelated pattern would fail to convey the same environmental context.
+    Question: Does the frosted glass slab feature a continuous horizontal wave pattern that mimics the original ocean’s rolling motion?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The central spire is the tallest and most prominent feature of the castle. Its dominance in height and position anchors the entire structure. Losing this feature would distort the architectural hierarchy and reduce recognizability.
+    Question: Is the tallest tower located centrally within the crystal sculpture, rising above all other structures?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q7: 
+    Thinking process: The red shovel with yellow handle is a distinct object with unique color contrast. Even if transformed, its color scheme and shape should be recognizable. A fully different-colored or shaped tool would misrepresent the original intent.
+    Question: Does the shovel retain a red blade and yellow handle, even if rendered in crystal or another material?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

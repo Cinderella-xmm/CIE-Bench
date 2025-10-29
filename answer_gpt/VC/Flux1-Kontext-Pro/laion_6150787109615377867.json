@@ -1,0 +1,84 @@
+{
+  "filename": "laion_6150787109615377867",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the tabletop still circular in shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tabletop remains circular. This is determined by observing the top view of the table, which shows a flat, round surface. The visual indication of a circular tabletop is clear as the edges form an uninterrupted curve, maintaining the circular shape. Despite the stylistic changes, such as the steampunk elements, the shape itself remains consistent with common geometric forms.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does a single vertical column extend from the center of the tabletop to the base?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the central supporting structure of the table does not have a single vertical column extending directly from the tabletop to the base. Instead, it features a complex, mechanical body that appears more like a combination of gears and components typical of a steampunk design, with arms attached to the sides, rather than a straightforward column. By understanding typical column structures, this deviation indicates that the characteristic single vertical column is not present here.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the base consist of five symmetrically arranged legs forming a star shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the base of the table features four symmetrically arranged legs, each extending from the center of the table to the floor. This configuration is consistent with many tables' designs to provide stability, but there are four legs instead of five, and they do not form a star shape. The arrangement resembles more of an 'X' than a star. Observing Image A, which does have a five-legged star-shaped base supports this analysis.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are there small black rubber feet at the tip of each leg?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the table feet, but they seem to be uniformly metallic, without distinct black rubber tips. In Image A, black rubber feet are visibly affixed to the base of the legs, which is a common feature to prevent slipping and protect the floor. The absence of these in Image B suggests that the design is purely metallic without additional rubber elements.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the height of the central column approximately equal to the diameter of the tabletop?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the tabletop is significantly larger in diameter compared to the height of the central body structure. The body, resembling a mechanical torso, does not equate in height to the tabletop's diameter. A visual interpretation comparing these dimensions suggests the tabletop spans a greater distance than the height of the central structure, illustrating that this doesn't follow the shaded height-to-diameter proportion.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the main body of the table still made of a shiny, silver-colored metal?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the material of the table's main body is not a shiny, silver-colored metal but rather has a brass, bronzed appearance characteristic of steampunk aesthetic design. The color scheme changes from Image A's more modern, industrial shiny silver to a rustic, aged bronze, indicating a material that appears visually distinct from polished steel or aluminum.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.23076923076923078
+}

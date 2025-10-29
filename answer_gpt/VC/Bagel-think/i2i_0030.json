@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0030",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are all the original fruit types (pineapple, kiwi, pear, watermelon, orange, banana, and blueberries) retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the edited image features a fruit arrangement on the juice carton, which appears to include slices of pineapple, kiwi, watermelon, orange, banana, and blueberries. Pear slices are not clearly visible or identifiable due to the limited resolution and context provided in Image B. Comparing with Image A's clear depiction of all these fruits, Image B lacks clear evidence of pear slices. Therefore, not all original fruit types are confirmed to be present.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the original colors of the fruits (yellow, green, red, orange, and purple) preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B represents the fruits on the carton. The colors observed include yellow (pineapple), green (kiwi), red (watermelon), orange (orange slices), and dark shades likely representing blueberries. These colors correspond to the original fruits in Image A. Despite being a simplified illustration, Image B retains the color scheme of the fruits depicted in Image A.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the cross-section texture of the kiwi and the seed pattern of the watermelon retained in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the fruits are part of a graphic representation on a carton. The kiwi cross-section and watermelon seed pattern, while stylized, reflect a level of detail attempting to mimic the naturalistic depiction seen in Image A. The kiwi's texture and watermelon seeds are distinct enough in the edited representation. Thus, these details are retained to a recognizable extent.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the original relative positioning and arrangement of the fruits preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the representation of the fruit plate appears on the carton with the fruits close together but lacking the precise arrangement as seen in Image A, where the slices had a deliberate layout. Image B presents an artistic and approximate arrangement without clear separation, indicating the positioning is not precisely maintained.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the white plate and golden tray still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the image of the fruit platter is printed on a juice carton, which does not feature a white plate or a golden tray. These background elements from Image A are not part of the edited image, focusing solely on the fruit arrangement depiction.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_851",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image rendered in monochrome (grayscale)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the colors are not varied, and shades of gray, black, and white are prominent. This suggests that the image is rendered in monochrome or grayscale as typically colored elements like the horse, trailer, and clothing lack vibrant colors.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the event details written in rustic, slightly imperfect typography?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The typography in Image B appears bold but inconsistent, with some letters seemingly incomplete or distorted, suggesting a rustic or imperfect style commonly seen in handcrafted signage.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the advertisement include the event name \"Riders & Reins Expo 2024,\" location \"Evergreen Equestrian Center, Olympia, WA,\" and date/time \"Saturday, September 14, 2024, from 10:00 AM to 6:00 PM\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows large, fragmented words such as 'RIDES & COIVS,' which don't match the specified event name. There's also no clear indication of location or date/time specifics that coincide with the given details, alluding to different content.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there visible space allocated for listing ticket prices and contact details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B has textual information overlaying the image, such as numbers and letters. Though these resemble potential ticket prices or codes in advertisements, there is no clearly visible section specifically reserved for detailed contact or pricing information.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the advertisement formatted in standard letter-sized portrait orientation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "未找到模型对该问题的解释",
+      "weight": 1,
+      "model_answer": "未找到对应回答",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

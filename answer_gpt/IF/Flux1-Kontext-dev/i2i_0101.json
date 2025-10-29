@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0101",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the text \"flyaway\" been added to the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon observing Image B, the text 'flyaway' is visible below the painting. This text was not naturally part of the setting and appears to have been added intentionally to the image by analyzing the font and format typical in image editing.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the text “flyaway” written in a handwritten font?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text 'flyaway' possesses characteristics often associated with handwritten fonts, such as variations in stroke width and a cursive style. These features indicate that the text 'flyaway' is styled in a handwritten manner.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the text \"flyaway\" located directly below the painting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the positioning of the text 'flyaway' is aligned horizontally under the painting at the center of the sideboard. The text's proximity and alignment suggest it is directly below the painting without deviation to the side or further down the wall.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the text \"flyaway\" complement the scene and contribute to a romantic postcard-style appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text 'flyaway' combined with the painting of misty mountains and trees evokes a sense of escape and longing often associated with romantic scenes depicted in postcards. The use of a handwritten font adds nostalgia and elegance, enhancing the postcard-like appeal of the edited scene.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any additional elements or changes apart from the handwritten text “flyaway” below the painting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No\n```",
+      "explanation": "In comparing Image A and Image B, the sole change involves the addition of the text 'flyaway' beneath the painting. No other elements, such as objects or alterations in lighting, have been introduced to the scene, preserving the original setup apart from the added text.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

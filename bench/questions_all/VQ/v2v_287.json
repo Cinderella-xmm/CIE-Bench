@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of \"converting the train into a 3D voxel model while maintaining structural coherence and visual plausibility\", evaluate whether the conversion maintains a certain sense of realism without obvious unnatural artifacts.",
+      "question": "Does the 3D voxel model of the train maintain its original shape and proportions, avoiding any distortion or broken geometric shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Considering the sub requirement of \"rendering the train in 8k resolution to ensure high detail and natural appearance\", assess if the fine details are preserved and there are no unnatural textures introduced.",
+      "question": "Are the fine details of the train's surface, such as windows and lights, clear and free from unnatural textures?",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Given the sub requirement of \"matching the style of the icons shown in the left image\", check if the material and color of the 3D voxel model reflect the overall sense of reality and natural appearance.",
+      "question": "Do the materials and colors of the 3D voxel model train match the style of the icons, ensuring a natural and consistent appearance with the rest of the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Focusing on the sub requirement of \"avoiding the introduction of artifacts and loss of details\", verify that the editing does not introduce any visual anomalies that disrupt the authenticity of the scene.",
+      "question": "Is the transition between the 3D voxel model train and the real-world elements seamless, without introducing any visible artifacts or inconsistencies?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "According to the sub requirement of \"maintaining structural consistency and visual credibility\", examine if the composition and layout of the edited train within the station setting remain plausible and believable.",
+      "question": "Does the placement and orientation of the 3D voxel model train within the station platform appear natural and consistent with the surrounding environment?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

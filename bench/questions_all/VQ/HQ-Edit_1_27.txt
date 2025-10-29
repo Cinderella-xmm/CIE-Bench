@@ -1,0 +1,63 @@
+```
+Step 1: Disassemble Editing Instructions
+-<Thinking Process 1>: The editing instruction requires transforming the existing snowy Eiffel Tower scene into a miniature diorama enclosed within a decorative glass dome. This involves significant structural and environmental changes, including scaling down all elements to micro-size, adding a transparent dome structure, modifying lighting to simulate a subtle glow from miniature streetlamps, and altering textures to reflect delicate powdery snow and cobblestone pathways. The original image features a full-scale winter scene with realistic proportions, human figures, trees, lampposts, and the Eiffel Tower under a dramatic sky. The transformation must preserve the architectural integrity of the Eiffel Tower while shrinking all components proportionally and introducing new elements like the glass dome and micro-scale details without distorting geometry or introducing artifacts.
+
+-Sub requirement 1: Ensure that the entire scene is scaled down uniformly to maintain proportional relationships between the Eiffel Tower, people, trees, lampposts, and pathways, avoiding distorted or oversized elements that break visual credibility.
+
+-Sub requirement 2: Verify that the added glass dome is transparent, structurally coherent, and positioned correctly over the entire scene without intersecting or obscuring key elements like the Eiffel Tower or skyline.
+
+-Sub requirement 3: Confirm that the snow texture is rendered as fine, powdery, and consistently distributed across surfaces (ground, trees, lampposts) without clumping or unnatural patterns, preserving natural appearance.
+
+-Sub requirement 4: Check that the miniature figures are proportionally reduced, wearing vintage attire, and placed naturally in poses (standing, sitting, photographing), with correct limb count and anatomy, avoiding deformation or unnatural silhouettes.
+
+-Sub requirement 5: Evaluate whether the streetlamps emit a soft, diffused glow consistent with miniature light sources, without harsh halos or unrealistic brightness, and whether their placement aligns with the original layout.
+
+-Sub requirement 6: Assess if the cobblestone pathways are visible beneath the snow, showing fine texture and logical winding patterns, maintaining realism even when partially covered.
+
+-Sub requirement 7: Confirm that the bare-branched trees retain natural branching patterns and are lightly dusted with snow, avoiding excessive accumulation or unnatural shapes.
+
+-Sub requirement 8: Ensure that the overall lighting and shadows remain consistent with a miniature indoor setting under diffuse illumination, not conflicting with outdoor daylight cues.
+
+Step 2: Generate Yes/No Questions
+Q1: 
+Thinking process: Based on the sub requirement of maintaining uniform scaling of all elements in the scene, this question evaluates whether the Eiffel Tower and surrounding objects (people, trees, lampposts) have been proportionally reduced to match the miniature scale without distortion. The Eiffel Tower's intricate lattice structure must remain geometrically intact, and no part should appear stretched or compressed.
+Question: Is the Eiffel Tower’s structure preserved with accurate proportions and no geometric distortions despite being scaled down?
+Choices: Yes, No  
+A: Yes
+
+Q2: 
+Thinking process: Based on the sub requirement of adding a transparent glass dome over the entire scene, this question checks whether the dome is visually present as a smooth, curved surface enclosing the scene without clipping into the Eiffel Tower or other elements. It also ensures the dome does not introduce reflective artifacts or occlude key parts of the view.
+Question: Is there a clear, seamless glass dome structure above the scene that fully encloses it without intersecting or distorting any elements?
+Choices: Yes, No  
+A: Yes
+
+Q3: 
+Thinking process: Based on the sub requirement of rendering snow as delicate and powdery, this question assesses whether the snow on the ground, trees, and lampposts appears fine-grained and evenly distributed, without clumps, streaks, or unnatural patches that would suggest low-quality texture mapping.
+Question: Does the snow cover on the ground, trees, and lampposts appear uniformly powdery and free of clumping or artificial texture patterns?
+Choices: Yes, No  
+A: Yes
+
+Q4: 
+Thinking process: Based on the sub requirement of creating tiny silhouetted figures with vintage attire, this question examines whether the human figures are correctly scaled, anatomically plausible (e.g., five fingers per hand), and posed naturally (e.g., sitting, standing, holding cameras). It checks for deformities such as extra limbs or incorrect proportions.
+Question: Are all human figures proportionally small, anatomically correct (including hands with no more than five fingers), and posed in natural stances without deformation?
+Choices: Yes, No  
+A: Yes
+
+Q5: 
+Thinking process: Based on the sub requirement of adding micro-sized streetlamps with a subtle glow, this question verifies whether the lamps emit a soft, localized light consistent with miniature sources and do not produce harsh glows or unrealistic brightness that breaks the diorama illusion. It also checks if the lamp positions follow the original alignment along the walkway.
+Question: Do the streetlamps emit a faint, diffused glow without bright halos or overexposed areas, and are they aligned along the pathway as in the original image?
+Choices: Yes, No  
+A: Yes
+
+Q6: 
+Thinking process: Based on the sub requirement of including fine cobblestone pathways beneath the snow, this question evaluates whether the stone pattern is subtly visible through the snow layer, showing regular spacing and texture consistent with real cobblestones, rather than flat or missing detail.
+Question: Are cobblestone textures visibly embedded beneath the snow along the pathways, showing consistent patterns and fine detail?
+Choices: Yes, No  
+A: Yes
+
+Q7: 
+Thinking process: Based on the sub requirement of having bare-branched trees with a light dusting of snow, this question checks whether the tree branches are naturally shaped, not overly thick or stylized, and lightly coated with snow without excessive buildup that would make them look unrealistically heavy or collapsed.
+Question: Are the tree branches thin, naturally branched, and lightly dusted with snow without sagging or unnatural accumulation?
+Choices: Yes, No  
+A: Yes
+```

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0004",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the head been slightly enlarged compared to the original body proportion?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the head-to-body ratio is larger than what is typically observed in realistic human proportions. This enlargement is characteristic of cartoon characters. By contrast, in Image A, the head-to-body ratio appears to be consistent with normal human anatomy. Therefore, based on visual cues and common knowledge about cartoon depictions, it is reasonable to conclude that the head has been slightly enlarged in the edited image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Has the body been cartoonified with flattened colors and simple shapes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the body appears with simplified, exaggerated shapes, and the colors are more uniform and less complex compared to what would be expected in a realistic depiction. This is characteristic of cartoon styles, where details are minimized to create a stylized effect. From these visual cues, it is clear that the body has been cartoonified.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the edited subject placed against a background resembling a bookshelf?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the background features rows of books and a trophy, which are elements typically associated with a bookshelf. This visual resemblance to a bookshelf is the same as what is seen in Image A, reinforcing that the edited subject is indeed placed against a background resembling a bookshelf.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the facial features such as the eyes, smile, and proportions accurately maintained after enlarging the head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, it is not possible to assess the facial features due to the blurring. Without visual cues to analyze the facial elements, one cannot ascertain whether they are accurately maintained in the edited image.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the cartoonified body appear separate from and non-intrusive to the realistic face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Given the cartoonified body in Image B, typically, such a style would create a distinction between a realistic face and a stylized body. However, the face is blurred, making it challenging to directly assess its realism and interaction with the body. Despite this, the cartoon style of the body inherently suggests it may appear distinct from a more realistic head.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

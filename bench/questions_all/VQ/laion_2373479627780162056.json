@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of stylizing the suit with watercolor blue-black tones, this involves modifying the texture and color of the suit jacket. The original image shows a dark navy suit with a smooth, fabric-like surface. The editing instruction introduces watercolor effects, which may alter the material appearance. Therefore, it is necessary to evaluate whether the watercolor effect maintains a natural texture without introducing unnatural brushstroke artifacts or inconsistent shading that breaks the fabric’s structural coherence.",
+      "question": "Does the suit jacket exhibit watercolor-style blue-black tones with smooth transitions and no visible digital artifacts such as jagged edges or unnatural blotches?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Based on the sub requirement of adding golden pinstripe details to the suit, the original image has no visible pinstripes. Introducing fine golden lines must align with the fabric's weave and lighting direction. The addition should not distort the suit’s geometry or appear as floating lines disconnected from the material. This requires checking for alignment, thickness consistency, and reflection logic under ambient light.",
+      "question": "Are the golden pinstripes aligned with the suit’s fabric grain and do they reflect light consistently with the surrounding material, avoiding floating or misaligned lines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "Based on the sub requirement of featuring the tie in various patterns, the original image shows a solid red tie with small white polka dots. The editing instruction implies a change in pattern across multiple versions. However, in a single output, one variant should be rendered. The key concern is whether the new pattern maintains consistent scale, spacing, and texture relative to the tie’s shape and material. Any distortion in pattern repetition or scaling would break realism.",
+      "question": "Is the pattern on the tie uniformly distributed, maintaining consistent size and spacing across its surface without stretching or repeating errors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "Based on the sub requirement of presenting each card in a leather-bound album with embossed title, this suggests an overlay of a frame or border around the image. The original image is a close-up portrait with no such framing. Adding a leather-bound border must preserve the proportions of the subject and avoid distorting the face or clothing at the edges. It must also have realistic textures like stitching, grain, and embossing depth.",
+      "question": "Does the leather-bound border feature realistic texture details such as stitching, grain, and embossed lettering without warping or clipping the subject’s features?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "Based on the sub requirement of rendering the entire scene as a vintage art print on satin paper, the overall image should have a matte or slightly reflective surface quality consistent with satin paper. This affects how light interacts with the image—there should be subtle sheen but no over-saturation or unnatural gloss. Additionally, the watercolor style must integrate with the paper texture without appearing overly flat or digitized.",
+      "question": "Does the background and surface of the image show a soft, uniform satin paper texture with subtle reflections, avoiding harsh glare or pixelation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

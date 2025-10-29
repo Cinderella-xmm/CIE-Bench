@@ -1,0 +1,103 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a bouquet of orange lilies arranged in a clear glass vase. The lilies are fully bloomed, displaying bright orange petals with dark reddish-brown anthers and prominent stamens. Each flower has six elongated, slightly recurved petals with subtle veining and speckled patterns near the base. The flowers are clustered densely at the top, forming a rounded floral mass. Some buds remain unopened, showing green tips. The stems are green, slender, and straight, submerged in water inside the transparent cylindrical glass vase. The vase is simple, short, and clear, allowing visibility of the stems and water level. The background is plain white, evenly lit, with no shadows or textures, emphasizing the bouquet as the sole focus.
+
+**Thinking process:**  
+The editing instruction explicitly states:  
+- *"Transform the orange lilies into intricate crystal sculptures with transparent and tinted amber hues."* → This means the **form and material** of the lilies can be changed; they are not required to remain biological flowers.  
+- *"Maintain the petal shapes by layering jagged crystal facets."* → While the **overall shape of the petals must be preserved**, their texture and composition change from organic to crystalline.  
+- *"Replace the stems and leaves with delicate glass rods emanating from the vase."* → The **stems and foliage are to be replaced entirely** with artificial glass elements.  
+- *"Position the transformed bouquet on a sleek black marble tabletop to enhance its elegance and craftsmanship."* → The **background and surface environment changes completely** from white to black marble.  
+
+Thus, the allowed changes include:
+- The **material and texture** of the lilies (from organic to crystal)
+- The **material and form** of the stems and leaves (replaced with glass rods)
+- The **background surface** (changed from white to black marble)
+
+However, the instruction specifies **preservation of petal shapes**, which implies that the **general silhouette and arrangement** of the petals must remain recognizable as lily-shaped. Additionally, the **vase remains**, though its contents may change.
+
+**Allowed Changes List:**  
+- The physical form and material of the lilies (now crystal)  
+- The stems and leaves (replaced with glass rods)  
+- The background and surface (changed to black marble tabletop)  
+- The internal structure of the flowers (now layered crystal facets)  
+- The coloration of the petals (now amber-tinted transparent crystal)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now identify what **must not change**, based on exclusion and logical necessity:
+
+1. **Core recognition elements**:  
+   - The **petal shape** of the lilies is explicitly stated to be maintained ("maintain the petal shapes"). Even though they become crystal, the **outline and orientation** of each petal must resemble the original lily form. This is critical for identity retention—without this, it would no longer resemble a lily bouquet.
+   - The **overall bouquet configuration**—the dense cluster of flowers forming a rounded top—is implied to be preserved since only petal shapes are specified to be kept. Changing the spatial arrangement would violate visual continuity.
+   - The **number and grouping of flowers** should be retained, as altering them would fundamentally change the composition.
+
+2. **Functional/logical association elements**:  
+   - The **vase must remain** because it is the container from which the stems emerge. Although the stems are replaced, the vase's role as the base holding the bouquet is functional and logical. The instruction says “emanating from the vase,” so the vase must still exist and be positioned similarly.
+   - The **water level in the vase** may change due to glass rod replacement, but the **presence of liquid** is not mentioned as removed—so if water is still present, it should remain visible. However, since glass rods replace stems, water might be less relevant. But since the vase’s function is preserved, its **shape and transparency** should remain unchanged.
+
+3. **Non-modified element deduction**:  
+   - The **arrangement of flowers in a tight cluster** is not mentioned as changed, so it must be preserved.
+   - The **relative positioning of blooms**—some open, some closed—should be retained, even if the closed ones are now crystal buds.
+   - The **orientation of the bouquet** (upright, facing forward) is implied by the instruction's focus on "positioning" it on a table, suggesting the same frontal view.
+
+**Preservation Targets List:**  
+- The **petal shapes** of the lilies (must retain lily-like curved, elongated, six-petal structure)  
+- The **overall bouquet form** (dense, rounded cluster of flowers)  
+- The **vase** (clear, cylindrical, transparent, containing the stems/rods)  
+- The **presence and position of the vase** (centered, upright, supporting the bouquet)  
+- The **spatial relationship** between the bouquet and the vase (flowers emerging from the vase)  
+- The **number and general distribution of flowers** (not reduced or rearranged significantly)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The key recognition feature of the lilies is their distinctive six-petal structure with elongated, recurved shape. Even when transformed into crystal, preserving this shape is essential for identifying the subject as a lily bouquet. If the petal forms are altered (e.g., becoming circular or flat), the core identity is lost. Thus, this is a core identification element with weight 3.
+    Question: Are the individual flower petals shaped like elongated, recurved lily petals with six distinct segments per bloom?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The overall bouquet configuration—a dense, rounded cluster of multiple blooms—is a defining compositional feature. Changing this layout (e.g., spreading out or linearizing) would break the visual identity of the original bouquet. It is a major structural element affecting recognition, hence weighted 2.
+    Question: Is the bouquet arranged in a tightly packed, spherical cluster with multiple flowers overlapping?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The clear glass vase is central to the scene's logic and function—it holds the stems and anchors the bouquet. Replacing it would alter the entire setup. The instruction mentions rods "emanating from the vase," confirming the vase's continued presence. Its transparency and cylindrical shape are essential for visual consistency. Therefore, it must be preserved.
+    Question: Is there a transparent, cylindrical glass vase holding the bouquet?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4: 
+    Thinking process: The position of the vase relative to the bouquet is crucial for maintaining the original scene's logic. If the vase is moved or reoriented (e.g., tilted or placed sideways), the spatial relationship breaks. Since the bouquet emerges from it, this functional link must be preserved.
+    Question: Is the vase positioned directly beneath the bouquet, with stems/rods extending upward from it?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The number of visible flowers and their arrangement (some open, some closed) contribute to the bouquet’s realism and completeness. Reducing or altering this would make the edited version inconsistent with the original. While not the most critical, it supports coherence and visual fidelity.
+    Question: Are there approximately ten to twelve flowers visible in the bouquet, including both open blooms and closed buds?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

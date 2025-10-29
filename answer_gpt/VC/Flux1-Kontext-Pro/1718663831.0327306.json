@@ -1,0 +1,71 @@
+{
+  "filename": "1718663831.0327306",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the dog's fur primarily white with distinct sandy-colored spots on the ears and face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the dog's body below the blurred face shows a fur color that appears primarily white. Without the ability to see the face due to the blur, we focus on visible cues: the ears appear to have a lighter coloration, but specific sandy-colored spots cannot be definitively identified. Common knowledge of such dogs would suggest they sometimes have differing ear colors, often mildly sandy or tan. However, the lack of clear distinction in Image B leads to the answer.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the dog have a rounded head with pointed ears and a short muzzle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays a dog-like body with visible pointed ears suggesting a possible rounded head despite the blur over the face. Pointed ears can imply certain dog breeds that commonly have a shorter muzzle, and the small proportion of visible body supports a small, compact dog, typically one with a short muzzle. Thus, combining visual cues with breed characteristics knowledge leads to this conclusion.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the dog wearing black rectangular sunglasses with dark lenses?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are no visual cues showing sunglasses or other accessories on the dog's visible body. Given world knowledge of fashion and accessories, sunglasses would be prominently visible and stand out, especially with their darker color against light fur because they usually cover the upper face and eyes.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the dog seated upright with its body facing forward?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The visible body posture in Image B shows the dog sitting with its front legs and paws forward, indicative of an upright seated position, especially on a stable surface as seen here. The legs’ positioning and the angle suggest the body faces forward.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the dog have a compact body with short legs and a fluffy tail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a compact body due to the visible torso and leg proportions, which appear short and stocky. Such body types are often associated with fluffy tails due to similar breeds. Although the tail is not explicitly visible, the compactness and body proportion support this characteristic.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5454545454545454
+}

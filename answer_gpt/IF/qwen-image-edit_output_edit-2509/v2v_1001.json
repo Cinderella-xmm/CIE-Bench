@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_1001",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is there a ketchup bottle positioned in the lower-right corner of the image, angled slightly toward the center?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a visible object in the lower-right corner which resembles a bottle with a red liquid pouring out, creating a puddle. This is visually consistent with a common representation of a ketchup bottle. The bottle is positioned at an angle pointing upwards toward the center of the image, suggesting it is the object queried.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the text “The king of flavors” displayed in the middle of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, text reading 'The king of flavors' is present and appears prominently near the top-central area of the image. The visual emphasis and central placement make it noticeable, which aligns with the description of being 'in the middle'.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the text “The king of flavors” crafted in a glossy, ketchup-style script font?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text in Image B is in a bold and shiny red font, designed to resemble a ketchup texture. The style imitates the glossy and slightly thick appearance of ketchup, which is consistent with the description of 'ketchup-style script'.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the letters of “The king of flavors” appear to hover in the air and subtly mingle with the mist of the forest?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text in Image B is set against a misty background, creating the illusion that the letters are hovering. The way the glossy letters are depicted gives them a somewhat floating appearance, and they seem to merge into the mist slightly, matching the description.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there streams of ketchup visually linking back to the opened bottle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the text appears to have streams or drips that resemble ketchup, but these are attached to the text itself and do not trace back to the bottle seen at the bottom right. Therefore, there is no visual link observed connecting these streams directly to the bottle.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

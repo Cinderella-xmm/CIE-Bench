@@ -1,0 +1,60 @@
+### Step 1 - Analyzing Allowed Changes and Determining Reference Image Details
+
+**Description of reference image:**  
+The image shows three plush toys—a yellow teddy bear, a purple bunny, and an orange fox—lined up against a light blue wall. They are positioned on a beige carpet near a white crib with a patterned mattress. The toys are soft, fluffy, and have distinct colors and shapes. The crib has vertical bars and a curved headboard.
+
+**Thinking process:**  
+The editing instruction specifies replacing the plush toys with armored medieval knights. This means the form, texture, and appearance of the toys can be changed. However, the scene's other elements, such as the wall, floor, and crib, should remain consistent unless explicitly stated otherwise.
+
+**Allowed Changes List:**  
+- The plush toys can be replaced with armored medieval knights.
+- The texture and appearance of the toys can be altered to match medieval armor.
+- The positioning of the new figures may adjust slightly to fit the new forms.
+
+### Step 2 - Determining Elements That Should Remain Unchanged
+
+**Thinking process:**  
+Core recognition elements include the room's setting, which helps maintain the context of a nursery. Functional/logical association elements involve the spatial arrangement of the objects relative to the crib and wall. Remaining elements, like the color and design of the crib, contribute to visual coherence.
+
+**Preservation Targets List:**  
+- The light blue wall and beige carpet.
+- The white crib with its design and mattress pattern.
+- The spatial arrangement of the objects relative to the crib and wall.
+- The overall lighting and shadows in the room.
+
+### Step 3 - Generating Question Answer Pairs
+
+**Q1:**  
+Thinking process: The light blue wall is a core recognition feature of the nursery setting. Changing this would alter the scene's identity significantly.
+Question: Is the wall behind the objects still light blue?
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+**Q2:**  
+Thinking process: The crib's design is a key element that maintains the nursery's context. Its presence and design are crucial for scene consistency.
+Question: Does the white crib with vertical bars and a curved headboard remain in the image?
+Choices: Yes, No  
+A: Yes  
+Weight: 3  
+
+**Q3:**  
+Thinking process: The mattress pattern contributes to the scene's detail and helps maintain visual consistency.
+Question: Is the crib mattress still patterned with yellow and gray cloud designs?
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+**Q4:**  
+Thinking process: The spatial arrangement ensures the logical placement of objects in the scene, preserving the nursery's layout.
+Question: Are the new figures (medieval knights) still positioned along the wall near the crib, maintaining their relative alignment?
+Choices: Yes, No  
+A: Yes  
+Weight: 2  
+
+**Q5:**  
+Thinking process: The beige carpet is a minor detail but contributes to the overall visual consistency of the nursery.
+Question: Is the floor still covered with a beige carpet?
+Choices: Yes, No  
+A: Yes  
+Weight: 1  

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_299",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the airplane's wings, engines, and tail?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, we can see the cartoonish airplane with visible wings, engines, and a tail. Although these features have been stylized into a cute, chibi-like design with facial features, they maintain their fundamental parts. Chibi characters often retain key identifying features while being exaggerated in other ways. Therefore, the answer is yes, as these components are still present, albeit in a different style.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the airplane still positioned on the runway in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the image depicts a cartoon airplane in flight with clouds and sky suggesting it is airborne. Lanterns and playful, festive visuals further emphasize the air rather than a grounded position like on a runway, contrasting with the original position in Image A. Therefore, using visual cues, the airplane is not positioned on the runway.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image still feature a golden sunset background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Both Image A and Image B have a background with warm, golden tones typical of a sunset or sunrise. The presence of glowing clouds and the color palette in Image B is consistent with what might be expected from a golden sunset scene, similar to the background in Image A. Therefore, it still features a golden sunset background.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the runway markings (\"10\" and guiding lines) still visible in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are no visible runway markings, numbers, or lines that indicate positioning on a runway. The edited image focuses on a character-like airplane in flight without reference to runway context, unlike Image A, which prominently features these elements. Therefore, the answer is no as the runway markings are not visible.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the horizon line with distant tree silhouettes still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The horizon line with distant tree silhouettes visible in Image A is absent in Image B. Instead of a natural landscape view, the edited image showcases a more abstract sky with floating lanterns, focusing on the cartoon airplane, thereby eliminating the specific horizon and tree elements.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4
+}

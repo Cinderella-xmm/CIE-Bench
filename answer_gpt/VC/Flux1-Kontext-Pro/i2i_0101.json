@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0101",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the image include a framed mountain landscape painting with pine trees above the console table?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is a large framed painting directly above the console table which depicts a mountain landscape with pine trees. The painting's imagery and placement are consistent with a landscape painting commonly used for home decoration. The presence of mountains and pine trees is visually clear and understood from the natural depiction of these elements combined with common knowledge of landscape paintings.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the console table made of wood with four drawers in the middle and two cabinet doors on either side?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Examining Image B, the console table is clearly made of wood, as seen from the grain and natural coloration typical of wooden furniture. While analyzing the structure, we see that the console table has two drawers in the center and a cabinet door on each side, contrary to the description of four drawers. Knowledge of furniture design supports the identification of drawers versus cabinet doors based on handles and paneling. Thus, it does not match the description with four drawers.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the objects on the console table arranged with a potted plant on the left, a stack of books in the center, and a vase with branches on the right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, we observe the arrangement of items on the console table: a potted plant is placed on the left, a stack of books is positioned centrally, and a vase containing branches or twigs is to the right. This arrangement follows the described format. Visual cues such as the position and material of each object aid in the identification and confirmation of the arrangement.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the floor covered with herringbone-patterned parquet wood?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the flooring shows a distinctive herringbone pattern recognizable as parquet wood flooring due to its repetitive diagonal arrangement of rectangular wood segments. The herringbone pattern is a standard design for parquet wood floors often seen in interior design, helping to confirm the description with Image B's flooring.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the wall behind the console table painted white?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows the wall behind the console table, which appears to be white, visible through the consistent shade and lack of color or pattern across the entire surface area visible. Commonly, white is used for walls in homes for its brightness and neutrality, providing a backdrop for decorative items. This analysis confirms the wall's color accurately.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.7
+}

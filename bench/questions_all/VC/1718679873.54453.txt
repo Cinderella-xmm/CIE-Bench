@@ -1,0 +1,108 @@
+Description of reference image: The subject is a colossal humanoid robot standing in an open, arid landscape under a partly cloudy sky. The robot has a highly detailed mechanical design with angular, segmented armor plating in shades of silver, gray, and dark metallic tones, accented with red glowing elements around the chest and eyes. Its head features two prominent antennae-like protrusions and a central visor with blue-tinted optics. The robot's limbs are massive, with articulated joints and large, blocky hands; its right foot is slightly raised, kicking up dust, suggesting motion. The torso displays layered armor plates with visible panel lines, rivets, and mechanical textures. The background includes distant futuristic city structures with tall towers and construction cranes, partially obscured by haze, set against rolling hills and sparse greenery. The lighting is natural daylight, casting soft shadows and highlighting the robot’s metallic surfaces.
+
+Thinking process: First, analyze the editing instructions that clearly state what can be changed:  
+- "Transform the colossal robot into a miniature 3D articulated model" → the **form and scale** of the robot are to be changed (from life-sized to miniature).  
+- "Encased in a sleek, circular display case" → the **container/environment** of the robot changes.  
+- "Add intricate, tiny gears visible under transparent panels" → new internal mechanical details are added, which were not present in the original.  
+- "Position the display on a futuristic hexagonal black base" → the **support structure** is replaced.  
+- "Etching the robot's model number in luminous silver font" → new text element added.  
+- "Surround with a subtly detailed mini landscape evoking the expansive original scene" → the **background environment** is replaced but must reflect the original scene's essence.
+
+Thus, allowed modifications include:
+- The **scale** of the robot (from colossal to miniature).
+- The **physical form** (now enclosed in a display case).
+- The **addition of internal gears** under transparent panels.
+- The **base and casing** (new futuristic hexagonal base and circular glass case).
+- The **text label** (model number etched in silver).
+- The **surrounding environment** (replaced with a scaled-down version of the original landscape).
+
+However, the instruction says “evoking the expansive original scene,” meaning the **core visual elements of the original landscape** (such as distant city skyline, hills, trees) must be **retained in miniature form**, even if stylized. Also, the **robot’s identity** must remain recognizable despite being scaled down.
+
+Allowed Changes List:  
+- Scale of the robot (colossal → miniature)  
+- Enclosure in a circular display case  
+- Addition of visible internal gears under transparent panels  
+- Replacement of the ground with a futuristic hexagonal base  
+- Addition of luminous silver model number text  
+- Replacement of full-scale environment with a miniaturized version of the original scene  
+
+-----------------------------------------------------------------------------------
+
+Thinking process:  
+Core recognition elements:  
+The robot’s identity hinges on its **iconic silhouette**, **distinctive head design** (antennae and visor), **armored body structure**, and **color scheme** (silver-gray with red accents). These are essential for identifying it as the same machine, regardless of scale or context. Even when shrunk, these features must remain intact to preserve identity. For example, the **blue-tinted visor** and **two upward-pointing antennae** are signature features akin to a logo — removing them would make the robot unrecognizable.
+
+Functional/logical association elements:  
+The robot’s **articulated limbs** and **mechanical joint design** suggest mobility and function. While internal gears may be added, the external articulation (e.g., knee joints, shoulder plates) must remain consistent to maintain logical coherence. The **dust kicked up by the right foot** indicates dynamic posture — this should be preserved in the miniature version to retain the sense of movement.
+
+Non-modified element deduction:  
+Although the robot’s size and container change, the **original texture patterns** (panel lines, rivets, armor segmentation), **color distribution** (red lights, blue visor), and **overall shape** (broad shoulders, narrow waist, wide legs) must remain unchanged. Similarly, the **distant city skyline with cranes** and **sparse green trees** must be retained in the miniature landscape to fulfill the instruction’s requirement of “evoking” the original scene.
+
+Preservation Targets List:  
+- The presence of two upward-pointing antennae on the robot’s head  
+- The blue-tinted visor on the robot’s face  
+- The red glowing elements on the chest and eyes  
+- The segmented armor plating with visible panel lines and rivets  
+- The overall bipedal humanoid form with broad shoulders and wide legs  
+- The distant city skyline with tall towers and construction cranes  
+- The presence of scattered green trees in the foreground and midground  
+- The dust cloud beneath the robot’s right foot indicating motion  
+
+-----------------------------------------------------------------------------------
+
+{
+    Q1: 
+    Thinking process: The two upward-pointing antennae on the robot’s head are a defining structural feature, unique to this specific mecha design. Their removal or alteration would fundamentally change the robot’s identity, making it unrecognizable. This is a core identification element, hence weighted at 3 points.
+    Question: Does the robot still have two distinct upward-pointing antennae on its head?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The blue-tinted visor is a key facial feature that distinguishes this robot from others. It is part of the core visual identity and serves as a focal point. Losing this would impair recognition, especially in a miniature format where detail matters more. Thus, it is a critical retention point with a weight of 3.
+    Question: Is there a blue-tinted visor visible on the robot’s face?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The red glowing elements (on chest and eyes) are functional indicators in the original image, contributing to the robot’s menacing and active appearance. They are integral to its aesthetic identity and must be preserved even in the miniature model. Their absence would alter the robot’s character and visual tone.
+    Question: Are there red glowing elements present on the robot’s chest and eyes?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The segmented armor plating with visible panel lines and rivets defines the robot’s mechanical texture and realism. This surface detail is crucial for maintaining the original design language. Even in a miniature model, these textures must be preserved to ensure visual fidelity.
+    Question: Are the segmented armor plates with visible panel lines and rivets still present on the robot’s body?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The distant city skyline with tall towers and construction cranes is a key environmental identifier in the original scene. The instruction requires the landscape to “evoke” the original, so this skyline must be included in the miniature setting to maintain contextual consistency. Its omission would break the scene’s continuity.
+    Question: Is the distant city skyline with tall towers and construction cranes visible in the miniature landscape?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The scattered green trees in the foreground and midground contribute to the natural contrast in the original scene. While minor compared to the robot, they are necessary for environmental authenticity and help ground the miniature landscape. Their presence ensures the scene remains faithful.
+    Question: Are there small green trees present in the foreground and midground of the miniature landscape?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q7: 
+    Thinking process: The dust cloud beneath the robot’s right foot indicates motion and adds dynamism to the pose. This detail enhances the sense of action and must be preserved in the miniature version to maintain narrative coherence and visual impact.
+    Question: Is there a visible dust cloud beneath the robot’s right foot?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

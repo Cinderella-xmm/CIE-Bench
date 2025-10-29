@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the armored knight into a detailed 3D chibi figure, this involves significant style conversion and proportion modification. The original knight is fully scaled and realistically proportioned, standing in an archway. The editing task requires shrinking and stylizing the figure while maintaining material consistency (metal armor, shield, etc.). This transformation must preserve natural textures and avoid geometric distortions such as misshapen limbs or inconsistent scaling. The question evaluates whether the chibi version retains plausible proportions and surface details without artifacts.",
+      "question": "Does the chibi knight maintain consistent metallic texture across the armor, with no visible warping or unnatural smoothing of surfaces?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The instruction specifies converting the scene into a miniaturized diorama within a glass dome. The original image features a full-scale castle and knight under natural lighting. Introducing a glass dome requires adding transparent spherical geometry that encapsulates the entire scene. The dome’s presence must not distort the underlying elements, and reflections/refractions should be physically plausible. The question checks for structural coherence and visual credibility of the dome’s integration.",
+      "question": "Is the glass dome visually coherent, with clear edges and realistic light refraction, and does it enclose all elements without intersecting or clipping through them?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The knight's shield in the original image has a detailed emblem featuring a lion. In the edited version, it must remain a polished metal shield but now held by a chibi figure. The scale change may affect detail resolution. The question evaluates whether the shield’s surface remains free of pixelation, blurring, or texture loss due to downscaling, and whether its reflective properties are preserved.",
+      "question": "Does the shield retain its embossed lion design and metallic sheen, with no visible loss of fine detail or unnatural flatness?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The instruction includes adding tiny flocks of sheep grazing around the knight. These are new elements not present in the original image. Their placement must be spatially consistent with the ground plane and scale relative to the chibi knight. They must have natural wool texture and correct anatomical structure. The question assesses whether these added animals appear physically plausible and do not introduce unnatural textures or distorted shapes.",
+      "question": "Are the sheep proportionally small compared to the knight, with natural wool texture and anatomically correct forms, and are they positioned on the ground without floating or clipping?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "A sleeping dragon curled around a turret is introduced as a whimsical narrative element. The original image contains no dragon. This addition must conform to physical plausibility—its body should follow natural curves, scales should be consistent with reptilian skin, and it should interact properly with the turret (e.g., not passing through stone). The question checks for structural integrity and visual realism of this newly added creature.",
+      "question": "Does the dragon’s body form a continuous, non-intersecting curve around the turret, with consistent scaly texture and no visible gaps or deformation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The white facial blaze extending between the eyes is a core identity feature of this particular husky, distinguishing it from other dogs and even other huskies. It is a unique marking visible in the original image and critical for recognition. If lost in the plush version, the character would lose its individuality and breed-specific appearance. This is a key identifier, hence weight 3.",
+      "question": "Is there a distinct white stripe running vertically between the eyes on the dog's face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "Bright blue eyes are both a breed characteristic and explicitly mentioned in the editing instruction. Their preservation ensures continuity of identity, even when rendered as embroidery. Losing this would misrepresent the subject and break consistency with the original. This is a core visual trait, thus weight 3.",
+      "question": "Do the dog's eyes have a vivid blue color?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The erect, pointed ear shape is essential for identifying the husky breed. Even in a plush form, the ears must retain their upward-pointed structure to maintain breed authenticity. Altering their shape would make the toy unrecognizable as a husky. This is a core structural feature, so weight 3.",
+      "question": "Are the ears upright and sharply pointed at the tips?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The color pattern of tan and cream fur with dark brown markings on the back and face is a defining trait of this specific husky. Changing it would result in a different-looking animal or breed. Though texture changes, color distribution must remain consistent for recognition. This is a major identity element, hence weight 2.",
+      "question": "Does the dog have tan and cream fur with dark brown markings along the back and face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The sitting posture is implied in the instruction (“position on a shelf”) and matches the original image. While the pose may be slightly adjusted for display, the fundamental seated position with front paws forward must be retained to preserve the composition and identity. This is an important compositional and behavioral cue, so weight 2.",
+      "question": "Is the dog sitting upright with its front paws placed forward on the surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The overall body shape — including the wedge-shaped head, broad chest, and proportionate limbs — is necessary to maintain the husky’s silhouette. Even with exaggerated proportions in the plush, the basic outline must match to ensure recognition. This is a secondary but crucial structural detail, so weight 1.",
+      "question": "Does the dog have a broad chest and a wedge-shaped head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

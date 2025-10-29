@@ -1,0 +1,97 @@
+{
+  "filename": "HQ-Edit_114_95",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the wide, straight avenue leading directly toward the base of the Eiffel Tower preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bottle being a significant element in the foreground means parts of the scene are obscured. However, the base visual of the entire street is retained but partially visible in the background behind the bottle, creating an impression that the avenue still exists behind the added object. This suggests the avenue's presence is implied but not prominently visible. Analyzing Image A, it's clear the avenue is prominent. So, in Image B, although it's not directly visible, the rest of the visual cues suggest it is still intended to be there.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the symmetrical rows of green trees lining both sides of the avenue preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the presence of the bottle, which takes up a considerable portion of the visual space, both sides of the avenue behind the bottle still exhibit trees. In Image A, these conduct a symmetrical framing of the street, serving as visual context and remain visible as providing part of the background context in the altered image. This suggests that the trees are indeed preserved.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the streetlights positioned along the sides of the avenue preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Streetlights are identifiable on the left and right sides of the avenue in Image A. In Image B, the bottle obscures most central aspects, but the visual layer around it reveals some glimpses of the streetlights still lining the avenue. Thus, their presence is maintained in the altered image, though not in clear visibility.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the wet asphalt surface with visible reflections preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B includes the surrounding surface and street patterns seen around the bottle. These areas appear as blurred reflections and the color and brightness suggest a wet surface similar to the original in Image A. The reflection creates an understanding of continued stylistic elements such as wet asphalt.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the overcast sky with dark, layered clouds preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the visual dominance of the bottle, the sky occupies a substantial portion of the backdrop. There is a notable presence of dark, layered clouds still evident, which strongly mirrors the atmospheric conditions from the sky observed in Image A, confirming conservation of this particular feature.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the distant Parisian skyline with identifiable rooftops and modern high-rises preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, a portion of the skyline is still visible in the peripheries and background alongside the lower points of the bottle. These parts retain a representation of the horizon with buildings discernible, though less prominent due to the bottle's dominance. Simultaneously, Image A exhibits quite a clear skyline without hindrance. This suggests that some elements are maintained despite the edit.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Are the vehicles, including cars and a bus, visible on the road in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Within Image B, the bottle obscures visibility of the aspect of the site directly. Comparing it to Image A, several vehicles line the avenue. In Image B, no cars or buses are evident through the bottle or around it, indicating that these specific features are not preserved in the edit.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.9230769230769231
+}

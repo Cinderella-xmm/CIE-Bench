@@ -1,0 +1,69 @@
+Description of reference image:
+The subject is a black cat with striking yellow eyes, sitting on a beige carpet. It is wearing a formal tie around its neck, giving it a whimsical appearance. Its posture is relaxed, with its front paw resting on one side. The background shows a partially visible bookshelf filled with books.
+
+---
+
+### Allowed Changes List:
+Specific element 1 that allows for changes  
+- Convert the cat into a collectible figure, changing its form while retaining key attributes.  
+- Add glasses and a notebook prop.  
+- Pose it in a working position, suggesting an adjustment in posture and expression.  
+
+---
+
+### Preservation Targets List:
+(Element 1 that should be maintained)  
+(Element 2 that should be maintained)
+
+---
+
+Thinking process:  
+
+Core recognition elements of this image include the cat's black fur and yellow eyes, which are distinctive traits that make it identifiable even when transformed into a collectible figure. The tie also plays a significant role in maintaining the whimsical charm associated with this cat. Functional/logical elements like the cat's natural resting position on the carpet are crucial because a collectible figure in a working position must still appear grounded and realistic relative to the setting. Retaining the natural interaction with the carpet preserves the visual coherence.
+
+---
+
+{
+    Q1: 
+    Thinking process: The black fur is the primary identifier of the cat as the subject of the image. Changing the fur color would fundamentally alter the nature of the image and make it lose its identity as the original animal. This is a core element with significant weight.
+    Question:Is the cat's fur entirely black?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The tie is a distinctive accessory that adds personality and whimsy to the image. Retaining the tie ensures that the whimsical element is preserved, linking the collectible figure to the original image.
+    Question:Is the cat still wearing the formal tie around its neck?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The cat's bright yellow eyes are a striking feature that contrasts sharply with its black fur. Losing this feature would make it harder to recognize the subject as the same cat.
+    Question:Does the cat still have bright yellow eyes?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q4: 
+    Thinking process: The carpet provides a grounding context for the cat, ensuring a sense of realism even in its new collectible form. It helps maintain the spatial relationship and prevents the collectible figure from appearing disembodied.
+    Question:Is the cat placed on a beige carpet?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The presence of the bookshelf in the background establishes the indoor, domestic setting of the image. This element contributes to the story and atmosphere of the original scene and should be maintained for consistency.
+    Question:Is there a bookshelf visible in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

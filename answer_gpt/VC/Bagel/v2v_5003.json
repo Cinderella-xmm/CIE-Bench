@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_5003",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the curved shape of the bow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bow still has a clearly curved structure, defined with sharp origami-like folds that suggest the traditional arc of a bow. Although the texture and material appear different from a conventional bow, the core geometric shape is maintained. Based solely on visual cues, the curvature is present, indicating the retention of the bow's form. In Image A, the bow similarly maintains a characteristic curve typical of a traditional bow. Comparing the two images, both retain the curved shape, just with different material portrayals.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the edited image retain the cylindrical shape of the quiver?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the quiver appears altered to a more angular form due to its origami craftsmanship, which contrasts with the traditional cylindrical shape found in typical quivers. The edited version has a polygonal cross-section instead of a round cylindrical one. Image A shows a clearly cylindrical quiver, maintaining the conventional round form. Comparing the two, Image B does not retain the cylindrical shape; instead, it adopts a more angular, paper-folded structure.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image retain the arrangement and general form of the arrows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents arrows in a quiver, depicted in an origami form that resembles the expectation of arrows being clustered together. The alignment and placement within the quiver are consistent with how arrows are generally held. Despite the change in material and more abstract form, the visual representation of grouped arrows is preserved. Comparatively, Image A shows realistic arrows with feather fletchings, consistently packed. Although the medium change, the general arrangement and grouped presentation are maintained.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image retain the position of the bow and quiver on the forest floor?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bow and quiver setup is visibly on a similar low platform or ground level, indicative of being on a forest floor. This perception is reinforced by the surrounding natural elements. Image A positions the bow and quiver identically on the moss-covered ground, suggesting no positional change. Both maintain a ground-level presence amidst natural surroundings.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the edited image retain the natural woodland backdrop?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the backdrop comprises a blurry blend of greens and browns, suggesting abstract forest elements, consistent with the look of a woodland environment. This differs from Image A, which presents realistic foliage and forest textures. However, the overall ambiance of a natural setting with forest-like imagery is consistent between both images, indicating retention.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

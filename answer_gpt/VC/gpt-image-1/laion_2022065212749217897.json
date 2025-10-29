@@ -1,0 +1,84 @@
+{
+  "filename": "laion_2022065212749217897",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the eyes almond-shaped with a grayish-blue iris and visible upper and lower eyelashes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B portrays a cartoonish character, which simplifies detailed human features like eyes. The character's eyes are not visible due to the blurred region, hence specifics like shape, iris color, or eyelashes cannot be determined. Cartoon styles tend to simplify these elements, usually into basic shapes and colors, making precise descriptions of human-like features unlikely.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a receding hairline with thin, light gray hair present only on the sides and back of the head?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cartoon character has a simplified depiction of a receding hairline with stylized hair drawn on the sides and back of the head. The hair is depicted with few lines and lacks detailed texturing or coloring that would suggest thin, light gray hair but matches the general receding pattern.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the shirt have thin vertical red and white stripes running along the collar and down the placket on a dark blue background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a character wearing a shirt that appears to have red and blue vertical stripes. The cartoon style simplifies patterns, and the stripes do not appear thin nor clearly defined in terms of color, particularly lacking the presence of white stripes clearly described.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there a visible white button at the top of the shirt’s placket?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the cartoon character's shirt includes a representation of a button at the top of the placket. Although simplified, this depiction suggests a white button, consistent with the simplification typical for cartoon representations.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the gray blazer have a notched lapel with a defined edge?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a cartoon version of a blazer which does include a notched lapel style, typical in cartoons by using bold outlines. The specific 'defined edge' is present within the stylistic boundaries of cartoon art.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are fine lines visible around the eyes and forehead, and is the skin texture subtly detailed with pores?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B, as a cartoon representation, lacks the fine details such as lines or skin texture visible in a realistic portrayal. Cartoons commonly depict characters without these detailed skin textures, so fine lines or pores are not present.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

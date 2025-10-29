@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The dark blue iris with a sharp black pupil and surrounding white orbital ring is a distinctive anatomical feature of the bird in the original image. This specific eye structure is critical for identifying the bird as a realistic sparrow and differentiating it from other species. Altering or removing this feature would make the bird unrecognizable as the original subject, thus affecting core identity. Therefore, it is a key recognition element with high weight.",
+      "question": "Is the bird's eye clearly visible with a dark blue iris, black pupil, and a thin white orbital ring?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The beak’s shape and coloration—short, conical, pale pinkish-gray with a dark tip—are defining features of sparrows and contribute to the bird’s biological authenticity. Changing its shape or color would misrepresent the species. Since the instruction does not mention altering the beak, this detail must be preserved. It is a core identity feature.",
+      "question": "Does the bird have a short, conical beak that is pale pinkish-gray with a dark tip?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The texture and color of the plumage—especially the fluffy, layered appearance in warm earthy tones like tan, brown, and reddish crown—are central to the bird’s realistic portrayal. Although the instruction allows emphasizing these traits, it does not permit changing them fundamentally. Losing this texture or shifting colors would alter the bird’s identity. Thus, it is a core visual attribute.",
+      "question": "Are the bird’s feathers visibly fluffy and layered, with warm earthy tones including tan, brown, and reddish crown?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The long, narrow tail feathers with natural layering and shading are part of the bird’s silhouette and contribute to its balanced posture. While accessories might be added, the tail’s structure is not mentioned for modification and is essential for maintaining the original form. Altering it would disrupt the bird’s anatomical integrity.",
+      "question": "Do the bird’s tail feathers extend downward in a long, narrow, layered shape with natural shading?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The bird’s feet, with visible claws gripping the branch, establish a functional relationship with the perch. This detail supports the realism of the scene and the bird’s posture. Even with added accessories, the grip must remain intact. Removing or distorting this would break the logical consistency of the bird being perched.",
+      "question": "Are the bird’s feet visible with claws gripping the branch?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The bird’s posture—perched upright on the branch, facing slightly left—is a key compositional element. While minor adjustments may occur during transformation, the orientation and balance must be preserved to maintain continuity. Reversing direction or altering stance would disrupt the original framing.",
+      "question": "Is the bird positioned upright on the branch, facing slightly to the left?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The moss on the branch is a secondary environmental detail that adds texture and realism. While the instruction does not require its retention, it is part of the original scene and contributes to visual coherence. However, since it is not a core element and may be altered, it is assigned lower weight. Still, its presence enhances authenticity.",
+      "question": "Is there green moss visible on the right side of the branch beneath the bird?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

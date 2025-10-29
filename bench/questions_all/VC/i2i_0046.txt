@@ -1,0 +1,81 @@
+Description of reference image: The subject is a skateboarder performing a trick mid-air above a ramp. The individual is wearing a blue shirt, dark jeans, black shoes, and a knitted hat with a distinct geometric pattern. The background consists of bare tree branches and a cityscape with tall buildings under a clear blue sky. The skateboard is mid-flip beneath the skater.
+
+---
+
+### Step 1 - Allowed Changes List
+Thinking process: The editing instructions specifically request rendering the image in the style of a Polaroid photo. This implies adding a white border with a timestamp and applying a faded effect along with a paper-like grain texture. These modifications do not alter the core subject, pose, or background significantly. However, they affect the visual presentation by adding stylistic overlays and textures. 
+
+Allowed Changes List:
+Specific element 1 that allows for changes  
+(Polaroid-style white border with the text "11:13 AM" at the bottom)  
+(Specific element 2 that allows for changes)  
+(Faded effect applied to the entire image)  
+(Specific element 3 that allows for changes)  
+(Paper-like grain texture added)
+
+---
+
+### Step 2 - Determine Elements That Should Remain Unchanged
+Thinking process: 
+Core recognition elements include the person's dynamic pose mid-air while performing the skateboard trick, their attire (especially the geometric hat since it is distinctive), and the urban backdrop. Functional/logical elements include the skateboard’s position relative to the skater and the ramp, ensuring the action makes sense. Remaining visual coherence should also maintain other scene elements like the cityscape and tree branches.
+
+Preservation Targets List:
+(Element 1 that should be maintained)  
+(Skater's dynamic pose mid-air during the trick)  
+(Element 2 that should be maintained)  
+(Geometric hat with distinctive pattern)  
+(Element 3 that should be maintained)  
+(Position of skateboard relative to skater)  
+(Element 4 that should be maintained)  
+(Urban backdrop including building facades and tree branches)  
+(Element 5 that should be maintained)  
+(The clear blue sky above the scene)  
+
+---
+
+### Step 3 - Generate Yes/No Questions to Detect Retention of Edited Elements
+
+{
+    Q1: 
+    Thinking process: The skater's mid-air pose is crucial for recognizing the action depicted. Any significant alteration would make the image lose its identity.
+    Question: Is the skater captured mid-air while performing the trick?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The geometric pattern on the skater's hat is a unique identifier and must remain unchanged to preserve visual coherence.
+    Question: Does the skater's hat still feature the geometric pattern?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The relative position of the skateboard to the skater ensures the action appears logical and consistent with real-life physics.
+    Question: Is the skateboard positioned below the skater in mid-flip?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The urban backdrop provides context and setting, which supports the authenticity of the scene. Removing or changing this element would affect the overall consistency.
+    Question: Are the building facades and tree branches visible in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The clear blue sky is an important environmental detail that contributes to the mood and setting of the image. While minor, it significantly affects visual coherence.
+    Question: Is there a clear blue sky above the scene?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

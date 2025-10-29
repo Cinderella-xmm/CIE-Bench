@@ -1,0 +1,70 @@
+Description of reference image: The subject is a woman in the foreground who is elegantly raising a glass. She has medium-length brown hair, is wearing a cream-colored knitted sweater, and exhibits a warm smile. She is holding a clear wine glass filled with white wine. In the background, there are people sitting around wooden tables, engaging in conversations or activities. The setting appears to be an indoor space with green walls, wooden shelves, and windows with skylights.
+
+### Step 1 - Allowed Changes List
+
+Thinking process:  
+The editing instructions request transforming the photo into a hand-painted watercolor style. This implies the subject’s appearance, such as her hair, attire, and facial features, can be rendered in watercolor textures. The background figures can be simplified with light-colored linework and faint washes, meaning their detailed features and colors can be altered significantly.
+
+Allowed Changes List:  
+- The woman's facial features, attire, and hair can be redrawn in a watercolor style.
+- Background figures can be simplified with light-colored linework and faint washes, adjusting their features and colors.
+- The overall texture and color tone of the image can be modified to fit the watercolor style.
+
+### Step 2 - Preservation Targets List
+
+Thinking process:  
+Core recognition elements include the woman's central positioning, her action of raising the glass, and the general setting. Functional/logical elements involve the context of a wine-tasting event, including the presence of wine glasses, papers, and tables. Remaining elements relate to the indoor setting and positioning, which must be coherent even in watercolor representation.
+
+Preservation Targets List:  
+- The woman's central positioning and her action of raising a glass.
+- The presence of the wine glass and its contents.
+- The indoor setting with tables and group activity.
+- The papers and materials on the table.
+- The general arrangement of the background figures.
+
+### Step 3 - Generate Questions
+
+{
+    Q1: 
+    Thinking process: The woman's central positioning and her action of raising the glass are critical for identity recognition and the focal point of this image. Losing either would undermine the intended subject focus.
+    Question: Is the woman centrally positioned in the image and raising a glass?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The wine glass and its contents are significant for the context, indicating the wine-tasting event. Without them, the scene loses its functional connection.
+    Question: Is the wine glass visible in the woman’s hand, containing liquid?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q3: 
+    Thinking process: The presence of papers on the table helps establish the setting as a wine-tasting event. This detail supports the overall scene context.
+    Question: Are papers visible on the table near the woman?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The indoor setting with tables and chairs provides necessary context for the event. Removing or altering this setting would make the scene less recognizable.
+    Question: Is the setting indoors with visible tables and chairs?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The background figures contribute to the overall group activity context, even though they are simplified. Their presence maintains the scene's cohesiveness.
+    Question: Are there background figures present, even if simplified?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

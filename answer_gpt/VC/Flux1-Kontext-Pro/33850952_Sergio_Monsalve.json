@@ -1,0 +1,84 @@
+{
+  "filename": "33850952_Sergio_Monsalve",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are there at least eight distinct horizontal levels stacked vertically along the building facade?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the building features distinct horizontal levels along its facade. Counting visually, there appear to be fewer than eight levels, as evident from the segmentations and the continuity of the structure. Common architectural design elements, such as balconies, usually provide clear separations between levels, and the design in Image B seems to have fewer segmentations.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there a transparent railing structure visible on each balcony, positioned directly outside the windows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a futuristic building design with features resembling balconies, curved around the facade. Upon close examination, transparent structures, reminiscent of glass railings, can be discerned around these curves, indicating the presence of glass railings on these protrusions, common in modern architecture for safety and aesthetics.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the windows on each floor arranged in a continuous, curved arc along the building’s surface?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The facade of the building in Image B showcases windows that are set within a continuous, flowing architectural style. The design integrates windows seamlessly into the curving arcs of the building's surface, reflecting a modern, fluid aesthetic. Such designs prioritize harmony over rigid structural lines.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Can furniture items (such as chairs or tables) be seen inside the rooms through the windows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Upon examination of Image B, the windows are illuminated, suggesting large open spaces inside, but there are no visible details of any furniture or specific items through the windows. This lack of visible objects matches the stylized and somewhat abstract appearance of the building.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the building viewed from a low-angle side perspective, showing its height and curving profile?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the perspective provided is low and angled, allowing a view up towards the building that accentuates its height and emphasizes its distinct curving profile. This perspective is commonly used in photography to convey the grandeur and architectural features of tall buildings.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does each window have a corresponding balcony immediately outside it, aligned horizontally?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a building with a unique design where not all windows have a distinct balcony immediately aligned horizontally outside them. The design employs curves and protrusions that suggest alternative aesthetic or functional purposes, rather than uniform balcony distributions typical of traditional design.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.5
+}

@@ -1,0 +1,97 @@
+{
+  "filename": "33722971_Omotayo_Samuel",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image contain exactly four suitcases?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there are visual cues indicating the presence of suitcases. We see one rectangular suitcase at the bottom, with a stack featuring various shapes, including a round character and two duffel bags. Counting these, we identify two upright luggage items visible in addition to the character, differing from a straightforward count of four suitcases. Therefore, the reasoning leads us to determine the count is not exactly four.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the suitcases stacked in the same order from bottom to top: two rectangular, one round, one duffel?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents an arrangement where a character is standing on a rectangular suitcase, with a small duffel bag on top of the character, making the configuration different from the specified order of two rectangular, one round, one duffel stack. A round character is present rather than a round suitcase as described.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the third suitcase from the bottom clearly round in shape?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the third element from the bottom is a duffel bag rather than a round suitcase. The round figure present is actually a character, serving as a visual misinterpretation for a suitcase. Consequently, the third 'luggage' item is not round.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the figure positioned to the right of the luggage stack?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, we see a figure wearing a coat standing on the right side of the luggage stack, which consists of a rectangular suitcase at the bottom with additional items stacked on top.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the figure depicted in side profile, facing left?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the figure is displayed in a semi-side profile view that suggests a leftward orientation. This assessment is based on the position of the body and the alignment with the visible elements such as arm posture and facing direction.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Do the suitcases rest directly on top of one another in a stable vertical stack?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, one suitcase is supporting a character and stacked elements which include a duffel bag improperly perched on this character rather than in a stable configuration directly on the suitcase. This leads to the conclusion that the stack lacks a stable direct pile.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is there exactly one human figure present in the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B showcases one human-like figure standing to the right and a distinctive character with a stylized face, which does not qualify as a human figure. Therefore, the scene contains exactly one human figure.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.3125
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_93",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the thermometer retain its circular shape and metallic rim?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the thermometer retains its circular shape and metallic rim. The overall design of the thermometer is consistent with the typical format seen in gauges and measuring instruments, which often feature a circular design for easy reading. The metallic rim serves both aesthetic and practical functions, such as protection and stability. Based on the visual inspection, these elements are clearly present, thus confirming its round shape and metallic boundary.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the temperature scale markings (-2°C to 200°C) clearly visible?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B does show temperature markings, however, they differ from the ones in question—the range seems to be unusual with numbers like 70, 140, 1220, and 1500. Typically, temperature scales follow a pattern like the one described in the question (-2°C to 200°C in Image A). The markings in Image B appear to relate more to pressure rather than the conventional temperature scale. Therefore, the specified range is not represented.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the needle present and positioned correctly relative to the temperature scale?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The needle is indeed present in Image B; however, considering the unusual numerical markings on the gauge, which seem to indicate units not related directly to temperature, the position cannot be confirmed in relation to the common temperature scale given in the question (-2°C to 200°C as seen in Image A). Image B shows a complex arrangement of numbers inconsistent with standard temperature readings, which indicates a different usage or measurement purpose.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the text \"TEMPERATURE\" still visible in the center of the thermometer?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the center of the gauge seen in Image B, the text 'TEMPERATURE' is still clearly visible. This consistency with traditional gauge display underlines readability and identification of the function, which, despite the altered readings typical of a pressure gauge, retains this label. Visual inspection confirms this text appears prominently.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the thermometer retain a white face for clear visibility of the markings?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows that the thermometer retains a white face for clear visibility. This is common in many gauges to provide contrast with dark or bold text and markings, ensuring they are easily readable at a glance. The face's color remains unchanged in comparison to Image A, which facilitates easier distinction of the values and elements displayed on the gauge.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

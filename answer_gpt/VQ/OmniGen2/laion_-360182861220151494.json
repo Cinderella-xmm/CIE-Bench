@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-360182861220151494",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the character’s eyes in Panel 1 clearly narrowed and intense, with visible tension in the eyelids and pupils, and is the hand gripping the katana properly aligned with five distinct fingers showing natural curvature?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Panel 1, the character's eyes are wide and open, suggesting alertness but not narrowed intensely; the tension is mostly absent, and the expression leans more towards a neutral or focused glare rather than intensity. The grip on the katana does not clearly show all five fingers with distinct curvature; the placement and visibility of the fingers do not portray a natural hand grip with full finger articulation, indicating they are not properly aligned.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the character’s leaping pose in Panel 2 show correct leg extension and arm positioning consistent with forward momentum, and do the fiery trails originate naturally from the hair strands without overlapping into solid parts of the body?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Panel 2, the character is standing, not in a typical leaping pose. The leg position lacks the extension needed to depict a jump, as they are planted rather than suspended. The arm positioning is more of a stance than one ready to thrust forward. While the hair does exhibit fiery trails, their alignment with momentum is more aesthetically placed rather than stemming from physical dynamics; the trails intertwine with solid body parts.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the katana in Panel 3 correctly oriented forward without clipping through the character’s uniform or distorting the sleeve, and are the surrounding energy swirls continuous and free of pixelated or broken lines?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Panel 3, the katana appears clipped into the character's body region, especially crossing into the uniform area, breaking its natural flow and causing potential distortion at the sleeve. The swirls surrounding the character are not entirely continuous; there are breaks and distortions suggesting incomplete connectivity and hinting at pixelation issues.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Do the backgrounds in all three panels retain their original vibrancy and contrast without color bleed into the character’s outline or loss of sharpness in the bold borders around her figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The backgrounds in the panels are vibrant with good contrast; however, in areas where the panels border the character's outline, there's subtle color bleeding visible, affecting the sharpness and closure of the figure’s outlines especially around overlap areas. This suggests a slight loss in definition at these intersections.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the character’s head, torso, and limbs proportionally consistent across all three panels, with no stretching or compression that alters the original anatomy or causes misalignment between body parts?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The panels maintain an acceptable range of proportion consistency regarding the head, torso, and limbs. There is no evident stretching or compression distorting the anatomy or misaligning the character’s body parts. Comparatively, the proportional integrity is preserved well despite stylistic adaptations.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.2
+}

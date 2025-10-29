@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The presence of the \"HOMEPAGE\" node at the top center is the core identity feature of the site map. It serves as the root of the entire structure and contains the mission statement. Even if stylized as a castle, its position and role as the starting point must be preserved. Losing it would break the site map’s functionality and identity.",
+      "question": "Is there a central root node labeled or represented as \"HOMEPAGE\" positioned at the top center of the diagram?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The branching structure from the Homepage to the five main categories (Products & Solutions, About Us, etc.) defines the primary navigation. The existence of exactly five first-level nodes is critical to maintaining the original architecture. Even if replaced with icons, their number and connection to the homepage must be preserved.",
+      "question": "Are there exactly five primary branches originating from the HOMEPAGE node, corresponding to PRODUCTS & SOLUTIONS, ABOUT US, EVENTS & RESOURCES, SUCCESS STORIES, and CONTACT US?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The \"SITE MAP KEY\" is a functional component that explains the color coding of the levels. Its absence would make the map unreadable. Even if stylized, it must remain present and correctly positioned in the bottom-right corner to maintain informational consistency.",
+      "question": "Is there a legend labeled \"SITE MAP KEY\" located in the bottom-right corner of the image, showing color codes for different levels?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The \"to the web\" logo in the top-left corner is a branding element and part of the original composition. While it may be stylized, its presence is required to maintain attribution and visual coherence with the source. Removing it would alter the image’s origin identity.",
+      "question": "Is the \"to the web\" logo present in the top-left corner of the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The footer section with \"Privacy Policy\" and \"Site Map\" is a structural element that maintains the completeness of the site architecture. Even if transformed into a treasure chest or scroll, these two items must remain under the FOOTER label to preserve the site’s navigational logic.",
+      "question": "Is there a FOOTER section containing \"Privacy Policy\" and \"Site Map\" below the main content area?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The number of case studies listed under \"SUCCESS STORIES\" is three (Case Study #1, #2, #3). This count is a specific detail that must be preserved to maintain data accuracy. Even if represented as treasure maps or scrolls, the quantity must remain three.",
+      "question": "Are there exactly three nodes under the \"SUCCESS STORIES\" section, labeled or represented as Case Study #1, #2, and #3?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The \"Product Details\" node is a fourth-level item under \"Product #3,\" indicated by a red box. Its presence signifies a deep-level page in the architecture. While it may be iconified, its hierarchical position under Product #3 must be preserved.",
+      "question": "Is there a node labeled or represented as \"Product Details\" located directly under \"Product #3\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

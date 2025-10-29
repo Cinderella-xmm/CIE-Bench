@@ -1,0 +1,147 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a capybara depicted in a photorealistic, anthropomorphic style, positioned in profile facing left. It wears a bright blue knitted beanie, black-framed sunglasses with "SPY" branding on the temple, and a light gray sleeveless knit sweater with a blue horizontal stripe at the bottom. The capybara holds a tall glass of orange-red cocktail garnished with a slice of orange and a blue straw in its right front paw. Its fur is detailed with brown tones and fine texture, especially around the snout and ears. The background features the Sydney Opera House at sunset, with warm golden-orange sky hues reflecting over calm water. The iconic white sail-like roofs of the Opera House are clearly visible across the water, forming a distinct silhouette against the sky. The lighting suggests late afternoon or early evening, with soft shadows and warm ambient glow.
+
+**Thinking process:**  
+The editing instructions specify transforming the scene into a travel magazine cover titled *"A Capybara’s Sydney Escape"*, blending realism with whimsy. Key elements of modification include:
+
+- **Style**: Mix vibrant illustrations with photorealism → implies artistic enhancement but not fundamental change to core subject or setting.
+- **Typography**: Bold, playful font arching above the Opera House → new element added; does not affect original content.
+- **Color**: Enhance vivid blues in hat and beverage → color adjustment allowed, but base colors must still be present.
+- **Details**: Add cartoonish beach-themed stickers on the capybara’s beanie → this is an addition, not a replacement; the beanie itself must remain intact.
+
+From this, we infer:
+- The **capybara’s identity**, **pose**, **clothing**, **drink**, and **background (Sydney Opera House)** are foundational and implied to be retained for continuity.
+- The **style shift** allows for illustrative elements but does not permit removal or distortion of recognizable features.
+- The **addition of stickers** is permitted only on the beanie, meaning the beanie must exist and be visually accessible.
+- The **Opera House** is referenced as a location anchor; it must remain identifiable.
+
+Thus, changes allowed include:
+- Color saturation enhancement (especially blues)
+- Addition of stickers on the beanie
+- Overlay of text (title) in a new font style
+- Artistic stylization (illustrative elements), but not altering core forms
+
+**Allowed Changes List:**
+- Color intensity of the blue beanie and drink
+- Addition of cartoonish beach-themed stickers on the beanie
+- Overlay of bold, playful typography arching above the Opera House
+- Integration of illustrative elements (e.g., sunbursts, waves) into the scene without replacing key components
+- Slight artistic stylization of textures or lighting for whimsical effect
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+We now apply exclusion logic based on the allowed changes list.
+
+**Core recognition elements:**
+- The **capybara** is the central character; its identity depends on key biological traits:
+  - Brown fur with realistic texture
+  - Distinctive snout shape and whiskers
+  - Large rounded ears
+  - Facial structure including eyes, nose, and mouth
+- The **Sydney Opera House** is the iconic landmark; its identity relies on:
+  - White, shell-like roof structures (sails)
+  - Position on the waterfront
+  - Proximity to the water and skyline
+- The **capybara's clothing** is part of its anthropomorphic characterization:
+  - Blue knitted beanie (must remain physically present and wearable)
+  - Gray sleeveless sweater with blue stripe (must retain form and position)
+
+**Functional/logical association elements:**
+- The **capybara holding the drink** establishes action and narrative context. The hand-grip posture and drink orientation must remain logical—i.e., the paw must still grasp the cup.
+- The **positioning relative to the Opera House** must preserve spatial logic: capybara in foreground, Opera House in midground across water. This maintains environmental coherence.
+
+**Non-modified element deduction:**
+After excluding allowed changes:
+- The **beanie must remain intact** even if stickers are added (its shape, color, and knitting pattern must persist).
+- The **drink must remain in the paw**, with visible contents (orange-red liquid, straw, orange slice).
+- The **sunglasses** must stay on the face, preserving their brand label ("SPY").
+- The **water surface** and **sky gradient** must maintain their natural appearance unless enhanced, but not distorted.
+- The **capybara’s facial expression** (relaxed, sipping) should not be altered to break narrative consistency.
+
+Therefore, all visual elements not explicitly allowed to change must be preserved.
+
+**Preservation Targets List:**
+- Capybara’s brown fur texture and facial structure
+- Capybara’s pose: profile view, sipping from a cup
+- Blue knitted beanie (shape, color, knit pattern)
+- Black sunglasses with “SPY” branding on the temple
+- Gray sleeveless sweater with blue horizontal stripe
+- Orange-red cocktail with orange slice and blue straw in glass
+- Capybara’s paw gripping the drink
+- Sydney Opera House with white sail-like roofs
+- Water body between capybara and Opera House
+- Sunset sky with warm golden-orange gradient
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The capybara's distinctive brown fur with visible texture and fine hair detail is essential for species identification. Loss of this would make the animal unrecognizable as a capybara, especially since it is the primary subject. This is a core identity feature, hence weight 3.
+    Question: Is the capybara’s fur visibly brown with detailed texture and fine hair strands?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The Sydney Opera House’s white sail-like roofs are globally iconic and define the location. Their presence and shape are critical for geographic recognition. Any distortion or omission would invalidate the setting. This is a core scene identifier, hence weight 3.
+    Question: Are the white, shell-shaped roofs of the Sydney Opera House clearly visible in the background?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The blue knitted beanie is a key accessory that contributes to the character’s personality and visual identity. While stickers may be added, the beanie’s base form, color, and knit texture must remain unchanged. Altering it would disrupt continuity. This is an important accessory, hence weight 2.
+    Question: Is the capybara wearing a blue knitted beanie with visible ribbed texture?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q4: 
+    Thinking process: The capybara is shown drinking from a glass with a straw and orange slice. The act of holding the drink is central to the scene’s narrative. Removing or distorting the grip or the drink would break the action logic. This is a functional element tied to the character’s behavior, hence weight 2.
+    Question: Is the capybara’s right paw visibly gripping the glass containing the orange-red beverage?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The black sunglasses with the “SPY” logo on the temple are a specific branded detail contributing to the character’s style. The brand name is legible and part of the visual identity. Changing or removing it alters the character’s design. This is a minor but identifiable detail, hence weight 1.
+    Question: Are the black sunglasses worn by the capybara displaying the word “SPY” on the temple?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q6: 
+    Thinking process: The gray sleeveless sweater with a blue horizontal stripe defines the capybara’s attire. The sweater’s form and color pattern are unique to the character’s outfit. Altering these would change the visual identity. This is a key clothing detail, hence weight 2.
+    Question: Is the capybara wearing a gray sleeveless knit sweater with a blue horizontal stripe at the bottom?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+{
+    Q7: 
+    Thinking process: The cocktail in the glass has a distinct orange-red gradient, a blue straw, and an orange slice garnish. These details establish the drink’s appearance and contribute to the whimsical, vacation theme. Removing any component affects visual coherence. This is a detail-level object, hence weight 1.
+    Question: Does the drink contain a blue straw and an orange slice garnish?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+{
+    Q8: 
+    Thinking process: The capybara is positioned in profile facing left, with the head slightly turned toward the viewer. This pose is consistent with the original framing and supports the narrative of observing the Opera House. Changing the angle would misalign the composition. This is a compositional pose element, hence weight 2.
+    Question: Is the capybara shown in a side profile facing left, with its head slightly turned toward the viewer?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

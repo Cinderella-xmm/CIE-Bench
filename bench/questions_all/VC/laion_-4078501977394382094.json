@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The green body with cream roof and beige trim is the core visual identifier of the van. This specific color combination and distribution distinguish it from other vehicles and align with the retro aesthetic. If this color scheme is changed (e.g., to red or blue), the van would no longer be recognizable as the original subject. This is a key identity feature, hence weight 3.",
+      "question": "Is the van’s body primarily green with a cream-colored roof and beige trim along the lower edge and windows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The wooden luggage rack on top is a unique structural detail that adds authenticity to the van’s retro design. Its presence is critical for identifying the vehicle as a classic travel van. Removing or replacing it with another object would alter the van’s identity significantly. Thus, it is a high-priority retention element, assigned weight 3.",
+      "question": "Is there a wooden luggage rack mounted on the roof of the van?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The rounded front with dual windshield windows is a defining shape characteristic of the van. This feature is essential for recognizing the vehicle type (e.g., VW Bus). Altering the front shape (e.g., making it square) would destroy its iconic identity. Hence, this is a core recognition element with weight 3.",
+      "question": "Does the van have a rounded front with two large windshield windows?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The chrome bumper and round headlights are functional and stylistic details that contribute to the van’s retro charm. While minor compared to color and shape, they are distinctive enough to aid recognition. Their absence or replacement would reduce visual fidelity. These are important but not irreplaceable, so assigned weight 2.",
+      "question": "Are there round headlights and a chrome bumper visible on the front of the van?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The isometric perspective is a key stylistic choice that defines the visual composition. Changing to a frontal or bird’s-eye view would disrupt the original aesthetic. Since the instruction requires retaining the \"style\" of the original image, this perspective must be preserved. It is a major structural element affecting coherence, hence weight 2.",
+      "question": "Is the van depicted in an isometric (angled top-down) perspective?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The warm color palette—dominated by yellows, greens, and browns—is central to the image’s mood and style. The instruction explicitly states to retain \"vibrant hues,\" meaning the original tonal range must be maintained. Shifting to cool tones or monochrome would violate the stylistic requirement. This is a key environmental and emotional element, thus weight 2.",
+      "question": "Are the dominant colors in the image warm tones such as yellow, green, and brown?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The presence of cacti in the desert is a recurring environmental feature. Although one may transform into a spout, the original cacti must still be present in at least one panel to maintain continuity. Their silhouettes and positions are part of the original scene logic. Removing all cacti would break the desert context. This is a secondary but necessary detail, hence weight 1.",
+      "question": "Are there at least three stylized brown cacti visible in the desert scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

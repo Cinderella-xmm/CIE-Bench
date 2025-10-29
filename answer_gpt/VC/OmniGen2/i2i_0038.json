@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0038",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the person's raised hand with an open palm still present in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the person's raised hand with an open palm is not visible. The person appears to be in a different position with their hand not raised, which can be inferred from both visual observation and the change in style of the image compared to a more simplified, cartoon-like depiction. In contrast, the original image shows the person with a raised hand and open palm which is absent in the edited version.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is there still a wooden-framed mirror visible in the bathroom background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image has transitioned from a real photograph to a cartoon-style representation, which eliminates the background details like the wooden-framed mirror identifiable in the original photograph. The visual style has shifted, showing no background elements associated with a bathroom or any mirror structure.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the person still holding an object resembling a phone near their face?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the person is depicted holding an object, which appears similar to a phone, near their face. This is consistent with the original image where the person holds a camera close to their face, demonstrating continuity in the action. The item's depiction as being held close to the face helps conclude the persistence of this action.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the person still wear a black T-shirt with a graphic and a necklace?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The cartoon-style image maintains the key features such as clothing and accessories that were present in the original photograph. The person is depicted wearing a black T-shirt with a similar graphic design and a necklace around their neck, reflecting the key elements of attire from the initial image despite the change in illustration style.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there still a white sink with a faucet visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image, due to its transformation into a cartoon illustration, lacks any detailed background, such as the white sink with a faucet that is present in the original image. The change in depiction style results in the absence of specific bathroom features in the simplified representation, confirming the removal of these details.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.4166666666666667
+}

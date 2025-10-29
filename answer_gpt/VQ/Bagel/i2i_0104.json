@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0104",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the addition of the text \"Warm Home\" and \"Adopt Love\" introduce any unnatural textures or visibly distorted areas on the cat's fur, whiskers, or eyes?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "explanation": "Analyze Image B, focusing on the areas where the text intersects with the visible parts of the cat. The text is placed at the top and bottom of the image, which doesn't overlap with the cat's whiskers, eyes, or visible fur areas outside of the blurred region. Combining world knowledge of typical image editing practices, it appears that no unnatural textures or distortions are visible in these areas.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the placement of the text \"Warm Home\" and \"Adopt Love\" maintain structural consistency and avoid disrupting the proportions and physical rationality of the cat's face and body?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Review the placement of the text in Image B. The text is positioned above and below the cat's visible body and blurred face, maintaining overall structural consistency without affecting the apparent proportions of the cat's body or fur. The face area is blurred, but that does not disrupt the body's proportion. By world knowledge, such placements are typical in promotional images and do not interfere with the visual integrity of the subject's recognizable form.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Has the natural appearance and authenticity of the cat's expression, fur pattern, and posture been preserved despite the addition of the text \"Warm Home\" and \"Adopt Love\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Assess the visible parts of the cat from Image B, disregarding the blurred face. The text does not alter any visible attributes of the cat’s body parts, including fur pattern and posture, maintaining the natural look outside the blurred region. Typically, adding text above and below the subject in an image does not alter these aspects.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the fine details of the cat, such as individual strands of fur, whiskers, and paw pads, free from blurring or pixelation after the editing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Evaluate the sharpness and resolution of the visible fine details in Image B. The parts of the cat that are still visible outside the blurred face, like fur, whiskers, and paws, remain detailed and clear without indication of blurring or pixelation due to the added text. This is consistent with expected results where text doesn’t affect underlying image clarity if placed strategically.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the integration of the text \"Warm Home\" and \"Adopt Love\" into the image avoid logical inconsistencies such as overlapping unnaturally with the cat's fur or appearing embedded in a way that defies common sense?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Examine the position of the text in relation to the visible portions of the cat's body in Image B. The text is separate from these areas, appearing above and below, thus not overlapping or embedding into the fur or disrupting natural appearance as understood by image editing norms.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 1.0
+}

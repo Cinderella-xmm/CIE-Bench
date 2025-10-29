@@ -1,0 +1,84 @@
+{
+  "filename": "laion_-1446396198628162783",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the newly added mission control elements (such as consoles, screens, or panels) geometrically consistent with the room's perspective and do not appear to float or clip through surfaces?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the focus is on the textual and graphical information about space training, which does not include any 3D mission control elements like consoles or panels. Therefore, there's no clip or geometric consistency issue to evaluate in Image B.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Do the color-coded sections for training stages (e.g., Physical Training, Technical Skills) have clean edges and are they positioned so they do not overlap or obscure the astronaut’s suit or feet?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the color-coded sections are represented as circular segments with text and icons. They are distinctly separated from the central image of the astronaut and have clean edges. They do not overlap with the astronaut’s suit or feet, adhering to proper positional arrangement.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the illustrative icons (e.g., treadmill, simulator) proportionally sized and placed at appropriate distances from the astronaut so they do not appear oversized or misplaced in the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the icons representing various space training tools are sized and positioned around the astronaut in an illustrative manner. They are proportionate to the design and distance, ensuring they do not appear oversized or misplaced.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the explanatory text for each training stage clearly readable, properly aligned, and not overlapping with the astronaut’s body or suit components?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, each training stage is accompanied by text within its designated area. The explanatory text is clear, aligned properly within its segments, and does not overlap with the central astronaut image.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the astronaut’s suit joints (e.g., elbows, knees), gloves, and helmet fully intact with no visible distortion, warping, or missing texture details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The central image of Image B is a stylized illustration of an astronaut. The suit's articulations including elbows, knees, gloves, and helmet appear fully intact and free from distortions or missing textures, suitable for illustrative purposes.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Do the shadows cast by the added mission control elements (e.g., consoles, icons) align with the direction of the original ceiling lighting and do not contradict the existing shadow patterns on the floor and astronaut?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the setting is a graphic representation rather than a physical space with ceiling lighting or realistic shadow patterns, as evident in Image A. There are no added 3D elements casting shadows to evaluate against lighting.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6666666666666666
+}

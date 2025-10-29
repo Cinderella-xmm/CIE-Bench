@@ -1,0 +1,70 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The blue coloration of the figure’s skin is the most defining characteristic of the subject. It is not merely a shade but a full-body application that distinguishes this figure from any ordinary human. If the blue color is removed or replaced with another hue, the figure loses its iconic identity. This is a core recognition feature, and its retention is essential for maintaining the subject’s identity. Therefore, it is assigned a weight of 3 points.",
+      "question": "Is the figure’s skin uniformly colored in a vivid blue tone?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The gold banana is a central symbolic object in the image. Its golden color and banana shape are key identifiers. Even though the instruction allows it to become geometric and levitating, the material (gold) and the original form (banana) must remain recognizable. Losing the gold color or transforming it into a non-banana shape would make it unrecognizable as the same object. Thus, the gold color and banana shape are critical for identification and are assigned a weight of 3 points.",
+      "question": "Is the banana rendered in a metallic gold color with a curved, elongated shape resembling a real banana?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The human facial features—specifically the eyes, nose, mouth, and ears—are essential for identifying the subject as a human figure. Even with liquefying textures applied, these features must remain discernible to preserve the figure’s identity. If the eyes are blurred or the nose distorted beyond recognition, the figure ceases to be human. These are core identity features and thus carry a weight of 3 points.",
+      "question": "Are the facial features (eyes, nose, mouth, ears) clearly visible and anatomically recognizable?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The hand is a key functional element—it originally holds the banana. Even if the banana is now levitating, the hand must still be present and positioned in a way that suggests interaction. Removing the hand or placing it far away would break the logical connection between the figure and the banana. The hand’s presence and orientation are important for maintaining narrative coherence, so it is assigned a weight of 2 points.",
+      "question": "Is the hand visible and positioned near the banana, suggesting a prior or ongoing interaction?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The figure’s posture—side profile with head slightly turned forward—is a distinctive compositional element. It defines the orientation and gaze direction, contributing to the image’s mood and focus. Changing this posture drastically (e.g., front-facing or upside-down) would alter the visual narrative. While the instruction allows surreal transformations, the basic silhouette and orientation must remain to preserve the original framing. This is an important scene element, so it is assigned a weight of 2 points.",
+      "question": "Is the figure shown in a side profile with the head turned slightly forward, facing right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The background is described as a solid, textured brown surface. While the instruction allows it to be warped or fantastical, the original texture and color scheme provide context and contrast. If the background is completely replaced with unrelated elements (e.g., space or water), it may disrupt the original aesthetic balance. However, since the instruction explicitly permits transformation, only the presence of a background (not its specific content) needs to be retained. But the original brown tone and texture are not required to be preserved. Therefore, this is a minor detail, and the question focuses on whether any background exists at all. This is a detail-level element, so it is assigned a weight of 1 point.",
+      "question": "Is there a background behind the figure, even if it is transformed or warped?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

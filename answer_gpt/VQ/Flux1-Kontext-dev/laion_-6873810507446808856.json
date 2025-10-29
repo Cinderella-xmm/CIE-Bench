@@ -1,0 +1,71 @@
+{
+  "filename": "laion_-6873810507446808856",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Are the eyes added to the pancake surfaces positioned symmetrically and proportionally consistent with the size and shape of the pancakes, without deforming the surrounding texture?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the pancakes are stylized with faces featuring eyes. The positioning of these eyes on the pancakes is done with a clear sense of symmetry, fitting proportionally to the character design and not distorting the pancakes’ shape. The facial features appear consistent with cartoon character design, where exaggerated proportions remain consistent with the object size, without affecting the overall texture negatively.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the butter pat still recognizable as a solid block with clean edges and natural lighting, even after being stylized as a hat, without exhibiting warped or fragmented geometry?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the butter pat is transformed into a hat worn by the pancake stack character. Despite the stylization, it retains its block-like shape with defined edges, presenting an identifiable rectangular form without any warped or fragmented geometry. The lighting is adapted to a cartoon style but suggests solidity typical of an object resting on a surface.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the syrup stream extend downward from the pancake stack in a continuous, smooth arc without abrupt breaks, pixelation, or unnatural viscosity that contradicts liquid behavior?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the syrup is illustrated as a playful cascading stream surrounding the pancake character. While the cartoon style exaggerates the syrup flow, it maintains a smooth continuity typical of liquid movement without visible pixelation or abrupt breaks. The arc reflects a recognized motion indicative of liquid behavior, translating into a stylized rendering that reflects syrup’s flow.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the added breakfast items (e.g., coffee cups, scrambled eggs) aligned with the depth and lighting of the original scene, maintaining consistent shadows and scale relative to the pancake stack?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The breakfast items in Image B, such as coffee cups and scrambled eggs, are included as part of the café table scene. They display cartoon-style depth consistent with their fictional environment but do not directly match the lighting and scale consistency as in Image A because these elements emulate exaggerated, simplified cartoon effects, rather than adopting real-world shading and proportional alignments.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are the speech bubbles and text boxes positioned in open areas of the frame without overlapping critical elements such as the pancake stack or syrup stream, and do they have clear, legible letterforms without jagged edges?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the speech bubbles and text boxes are placed strategically across open sections of the frame. They are positioned to avoid overlapping critical elements like the pancake stack, ensuring the pancake character’s visual narrative is not obscured. The lettering within these bubbles is clear, with smooth lines conducive to cartoon text style, aiding legibility without jagged or distorted edges.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.8
+}

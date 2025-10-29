@@ -1,0 +1,81 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "The **orange circular lifebuoy** is the most iconic and recognizable object in the scene. Its presence is central to both the original image and the edited version, where it becomes the creature’s eye. The **color (orange)** and **shape (perfect circle)** are essential for identification. If either is changed (e.g., turned blue or flattened), it no longer matches the original and breaks the transformation logic. Thus, this is a **core identity element** with weight 3.",
+      "question": "Is the orange circular lifebuoy still present and clearly visible in the same position near the netting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 3
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The **dark mesh netting** is a structural element that defines the boundary between land and sea. In the transformation, it becomes fins, but its **mesh texture and linear form** must remain to maintain visual consistency. If it disappears or becomes solid, the metaphor fails. This is a **key scene element** critical to the transformation’s logic, hence weight 2.",
+      "question": "Is the dark mesh netting still visible along the shoreline, connected by vertical poles?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The **diagonal shoreline** is the primary compositional feature of the image. It separates the water from the sand and forms the basis of the creature’s body. Altering its shape or removing it would destroy the spatial logic of the transformation. Therefore, its **contour and position** must be preserved. This is a **critical scene element** affecting overall coherence, so weight 2.",
+      "question": "Does the shoreline maintain its original diagonal slope from the bottom left to the top right of the frame?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The **attachment of the lifebuoy to a pole** is a functional detail that links the object to the netting system. In the creature metaphor, this becomes the eye’s socket. If the lifebuoy is floating freely or detached, the logical connection is broken. This is a **functional relationship element** essential for maintaining the transformation’s plausibility, so weight 2.",
+      "question": "Is the orange lifebuoy physically connected to one of the vertical poles of the netting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 2
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The **foam patterns in the water near the shore** are distinctive white swirls created by breaking waves. These are repurposed as \"seafoam lashes\" in the transformation. Their **presence and location** are necessary to fulfill the artistic intent. Removing them would eliminate a key stylistic component. This is a **minor but important detail** that supports the metaphor, so weight 1.",
+      "question": "Are there visible white foam patterns in the water immediately adjacent to the shoreline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q6",
+      "thinking_process": "The **light beige color of the sand** is fundamental to the \"sandy complexion\" of the creature. While texture might be smoothed, the **base color** must remain consistent to preserve the aquatic theme and visual continuity. Changing it to gray or brown would contradict the description. This is a **textural and chromatic detail** that supports the transformation, so weight 1.",
+      "question": "Is the sand along the shoreline still light beige in color, without significant discoloration or tinting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q7",
+      "thinking_process": "The **vertical poles supporting the netting** are structural components that define the net’s placement. There are multiple poles spaced along the shoreline. Removing or altering their number or spacing would disrupt the net’s integrity and the creature’s fin-like appearance. This is a **supportive structural detail** that maintains the original layout, so weight 1.",
+      "question": "Are at least three vertical poles visible along the netting, evenly spaced from the foreground to the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0046",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the skater captured mid-air while performing the trick?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the skater is depicted in an elevated position with no contact with the ground and the knees bent, suggesting action typically associated with being mid-air during a skateboard trick. Furthermore, the absence of a shadow under the skater confirms the action is captured in mid-air.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the skater's hat still feature the geometric pattern?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the increased darkness of the scene, the hat worn by the skater displays distinct repeated shapes and motifs. These visual patterns are indicative of a geometric design, suggesting the hat retains its geometric pattern.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the skateboard positioned below the skater in mid-flip?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the skateboard can be seen beneath the skater, albeit slightly angled or flipped, as it is not aligned perfectly with the feet of the skater. The positioning and orientation support the scenario of a skateboard being in mid-flip.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the building facades and tree branches visible in the background?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B presents a significantly darker background, obscuring specific elements that would otherwise be detailed. Unlike Image A, there is no visible structure of buildings or branching trees discernible through the visual information given in Image B, indicating these elements are not visible.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is there a clear blue sky above the scene?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the upper background is largely comprised of a dark hue with no evident transition representing the sky or any specific weather conditions. The darkness suggests the absence of a bright, clear blue sky.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.7
+}

@@ -1,0 +1,97 @@
+Description of reference image: The subject is the Statue of Liberty, depicted in its iconic full stature with a greenish-blue verdigris patina. It stands upright on a stone pedestal, facing slightly to the viewer's left. The statue holds a torch aloft in its right hand, emitting a warm flame, and a tablet inscribed with "JULY IV MDCCLXXVI" in its left hand. The crown atop the head features seven pointed rays, symbolizing the seven continents and seas. The drapery of the robe flows naturally, with folds rendered in smooth, layered detail. The pedestal is a multi-tiered structure made of reddish-brown stone, with arched windows and decorative molding. In the background, a second, smaller Statue of Liberty appears on a purple-hued, tiered base with architectural details resembling a classical tower. The sky is clear and bright blue. Trees frame the lower edges of the scene, and a dense crowd of tiny figures gathers at the base, indicating scale and public presence. The overall composition emphasizes symmetry and grandeur.
+
+Thinking process:  
+First, analyze the editing instructions word by word:  
+- "Create a miniature diorama" → implies transformation of scale and form; the original full-scale statue will be reduced and enclosed.  
+- "Encased within a vintage glass lantern" → changes the container/environment; the statue is now inside a new object.  
+- "Feature verdigris and copper-hued patinas" → allows modification of surface coloration, but not removal of the statue itself.  
+- "Set against a backdrop of a pastel skyline" → replaces the original sky and background environment.  
+- "Add tiny ships and waves beneath" → introduces new elements below the statue; modifies the base-level context.  
+- "Incorporate a revolving mechanism at the base" → adds mechanical function to the base; alters structural design.  
+- "Emphasizing the grandeur in a compact form" → confirms the intent to preserve symbolic essence despite size reduction.
+
+Allowed Changes List:  
+- Scale of the statue (reduced to miniature)  
+- Encasement in a vintage glass lantern  
+- Background replaced with a pastel skyline  
+- Addition of tiny ships and waves beneath the statue  
+- Base modified to include a revolving mechanism  
+- Overall setting transformed into a diorama format  
+
+Step 2 - Determine the elements that should remain unchanged
+
+Thinking process:  
+Core recognition elements:  
+The Statue of Liberty is globally recognized by specific visual markers:  
+- The raised torch in the right hand  
+- The tablet held in the left hand with visible inscription  
+- The seven-pointed crown  
+- The flowing robes and draped form  
+- The greenish-verdigris coloration (though instruction allows copper hues, it must still reflect the same material identity)  
+These are essential for identification. Even if scaled down or encased, they must retain their form and placement.
+
+Functional/logical association elements:  
+- The torch must remain raised upward—this gesture is symbolic and functional (lighting the way).  
+- The tablet must remain held in the left hand—its position supports the narrative of liberty and law.  
+- The crown’s seven points must remain intact—symbolic of global reach.  
+Changing these would break the symbolic logic of the statue.
+
+Non-modified element deduction:  
+Even though the scene is changed, the statue’s internal structure (e.g., pose, hand positions, crown shape) cannot be altered. The texture of the patina may shift slightly to include copper tones, but the dominant verdigris tone must persist as part of its identity. The relative proportions of the limbs and torso must remain consistent to preserve likeness.
+
+Preservation Targets List:  
+- The raised torch in the right hand  
+- The tablet held in the left hand with legible inscription  
+- The seven-pointed crown on the head  
+- The draped robe with characteristic folds  
+- The greenish-verdigris patina (primary color tone)  
+- The posture of standing upright with arms extended in symbolic gesture  
+
+{
+    Q1: 
+    Thinking process: The raised torch in the right hand is the most iconic feature of the Statue of Liberty, universally recognized as a symbol of enlightenment and freedom. Its upward orientation is critical to the statue’s identity; if missing or repositioned, the statue would no longer be identifiable. This is a core recognition element, making its retention essential.  
+    Question: Is the torch held high in the statue’s right hand?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 3
+}
+{
+    Q2: 
+    Thinking process: The tablet held in the left hand is a defining attribute, inscribed with the date of American independence. Its presence and position are key to identifying the statue as the Statue of Liberty rather than a generic figure. Altering or removing it would undermine historical accuracy and recognition.  
+    Question: Does the statue hold a tablet in its left hand?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 3
+}
+{
+    Q3: 
+    Thinking process: The seven-pointed crown is a unique architectural feature of the Statue of Liberty, representing the seven continents and seas. Its shape and number of rays are essential for distinguishing it from other statues. Any deviation would compromise its identity.  
+    Question: Does the statue wear a crown with exactly seven sharp points radiating from the top of the head?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 3
+}
+{
+    Q4: 
+    Thinking process: The draped robe with layered folds is a signature stylistic element of the statue’s design, contributing to its grandeur and movement. While minor stylization may occur, the general form and flow must be preserved to maintain visual coherence with the original.  
+    Question: Does the statue wear a long, flowing robe with clearly defined vertical and horizontal folds?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2
+}
+{
+    Q5: 
+    Thinking process: The verdigris patina is a defining visual trait of the Statue of Liberty, resulting from copper oxidation over time. While the instruction allows copper hues, the dominant greenish tone must remain to preserve authenticity. Losing this would make the statue appear alien or unrecognizable.  
+    Question: Is the statue predominantly colored in a greenish-blue (verdigris) hue?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2
+}
+{
+    Q6: 
+    Thinking process: The upright posture with arms extended—one holding the torch, the other the tablet—is central to the statue’s symbolic stance. Changing the pose would alter its meaning and identity. This is a functional and symbolic alignment that must be preserved.  
+    Question: Is the statue standing upright with one arm raised and the other lowered holding an object?  
+    Choices: Yes, No  
+    A: Yes  
+    Weight: 2
+}

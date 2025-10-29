@@ -1,0 +1,59 @@
+{
+  "quality_check_questions": [
+    {
+      "question_id": "Q1",
+      "thinking_process": "Based on the sub requirement of transforming the ornate book into a wooden jigsaw puzzle with interlocking pieces, this involves restructuring the entire object from a solid leather-bound book into discrete wooden segments. The editing position is the central book cover, which originally features a detailed embossed design with dragons and a compass. The transformation must preserve the intricate patterns while converting them into wood-based puzzle pieces. This requires evaluating whether the new material (wood) maintains structural coherence and visual plausibility in terms of shape, grain, and edge alignment.",
+      "question": "Are the edges of the jigsaw pieces smooth and interlocking without gaps or overlapping deformities?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q2",
+      "thinking_process": "The instruction specifies using darker wood stains for dragon patterns and lighter shades for the compass. The original image shows dragons in raised relief with a reddish-brown tone against a dark background, and the compass as a golden metallic disc. In the edited version, these elements must be rendered in wood tones accordingly. This evaluation focuses on color contrast and material consistency—specifically whether the staining accurately reflects the intended contrast and whether the transition between light and dark areas appears natural.",
+      "question": "Do the dragon patterns appear in darker wood stain and the compass area in lighter wood stain, with no abrupt or unnatural color transitions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q3",
+      "thinking_process": "The original book has a visible leather texture with stitching along the spine and corners. The editing instruction replaces this with a wooden surface. The key perceptual quality issue is whether the new wood grain texture appears consistent and realistic across all puzzle pieces, especially around the carved dragon and compass details. Any artificial repetition or lack of variation in the grain would compromise authenticity.",
+      "question": "Is the wood grain texture visible and naturally varied across all puzzle pieces, without repeating patterns or artificial smoothing?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q4",
+      "thinking_process": "The instruction requires scattering the puzzle pieces on a minimalist wooden tabletop. The original image shows the book resting flat on a wooden surface with tools nearby. In the edited version, the book is broken into pieces that should be arranged to suggest disassembly. This involves assessing spatial logic—whether the scattered pieces maintain correct proportions, orientation, and physical plausibility relative to each other and the table surface.",
+      "question": "Are the puzzle pieces arranged in a physically plausible scattered layout on the wooden surface, with no floating or overlapping pieces that defy gravity or perspective?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    },
+    {
+      "question_id": "Q5",
+      "thinking_process": "The compass at the center of the book is a complex circular design with concentric rings and fine inscriptions. When converted into wood, it must retain its geometric integrity and legibility. The editing must ensure that the circular shape remains intact, the lines are clean, and the fine details such as text or markings are not blurred or distorted by the wood material simulation.",
+      "question": "Does the central compass retain its circular shape and fine internal details, with no distortion or loss of precision in the engraved lines and divisions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "answer": "Yes",
+      "weight": 1
+    }
+  ]
+}

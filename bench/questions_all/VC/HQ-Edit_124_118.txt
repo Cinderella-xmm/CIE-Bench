@@ -1,0 +1,144 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is a lush, vibrant rainforest scene featuring a central cascading waterfall that plunges from a high cliff into a misty pool below. The waterfall is flanked by dense greenery, including towering trees with thick, twisting vines, moss-covered trunks, and broad-leafed tropical plants. On the left side, a prominent tree with gnarled, vine-wrapped branches extends diagonally upward, adorned with hanging ferns and clusters of small purple flowers. A river flows in the foreground, winding through rocky terrain toward the base of the waterfall. In the background, multiple secondary waterfalls are visible on distant cliffs, surrounded by layered mountain ranges fading into soft haze under a bright, sunlit sky. The lighting is natural daylight, casting dappled sunlight through the canopy, illuminating mist rising from the falls and creating a luminous atmosphere. The color palette is dominated by rich greens, deep browns, and white water spray, with highlights of golden light filtering through the foliage.
+
+**Thinking process:**  
+The editing instruction explicitly transforms the natural rainforest into a **digitally rendered holographic installation**, specifying changes to materiality and form:  
+- Waterfalls → “dynamic animated projections on glass surfaces” → implies transformation of physical water into projected light animation.  
+- Trees → “exhibit iridescent fiber optic filaments” → indicates replacement of organic bark and leaves with glowing synthetic structures.  
+- Vines → “twist in virtualized loops creating a kinetic light sculpture” → suggests vines become abstract, animated light forms rather than biological elements.  
+- Scene context → “integrating nature’s vibrancy into futuristic architectural space” → confirms the environment shifts from natural forest to an artificial, architecturally defined space (e.g., glass walls, structured platforms).
+
+Thus, **allowed changes** include:
+- Physical state of waterfalls (from liquid to projected animation)
+- Material composition of trees (organic → fiber optic)
+- Form and behavior of vines (biological → kinetic light loops)
+- Environmental setting (natural jungle → futuristic architectural space)
+- Light and texture (natural → digital/holographic)
+
+However, the instruction does **not** specify altering the **spatial layout**, **relative positions**, or **iconic visual structure** of the original elements. It preserves the *idea* of nature but reinterprets it through technology. Therefore, the **core spatial configuration**—such as the central waterfall, the foreground river, the left-side twisted tree, and the background mountain layers—must remain recognizable in layout, even if transformed.
+
+**Allowed Changes List:**  
+- Waterfall’s physical form (liquid → projection)  
+- Tree bark and leaf textures (organic → fiber optic)  
+- Vine morphology (biological → virtualized light loops)  
+- Environmental backdrop (rainforest → architectural space)  
+- Lighting source (natural sunlight → digital illumination)  
+- Material properties of all plant and water elements (organic → synthetic/digital)  
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+**Thinking process:**  
+Despite extensive transformation, certain elements must be preserved to maintain **visual coherence** and **scene identity**. These are derived via exclusion:
+
+**Core recognition elements:**  
+Although the scene is being reimagined, the **iconic compositional structure** remains critical for identification. For example:
+- The **central waterfall** is the dominant vertical feature and focal point—it must retain its **position**, **height**, and **flow direction** even if rendered as a projection.
+- The **twisted tree on the left** with its diagonal reach and flowering clusters is a visually unique anchor—its **overall shape**, **branching pattern**, and **location** should be preserved.
+- The **river path** from foreground to waterfall base defines the viewer’s visual journey; its **course and curvature** must remain consistent.
+- The **background mountain layers** establish depth and scale—while stylized, their **relative positioning** and **layered silhouette** should not change.
+
+These are not merely decorative—they define the **scene's spatial logic** and **viewer orientation**. Altering them would break the structural integrity of the original composition.
+
+**Functional/logical association elements:**  
+- The **waterfall-to-river connection** is essential: water must still flow from the fall into the river, maintaining logical continuity. Even if animated, this causal relationship must be preserved.
+- The **tree-vine network** must retain its **interwoven structure**—vines must still appear to grow from the tree and extend across space, even if they become light sculptures.
+
+**Non-modified element deduction:**  
+After excluding allowed changes (materials, textures, lighting), what remains?
+- The **presence of purple flowers** on the left tree—specific location and cluster form
+- The **rocky riverbed** with visible stones and bends
+- The **distant secondary waterfalls** on the right cliff face
+- The **canopy framing** at the top of the image, allowing light to stream through
+
+These details, while minor, contribute to **visual authenticity** and **scene specificity**. Their removal would reduce fidelity to the original.
+
+**Preservation Targets List:**  
+- The central waterfall’s position, height, and downward trajectory  
+- The twisted tree on the left with its diagonal branching and floral clusters  
+- The river’s path from foreground to waterfall base  
+- The background mountain silhouette and layering  
+- The presence of purple flowers on the left tree  
+- The rocky riverbed with visible stones  
+- The two secondary waterfalls on the right cliff  
+- The canopy overhead with light streaming through gaps  
+- The overall spatial hierarchy: foreground → midground (waterfall) → background (mountains)  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The central waterfall is the dominant vertical feature and core identity of the scene. Its position, height, and downward flow define the composition. Even if transformed into a holographic projection, its spatial placement and direction must remain unchanged to preserve scene recognition. This is a key structural and visual anchor, so loss would make the scene unrecognizable.
+    Question: Is the central waterfall positioned vertically in the middle of the image, descending from the upper cliff to the river below?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The twisted tree on the left is a distinctive morphological feature—its diagonal sweep, gnarled trunk, and flower clusters create a unique silhouette. This tree serves as a visual landmark and must retain its shape and position to maintain consistency with the original. Changing its form would disrupt the scene’s balance and identity.
+    Question: Is there a large, curved tree on the left side of the image with a diagonal branch extending upward and bearing clusters of small purple flowers?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: The river flows from the bottom of the image toward the base of the waterfall, forming a continuous path. This directional flow is essential for spatial logic and narrative continuity. Even if rendered digitally, the river must follow the same course to maintain environmental coherence.
+    Question: Does the river originate in the foreground and curve toward the base of the central waterfall?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The rocky riverbed with visible stones contributes to the naturalistic detail of the scene. While materials may change, the presence and arrangement of rocks along the riverbank help ground the composition. Their absence would remove a key textural element tied to the original.
+    Question: Are there visible rocks scattered along the riverbed in the foreground and midground?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The two secondary waterfalls on the right cliff are part of the background depth structure. They provide scale and reinforce the sense of a vast landscape. Their presence and relative position to the main waterfall are important for spatial context and must be retained.
+    Question: Are there two smaller waterfalls visible on the right-hand cliff face, behind the main waterfall?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The canopy overhead with light filtering through creates a dappled lighting effect and frames the scene. This top-down light structure is a key atmospheric feature. Even in a holographic version, the light entry points and canopy shape must align with the original to preserve the mood and perspective.
+    Question: Is there a dense canopy at the top of the image with sunlight streaming through gaps, creating bright patches on the foliage?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q7: 
+    Thinking process: The purple flowers on the left tree are a specific, localized detail that adds color contrast and botanical accuracy. Their retention ensures fidelity to the original flora and prevents oversimplification of the ecosystem depicted.
+    Question: Are there small purple flowers growing on the left side of the twisted tree, near the base of its branches?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q8: 
+    Thinking process: The layered mountain range in the background establishes depth and scale. While stylized, the silhouette and gradient fade into the distance must remain to preserve the landscape’s grandeur and spatial logic.
+    Question: Are there multiple mountain ridges receding into the background, fading into a hazy blue sky?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}

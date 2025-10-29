@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_99",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the soccer player depicted as a charming chibi-style 3D figure?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the soccer player is rendered with exaggerated proportions typical of chibi art style—such as a large head relative to the body, simplified facial features, and stylized limbs. The character has a cartoonish, rounded appearance with smooth textures and minimal detail on the face, which aligns with common chibi design principles. These visual cues, combined with the 3D rendering evident in lighting and shading, confirm that the figure is indeed a chibi-style 3D representation. This contrasts with realistic human proportions seen in standard sports imagery.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the chibi character posed mid-kick, with the leg extended towards the ball?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The chibi character in Image B is captured in a dynamic pose where one leg is fully extended backward, while the other is planted forward, suggesting motion consistent with a kicking action. The positioning of the body, arms out for balance, and the trajectory of the soccer ball near the goal indicate that the kick is in progress. The leg closest to the ball appears to be in the follow-through phase, implying it was used to strike the ball. This posture is typical of a powerful shot in soccer, and the animation-like quality of the figure supports the idea of a mid-kick moment.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Are the soccer field, stadium, and cheering crowd kept realistic?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "While the foreground character is stylized, the background elements—including the soccer field, stadium structure, and crowd—are rendered with high realism. The grass shows detailed texture and lighting effects consistent with real-world surfaces. The stadium architecture includes accurate lighting fixtures, seating tiers, and structural details. The crowd, though blurred, displays vibrant colors and density that mimic a live match atmosphere. These elements suggest that despite the cartoonish character, the environment maintains a realistic aesthetic, likely to provide context and immersion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the edited image maintain the vibrant energy of the match with realistic lighting and colors?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The lighting in Image B is bright and natural, simulating daylight with clear shadows cast by the player and goalpost, indicating a strong light source from above. The colors are vivid—the red jersey, green pitch, and colorful crowd all contribute to a lively and energetic scene. The contrast between the bright sky and the illuminated stadium enhances the sense of a daytime match. Even though the character is stylized, the overall composition uses realistic lighting and color grading to preserve the excitement and dynamism typical of a live soccer game.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the soccer ball positioned correctly, appearing as if it is about to be struck by the chibi character?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The soccer ball is located just in front of the chibi character’s extended foot, at a height and distance consistent with a mid-air kick. Given the character's pose—leg swung back and forward momentum implied—the ball appears to be in the path of the kick. In real soccer, such a position would suggest either an imminent impact or a recent strike. However, since the character's foot is behind the ball and not making contact, the ball seems to be moving away from the player rather than being struck. Therefore, the positioning suggests the ball has already been kicked, not that it is about to be struck.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.8
+}

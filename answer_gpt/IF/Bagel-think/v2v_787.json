@@ -1,0 +1,84 @@
+{
+  "filename": "v2v_787",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the character retain the original facial details and pose from the original image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the character has a stylized form, with significant modifications to the pose and proportions to resemble chibi art style. The facial details are deliberately obscured or altered to suit this style. Based on the visual differences in the edited image, especially the character's simplified and exaggerated features, the retention of original facial details is unlikely. Hence, the pose also differs as it aligns with the chibi style.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Does the character have chibi-like long-legged proportions?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B displays a character with typical chibi proportions, featuring a larger head and shorter legs. Chibi proportions are known for exaggerating certain features like the head and minimizing the length of the legs rather than elongating them.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the character wear chic designer apparel, glasses, a tablet or sketchbook, and fashionable footwear?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B depicts the character in clothing similar to Image A, retaining the burnt orange top and green bottoms. However, the character in the chibi form has added accessories like a tablet or sketchbook, but not glasses. The footwear is more basic than what would be considered 'fashionable footwear.' Thus, while the character is shown with chic apparel plus some accessories, it lacks glasses and overly stylish footwear.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the outfit and accessories incorporate fashion-forward elements that coordinate with the green and burnt orange hues?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the outfit maintains the green and burnt orange hues seen in the original image. The coordinated fashion-forward approach includes matching accessories like the tablet cover, a jacket, and a stylish bag mirroring these hues, aligning with trendy and coordinated aesthetics.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the background a solid color that complements the character's color scheme, avoiding gradients or patterns?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a solid beige background without any gradients or patterns, which complements the character's color scheme of burnt orange and green effectively.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the layout have an aspect ratio of 9:16, with \"OOTD\" text at the top, the full-body chibi character on the left, and a breakdown of the outfit and accessories on the right?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B's layout is composed of the full-body chibi character positioned on the left, alongside 'OOTD' text at the top. The breakdown of fashion elements like the outfit and accessories is displayed to the right. While the layout description captures the organization of elements, the aspect ratio determination strictly by visual cues alone is not precise without technical tools. Nevertheless, it fits typical portrait proportions found on digital platforms.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.5
+}

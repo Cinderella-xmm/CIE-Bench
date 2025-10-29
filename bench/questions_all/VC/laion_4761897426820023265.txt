@@ -1,0 +1,123 @@
+**Step 1 – Analyze Editing Instructions and Determine Allowed Changes**
+
+**Description of reference image:**  
+The subject is the Great Wall of China, specifically a section winding across rugged, forested mountain ridges under a clear blue sky with scattered white clouds. The wall is constructed of gray stone bricks with crenellated parapets and watchtowers visible at intervals. It snakes through the terrain in a sinuous path, following the contours of the mountains. In the foreground, several tourists are walking along the wall’s pathway, some ascending steps, others standing and observing the view. The surrounding landscape features rolling green hills covered in dense vegetation with hints of autumnal colors—yellow, orange, and red foliage interspersed among the green. The lighting is bright daylight, casting sharp shadows and enhancing the texture of the stone and terrain. A large rock formation is visible near the right side of the wall, partially embedded in the structure.
+
+Thinking process:  
+The editing instruction explicitly transforms the scene into a **miniature stylized 3D model encased in a snow globe**, with **swirling snow effects**, **tiny ceramic birds in flight**, and **a dark wooden base engraved with "Great Wall Memories"**. This indicates that:
+
+- The **form and scale** of the subject (the Great Wall) must be reduced to **miniature size**.
+- The **environment** (mountains, sky, vegetation) must be **enclosed within a transparent sphere (snow globe)**.
+- The **atmosphere** changes from natural daylight to **artificially snowy**, with **snowfall effect** and **ceramic birds** added.
+- The **positioning** shifts from an open outdoor landscape to being **contained within a snow globe on a wooden base**.
+- The **figures** (tourists) are described as **tiny, detailed figures**, suggesting their **size and proportion** change but not necessarily their **presence or activity**.
+- The **autumn foliage** is explicitly mentioned as a feature to retain, so **color palette of trees** should remain **bright autumn tones**.
+- The **texture and structure** of the wall and mountains may be stylized but must still reflect **realistic architectural and topographical details**.
+
+Allowed Changes List:  
+- The overall scale and form of the Great Wall (now miniature).  
+- The environment (now enclosed in a snow globe).  
+- The sky (replaced by swirling snow inside the globe).  
+- The lighting (shifted from natural sunlight to diffused indoor light).  
+- The addition of ceramic birds in flight.  
+- The inclusion of a dark wooden base with engraving.  
+- The presence of artificial snowfall effect.  
+- The transformation of the scene into a 3D model style.
+
+---
+
+**Step 2 – Determine Elements That Should Remain Unchanged**
+
+Thinking process:  
+Core recognition elements:  
+- The **iconic shape and structure of the Great Wall**—its zigzagging path across mountain ridges—is essential for identification. Even in miniature form, its **zigzag trajectory**, **stone construction**, **watchtowers**, and **parapet design** must be preserved to maintain identity.  
+- The **distinctive architecture** of the wall—brickwork, battlements, and stairways—must remain recognizable despite stylization.  
+- The **topography of the mountains**—their layered, undulating forms—must be retained in simplified form to preserve geographic authenticity.  
+- The **presence of tourists** on the wall is part of the original scene and contributes to narrative context; their **placement along the walkway** and **activity (walking, standing)** should be maintained even if scaled down.  
+
+Functional/logical association elements:  
+- The **spatial relationship between the wall and the mountains** must be preserved: the wall must still appear to follow the ridge lines, not float or detach from the terrain.  
+- The **relative positioning of people** on the wall—some ascending stairs, others pausing—should be logically consistent with the path and slope.  
+
+Non-modified element deduction:  
+- The **autumn foliage** is explicitly required in the instruction ("adorned by bright autumn foliage"), so the **coloration of trees** (yellow, orange, red) must be retained.  
+- The **rock formation** near the wall is a prominent visual anchor; although it may be stylized, its **presence and position relative to the wall** should be preserved.  
+- The **watchtower structures** are key architectural features and must remain identifiable.  
+- The **pathway and stairs** of the wall must still show steps and walkable surfaces to reflect function.  
+
+Preservation Targets List:  
+- The **zigzagging path of the Great Wall across mountain ridges**.  
+- The **stone brick construction and crenellated parapets** of the wall.  
+- The **presence of watchtowers at intervals**.  
+- The **autumn-colored foliage on the surrounding trees**.  
+- The **rock formation adjacent to the wall**.  
+- The **group of tourists walking along the wall**, including their positions (ascending, standing).  
+- The **staircase structure leading up the wall**.  
+- The **layered mountain ranges in the background**.  
+
+---
+
+**Step 3 – Generate Yes/No Questions Based on Key Visual Elements**
+
+{
+    Q1: 
+    Thinking process: The zigzagging path of the Great Wall across mountain ridges is its most iconic spatial feature, defining its identity and distinguishing it from other fortifications. If this serpentine route is lost or flattened, the structure would no longer be recognizable as the Great Wall. Therefore, preserving the winding trajectory is critical for core identification.
+    Question: Is the Great Wall depicted as a continuous, zigzagging structure following the contours of the mountain ridges?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q2: 
+    Thinking process: The stone brick construction with crenellated parapets is a signature architectural detail of the Great Wall. Its texture and pattern are essential for visual authenticity. Altering this would make the structure unrecognizable as a historical Chinese fortress.
+    Question: Are the walls constructed with visible gray stone bricks and topped with crenellated battlements?
+    Choices: Yes, No
+    A: Yes
+    Weight: 3
+}
+
+{
+    Q3: 
+    Thinking process: Watchtowers are functional and symbolic elements of the Great Wall. Their presence at intervals reinforces the historical and defensive purpose of the structure. Removing them would compromise both structural accuracy and narrative context.
+    Question: Are there watchtowers visible at regular intervals along the wall?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q4: 
+    Thinking process: The autumn foliage is explicitly required in the editing instruction. The presence of yellow, orange, and red leaves among green vegetation is a key seasonal detail that adds narrative charm and visual richness. Losing this would contradict the specified aesthetic.
+    Question: Do the trees surrounding the wall display bright autumn colors, including yellow, orange, and red foliage?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q5: 
+    Thinking process: The large rock formation near the wall serves as a distinctive landmark and provides depth to the scene. Its position relative to the wall is visually significant and helps ground the composition. Removing it would alter the spatial realism of the setting.
+    Question: Is there a large, rounded rock formation embedded near the right side of the wall?
+    Choices: Yes, No
+    A: Yes
+    Weight: 2
+}
+
+{
+    Q6: 
+    Thinking process: The group of tourists walking along the wall adds human scale and narrative context. Their presence and placement (some on stairs, others standing) contribute to the scene's liveliness and realism. Even in miniature form, their positioning must reflect the original layout.
+    Question: Are multiple small figures visible walking along the wall, with some ascending stairs and others standing?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}
+
+{
+    Q7: 
+    Thinking process: The staircase structure is a functional element that defines how people traverse the wall. Its visibility ensures the wall remains accessible and realistic. Losing the steps would make the wall appear flat and unrealistic.
+    Question: Are there visible stone steps leading upward along the wall?
+    Choices: Yes, No
+    A: Yes
+    Weight: 1
+}

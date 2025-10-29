@@ -1,0 +1,97 @@
+{
+  "filename": "laion_-6071318278954354621",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the edited image retain the original woman’s facial features, including the shape of her eyes, nose, mouth, and jawline?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the woman's facial features are obscured, preventing a comparison of specific characteristics such as the shape of eyes, nose, mouth, and jawline. Therefore, the features are not retained visibly.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the original woman’s skin tone preserved in the edited image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The visible parts of the woman's skin tone, such as her hands, are consistent between the original and edited images. This suggests that the skin tone has likely been preserved in the edited image.",
+      "weight": 3,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the edited image preserve the walking posture with the left leg forward and the right arm bent?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the woman is standing still and holding a fan, showcasing a completely different posture compared to the walking posture with the left leg forward and right arm bent in the original image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Are the hand positions preserved, with the right hand extended forward and the left hand near the hip?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In the edited image, the woman's hand positions have changed significantly. The right hand is holding a fan, and the left hand is positioned in front of her body, which differs from the extended forward and near the hip positions in the original image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the woman continue to look directly at the camera with the same gaze direction?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The woman's gaze direction in the edited image is not directly at the camera. Instead, the focus is on maintaining the traditional attire pose within an architectural setting.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q6",
+      "question": "Are the body shape and proportions of the woman preserved, including her slender frame and leg length?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "While the edited image presents the woman in historical attire, the general slenderness and proportions of her body appear to be similar to the original image, albeit obscured by the clothing style.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the original volume and curl pattern of the woman’s hair preserved, even if partially obscured or styled differently?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The edited image maintains the original volume and curl pattern of the woman's hair, evident in its thickness and style. Despite being integrated into a historical context, the hair characteristics appear preserved.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.35714285714285715
+}

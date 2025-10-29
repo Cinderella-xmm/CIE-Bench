@@ -1,0 +1,71 @@
+{
+  "filename": "i2i_0101",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Has the text \"flyaway\" been added to the image?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, there is visually perceivable text on the central drawer of the cabinet that reads 'flyaway'. This addition can be confirmed by the presence of the text, which is an alteration from a plain surface typical of such cabinets. World knowledge about text being a distinct element should be utilized to discern its addition.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the text “flyaway” written in a handwritten font?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The characteristics of the 'flyaway' text in Image B display the typical features of a handwritten font: cursive style, connected letters, and varying thickness in strokes, often associated with handwriting. World knowledge about different font styles assists in this classification.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the text \"flyaway\" located directly below the painting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text 'flyaway' in Image B is positioned on the drawer surface of the cabinet, which is beneath the painting but not directly below it, as it is centralized on the furniture. Visual reasoning based on positioning guides the answer since the text is on furniture and paintings are generally mounted above furniture.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Does the text \"flyaway\" complement the scene and contribute to a romantic postcard-style appearance?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "The text 'flyaway' on Image B, with its handwritten font style, evokes a sense of individual touch and warmth, which is often associated with romantic postcards. The surrounding decor and nature-themed painting enhance this aesthetic. World knowledge about design and visual storytelling informs this conclusion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q5",
+      "question": "Are there any additional elements or changes apart from the handwritten text “flyaway” below the painting?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No\n```",
+      "explanation": "In Image B, the only discernible modification is the addition of the 'flyaway' text on the cabinet. No other alterations or new elements, such as changes in decor, lighting, or painting, are present compared to Image A. Visual scrutiny confirms the sole addition of the text.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.6
+}

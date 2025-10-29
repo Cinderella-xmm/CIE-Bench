@@ -1,0 +1,71 @@
+{
+  "filename": "v2v_851",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the image rendered in monochrome (grayscale)?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Analyzing Image B, the color scheme seems to be devoid of any hues, relying on tones of gray and black and white contrast to differentiate elements, indicating it is rendered in monochrome. There is no presence of colors which would suggest a grayscale conversion.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q2",
+      "question": "Are the event details written in rustic, slightly imperfect typography?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the typography used for the event details appears to be intentionally irregular and manually styled to give an artisanal feel which is characteristic of rustic, slightly imperfect typography.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the advertisement include the event name \"Riders & Reins Expo 2024,\" location \"Evergreen Equestrian Center, Olympia, WA,\" and date/time \"Saturday, September 14, 2024, from 10:00 AM to 6:00 PM\"?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B contains text resembling the event name, location, and date/time, however, upon inspection, the details provided do not match exactly with the specified criteria. The text is distorted and does not convey the exact information, indicating the content does not include those specific details as outlined.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is there visible space allocated for listing ticket prices and contact details?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B has space filled with cryptic text that could potentially be interpreted as placeholders for ticket prices and contact details, given its formatting. However, these elements are not clearly identifiable due to the distortion of text, thus not evidently visible as spaces meant for specific items like ticket prices and contacts.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the advertisement formatted in standard letter-sized portrait orientation?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Based on the aspect ratio and layout in Image B, which fits conventional design templates for print advertising, it seems plausible that the image adheres to a portrait orientation typical of letter-sized formats, which aligns with common document standards.",
+      "weight": 1,
+      "model_answer": "Yes",
+      "is_correct": true
+    }
+  ],
+  "final_score": 0.6
+}

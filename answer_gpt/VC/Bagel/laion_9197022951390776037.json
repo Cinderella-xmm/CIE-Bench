@@ -1,0 +1,84 @@
+{
+  "filename": "laion_9197022951390776037",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Is the word \"SCARECROW\" clearly visible and legible on the label?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the bottle's label is depicted without any alphanumeric text, as the face animation and vine artwork dominate the label's space. The focus is on the animated features rather than textual content, unlike typical wine bottle labels. Therefore, based on the visual cues, the word 'SCARECROW' is not visible or legible compared to Image A.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q2",
+      "question": "Is the year \"2017\" visible somewhere on the bottle or label?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the label features an animated face with no numeric text visible, suggesting only a creative or illustrative design without specific year details, unlike traditional wine labels which usually have vintage years displayed. Thus, the year '2017' is not visible in the edited image.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q3",
+      "question": "Does the icon at the top of the label, now transformed into a face, retain the shape of a straw hat and rustic features consistent with a scarecrow?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B features a fully animated bottle with a face and vine arms instead of a scarecrow icon. The icon from Image A has been replaced by a cute face with eyes and a smile, entirely different from any scarecrow design or straw hat elements. Therefore, the original icon elements are not retained.",
+      "weight": 3,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the label still a rectangular shape positioned centrally on the front of the bottle?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "Image B shows a simplified and playful animated version of the wine bottle where the label appears to be blank and not distinctly rectangular, merging into the animated face design. Unlike Image A, which presents a clear, rectangular label, Image B integrates its label into the overall animated artwork. Therefore, the traditional rectangular label is not maintained.",
+      "weight": 2,
+      "model_answer": "No",
+      "is_correct": false
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the bottle oriented vertically, standing upright?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, despite the animated design, the bottle remains oriented vertically, with the cap at the top and the base at the bottom, typical of an upright wine bottle. This is consistent with the arrangement seen in a standard upright position.",
+      "weight": 2,
+      "model_answer": "Yes",
+      "is_correct": true
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is the label positioned exactly in the center of the bottle’s height?",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "explanation": "In Image B, the artistic integration and lack of distinct boundary make the label appear central, although the focus is on the face rather than a traditional label. While the expressive features are positioned around the central area, the concept of a label per se is not adhered to in the usual sense as seen in Image A. Considering only positioning, it could suggest central placement, but without a recognizable label format, precision is less certain.",
+      "weight": 1,
+      "model_answer": "No",
+      "is_correct": false
+    }
+  ],
+  "final_score": 0.15384615384615385
+}
